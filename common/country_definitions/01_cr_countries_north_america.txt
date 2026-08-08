@@ -87,7 +87,7 @@ CSW = {
 	tier = principality
 	
 	capital = STATE_MISSISSIPPI
-	cultures = { caddoan }
+	cultures = { muskogean }
 }	
 
 #CTF = {

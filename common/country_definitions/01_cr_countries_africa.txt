@@ -21,17 +21,6 @@ LZN = {
 	capital = STATE_LUZON
 	is_named_from_capital = yes
 }
-CSW = {
-	color = { 46 46 112 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	capital = STATE_MISSISSIPPI
-	cultures = { caddoan }
-}
-
 AMZ2 = {
 	color = { 42 102 64 }
 
@@ -43,16 +32,6 @@ AMZ2 = {
 	capital = STATE_AMAZONAS
 }
 
-DYK = {
-	color = { 191 187 147 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { dayak }
-	capital = STATE_EAST_BORNEO
-}
 POS = {
 	color = rgb { 64 43 72 }
 	
@@ -73,17 +52,6 @@ CPL = {
 
 	cultures = { polish }
 	capital = STATE_GREATER_POLAND
-}
-
-KTN = {
-	color = { 153 197 29 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	capital = STATE_BRITISH_COLUMBIA
-	cultures = { salish }
 }
 
 NFH = {

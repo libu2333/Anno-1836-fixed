@@ -393,15 +393,3 @@ JDG = {
 
 	capital = STATE_EAST_BENGAL
 }
-
-KQR = {
-	color = { 239 150 134 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { bengali }
-
-	capital = STATE_EAST_BENGAL
-}

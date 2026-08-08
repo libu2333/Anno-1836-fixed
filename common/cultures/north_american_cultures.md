@@ -1,3 +1,8 @@
+## 这是一个详细列表，格式如下：
+
+# 文化传承
+文化{部落, 部落联盟(别名) [参与联盟的部落]}
+
 # Eastern Woodlands 东部林地
 Algonquian{Anishinaabe(Three Fires) [Ojibwe, Odawa, Potawatomi], Menominee, Shawnee, Miami, Lenape, Illiniwek, Sauk, Meskwaki}
 Haudenosaunee{Mohawk, Oneida, Onondaga, Cayuga, Seneca, Tuscarora}

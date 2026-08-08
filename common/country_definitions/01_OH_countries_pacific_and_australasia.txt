@@ -1,15 +1,4 @@
 ﻿
-SAM = { #Samoa
-	color = { 82 73 89 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { polynesian }
-	capital = STATE_TONGA
-}
-
 CKI = { #Cook Islands
 	color = { 13 7 54 }
 	
@@ -63,17 +52,6 @@ ELL = { #Ellice Islands
 	
 	cultures = { micronesian }
 	capital = STATE_EAST_MICRONESIA
-}
-
-RAP = { #Rapa Nui
-	color = { 63 110 69 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { polynesian }
-	capital = STATE_TAHITI
 }
 
 MGR = { #Mangareva
@@ -141,4 +119,3 @@ CRL = { #Carolines
 	cultures = { polynesian }
 	capital = STATE_WEST_MICRONESIA
 }
-

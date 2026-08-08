@@ -16,18 +16,6 @@ ANR={ #Antakarana
 	capital = STATE_EAST_MADAGASCAR
 }
 
-BAA= { #Boina
-	color = { 66 66 185 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { malagasy }
-	religion = sunni
-	capital = STATE_WEST_MADAGASCAR
-}
-
 BAR= { #Bara
 	color = { 125 75 55 }
 	
@@ -47,18 +35,6 @@ ONI= {
 	tier = principality
 	
 	cultures = { malagasy }
-	capital = STATE_WEST_MADAGASCAR
-}
-
-MAE= { #Menabe/Sakarana
-	color = { 218 94 104 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { malagasy }
-	religion = sunni
 	capital = STATE_WEST_MADAGASCAR
 }
 

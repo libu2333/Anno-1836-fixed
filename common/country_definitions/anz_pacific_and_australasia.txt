@@ -650,7 +650,7 @@ SAM = { # Samoa
 	
 	cultures = { polynesian }
 	religion = protestant
-	capital = STATE_TONGA
+	capital = STATE_SAMOA
 }
 
 RAP = { # Rapa Nui
@@ -661,5 +661,5 @@ RAP = { # Rapa Nui
 	tier = principality
 	
 	cultures = { polynesian }
-	capital = STATE_TAHITI
+	capital = STATE_TUAMOTES
 }

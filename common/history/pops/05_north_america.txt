@@ -263,7 +263,7 @@
 		}
 		region_state:KTN = {	
 			create_pop = {
-				culture = siouan
+				culture = salish
 				size = 1950
 			}
 		}
@@ -425,7 +425,7 @@
 		}
 		region_state:KTN = {
 			create_pop = {
-				culture = siouan #Kutenai, which should be unique culture. Right now an isolated culture
+				culture = salish #Kutenai, which should be unique culture. Right now an isolated culture
 				size = 1250
 			}
 		}
@@ -444,7 +444,7 @@
 				size = 11000
 			}
 			create_pop = {
-				culture = siouan
+				culture = salish
 				size = 4000
 			}
 		}
@@ -1670,7 +1670,7 @@
 		}
 		region_state:KTN = {	
 			create_pop = {
-				culture = siouan
+				culture = salish
 				size = 6541
 			}
 		}

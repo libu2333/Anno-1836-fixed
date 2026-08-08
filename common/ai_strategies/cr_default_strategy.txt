@@ -1,0 +1,24 @@
+TRY_INJECT:ai_strategy_default = {
+    TRY_INJECT:wargoal_maneuvers_fraction = {
+        if = { # French Natural Borders: in addition
+			limit = {
+				has_journal_entry = je_french_natural_borders
+				OR = {
+					has_strategy = ai_strategy_territorial_expansion
+					has_strategy = ai_strategy_restore_natural_borders
+				}
+				scope:enemy_country = {
+					any_scope_state = {
+						OR = {
+							state_region = {
+								is_homeland = cu:french
+							}
+							state_region = s:STATE_BRABANT
+						}
+					}
+				}
+			}
+			add = 0.15
+		}
+    }
+}

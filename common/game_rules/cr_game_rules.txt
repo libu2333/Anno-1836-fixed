@@ -1,0 +1,129 @@
+﻿
+cr_reduce_tags = {
+	default = do_not_reduce_tags
+	
+	do_not_reduce_tags = {
+	}
+
+	do_reduce_tags = {
+	}
+}
+
+enable_historical_subjects = {
+	default = all_historical_subjects
+	
+	all_historical_subjects = {
+	}
+
+	no_historical_subjects = {
+	}
+}
+
+enable_historical_wars = {
+	default = all_historical_wars
+	
+	all_historical_wars = {
+	}
+
+	no_historical_wars = {
+	}
+}
+
+enable_independent_colony = {
+	default = consolidated_colony
+	
+	consolidated_colony = {
+	}
+
+	independent_colony = {
+	}
+}
+
+siberian_map = {
+	default = decentralized_siberia
+
+	all_belong_to_russia = {
+	}
+	
+	decentralized_siberia = {
+	}
+}
+
+canadian_map = {
+	default = decentralized_canada
+
+	all_belong_to_hbc = {
+	}
+	
+	decentralized_canada = {
+	}
+}
+
+tibet_relationship = {
+	default = tibet_puppet
+
+	unite_tibet = {
+	}
+	
+	tibet_puppet = {
+	}
+}
+
+western_china_map = {
+	default = kokand_occupiation
+
+	all_belong_to_qing = {
+	}
+	
+	kokand_occupiation = {
+	}
+}
+
+swi_confederation = {
+	default = single_switzerland
+
+	single_switzerland = {
+	}
+
+	gen_confederation = {
+	}
+}
+
+arg_confederation = {
+	default = single_argentina
+
+	single_argentina = {
+	}
+
+	bur_confederation = {
+	}
+}
+
+tech_equality = {
+	default = not_equal
+	
+	not_equal = {
+	}
+
+	tech_equal = {
+	}
+}
+dec_to_unr = {
+	default = always_dec
+	
+	always_dec = {
+	}
+
+	de_to_unr = {
+	}
+}
+cr_colonization = {
+	default = regular_colonization
+	
+	regular_colonization = {
+	}
+
+	chaos_colonization = {
+	}
+}
+

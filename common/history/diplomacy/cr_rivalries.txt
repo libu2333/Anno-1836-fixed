@@ -1,0 +1,29 @@
+﻿DIPLOMACY = {
+	c:GLD ?= {
+		create_diplomatic_pact = {
+			country = c:OMA
+			type = rivalry
+		}
+	}
+
+	c:BUK ?= {
+		create_diplomatic_pact = {
+			country = c:KOK
+			type = rivalry
+		}
+	}
+
+	c:KOK ?= {
+		create_diplomatic_pact = {
+			country = c:BUK
+			type = rivalry
+		}
+	}
+
+	c:USA ?= {
+		create_diplomatic_pact = {	#Only lifted 1862
+			country = c:HAI
+			type = embargo
+		}
+	}
+}

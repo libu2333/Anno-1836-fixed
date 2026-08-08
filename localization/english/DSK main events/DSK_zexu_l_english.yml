@@ -1,0 +1,393 @@
+﻿l_english:
+modifier_dcyq:0 "Insight into everything"
+
+je_dsk_zexu_main: "Survival in the cracks"
+je_dsk_zexu_main_goal: "The progress bar for victory in the war has been filled"
+je_dsk_zexu_main_reason: "[ROOT.GetCountry.GetRuler.GetFullName] has traveled to this era and possessed the body of a 17-year-old nobleman in [SCOPE.sCountry('tur_scope').GetName]. At this time, [SCOPE.GetRootScope.GetCountry.GetName] is merely a puppet state of [SCOPE.sCountry('tur_scope').GetName], as the emperor who saved the Ottoman Empire has been placed on the front line to resist the invasion of the Russian Empire. [SCOPE.sCountry('tur_scope').GetName] promises that as long as [SCOPE.GetRootScope.GetCountry.GetName] fully assists in the war and achieves..." Victory would gradually grant more autonomy, and the duchy might even gain independence. [ROOT.GetCountry.GetRuler.GetFullName] was well aware of [SCOPE.GetRootScope.GetCountry.GetName]'s difficult situation, but he did not lose heart. He actively reorganized [SCOPE.GetRootScope.GetCountry.GetName]'s military forces, trained soldiers, stockpiled supplies, and closely monitored the movements of Tsarist Russia. Despite limited resources and frequent constraints from the Ottoman Empire, [ROOT.GetCountry.GetRuler.GetFullName], with his outstanding leadership and unwavering faith, strived to survive in the cracks and devise a way out for the duchy's future. "War has broken out between the Ottoman Turks and the Russian Empire."
+je_independent_tt: "Currently, [SCOPE.GetRootScope.GetCountry.GetName] is weak and needs to bide its time."
+je_war_with_tur_tt: "War has broken out with the former colonial power [SCOPE.sCountry('tur_scope').GetName]."
+
+zexu_revolt: "Zexu's foresight."
+
+dsk_zexu_war_button: "Military aid from Turkey."
+
+dsk_zexu_war_button_desc: "We need the aid of our colonial power."
+
+supporting_zexu_Nation_modifier: "Aid from Turkey."
+
+dsk_support_war_button: "Current war support."
+
+dsk_support_war_button_desc: "The people of the whole country support us in this war, how can we easily admit defeat?"
+
+dsk_support_economy_button: "Economic aid from Turkey"
+dsk_support_economy_button_desc: "We should rely on economic aid from [SCOPE.sCountry('tur_scope').GetName] to get through difficult times."
+sick_man_of_east_europe: "Sick man of Eastern Europe"
+sick_man_of_east_europe_tt: "We will be ridiculed by Western Europe as the sick man of Eastern Europe and completely driven out of the land of #yellow Danube#!"
+
+dsk_zexu.1.t: "Privy autonomy"
+dsk_zexu.1.f: "Currently, [SCOPE.GetRootScope.GetCountry.GetName] is still under the control of [SCOPE.sCountry('tur_scope').GetName]. To gain more power, we must defeat Tsarist Russia and win the Crimean War."
+dsk_zexu.1.d: "Congratulations! In this new battle, we have once again gained the trust of [SCOPE.sCountry('tur_scope').GetName]."
+
+dsk_zexu.1.a: "This is a great victory for [SCOPE.GetRootScope.GetCountry.GetName]."
+
+dsk_zexu.2.t: "The Duchy has become a Protectorate."
+
+dsk_zexu.2.f: "What a wonderful battle! I, [ROOT.GetCountry.GetRuler.GetFullName], as a transmigrator, believe that the fate of [SCOPE.GetRootScope.GetCountry.GetName] will be even brighter."
+
+dsk_zexu.2.d: "In this new battle, [SCOPE.GetRootScope.GetCountry.GetName] has once again proven its strength."
+
+dsk_zexu.2.a: "Long live the Earl of [ROOT.GetCountry.GetRuler.GetFullName]!"
+
+dsk_zexu.3.t: "A great victory in war!"
+
+dsk_zexu.3.f: "We have gained invaluable experience and national cohesion time and again in battle."
+dsk_zexu.3.d: "[SCOPE.GetRootScope.GetCountry.GetName] Military training and war have further enhanced national cohesion."
+dsk_zexu.3.a: "Our desire for independence is growing stronger."
+
+dsk_zexu.4.t: "The Lion of Dobroga"
+dsk_zexu.4.f: "Our prestige has gained recognition and trust from more countries as war and overall national strength have increased, but the next problem is looming: the Romanian question."
+dsk_zexu.4.d: "Victories in battle have earned us recognition from neighboring countries."
+dsk_zexu.4.a: "International recognition has greatly enhanced our prestige."
+lion_of_east_europe_modifier: "The Lion of Dobroga"
+lion_of_east_europe_modifier_desc: "The transmigrator's precognitive ability"
+
+je_gbr_zexu_union: "Anglo-Chinese Union"
+je_gbr_zexu_union_reason: "Anglo-Chinese Union\n\n#yellow Angelo-Chinese Union#! will grow monthly through the following relationships#v#!:\n• Maintain a relationship of #green friendly#! or higher with #yellow contracting parties#! (#green +2#!).\n• Enter into a [concept_alliance] or #yellow alliance of interests#! #bold treaty#! with #yellow contracting parties#! (#green +2#!)"
+
+je_gbr_zexu_union_tt: "The friendship between [SCOPE.sCountry('gbr_scope').GetName] and [SCOPE.GetRootScope.GetCountry.GetName] can cross mountains and seas!"
+
+gbr_zexu_union_stronger_button: "Economic aid from the United Kingdom"
+gbr_zexu_union_stronger_button_desc: "The British pound is so tempting, I have to taste it."
+gbr_zexu_union_stronger_button_1: "Military aid from Britain"
+gbr_zexu_union_stronger_button_1_desc: "Military aid from Britain is so tempting, I have to taste it."
+supporting_zexu_Nation_modifier_1: "Military aid from Britain"
+gbr_zexu_union_stronger_button_2: "Military encouragement"
+gbr_zexu_union_stronger_button_2_desc: "Our allies are still fighting, we will never surrender"
+gbr_zexu_union_stronger_button_3: "British-approved bilateral trade"
+gbr_zexu_union_stronger_button_3_desc: "Including Britain in the Most Favored Nation list"
+gbr_zexu_union_stronger_modifier: "British-approved bilateral trade"
+
+enough_gbr_zexu_union_var: "#v Having enough points! #!
+
+je_dsk_zexu_conquer_mol: "The Romanian Question"
+
+je_dsk_zexu_conquer_mol_reason: "According to our intelligence agencies, due to Romania's resistance to Ottoman rule, Moldavia and Wallachia are preparing to collude with the Russian Empire to launch a rebellion."
+
+je_dsk_zexu_conquer_mol_goal: "The Romanian principalities are preparing to launch an uprising."
+
+je_dsk_zexu_conquer_mol_tt: "The progress of the Romanian uprising is still under control."
+
+je_dsk_zexu_conquer_mol_1_tt: "The progress of the Romanian uprising has exceeded our expectations."
+
+je_dsk_zexu_conquer_mol_2_tt: "The Romanian rebels are about to rise up; we must be prepared!"
+
+dsk_zexu.5.t: "An Encounter with the Queen of England"
+
+dsk_zexu.5.f: "One sunny day in June 1836, [ROOT.GetCountry.GetRuler.GetFullName] decided to visit England to learn more about its culture and technology. There he met the 16-year-old daughter of the King of England, [SCOPE.sCharacter('gbr_queen_scope').GetFirstName]. After their conversation, the Queen's daughter greatly admired him." dsk_zexu.5.a: "Agrees to the Queen's marriage proposal"
+dsk_zexu.5.b: "Disagrees with the Queen's marriage proposal"
+
+
+modifier_dcyq:0 "Insight into everything"
+
+je_dsk_zexu_main: "Survival in the cracks"
+je_dsk_zexu_main_goal: "The progress bar for victory in the war has been filled"
+je_dsk_zexu_main_reason: "[ROOT.GetCountry.GetRuler.GetFullName] has traveled to this era and possessed the body of a 17-year-old nobleman in [SCOPE.sCountry('tur_scope').GetName]. At this time, [SCOPE.GetRootScope.GetCountry.GetName] is merely a puppet state of [SCOPE.sCountry('tur_scope').GetName], as the emperor who saved the Ottoman Empire has been placed on the front line to resist the invasion of the Russian Empire. [SCOPE.sCountry('tur_scope').GetName] promises that as long as [SCOPE.GetRootScope.GetCountry.GetName] fully assists in the war and achieves..." Victory would gradually grant more autonomy, and the duchy might even gain independence. [ROOT.GetCountry.GetRuler.GetFullName] was well aware of [SCOPE.GetRootScope.GetCountry.GetName]'s difficult situation, but he did not lose heart. He actively reorganized [SCOPE.GetRootScope.GetCountry.GetName]'s military forces, trained soldiers, stockpiled supplies, and closely monitored the movements of Tsarist Russia. Despite limited resources and frequent constraints from the Ottoman Empire, [ROOT.GetCountry.GetRuler.GetFullName], with his outstanding leadership and unwavering faith, strived to survive in the cracks and devise a way out for the duchy's future. "War has broken out between the Ottoman Turks and the Russian Empire."
+je_independent_tt: "Currently, [SCOPE.GetRootScope.GetCountry.GetName] is weak and needs to bide its time."
+je_war_with_tur_tt: "War has broken out with the former colonial power [SCOPE.sCountry('tur_scope').GetName]."
+
+zexu_revolt: "Zexu's foresight."
+
+dsk_zexu_war_button: "Military aid from Turkey."
+
+dsk_zexu_war_button_desc: "We need the aid of our colonial power."
+
+supporting_zexu_Nation_modifier: "Aid from Turkey."
+
+dsk_support_war_button: "Current war support."
+
+dsk_support_war_button_desc: "The people of the whole country support us in this war, how can we easily admit defeat?"
+
+dsk_support_economy_button: "Economic aid from Turkey"
+dsk_support_economy_button_desc: "We should rely on economic aid from [SCOPE.sCountry('tur_scope').GetName] to get through difficult times."
+sick_man_of_east_europe: "Sick man of Eastern Europe"
+sick_man_of_east_europe_tt: "We will be ridiculed by Western Europe as the sick man of Eastern Europe and completely driven out of the land of #yellow Danube#!"
+
+dsk_zexu.1.t: "Privy autonomy"
+dsk_zexu.1.f: "Currently, [SCOPE.GetRootScope.GetCountry.GetName] is still under the control of [SCOPE.sCountry('tur_scope').GetName]. To gain more power, we must defeat Tsarist Russia and win the Crimean War."
+dsk_zexu.1.d: "Congratulations! In this new battle, we have once again gained the trust of [SCOPE.sCountry('tur_scope').GetName]."
+
+dsk_zexu.1.a: "This is a great victory for [SCOPE.GetRootScope.GetCountry.GetName]."
+
+dsk_zexu.2.t: "The Duchy has become a Protectorate."
+
+dsk_zexu.2.f: "What a wonderful battle! I, [ROOT.GetCountry.GetRuler.GetFullName], as a transmigrator, believe that the fate of [SCOPE.GetRootScope.GetCountry.GetName] will be even brighter."
+
+dsk_zexu.2.d: "In this new battle, [SCOPE.GetRootScope.GetCountry.GetName] has once again proven its strength."
+
+dsk_zexu.2.a: "Long live the Earl of [ROOT.GetCountry.GetRuler.GetFullName]!"
+
+dsk_zexu.3.t: "A great victory in war!"
+
+dsk_zexu.3.f: "We have gained invaluable experience and national cohesion time and again in battle."
+dsk_zexu.3.d: "[SCOPE.GetRootScope.GetCountry.GetName] Military training and war have further enhanced national cohesion."
+dsk_zexu.3.a: "Our desire for independence is growing stronger."
+
+dsk_zexu.4.t: "The Lion of Dobroga"
+dsk_zexu.4.f: "Our prestige has gained recognition and trust from more countries as war and overall national strength have increased, but the next problem is looming: the Romanian question."
+dsk_zexu.4.d: "Victories in battle have earned us recognition from neighboring countries."
+dsk_zexu.4.a: "International recognition has greatly enhanced our prestige."
+lion_of_east_europe_modifier: "The Lion of Dobroga"
+lion_of_east_europe_modifier_desc: "The transmigrator's precognitive ability"
+
+je_gbr_zexu_union: "Anglo-Chinese Union"
+je_gbr_zexu_union_reason: "Anglo-Chinese Union\n\n#yellow Angelo-Chinese Union#! will grow monthly through the following relationships#v#!:\n• Maintain a relationship of #green friendly#! or higher with #yellow contracting parties#! (#green +2#!).\n• Enter into a [concept_alliance] or #yellow alliance of interests#! #bold treaty#! with #yellow contracting parties#! (#green +2#!)"
+
+je_gbr_zexu_union_tt: "The friendship between [SCOPE.sCountry('gbr_scope').GetName] and [SCOPE.GetRootScope.GetCountry.GetName] can cross mountains and seas!"
+
+gbr_zexu_union_stronger_button: "Economic aid from the United Kingdom"
+gbr_zexu_union_stronger_button_desc: "The British pound is so tempting, I have to taste it."
+gbr_zexu_union_stronger_button_1: "Military aid from Britain"
+gbr_zexu_union_stronger_button_1_desc: "Military aid from Britain is so tempting, I have to taste it."
+supporting_zexu_Nation_modifier_1: "Military aid from Britain"
+gbr_zexu_union_stronger_button_2: "Military encouragement"
+gbr_zexu_union_stronger_button_2_desc: "Our allies are still fighting, we will never surrender"
+gbr_zexu_union_stronger_button_3: "British-approved bilateral trade"
+gbr_zexu_union_stronger_button_3_desc: "Including Britain in the Most Favored Nation list"
+gbr_zexu_union_stronger_modifier: "British-approved bilateral trade"
+
+enough_gbr_zexu_union_var: "#v Having enough points! #!
+
+je_dsk_zexu_conquer_mol: "The Romanian Question"
+
+je_dsk_zexu_conquer_mol_reason: "According to our intelligence agencies, due to Romania's resistance to Ottoman rule, Moldavia and Wallachia are preparing to collude with the Russian Empire to launch a rebellion."
+
+je_dsk_zexu_conquer_mol_goal: "The Romanian principalities are preparing to launch an uprising."
+
+je_dsk_zexu_conquer_mol_tt: "The progress of the Romanian uprising is still under control."
+
+je_dsk_zexu_conquer_mol_1_tt: "The progress of the Romanian uprising has exceeded our expectations."
+
+je_dsk_zexu_conquer_mol_2_tt: "The Romanian rebels are about to rise up; we must be prepared!"
+
+dsk_zexu.5.t: "An Encounter with the Queen of England"
+
+dsk_zexu.5.f: "One sunny day in June 1836, [ROOT.GetCountry.GetRuler.GetFullName] decided to visit England to learn more about its culture and technology. There he met the 16-year-old daughter of the King of England, [SCOPE.sCharacter('gbr_queen_scope').GetFirstName]. After their conversation, the Queen's daughter greatly admired him." dsk_zexu.5.a: "Agrees to the Queen's marriage proposal"
+dsk_zexu.5.b: "Disagrees with the Queen's marriage proposal"
+
+lion_of_romania_modifier: "Lion of Romania"
+lion_of_bulgaria_modifier: "Lion of Bulgaria"
+lion_of_ukrainian_modifier: "Lion of Ukraine"
+lion_of_donau_modifier: "Lion of the Danube"
+
+our_queen_has_die_tt: "Our great [SCOPE.sCharacter('gbr_queen_scope').GetFirstName] has completely left us."
+
+complete_zexu_ukr_tt: "All native locations will be appended with #o Zexu#!native"
+
+####0203 new
+dsk_zexu.17.t: "Time Travel Event"
+dsk_zexu.17.d: "Lin Zexu, the protagonist, inexplicably transmigrates to the Victorian era in 1836 and even encounters the Ottoman Emperor. Reborn in Istanbul, he is granted land for rescuing the Ottoman Sultan. Watch how he rises to power in this industrial age!"
+dsk_zexu.17.f: "[ROOT.GetCountry.GetRuler.GetFullName] As a transmigrator, isn't defeating Russia a given?"
+dsk_zexu.17.a: "I will counterattack the mainland!"
+dsk_zexu.17.b: "I will marry a Ukrainian wife!"
+dsk_zexu.19.t: "The Danube dream, territorial expansion!"
+dsk_zexu.19.d: "Taking advantage of the internal strife in [SCOPE.sCountry('aus_want_annex_hun_scope').GetName], the [SCOPE.sCountry('hun_never_die_scope').GetName] Independence Party, [SCOPE.sCountry('aus_want_annex_hun_scope').GetName] launched a war to annex [SCOPE.sCountry('hun_never_die_scope').GetName]."
+dsk_zexu.19.f: "Initially, it was a proposal for national self-determination, until the revolution turned into a war of independence, the ultimate goal of which was to separate Hungary from Austria, overthrow the monarchy, and declare a republic.\nThese radical ideas brought about by the French Revolution were strongly opposed by most monarchies in Europe."
+dsk_zexu.19.a: "The Hungarian region belongs to us."
+dsk_zexu.19.b: "Let's not get involved in this mess."
+
+je_dsk_annex_russia: "Conquest of Russian territory, annexation of Tsarist Russia"
+je_dsk_annex_russia_reason: "After becoming empire, Zesh turned his spearhead of conquest towards the vast Russian Empire."
+annex_whole_russia_button: "Launching a war to annex Tsarist Russia"
+annex_whole_russia_button_desc: "Years of border disputes with Russia finally gave us a reason to launch a war to annex Tsarist Russia."
+
+je_dsk_help_china: "Helping China, the Republic of China is reborn"
+je_dsk_help_china_reason: "After conquering the Russian Empire, the Zexu Empire turned its attention to the distant East. At this time, China was at a crucial stage of revolution, and Lin Zexu deeply understood the importance of the Chinese revolution to the world order. Therefore, he decided to extend a helping hand, sending a military advisory group to China to provide the revolutionaries with professional military guidance and strategic advice. At the same time, the Zexu Empire also provided the Chinese revolutionaries with substantial material aid, including weapons, ammunition, and medical supplies. With the help of the Zexu Empire, the Chinese revolutionaries overcame numerous difficulties and ultimately successfully established the Republic of China. This act of kindness not only enhanced the friendly relations between the Zexu Empire and China but also won widespread international acclaim."
+je_dsk_help_china_goal: "When the progress bar is full, a [concept_revolution] sweeping across [concept_china] will begin."
+
+dsk_zexu.20.t: "Annihilation of Russia"
+
+dsk_zexu.20.d: "Annihilation of Russia"
+
+dsk_zexu.20.f: "The Zexu Empire assembled an elite army, and with its advanced weaponry, superior military command, and tenacious fighting spirit, launched a full-scale offensive against the Russian Empire. The war was exceptionally fierce, with both sides engaging in a desperate struggle across vast territories. However, the Zexu Empire's army, relying on its efficient strategies and tactics and strong logistical support, gradually gained the upper hand. After several years of arduous and protracted warfare, the Zexu Empire finally succeeded in annexing the entire Russian Empire, incorporating its vast territory into its own domain, and further expanding its sphere of influence." dsk_zexu.20.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+lion_of_russian_modifier: "Lion of Russia"
+
+gdp_help_china_button: "Economic aid"
+
+gdp_help_china_button_desc: "Providing economic aid to China will advance log bar #v 5#! points"
+
+military_help_china_button: "Military Aid"
+military_help_china_button_desc: "Provide military aid to China. This action will advance the log entry by #v 5#! points."
+
+je_dsk_annex_Scandinavia: "Nordic Conquest, Dominating the Icefields"
+je_dsk_annex_Scandinavia_reason: "The Zesh Eurasian United States has set its sights on the Nordic region. This land is covered in ice and snow, but possesses abundant fishery resources and a crucial strategic location. The Zesh Empire has formed a special force adapted to polar climate warfare. They travel in specially designed icebreakers and sleds towards Denmark, Norway, Sweden, and Finland. Through a series of skillful diplomatic maneuvers to divide the alliances of these nations, coupled with military strikes, they gradually conquer the Nordic countries, incorporating the Nordic region into the United States' territory and further expanding their influence in Northern Europe."
+
+no_Scandinavia_anymore_tt: "#o Sweden#!, #o Finland#!, #o Norway#!, #o Denmark has been annexed by us! no_russia_anymore_tt: [SCOPE.sCountry('rus_scope').GetName] has been annexed by us!
+
+dsk_zexu.21.t: "The Republic of China was founded"
+
+dsk_zexu.21.d: "The Republic of China was founded"
+
+dsk_zexu.21.f: "With the help of the Zesch Empire, Chinese revolutionaries overcame numerous difficulties and finally successfully established the Republic of China. This benevolent act not only enhanced the friendly relations between the Zesch Empire and China, but also won widespread international acclaim."
+
+dsk_zexu.21.a: "Long live [SCOPE.GetRootScope.GetCountry.GetName]!"
+
+dsk_zexu.22.t: "Conquering Northern Europe"
+
+dsk_zexu.22.d: "Conquering Northern Europe"
+
+dsk_zexu.22.f: "While conquering Northern Europe, the Zexu Empire began a deep integration of Eastern Europe. Building upon the annexation of the Russian Empire, it established a unified Eastern European administrative system, improved local infrastructure, developed education and healthcare, and raised the living standards of its people. Furthermore, it vigorously promoted Zexu culture and values ​​in Eastern Europe, fostering integration among different ethnic groups and ensuring that Eastern Europe became the stable foundation of the Zexu Eurasian Republic, laying a solid foundation for further westward expansion." dsk_zexu.22.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+lion_of_china_modifier: "The Lion of China"
+
+lion_of_Scandinavia_modifier: "The Lion of Scandinavia"
+
+
+je_dsk_annex_germany: "Conquer Germany"
+je_dsk_annex_germany_reason: "To conquer the Low Countries, one cannot bypass conquering Germany."
+
+annex_whole_germany_button: "Conquer Germany"
+annex_whole_germany_button_desc: "Years of border disputes with Germany have finally given us a reason to wage war to annex Germany."
+
+dsk_zexu.23.t: "Conquer Germany"
+dsk_zexu.23.d: "Conquer Germany"
+dsk_zexu.23.f: "To conquer the Low Countries, one cannot bypass conquering Germany."
+dsk_zexu.23.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+lion_of_germany_modifier: "The Lion of Germania"
+
+je_dsk_annex_Low_Countries: "Battle of the Low Countries, Control of the Straits"
+je_dsk_annex_Low_Countries_reason: "The Zesh Empire's army marched south, targeting the Low Countries of the Netherlands, Belgium, and Luxembourg."
+
+no_Low_Countries_anymore_tt: "#o Netherlands#!, #o Belgium#!, #o Luxembourg#! have been annexed by us!"
+
+dsk_zexu.24.t: "Conquer the Low Countries"
+
+dsk_zexu.24.d: "Conquer the Low Countries"
+
+dsk_zexu.24.f: "The Zexu Empire's army marched south, targeting the Low Countries of the Netherlands, Belgium, and Luxembourg. These countries were flat, easily accessible, and controlled vital straits. The Zexu Empire's navy blockaded the straits, while its army launched a land offensive. Utilizing advanced artillery technology and flexible tactics, they swiftly broke through the Low Countries' defenses and conquered them. By occupying the Low Countries, the Zexu Eurasian United States successfully controlled vital straits in Europe, seizing a key hub for maritime trade and military transport." dsk_zexu.24.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+lion_of_Low_Countries_modifier: "Lion of the Germanic Low Countries"
+
+je_dsk_annex_south_Europe: "Conquest of Southern Europe, Cultural Infiltration"
+
+je_dsk_annex_south_Europe_reason: "The conquest of Southern Europe adopted a relatively mild strategy."
+
+je_dsk_annex_south_Europe_goal: "When #o When Germany #! does not exist, the progress bar advances by #v 1#! points per month. When neither #o Germany #! nor #o Austria #! exists, the progress bar advances by #v 2#! points per month.
+
+annex_south_Europe_button: "annexed the Italian states"
+annex_south_Europe_button_desc: "Time's up, welcome Italy to join us"
+
+no_south_Europe_var_3: "The progress bar is full"
+
+no_south_Europe_anymore_tt: "#o Italy #! states have been annexed by us!"
+no_germany_anymore_tt: "#o Germany #! states have been annexed by us!"
+dsk_zexu.25.t: "conquered Southern Europe"
+dsk_zexu.25.d: "conquered Southern Europe"
+dsk_zexu.25.f: "The conquest of Southern Europe adopted a relatively mild strategy. The Zexu Empire first sent cultural envoys and merchants to Italy, Greece, and other Southern European countries to spread its culture, art, and technological achievements, while simultaneously learning about the local political, economic, and social conditions. After achieving certain results in cultural penetration, it gradually established political and economic influence. Finally, through military deterrence and diplomatic pressure, it persuaded the Southern European countries to voluntarily submit to the Zexu Eurasian United States, thus achieving a peaceful conquest of the Southern European region." dsk_zexu.25.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+je_dsk_annex_Balkan: "Balkan Conquest, Ethnic Integration"
+je_dsk_annex_Balkan_reason: "The Balkans have many ethnic groups and a complex situation"
+
+dsk_zexu.26.t: "Conquering the Balkans"
+
+dsk_zexu.26.d: "Conquering the Balkans"
+
+dsk_zexu.26.f: "The Balkans are a diverse and complex region. After entering the Balkans, the Zexu Empire actively mediated conflicts among the various ethnic groups, advocating for ethnic equality and common development. It established local governments with multi-ethnic participation, granting each ethnic group a degree of autonomy while strengthening military control to prevent interference from external forces. Through the Zexu Empire's efforts, the various ethnic groups in the Balkans gradually united under the banner of the Zexu Eurasian United States, achieving ethnic integration and regional stability."
+dsk_zexu.26.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+lion_of_patriarch_modifier: "Lion of the Overseas"
+
+lion_of_Balkan_modifier: "Lion of the Balkans"
+
+lion_of_earth_modifier: "Global Empire"
+
+je_dsk_annex_Iberia: "Iberian Unity, Resource Integration"
+
+lion_of_south_Europe_modifier: "Lion of Southern Europe"
+
+dsk_zexu.27.t: "Conquering Iberia"
+dsk_zexu.27.d: "Conquering Iberia"
+dsk_zexu.27.f: "The Zexu Empire further deepened its rule over Spain and Portugal. It comprehensively integrated the resources of the Iberian Peninsula, including mining, agriculture, and fishing. It established a unified economic development plan, improved local transportation and communication facilities, and promoted trade within the Iberian Peninsula. Simultaneously, it strengthened the defenses of the Iberian Peninsula militarily, making it a formidable fortress for the Zexu Eurasian Republic in the southwestern corner of Europe."
+dsk_zexu.27.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+
+lion_of_Iberia_modifier: "Lion of Iberia"
+
+je_dsk_annex_Iberia: "Iberian Unity, Resource Integration"
+
+je_dsk_annex_Iberia_reason: "The Zexu Empire further deepened its rule over Spain and Portugal. It comprehensively integrated the resources of the Iberian Peninsula, including mining, agriculture, and fishing. It established a unified economic development plan, improved local transportation and communication facilities, and promoted trade within the Iberian Peninsula."
+je_dsk_zexu_greatpower: "Zexu Global Empire"
+
+je_dsk_zexu_greatpower_reason: "Through these steps, the Zexu Eurasian United States successfully unified the whole of Europe under one regime. Europe achieved a high degree of unity in politics, economy, culture, and military affairs, ushering in a new era."
+je_dsk_zexu_greatpower_goal: "Completed Eight Reforms"
+
+je_dsk_zexu_greatpower_tt: "The era of global empires has arrived."
+dsk_zexu.28.t: "Global Empire"
+dsk_zexu.28.d: "Global Empire"
+dsk_zexu.28.f: "Through these steps, the United States of Zexu Eurasia has successfully unified the whole of Europe under one regime. Europe has achieved a high degree of unity in politics, economy, culture, military and other aspects, ushering in a new era. The United States of Zexu Eurasia's influence on the world stage has reached an unprecedented height, becoming a true superpower."
+dsk_zexu.28.a: "[SCOPE.GetRootScope.GetCountry.GetName] Long live!"
+
+je_dsk_zexu_education: "Educational reform, ideological unification"
+je_dsk_zexu_education_reason: "The United States of Zexu Eurasia will implement educational reforms throughout Europe. A unified education system will be established, teaching the history, culture, language, and values ​​of the Zexu Empire in schools. A new generation of European citizens with a strong sense of Zexu Empire identity will be cultivated, eliminating cultural barriers between different regions through education, achieving ideological unity, and laying the ideological foundation for long-term stability in Europe."
+
+it_will_improve_je_tt: "This will drive reforms within the global empire."
+
+lion_of_education_modifier: "Educational reform, ideological unity."
+
+je_dsk_zexu_technology: "Technology sharing, common progress."
+
+je_dsk_zexu_technology_reason: "The United States of Zexu Eurasia will implement educational reforms throughout Europe. A unified education system will be established, teaching the history, culture, language, and values ​​of the Zexu Empire in schools. A new generation of European citizens with a strong sense of Zexu Empire identity will be cultivated, eliminating cultural barriers between different regions through education, achieving ideological unity, and laying the ideological foundation for long-term stability in Europe."
+
+lion_of_technology_modifier: "Technology sharing, common progress."
+
+je_dsk_zexu_railway: "Transportation network, regional connectivity"
+
+je_dsk_zexu_railway_reason: "Vigorously develop Europe's transportation network. Construct railways, highways, and canals to tightly connect all parts of Europe. From Northern Europe to Southern Europe, from Eastern Europe to Western Europe, convenient transportation networks promote the exchange of people, goods, and culture. The Zexu Eurasian United States, through transportation networks, has broken down geographical barriers and further strengthened its control over the whole of Europe."
+lion_of_railway_modifier: "Transportation network, regional connectivity"
+
+je_dsk_zexu_army_2: "Military integration, power consolidation"
+
+je_dsk_zexu_army_2_reason: "Integrate military forces across Europe. Establish a unified military command system, standardize military training, and uniformly configure equipment. Reorganize local armies into the national defense forces of the Zexu Eurasian Republic, deploying military forces according to local geographical characteristics and strategic needs. Through military integration, the military strength of Europe is consolidated, enhancing the overall military defense and offensive capabilities of the Zexu Eurasian Republic."
+
+lion_of_army_modifier: "Military Integration, Power Consolidation"
+
+je_dsk_zexu_port: "Border Consolidation, Security Guarantee"
+
+je_dsk_zexu_port_reason: "Establish strong defensive fortifications along the European borders of the Zexu Eurasian Republic. Construct walls, fortresses, and border posts on land, and establish powerful naval bases and coastal defense facilities at sea. Strengthen border patrols and surveillance to prevent invasion by external forces and activities by internal separatist forces, providing security guarantees for European unity."
+
+lion_of_port_modifier: "Border Consolidation, Security Guarantee"
+
+je_dsk_zexu_art: "Cultural Revival, European Glory" je_dsk_zexu_art_reason: "The Zexu Eurasian United States launched a cultural revival movement across Europe. It encouraged artists, writers, and historians to explore the outstanding cultural heritage of various parts of Europe and integrate it with the cultural characteristics of the Zexu Empire."
+lion_of_art_modifier: "Cultural Revival, European Glory"
+je_dsk_zexu_agriculture: "Agricultural Innovation, Food Security"
+je_dsk_zexu_agriculture_reason: "The Zexu Eurasian United States implemented agricultural innovation policies in Europe. New crop varieties were introduced, and advanced agricultural planting and irrigation techniques were promoted. Large-scale agricultural production bases were established on the vast lands of Eastern and Southern Europe to increase food production. Through agricultural innovation, the Zexu Eurasian United States achieved food self-sufficiency in Europe, providing food security for the stable development of Europe."
+lion_of_agriculture_modifier: "Agricultural Innovation, Food Security"
+je_dsk_zexu_industry: "Industrial Planning, Economic Prosperity"
+je_dsk_zexu_industry_reason: "A unified European industrial development plan was formulated. Different types of industrial bases were established based on the resource advantages and industrial foundations of various regions. Fisheries processing and shipbuilding were developed in Northern Europe, heavy industry in Eastern Europe, and light industry and high-tech industries in Western Europe. Through rational industrial planning, European industrial development was promoted, leading to European economic prosperity."
+lion_of_industry_modifier: "Industrial planning, economic prosperity"
+je_dsk_zexu_welfare: "Social welfare, people's unity"
+je_dsk_zexu_welfare_reason: "The United States of Zexu Eurasia established a unified social welfare system in Europe. It provided European citizens with social security such as medical care, old age, and unemployment benefits, improving people's quality of life. Through the implementation of the social welfare system, people's sense of belonging and loyalty to the United States of Zexu Eurasia was enhanced, promoting the unity of the European people."
+lion_of_welfare_modifier: "Social welfare, people's unity"
+
+je_dsk_zexu_environment: "Diplomatic hegemony, European integration" je_dsk_zexu_environment_reason: "In international affairs, the United States of Zexu Eurasia represents the voice of the whole of Europe. Through diplomatic means, it has established international relations with other countries around the world with the United States of Zexu Eurasia at its core. In diplomatic negotiations and the signing of international treaties, the United States of Zexu Eurasia demonstrates strong diplomatic hegemony, ensuring that Europe appears as a unified entity on the international stage and achieving European diplomatic unity."
+
+lion_of_environment_modifier: "Diplomatic Hegemony, European Unity"
+
+je_dsk_zexu_pops: "Population Management, Balanced Development"
+
+je_dsk_zexu_pops_reason: "Rational management of Europe's population. Encouraging migration from densely populated areas to sparsely populated areas to promote balanced population development among regions. Attracting people to settle in developing regions by providing employment opportunities, housing subsidies, and other preferential policies. At the same time, strengthening education and training to improve population quality and provide human resource guarantees for Europe's development."
+
+lion_of_pops_modifier: "Population Management, Balanced Development"
+
+dyn_c_asia_europe_ZEXU: "Zexu Eurasian United States"
+
+dyn_c_ZEXU_empire: "Zexu Empire"
+
+dsk_zexu.29.t: "Hong Xiuquan's Visit"
+
+dsk_zexu.29.d: "Hong Xiuquan's Visit Seeks to Rely on Us to Resist the Qing Dynasty"
+
+dsk_zexu.29.f: "The Taiping Heavenly Kingdom is at a Crucial Stage of Revolution"
+
+dsk_zexu.29.a: "Support Hong Xiuquan's Launch of the Taiping Rebellion"

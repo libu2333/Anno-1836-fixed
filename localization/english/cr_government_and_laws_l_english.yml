@@ -1,0 +1,119 @@
+﻿l_english:
+ #Government Names
+ gov_zz_hakomate:0 "Hakomate"
+ gov_cr_khanate:0 "Khanate"
+ gov_cr_khanate_desc:0 "This is a [concept_government_type] where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_KHAN$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_zz_caliphate:0 "Caliphate"
+ gov_zz_caliphate_desc:0 "Placeholder"
+ RULER_TITLE_CALIPHA:0 "Calipha"
+ #gov_ethiopia_empire:0 "Empire"
+ #gov_ethiopia_empire_desc:0 "This is a [concept_government_type] where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_NEGUSA_NAGAST$')] or [Concept('concept_ruler','$RULER_TITLE_NEGESTA_NAGASTAT$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ RULER_TITLE_NEGUSA_NAGAST:0 "Negus Nagast"
+ RULER_TITLE_NEGESTA_NAGASTAT:0 "Negesta Nagastat"
+ RULER_TITLE_LEUL:0 "Leul"
+ RULER_TITLE_LEELT:0 "Le'elt"
+ RULER_TITLE_NEGUS:0 "Negus"
+ RULER_TITLE_NEGEST:0 "Negest"
+ RULER_TITLE_LEUL_RAS:0 "Leul Ras"
+ RULER_TITLE_LEELT_RAS:0 "Le'elt Ras"
+ RULER_TITLE_WOIZERO:0 "Woizero"
+ RULER_TITLE_LIJ:0 "Lij"
+ 
+ #PRINCELY_STATE:0 "Princely State"
+ VORSTENLAND_desc:0 "Vorstenland"
+ #NATIVE_STATE:0 "Native Monarchy"
+ 
+ gov_vorstenlandsur:0 "Vorstenland"
+ gov_vorstenlandsur_desc:0 "Being a direct decendent of the Sultans of Mataram of old, the [Concept('concept_ruler','$RULER_TITLE_SUSUHUNAN$')] of Soerakarta has been granted a self-ruling [Concept('concept_subject','$VORSTENLAND$')] .\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ 
+ gov_vorstenlandyog:0 "Vorstenland"
+ gov_vorstenlandyog_desc:0 "This Native State is a self-ruling Princely State within the Dutch East Indies. The Sultan holds legitimacy through belonging to a cadet branch of the old Sultans of Mataram.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ 
+ gov_zz_DEI_princely_state_muslim:0 "Princely State"
+ gov_zz_DEI_princely_state_muslim_desc:0 "This [Concept('concept_government_type','$NATIVE_STATE$')] is a self-governing [Concept('concept_subject','$PRINCELY_STATE$')] of the Dutch East Indies. Its ruler is refered to as [Concept('concept_ruler','$RULER_TITLE_SULTAN$')] or [Concept('concept_ruler','$RULER_TITLE_SULTANA$')]\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ 
+ gov_zz_DEI_princely_state_hindu:0 "Princely State"
+ gov_zz_DEI_princely_state_hindu_desc:0 "This [Concept('concept_government_type','$NATIVE_STATE$')] is a self-ruling [Concept('concept_subject','$PRINCELY_STATE$')] of the Dutch East Indies. Its ruler is refered to as the [Concept('concept_ruler','$RULER_TITLE_DEWA_AGUNG$')]\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ 
+ gov_zz_DEI_princely_state_hindu2:0 "Princely State"
+ gov_zz_DEI_princely_state_hindu_desc2:0 "This [Concept('concept_government_type','$NATIVE_STATE$')] is a self-ruling [Concept('concept_subject','$PRINCELY_STATE$')] of the Dutch East Indies. Its ruler is refered to as [Concept('concept_ruler','$RULER_TITLE_RAJA$')] or [Concept('concept_ruler','$"RULER_TITLE_RANI$')]\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ 
+ RULER_TITLE_PANGERAN:0 "Pangeran"
+ RULER_TITLE_RADEN_AJENG:0 "Raden Ajeng"
+ 
+ gov_sunanat1:0 "Vorstenland"
+ gov_vorst_desc:0 "This is a [concept_government_type] type in which the [Concept('concept_ruler','$RULER_TITLE_SUSUHUNAN$')] has been granted the priviledge of self rule due to their relation to Sultans of Mataram of old.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ 
+ 
+ 
+ gov_sultanate_lake_chad:0 "Sultanate"
+ gov_sultanate_lake_chad_desc:0 "This is a [concept_government_type] where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_SHEHU$')]\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ RULER_TITLE_SHEHU:0 "Shehu"
+ 
+ #Laws
+ law_unitary_state:0 "Unitary State"
+ law_federal_state:0 "Federal State"
+ law_confederacy:0 "Confederacy"
+ 
+ 
+ #Political Parties
+ party_parti_bureaucrate:0 "Parti Bureaucrate"
+ party_parti_bleu:0 "Parti Blue"
+ party_parti_canadien:0 "Parti Canadien"
+ party_parti_rouge:0 "Parti Rouge"
+ 
+ 
+ #Interest Groups
+ ig_mesafint:0 "Mesafint"
+ ig_mekwanint:0 "Mekwanint"
+ ig_balabat:0 "Balabat"
+ ig_negadras:0 "Negadras"
+ ig_gebbars:0 "Gebbars"
+ 
+ ig_ulama:0 "Ulema"
+ ig_ulema_desc:0 "Sunnism is the largest sect of Islam. Believers hold that Muhammad was succeeded as Caliph of Islam by his uncle, Abu Bakr, as opposed to the Shi’a view that his son-in-law Ali was the legitimate successor."
+ ig_knil:0 "Koninklijk Nederlands Indisch Leger"
+ ig_knil_desc:0 "The Royal Dutch Indies Army (KNIL) is the armed forced of the Netherlands in the East Indies."
+ ig_regents:0 "Regents"
+ ig_regents_desc:0 "The Bopati (Regents) are the native ruling class who can exert vast influence over the native population due to the prestige of their position and lineage."
+ ig_planters:0 "Planters"
+ ig_planters_desc:0 "Planters are the hard working natives who are happiest working their own little tegal, or even hoema, but currently find themselves working the colonial plantations."
+ 
+ ig_local_middlemen:0 "Local Middlemen"
+ ig_local_middlemen_desc:0 "The native, mostly Chinese, people who form the interlocutor between our colonial rule and the local populace."
+ 
+ #Interest Group Traits
+ ig_trait_lax_enforcers:0 "Lax Enforcers"
+ ig_trait_lax_enforcers_desc:0 "Vital to the enforcement of colonial rule, the soldiers and officers of the KNIL seem to have taken a lax approach to this job as of late."
+ ig_trait_foward_presence:0 "Forward Presence"
+ ig_trait_foward_presence_desc:0 "The visible presence of the KNIL has a certain quality in enforcing our rule on the natives."
+ ig_trait_marechaussee_te_voet:0 "Marechaussee te Voet"
+ ig_trait_marechaussee_te_voet_desc:0 "Where trouble rears its ugly head one can be sure it wont last long after the gendarmes of the Marachaussee te Voet appear.\n\nTrained to conduct intensive patrols deep into the jungle, this highly mobile counter-insurgency force has proven to be highly effective."
+ 
+ ig_trait_friendly_faces:0 "Friendly Faces"
+ ig_trait_friendly_faces_desc:0 "What better way to secure our rule than through the friendly faces of the local nobilities the natives already know."
+ ig_trait_corvee:0 "Corvee Labour"
+ ig_trait_corvee_desc:0 "The roads in my district do need a thorough cleaning up wouldn't you say? Or would you rather have we help beautify your local residence? Oh, don't worry; it's but a small matter for my serfs... I mean myself to come and help you."
+ ig_trait_helpful_natives:0 "Helpful Natives"
+ ig_trait_helpful_natives_desc:0 "Of course, my lord, I have already sent out word that I desire the regency to be a beacon of stability and tranquility."
+ 
+ ig_trait_village_recordkeepers:0 "Village Recordkeepers"
+ ig_trait_village_recordkeepers_desc:0 "Births, deaths, marriages, migrations, it is all record in the records of the local clergy."
+ ig_trait_keepers_of_the_calendar:0 "Keepers of the Calendar"
+ ig_trait_keepers_of_the_calendar_desc:0 "Ploughing, sowing, harvesting, all follows the natural rythm of the seasons, and who but the clergy know the seasons best?"
+ ig_trait_power_of_islam:0 "Power of Islam"
+ ig_trait_power_of_islam_desc:0 "Who dares to defy the power of Islam?"
+ 
+ ig_trait_benefits_of_civilisation:0 "Benefits of Civilisation"
+ ig_trait_benefits_of_civilisation_desc:0 "Due to our kind and beneficial rule the church is seeing a steady increase in attendence." 
+ ig_trait_kampongs:0 "Kampongs"
+ ig_trait_kampongs_desc:0 "For the health of the village it is necessary for all to contribute."
+ ig_trait_oostindisch_doof:0 "Oostindisch Doof"
+ ig_trait_oostindisch_doof_desc:0 "My humblest apologies, noble lord, for neglecting to pluck the right field. I must kindly request you to be clearer in your instructions in the future to prevent such misunderstanding from arising again."
+ 
+ ig_trait_widely_traveled:0 "Widely Traveled"
+ ig_trait_widely_traveled_desc:0 "Visiting the villages, the middlemen are a unique channel through which knowledge can spread."
+ ig_trait_porters:0 "Porters"
+ ig_trait_porters_desc:0 "None is more important for the free flow of goods from the plantation to the harbour than the local porters traveling along the road every day."
+ ig_trait_moneylenders:0 "Moneylenders"
+ ig_trait_moneylenders_desc:0 "With the local money markets under their control, the middlemen are vital for the proper functioning of the money markets."

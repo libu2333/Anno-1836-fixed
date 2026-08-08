@@ -1,0 +1,407 @@
+﻿#############################
+#							#
+#		Central Asia		#
+#							#
+#############################
+BDK = {
+	color = { 154 251 36 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { tajik }
+	religion = sunni
+	capital = STATE_BADAKHSHAN
+}
+
+BKH = {
+	color = { 97 124 174 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kazak }
+	religion = sunni
+	capital = STATE_URALSK
+}
+
+WZR = {
+	color = { 100 125 223 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { pashtun }
+	religion = sunni
+	capital = STATE_PASHTUNISTAN
+}
+
+DRV = {
+	color = { 151 55 75 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { tajik }
+	religion = sunni
+	capital = STATE_BADAKHSHAN
+}
+
+WDST = {
+	color = { 255 231 164 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { persian }
+	religion = sunni
+	capital = STATE_KHORASAN
+}
+DST = {
+	color = { 215 200 210 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { baluchi }
+
+	capital = STATE_BALUCHISTAN
+}
+
+KRK = {
+	color = { 200 210 215 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { turkmen }
+	religion = sunni
+	capital = STATE_TURKMENIA
+}
+
+KZE = {
+	color = { 150 110 115 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { persian }
+	religion = shiite
+	capital = STATE_KHORASAN
+}
+
+KZK = {
+	color = { 200 210 215 } #Previously: color = { 210 215 200 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { uzbek }
+	religion = sunni
+	capital = STATE_TRANSOXIANA
+}
+
+MZS = {
+	color = { 70 105 150 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { uzbek }
+	religion = sunni
+	capital = STATE_BALKH
+}
+
+SGN = {
+	color = { 86 76 157 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { tajik }
+	religion = sunni
+	capital = STATE_BADAKHSHAN
+}
+
+SST = {
+	color = { 220 220 195 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { persian }
+	religion = sunni
+	capital = STATE_NORTHERN_BALUCHISTAN
+}
+
+TBJ = {
+	color = { 143 185 157 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { persian }
+	religion = sunni
+	capital = STATE_KHORASAN
+}
+
+WKN = {
+	color = { 163 82 68 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { tajik }
+	religion = sunni
+	capital = STATE_BADAKHSHAN
+}
+
+ZHB = {
+	color = { 248 254 135 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { pashtun }
+	religion = sunni
+	capital = STATE_BALUCHISTAN
+}
+
+MERV = {
+	color = { 87 122 35	}
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { turkmen }
+	capital = STATE_MERZ
+}
+
+URATEPA = {
+	color = { 239 12 3 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { tajik }
+	capital = STATE_TAJIKISTAN
+}
+
+RSH = { #Roushan
+	color = { 123 127 123 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { uzbek }
+	capital = STATE_BADAKHSHAN
+}
+
+WST = {
+	color = { 1 1 1 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { shan }
+
+	capital = STATE_SHAN_STATES
+}
+
+MMI = {
+	color = { 194 202 90 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { shan }
+
+	capital = STATE_SHAN_STATES
+}
+
+KLNI = {
+	color = { 54 81 204 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { shan }
+
+	capital = STATE_SHAN_STATES
+}
+
+KQR = {
+	color = { 54 181 204 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { dimasa }
+
+	capital = STATE_ASSAM
+}
+NKQR = {
+	color = { 198 178 144 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { dimasa }
+
+	capital = STATE_ASSAM
+}
+
+JYTY = {
+	color = { 198 178 144 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { khasi }
+
+	capital = STATE_ASSAM
+}
+
+
+MTQ = {
+	color = { 183 233 41 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { assamese }
+
+	capital = STATE_ASSAM
+}
+
+SDY = {
+	color = { 128 12 234 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { assamese }
+
+	capital = STATE_ASSAM
+}
+
+MYG = {
+	color = { 143 146 193 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { kachin }
+
+	capital = STATE_KACHIN
+}
+
+MEG = {
+	color = { 193 119 34 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { kachin }
+
+	capital = STATE_KACHIN
+}
+
+MAM = {
+	color = { 131 223 227 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { kachin }
+
+	capital = STATE_KACHIN
+}
+HOG = {
+	color = { 182 171 94 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { kachin }
+
+	capital = STATE_KACHIN
+}
+
+LYM = {
+	color = { 182 171 94 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { kachin }
+
+	capital = STATE_KACHIN
+}
+
+QJJ = {
+	color = { 230 178 126 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { shan }
+
+	capital = STATE_LAOS
+}
+
+JDG = {
+	color = { 239 150 134 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { bengali }
+
+	capital = STATE_EAST_BENGAL
+}
+
+KQR = {
+	color = { 239 150 134 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { bengali }
+
+	capital = STATE_EAST_BENGAL
+}

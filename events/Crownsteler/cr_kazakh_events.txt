@@ -1,0 +1,4432 @@
+﻿namespace = cr_kazakh_events
+
+cr_kazakh_events.1 = { #The Road to Central Asia
+	type = country_event
+	placement = scope:orenburg
+
+	title = cr_kazakh_events.1.t
+	desc = cr_kazakh_events.1.d
+
+	flavor = cr_kazakh_events.1.f
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "ep1_central_asian_city"
+	}
+	
+	duration = 3
+
+	trigger = {
+		has_dlc_feature = ep1_content
+	}
+
+	immediate = {
+		c:BUK = {
+			save_scope_as = bukhara
+		}
+		c:KOK = {
+			save_scope_as = kokand
+		}
+		c:KHI = {
+			save_scope_as = khiva
+		}
+		sr:region_central_asia = {
+			save_scope_as = central_asia
+		}
+		p:x28AD29 = {
+			save_scope_as = orenburg
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.1.a
+		add_journal_entry = { type = je_pacify_the_steppes }
+		#custom_tooltip = kazakhstan_events.1.a_tt
+		show_as_tooltip = {
+			add_modifier = { name = cr_taming_the_steppes_modifier }
+		}
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				NOT = {
+					has_modifier = cr_taming_the_steppes_state_modifier
+				}
+			}
+			add_modifier = cr_taming_the_steppes_state_modifier
+		}
+		
+		default_option = yes
+		ai_chance = {
+			base = 1
+			modifier = {
+				trigger = {
+					authority < 0
+				}
+				add = -1
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.1.b
+		#custom_tooltip = kazakhstan_events.1.b_tt
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+			}
+			add_modifier = {
+				name = cr_steppe_disinterest
+				days = stupidly_long_modifier_time
+			}
+			#add_radicals_in_state = {	#Removed because it messes up the tooltip too much. Instead added the IG approval malus
+			#	pop_type = officers
+			#	value = 0.25
+			#}
+			#add_radicals_in_state = {
+			#	pop_type = soldiers
+			#	value = 0.15
+			#}
+		}
+		ig:ig_armed_forces = {
+			add_modifier = {
+				name = cr_steppe_colonial_ambitions_denied
+				days = long_modifier_time
+				is_decaying = yes
+			}		
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				trigger = {
+					authority < 0
+				}
+				add = 1
+			}
+		}
+	}
+}
+
+cr_kazakh_events.2 = { #Rise of Kenesary as Khan
+	type = country_event
+	placement = scope:orenburg
+
+	title = cr_kazakh_events.2.t
+	desc = cr_kazakh_events.2.d
+
+	flavor = cr_kazakh_events.2.f
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/asia_sepoy_mutiny.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+		has_dlc_feature = ep1_content
+	}
+
+	immediate = {
+		save_scope_as = russia_scope
+		sr:region_central_asia = {
+			save_scope_as = central_asia
+		}
+		p:x28AD29 = {
+			save_scope_as = orenburg
+		}
+		random_diplomatic_play = {
+			limit = {
+				is_diplomatic_play_type = dp_native_uprising
+			}
+			end_play = yes
+		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_AKTOBE
+				this.state_region = {
+					is_homeland = cu:kazak
+				}
+				owner = {
+					OR = {
+						is_subject_of = c:RUS
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kenesary_state
+			owner = {
+				save_scope_as = kenesary_country
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = scope:kenesary_state }
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_AKTOBE
+					this.state_region = {
+						is_homeland = cu:kazak
+					}
+					owner = {
+						OR = {
+							this = c:RUS
+							is_subject_of = c:RUS
+							is_country_type = decentralized
+						}
+					}
+				}
+				save_scope_as = kenesary_state
+				owner = {
+					save_scope_as = kenesary_country
+				}
+			}
+		}
+		create_country = {
+			tag = KAZ
+			origin = scope:kenesary_country
+			state = scope:kenesary_state
+			on_created = {
+
+			}
+		}
+		
+		cr_steppe_annex_kazakh_states_effect = yes
+		
+		c:KAZ = {
+			save_scope_as = kazakh_scope
+			create_character = {
+				template = kaz_kenesary_khan
+			}
+			ruler = {
+				save_scope_as = kenesary_scope
+			}
+			activate_law = law_type:law_oligarchy
+			activate_law = law_type:law_peasant_levies
+			activate_law = law_type:law_frontier_colonization
+			set_ruling_interest_groups = { ig_landowners ig_devout }
+			add_modifier = {
+				name = modifier_kenesary_revolt
+				days = long_modifier_time
+				is_decaying = yes
+			}
+			create_military_formation = {
+				type = army
+				hq_region = scope:kazakh_scope.capital.region
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_irregular_infantry
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_hussars
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+			}
+		}
+		cr_steppe_assign_kazakh_claims_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.2.a
+		default_option = yes
+		
+		add_journal_entry = { type = je_the_last_kazakh_khan }
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		c:KAZ = {
+			create_diplomatic_play = {
+				name = annex_war
+				target_country = c:RUS
+				type = dp_return_state
+				target_state = s:STATE_AKMOLINSK.region_state:RUS
+
+				add_war_goal = { holder = c:KAZ target_state = s:STATE_SYRDARYA.region_state:RUS type = return_state }
+				add_war_goal = { holder = c:RUS target_country = c:KAZ type = make_protectorate }
+			}
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			change_tension = {
+			  country = c:KZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:OZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:UZH
+			  value = 25
+			}
+			every_scope_state = {
+				limit = {
+					region = sr:region_central_asia
+					is_split_state = yes
+				}
+				if = {
+					limit = {
+						has_modifier = cr_taming_the_steppes_state_modifier
+					}
+					remove_modifier = cr_taming_the_steppes_state_modifier
+				}
+				add_radicals_in_state = {
+					value = very_large_radicals
+					culture = cu:kazak
+				}
+				add_modifier = { 
+					name = modifier_kazakh_ungovernable_provinces_cr_changed 
+					days = long_modifier_time 
+					is_decaying = yes 
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 95
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.2.b
+		#custom_tooltip = kazakhstan_events.2.b_tt
+		create_diplomatic_pact = {
+			country = c:KAZ
+			type = protectorate
+		}
+		c:KAZ = {
+			annex = c:KZH
+			annex = c:OZH
+			annex = c:UZH
+			add_liberty_desire = 100
+		}
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			change_tension = {
+			  country = c:KZH
+			  value = -100
+			}
+			change_tension = {
+			  country = c:OZH
+			  value = -100
+			}
+			change_tension = {
+			  country = c:UZH
+			  value = -100
+			}
+			every_scope_state = {
+				limit = {
+					region = sr:region_central_asia
+					is_split_state = yes
+				}
+				if = {
+					limit = {
+						has_modifier = cr_taming_the_steppes_state_modifier
+					}
+					remove_modifier = cr_taming_the_steppes_state_modifier
+				}
+				add_radicals_in_state = {
+					value = very_large_radicals
+					culture = cu:kazak
+				}
+				add_modifier = { 
+					name = modifier_kazakh_ungovernable_provinces_cr_changed 
+					days = long_modifier_time 
+					is_decaying = yes 
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 5
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.2.c
+		#custom_tooltip = kazakhstan_events.2.b_tt
+		trigger = {
+			is_ai = no
+		}
+		
+		add_journal_entry = { type = je_the_last_kazakh_khan }
+		
+		play_as = c:KAZ
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		c:KAZ = {
+			create_diplomatic_play = {
+				name = annex_war
+				target_country = c:RUS
+				type = dp_return_state
+				target_state = s:STATE_AKMOLINSK.region_state:RUS
+
+				add_war_goal = { holder = c:KAZ target_state = s:STATE_SYRDARYA.region_state:RUS type = return_state }
+				add_war_goal = { holder = c:RUS target_country = c:KAZ type = make_protectorate }
+			}
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			c:RUS = {
+				change_tension = {
+				  country = c:KZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:OZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:UZH
+				  value = 25
+				}
+				every_scope_state = {
+					limit = {
+						region = sr:region_central_asia
+						is_split_state = yes
+					}
+					if = {
+						limit = {
+							has_modifier = cr_taming_the_steppes_state_modifier
+						}
+						remove_modifier = cr_taming_the_steppes_state_modifier
+					}
+					add_radicals_in_state = {
+						value = very_large_radicals
+						culture = cu:kazak
+					}
+					add_modifier = { 
+						name = modifier_kazakh_ungovernable_provinces_cr_changed 
+						days = long_modifier_time 
+						is_decaying = yes 
+					}
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+cr_kazakh_events.3 = { #The Steppe Unites - Time runs out
+	type = country_event
+	placement = scope:orenburg
+
+	title = cr_kazakh_events.3.t
+	desc = cr_kazakh_events.3.desc
+
+	flavor = cr_kazakh_events.3.flavour
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/asia_sepoy_mutiny.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+		has_dlc_feature = ep1_content
+	}
+
+	immediate = {
+		save_scope_as = russia_scope
+		sr:region_central_asia = {
+			save_scope_as = central_asia
+		}
+		p:x28AD29 = {
+			save_scope_as = orenburg
+		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_AKTOBE
+				this.state_region = {
+					is_homeland = cu:kazak
+				}
+				owner = {
+					OR = {
+						is_subject_of = c:RUS
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kenesary_state
+			owner = {
+				save_scope_as = kenesary_country
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = scope:kenesary_state }
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_AKTOBE
+					this.state_region = {
+						is_homeland = cu:kazak
+					}
+					owner = {
+						OR = {
+							this = c:RUS
+							is_subject_of = c:RUS
+							is_country_type = decentralized
+						}
+					}
+				}
+				save_scope_as = kenesary_state
+				owner = {
+					save_scope_as = kenesary_country
+				}
+			}
+		}
+		create_country = {
+			tag = KAZ
+			origin = scope:kenesary_country
+			state = scope:kenesary_state
+			on_created = {
+
+			}
+		}
+		
+		cr_steppe_annex_kazakh_states_effect = yes
+		
+		c:KAZ = {
+			save_scope_as = kazakh_scope
+			create_character = {
+				template = kaz_kenesary_khan
+			}
+			ruler = {
+				save_scope_as = kenesary_scope
+			}
+			activate_law = law_type:law_oligarchy
+			activate_law = law_type:law_peasant_levies
+			activate_law = law_type:law_frontier_colonization
+			set_ruling_interest_groups = { ig_landowners ig_devout }
+			add_modifier = {
+				name = modifier_kenesary_revolt
+				days = long_modifier_time
+				is_decaying = yes
+			}
+			create_military_formation = {
+				type = army
+				hq_region = scope:kazakh_scope.capital.region
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_irregular_infantry
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_hussars
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+			}
+		}
+		cr_steppe_assign_kazakh_claims_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.3.a
+		default_option = yes
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			change_tension = {
+			  country = c:KZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:OZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:UZH
+			  value = 25
+			}
+			every_scope_state = {
+				limit = {
+					region = sr:region_central_asia
+					is_split_state = yes
+				}
+				if = {
+					limit = {
+						has_modifier = cr_taming_the_steppes_state_modifier
+					}
+					remove_modifier = cr_taming_the_steppes_state_modifier
+				}
+				add_radicals_in_state = {
+					value = very_large_radicals
+					culture = cu:kazak
+				}
+				add_modifier = { 
+					name = modifier_kazakh_ungovernable_provinces_cr_changed 
+					days = long_modifier_time 
+					is_decaying = yes 
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.3.b
+		trigger = {
+			is_ai = no
+		}
+		
+		play_as = c:KAZ
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			c:RUS = {
+				change_tension = {
+				  country = c:KZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:OZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:UZH
+				  value = 25
+				}
+				every_scope_state = {
+					limit = {
+						region = sr:region_central_asia
+						is_split_state = yes
+					}
+					if = {
+						limit = {
+							has_modifier = cr_taming_the_steppes_state_modifier
+						}
+						remove_modifier = cr_taming_the_steppes_state_modifier
+					}
+					add_radicals_in_state = {
+						value = very_large_radicals
+						culture = cu:kazak
+					}
+					add_modifier = { 
+						name = modifier_kazakh_ungovernable_provinces_cr_changed 
+						days = long_modifier_time 
+						is_decaying = yes 
+					}
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+cr_kazakh_events.4 = { #The Khan of the Reborn Steppe - civil war
+	type = country_event
+	placement = scope:orenburg
+
+	title = cr_kazakh_events.4.t
+	desc = cr_kazakh_events.4.desc
+
+	flavor = cr_kazakh_events.4.flavour
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/asia_sepoy_mutiny.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+		has_dlc_feature = ep1_content
+	}
+
+	immediate = {
+		save_scope_as = russia_scope
+		sr:region_central_asia = {
+			save_scope_as = central_asia
+		}
+		p:x28AD29 = {
+			save_scope_as = orenburg
+		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_AKTOBE
+				this.state_region = {
+					is_homeland = cu:kazak
+				}
+				owner = {
+					OR = {
+						is_subject_of = c:RUS
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kenesary_state
+			owner = {
+				save_scope_as = kenesary_country
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = scope:kenesary_state }
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_AKTOBE
+					this.state_region = {
+						is_homeland = cu:kazak
+					}
+					owner = {
+						OR = {
+							this = c:RUS
+							is_subject_of = c:RUS
+							is_country_type = decentralized
+						}
+					}
+				}
+				save_scope_as = kenesary_state
+				owner = {
+					save_scope_as = kenesary_country
+				}
+			}
+		}
+		create_country = {
+			tag = KAZ
+			origin = scope:kenesary_country
+			state = scope:kenesary_state
+			on_created = {
+
+			}
+		}
+		
+		cr_steppe_annex_kazakh_states_effect = yes
+		
+		c:KAZ = {
+			save_scope_as = kazakh_scope
+			create_character = {
+				template = kaz_kenesary_khan
+			}
+			ruler = {
+				save_scope_as = kenesary_scope
+			}
+			activate_law = law_type:law_oligarchy
+			activate_law = law_type:law_peasant_levies
+			activate_law = law_type:law_frontier_colonization
+			set_ruling_interest_groups = { ig_landowners ig_devout }
+			add_modifier = {
+				name = modifier_kenesary_revolt
+				days = long_modifier_time
+				is_decaying = yes
+			}
+			create_military_formation = {
+				type = army
+				hq_region = scope:kazakh_scope.capital.region
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_irregular_infantry
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_hussars
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+			}
+		}
+		cr_steppe_assign_kazakh_claims_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.4.a
+		default_option = yes
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			change_tension = {
+			  country = c:KZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:OZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:UZH
+			  value = 25
+			}
+			every_scope_state = {
+				limit = {
+					region = sr:region_central_asia
+					is_split_state = yes
+				}
+				if = {
+					limit = {
+						has_modifier = cr_taming_the_steppes_state_modifier
+					}
+					remove_modifier = cr_taming_the_steppes_state_modifier
+				}
+				add_radicals_in_state = {
+					value = very_large_radicals
+					culture = cu:kazak
+				}
+				add_modifier = { 
+					name = modifier_kazakh_ungovernable_provinces_cr_changed 
+					days = long_modifier_time 
+					is_decaying = yes 
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.4.b
+		trigger = {
+			is_ai = no
+		}
+		
+		play_as = c:KAZ
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			c:RUS = {
+				change_tension = {
+				  country = c:KZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:OZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:UZH
+				  value = 25
+				}
+				every_scope_state = {
+					limit = {
+						region = sr:region_central_asia
+						is_split_state = yes
+					}
+					if = {
+						limit = {
+							has_modifier = cr_taming_the_steppes_state_modifier
+						}
+						remove_modifier = cr_taming_the_steppes_state_modifier
+					}
+					add_radicals_in_state = {
+						value = very_large_radicals
+						culture = cu:kazak
+					}
+					add_modifier = { 
+						name = modifier_kazakh_ungovernable_provinces_cr_changed 
+						days = long_modifier_time 
+						is_decaying = yes 
+					}
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+cr_kazakh_events.5 = { #The Khan of the Reborn Steppe - no longer a great power
+	type = country_event
+	placement = scope:orenburg
+
+	title = cr_kazakh_events.5.t
+	desc = cr_kazakh_events.5.desc
+
+	flavor = cr_kazakh_events.5.flavour
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/asia_sepoy_mutiny.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+		has_dlc_feature = ep1_content
+	}
+
+	immediate = {
+		save_scope_as = russia_scope
+		sr:region_central_asia = {
+			save_scope_as = central_asia
+		}
+		p:x28AD29 = {
+			save_scope_as = orenburg
+		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_AKTOBE
+				this.state_region = {
+					is_homeland = cu:kazak
+				}
+				owner = {
+					OR = {
+						is_subject_of = c:RUS
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kenesary_state
+			owner = {
+				save_scope_as = kenesary_country
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = scope:kenesary_state }
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_AKTOBE
+					this.state_region = {
+						is_homeland = cu:kazak
+					}
+					owner = {
+						OR = {
+							this = c:RUS
+							is_subject_of = c:RUS
+							is_country_type = decentralized
+						}
+					}
+				}
+				save_scope_as = kenesary_state
+				owner = {
+					save_scope_as = kenesary_country
+				}
+			}
+		}
+		create_country = {
+			tag = KAZ
+			origin = scope:kenesary_country
+			state = scope:kenesary_state
+			on_created = {
+
+			}
+		}
+		
+		cr_steppe_annex_kazakh_states_effect = yes
+		
+		c:KAZ = {
+			save_scope_as = kazakh_scope
+			create_character = {
+				template = kaz_kenesary_khan
+			}
+			ruler = {
+				save_scope_as = kenesary_scope
+			}
+			activate_law = law_type:law_oligarchy
+			activate_law = law_type:law_peasant_levies
+			activate_law = law_type:law_frontier_colonization
+			set_ruling_interest_groups = { ig_landowners ig_devout }
+			add_modifier = {
+				name = modifier_kenesary_revolt
+				days = long_modifier_time
+				is_decaying = yes
+			}
+			create_military_formation = {
+				type = army
+				hq_region = scope:kazakh_scope.capital.region
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_irregular_infantry
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_hussars
+					state_region = scope:kazakh_scope.capital.state_region
+					count = 5
+				}
+			}
+		}
+		cr_steppe_assign_kazakh_claims_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.5.a
+		default_option = yes
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			change_tension = {
+			  country = c:KZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:OZH
+			  value = 25
+			}
+			change_tension = {
+			  country = c:UZH
+			  value = 25
+			}
+			every_scope_state = {
+				limit = {
+					region = sr:region_central_asia
+					is_split_state = yes
+				}
+				if = {
+					limit = {
+						has_modifier = cr_taming_the_steppes_state_modifier
+					}
+					remove_modifier = cr_taming_the_steppes_state_modifier
+				}
+				add_radicals_in_state = {
+					value = very_large_radicals
+					culture = cu:kazak
+				}
+				add_modifier = { 
+					name = modifier_kazakh_ungovernable_provinces_cr_changed 
+					days = long_modifier_time 
+					is_decaying = yes 
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.5.b
+		trigger = {
+			is_ai = no
+		}
+		
+		play_as = c:KAZ
+		
+		#This is a shortcut to end the event chain. The original plan was to extend the event chain with Russia and Kenesary fighting for influence over the remaining Zhuzes until war erupts, but I don't have the time to script this, so war just starts immediately.
+		if = {	
+			limit = { exists = s:STATE_AKMOLINSK.region_state:OZH }
+			s:STATE_AKMOLINSK.region_state:OZH = { set_state_owner = c:KAZ }
+		}
+		if = {
+			limit = { 
+				exists = s:STATE_SYRDARYA.region_state:UZH
+			}
+			s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+		}
+		#End shortcut
+		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					owner = c:KAZ
+				}
+				add_modifier = {
+					name = modifier_taiping_hiring_bonus # Temporary bonus to fill their barracks
+					months = 6
+				}
+			}
+			c:RUS = {
+				change_tension = {
+				  country = c:KZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:OZH
+				  value = 25
+				}
+				change_tension = {
+				  country = c:UZH
+				  value = 25
+				}
+				every_scope_state = {
+					limit = {
+						region = sr:region_central_asia
+						is_split_state = yes
+					}
+					if = {
+						limit = {
+							has_modifier = cr_taming_the_steppes_state_modifier
+						}
+						remove_modifier = cr_taming_the_steppes_state_modifier
+					}
+					add_radicals_in_state = {
+						value = very_large_radicals
+						culture = cu:kazak
+					}
+					add_modifier = { 
+						name = modifier_kazakh_ungovernable_provinces_cr_changed 
+						days = long_modifier_time 
+						is_decaying = yes 
+					}
+				}
+			}
+			cr_steppe_notify_neighbours_of_kenesarys_rise_effect = yes
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+cr_kazakh_events.10 = {
+	type = country_event
+	placement = scope:kenesary_raid_scope
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.10.t
+	desc = cr_kazakh_events.10.desc
+	flavor = cr_kazakh_events.10.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	#cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		if = {
+			limit = {
+				p:x3299A2 = {
+					owner = ROOT
+				}
+			}
+			p:x3299A2 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else_if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		c:OZH = {
+			create_character = {
+				template = kaz_kenesary_khan
+				on_created = {
+					set_variable = kenesary_variable
+				}
+			}
+			random_scope_character = {
+				limit = {
+					has_variable = kenesary_variable
+				}
+				place_character_in_void = 1200
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = cr_kenesary_has_appeared
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 180 #= 6 months
+		}
+	}
+	
+	cancellation_trigger = {
+		NOT = { has_journal_entry = je_pacify_the_steppes }
+	}
+
+	option = {
+		name = cr_kazakh_events.10.a
+        default_option = yes
+		s:STATE_AKMOLINSK = {
+			add_devastation = 10
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 20
+		}
+        every_country = {
+        	limit = {
+        		country_has_primary_culture = cu:kazak
+        	}
+        	post_notification = kazakhstan_ride_of_kenesary_notification
+        }
+		hidden_effect = {	#Because spawning Kenesary kills him for some reason. 
+			c:OZH ?= {
+				create_character = {
+					first_name = "Suyuk"
+					last_name = "Abylaikhanov" 
+					historical = yes 
+					culture = primary_culture
+					ruler = yes
+					age = 57
+					interest_group = ig_landowners
+					ideology = ideology_moderate
+					traits = {
+						tactful basic_diplomat
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.10.b
+		s:STATE_AKMOLINSK = {
+			add_devastation = 10
+		}
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+			}
+			add_modifier = {
+				name = cr_steppe_leniency_and_trade
+				days = normal_modifier_time
+			}
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 10
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -10
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = -10
+		}
+        every_country = {
+        	limit = {
+        		country_has_primary_culture = cu:kazak
+        	}
+        	post_notification = kazakhstan_ride_of_kenesary_notification
+        }
+		hidden_effect = {	#Because spawning Kenesary kills him for some reason. 
+			c:OZH ?= {
+				create_character = {
+					first_name = "Suyuk"
+					last_name = "Abylaikhanov" 
+					historical = yes 
+					culture = primary_culture
+					ruler = yes
+					age = 57
+					interest_group = ig_landowners
+					ideology = ideology_moderate
+					traits = {
+						tactful basic_diplomat
+					}
+				}
+			}
+		}
+	}
+}
+
+cr_kazakh_events.11 = {
+	type = country_event
+	placement = scope:kenesary_raid_scope
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.11.t
+	desc = cr_kazakh_events.11.desc
+	flavor = cr_kazakh_events.11.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+		NOT = {
+			has_variable = cr_sack_of_akmolinsk_has_happened
+		}
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		if = {
+			limit = {
+				p:x3154C8 = {
+					owner = ROOT
+				}
+			}
+			p:x3154C8 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else_if = {
+			limit = {
+				p:x3299A2 = {
+					owner = ROOT
+				}
+			}
+			p:x3299A2 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else_if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		sr:region_central_asia = {
+			save_scope_as = central_asia_region_scope
+		}
+		set_variable = cr_sack_of_akmolinsk_has_happened
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 90 #= 3 months
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.11.a
+        default_option = yes
+		s:STATE_AKMOLINSK = {
+			add_devastation = 10
+		}
+		cr_steppe_punitive_expedition_effect = yes
+		change_tension = {
+		  country = c:OZH
+		  value = 25
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.11.b
+		s:STATE_AKMOLINSK = {
+			add_devastation = 10
+		}
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+			}
+			add_modifier = {
+				name = cr_steppe_caution_and_diplomacy
+				days = normal_modifier_time
+			}
+			#add_radicals_in_state = {	#Removed because it messes up the tooltip too much. Instead added the IG approval malus
+			#	pop_type = officers
+			#	value = 0.25
+			#}
+			#add_radicals_in_state = {
+			#	pop_type = soldiers
+			#	value = 0.15
+			#}
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -10
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 15
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = -10
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+}
+
+cr_kazakh_events.12 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.12.t
+	desc = cr_kazakh_events.12.desc
+	flavor = cr_kazakh_events.12.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+		NOT = {
+			#has_variable = cr_kenesary_cooldown_var
+		}
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		scope:kazak_event_state ={
+			random_neighbouring_state = {
+				limit = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+				save_scope_as = kazak_event_neighbour_state
+			}
+		}
+		scope:kazak_event_neighbour_state.owner = {
+			save_scope_as = kenesary_ally_tag
+			random_scope_character = { 
+				limit = {
+					is_ruler_of_own_country = no
+					NOR = {
+						has_ideology = ideology:ideology_moderate
+						has_ideology = ideology:ideology_modernizer
+						has_ideology = ideology:ideology_reformer
+						has_ideology = ideology:ideology_pacifist
+					}
+				}
+				save_scope_as = kenesary_ally_char 
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					exists = scope:kenesary_ally_char
+				}
+			}
+			scope:kenesary_ally_tag = {
+				random_scope_character = { 
+					limit = {
+						is_ruler_of_own_country = no
+					}
+					save_scope_as = kenesary_ally_char 
+				}
+			}			
+		}
+		scope:kenesary_ally_tag= {
+			set_variable = cr_we_support_kenesary
+		}
+		#set_variable = cr_kenesary_growing_strength
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 180 #= 6 months
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.12.a
+        default_option = yes
+		trigger = {
+			NOT = { 
+				has_modifier = cr_steppe_punitive_expedition
+				has_variable = cr_steppe_had_recent_expedition #Added after each expedition result with duration of 1 year.
+				has_variable = cr_steppe_kenesary_in_hiding 
+			} 
+		}
+		highlighted_option = yes
+		cr_steppe_punitive_expedition_effect = yes
+		custom_tooltip = cr_kazakh_events.12.a_tt
+	}
+
+	option = {
+		name = cr_kazakh_events.12.b
+		cr_steppe_increase_tension_large_effect = yes
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+}
+
+cr_kazakh_events.13 = { #The Steppe Slips Away - Kenesary defeated
+	type = country_event
+	placement = scope:kenesary_raid_scope
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.13.t
+	desc = cr_kazakh_events.13.desc
+	flavor = cr_kazakh_events.13.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 913 #= 2.5 years. Wont be seeing Kenesary for a while after being defeated
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year. Kind of useless as Kenesary wont return before this one expires. Still useful for tooltip
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.13.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				has_modifier = cr_steppe_stirrings_of_unity
+			}
+			remove_modifier = cr_steppe_stirrings_of_unity
+		}
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+			}
+			add_modifier = {
+				name = cr_steppe_broken_resistance
+				days = 1095
+			}
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -35
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -35
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = -35
+		}
+	}
+}
+
+cr_kazakh_events.14 = {	#Driven Beyond the Horizon - Kenesary driven deeper into the steppes
+	type = country_event
+	placement = scope:kenesary_raid_scope
+	event_image = {
+		video = "ep1_ca_mountain_pass_military"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.14.t
+	desc = cr_kazakh_events.14.desc
+	flavor = cr_kazakh_events.14.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 550 #= 1.5 years. Kenesary will take some time to return
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year. Kind of useless as Kenesary wont return before this one expires. Still useful for tooltip
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.14.a
+        default_option = yes
+		custom_tooltip = cr_kazakh_events.14.a_tt
+		remove_modifier = cr_steppe_punitive_expedition
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				has_modifier = cr_steppe_stirrings_of_unity
+			}
+			remove_modifier = cr_steppe_stirrings_of_unity
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -20
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -20
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = -20
+		}
+	}
+}
+
+cr_kazakh_events.15 = {	#The Steppe Strikes Back - Expedition Defeated
+	type = country_event
+	placement = scope:kenesary_raid_scope
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.15.t
+	desc = cr_kazakh_events.15.desc
+	flavor = cr_kazakh_events.15.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_scope
+			}
+		}
+		if = {
+			limit = {
+				p:x28AD29 = {
+					owner = ROOT
+				}
+			}
+			p:x28AD29 = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		else = {
+			ROOT = {
+				save_scope_as = kenesary_raid_news_scope
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 120 #= 4 months
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year before we can launch a new punitive expedition
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.15.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				has_modifier = cr_steppe_stirrings_of_unity
+			}
+			remove_modifier = cr_steppe_stirrings_of_unity
+		}
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+			}
+			add_modifier = {
+				name = cr_steppe_military_disaster
+				days = short_modifier_time
+			}
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 25
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 25
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = 25
+		}
+	}
+}
+
+cr_kazakh_events.16 = {	#Across the Empty Steppe - Inconclusive
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.16.t
+	desc = cr_kazakh_events.16.desc
+	flavor = cr_kazakh_events.16.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 60 #= 2 months
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year before we can launch a new punitive expedition
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.16.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+	}
+}
+
+cr_kazakh_events.17 = {	#Pushed Beyond the Plains - small victory
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.17.t
+	desc = cr_kazakh_events.17.desc
+	flavor = cr_kazakh_events.17.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 270 #= 9 months
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year before we can launch a new punitive expedition
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.17.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+		#every_scope_state = {
+		#	limit = {
+		#		region = sr:region_central_asia
+		#		is_split_state = yes
+		#	}
+		#	add_modifier = {
+		#		name = cr_steppe_military_disaster
+		#		days = short_modifier_time
+		#	}
+		#}
+		change_tension = {
+		  country = c:KZH
+		  value = -10
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -10
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = -10
+		}
+	}
+}
+
+cr_kazakh_events.18 = {	#The Burning of the Auls - medium victory
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.18.t
+	desc = cr_kazakh_events.18.desc
+	flavor = cr_kazakh_events.18.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 405 #= 14 months
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year before we can launch a new punitive expedition
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.18.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+		#every_scope_state = {
+		#	limit = {
+		#		region = sr:region_central_asia
+		#		is_split_state = yes
+		#	}
+		#	add_modifier = {
+		#		name = cr_steppe_military_disaster
+		#		days = short_modifier_time
+		#	}
+		#}
+		change_tension = {
+		  country = c:KZH
+		  value = -20
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -20
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = -20
+		}
+	}
+}
+
+cr_kazakh_events.19 = {	#Victory on the Steppe - victory
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.19.t
+	desc = cr_kazakh_events.19.desc
+	flavor = cr_kazakh_events.19.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 730 #= 2 years
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year before we can launch a new punitive expedition
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.19.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+		#every_scope_state = {
+		#	limit = {
+		#		region = sr:region_central_asia
+		#		is_split_state = yes
+		#	}
+		#	add_modifier = {
+		#		name = cr_steppe_military_disaster
+		#		days = short_modifier_time
+		#	}
+		#}
+		change_tension = {
+		  country = c:KZH
+		  value = -35
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -35
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = -35
+		}
+	}
+}
+
+cr_kazakh_events.20 = {	#A Reverse on the Steppe - defeat
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.20.t
+	desc = cr_kazakh_events.20.desc
+	flavor = cr_kazakh_events.20.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 120 #= 4 months
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year before we can launch a new punitive expedition
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.20.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+			}
+			add_modifier = {
+				name = cr_steppe_military_setback
+				days = short_modifier_time
+			}
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 20
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 20
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = 20
+		}
+	}
+}
+
+cr_kazakh_events.21 = {	#A Reverse on the Steppe - small defeat
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.21.t
+	desc = cr_kazakh_events.21.desc
+	flavor = cr_kazakh_events.21.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#triggered by event
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		random_character_in_void = {
+			limit = {
+				has_variable = kenesary_variable
+			}
+			save_scope_as = kenesary_scope
+		}
+		set_variable = {
+			name = cr_kenesary_cooldown_var
+			days = 120 #= 4 months
+		}
+		set_variable = {
+			name = cr_steppe_had_recent_expedition
+			days = 365 #= 1 year before we can launch a new punitive expedition
+		}
+		set_variable = cr_steppe_first_expedition_has_returned
+		set_variable = cr_steppe_kenesary_in_hiding
+	}
+
+	cancellation_trigger = {
+		NOR = {
+			has_journal_entry = je_pacify_the_steppes
+			has_modifier = cr_steppe_punitive_expedition
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.21.a
+        default_option = yes
+		remove_modifier = cr_steppe_punitive_expedition
+		every_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+			}
+			add_modifier = {
+				name = cr_steppe_military_setback
+				days = short_modifier_time
+			}
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 15
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 15
+		}
+		change_tension = {
+		  country = c:UZH
+		  value = 15
+		}
+	}
+}
+
+cr_kazakh_events.30 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.30.t
+	desc = cr_kazakh_events.30.desc
+	flavor = cr_kazakh_events.30.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.30.a
+        default_option = yes
+		#scope:kazak_event_state = {
+		#	add_modifier = {
+		#		name = cr_steppe_imposing_the_yoke
+		#		days = short_modifier_time
+		#	}
+		#}
+		cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 30
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.30.b
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_lessening_the_yoke
+				days = short_modifier_time
+			}
+		}		
+		cr_steppe_decrease_tension_normal_effect = yes
+		ai_chance = {
+			base = 70
+		}
+	}
+}
+
+cr_kazakh_events.31 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.31.t
+	desc = cr_kazakh_events.31.desc
+	flavor = cr_kazakh_events.31.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.31.a
+        default_option = yes
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_caged_nomads
+				days = short_modifier_time
+			}
+		}
+		cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.31.b
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_free_rein_nomad
+				days = short_modifier_time
+			}
+		}		
+		cr_steppe_decrease_tension_small_effect = yes
+		ai_chance = {
+			base = 40
+		}
+	}
+}
+
+cr_kazakh_events.32 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.32.t
+	desc = cr_kazakh_events.32.desc
+	flavor = cr_kazakh_events.32.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.32.a
+        default_option = yes
+		add_modifier = {
+			name = cr_steppe_gifts_for_auls
+			days = short_modifier_time
+		}
+		cr_steppe_decrease_tension_small_effect = yes
+		ai_chance = {
+			base = 65
+			modifier = {
+				trigger = {
+					authority < 75
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					authority < 25
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.32.b
+		#scope:kazak_event_state = {
+		#	add_modifier = {
+		#		name = cr_steppe_no_gifts_for_auls
+		#		days = short_modifier_time
+		#	}
+		#}		
+		cr_steppe_increase_tension_small_effect = yes
+		ai_chance = {
+			base = 35
+		}
+	}
+}
+
+cr_kazakh_events.33 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.33.t
+	desc = cr_kazakh_events.33.desc
+	flavor = cr_kazakh_events.33.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.33.a
+        default_option = yes
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_enclosures
+				days = short_modifier_time
+			}
+		}
+		cr_steppe_increase_tension_large_effect = yes
+		ai_chance = {
+			base = 30
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.33.b
+		ig:ig_armed_forces = {
+			add_modifier = {
+				name = cr_steppe_steppe_compromises
+				days = short_modifier_time
+			}	
+		}		
+		scope:kazak_event_state = {
+			add_radicals_in_state = {
+				pop_type = officers
+				value = large_radicals
+			}
+		}
+		cr_steppe_decrease_tension_small_effect = yes
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.33.c
+		scope:kazak_event_state = {
+			add_radicals_in_state = {
+				culture = cu:kazak
+				value = large_radicals
+			}
+		}
+		cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+cr_kazakh_events.34 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.34.t
+	desc = cr_kazakh_events.34.desc
+	flavor = cr_kazakh_events.34.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.34.a
+        default_option = yes
+		#scope:kazak_event_state = {
+		#	add_modifier = {
+		#		name = cr_steppe_increased_patrols_on_the_steppes
+		#		days = short_modifier_time
+		#	}
+		#}
+		cr_steppe_increase_tension_small_effect = yes
+		ai_chance = {
+			base = 40
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.34.b
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_free_rein_nomad
+				days = short_modifier_time
+			}
+		}
+		cr_steppe_decrease_tension_small_effect = yes
+		ai_chance = {
+			base = 60
+		}
+	}
+}
+
+cr_kazakh_events.35 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.35.t
+	desc = cr_kazakh_events.35.desc
+	flavor = cr_kazakh_events.35.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.35.a
+        default_option = yes
+		add_modifier = {
+			name = cr_steppe_increased_patrols_on_the_steppes
+			days = short_modifier_time
+		}
+		scope:kazak_event_state = {
+			state_region = {
+				add_devastation = 5
+			}
+		}
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					authority < 75
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					authority < 25
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.35.b
+		scope:kazak_event_state = {
+			state_region = {
+				add_devastation = 5
+			}
+		}	
+		cr_steppe_increase_tension_small_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+cr_kazakh_events.40 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.40.t
+	desc = cr_kazakh_events.40.desc
+	flavor = cr_kazakh_events.40.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.40.a
+        default_option = yes
+		scope:kazak_event_neighbour_state = {
+			state_region = {
+				add_devastation = 5
+			}	
+		}
+		cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					authority < 75
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					authority < 25
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.40.b
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_clan_warfare
+				days = short_modifier_time
+			}
+		}		
+		#cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+cr_kazakh_events.41 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.41.t
+	desc = cr_kazakh_events.41.desc
+	flavor = cr_kazakh_events.41.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.41.a
+        default_option = yes
+		add_modifier = {
+			name = cr_steppe_returning_the_bride
+			days = short_modifier_time
+		}	
+		#scope:kazak_event_neighbour_state = {
+		#	state_region = {
+		#		add_devastation = 5
+		#	}
+		#}
+		cr_steppe_decrease_tension_small_effect = yes
+
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					authority < 75
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					authority < 25
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.41.b
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_bride_kidnapping
+				days = short_modifier_time
+			}	
+		}	
+		scope:kazak_event_neighbour_state = {
+			state_region = {
+				add_devastation = 10
+			}
+		}
+		#cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+cr_kazakh_events.42 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.42.t
+	desc = cr_kazakh_events.42.desc
+	flavor = cr_kazakh_events.42.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.42.a
+        default_option = yes
+		#scope:kazak_event_state = {
+		#	add_modifier = {
+		#		name = cr_steppe_seperating_the_herds
+		#		days = short_modifier_time
+		#	}
+		#}	
+		scope:kazak_event_neighbour_state = {
+			state_region = {
+				add_devastation = 5
+			}
+		}	
+		cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 75
+			#modifier = {
+			#	trigger = {
+			#		authority < 100
+			#	}
+			#	add = -35
+			#}
+			#modifier = {
+			#	trigger = {
+			#		authority < 50
+			#	}
+			#	add = -35
+			#}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.42.b
+		scope:kazak_event_neighbour_state = {
+			state_region = {
+				add_devastation = 15
+			}
+		}	
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_cattle_raiding
+				days = short_modifier_time
+			}
+		}
+		cr_steppe_decrease_tension_small_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+cr_kazakh_events.43 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.43.t
+	desc = cr_kazakh_events.43.desc
+	flavor = cr_kazakh_events.43.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.43.a
+        default_option = yes
+		cr_steppe_decrease_tension_normal_effect = yes
+		add_modifier = {
+			name = cr_steppe_kazakh_magistrates
+			days = normal_modifier_time
+		}	
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_kazakh_magistrates_local
+				days = normal_modifier_time
+			}
+		}
+		
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					bureaucracy < 200
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					bureaucracy < 100
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.43.b
+		cr_steppe_increase_tension_normal_effect = yes
+		add_modifier = {
+			name = cr_steppe_increase_cossack_patrols_national
+			days = short_modifier_time
+		}	
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					authority < 75
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					authority < 25
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.43.c
+		cr_steppe_increase_tension_small_effect = yes
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_ineffective_administration
+				days = normal_modifier_time
+			}
+		}
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+cr_kazakh_events.44 = {
+	type = country_event
+	placement = scope:kazak_event_neighbour_state
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.44.t
+	desc = cr_kazakh_events.44.desc
+	flavor = cr_kazakh_events.44.flavour
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		NOT = { has_variable = cr_steppe_random_event_cooldown }
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		random_scope_state = {
+			limit = {
+				region = sr:region_central_asia
+				is_split_state = yes
+				any_neighbouring_state = {
+					owner = {
+						country_has_primary_culture = cu:kazak
+						is_country_type = decentralized
+					}
+				}
+			}
+			save_scope_as = kazak_event_state
+		}
+		random_state = {
+			limit = {
+				this.state_region = { region = sr:region_central_asia }
+				NOT = { has_claim_by = c:CHI }
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+			save_scope_as = kazak_event_neighbour_state
+		}
+		cr_steppe_set_random_event_spacer_effect = yes
+	}
+
+	option = {
+		name = cr_kazakh_events.44.a
+        default_option = yes
+		add_modifier = {
+			name = cr_steppe_coopting_kazakh_elders
+			days = normal_modifier_time
+		}	
+		scope:kazak_event_state = {
+			if = {
+				limit = {
+					has_modifier = cr_steppe_kazakh_squabbles
+				}
+				remove_modifier = cr_steppe_kazakh_squabbles
+			}	
+			add_modifier = {
+				name = cr_steppe_coopting_kazakh_elders_local
+				days = normal_modifier_time
+			}	
+		}
+		#cr_steppe_decrease_tension_small_effect = yes
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					bureaucracy < 200
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					bureaucracy < 100
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.44.b
+		scope:kazak_event_neighbour_state = {
+			state_region = {
+				add_devastation = 10
+			}
+		}
+		#add_modifier = {
+		#	name = cr_steppe_harsh_rule_national
+		#	days = short_modifier_time
+		#}	
+		#every_scope_state= {
+			#limit = {
+			#	region = sr:region_central_asia
+			#	is_split_state = yes
+			#	any_neighbouring_state = {
+			#		owner = {
+			#			country_has_primary_culture = cu:kazak
+			#			is_country_type = decentralized
+			#		}
+			#	}
+			#}
+		scope:kazak_event_state = {
+			add_modifier = {
+				name = cr_steppe_harsh_rule_on_the_steppe
+				days = normal_modifier_time
+			}	
+		}
+		cr_steppe_decrease_tension_normal_effect = yes
+		if = {
+			limit = {
+				scope:kazak_event_neighbour_state.state_region = s:STATE_SYRDARYA
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_SYRDARYA
+					}
+					NOT = {
+						this = ROOT
+					}
+				}
+				post_notification = cr_kazakh_harsh_rule_on_the_steppes
+			}
+		}
+		else_if = {
+			limit = {
+				scope:kazak_event_neighbour_state.state_region = s:STATE_KHIVA
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_KHIVA
+					}
+					NOT = {
+						this = ROOT
+					}
+				}
+				post_notification = cr_kazakh_harsh_rule_on_the_steppes
+			}
+		}
+		else_if = {
+			limit = {
+				scope:kazak_event_neighbour_state.state_region = s:STATE_URALSK
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_URALSK
+					}
+					NOT = {
+						this = ROOT
+					}
+				}
+				post_notification = cr_kazakh_harsh_rule_on_the_steppes
+			}
+		}
+		else_if = {
+			limit = {
+				scope:kazak_event_neighbour_state.state_region = s:STATE_AKMOLINSK
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_AKMOLINSK
+					}
+					NOT = {
+						this = ROOT
+					}
+				}
+				post_notification = cr_kazakh_harsh_rule_on_the_steppes
+			}
+		}
+		else_if = {
+			limit = {
+				scope:kazak_event_neighbour_state.state_region = s:STATE_AKTOBE
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_AKTOBE
+					}
+					NOT = {
+						this = ROOT
+					}
+				}
+				post_notification = cr_kazakh_harsh_rule_on_the_steppes
+			}
+		}
+		else_if = {
+			limit = {
+				scope:kazak_event_neighbour_state.state_region = s:STATE_SEMIRECHE
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_SEMIRECHE
+					}
+					NOT = {
+						this = ROOT
+					}
+				}
+				post_notification = cr_kazakh_harsh_rule_on_the_steppes
+			}
+		}
+		else_if = {
+			limit = {
+				scope:kazak_event_neighbour_state.state_region = s:STATE_JETISY
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						state_region = s:STATE_JETISY
+					}
+					NOT = {
+						this = ROOT
+					}
+				}
+				post_notification = cr_kazakh_harsh_rule_on_the_steppes
+			}
+		}
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					authority < 75
+				}
+				add = -35
+			}
+			modifier = {
+				trigger = {
+					authority < 25
+				}
+				add = -35
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.44.c
+		scope:kazak_event_state = {
+			if = {
+				limit = {
+					has_modifier = cr_steppe_kazakh_squabbles
+				}
+				remove_modifier = cr_steppe_kazakh_squabbles
+			}	
+			add_modifier = {
+				name = cr_steppe_disloyal_clans
+				days = short_modifier_time
+			}	
+		}	
+		cr_steppe_increase_tension_normal_effect = yes
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+cr_kazakh_events.60 = {
+	type = country_event
+	placement = p:xF536A6	#Ili, the centre of Chinese control over the region.
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = cr_kazakh_events.60.t
+	desc = { 
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.60.desc_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_kazakh_events.60.desc
+			}
+		}
+	}
+	flavor = { 
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.60.flavour_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_kazakh_events.60.flavour
+			}
+		}
+	}
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	trigger = {
+	
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		c:KAZ = {
+			save_scope_as = kazakhstan_scope
+		}
+		scope:kazakhstan_scope = {
+			ruler = {
+				save_scope_as = kenesary_scope
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.60.a
+        default_option = yes
+		if = {
+			limit = {
+				c:KAZ = {
+					is_subject_of = c:RUS
+				}
+			}
+			custom_tooltip = cr_kazakh_events.60.a_tt
+		}
+		every_scope_state = {
+			limit = {
+				state_region = { region = sr:region_central_asia }
+				is_split_state = yes
+				state_region = { is_homeland = cu:kazak }
+			}
+			add_modifier = { 
+				name = modifier_kazakh_ungovernable_provinces_cr_changed 
+				days = long_modifier_time 
+				is_decaying = yes 
+			}
+		}
+		change_relations = {
+			country = scope:kazakhstan_scope
+			value = -30 # Enough to cause a relations level increase and a positive catalyst
+		}
+		if = {
+			limit = { 
+				c:KAZ = {
+					is_subject_of = c:RUS
+				}
+			}
+			add_radicals = {
+				value = very_large_radicals
+				culture = cu:kazak
+			}
+		}
+		else = {		
+			add_radicals = {
+				value = large_radicals
+				culture = cu:kazak
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.60.b
+        trigger = {
+			c:KAZ = {
+				is_subject_of = c:RUS
+			}
+		}
+		if = {
+			limit = {
+				s:STATE_JETISY = {
+					any_scope_state = { has_claim_by = ROOT }
+				}
+				exists = s:STATE_JETISY.region_state:KAZ
+			}
+			s:STATE_JETISY = { remove_claim = ROOT }
+		}
+		if = {
+			limit = {
+				s:STATE_DZUNGARIA = {
+					any_scope_state = { has_claim_by = ROOT }
+				}
+				exists = s:STATE_DZUNGARIA.region_state:KAZ
+			}
+			s:STATE_DZUNGARIA = { remove_claim = ROOT }
+		}
+		change_relations = {
+			country = scope:kazakhstan_scope
+			value = 30 # Enough to cause a relations level increase and a positive catalyst
+		}
+		change_relations = {
+			country = c:RUS
+			value = 30 # Enough to cause a relations level increase and a positive catalyst
+		}
+		add_radicals = { #Because your Kazakh subjects will now see Kenesary as legitimate leader.
+			value = huge_radicals
+			culture = cu:kazak
+		}
+	}
+}
+
+cr_kazakh_events.61 = {
+	type = country_event
+	placement = scope:kazakhstan_capital_scope
+	event_image = {
+		video = "ep1_cossacks"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					this = c:KOK
+					c:KAZ = {
+						#is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.61.t_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KOK
+				}
+				desc = cr_kazakh_events.61.t
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KHI
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.62.t_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KHI
+				}
+				desc = cr_kazakh_events.62.t
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:BUK
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.63.t_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:BUK
+				}
+				desc = cr_kazakh_events.63.t
+			}
+			triggered_desc = {
+				trigger = {
+					country_rank = rank_value:great_power
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.64.t_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					country_rank = rank_value:great_power
+				}
+				desc = cr_kazakh_events.64.t
+			}
+			triggered_desc = {
+				trigger = {
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.65.t_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_kazakh_events.65.t
+			}
+		}
+	}
+	desc = { 
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					this = c:KOK
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.61.desc_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KOK
+				}
+				desc = cr_kazakh_events.61.desc
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KHI
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.62.desc_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KHI
+				}
+				desc = cr_kazakh_events.62.desc
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:BUK
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.63.desc_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:BUK
+				}
+				desc = cr_kazakh_events.63.desc
+			}
+			triggered_desc = {
+				trigger = {
+					country_rank = rank_value:great_power
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.64.desc_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					country_rank = rank_value:great_power
+				}
+				desc = cr_kazakh_events.64.desc
+			}
+			triggered_desc = {
+				trigger = {
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.65.desc_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_kazakh_events.65.desc
+			}
+		}
+	}
+	flavor = { 
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					this = c:KOK
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.61.flavour_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KOK
+				}
+				desc = cr_kazakh_events.61.flavour
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KHI
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.62.flavour_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:KHI
+				}
+				desc = cr_kazakh_events.62.flavour
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:BUK
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.63.flavour_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					this = c:BUK
+				}
+				desc = cr_kazakh_events.63.flavour
+			}
+			triggered_desc = {
+				trigger = {
+					country_rank = rank_value:great_power
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.64.flavour_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					country_rank = rank_value:great_power
+				}
+				desc = cr_kazakh_events.64.flavour
+			}
+			triggered_desc = {
+				trigger = {
+					c:KAZ = {
+						is_subject_of = c:RUS
+					}
+				}
+				desc = cr_kazakh_events.65.flavour_recognised
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_kazakh_events.65.flavour
+			}
+		}
+	}
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+
+	trigger = {
+	}
+
+	immediate = { 
+		c:RUS = {
+        	save_scope_as = russia_scope
+        }
+		c:KAZ = {
+			save_scope_as = kazakhstan_scope
+		}
+		scope:kazakhstan_scope = {
+			ruler = {
+				save_scope_as = kenesary_scope
+			}
+			capital = {
+				save_scope_as = kazakhstan_capital_scope
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.61.a
+        default_option = yes
+		#every_scope_state = {
+		#	limit = {
+		#		state_region = { region = sr:region_central_asia }
+		#		is_split_state = yes
+		#		is_homeland = cu:kazak
+		#	}
+		#	add_modifier = { 
+		#		name = modifier_kazakh_ungovernable_provinces_cr_changed 
+		#		days = long_modifier_time 
+		#		is_decaying = yes 
+		#	}
+		#}
+		change_relations = {
+			country = scope:kazakhstan_scope
+			value = -30 # Enough to cause a relations level decrease and a negative catalyst
+		}
+		if = {
+			limit = { 
+				c:KAZ = {
+					is_subject_of = c:RUS
+				}
+			}
+			add_radicals = {
+				value = very_large_radicals
+				culture = cu:kazak
+			}
+		}
+		else = {		
+			add_radicals = {
+				value = large_radicals
+				culture = cu:kazak
+			}
+		}
+	}
+
+	option = {
+		name = cr_kazakh_events.61.b
+        trigger = {
+			c:KHI ?= this #Because Khiva was historically friendly to Kenesary
+		}
+		change_relations = {
+			country = scope:kazakhstan_scope
+			value = 30 # Enough to cause a relations level increase and a positive catalyst
+		}
+		change_relations = {
+			country = c:RUS
+			value = -30 # Enough to cause a relations level decrease and a negative catalyst
+		}
+		if = {
+			limit = {
+				this?= c:KHI #Because Khiva was historically friendly to Kenesary
+			}
+			add_loyalists = {
+				value = large_radicals
+				culture = cu:kazak
+			}
+		}
+		else = {	#Because your Kazakh subjects will now see Kenesary as legitimate leader.
+			add_radicals = {
+				value = very_large_radicals
+				culture = cu:kazak
+			}
+		}
+	}
+}
+

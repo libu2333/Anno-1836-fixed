@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:AIN = {
+		create_character = {
+			# Actually, chief of Nayoro (Penzenskoe, Sakhalin)
+			first_name = AHR_Sitkuranke
+			last_name = AHR_Nayoro
+			home_region = STATE_SAKHALIN
+			historical = yes
+			culture = cu:ainu
+			ruler = yes
+			birth_date = 1800.1.1
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				basic_diplomat
+			}
+		}	
+	}
+}

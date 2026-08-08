@@ -1,0 +1,45 @@
+﻿# root = political_movement
+
+## STATE FACTORS ##
+
+
+## POP FACTORS ##
+
+movement_support_catalan = {
+	name = POP_CULTURE_CATALAN
+}
+
+movement_support_basque = {
+	name = POP_CULTURE_BASQUE
+}
+
+movement_support_galician = {
+	name = POP_CULTURE_GALICIAN
+}
+
+movement_support_dixie = {
+	name = POP_CULTURE_DIXIE
+}
+
+## POP TYPES ##
+
+## TECHNOLOGY ##
+
+## JOURNAL ENTRIES ##
+
+## COUNTRY FACTORS ##
+
+movement_support_split_state = {
+	name = STATE_SPLIT_STATE
+
+}
+
+movement_support_ruler_impopularity = {
+	name = RULER_IMPOPULARITY
+
+	#visible = {
+	#	owner.ruler ?= {
+	#		popularity > 0
+	#	}
+	#}
+}

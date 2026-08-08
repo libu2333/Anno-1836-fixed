@@ -1,0 +1,51 @@
+﻿# This list is alphabetically sorted. Please keep it so.
+
+language_frisian = {
+	type = language
+	trait_group = language_group_germanic
+}
+
+language_balinese = {
+	type = language
+	trait_group = language_group_austronesian
+}
+
+language_javanese = {
+	type = language
+	trait_group = language_group_austronesian
+}
+
+language_minangkabau = {
+	type = language
+	trait_group = language_group_austronesian
+}
+
+language_sundanese = {
+	type = language
+	trait_group = language_group_austronesian
+}
+
+language_bariba = {
+	type = language
+	trait_group = language_group_gur
+}
+
+language_gwari = {
+	type = language
+	trait_group = language_group_volta_niger
+}
+
+language_nupe = {
+	type = language
+	trait_group = language_group_volta_niger
+}
+
+language_dimasa = {
+	type = language
+	trait_group = language_group_tibeto_burman
+}
+
+language_khasi = {
+	type = language
+	trait_group = language_group_austronesian
+}

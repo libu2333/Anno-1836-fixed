@@ -1,0 +1,19 @@
+﻿######################################
+#									 #
+# 	Gabon (amalgamation of tribes)	 #
+#								 	 #
+######################################
+GBN_antchoue_kome_rapontcombo = {
+	first_name = "Antchoue_kome"
+	last_name = "Rapontcombo" 
+	historical = yes
+	ruler = yes
+	age = 42	#Random age
+	culture = primary_culture
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_GABON
+	traits = {
+		
+	}
+}

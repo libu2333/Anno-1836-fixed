@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:PDA ?= {
+		create_character = {
+			template = PDA_mahmud_han_alamsja
+		}
+	}
+}

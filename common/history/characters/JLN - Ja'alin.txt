@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:JLN ?= {
+		create_character = {
+			first_name = "Nimr"
+			last_name = "Muhammed"
+			historical = yes
+			ruler = yes
+			age = 61
+			interest_group = ig_landowners
+			traits = {
+				reckless wrathful pillager stalwart_defender
+			}
+			home_region = STATE_BLUE_NILE
+		}
+	}
+	c:RSH ?= {
+		create_character = {
+			# Yusuf Ali Mir
+			first_name = "Yusuf"
+			last_name = "Ali_Mir"
+			ruler = yes
+			age = 42
+			home_region = STATE_BADAKHSHAN
+			interest_group = ig_landowners
+			traits = {
+				reckless
+			}
+		}
+	}
+}

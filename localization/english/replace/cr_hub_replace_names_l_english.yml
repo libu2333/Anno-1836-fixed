@@ -1,0 +1,1786 @@
+﻿l_english:
+ # France
+ STATE_FRENCH_LOW_COUNTRIES_city:0 "Lille"
+ STATE_FRENCH_LOW_COUNTRIES_port:0 "Dunkirk"
+ STATE_FRENCH_LOW_COUNTRIES_mine:0 "Valenciennes"
+ STATE_FRENCH_LOW_COUNTRIES_farm:0 "Arras"
+ STATE_FRENCH_LOW_COUNTRIES_wood:0 "Valenciennes"
+ HUB_NAME_STATE_BRITTANY_city:0 "Nantes"
+ HUB_NAME_STATE_BRITTANY_port:0 "Brest"
+ HUB_NAME_STATE_BRITTANY_mine:0 "Saint-Brieuc"
+ HUB_NAME_STATE_BRITTANY_farm:0 "Rennes"
+ HUB_NAME_STATE_BRITTANY_wood:0 "Vannes"
+ HUB_NAME_STATE_NORMANDY_city:0 "Rouen"
+ HUB_NAME_STATE_NORMANDY_port:0 "La Havre"
+ HUB_NAME_STATE_NORMANDY_mine:0 "Avranches"
+ HUB_NAME_STATE_NORMANDY_farm:0 "Caen"
+ HUB_NAME_STATE_NORMANDY_wood:0 "Vire"
+ HUB_NAME_STATE_PICARDY_city:0 "Amiens"
+ HUB_NAME_STATE_PICARDY_port:0 "Le Tréport"
+ HUB_NAME_STATE_PICARDY_mine:0 "Laon"
+ HUB_NAME_STATE_PICARDY_farm:0 "Beauvais"
+ HUB_NAME_STATE_PICARDY_wood:0 "Compiegne"
+ HUB_NAME_STATE_CHAMPAGNE_city:0 "Reims"
+ HUB_NAME_STATE_CHAMPAGNE_mine:0 "Sedan"
+ HUB_NAME_STATE_CHAMPAGNE_farm:0 "Troyes"
+ HUB_NAME_STATE_CHAMPAGNE_wood:0 "Chaumont"
+ HUB_NAME_STATE_ILE_DE_FRANCE_city:0 "Paris"
+ HUB_NAME_STATE_ILE_DE_FRANCE_mine:0 "Melun"
+ HUB_NAME_STATE_ILE_DE_FRANCE_farm:0 "Pontoise"
+ HUB_NAME_STATE_ILE_DE_FRANCE_wood:0 "Fontainebleau"
+ HUB_NAME_STATE_ORLEANS_city:0 "Orléans"
+ HUB_NAME_STATE_ORLEANS_mine:0 "Bourges"  
+ HUB_NAME_STATE_ORLEANS_farm:0 "Tours"
+ HUB_NAME_STATE_ORLEANS_wood:0 "Chartres"
+ HUB_NAME_STATE_LANGUEDOC_city:0 "Nimes"
+ HUB_NAME_STATE_LANGUEDOC_port:0 "Montpellier"
+ HUB_NAME_STATE_LANGUEDOC_mine:0 "Alès"
+ HUB_NAME_STATE_LANGUEDOC_farm:0 "Perpignan"
+ HUB_NAME_STATE_LANGUEDOC_wood:0 "Mende"
+ HUB_NAME_STATE_LOIRE_city:0 "Angers"
+ HUB_NAME_STATE_LOIRE_port:0 "Les Sables d'Olonne"
+ HUB_NAME_STATE_LOIRE_mine:0 "Laval"
+ HUB_NAME_STATE_LOIRE_farm:0 "Le Mans"
+ HUB_NAME_STATE_LOIRE_wood:0 "Aleçon"
+ HUB_NAME_STATE_POITOU_city:0 "Poitiers"
+ HUB_NAME_STATE_POITOU_port:0 "La Rochelle"
+ HUB_NAME_STATE_POITOU_mine:0 "Niort"
+ HUB_NAME_STATE_POITOU_farm:0 "La Roche-sur-Yon"
+ HUB_NAME_STATE_POITOU_wood:0 "Augouleme"
+ HUB_NAME_STATE_GUYENNE_city:0 "Toulouse"
+ HUB_NAME_STATE_GUYENNE_mine:0 "Tarbez"
+ HUB_NAME_STATE_GUYENNE_farm:0 "Montauban"
+ HUB_NAME_STATE_GUYENNE_wood:0 "Foix"
+ HUB_NAME_STATE_AUVERGNE_city:0 "Clermont-Ferrand"
+ HUB_NAME_STATE_AUVERGNE_mine:0 "Moulins"
+ HUB_NAME_STATE_AUVERGNE_farm:0 "Limoges"
+ HUB_NAME_STATE_AUVERGNE_wood:0 "Aurillac"
+ HUB_NAME_STATE_BURGUNDY_city:0 "Dijon"
+ HUB_NAME_STATE_BURGUNDY_mine:0 "Le Creusot"
+ HUB_NAME_STATE_BURGUNDY_farm:0 "Auxerre"
+ HUB_NAME_STATE_BURGUNDY_wood:0 "Nevers"
+ HUB_NAME_STATE_FRANCHE_COMTE_city:0 "Besançon"
+ HUB_NAME_STATE_FRANCHE_COMTE_mine:0 "Ronchamp"
+ HUB_NAME_STATE_FRANCHE_COMTE_farm:0 "Vesoul"
+ HUB_NAME_STATE_FRANCHE_COMTE_wood:0 "Belfort"
+ HUB_NAME_STATE_ALSACE_LORRAINE_city:0 "Strasbourg"
+ HUB_NAME_STATE_ALSACE_LORRAINE_mine:0 "Thionville"
+ HUB_NAME_STATE_ALSACE_LORRAINE_farm:0 "Metz"
+ HUB_NAME_STATE_ALSACE_LORRAINE_wood:0 "Mulhouse"
+ HUB_NAME_STATE_LORRAINE_city:0 "Nancy"
+ HUB_NAME_STATE_LORRAINE_mine:0 "Longwy"
+ HUB_NAME_STATE_LORRAINE_farm:0 "Épinal"
+ HUB_NAME_STATE_LORRAINE_wood:0 "Neufchateau"
+ HUB_NAME_STATE_RHONE_city:0 "Lyon"
+ HUB_NAME_STATE_RHONE_mine:0 "Saint Etienne" 
+ HUB_NAME_STATE_RHONE_farm:0 "Valence"
+ HUB_NAME_STATE_RHONE_wood:0 "Grenoble"
+ HUB_NAME_STATE_PROVENCE_city:0 "Marseille"
+ HUB_NAME_STATE_PROVENCE_port:0 "Toulon"
+ HUB_NAME_STATE_PROVENCE_mine:0 "Gap"
+ HUB_NAME_STATE_PROVENCE_farm:0 "Avignon"
+ HUB_NAME_STATE_PROVENCE_wood:0 "Nice"
+ HUB_NAME_STATE_CORSICA_city:0 "Propriano"
+ HUB_NAME_STATE_CORSICA_port:0 "Ajaccio"
+ 
+ HUB_NAME_STATE_AQUITAINE_city:0 "Bordeaux"
+ HUB_NAME_STATE_AQUITAINE_port:0 "Bordeaux"
+ HUB_NAME_STATE_AQUITAINE_mine:0 "Dax" 
+ HUB_NAME_STATE_AQUITAINE_farm:0 "Périgueux" 
+ HUB_NAME_STATE_AQUITAINE_wood:0 "Pau"
+ 
+ #Norway
+ HUB_NAME_STATE_EASTERN_NORWAY_mine:0 "Kongsberg"
+ HUB_NAME_STATE_EASTERN_NORWAY_wood:0 "Lillehammer"
+ 
+ HUB_NAME_STATE_WESTERN_NORWAY_mine:0 "Arendal"
+ HUB_NAME_STATE_WESTERN_NORWAY_wood:0 "Sunndalsøren"
+ 
+ HUB_NAME_STATE_NORTHERN_NORWAY_wood:0 "Stjørdal"
+ 
+ #Finland
+ HUB_NAME_STATE_KUOPIO_mine:0 "Kuusjärvi"
+ 
+ HUB_NAME_STATE_OSTROBOTHNIA_farm:0 "Seinäjoki"
+ HUB_NAME_STATE_OSTROBOTHNIA_mine:0 "Jämsä"
+ HUB_NAME_STATE_OSTROBOTHNIA_wood:0 "Jyväskylä"
+ 
+ 
+ #Italy
+ HUB_NAME_STATE_SARDINIA_mine:0 "Iglesias"
+ 
+ #Montenegro
+ HUB_NAME_STATE_MONTENEGRO_city:0 "Cetinje"
+ HUB_NAME_STATE_MONTENEGRO_farm:0 "Podgorica"
+ HUB_NAME_STATE_MONTENEGRO_mine:0 "Brskovo"
+ HUB_NAME_STATE_MONTENEGRO_wood:0 "Nikšić"
+ 
+ #Austrian Empire
+ HUB_NAME_STATE_TYROL_city:0 "Salzburg"
+ HUB_NAME_STATE_TYROL_farm:0 "Innsbruck"
+ 
+ HUB_NAME_STATE_EAST_GALICIA_mine:0 "Krystynopol"
+ 
+ HUN_NAME_STATE_WEST_GALICIA_wood:0 "Neu Sandez"
+ 
+ HUB_NAME_STATE_MORAVIA_wood:0 "Olomouc"
+ HUB_NAME_STATE_MORAVIA_mine:0 "Jhlava"
+ 
+ HUB_NAME_STATE_BUKOVINA_city:0 "Chernivtsi"
+ HUB_NAME_STATE_BUKOVINA_farm:0 "Suceava"
+ #HUB_NAME_STATE_BUKOVINA_wood:0 ""
+ HUB_NAME_STATE_BUKOVINA_mine:0 "Vatra Dornei"
+ 
+ #Hungary
+ #HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_city:0 "Marosvásárhely"
+ #HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_farm:0 ""
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_wood:0 "Sepsiszentgyörgy"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_mine:0 "Radna"
+ 
+ #HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_city:0 "Marosvásárhely"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_farm:0 "Sibiu"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_wood:0 "Alba Iulia"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_mine:0 "Vajdahunyad"
+ 
+ HUB_NAME_STATE_BEKES_mine:0 "Nagybánya"
+ 
+ HUB_NAME_STATE_BANAT_farm:0 "Nagyszentmiklós"
+ 
+ HUB_NAME_STATE_DELVIDEK_wood:0 "Pančevo"
+ HUB_NAME_STATE_DELVIDEK_mine:0 "Szabadka"
+ 
+ HUB_NAME_STATE_CENTRAL_HUNGARY_farm:0 "Szeged"
+ HUB_NAME_STATE_CENTRAL_HUNGARY_wood:0 "Miskolc"
+ HUB_NAME_STATE_CENTRAL_HUNGARY_mine:0 "Szolnok"
+ 
+ HUB_NAME_STATE_TRANSDANUBIA_farm:0 "Gyor"
+ HUB_NAME_STATE_TRANSDANUBIA_wood:0 "Keszthely"
+ 
+ HUB_NAME_STATE_EAST_SLOVAKIA_city:0 "Kaschau"
+ HUB_NAME_STATE_EAST_SLOVAKIA_farm:0 "Preschau"
+ HUB_NAME_STATE_EAST_SLOVAKIA_mine:0 "Rosenau"
+ HUB_NAME_STATE_EAST_SLOVAKIA_wood:0 "Altsohl"
+ 
+ HUB_NAME_STATE_MOLDAVIA_mine:0 "Galaţi"
+ 
+ #Great Britain
+ 
+ HUB_NAME_STATE_EAST_ANGLIA_city:0 "Cambridge"
+ HUB_NAME_STATE_EAST_ANGLIA_port:0 "Ipswich"
+ HUB_NAME_STATE_EAST_ANGLIA_mine:1 "Luton"
+ HUB_NAME_STATE_EAST_ANGLIA_farm:0 "Norwich"
+ HUB_NAME_STATE_EAST_ANGLIA_wood:0 "Bury Sint Edmunds"
+ HUB_NAME_STATE_HOME_COUNTIES_city:0 "London"
+ HUB_NAME_STATE_HOME_COUNTIES_port:0 "Portsmouth"
+ HUB_NAME_STATE_HOME_COUNTIES_mine:0 "Reading"
+ HUB_NAME_STATE_HOME_COUNTIES_farm:0 "Oxford" 
+ HUB_NAME_STATE_HOME_COUNTIES_wood:0 "Canterbury"
+ HUB_NAME_STATE_WEST_COUNTRY_city:0 "Bristol"
+ HUB_NAME_STATE_WEST_COUNTRY_port:0 "Plymouth"
+ HUB_NAME_STATE_WEST_COUNTRY_mine:0 "Camborne"
+ HUB_NAME_STATE_WEST_COUNTRY_farm:0 "Gloucester"
+ HUB_NAME_STATE_WEST_COUNTRY_wood:0 "Exeter"
+ HUB_NAME_STATE_MIDLANDS_city:0 "Birmingham"
+ HUB_NAME_STATE_MIDLANDS_port:0 "Grimsby"
+ HUB_NAME_STATE_MIDLANDS_mine:1 "Nottingham"
+ HUB_NAME_STATE_MIDLANDS_farm:0 "Leicester"
+ HUB_NAME_STATE_MIDLANDS_wood:0 "Shrewsbury"
+ HUB_NAME_STATE_YORKSHIRE_city:0 "Leeds"
+ HUB_NAME_STATE_YORKSHIRE_port:0 "Newcastle"
+ HUB_NAME_STATE_YORKSHIRE_mine:0 "Sheffield"
+ HUB_NAME_STATE_YORKSHIRE_farm:0 "York"
+ HUB_NAME_STATE_YORKSHIRE_wood:0 "Middlesbrough"
+ 
+ HUB_NAME_STATE_MUNSTER_port:0 "Limerick"
+ 
+ #Central Asia
+ HUB_NAME_STATE_JETISY_city:0 "Alma-Ata"
+ HUB_NAME_STATE_JETISY_mine:0 "Tekeli" 
+ HUB_NAME_STATE_JETISY_farm:0 "Uzynagash"
+ HUB_NAME_STATE_JETISY_wood:0 "Talgar"
+ 
+ HUB_NAME_STATE_KIRGHIZIA_city:0 "Pishpek"
+ HUB_NAME_STATE_KIRGHIZIA_mine:0 "Talas"
+ HUB_NAME_STATE_KIRGHIZIA_farm:0 "Karakol"
+ HUB_NAME_STATE_KIRGHIZIA_wood:0 "Naryn"
+ 
+ HUB_NAME_STATE_FERGANA_city:0 "Kokand"
+ HUB_NAME_STATE_FERGANA_farm:0 "Andijan"
+ HUB_NAME_STATE_FERGANA_mine:0 "Namangan"
+ HUB_NAME_STATE_FERGANA_wood:0 "Fergana"
+ 
+ HUB_NAME_STATE_UZBEKIA_city:0 "Bukhara"
+ HUB_NAME_STATE_UZBEKIA_mine:0 "Qarshi"
+ HUB_NAME_STATE_UZBEKIA_farm:0 "Samarkand"
+ HUB_NAME_STATE_UZBEKIA_wood:0 "Shahrisabz"
+ 
+ HUB_NAME_STATE_KHIVA_city:0 "Khiva"
+ HUB_NAME_STATE_KHIVA_mine:0 "Qaraqalpaqstan"
+ HUB_NAME_STATE_KHIVA_farm:0 "Tashauz"
+ HUB_NAME_STATE_KHIVA_wood:0 "Urgench"
+ 
+ #HUB_NAME_STATE_TURKMENIA_city:0 "Mary" 
+ #HUB_NAME_STATE_TURKMENIA_mine:0 "Ashgabat"
+ #HUB_NAME_STATE_TURKMENIA_farm:0 "Tashauz"
+ #HUB_NAME_STATE_TURKMENIA_wood:0 "Turkmenabat"
+
+ HUB_NAME_STATE_TAJIKISTAN_city:0 "Dushanbe"
+ HUB_NAME_STATE_TAJIKISTAN_mine:0 "Gharm"
+ HUB_NAME_STATE_TAJIKISTAN_farm:0 "Qurghonteppa"
+ HUB_NAME_STATE_TAJIKISTAN_wood:0 "Termez"
+ 
+ HUB_NAME_STATE_SEMIRECHE_city:0 "Semipalatinsk"
+ HUB_NAME_STATE_SEMIRECHE_mine:0 "Ekibastuz"
+ HUB_NAME_STATE_SEMIRECHE_farm:0 "Ust-Kamenogorsk"
+ HUB_NAME_STATE_SEMIRECHE_wood:0 "Ridder"
+ 
+ HUB_NAME_STATE_AKMOLINSK_city:0 "Akmola"
+ HUB_NAME_STATE_AKMOLINSK_mine:0 "Rudny"
+ HUB_NAME_STATE_AKMOLINSK_farm:0 "Kokchetav" 
+ HUB_NAME_STATE_AKMOLINSK_wood:0 "Shchuchinsk"
+ 
+ HUB_NAME_STATE_URALSK_city:0 "Guryev"
+ HUB_NAME_STATE_URALSK_mine:0 "Zhympity"
+ HUB_NAME_STATE_URALSK_farm:0 "Aktyubinsk"
+ HUB_NAME_STATE_URALSK_wood:0 "Uralsk"
+ 
+ HUB_NAME_STATE_HIMALAYAS_city:0 "Kathmandu"
+ HUB_NAME_STATE_HIMALAYAS_farm:0 "Bharatpur"
+ HUB_NAME_STATE_HIMALAYAS_wood:0 "Pokhara"
+ HUB_NAME_STATE_HIMALAYAS_mine:0 "Butwal"
+ 
+ HUB_NAME_STATE_EASTERN_HIMALAYAS_city:0 "Punakha"
+ HUB_NAME_STATE_EASTERN_HIMALAYAS_farm:0 "Gangtok"
+ HUB_NAME_STATE_EASTERN_HIMALAYAS_wood:0 "Tassisudon"
+ HUB_NAME_STATE_EASTERN_HIMALAYAS_mine:0 "Itanagar"
+ 
+ HUB_NAME_STATE_ALTAI_city:0 "Ulala"
+ HUB_NAME_STATE_ALTAI_farm:0 "Kosh-Agach"
+ HUB_NAME_STATE_ALTAI_wood:0 "Turochak"
+ HUB_NAME_STATE_ALTAI_mine:0 "Alakhinskoye" #Lithium mine
+ 
+ #Afghanistan
+ HUB_NAME_STATE_STATE_KANDAHAR_city:0 "Khandahar"
+ HUB_NAME_STATE_STATE_KANDAHAR_mine:0 "Qalat"
+ HUB_NAME_STATE_STATE_KANDAHAR_farm:0 "Lashkar Gah"
+ HUB_NAME_STATE_STATE_KANDAHAR_wood:0 "Chora"
+ 
+ HUB_NAME_STATE_KABUL_city:0 "Kabul"
+ HUB_NAME_STATE_KABUL_mine:0 "Mes Aynak"
+ HUB_NAME_STATE_KABUL_farm:0 "Jalalabad"
+ HUB_NAME_STATE_KABUL_wood:0 "Ghazni" 
+ 
+ HUB_NAME_STATE_BALKH_city:0 "Mazar-i Sharif"
+ HUB_NAME_STATE_BALKH_farm:0 "Kunduz"
+ HUB_NAME_STATE_BALKH_mine:0 "Shabashak"
+ HUB_NAME_STATE_BALKH_wood:0 "Maymana"
+ 
+ HUB_NAME_STATE_HERAT_city:0 "Herat"
+ HUB_NAME_STATE_HERAT_farm:0 "Farah"
+ HUB_NAME_STATE_HERAT_mine:0 "Gurian"
+ HUB_NAME_STATE_HERAT_wood:0 "Shindand"
+ 
+ HUB_NAME_STATE_QUETTA_city:0 "Quetta"
+ HUB_NAME_STATE_QUETTA_farm:0 "Zhob"
+ HUB_NAME_STATE_QUETTA_wood:0 "Hamaya"
+ HUB_NAME_STATE_QUETTA_mine:0 "Loralai"
+ 
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_city:0 "Zaranj"
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_farm:0 "Lashkar Gah"
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_wood:0 "Northern Baluchistan Wood"
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_mine:0 "Northern Baluchistan Mine"
+ 
+ #Iberia
+ HUB_NAME_STATE_ESTREMADURA_city:0 "Lisbon"
+ HUB_NAME_STATE_ESTREMADURA_mine:0 "Alcobaça"
+ HUB_NAME_STATE_ESTREMADURA_farm:0 "Coimbra"
+ HUB_NAME_STATE_ESTREMADURA_wood:0 "Marinha Grande"
+ HUB_NAME_STATE_ESTREMADURA_port:0 "Figueira da Foz"
+ HUB_NAME_STATE_BEIRA_city:0 "Viseu"
+ HUB_NAME_STATE_BEIRA_farm:0 "Elvas"
+ HUB_NAME_STATE_BEIRA_mine:0 "Ponte-de-Sor"
+ HUB_NAME_STATE_BEIRA_wood:0 "Evora"
+ HUB_NAME_STATE_ALENTEJO_city:0 "Faro"
+ HUB_NAME_STATE_ALENTEJO_port:0 "Lagos"
+ HUB_NAME_STATE_ALENTEJO_farm:0 "Faro"
+ HUB_NAME_STATE_ALENTEJO_mine:0 "Faro"
+ HUB_NAME_STATE_ALENTEJO_wood:0 "Lagos"
+ HUB_NAME_STATE_CATALONIA_city:0 "Barcelona"
+ HUB_NAME_STATE_CATALONIA_port:0 "Tarragona"
+ #HUB_NAME_STATE_CATALONIA_farm:0 "Perpignan"
+ #HUB_NAME_STATE_CATALONIA_mine:0 ""
+ #HUB_NAME_STATE_CATALONIA_wood:0 ""
+ HUB_NAME_STATE_OLD_CASTILE_city:0 "Burgos"
+ HUB_NAME_STATE_OLD_CASTILE_farm:0 "Logroño"
+ HUB_NAME_STATE_OLD_CASTILE_mine:0 "Guardo"
+ HUB_NAME_STATE_OLD_CASTILE_wood:0 "Soria"
+ HUB_NAME_STATE_LEON_city:0 "Valladolid"
+ HUB_NAME_STATE_LEON_farm:0 "Salamanca"
+ HUB_NAME_STATE_LEON_mine:0 "Leon"
+ HUB_NAME_STATE_LEON_wood:0 "Segovia"
+ HUB_NAME_STATE_VALENCIA_city:0 "Valencia"
+ HUB_NAME_STATE_VALENCIA_farm:0 "Castellón de la Plana"
+ HUB_NAME_STATE_VALENCIA_mine:0 "Torrevieja"
+ HUB_NAME_STATE_VALENCIA_wood:0 "Chelva"
+ HUB_NAME_STATE_VALENCIA_port:0 "Alicante"
+ HUB_NAME_STATE_MURCIA_city:0 "Murcia"
+ HUB_NAME_STATE_MURCIA_farm:0 "Lorca"
+ HUB_NAME_STATE_MURCIA_mine:0 "Cartagena"
+ HUB_NAME_STATE_MURCIA_wood:0 "Albacete"
+ HUB_NAME_STATE_MURCIA_port:0 "Águilas"
+ HUB_NAME_STATE_ALENTEJO_city:0 "Faro"
+ HUB_NAME_STATE_ALENTEJO_farm:0 "Beja"
+ HUB_NAME_STATE_ALENTEJO_port:0 "Lagos"
+ HUB_NAME_STATE_ALENTEJO_mine:0 "Aljustrel"
+ HUB_NAME_STATE_ALENTEJO_wood:0 "S.Teotónio"
+ HUB_NAME_STATE_BALEARIC_ISLANDS_mine:0 "San Sebastian"
+ HUB_NAME_STATE_ENTRE_DOURO_E_MINHO_city:0 "Porto"
+ HUB_NAME_STATE_ENTRE_DOURO_E_MINHO_port:0 "Gaia"
+ HUB_NAME_STATE_ENTRE_DOURO_E_MINHO_farm:0 "Braga"
+ HUB_NAME_STATE_ENTRE_DOURO_E_MINHO_mine:0 "Bragança"
+ HUB_NAME_STATE_ENTRE_DOURO_E_MINHO_wood:0 "Vila Real"
+ 
+ #Benelux
+ HUB_NAME_STATE_HOLLAND_mine:0 "Den Helder"
+ HUB_NAME_STATE_HOLLAND_wood:0 "Middelburg"
+ HUB_NAME_STATE_FRIESLAND_farm:0 "Leeuwarden"
+ HUB_NAME_STATE_FRIESLAND_wood:0 "Assen"
+ HUB_NAME_STATE_GELRE_city:0 "Nijmegen"
+ HUB_NAME_STATE_GELRE_mine:0 "Enschede"
+ HUB_NAME_STATE_GELRE_farm:0 "Zwolle"
+ HUB_NAME_STATE_GELRE_wood:0 "Arnhem"
+ HUB_NAME_STATE_GELRE_city:0 "Nijmegen"
+ HUB_NAME_STATE_GELRE_farm:0 "Zwolle"
+ HUB_NAME_STATE_GELRE_mine:0 "Enschede"
+ HUB_NAME_STATE_GELRE_wood:0 "Arnhem"
+ HUB_NAME_STATE_FLANDERS_city:0 "Brussels"
+ HUB_NAME_STATE_FLANDERS_farm:0 "Ghent"
+ HUB_NAME_STATE_FLANDERS_wood:0 "Turnhout"
+ HUB_NAME_STATE_FLANDERS_mine:0 "Hasselt"
+ HUB_NAME_STATE_FLANDERS_port:0 "Antwerp"
+ 
+ #Germany
+ HUB_NAME_STATE_RUHR_farm:0 "Bocholt"
+ 
+ HUB_NAME_STATE_NORTH_RHINE_farm:0 "Achen"
+ HUB_NAME_STATE_NORTH_RHINE_mine:0 "München-Gladbach"
+ 
+ HUB_NAME_STATE_WESTPHALIA_wood:0 "Bielefeld"
+ HUB_NAME_STATE_WESTPHALIA_mine:0 "Essen"
+ 
+ HUB_NAME_STATE_HANNOVER_mine:0 "Salzgitter"
+ 
+ HUB_NAME_STATE_BRUNSWICK_farm:0 "Göttingen"
+ HUB_NAME_STATE_BRUNSWICK_wood:0 "Hamelin"
+ HUB_NAME_STATE_BRUNSWICK_mine:0 "Goslar"
+ 
+ HUB_NAME_STATE_RHINELAND_city:0 "Koblenz"
+ HUB_NAME_STATE_RHINELAND_farm:0 "Mainz"
+ HUB_NAME_STATE_RHINELAND_wood:0 "Trier"
+ HUB_NAME_STATE_RHINELAND_mine:0 "Saarbrücken"
+ 
+ HUB_NAME_STATE_HESSE_farm:0 "Cassel"
+ 
+ HUB_NAME_STATE_ANHALT_city:0 "Dessau"
+ HUB_NAME_STATE_ANHALT_farm:0 "Magdeburg"
+ 
+ HUB_NAME_STATE_SAXONY_city:0 "Dresden"
+ HUB_NAME_STATE_SAXONY_farm:0 "Leipzig"
+ HUB_NAME_STATE_SAXONY_mine:0 "Chemnitz"
+ HUB_NAME_STATE_SAXONY_wood:0 "Zwickau"
+ 
+ HUB_NAME_STATE_LOWER_SILESIA_city:0 "Breslau"
+ HUB_NAME_STATE_LOWER_SILESIA_farm:0 "Liegnitz"
+ HUB_NAME_STATE_LOWER_SILESIA_wood:0 "Grölitz"
+ HUB_NAME_STATE_LOWER_SILESIA_mine:0 "Waldenburg"
+ 
+ HUB_NAME_STATE_UPPER_SILESIA_city:0 "Kattowitz"
+ HUB_NAME_STATE_UPPER_SILESIA_farm:0 "Oppeln"
+ HUB_NAME_STATE_UPPER_SILESIA_wood:0 "Bielitz"
+ HUB_NAME_STATE_UPPER_SILESIA_mine:0 "Ostrau"
+ 
+ #Poland
+ HUB_NAME_STATE_GREATER_POLAND_farm:0 "Łódź"
+ HUB_NAME_STATE_GREATER_POLAND_wood:0 "Radom"
+ HUB_NAME_STATE_GREATER_POLAND_mine:0 "Czynstochowy"
+ 
+ HUB_NAME_STATE_LESSER_POLAND_farm:0 "Siedlce"
+ HUB_NAME_STATE_LESSER_POLAND_wood:0 "Zamość"
+ HUB_NAME_STATE_LESSER_POLAND_mine:0 "Chelm"
+ 
+ HUB_NAME_STATE_MAZOVIA_mine:0 "Malkinia"
+ 
+ #Switzerland
+ HUB_NAME_STATE_WEST_SWITZERLAND_city:0 "Geneva"
+ HUB_NAME_STATE_WEST_SWITZERLAND_mine:0 "Martigny"
+ HUB_NAME_STATE_WEST_SWITZERLAND_farm:1 "Lausanne"
+ HUB_NAME_STATE_WEST_SWITZERLAND_wood:0 "Delémont"
+ HUB_NAME_STATE_EAST_SWITZERLAND_city:0 "Bern"
+ HUB_NAME_STATE_EAST_SWITZERLAND_mine:0 "Basel"
+ HUB_NAME_STATE_EAST_SWITZERLAND_farm:1 "Zürich"
+ HUB_NAME_STATE_EAST_SWITZERLAND_wood:0 "Lucerne"
+ 
+ #Balkans
+ HUB_NAME_STATE_WESTERN_SERBIA_city:0 "Belgrade"
+ HUB_NAME_STATE_WESTERN_SERBIA_farm:0 "Šabac"
+ HUB_NAME_STATE_WESTERN_SERBIA_wood:0 "Čačak"
+ HUB_NAME_STATE_WESTERN_SERBIA_mine:0 "Valjevo"
+ 
+ HUB_NAME_STATE_EASTERN_SERBIA_city:0 "Nis"
+ HUB_NAME_STATE_EASTERN_SERBIA_farm:0 "Požarevac"
+ HUB_NAME_STATE_EASTERN_SERBIA_wood:0 "Vranje"
+ HUB_NAME_STATE_EASTERN_SERBIA_mine:0 "Bor"
+ 
+ HUB_NAME_STATE_KOSOVO_city:0 "Prizren"
+ HUB_NAME_STATE_KOSOVO_farm:0 "Prishtina"
+ HUB_NAME_STATE_KOSOVO_wood:0 "Ferizaj"
+ HUB_NAME_STATE_KOSOVO_mine:0 "Mitrovica"
+ 
+ 
+ #Russia
+ HUB_NAME_STATE_IRKUTSK_city:0 "Irkutsk"
+ HUB_NAME_STATE_IRKUTSK_farm:0 "Bratsk"
+ HUB_NAME_STATE_IRKUTSK_wood:0 "Ust-Kut"
+ HUB_NAME_STATE_IRKUTSK_mine:0 "Cheremkhovo"
+ 
+ HUB_NAME_STATE_TRANS_BAIKAL_city:0 "Verkhneudinsk" 
+ HUB_NAME_STATE_TRANS_BAIKAL_farm:0 "Nerchinsk" 
+ HUB_NAME_STATE_TRANS_BAIKAL_wood:0 "Shkaruby" 
+ HUB_NAME_STATE_TRANS_BAIKAL_mine:0 "Petrovsk"
+ 
+ HUB_NAME_STATE_BURYATIA_farm:0 "Selenginsk" 
+ HUB_NAME_STATE_BURYATIA_wood:0 "Mysovaya" 
+ 
+ HUB_NAME_STATE_AMUR_wood_russian:0 "Zeyksy Sklad" 
+ HUB_NAME_STATE_AMUR_mine_russian:0 "Sololi" 
+ 
+ HUB_NAME_STATE_OKHOTSK_city:0 "Ayan"
+ HUB_NAME_STATE_OKHOTSK_port:0 "Okhotsk"
+ HUB_NAME_STATE_OKHOTSK_farm:0 "Arman"
+ HUB_NAME_STATE_OKHOTSK_wood:0 "Arka"
+ HUB_NAME_STATE_OKHOTSK_mine:0 "Magadan"
+ 
+ HUB_NAME_STATE_YAKUTSK_city:0 "Yakutsk"
+ HUB_NAME_STATE_YAKUTSK_farm:0 "Pokrovskoye"
+ HUB_NAME_STATE_YAKUTSK_wood:0 "Mukhtuya"
+ HUB_NAME_STATE_YAKUTSK_mine:0 "Nyurba"
+ 
+ #HUB_NAME_STATE_TOMSK_city:0 "Tomsk"
+ HUB_NAME_STATE_TOMSK_farm:0 "Barnaul"
+ HUB_NAME_STATE_TOMSK_wood:0 "Tomsk"
+ HUB_NAME_STATE_TOMSK_mine:0 "Kuznetsk"
+ 
+ HUB_NAME_STATE_KRASNOYARSK_mine:0 "Abakan"
+ 
+ HUB_NAME_STATE_UPPER_YENISEYSK_city:0 "Yeniseysk"
+ HUB_NAME_STATE_UPPER_YENISEYSK_farm:0 "Boguchany"
+ HUB_NAME_STATE_UPPER_YENISEYSK_wood:0 "Maklakovo"
+ HUB_NAME_STATE_UPPER_YENISEYSK_mine:0 "Norlisk"
+ 
+ HUB_NAME_STATE_TOBOLSK_city:0 "Omsk"
+ HUB_NAME_STATE_TOBOLSK_farm:0 "Tyumen"
+ HUB_NAME_STATE_TOBOLSK_wood:0 "Tobolsk"
+ HUB_NAME_STATE_TOBOLSK_mine:0 "Tara"
+ 
+ HUB_NAME_STATE_OB_mine:0 "Novy Urengoy" 
+ 
+ HUB_NAME_STATE_PERM_mine:0 "Kizil"
+ HUB_NAME_STATE_PERM_wood:0 "Vizhaikha"
+ 
+ HUB_NAME_STATE_URAL_farm:0 "Kamyshlov"
+ 
+
+ HUB_NAME_STATE_CHELYABINSK_farm:0 "Kurgan"
+ HUB_NAME_STATE_CHELYABINSK_wood:0 "Kyshtym"
+  
+ HUB_NAME_STATE_SAMARA_city:0 "Samara"
+ HUB_NAME_STATE_SAMARA_farm:0 "Orenburg" 
+ HUB_NAME_STATE_SAMARA_wood:0 "Syzran"
+ HUB_NAME_STATE_SAMARA_mine:0 "Orsk"
+ 
+ HUB_NAME_STATE_NIZNHY_NOVGOROD_city:0 "Niznhy Novgorod"
+ HUB_NAME_STATE_NIZNHY_NOVGOROD_farm:0 "Arzamas" 
+ HUB_NAME_STATE_NIZNHY_NOVGOROD_wood:0 "Semjonov" 
+ HUB_NAME_STATE_NIZNHY_NOVGOROD_mine:0 "Sergach"
+ 
+ HUB_NAME_STATE_CHUVASHIA_city:0 "Cheboksary"
+ HUB_NAME_STATE_CHUVASHIA_wood:0 "Shikhrany"
+ HUB_NAME_STATE_CHUVASHIA_mine:0 "Alatyr"
+ 
+ HUB_NAME_STATE_YAROSLAVL_city:0 "Yaroslavl"
+ HUB_NAME_STATE_YAROSLAVL_farm:0 "Vladimir" 
+ HUB_NAME_STATE_YAROSLAVL_wood:0 "Kostromo"
+ HUB_NAME_STATE_YAROSLAVL_mine:0 "Ivanovo"
+ 
+ HUB_NAME_STATE_NOVGOROD_city:0 "Novgorod"
+ HUB_NAME_STATE_NOVGOROD_farm:0 "Staraya Russa" 
+ HUB_NAME_STATE_NOVGOROD_wood:0 "Kirillov"
+ HUB_NAME_STATE_NOVGOROD_mine:0 "Chudovo"
+ 
+ HUB_NAME_STATE_MOSCOW_city:0 "Moscow"
+ HUB_NAME_STATE_MOSCOW_farm:0 "Podolsk" 
+ HUB_NAME_STATE_MOSCOW_wood:0 "Boridino"
+ HUB_NAME_STATE_MOSCOW_mine:0 "Serpukhov"
+ 
+ HUB_NAME_STATE_RYAZAN_city:0 "Ryazan"
+ HUB_NAME_STATE_RYAZAN_farm:0 "Tula"
+ HUB_NAME_STATE_RYAZAN_wood:0 "Ryazhk"
+ HUB_NAME_STATE_RYAZAN_mine:0 "Tula" #unused
+ 
+ HUB_NAME_STATE_SMOLENSK_farm:0 "Kaluga" 
+ HUB_NAME_STATE_SMOLENSK_mine:0 "Safonovo"
+ 
+ #HUB_NAME_STATE_ORYOL_city:0 "Tula"
+ #HUB_NAME_STATE_ORYOL_farm:0 "Orel" 
+ #HUB_NAME_STATE_ORYOL_wood:0 "Dankov"
+ #HUB_NAME_STATE_ORYOL_mine:0 "Lipetsk"
+ 
+ HUB_NAME_STATE_KURSK_city:0 "Kursk"
+ HUB_NAME_STATE_KURSK_farm:0 "Voronezh" 
+ HUB_NAME_STATE_KURSK_wood:0 "Belgorod"
+ HUB_NAME_STATE_KURSK_mine:0 "Stary Oskol"
+ 
+ #HUB_NAME_STATE_TARTARIA_city:0 "Saratov"
+ #HUB_NAME_STATE_TARTARIA_farm:0 "Simbirsk"
+ HUB_NAME_STATE_TARTARIA_wood:0 "Kuznetsk"
+ #HUB_NAME_STATE_TARTARIA_mine:0 "Penza"
+ 
+ HUB_NAME_STATE_ASTRAKHAN_farm:0 "Tsaritsyn"
+ HUB_NAME_STATE_ASTRAKHAN_wood:0 "Kharabali"
+ 
+ HUB_NAME_STATE_ROSTOV_city:0 "Novocherkassk"
+ HUB_NAME_STATE_ROSTOV_port:0 "Rostov"
+ HUB_NAME_STATE_ROSTOV_farm:0 "Semikarakorsk"
+ HUB_NAME_STATE_ROSTOV_wood:0 "Vyoshenskaya"
+ HUB_NAME_STATE_ROSTOV_mine:0 "Alexandrovsk-Grushevsky"
+ 
+ HUB_NAME_STATE_KUBAN_city:0 "Yekaterinodar"
+ HUB_NAME_STATE_KUBAN_port:0 "Novorossiysk"
+ HUB_NAME_STATE_KUBAN_farm:0 "Romanovsky Khutor"
+ HUB_NAME_STATE_KUBAN_wood:0 "Sochi"
+ HUB_NAME_STATE_KUBAN_mine:0 "Maykop"
+ 
+ HUB_NAME_STATE_STAVROPOL_farm:0 "Pyatigorsk"
+ HUB_NAME_STATE_STAVROPOL_mine:0 "Prikumsk"
+ 
+ HUB_NAME_STATE_NORTH_CAUCASUS_wood:0 "Vladikavkaz"
+ HUB_NAME_STATE_NORTH_CAUCASUS_mine:0 "Mozdok"
+ 
+ HUB_NAME_STATE_DAGESTAN_city:0 "Tarki"
+ HUB_NAME_STATE_DAGESTAN_farm:0 "Derbent" 
+ HUB_NAME_STATE_DAGESTAN_wood:0 "Chasava" 
+ HUB_NAME_STATE_DAGESTAN_mine:0 "Sellia"
+ 
+ HUB_NAME_STATE_GREATER_CAUCASUS_city:0 "Tiflis"
+ HUB_NAME_STATE_GREATER_CAUCASUS_farm:0 "Koetaisi"
+ HUB_NAME_STATE_GREATER_CAUCASUS_mine:0 "Akhaltsikhe"
+ HUB_NAME_STATE_GREATER_CAUCASUS_wood:0 "Telavi"
+ 
+ HUB_NAME_STATE_ARMENIA_mine:0 "Alaverdi"
+ 
+ HUB_NAME_STATE_KIEV_city:0 "Kiev"
+ HUB_NAME_STATE_KIEV_farm:0 "Bila Tserkva"
+ HUB_NAME_STATE_KIEV_wood:0 "Zhytomyr"
+ HUB_NAME_STATE_KIEV_mine:0 "Vinnytsia"
+ 
+ HUB_NAME_STATE_VOLHYNIA_mine:0 "Volodymyr-Volynskyi"
+ 
+ HUB_NAME_STATE_CHERSON_city:0 "Ekaterinoslav"
+ HUB_NAME_STATE_CHERSON_port:0 "Odessa"
+ HUB_NAME_STATE_CHERSON_farm:0 "Cherson"
+ HUB_NAME_STATE_CHERSON_wood:0 "Voznesensk"
+ HUB_NAME_STATE_CHERSON_mine:0 "Kryvy Rih"
+ 
+ HUB_NAME_STATE_KHARKOV_city:0 "Kharkov"
+ HUB_NAME_STATE_KHARKOV_port:0 "Mariupol"
+ HUB_NAME_STATE_KHARKOV_farm:0 "Luhansk"
+ HUB_NAME_STATE_KHARKOV_wood:0 "Sloviansk"
+ HUB_NAME_STATE_KHARKOV_mine:0 "Donetsk"
+ 
+ HUB_NAME_STATE_CHERNIHIV_city:0 "Poltava"
+ HUB_NAME_STATE_CHERNIHIV_farm:0 "Sumy"
+ HUB_NAME_STATE_CHERNIHIV_wood:0 "Chernihiv"
+ HUB_NAME_STATE_CHERNIHIV_mine:0 "Kremenchuk"
+ 
+ HUB_NAME_STATE_CRIMEA_city:0 "Simferopol"
+ HUB_NAME_STATE_CRIMEA_port:0 "Sevastopol"
+ HUB_NAME_STATE_CRIMEA_farm:0 "Melitopol"
+ HUB_NAME_STATE_CRIMEA_wood:0 "Perekop" 
+ HUB_NAME_STATE_CRIMEA_mine:0 "Alexandrovsk" 
+ 
+ HUB_NAME_STATE_ARKHANGELSK_city:0 "Kholmogory"
+ HUB_NAME_STATE_ARKHANGELSK_port:0 "Arkhangelsk"
+ HUB_NAME_STATE_ARKHANGELSK_farm:0 "Velsk"
+ HUB_NAME_STATE_ARKHANGELSK_wood:0 "Onega"
+ #HUB_NAME_STATE_ARKHANGELSK_mine:0 "Vorkuta"
+ 
+ HUB_NAME_STATE_NENETSIA_city:0 "Naryan-Mar"
+ HUB_NAME_STATE_NENETSIA_farm:0 "Velikisochnoye"
+ HUB_NAME_STATE_NENETSIA_wood:0 "Haruta"
+ HUB_NAME_STATE_NENETSIA_mine:0 "Vorkuta"
+ 
+ HUB_NAME_STATE_GALICH_city:0 "Vologda"
+ HUB_NAME_STATE_GALICH_farm:0 "Totma"
+ HUB_NAME_STATE_GALICH_wood:0 "Ust-Sysolsk"
+ HUB_NAME_STATE_GALICH_mine:0 "Chibyu"
+ 
+ HUB_NAME_STATE_KOLA_city:0 "Umba"
+ HUB_NAME_STATE_KOLA_wood:0 "Varzuga"
+ 
+ HUB_NAME_STATE_KAMCHATKA_city:0 "Nizhnekamchatsk"
+ HUB_NAME_STATE_KAMCHATKA_port:0 "Petropavlovsk-Kamchatskiy"
+ HUB_NAME_STATE_KAMCHATKA_farm:0 "Milkovo"
+ HUB_NAME_STATE_KAMCHATKA_wood:0 "Klyuchi"
+ HUB_NAME_STATE_KAMCHATKA_mine:0 "Palana"
+ 
+ HUB_NAME_STATE_CHUKOTKA_city:0 "Provideniya"
+ HUB_NAME_STATE_CHUKOTKA_port:0 "Novo-Mariinsk"
+ HUB_NAME_STATE_CHUKOTKA_farm:0 "Markovo"
+ HUB_NAME_STATE_CHUKOTKA_mine:0 "Pevek"
+ HUB_NAME_STATE_CHUKOTKA_wood:0 "Uelen"
+ 
+ HUB_NAME_STATE_TALINN_mine:0 "Tapa"
+ 
+ HUB_NAME_STATE_TARTU_mine:0 "Madona"
+ 
+ HUB_NAME_STATE_COURLAND_farm:0 "Jakobstadt"
+ HUB_NAME_STATE_COURLAND_wood:0 "Ventspils"
+ HUB_NAME_STATE_COURLAND_mine:0 "Kuldiga"
+ 
+ HUB_NAME_STATE_KAUNAS_farm:0 "Šiauliai"
+ HUB_NAME_STATE_KAUNAS_wood:0 "Panevezjis"
+ HUB_NAME_STATE_KAUNAS_mine:0 "Mažeikiai"
+ 
+ HUB_NAME_STATE_VILNIUS_farm:0 "Alytus"
+ HUB_NAME_STATE_VILNIUS_wood:0 "Varėna"
+ HUB_NAME_STATE_VILNIUS_mine:0 "Marijampolė"
+ 
+ HUB_NAME_STATE_BREST_wood:0 "Pinsk"
+ HUB_NAME_STATE_BREST_mine:0 "Baranavitsjy"
+ 
+ #HUB_NAME_STATE_VYATKA_city:0 "Vyatka"
+ #HUB_NAME_STATE_VYATKA_farm:0 "Izhevsk"
+ HUB_NAME_STATE_VYATKA_mine:0 "Kotelnitsj"
+ 
+ HUB_NAME_STATE_MINSK_wood:0 "Kalinkavichy"
+ 
+ HUB_NAME_STATE_MOGILEV_wood:0 "Gomel"
+ HUB_NAME_STATE_MOGILEV_mine:0 "Ragachow"
+ 
+ #Iraq
+ HUB_NAME_STATE_BAGHDAD_city:0 "Baghdad"
+ HUB_NAME_STATE_BAGHDAD_mine:0 "Karbala"
+ HUB_NAME_STATE_BAGHDAD_farm:0 "Najaf"
+ HUB_NAME_STATE_BAGHDAD_wood:0 "Al-Kut"
+ HUB_NAME_STATE_BAGHDAD_port:0 "Basra"
+ HUB_NAME_STATE_MOSUL_city:0 "Mosul"
+ HUB_NAME_STATE_MOSUL_mine:0 "Sinjar"
+ HUB_NAME_STATE_MOSUL_farm:0 "Samara"
+ HUB_NAME_STATE_MOSUL_wood:0 "Ramadi"
+ 
+ #Libya
+ HUB_NAME_STATE_LIBYA_city:0 "Benghazi"
+ HUB_NAME_STATE_LIBYA_mine:0 "Ajdabiya"
+ HUB_NAME_STATE_LIBYA_farm:0 "Elbeida"
+ HUB_NAME_STATE_LIBYA_wood:0 "Bayyada"
+ HUB_NAME_STATE_LIBYA_port:0 "Tobruk"
+ HUB_NAME_STATE_TRIPOLI_city:0 "Tripoli"
+ HUB_NAME_STATE_TRIPOLI_mine:0 "Sirte"
+ HUB_NAME_STATE_TRIPOLI_farm:0 "Khoms"
+ HUB_NAME_STATE_TRIPOLI_wood:0 "Zawiya"
+ HUB_NAME_STATE_TRIPOLI_port:0 "Misratah"
+ HUB_NAME_STATE_LIBYAN_DESERT_city:0 "Al Jawf"
+ HUB_NAME_STATE_LIBYAN_DESERT_mine:0 "Sarir"
+ HUB_NAME_STATE_LIBYAN_DESERT_farm:0 "Tazirbu"
+ HUB_NAME_STATE_LIBYAN_DESERT_wood:0 "Harat Zuwayyah"
+ 
+ #Egypt
+ HUB_NAME_STATE_MATRUH_city:0 "Mersa Matruh"
+ HUB_NAME_STATE_MATRUH_mine:0 "Ras El-Kanayis"
+ HUB_NAME_STATE_MATRUH_farm:0 "Siwa"
+ HUB_NAME_STATE_MATRUH_wood:0 "Sidi Barrani"
+ HUB_NAME_STATE_MATRUH_port:0 "El Alamein"
+ HUB_NAME_STATE_MIDDLE_EGYPT_city:0 "Beni Suef"
+ HUB_NAME_STATE_MIDDLE_EGYPT_port:0 "Ain Sukhna"
+ HUB_NAME_STATE_MIDDLE_EGYPT_mine:0 "Bir Z'afarana"
+ HUB_NAME_STATE_MIDDLE_EGYPT_farm:0 "Asyut"
+ HUB_NAME_STATE_MIDDLE_EGYPT_wood:0 "Fayum"
+ HUB_NAME_STATE_UPPER_EGYPT_city:1 "Luxor"
+ HUB_NAME_STATE_UPPER_EGYPT_port:1 "Safaga"
+ HUB_NAME_STATE_UPPER_EGYPT_mine:0 "Aswan"
+ HUB_NAME_STATE_UPPER_EGYPT_farm:0 "Edfu"
+ HUB_NAME_STATE_UPPER_EGYPT_wood:0 "Kom Ombo"
+ HUB_NAME_STATE_EGYPTIAN_DESERT_city:0 "Kharga"
+ HUB_NAME_STATE_EGYPTIAN_DESERT_mine:0 "Bahariya"
+ HUB_NAME_STATE_EGYPTIAN_DESERT_farm:0 "Dakhla"
+ HUB_NAME_STATE_EGYPTIAN_DESERT_wood:0 "Ain Cheb"
+ HUB_NAME_STATE_DONGOLA_city:0 "Ad-Damir"
+ HUB_NAME_STATE_DONGOLA_port:0 "Port Sudan"
+ HUB_NAME_STATE_DONGOLA_mine:0 "Atbarah"
+ HUB_NAME_STATE_DONGOLA_farm:0 "Dongola"
+ HUB_NAME_STATE_DONGOLA_wood:0 "Wadi Halfa"
+ 
+ HUB_NAME_STATE_BLUE_NILE_farm:0 "Sennar"
+ 
+ HUB_NAME_STATE_EQUATORIA_city:0 "Juba"
+ HUB_NAME_STATE_EQUATORIA_farm:0 "Fashoda"
+ HUB_NAME_STATE_EQUATORIA_wood:0 "Wau"
+ 
+ #Arabia
+ HUB_NAME_STATE_YEMEN_city:0 "Sana'a"
+ HUB_NAME_STATE_YEMEN_farm:0 "Taiz"
+ HUB_NAME_STATE_YEMEN_mine:0 "Dhamar"
+ HUB_NAME_STATE_YEMEN_wood:0 "Mocha"
+ HUB_NAME_STATE_YEMEN_port:0 "al-Hudaydah"
+ HUB_NAME_STATE_NEJD_city:0 "Riyadh"
+ HUB_NAME_STATE_NEJD_port:0 "Dhahran"
+ HUB_NAME_STATE_NEJD_mine:1 "Aif"
+ HUB_NAME_STATE_NEJD_farm:1 "Kharj"
+ HUB_NAME_STATE_NEJD_wood:0 "Wadi ad-Dawasir"
+ HUB_NAME_STATE_HAIL_city:0 "Hail" 
+ HUB_NAME_STATE_HAIL_port:0 "Dammam"
+ HUB_NAME_STATE_HAIL_mine:0 "Hafar al-Batin"
+ HUB_NAME_STATE_HAIL_farm:1 "Buraydah"
+ HUB_NAME_STATE_HAIL_wood:0 "Al-Jouf"
+ HUB_NAME_STATE_HEDJAZ_city:0 "Mecca"
+ HUB_NAME_STATE_HEDJAZ_port:0 "Jiddah"
+ HUB_NAME_STATE_HEDJAZ_mine:0 "Taif"
+ HUB_NAME_STATE_HEDJAZ_farm:0 "Medina"
+ HUB_NAME_STATE_HEDJAZ_wood:0 "Tabük"
+ HUB_NAME_STATE_ABU_DHABI_city:0 "Sharjah"
+ HUB_NAME_STATE_ABU_DHABI_farm:0 "Liwa"
+ 
+ HUB_NAME_STATE_SYRIA_mine:0 "Daraa"
+ 
+ #Persia
+ HUB_NAME_STATE_TABRIZ_mine:0 "Zanjan"
+ 
+ HUB_NAME_STATE_MAZANDARAN_farm:0 "Rasht"
+ HUB_NAME_STATE_MAZANDARAN_wood:0 "Astarabad"
+ HUB_NAME_STATE_MAZANDARAN_mine:0 "Sari"
+ 
+ HUB_NAME_STATE_IRAKAJEMI_mine:0 "Damghan"
+ HUB_NAME_STATE_IRAKAJEMI_wood:0 "Damavand"
+ 
+ HUB_NAME_STATE_KHORASAN_mine:0 "Birjand"
+ 
+ HUB_NAME_STATE_KERMAN_city:0 "Kerman"
+ HUB_NAME_STATE_KERMAN_farm:0 "Yazd"
+ HUB_NAME_STATE_KERMAN_wood:0 "Mahan"
+ HUB_NAME_STATE_KERMAN_mine:0 "Saidabad"
+ 
+ HUB_NAME_STATE_SISTAN_city:0 "Bampur"
+ HUB_NAME_STATE_SISTAN_farm:0 "Sistan"
+ HUB_NAME_STATE_SISTAN_wood:0 "Dozdab"
+ HUB_NAME_STATE_SISTAN_mine:0 "Khash"
+ 
+ HUB_NAME_STATE_FARS_city:0 "Shiraz"
+ HUB_NAME_STATE_FARS_port:0 "Bushehr"
+ HUB_NAME_STATE_FARS_farm:0 "Jahrom"
+ HUB_NAME_STATE_FARS_wood:0 "Ardakan"
+ HUB_NAME_STATE_FARS_mine:0 "Abadeh"
+ 
+ HUB_NAME_STATE_KHUZESTAN_city:0 "Muhammara"
+ HUB_NAME_STATE_KHUZESTAN_port:0 "Bandar Mahshahr"
+ HUB_NAME_STATE_KHUZESTAN_farm:0 "Behbahan"
+ HUB_NAME_STATE_KHUZESTAN_wood:0 "Malamir"
+ HUB_NAME_STATE_KHUZESTAN_mine:0 "Ahwaz"
+ 
+ HUB_NAME_STATE_LURISTAN_farm:0 "Shushtar"
+ HUB_NAME_STATE_LURISTAN_wood:0 "Dihbala"
+ HUB_NAME_STATE_LURISTAN_mine:0 "Izeh"
+ 
+ HUB_NAME_STATE_ISFAHAN_farm:0 "Qom"
+ HUB_NAME_STATE_ISFAHAN_wood:0 "Dih Kurd"
+ HUB_NAME_STATE_ISFAHAN_mine:0 "Kashan"
+ 
+ HUB_NAME_STATE_URMIA_city:0 "Urmia"
+ HUB_NAME_STATE_URMIA_farm:0 "Khoy"
+ HUB_NAME_STATE_URMIA_wood:0 "Mahabad"
+ HUB_NAME_STATE_URMIA_mine:0 "Miandoab"
+ 
+ HUB_NAME_STATE_SEMNAN_city:0 "Hamadan"
+ HUB_NAME_STATE_SEMNAN_farm:0 "Saveh"
+ HUB_NAME_STATE_SEMNAN_wood:0 "Malayer"
+ HUB_NAME_STATE_SEMNAN_mine:0 "Arak"
+ 
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_city:0 "Sinna"
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_farm:0 "Kermanshah"
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_wood:0 "Baneh"
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_mine:0 "Marivan"
+ 
+ HUB_NAME_STATE_LARISTAN_mine:0 "Qeshm"
+  
+ #Algeria
+ HUB_NAME_STATE_ALGIERS_city:0 "Algiers"
+ HUB_NAME_STATE_ALGIERS_port:0 "al-Jaza'ir"
+ HUB_NAME_STATE_ALGIERS_farm:0 "Médéa"
+ HUB_NAME_STATE_ALGIERS_mine:0 "TBD"
+ HUB_NAME_STATE_ALGIERS_wood:0 "Lakhdaria"
+ HUB_NAME_STATE_CONSTANTINE_city:0 "Constantine"
+ HUB_NAME_STATE_CONSTANTINE_port:0 "Bone"
+ HUB_NAME_STATE_CONSTANTINE_farm:0 "Guelma"
+ HUB_NAME_STATE_CONSTANTINE_mine:0 "Ouenza"
+ HUB_NAME_STATE_CONSTANTINE_wood:0 "Bordj Bou Arréridj"
+ HUB_NAME_STATE_TLEMCEN_city:0 "Mascara"
+ HUB_NAME_STATE_TLEMCEN_port:0 "Oran"
+ HUB_NAME_STATE_TLEMCEN_farm:0 "Sidi Bel Abbès"
+ HUB_NAME_STATE_TLEMCEN_mine:0 "El Abed"
+ HUB_NAME_STATE_TLEMCEN_wood:0 "Tlemcen"
+ HUB_NAME_STATE_SAHARA_city:0 "Ghardaïa"
+ HUB_NAME_STATE_SAHARA_farm:0 "Timimoun"
+ HUB_NAME_STATE_SAHARA_mine:0 "Gâra Djebilet"
+ HUB_NAME_STATE_SAHARA_wood:0 "In Salah"
+ #Tunisia
+ HUB_NAME_STATE_TUNISIA_city:0 "Tunis"
+ HUB_NAME_STATE_TUNISIA_port:0 "Bizerte"
+ HUB_NAME_STATE_TUNISIA_farm:0 "Sfax"
+ HUB_NAME_STATE_TUNISIA_mine:0 "Gafsa"
+ HUB_NAME_STATE_TUNISIA_wood:0 "Tabarka"
+ #Morocco
+ HUB_NAME_STATE_INNER_MOROCCO_city:0 "Taroudant"
+ HUB_NAME_STATE_INNER_MOROCCO_port:0 "Agadir"
+ HUB_NAME_STATE_INNER_MOROCCO_mine:1 "Azrar"
+ HUB_NAME_STATE_INNER_MOROCCO_farm:0 "Quarzazate"
+ HUB_NAME_STATE_INNER_MOROCCO_wood:0 "Tan Tan"
+ HUB_NAME_STATE_AL_RIF_city:0 "Tangiers"
+ HUB_NAME_STATE_AL_RIF_port:0 "Melilla"
+ HUB_NAME_STATE_AL_RIF_mine:0 "Nador"
+ HUB_NAME_STATE_AL_RIF_farm:0 "Ksar el Kebir"
+ HUB_NAME_STATE_AL_RIF_wood:0 "Tétouan"
+ HUB_NAME_STATE_MARRAKECH_city:0 "Marrakech"
+ HUB_NAME_STATE_MARRAKECH_port:0 "Casablanca"
+ HUB_NAME_STATE_MARRAKECH_mine:0 "Youssoufia" #Khouribga
+ HUB_NAME_STATE_MARRAKECH_farm:0 "Settat"
+ HUB_NAME_STATE_MARRAKECH_wood:0 "Mogador"
+ 
+ HUB_NAME_STATE_WEST_SAHARA_city:0 "Laayoune"
+ HUB_NAME_STATE_WEST_SAHARA_port:0 "Dakhla"
+ HUB_NAME_STATE_WEST_SAHARA_mine:0 "Bou Craa"
+ HUB_NAME_STATE_WEST_SAHARA_farm:0 "Smara"
+ HUB_NAME_STATE_WEST_SAHARA_wood:0 "Gandouz"
+ 
+ #West Africa
+ HUB_NAME_STATE_EASTERN_MALI_city:0 "Ségou"
+ HUB_NAME_STATE_EASTERN_MALI_mine:0 "Bamako"
+ HUB_NAME_STATE_EASTERN_MALI_farm:0 "Djenné"
+ HUB_NAME_STATE_EASTERN_MALI_wood:0 "Sikasso"
+ HUB_NAME_STATE_WESTERN_MALI_city:0 "Kayes"
+ HUB_NAME_STATE_WESTERN_MALI_mine:0 "Sadiola"
+ HUB_NAME_STATE_WESTERN_MALI_farm:0 "Kita"
+ HUB_NAME_STATE_WESTERN_MALI_wood:0 "Bafoulabé"
+ HUB_NAME_STATE_MAURITANIA_city:0 "Rosso"
+ HUB_NAME_STATE_MAURITANIA_port:0 "Nouakchott"
+ HUB_NAME_STATE_MAURITANIA_farm:0 "Kaédi"
+ HUB_NAME_STATE_MAURITANIA_wood:0 "Aleg"
+ HUB_NAME_STATE_MAURITANIA_mine:0 "Boutilimit"
+ HUB_NAME_STATE_INNER_MAURITANIA_city:0 "Atar"
+ HUB_NAME_STATE_INNER_MAURITANIA_port:0 "Port Etienne"
+ HUB_NAME_STATE_INNER_MAURITANIA_farm:0 "Tidjikja"
+ HUB_NAME_STATE_INNER_MAURITANIA_wood:0 "Choum"
+ HUB_NAME_STATE_INNER_MAURITANIA_mine:0 "Fderick"
+ HUB_NAME_STATE_EL_DJOUF_city:0 "Fassalé"
+ HUB_NAME_STATE_EL_DJOUF_farm:0 "Néma"
+ HUB_NAME_STATE_EL_DJOUF_wood:0 "Araouane"
+ HUB_NAME_STATE_EL_DJOUF_mine:0 "Taoudenni"
+ HUB_NAME_STATE_AZAWAD_city:0 "Kidal"
+ HUB_NAME_STATE_AZAWAD_mine:0 "Tessalit"
+ HUB_NAME_STATE_AZAWAD_farm:0 "Adjelhoc"
+ HUB_NAME_STATE_AZAWAD_wood:0 "Anefif"
+ HUB_NAME_STATE_OUTER_HAUSALAND_city:0 "Gobir"
+ HUB_NAME_STATE_OUTER_HAUSALAND_mine:0 "Tahoua"
+ HUB_NAME_STATE_OUTER_HAUSALAND_farm:0 "Maradi"
+ HUB_NAME_STATE_OUTER_HAUSALAND_wood:0 "Mouléla"
+ HUB_NAME_STATE_HAUSALAND_city:0 "Kano"
+ HUB_NAME_STATE_HAUSALAND_mine:0 "Yelwo"
+ HUB_NAME_STATE_HAUSALAND_farm:0 "Sokoto"
+ HUB_NAME_STATE_HAUSALAND_wood:0 "Gusau"
+ HUB_NAME_STATE_NIGERIA_city:0 "Abuja"
+ HUB_NAME_STATE_NIGERIA_farm:0 "Kontagora" #Or Kaduna
+ HUB_NAME_STATE_NIGERIA_mine:0 "Minna"
+ HUB_NAME_STATE_NIGERIA_wood:0 "Makurdi"
+ HUB_NAME_STATE_FOMBINA_city:0 "Yola"
+ HUB_NAME_STATE_FOMBINA_farm:0 "Yakoba"
+ HUB_NAME_STATE_FOMBINA_mine:0 "Jos"
+ HUB_NAME_STATE_FOMBINA_wood:0 "Serti"
+ HUB_NAME_STATE_GUINEA_city:0 "Labé" 
+ HUB_NAME_STATE_GUINEA_mine:0 "Fria" #Dabola/Fria
+ HUB_NAME_STATE_GUINEA_farm:0 "Boké"
+ HUB_NAME_STATE_GUINEA_wood:0 "Mali"
+ HUB_NAME_STATE_GUINEA_port:0 "Conakry"
+ HUB_NAME_STATE_GAMBIA_city:0 "Bissau"
+ HUB_NAME_STATE_GAMBIA_farm:0 "Ziguinchor"
+ HUB_NAME_STATE_TIMBUKTU_city:0 "Timbuktu"
+ HUB_NAME_STATE_TIMBUKTU_farm:0 "Gao"
+ HUB_NAME_STATE_TIMBUKTU_wood:0 "Gossi"
+ HUB_NAME_STATE_TIMBUKTU_mine:0 "I-n-Tillit"
+ HUB_NAME_STATE_GHANA_city:0 "Kumasi"
+ HUB_NAME_STATE_GHANA_port:0 "Accra"
+ HUB_NAME_STATE_GHANA_farm:0 "Elmina"
+ HUB_NAME_STATE_GHANA_wood:0 "Sekondi"
+ HUB_NAME_STATE_GHANA_mine:0 "Obuasi"
+ 
+ HUB_NAME_STATE_UPPER_VOLTA_city: "Ouagadougou"
+ HUB_NAME_STATE_UPPER_VOLTA_mine: "Koudougou"
+ HUB_NAME_STATE_UPPER_VOLTA_farm: "Solenzo"
+ HUB_NAME_STATE_UPPER_VOLTA_wood: "Sia"
+ 
+ HUB_NAME_STATE_VOLTA_city:0 "Tamale"
+ HUB_NAME_STATE_VOLTA_farm:0 "Damongo" 
+ HUB_NAME_STATE_VOLTA_mine:0 "Yendi"
+ HUB_NAME_STATE_VOLTA_wood:0 "Wa"
+ 
+ HUB_NAME_STATE_IVORY_COAST_city:0 "Yamoussoukro"
+ HUB_NAME_STATE_IVORY_COAST_port:0 "Abidan"
+ HUB_NAME_STATE_IVORY_COAST_farm:0 "Bondoukou"
+ HUB_NAME_STATE_IVORY_COAST_wood:0 "Abengourou"
+ HUB_NAME_STATE_IVORY_COAST_mine:0 "Grand-Bassam"
+ 
+ HUB_NAME_STATE_WINDWARD_COAST_city:0 "Daloa"
+ HUB_NAME_STATE_WINDWARD_COAST_port:0 "San-Pédro"
+ HUB_NAME_STATE_WINDWARD_COAST_farm:0 "Divo"
+ HUB_NAME_STATE_WINDWARD_COAST_wood:0 "Duékoué"
+ HUB_NAME_STATE_WINDWARD_COAST_mine:0 "Nouon"
+ 
+ HUB_NAME_STATE_KONG_city:0 "Kong"
+ HUB_NAME_STATE_KONG_farm:0 "Korhogo"
+ HUB_NAME_STATE_KONG_wood:0 "Bouna"
+ HUB_NAME_STATE_KONG_mine:0 "Odienne"
+ 
+ HUB_NAME_STATE_BORGU_city:0 "Nikki"
+ HUB_NAME_STATE_BORGU_farm:0 "Parakou"
+ HUB_NAME_STATE_BORGU_wood:0 "Sokodé"
+ HUB_NAME_STATE_BORGU_mine:0 "Kandi"
+ 
+ HUB_NAME_STATE_DAHOMEY_city:0 "Abomey"
+ HUB_NAME_STATE_DAHOMEY_port:0 "Porto Novo"
+ HUB_NAME_STATE_DAHOMEY_farm:0 "Lomé"
+ HUB_NAME_STATE_DAHOMEY_wood:0 "Pobe"
+ HUB_NAME_STATE_DAHOMEY_mine:0 "Atakpamé"
+ 
+ HUB_NAME_STATE_TOGO_city:0 "Atakpamé"
+ HUB_NAME_STATE_TOGO_port:0 "Lomé"
+ HUB_NAME_STATE_TOGO_farm:0 "Ho"
+ HUB_NAME_STATE_TOGO_wood:0 "Sotouboua"
+ HUB_NAME_STATE_TOGO_mine:0 "Dé Kopé"
+ 
+ HUB_NAME_STATE_BENIN_mine:0 "Auchi"
+ 
+ HUB_NAME_STATE_CHAD_city:0 "N'Djamena"
+ HUB_NAME_STATE_CHAD_farm:0 "Maroua"
+ HUB_NAME_STATE_CHAD_wood:0 "Maingara"
+ HUB_NAME_STATE_CHAD_mine:0 "Doba"
+ 
+ HUB_NAME_STATE_WADDAI_city:0 "Abéché"
+ HUB_NAME_STATE_WADDAI_farm:0 "Dabengat"
+ HUB_NAME_STATE_WADDAI_wood:0 "Haraze"
+ HUB_NAME_STATE_WADDAI_mine:0 "Adré"
+ 
+ HUB_NAME_STATE_BORNU_city:0 "Kukawa" #Or Maiduguri which became Bornu capital in 1907
+ HUB_NAME_STATE_BORNU_farm:0 "Kalwa" #In 1907 renamed/refounded as Maiduguri
+ HUB_NAME_STATE_BORNU_wood:0 "Bama"
+ HUB_NAME_STATE_BORNU_mine:0 "Ngazargamu" #Old Bornu capital until taken in 1809 by the fulani jihad
+ 
+ HUB_NAME_STATE_NORTH_CAMEROON_city:0 "Ngaoundéré"
+ HUB_NAME_STATE_NORTH_CAMEROON_farm:0 "Garoua"
+ HUB_NAME_STATE_NORTH_CAMEROON_wood:0 "Bertoua"
+ HUB_NAME_STATE_NORTH_CAMEROON_mine:0 "Doumé" #Just a random town because I needed something
+ 
+ HUB_NAME_STATE_SOUTH_CAMEROON_farm:0 "Bafoussam"
+ 
+ HUB_NAME_STATE_UBANGI_SHARI_city:0 "Bangui"
+ HUB_NAME_STATE_UBANGI_SHARI_farm:0 "Bouar"
+ HUB_NAME_STATE_UBANGI_SHARI_wood:0 "Mbaïki"
+ HUB_NAME_STATE_UBANGI_SHARI_mine:0 "Bakala"
+ 
+ HUB_NAME_STATE_EQUATEUR_mine:0 "Mushie"
+ 
+ HUB_NAME_STATE_GABON_wood: "Masuku"  #Francheville / Franceville
+ HUB_NAME_STATE_GABON_mine: "Makokou"
+ 
+ ###Congo###
+ 
+ HUB_NAME_STATE_CONGO_ORIENTALE_city:0 "Kisangani"
+ HUB_NAME_STATE_CONGO_ORIENTALE_mine:0 "Kindu"
+ HUB_NAME_STATE_CONGO_ORIENTALE_farm:0 "Isiro"
+ HUB_NAME_STATE_CONGO_ORIENTALE_wood:0 "Buta" #Temp
+ 
+ HUB_NAME_STATE_KATANGA_city:0 "Kisangani"
+ HUB_NAME_STATE_KATANGA_mine:0 "Likasi"
+ HUB_NAME_STATE_KATANGA_farm:0 "Kamina"
+ HUB_NAME_STATE_KATANGA_wood:0 "Bukama"
+ 
+ HUB_NAME_STATE_KASAI_city:0 "Kananga"
+ HUB_NAME_STATE_KASAI_mine:0 "Mbuji-Mayi"
+ HUB_NAME_STATE_KASAI_farm:0 "Ilebo"
+ HUB_NAME_STATE_KASAI_wood:0 "Lodja"
+ 
+ #Horn of Africa
+ HUB_NAME_STATE_SOMALILAND_city:0 "Hargeisa"
+ HUB_NAME_STATE_SOMALILAND_port:0 "Berbera"
+ HUB_NAME_STATE_SOMALILAND_farm:0 "Burao"
+ HUB_NAME_STATE_SOMALILAND_mine:0 "Djibouti"
+ HUB_NAME_STATE_SOMALILAND_wood:0 "Las Khorey"
+ 
+ HUB_NAME_STATE_BALE_city:0 "Harar"
+ HUB_NAME_STATE_BALE_farm:0 "Dodola"
+ HUB_NAME_STATE_BALE_mine:0 "Dire Dawa"
+ HUB_NAME_STATE_BALE_wood:0 "Robe"
+ 
+ HUB_NAME_STATE_OGADEN_city:0 "Kelafo"
+ HUB_NAME_STATE_OGADEN_farm:0 "Jijiga"
+ HUB_NAME_STATE_OGADEN_mine:0 "El Goran"
+ HUB_NAME_STATE_OGADEN_wood:0 "Shilabe"
+ 
+ HUB_NAME_STATE_AMHARA_city:0 "Bonga" #Jimma
+ HUB_NAME_STATE_AMHARA_mine:0 "Arba Minch" #TBD
+ HUB_NAME_STATE_AMHARA_farm:0 "Hosaena" #TBD
+ HUB_NAME_STATE_AMHARA_wood:1 "Anderaccha"
+ 
+ HUB_NAME_STATE_OROMIA_city:0 "Ankober"
+ HUB_NAME_STATE_OROMIA_mine:0 "Jimma"
+ HUB_NAME_STATE_OROMIA_farm:1 "Entoto"
+ HUB_NAME_STATE_OROMIA_wood:0 "Nekemte"
+ 
+ HUB_NAME_STATE_ERITREA_city:0 "Debarwa"
+ HUB_NAME_STATE_ERITREA_port:0 "Massawa"
+ HUB_NAME_STATE_ERITREA_farm:0 "Sanhit"
+ HUB_NAME_STATE_ERITREA_wood:0 "Asmara"
+ HUB_NAME_STATE_ERITREA_mine:0 "Nakfa"
+ 
+ #East Africa
+ HUB_NAME_STATE_ZANZIBAR_city:0 "Zanzibar"
+ HUB_NAME_STATE_ZANZIBAR_port:0 "Dar es Salaam"
+ HUB_NAME_STATE_ZANZIBAR_farm:0 "Bagamoyo"
+ HUB_NAME_STATE_ZANZIBAR_mine:0 "Moshi"
+ HUB_NAME_STATE_ZANZIBAR_wood:0 "Tanga"
+ 
+ HUB_NAME_STATE_LINDI_city:0 "Dodoma"
+ HUB_NAME_STATE_LINDI_farm:0 "Arusha"
+ HUB_NAME_STATE_LINDI_wood:0 "Songea"
+ HUB_NAME_STATE_LINDI_mine:0 "Liganga"
+ 
+ HUB_NAME_STATE_TANGANYIKA_city:0 "Tabora"
+ HUB_NAME_STATE_TANGANYIKA_farm:0 "Mwanza"
+ HUB_NAME_STATE_TANGANYIKA_wood:0 "Mpanda"
+ HUB_NAME_STATE_TANGANYIKA_mine:0 "Sumbawanga"
+ 
+ HUB_NAME_STATE_KENYA_city:0 "Pate"
+ HUB_NAME_STATE_KENYA_port:0 "Mombasa"
+ HUB_NAME_STATE_KENYA_farm:0 "Embu"
+ HUB_NAME_STATE_KENYA_wood:0 "Meru"
+ HUB_NAME_STATE_KENYA_mine:0 "Garissa"
+ 
+ #Southern Africa
+ HUB_NAME_STATE_CAPE_COLONY_mine:0 "Alexanderbaai"
+ HUB_NAME_STATE_CAPE_COLONY_farm:0 "Stellenbosch"
+ 
+ HUB_NAME_STATE_EASTERN_CAPE_city:0 "Grahamstown"
+ HUB_NAME_STATE_EASTERN_CAPE_port:0 "Port Elizabeth"
+ HUB_NAME_STATE_EASTERN_CAPE_farm:0 "Joubertina"
+ HUB_NAME_STATE_EASTERN_CAPE_mine:0 "Cyphergat"
+ HUB_NAME_STATE_EASTERN_CAPE_wood:0 "Stutterheim"
+ 
+ HUB_NAME_STATE_NAMAQUALAND_city:0 "Windhoek"
+ HUB_NAME_STATE_NAMAQUALAND_port:0 "Walvisbaai"
+ HUB_NAME_STATE_NAMAQUALAND_farm:0 "Mariental"
+ HUB_NAME_STATE_NAMAQUALAND_mine:0 "Lüderitz"
+ HUB_NAME_STATE_NAMAQUALAND_wood:0 "Keetmanshoop"
+ 
+ HUB_NAME_STATE_HEREROLAND_city:0 "Okahandja"
+ HUB_NAME_STATE_HEREROLAND_port:0 "Swakopmund"
+ HUB_NAME_STATE_HEREROLAND_farm:0 "Otjiwarongo"
+ HUB_NAME_STATE_HEREROLAND_mine:0 "Otavi"
+ HUB_NAME_STATE_HEREROLAND_wood:0 "Rundu"
+ 
+ HUB_NAME_STATE_MOCAMBIQUE_city:0 "Angoche"
+ HUB_NAME_STATE_MOCAMBIQUE_port:0 "Moçambique"
+ HUB_NAME_STATE_MOCAMBIQUE_farm:0 "Nampula"
+ HUB_NAME_STATE_MOCAMBIQUE_wood:0 "Lichinga"
+ HUB_NAME_STATE_MOCAMBIQUE_mine:0 "Montepuez" #Ruby mines
+ 
+ HUB_NAME_STATE_KAZEMBE_city:0 "Mwansabombwe"
+ HUB_NAME_STATE_KAZEMBE_farm:0 "Kasama"
+ HUB_NAME_STATE_KAZEMBE_wood:0 "Fort Rosebery"
+ HUB_NAME_STATE_KAZEMBE_mine:0 "Mbala" #Don't have a clue
+  
+ #United States
+ HUB_NAME_STATE_ALASKA_city:0 "Sitka"
+ HUB_NAME_STATE_ALASKA_port:0 "Kodiak"
+ HUB_NAME_STATE_ALASKA_farm:0 "Valdez"
+ HUB_NAME_STATE_ALASKA_wood:0 "Anchorage"
+ HUB_NAME_STATE_ALASKA_mine:0 "Nome"
+
+ HUB_NAME_STATE_PENNSYLVANIA_port:0 "Camden" #Wrong side of the river, I know.
+ 
+ HUB_NAME_STATE_TEXAS_farm:0 "San Antonio"
+ 
+ HUB_NAME_STATE_OREGON_farm: "Salem"
+ HUB_NAME_STATE_OREGON_wood: "Eugene"
+ HUB_NAME_STATE_OREGON_mine: "Pendleton"    #Unused, but needed a hub in the place
+ 
+ HUB_NAME_STATE_WASHINGTON_city: "Olympia"
+ HUB_NAME_STATE_WASHINGTON_port: "Seattle"
+ HUB_NAME_STATE_WASHINGTON_wood: "Fort Nisqually"
+ HUB_NAME_STATE_WASHINGTON_mine: "Spokane"
+ 
+ #Canada
+ HUB_NAME_STATE_MANITOBA_wood:0 "York Factory"
+ 
+ HUB_NAME_STATE_SASKATCHEWAN_farm:0 "Saskatoon"
+ HUB_NAME_STATE_SASKATCHEWAN_wood:0 "Cumberland House"
+ 
+ HUB_NAME_STATE_NORTHWEST_TERRITORIES_city:0 "Yellowknife"
+ 
+ HUB_NAME_STATE_ALBERTA_wood:0 "Fort Chipewyan"
+ HUB_NAME_STATE_ALBERTA_mine:0 "Calgary" 
+ 
+ #Mexico
+ HUB_NAME_STATE_VERACRUZ_city:0 "Orizaba"
+ HUB_NAME_STATE_VERACRUZ_port:0 "Veracruz"
+ HUB_NAME_STATE_VERACRUZ_mine:0 "Coatzacoalcos"
+ 
+ HUB_NAME_STATE_CHIAPAS_farm:0 "San Cristóbal"
+ 
+ HUB_NAME_STATE_RIO_GRANDE_mine:0 "Sabinas"
+ 
+ HUB_NAME_STATE_ZACATECAS_farm:0 "Aguascalientes"
+ HUB_NAME_STATE_ZACATECAS_wood:0 "Jalpa"
+ 
+ HUB_NAME_STATE_SINALOA_wood:0 "Choix"
+ HUB_NAME_STATE_SINALOA_mine:0 "Guamúchil"
+ 
+ HUB_NAME_STATE_SONORA_wood:0 "Llano"
+ HUB_NAME_STATE_SONORA_mine:0 "Cananea"
+ 
+ HUB_NAME_STATE_BAJA_CALIFORNIA_port:0 "Ensenada"
+ HUB_NAME_STATE_BAJA_CALIFORNIA_farm:0 "Mexicali"
+ HUB_NAME_STATE_BAJA_CALIFORNIA_wood:0 "Cabo San Lucas"
+ HUB_NAME_STATE_BAJA_CALIFORNIA_mine:0 "Santa Rosalía"
+
+ HUB_NAME_STATE_JALISCO_mine:0 "Lagos de Moreno"
+ 
+ #Brazil
+ HUB_NAME_STATE_AMAZONAS_farm:0 "Boa Vista"
+ HUB_NAME_STATE_AMAZONAS_wood:0 "Coari"
+ 
+ HUB_NAME_STATE_PARA_mine:0 "Marabá"
+ 
+ HUB_NAME_STATE_MATO_GROSSO_city:0 "Vila Bela"
+ HUB_NAME_STATE_MATO_GROSSO_mine:0 "Campo Grande"
+ 
+ #Uruguay
+ HUB_NAME_STATE_URUGUAY_port:0 "Colonia del Sacremento"
+ 
+ #Guiana
+ HUB_NAME_STATE_GUAYANA_city:0 "Georgetown"
+ HUB_NAME_STATE_GUAYANA_farm:0 "Vreed en Hoop"
+ HUB_NAME_STATE_GUAYANA_wood:0 "Soesdyke"
+ HUB_NAME_STATE_GUAYANA_mine:0 "Linden"
+ HUB_NAME_STATE_GUAYANA_port:0 "New Amsterdam"
+ 
+ #Colombia
+ HUB_NAME_STATE_CAUCA_city:0 "Cali"
+ HUB_NAME_STATE_CAUCA_port:0 "Buenaventura"
+ HUB_NAME_STATE_CAUCA_farm:0 "Manizales"
+ HUB_NAME_STATE_CAUCA_wood:0 "Pasto"
+ HUB_NAME_STATE_CAUCA_mine:0 "Popayán"
+ 
+ HUB_NAME_STATE_CUNDINAMARCA_city:0 "Bogota"
+ HUB_NAME_STATE_CUNDINAMARCA_farm:0 "Ibagué"
+ HUB_NAME_STATE_CUNDINAMARCA_wood:0 "Neiva"
+ HUB_NAME_STATE_CUNDINAMARCA_mine:0 "Mendellin"
+ 
+ HUB_NAME_STATE_ANTIOQUIA_city:0 "Cartagena"
+ HUB_NAME_STATE_ANTIOQUIA_port:0 "Barranquilla"
+ HUB_NAME_STATE_ANTIOQUIA_farm:0 "Monteria"
+ HUB_NAME_STATE_ANTIOQUIA_wood:0 "Santa Maria"
+ HUB_NAME_STATE_ANTIOQUIA_mine:0 "Valledupar"
+ 
+ HUB_NAME_STATE_GUAVIARE_farm:0 "Arauca"
+ 
+ #Peru
+ HUB_NAME_STATE_ICA_wood:0 "Quillabamba"
+ HUB_NAME_STATE_ICA_farm:0 "Puno"
+ 
+ HUB_NAME_STATE_AREQUIPA_city:0 "Tacna"
+ HUB_NAME_STATE_AREQUIPA_farm:0 "Arequipa"
+ 
+ HUB_NAME_STATE_LIMA_farm:0 "Huarez"
+ 
+ #Bolivia
+ HUB_NAME_STATE_SANTA_CRUZ_city:0 "Santa Cruz"
+ HUB_NAME_STATE_SANTA_CRUZ_farm:0 "Trinidad"
+ HUB_NAME_STATE_SANTA_CRUZ_wood:0 "Chiquitos"
+ HUB_NAME_STATE_SANTA_CRUZ_mine:0 "Concepción"
+ 
+ HUB_NAME_STATE_LA_PAZ_city:0 "La Paz"
+ HUB_NAME_STATE_LA_PAZ_farm:0 "Cochabamba"
+ HUB_NAME_STATE_LA_PAZ_wood:0 "Caranavi"
+ HUB_NAME_STATE_LA_PAZ_mine:0 "Oruru"
+ 
+ HUB_NAME_STATE_POTOSI_farm:0 "Tarija"
+ HUB_NAME_STATE_POTOSI_mine:0 "Potosi"
+ HUB_NAME_STATE_POTOSI_wood:0 "Uyuni" #middle of the desert, but Potosi has no wood so wont spawn
+ 
+ #Chile
+ HUB_NAME_STATE_SANTIAGO_city:0 "Santiago"
+ HUB_NAME_STATE_SANTIAGO_port:0 "Valpraiso"
+ HUB_NAME_STATE_SANTIAGO_farm:0 "Curicó"
+ HUB_NAME_STATE_SANTIAGO_wood:0 "Constitución"
+ HUB_NAME_STATE_SANTIAGO_mine:0 "Talca"
+ 
+ HUB_NAME_STATE_ARAUCANIA_city:0 "Ushuaia"
+ HUB_NAME_STATE_ARAUCANIA_port:0 "Punta Arenas"
+ HUB_NAME_STATE_ARAUCANIA_farm:0 "Río Grande"
+ HUB_NAME_STATE_ARAUCANIA_wood:0 "Chaitén"
+ HUB_NAME_STATE_ARAUCANIA_mine:0 "El Trebol"
+ 
+ #Argentina
+ HUB_NAME_STATE_BUENOS_AIRES_city:0 "Buenos Aires"
+ HUB_NAME_STATE_BUENOS_AIRES_port:0 "Bahía Blanca"
+ HUB_NAME_STATE_BUENOS_AIRES_farm:0 "Pergamino"
+ HUB_NAME_STATE_BUENOS_AIRES_wood:0 "Carmen de Patagones"
+ #HUB_NAME_STATE_BUENOS_AIRES_mine:0 "Buenos Aires"
+ 
+ HUB_NAME_STATE_LA_PAMPA_city:0 "Córdoba"
+ HUB_NAME_STATE_LA_PAMPA_farm:0 "Rio Cuarto"
+ HUB_NAME_STATE_LA_PAMPA_wood:0 "Jesús Maria"
+ HUB_NAME_STATE_LA_PAMPA_mine:0 "Villa Maria"
+ 
+ HUB_NAME_STATE_CUYO_city:0 "Mendoza"
+ HUB_NAME_STATE_CUYO_farm:0 "San Juan"
+ HUB_NAME_STATE_CUYO_wood:0 "San Louis"
+ HUB_NAME_STATE_CUYO_mine:0 "San Rafael"
+ 
+ HUB_NAME_STATE_RIO_NEGRO_city:0 "Santa Rosa"
+ HUB_NAME_STATE_RIO_NEGRO_farm:0 "Trenel"
+ HUB_NAME_STATE_RIO_NEGRO_wood:0 "Victorica"
+ HUB_NAME_STATE_RIO_NEGRO_mine:0 "Guatraché"
+ 
+ HUB_NAME_STATE_TUCUMAN_city:0 "La Rioja"
+ HUB_NAME_STATE_TUCUMAN_farm:0 "Catamarca"
+ HUB_NAME_STATE_TUCUMAN_wood:0 "Chamical"
+ HUB_NAME_STATE_TUCUMAN_mine:0 "Belén"
+ 
+ HUB_NAME_STATE_CORRIENTES_city:0 "Paraná"
+ HUB_NAME_STATE_CORRIENTES_port:0 "Concepción del Uruguay"
+ HUB_NAME_STATE_CORRIENTES_farm:0 "Corrientes"
+ HUB_NAME_STATE_CORRIENTES_wood:0 "Mercedes"
+ HUB_NAME_STATE_CORRIENTES_mine:0 "Monte Caseros"
+ 
+ HUB_NAME_STATE_SANTA_FE_wood:0 "Reconquista"
+ 
+ #Indonesia
+ HUB_NAME_STATE_WEST_JAVA_city:0 "Batavia"
+ HUB_NAME_STATE_WEST_JAVA_port:0 "Bantam"
+ HUB_NAME_STATE_WEST_JAVA_farm:0 "Bandung"
+ HUB_NAME_STATE_WEST_JAVA_wood:0 "Buitenzorg"
+ HUB_NAME_STATE_WEST_JAVA_mine:0 "Sakabumi"
+  
+ HUB_NAME_STATE_CENTRAL_JAVA_city:0 "Surakarta"
+ HUB_NAME_STATE_CENTRAL_JAVA_port:0 "Semarang"
+ HUB_NAME_STATE_CENTRAL_JAVA_farm:0 "Yogjakarta"
+ HUB_NAME_STATE_CENTRAL_JAVA_wood:0 "Ceribon"
+ HUB_NAME_STATE_CENTRAL_JAVA_mine:0 "Rembang"
+ 
+ HUB_NAME_STATE_SUNDA_ISLANDS_city:0 "Bima"
+ HUB_NAME_STATE_SUNDA_ISLANDS_port:0 "Ende"
+ HUB_NAME_STATE_SUNDA_ISLANDS_farm:0 "Soembawa"
+ HUB_NAME_STATE_SUNDA_ISLANDS_wood:0 "Larantuka"
+ HUB_NAME_STATE_SUNDA_ISLANDS_mine:0 "Dompu" 
+ 
+ HUB_NAME_STATE_SOUTH_SUMATRA_city:0 "Pekanbaru"
+ HUB_NAME_STATE_SOUTH_SUMATRA_port:0 "Palembang"
+ HUB_NAME_STATE_SOUTH_SUMATRA_farm:0 "Djambi"
+ HUB_NAME_STATE_SOUTH_SUMATRA_wood:0 "Moeara Enim"
+ HUB_NAME_STATE_SOUTH_SUMATRA_mine:0 "Tandjung" 
+ 
+ HUB_NAME_STATE_NORTH_SUMATRA_city:0 "Medan"
+ HUB_NAME_STATE_NORTH_SUMATRA_port:0 "Belawan"
+ HUB_NAME_STATE_NORTH_SUMATRA_farm:0 "Tebing Tinggi"
+ HUB_NAME_STATE_NORTH_SUMATRA_wood:0 "Tanjung Balai"
+ HUB_NAME_STATE_NORTH_SUMATRA_mine:0 "Pangkalanbrandan"
+ 
+ HUB_NAME_STATE_ACEH_city:0 "Kotaradja"
+ HUB_NAME_STATE_ACEH_port:0 "Banda Aceh"
+ HUB_NAME_STATE_ACEH_farm:0 "Pedir" #Pedirvlakte
+ HUB_NAME_STATE_ACEH_wood:0 "Singkil"
+ HUB_NAME_STATE_ACEH_mine:0 "Langsa"
+  
+ HUB_NAME_STATE_WEST_BORNEO_city:0 "Pontianak" 
+ HUB_NAME_STATE_WEST_BORNEO_port:0 "Sukadana" 
+ HUB_NAME_STATE_WEST_BORNEO_farm:0 "Sintang" 
+ HUB_NAME_STATE_WEST_BORNEO_wood:0 "Sambas" 
+ HUB_NAME_STATE_WEST_BORNEO_mine:0 "Dong Wan Li" 
+ 
+ HUB_NAME_STATE_CELEBES_city:0 "Palu"
+ HUB_NAME_STATE_CELEBES_port:0 "Manado"
+ HUB_NAME_STATE_CELEBES_farm:0 "Gorontalo"
+ HUB_NAME_STATE_CELEBES_wood:0 "Banggai"
+ HUB_NAME_STATE_CELEBES_mine:0 "Matarape"
+ 
+ #HUB_NAME_STATE_MOLUCCAS_city:0 "Ternate"
+ #HUB_NAME_STATE_MOLUCCAS_port:0 "Ambon"
+ HUB_NAME_STATE_MOLUCCAS_farm:0 "Ternate" 
+ HUB_NAME_STATE_MOLUCCAS_mine:0 "Kaveli" 
+ 
+ HUB_NAME_STATE_MALAYA_city:0 "Malacca"
+ HUB_NAME_STATE_MALAYA_port:0 "Singapore"
+ HUB_NAME_STATE_MALAYA_farm:0 "Maur"
+ HUB_NAME_STATE_MALAYA_wood:0 "Kuala Kelantan"
+ HUB_NAME_STATE_MALAYA_mine:0 "Kelang"
+ 
+ HUB_NAME_STATE_NORTH_BORNEO_city:0 "Sandakan"
+ HUB_NAME_STATE_NORTH_BORNEO_port:0 "Kota Kinabalu"
+ HUB_NAME_STATE_NORTH_BORNEO_farm:0 "Kota Marudu"
+ HUB_NAME_STATE_NORTH_BORNEO_wood:0 "Tawao"
+ HUB_NAME_STATE_NORTH_BORNEO_mine:0 "Mamut"
+ 
+ #India
+ #HUB_NAME_STATE_DELHI_city:0 "Delhi"
+ #HUB_NAME_STATE_DELHI_farm:0 "Amritsar"
+ #HUB_NAME_STATE_DELHI_wood:0 "Patiala"
+ #HUB_NAME_STATE_DELHI_mine:0 "Ludhiana"
+ 
+ HUB_NAME_STATE_AWADH_city:0 "Lucknow"
+ HUB_NAME_STATE_AWADH_farm:0 "Allahabad"
+ HUB_NAME_STATE_AWADH_wood:0 "Sultanpur"
+ HUB_NAME_STATE_AWADH_mine:0 "Gorakhpur"
+ 
+ HUB_NAME_STATE_RAJPUTANA_city:0 "Jaipur"
+ HUB_NAME_STATE_RAJPUTANA_farm:0 "Jodhpur"
+ HUB_NAME_STATE_RAJPUTANA_wood:0 "Bikaner"
+ HUB_NAME_STATE_RAJPUTANA_mine:0 "Ajmer"
+ 
+ HUB_NAME_STATE_GUJARAT_city:0 "Baroda"
+ HUB_NAME_STATE_GUJARAT_port:0 "Surat"
+ HUB_NAME_STATE_GUJARAT_farm:0 "Ahmedabad"
+ HUB_NAME_STATE_GUJARAT_mine:0 "Bhuj"
+ HUB_NAME_STATE_GUJARAT_wood:0 "Porbander"
+ 
+ HUB_NAME_STATE_BOMBAY_city:0 "Bombay"
+ HUB_NAME_STATE_BOMBAY_port:0 "Nova Goa"
+ HUB_NAME_STATE_BOMBAY_farm:0 "Poona"
+ HUB_NAME_STATE_BOMBAY_wood:0 "Kolhapur"
+ HUB_NAME_STATE_BOMBAY_mine:0 "Dhule"
+ 
+ HUB_NAME_STATE_EAST_BENGAL_city:0 "Dacca"
+ HUB_NAME_STATE_EAST_BENGAL_farm:0 "Beuleah"
+ HUB_NAME_STATE_EAST_BENGAL_wood:0 "Sylhet"
+ HUB_NAME_STATE_EAST_BENGAL_mine:0 "Rangpur"
+ 
+ HUB_NAME_STATE_WEST_BENGAL_city:0 "Calcutta"
+ #HUB_NAME_STATE_WEST_BENGAL_port:0 "Chittagong"
+ HUB_NAME_STATE_WEST_BENGAL_farm:0 "Krishnanagar"
+ HUB_NAME_STATE_WEST_BENGAL_wood:0 "Cooch Behar"
+ HUB_NAME_STATE_WEST_BENGAL_mine:0 "Asansol"
+ 
+ HUB_NAME_STATE_AGRA_mine:0 "Moradabad"
+ 
+ HUB_NAME_STATE_BUNDELKHAND_farm:0 "Chhatarpur"
+ 
+ HUB_NAME_STATE_CENTRAL_PROVINCES_wood:0 "Jagdalpur"
+ 
+ HUB_NAME_STATE_MADRAS_wood:0 "Salem"
+ HUB_NAME_STATE_MADRAS_mine:0 "Krishnagiri"
+ 
+ HUB_NAME_STATE_ORISSA_farm:0 "Sambalpore"
+ HUB_NAME_STATE_ORISSA_wood:0 "Bolangir"
+ HUB_NAME_STATE_ORISSA_mine:0 "Gorumahisani"
+ 
+ HUB_NAME_STATE_ARAKAN_city:0 "Mrauk U"
+ HUB_NAME_STATE_ARAKAN_port:0 "Akyab"
+ HUB_NAME_STATE_ARAKAN_farm:0 "Kyaukpyu"
+ HUB_NAME_STATE_ARAKAN_wood:0 "Sandoway"
+ HUB_NAME_STATE_ARAKAN_mine:0 "Maputi"
+ 
+ #Pakistan
+ HUB_NAME_STATE_PUNJAB_city:0 "Lahore"
+ HUB_NAME_STATE_PUNJAB_farm:0 "Multan"
+ HUB_NAME_STATE_PUNJAB_wood:0 "Bahawalpur"
+ HUB_NAME_STATE_PUNJAB_mine:0 "Islamabad"
+ 
+ HUB_NAME_STATE_KASHMIR_city:0 "Jammu"
+ HUB_NAME_STATE_KASHMIR_farm:0 "Srinagar"
+ HUB_NAME_STATE_KASHMIR_wood:0 "Leh"
+ HUB_NAME_STATE_KASHMIR_mine:0 "Gilgit"
+ 
+ HUB_NAME_STATE_PASHTUNISTAN_city:0 "Peshawar"
+ HUB_NAME_STATE_PASHTUNISTAN_farm:0 "Bannu"
+ HUB_NAME_STATE_PASHTUNISTAN_wood:0 "Mingora"
+ HUB_NAME_STATE_PASHTUNISTAN_mine:0 "Chitral"
+ 
+ HUB_NAME_STATE_SINDH_city:0 "Hyderabad"
+ HUB_NAME_STATE_SINDH_port:0 "Karachi"
+ HUB_NAME_STATE_SINDH_farm:0 "Khaipur"
+ HUB_NAME_STATE_SINDH_wood:0 "To be decided"
+ HUB_NAME_STATE_SINDH_mine:0 "Mirpur Khas"
+ 
+ HUB_NAME_STATE_BALUCHISTAN_city:0 "Kalat"
+ HUB_NAME_STATE_BALUCHISTAN_port:0 "Gwadar"
+ HUB_NAME_STATE_BALUCHISTAN_farm:0 "Bela"
+ HUB_NAME_STATE_BALUCHISTAN_wood:0 "Khuzdar"
+ HUB_NAME_STATE_BALUCHISTAN_mine:0 "Makaran"
+ 
+ HUB_NAME_STATE_ASSAM_city:0 "Imphal"
+ HUB_NAME_STATE_ASSAM_farm:0 "Guwahati"
+ HUB_NAME_STATE_ASSAM_wood:0 "Shillong"
+ HUB_NAME_STATE_ASSAM_mine:0 "Tinsukia"
+ 
+ #Sri Lanka
+ HUB_NAME_STATE_CEYLON_city:0 "Colombo"
+ HUB_NAME_STATE_CEYLON_farm:0 "Kandy"
+ HUB_NAME_STATE_CEYLON_port:0 "Galle"
+ HUB_NAME_STATE_CEYLON_wood:0 "Jaffna"
+ HUB_NAME_STATE_CEYLON_mine:0 "Trincomalee"
+ 
+ #Thailand
+ HUB_NAME_STATE_BANGKOK_city:0 "Bangkok"
+ HUB_NAME_STATE_BANGKOK_port:0 "Khlong Toei"
+ HUB_NAME_STATE_BANGKOK_farm:0 "Phitsanulok"
+ HUB_NAME_STATE_BANGKOK_wood:0 "Prachinburi"
+ HUB_NAME_STATE_BANGKOK_mine:0 "Kanchanaburi"
+ 
+ HUB_NAME_STATE_NAKHON_RATCHASIMA_city:0 "Nakhon Ratchasima"
+ HUB_NAME_STATE_NAKHON_RATCHASIMA_farm:0 "Khon Kaen"
+ HUB_NAME_STATE_NAKHON_RATCHASIMA_wood:0 "Ubon Ratchathani"
+ HUB_NAME_STATE_NAKHON_RATCHASIMA_mine:0 "Udon Thani"
+ 
+ #Laos
+ HUB_NAME_STATE_LAOS_city:0 "Luang Prabang"
+ HUB_NAME_STATE_LAOS_farm:0 "Phonsavan"
+ HUB_NAME_STATE_LAOS_wood:0 "Sainyabuli"
+ HUB_NAME_STATE_LAOS_mine:0 "Muang Phuan"
+ 
+ #Vietnam
+ HUB_NAME_STATE_TONKIN_city:0 "Hanoi"
+ HUB_NAME_STATE_TONKIN_port:0 "Hải Phòng"
+ HUB_NAME_STATE_TONKIN_farm:0 "Nam Định"
+ HUB_NAME_STATE_TONKIN_wood:0 "Hung Hóa"
+ HUB_NAME_STATE_TONKIN_mine:0 "Hạ Long"
+ 
+ HUB_NAME_STATE_ANNAM_city:0 "Huế"
+ HUB_NAME_STATE_ANNAM_port:0 "Da Nang"
+ HUB_NAME_STATE_ANNAM_farm:0 "Vinh"
+ HUB_NAME_STATE_ANNAM_wood:0 "Nha Trang"
+ HUB_NAME_STATE_ANNAM_mine:0 "Tam Kỳ"
+ 
+ HUB_NAME_STATE_MEKONG_wood:0 "Đồng Xoài"
+ 
+ #Burma
+ HUB_NAME_STATE_MANDALAY_city:0 "Mandalay"
+ HUB_NAME_STATE_MANDALAY_farm:0 "Monywa"
+ HUB_NAME_STATE_MANDALAY_wood:0 "Naypyidaw"
+ HUB_NAME_STATE_MANDALAY_mine:0 "Mogok"
+ 
+ HUB_NAME_STATE_KACHIN_city:0 "Myitkyina"
+ HUB_NAME_STATE_KACHIN_farm:0 "Mohnyin"
+ HUB_NAME_STATE_KACHIN_wood:0 "Putao"
+ HUB_NAME_STATE_KACHIN_mine:0 "Kalay"
+ 
+ HUB_NAME_STATE_PEGU_city:0 "Pegu"
+ HUB_NAME_STATE_PEGU_port:0 "Rangoon"
+ HUB_NAME_STATE_PEGU_farm:0 "Bassein"
+ HUB_NAME_STATE_PEGU_wood:0 "Taungoo"
+ HUB_NAME_STATE_PEGU_mine:0 "Kyangin"
+ 
+ HUB_NAME_STATE_SHAN_STATES_city:0 "Lashio"
+ HUB_NAME_STATE_SHAN_STATES_farm:0 "Taunggyi"
+ HUB_NAME_STATE_SHAN_STATES_wood:0 "Keng-Tung"
+ HUB_NAME_STATE_SHAN_STATES_mine:0 "Namtu"
+ 
+ HUB_NAME_STATE_TENASSERIM_city:0 "Tavoy"
+ HUB_NAME_STATE_TENASSERIM_port:0 "Moulmein"
+ HUB_NAME_STATE_TENASSERIM_farm:0 "Hpa-an"
+ HUB_NAME_STATE_TENASSERIM_wood:0 "Mergui"
+ HUB_NAME_STATE_TENASSERIM_mine:0 "Kawkareik"
+ 
+ #Japan
+ HUB_NAME_STATE_KANTO_farm:0 "Mito"
+ HUB_NAME_STATE_KANTO_mine:0 "Ashio"
+ HUB_NAME_STATE_KANTO_wood:0 "Takasaki"
+ 
+ 
+ #HUB_NAME_STATE_TOHOKU_wood:0 "Fukoshima"
+ #HUB_NAME_STATE_TOHOKU_mine:0 "Akita"
+
+ HUB_NAME_STATE_HOKKAIDO_farm:0 "Obihiro"
+ HUB_NAME_STATE_HOKKAIDO_wood:0 "Asahikawa"
+ HUB_NAME_STATE_HOKKAIDO_mine:0 "Mikasa"
+ 
+ HUB_NAME_STATE_CHUBU_port:0 "Niigata"
+ HUB_NAME_STATE_CHUBU_farm:0 "Yamanashi"
+ HUB_NAME_STATE_CHUBU_wood:0 "Nagano"
+ HUB_NAME_STATE_CHUBU_mine:0 "Shizuoka"
+ 
+ HUB_NAME_STATE_KANSAI_farm:0 "Osaka"
+ HUB_NAME_STATE_KANSAI_wood:0 "Yamada"
+ HUB_NAME_STATE_KANSAI_mine:0 "Wakayama"
+ 
+ HUB_NAME_STATE_KYUSHU_farm:0 "Kumamoto"
+ HUB_NAME_STATE_KYUSHU_wood:0 "Kagoshima"
+ HUB_NAME_STATE_KYUSHU_mine:0 "Kitakyushu"
+ 
+ HUB_NAME_STATE_SHIKOKU_farm:0 "Tokushima"
+ HUB_NAME_STATE_SHIKOKU_wood:0 "Sukumo"
+ HUB_NAME_STATE_SHIKOKU_mine:0 "Niihama"
+ 
+ HUB_NAME_STATE_PYONGYANG_port:0 "Nampo"
+ 
+ HUB_NAME_STATE_SEOUL_farm:0 "Suwon"
+ HUB_NAME_STATE_SEOUL_wood:0 "Gangneung"
+ 
+ HUB_NAME_STATE_YANGHO_wood:0 "Daejeon"
+ HUB_NAME_STATE_YANGHO_mine:0 "Suncheon"
+ 
+ HUB_NAME_STATE_BUSAN_wood:0 "Gumi"
+ HUB_NAME_STATE_BUSAN_mine:0 "Haman"
+ 
+ #China
+ HUB_NAME_STATE_FORMOSA_city:0 "Taipei"
+ HUB_NAME_STATE_FORMOSA_port:0 "Takao"
+ HUB_NAME_STATE_FORMOSA_farm:0 "Tainan"
+ HUB_NAME_STATE_FORMOSA_wood:0 "Taichung"
+ HUB_NAME_STATE_FORMOSA_mine:0 "Hsinchu"
+ 
+ HUB_NAME_STATE_URGA_city:0 "Urga"
+ HUB_NAME_STATE_URGA_farm:0 "Bayan Tümen"
+ HUB_NAME_STATE_URGA_wood:0 "Maimaicheng"
+ HUB_NAME_STATE_URGA_mine:0 "Erdenet"
+ 
+ HUB_NAME_STATE_ULIASTAI_city:0 "Uliastai"
+ HUB_NAME_STATE_ULIASTAI_farm:0 "Khovd"
+ HUB_NAME_STATE_ULIASTAI_wood:0 "Ölgii"
+ HUB_NAME_STATE_ULIASTAI_mine:0 "Oyu Tolgoi"
+ 
+ HUB_NAME_STATE_ALXA_city:0 "Kweisui"
+ HUB_NAME_STATE_ALXA_farm:0 "Baotou"
+ HUB_NAME_STATE_ALXA_wood:0 "Xilin Gol"
+ HUB_NAME_STATE_ALXA_mine:0 "Wuhai"
+ 
+ HUB_NAME_STATE_HINGGAN_city:0 "Jehol"
+ HUB_NAME_STATE_HINGGAN_farm:0 "Chifeng"
+ HUB_NAME_STATE_HINGGAN_wood:0 "Chaoyang"
+ HUB_NAME_STATE_HINGGAN_mine:0 "Longhua"
+ 
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_farm:0 "Harbin"
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_wood:0 "Ningguta"
+ 
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_farm:0 "Suihua"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_wood:0 "Heihe"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_mine:0 "Daqing"
+ 
+ HUB_NAME_STATE_OUTER_MANCHURIA_farm:0 "Shuangchengzi"
+ HUB_NAME_STATE_OUTER_MANCHURIA_farm_russian:0 "Nikolskoye"
+ HUB_NAME_STATE_OUTER_MANCHURIA_wood:0 "Yiman"
+ HUB_NAME_STATE_OUTER_MANCHURIA_wood_russian:0 "Grafskaya"
+ 
+ HUB_NAME_STATE_BEIJING_wood:0 "Zhuozhou"
+ HUB_NAME_STATE_BEIJING_mine:0 "Tangshan"
+ 
+ HUB_NAME_STATE_SHENGJING_farm:0 "Chinchow"
+ HUB_NAME_STATE_SHENGJING_wood:0 "Andong"
+ HUB_NAME_STATE_SHENGJING_mine:0 "Anshan"
+ 
+ HUB_NAME_STATE_SHANDONG_city:0 "Jinan"
+ HUB_NAME_STATE_SHANDONG_port:0 "Tsingtao"
+ HUB_NAME_STATE_SHANDONG_farm:0 "Jining"
+ HUB_NAME_STATE_SHANDONG_wood:0 "Yantai"
+ HUB_NAME_STATE_SHANDONG_mine:0 "Rizhao"
+ 
+ HUB_NAME_STATE_ZHILI_farm:0 "Puyang"
+ 
+ HUB_NAME_STATE_JIANGSU_city:0 "Xuzhou"
+ HUB_NAME_STATE_JIANGSU_port:0 "Haichow"
+ HUB_NAME_STATE_JIANGSU_farm:0 "Huaiyin"
+ HUB_NAME_STATE_JIANGSU_wood:0 "Suqian" 
+ HUB_NAME_STATE_JIANGSU_mine:0 "Taizhou"
+ 
+ HUB_NAME_STATE_SUZHOU_city:0 "Suzhou"
+ HUB_NAME_STATE_SUZHOU_port:0 "Shanghai"
+ HUB_NAME_STATE_SUZHOU_farm:0 "Nantong"
+ HUB_NAME_STATE_SUZHOU_wood:0 "Changzhou"
+ HUB_NAME_STATE_SUZHOU_mine:0 "Wixi"
+ 
+ HUB_NAME_STATE_NANJING_city:0 "Nanjing"
+ HUB_NAME_STATE_NANJING_farm:0 "Yangzhou"
+ HUB_NAME_STATE_NANJING_wood:0 "Zhangzhuzhen"
+ HUB_NAME_STATE_NANJING_mine:0 "Zhenjiang"
+ 
+ HUB_NAME_STATE_NORTHERN_ANHUI_city:0 "Suzhou"
+ HUB_NAME_STATE_NORTHERN_ANHUI_farm:0 "Fuyang"
+ HUB_NAME_STATE_NORTHERN_ANHUI_wood:0 "Bozhou" #Because TCM
+ HUB_NAME_STATE_NORTHERN_ANHUI_mine:0 "Hauibei"
+ 
+ HUB_NAME_STATE_SOUTHERN_ANHUI_city:0 "Anqing"
+ HUB_NAME_STATE_SOUTHERN_ANHUI_farm:0 "Luchow"
+ HUB_NAME_STATE_SOUTHERN_ANHUI_wood:0 "Tunxi"
+ HUB_NAME_STATE_SOUTHERN_ANHUI_mine:0 "Huainan"
+ 
+ HUB_NAME_STATE_HENAN_city:0 "Kaifeng"
+ HUB_NAME_STATE_HENAN_farm:0 "Zhoukou"
+ HUB_NAME_STATE_HENAN_wood:0 "Nanyang"
+ HUB_NAME_STATE_HENAN_mine:0 "Jiaozuo"
+ 
+ HUB_NAME_STATE_ZHEJIANG_city:0 "Hangzhou"
+ HUB_NAME_STATE_ZHEJIANG_port:0 "Wenzhou"
+ HUB_NAME_STATE_ZHEJIANG_farm:0 "Ningbo"
+ HUB_NAME_STATE_ZHEJIANG_wood:0 "Jinhau"
+ HUB_NAME_STATE_ZHEJIANG_mine:0 "Taizhou"
+ 
+ HUB_NAME_STATE_FUJIAN_city:0 "Fuzhou"
+ HUB_NAME_STATE_FUJIAN_port:0 "Xiamen"
+ HUB_NAME_STATE_FUJIAN_farm:0 "Zhangzhou"
+ HUB_NAME_STATE_FUJIAN_wood:0 "Longyan"
+ HUB_NAME_STATE_FUJIAN_mine:0 "Quanzhou" 
+ 
+ HUB_NAME_STATE_SHAOZHOU_city:0 "Canton"
+ HUB_NAME_STATE_SHAOZHOU_port:0 "Hong Kong"
+ HUB_NAME_STATE_SHAOZHOU_farm:0 "Shaoguan"
+ HUB_NAME_STATE_SHAOZHOU_wood:0 "Heyuan"
+ HUB_NAME_STATE_SHAOZHOU_mine:0 "Jaijing"
+ 
+ HUB_NAME_STATE_GUANGDONG_city:0 "Foshan"
+ HUB_NAME_STATE_GUANGDONG_port:0 "Macau"
+ HUB_NAME_STATE_GUANGDONG_farm:0 "Tsamkong"
+ HUB_NAME_STATE_GUANGDONG_wood:0 "Haikou"
+ HUB_NAME_STATE_GUANGDONG_mine:0 "Sanya"
+ 
+ HUB_NAME_STATE_GUANGXI_city:0 "Nanning"
+ HUB_NAME_STATE_GUANGXI_farm:0 "Guilin"
+ HUB_NAME_STATE_GUANGXI_wood:0 "Hechi"
+ HUB_NAME_STATE_GUANGXI_mine:0 "Baise"
+ 
+ HUB_NAME_STATE_SICHUAN_city:0 "Chengdu"
+ HUB_NAME_STATE_SICHUAN_farm:0 "Luzhou"
+ HUB_NAME_STATE_SICHUAN_wood:0 "Ya'an"
+ HUB_NAME_STATE_SICHUAN_mine:0 "Guangyuan"
+ 
+ HUB_NAME_STATE_CHONGQING_city:0 "Chongqing"
+ HUB_NAME_STATE_CHONGQING_farm:0 "Fuling" 
+ HUB_NAME_STATE_CHONGQING_wood:0 "Wushan"
+ HUB_NAME_STATE_CHONGQING_mine:0 "Pengshui"
+ 
+ HUB_NAME_STATE_QINGHAI_wood:0 "Barkam"
+ 
+ HUB_NAME_STATE_NGARI_city:0 "Ngari"
+ HUB_NAME_STATE_NGARI_farm:0 "Wumusen"
+ HUB_NAME_STATE_NGARI_wood:0 "Demchok"
+ HUB_NAME_STATE_NGARI_mine:0 "Pegta"
+ 
+ HUB_NAME_STATE_LHASA_city:0 "Lhasa"
+ HUB_NAME_STATE_LHASA_farm:0 "Shigatse"
+ HUB_NAME_STATE_LHASA_wood:0 "Nagqu"
+ HUB_NAME_STATE_LHASA_mine:0 "Drongpa"
+ 
+ 
+ #Australia
+ 
+ HUB_NAME_STATE_NORTHERN_TERRITORY_city:0 "Palmerston"
+ HUB_NAME_STATE_NORTHERN_TERRITORY_port:0 "Darwin"
+ HUB_NAME_STATE_NORTHERN_TERRITORY_mine:0 "Stuart"
+ HUB_NAME_STATE_NORTHERN_TERRITORY_farm:0 "Katherine"
+ HUB_NAME_STATE_NORTHERN_TERRITORY_wood:0 "Oenpelli"
+ 
+ #HUB_NAME_STATE_SOUTH_AUSTRALIA_city:0 "Adelaide"
+ #HUB_NAME_STATE_SOUTH_AUSTRALIA_port:0 "Port Pirie"
+ #HUB_NAME_STATE_SOUTH_AUSTRALIA_mine:0 "Coober Pedy"
+ #HUB_NAME_STATE_SOUTH_AUSTRALIA_farm:0 "Tarcoola"
+ #HUB_NAME_STATE_SOUTH_AUSTRALIA_wood:0 "Keith"
+ 
+ #HUB_NAME_STATE_NEW_SOUTH_WALES_city:0 "Sydney"
+ #HUB_NAME_STATE_NEW_SOUTH_WALES_port:0 "Newcastle"
+ #HUB_NAME_STATE_NEW_SOUTH_WALES_mine:0 "Broken Hill"
+ #HUB_NAME_STATE_NEW_SOUTH_WALES_farm:0 "Dubbo"
+ #HUB_NAME_STATE_NEW_SOUTH_WALES_wood:0 "Albury"
+ 
+ #HUB_NAME_STATE_VICTORIA_city:0 "Melbourne"
+ #HUB_NAME_STATE_VICTORIA_port:0 "Geelong"
+ #HUB_NAME_STATE_VICTORIA_mine:0 "Bendigo"
+ #HUB_NAME_STATE_VICTORIA_farm:0 "Warrnambool"
+ #HUB_NAME_STATE_VICTORIA_wood:0 "Bairnsdale"
+ 
+ #HUB_NAME_STATE_TASMANIA_city:0 "Hobart"
+ #HUB_NAME_STATE_TASMANIA_port:0 "Devonport"
+ #HUB_NAME_STATE_TASMANIA_mine:0 "Burnie"
+ #HUB_NAME_STATE_TASMANIA_farm:0 "Launceston"
+ #HUB_NAME_STATE_TASMANIA_wood:0 "Strahan"
+ 
+ #Caribbean
+ HUB_NAME_STATE_HAITI_city:0 "Port-au-Prince"
+ HUB_NAME_STATE_HAITI_port:0 "Cap-Haïtien"
+ HUB_NAME_STATE_HAITI_mine:0 "Môle-Saint-Nicolas"
+ HUB_NAME_STATE_HAITI_farm:0 "Jacmel"
+ HUB_NAME_STATE_HAITI_wood:0 "Les Cayes"
+ 
+ HUB_NAME_STATE_SANTO_DOMINGO_city:0 "Santo Domingo"
+ HUB_NAME_STATE_SANTO_DOMINGO_port:0 "Barahona"
+ HUB_NAME_STATE_SANTO_DOMINGO_mine:0 "Neiba"
+ HUB_NAME_STATE_SANTO_DOMINGO_farm:0 "Santiago de los Caballeros"
+ HUB_NAME_STATE_SANTO_DOMINGO_wood:0 "Higüey"
+ 
+ HUB_NAME_STATE_WEST_INDIES_city:0 "Fort-de-France"
+ HUB_NAME_STATE_WEST_INDIES_mine:0 "Port-of-Spain"
+ 
+ #Pacific
+ HUB_NAME_STATE_EASTERN_NEW_GUINEA_city:0 "Lehe"
+ HUB_NAME_STATE_EASTERN_NEW_GUINEA_port:0 "Madang"
+ HUB_NAME_STATE_EASTERN_NEW_GUINEA_farm:0 "Finschhafen"
+ HUB_NAME_STATE_EASTERN_NEW_GUINEA_wood:0 "Wewak"
+ HUB_NAME_STATE_EASTERN_NEW_GUINEA_mine:0 "Wau"
+ 
+ HUB_NAME_STATE_BOUGAINVILLE_city:0 "Arawa"
+ HUB_NAME_STATE_BOUGAINVILLE_port:0 "Buka"
+ HUB_NAME_STATE_BOUGAINVILLE_farm:0 "Buin"
+ HUB_NAME_STATE_BOUGAINVILLE_wood:0 "Torokina"
+ HUB_NAME_STATE_BOUGAINVILLE_mine:0 "Panguna"
+ 
+ HUB_NAME_STATE_SOLOMON_ISLANDS_city:0 "Honiara"
+ HUB_NAME_STATE_SOLOMON_ISLANDS_port:0 "Tulagi"
+ HUB_NAME_STATE_SOLOMON_ISLANDS_farm:0 "Auki"
+ HUB_NAME_STATE_SOLOMON_ISLANDS_wood:0 "Gizo"
+ HUB_NAME_STATE_SOLOMON_ISLANDS_mine:0 "Santa Isabel"
+ 
+ HUB_NAME_STATE_VANUATU_city:0 "Port Vila"
+ HUB_NAME_STATE_VANUATU_port:0 "Santo"
+ HUB_NAME_STATE_VANUATU_farm:0 "Norsup"
+ HUB_NAME_STATE_VANUATU_wood:0 "Erromango"
+ HUB_NAME_STATE_VANUATU_mine:0 "Ambrym"
+ 
+ HUB_NAME_STATE_KANAK_city:0 "Koné"
+ HUB_NAME_STATE_KANAK_port:0 "Nouméa"
+ HUB_NAME_STATE_KANAK_farm:0 "Païta"
+ HUB_NAME_STATE_KANAK_wood:0 "Balade"
+ HUB_NAME_STATE_KANAK_mine:0 "Houaïlou"
+ 
+ HUB_NAME_STATE_FIJI_city:0 "Suva"
+ HUB_NAME_STATE_FIJI_port:0 "Levuka"
+ HUB_NAME_STATE_FIJI_farm:0 "Lautoka"
+ HUB_NAME_STATE_FIJI_wood:0 "Savusavu"
+ HUB_NAME_STATE_FIJI_mine:0 "Lambasa"
+ 
+ HUB_NAME_STATE_TONGA_city:0 "Nukualofa"
+ HUB_NAME_STATE_TONGA_port:0 "Neiafu"
+ HUB_NAME_STATE_TONGA_farm:0 "Pangai"
+ HUB_NAME_STATE_TONGA_wood:0 "Salelologa"
+ HUB_NAME_STATE_TONGA_minw:0 "Avarua" 
+ 
+ ###Cuba###
+ HUB_NAME_STATE_WESTERN_CUBA_city:0 "Havana"
+ HUB_NAME_STATE_WESTERN_CUBA_port:0 "Matanzas"
+ HUB_NAME_STATE_WESTERN_CUBA_farm:0 "Pinar del Río"
+ HUB_NAME_STATE_WESTERN_CUBA_wood:0 "Nueva Gerona"
+ HUB_NAME_STATE_WESTERN_CUBA_mine:0 "Santa Lucia"
+ 
+ HUB_NAME_STATE_CENTRAL_CUBA_city:0 "Santa María del Puerto del Príncipe"
+ HUB_NAME_STATE_CENTRAL_CUBA_port:0 "Cienfuegos"
+ HUB_NAME_STATE_CENTRAL_CUBA_farm:0 "Santa Clara"
+ HUB_NAME_STATE_CENTRAL_CUBA_wood:0 "Sancti Spíritus"
+ HUB_NAME_STATE_CENTRAL_CUBA_mine:0 "Nuevitas"
+ 
+ HUB_NAME_STATE_EASTERN_CUBA_city:0 "Santiago de Cuba"
+ HUB_NAME_STATE_EASTERN_CUBA_port:0 "Gautanamo"
+ HUB_NAME_STATE_EASTERN_CUBA_farm:0 "Holguín"
+ HUB_NAME_STATE_EASTERN_CUBA_wood:0 "Baracoa"
+ HUB_NAME_STATE_EASTERN_CUBA_mine:0 "El Cobre"

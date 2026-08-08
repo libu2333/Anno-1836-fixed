@@ -1,0 +1,26 @@
+﻿l_english:
+  je_group_porfiriato: "Porfiriato"
+  je_porfiriato_buff: "Consolidation of the Porfiriato"
+  je_porfiriato_buff_reason: "Following the rise of Porfirio Díaz, the nation seeks to consolidate its new political and economic direction, guided by principles of stable governance, social harmony, and controlled radical influence."
+  je_porfiriato_buff_goal: "The following must be true for 10 total years:"
+
+  je_group_mexlibi: "Mexican Liberalism"
+  je_mexlibi_revayu: "Ayutla Plan"
+  je_mexlibi_revayu_reason: "Santa Anna's dictatorship has drained the nation. A broad liberal coalition seeks to overthrow him and establish a constitutional government with free elections."
+
+  je_mexlibi_buff_medium: "Initial Reforms"
+  je_mexlibi_buff_medium_reason: "Liberals plan to implement initial reforms that promote public education, limit the privileges of the clergy, and strengthen civic rights. Work on these reforms to move toward a more educated and integrated state."
+
+  je_mexlibi_buff_grande: "Consolidation of Liberal Institutions"
+  je_mexlibi_buff_grande_reason: "To consolidate the liberal institutions, advanced reforms must be completed: spreading secular education, reducing the political and economic influence of the Church, and strengthening national identity. Success will move Mexico toward a modern and unified nation."
+
+  je_group_monarquiamex: "Mexican Monarchy"
+  je_group_monarquiamex_tiempodeuda: "European Debt Commitment"
+  je_group_monarquiamex_tiempodeuda_reason: "Mexico has secured European loans, ensuring a steady influx of resources to sustain herself. Yet, every coin borrowed carries a shadow—the day of repayment will come, with millions owed and the possibility of foreign powers demanding concessions beyond the riches of the country."
+
+  #je_group_monarquiamex_finmonarq: "The Fate of the Mexican Monarchy"
+  #je_group_monarquiamex_finmonarq_reason: "The Mexican monarchy stands at a crossroads. Whether through political change or foreign pressure, the institution of monarchy itself is under threat. Should it fall, a new chapter in the nation's history will begin, shaped not by emperors but by the will of others."
+
+
+
+

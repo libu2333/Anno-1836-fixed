@@ -1,0 +1,114 @@
+﻿state_trait_iberian_pyrite_belt = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		goods_output_sulfur_mult = 0.075
+		goods_output_copper_mult = 0.05
+	}
+}
+
+state_trait_cork_forests = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		goods_output_wood_mult = 0.05
+		goods_output_wine_mult = 0.05
+	}
+}
+
+#state_trait_port_of_porto = {
+#    icon = "gfx/interface/icons/state_trait_icons/famous_wine.dds"
+#	
+#	modifier = {
+#		goods_output_wine_mult = 0.10
+#	}
+#}
+#
+#state_trait_sparkling_champagne = {
+#    icon = "gfx/interface/icons/state_trait_icons/famous_wine.dds"
+#	
+#	modifier = {
+#		goods_output_wine_mult = 0.10
+#	}
+#}
+#
+#state_trait_bordeaux_red = {
+#    icon = "gfx/interface/icons/state_trait_icons/famous_wine.dds"
+#	
+#	modifier = {
+#		goods_output_wine_mult = 0.10
+#	}
+#}
+
+state_trait_siderite_ore = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		#disable copper construction till proper technology is researched
+		goods_output_iron_mult = 0.15
+	}
+}
+
+state_trait_porphyry_copper = {
+    icon = "gfx/interface/icons/state_trait_icons/poor_natural_resources.dds"
+	
+	modifier = {
+		#disable copper construction till proper technology is researched
+		goods_output_copper_mult = -0.15
+	}
+}
+
+state_trait_minette_ore = {
+    icon = "gfx/interface/icons/state_trait_icons/poor_natural_resources.dds"
+	
+	modifier = {
+		goods_output_iron_mult = -0.75
+	}
+}
+
+state_trait_minette_ore_2 = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		goods_output_iron_mult = 0.15
+		building_chemical_plant_throughput_add = 0.10
+	}
+}
+
+state_trait_erzberg = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		goods_output_iron_mult = 0.05
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.10
+	}
+}
+
+state_trait_slovak_ore_mountains = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		goods_output_iron_mult = 0.05
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.10
+	}
+}
+
+state_trait_polders = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_grazing.dds"
+	
+	modifier = {
+		state_construction_mult = -0.05
+		goods_output_meat_mult = 0.075
+		building_group_bg_agriculture_throughput_add = 0.10	#Throughut because working the land requires more effort
+	}
+}
+
+state_trait_skouriotissa_copper = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		goods_output_copper_mult = 0.05
+	}
+}

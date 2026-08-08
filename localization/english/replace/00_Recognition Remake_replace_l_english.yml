@@ -1,0 +1,20 @@
+﻿l_english:
+je_earn_recognition_reason: "#bold The progress bar#! will advance #tooltippable;tooltip:[Country.GetTooltipTag],je_earn_recognition_advance or deplete #! depending on certain conditions. When the #bold progress bar#! reaches #bold 250#! it will cause [SCOPE.GetRootScope.GetCountry.GetName] to become a [concept_recognized_power].\n\nFor a long time, [SCOPE.GetRootScope.GetCountry.GetNameNoFormatting] has been denied proper diplomatic recognition by the so-called civilized nations of the world. Leaving us vulnerable to their attacks and unable to properly exercise our own sovereign rights. \n\nWe should do our best to correct this situation and earn ourselves a seat at their table as respected equals. "
+je_earn_recognition_advance: "? Execute [concept_war_goal] against a [concept_major_power] \n? Rank in the top 50 for [Concept('concept_gdp_per_capita','$concept_gdp_per_capita_short$')] (a significant improvement if in the top 25) \n? Rank in the top 50 for [concept_sol] living standards (a significant improvement if in the top 25) \n? 60% for [concept_literacy] (a significant improvement if at 80%) \n? Have [Concept('concept_votes','$concept_voting_rights$')] \n? Successfully executed the #bold Build an Embassy#! [concept_diplomatic_action] \n? Completed the #green First Industrial Revolution#! before 1900 (75% of integrated regions have railroads and at least level 5 town centers) \n? Completed the #green Second Industrial Revolution#! after 1900 (75% of integrated regions have electricity and at least level 8 town centers) \n? Mastered the #bold Balance of World Power#! [concept_technology] \n? Mastered the #bold Globalization#! [concept_technology]"
+je_earn_recognition_deplete: "? A [concept_war_goal] was executed against you\n? [Concept('concept_gdp_per_capita','$concept_gdp_per_capita_short$')] is ranked below the top 75 (if below the top 100, it will be significantly relegated)\n? Its [concept_sol] ranks below top 75 (if below top 100, it will be a significant fallback)\n? [concept_literacy] is below 40% (if below 20%, it will be a significant fallback)\n? #bold does not #! abolish [concept_slavery].\n? Has [GetLawType('law_serfdom').GetName]\n? Has [GetLawType('law_traditionalism').GetName]\n? Has [GetLawType('law_outlawed_dissent').GetName]"
+
+STATE_SENEGAL_english: "North Gambia"
+
+# Kuril Islands
+
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_city_japanese: "Kumashiri"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_port_japanese: "Etorefu"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_mine_japanese: "Shumushu"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_farm_japanese: "Uruppu"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_wood_japanese: "Horomushiro"
+
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_city_russian: "Kumashir"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_port_russian: "Iturup"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_mine_russian: "Shumasha"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_farm_russian: "Urup"
+HUB_NAME_STATE_HOKKAIDO_ISLANDS_wood_russian: "Paramushir"

@@ -1,0 +1,49 @@
+﻿l_simp_chinese:
+
+ #荷兰
+ ideology_national_liberalism_cr:0 "民族主义者"
+ ideology_liberal_quebec_cr:0 "自由主义者"
+ ideology_agrarian_planters:0 "农业主义者"
+ ideology_colonial_subjects_cr:0 "殖民地臣民"
+ ideology_colonial_subjects_cr_desc:0 "这一利益集团由受殖民国家统治的人组成。"
+ ideology_colonial_overlords_cr:0 "殖民宗主"
+ ideology_colonial_overlords_cr_desc:0 "这一利益集团由属于殖民国家的人组成。"
+ ideology_moralist_colonial:0 "道德主义者"
+
+ ideology_frontier_expansionist_leader_cr: "边疆扩张主义者"
+ ideology_frontier_expansionist_leader_cr_desc: "#lore 这位领袖寻求将国家边界扩展至目前'无人定居'的土地。#!"
+ ideology_frontier_expansionist_cr: "边疆扩张主义"
+ ideology_frontier_expansionist_cr_desc: "#lore 该集团寻求将国家边界扩展至目前'无人定居'的土地。#!"
+ ideology_frontier_expansionist_movement: "边疆扩张主义"
+ ideology_frontier_expansionist_movement_desc: "#lore 该集团寻求将国家边界扩展至目前'无人定居'的土地。#!"
+ movement_frontier_movement: "边疆运动"
+ movement_frontier_movement_name: "边疆运动"
+ movement_frontier_movement_name_desc: "#lore 该运动寻求将国家边界扩展至目前'无人定居'的土地。#!"
+
+ movement_support_split_state: "居住于[concept_split_state]"
+
+ ideology_caudillismo_mexico: "考迪略主义"
+ ideology_caudillismo_mexico_desc: "#lore 该集团倾向于支持具有军事背景的强人领袖，而非宪政法治。#!"
+
+ ideology_meritocratic_mexico: "精英治国"
+ ideology_meritocratic_mexico_desc: "#lore 该集团相信成功是靠努力赢得的，那些取得成就的人理应获得相应的责任与财富。#!"
+
+ ideology_centralist: "中央集权主义"
+ ideology_centralist_desc: "#lore 该集团倾向于认为强大的中央集权国家为民族提供了最坚实的基础。#!"
+ ideology_centralist_leader: "中央集权主义者"
+ ideology_centralist_leader_desc: "#lore 这位人物相信强大的中央集权国家为民族提供了最坚实的基础。#!"
+ ideology_centralist_movement: "中央集权主义"
+ ideology_centralist_movement_desc: "#lore 该运动寻求建立拥有强大中央政府的单一制国家，认为这为民族提供了最坚实的基础。#!"
+ movement_centralist: "中央集权运动"
+ movement_centralist_name: "中央集权运动"
+ movement_centralist_desc: "#lore 该运动寻求建立拥有强大中央政府的单一制国家，认为这为民族提供了最坚实的基础。#!"
+
+ ideology_federalist: "联邦主义"
+ ideology_federalist_desc: "#lore 该集团倾向于认为拥有地方自治的分散化国家为民族提供了最坚实的基础。#!"
+ ideology_federalist_leader: "联邦主义者"
+ ideology_federalist_leader_desc: "#lore 这位人物相信拥有地方自治的分散化国家为民族提供了最坚实的基础。#!"
+ ideology_federalist_movement: "联邦主义"
+ ideology_federalist_movement_desc: "#lore 该运动寻求建立拥有地方自治的联邦制国家，认为这为民族提供了最坚实的基础。#!"
+ movement_federalist: "联邦主义运动"
+ movement_federalist_name: "联邦主义运动"
+ movement_federalist_name_desc: "#lore 该运动寻求建立拥有地方自治的联邦制国家，认为这为民族提供了最坚实的基础。#!"

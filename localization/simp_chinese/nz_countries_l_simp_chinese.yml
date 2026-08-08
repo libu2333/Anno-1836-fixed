@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+
+# 默认国家
+
+TAI:0 "泰努伊"
+TAI_ADJ:0 "泰努伊"
+
+NKU:0 "恩加提·卡胡恩努"
+NKU_ADJ:0 "恩加提·卡胡恩努"
+
+KGI:0 "泰努伊"
+KGI_ADJ:0 "泰努伊"
+
+#TUH:0 "图霍埃"
+#TUH_ADJ:0 "图霍埃"
+
+NMS:0 "新蒙斯特"
+NMS_ADJ:0 "新蒙斯特"
+
+NZC:0 "新西兰公司"
+NZC_ADJ:0 "新西兰公司"
+
+nms_releasable_tt:0 "南岛分离主义已被提出"

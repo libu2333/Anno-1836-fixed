@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+
+ #诸侯时代（Zemene Mesafint）
+ cr_je_age_of_princes_owns_gonder:0 "拥有帝国首都#variable 贡德尔#!"
+ cr_je_age_of_princes_owns_meleke:0 "拥有提格雷首府：#variable 梅莱克#!"
+ cr_je_age_of_princes_owns_dessie:0 "拥有沃洛首府：#variable 德西埃#!"
+ cr_je_age_of_princes_owns_bahirdar:0 "拥有戈贾姆首府：#variable 巴赫达尔#!"
+ cr_je_age_of_princes_owns_ankober:0 "拥有绍阿首府：#variable 安科贝尔#!"
+
+ #舍迪的最后之王
+ je_cr_the_last_king_shedi:0 "舍迪的最后之王"
+ je_cr_the_last_king_shedi_reason:0 "无论是一记烟斗抽在脸上，还是将他的女儿称为牲畜与奴隶，都无关紧要。重要的是梅克·尼姆尔如何回应穆罕默德·阿里之子伊斯梅尔对他的侮辱。梅克·尼姆尔几乎被仆人强行阻止，才未当场拔刀砍杀伊斯梅尔，他发誓不报此仇决不罢休。而命运并未让他久等——伊斯梅尔愚蠢地在梅克·尼姆尔营地对岸扎营。看到机会，梅克·尼姆尔深夜出动，将伊斯梅尔睡觉的房屋封死，随后点燃整个营地，杀死伊斯梅尔及其全部随从。然而，穆罕默德·阿里同样怀有复仇之心，他迅速派遣残暴的德夫特达尔前来执行血腥报复。当德夫特达尔离开时，梅克·尼姆尔的首都舍迪已所剩无几。而当德夫特达尔对梅克·尼姆尔部落施加非人暴行后，梅克·尼姆尔的权力与影响力也所剩无几。\n\n如今沦落在埃塞俄比亚边境，以劫掠埃及哨所苟延残喘，梅克·尼姆尔会接受命运吗？还是他将凯旋重返舍迪，恢复自己及其部落在苏丹的显赫地位？"
+
+ #重塑埃及
+ je_cr_reinventing_egypt:0 "重塑埃及"
+ je_cr_reinventing_egypt_reason:0 "重塑埃及"

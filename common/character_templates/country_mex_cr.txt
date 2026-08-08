@@ -1,0 +1,375 @@
+﻿### Mexico character template file ###
+
+# Mexico - MEX
+
+#Rebel governor of California
+MEX_juan_bautista_alvarado = {
+	first_name = Juan_Bautista
+	last_name = Alvarado
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	birth_date = 1809.2.14
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_federalist_leader
+	home_region = STATE_CALIFORNIA
+	traits = {
+        hedonist
+        alcoholic
+	}
+}
+
+#John Sutter
+MEX_john_sutter = {
+	first_name = John
+	last_name = Sutter
+	historical = yes
+	culture = cu:alemannic
+	birth_date = 1803.2.23
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_frontier_expansionist_leader_cr
+	home_region = STATE_BADEN
+	traits = {
+        bandit
+        cruel
+	}
+}
+
+
+#William B. Ide
+MEX_william_b_ide = {
+	first_name = William
+	last_name = Ide
+	historical = yes
+	culture = cu:dixie
+	birth_date = 1796.3.28
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_frontier_expansionist_leader_cr
+	home_region = STATE_MASSACHUSETTS
+	traits = {
+        bandit
+        cruel
+	}
+}
+
+#Centralist governor in opposition to Alvarado
+MEX_nicolas_gutierrez = {
+	first_name = Nicolas_2
+	last_name = Gutierrez
+	historical = yes
+	culture = primary_culture
+	ig_leader = yes
+	birth_date = 1804.8.13
+	interest_group = ig_armed_forces
+	ideology = ideology_centralist_leader
+	home_region = STATE_MEXICO
+	traits = {
+	}
+}
+
+#Pueblo revolt
+MEX_jose_maria_gonzalez = {
+	first_name = Jose_Maria
+	last_name = Gonzalez
+	historical = yes
+	culture = cu:pueblo
+	ruler = yes
+	birth_date = 1796.12.3 #Unknown birth date
+	interest_group = ig_rural_folk
+	ideology = ideology_sovereignist_leader
+	home_region = STATE_JALISCA
+	traits = {	#Buffalo hunter and illiterate. First (and last) indian governor of New Mexico
+		surveyor
+		inexperienced
+	}
+}
+
+MEX_pablo_montoya = {
+	first_name = Pablo
+	last_name = Montoya
+	historical = yes
+	culture = cu:mexican
+	is_general = yes
+	birth_date = 1792.7.1
+	interest_group = ig_armed_forces
+	ig_leader = yes
+	ideology = ideology_radical
+	home_region = STATE_NEW_MEXICO
+	traits = {	#turned on the planners of his own rebellion and was allowed to return home. Would come back to rebel in 1847 though
+		bandit
+		ruthless
+		persistent
+	}
+}
+
+#Sonora Revolt
+MEX_jose_de_urrea = {
+	first_name = JosE_
+	last_name = de_Urrea #Or de_Urrea_y_Elias_Gonzalez, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ruler = yes	#Probably shouldn't be. Probably should be a Mexican general at start. But I have some problems moving character around and setting their roles
+	is_general = yes
+	ig_leader = yes
+	birth_date = 1797.3.19
+	interest_group = ig_armed_forces
+	ideology = ideology_federalist_leader
+	home_region = STATE_SONORA
+	traits = { #Tried to intervene in the Goliad Massacre
+		honorable 
+		basic_offensive_planner
+	}
+}
+
+#Yucatan Revolt
+MEX_santiago_mendez = {
+	first_name = Santiago
+	last_name = Mendez #Or Mendez_Ibarra, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	birth_date = 1798.10.25 #Year know, date not
+	interest_group = ig_landowners #Seems fitting, I think
+	ideology = ideology_moderate
+	home_region = STATE_YUCATAN
+	traits = { #Fiscal conservative, noted for honesty
+		honorable
+		tactful
+	}
+}
+
+MEX_miguel_barbachano = {
+	first_name = Miguel
+	last_name = Barbachano #Or Barbachano_y_Tarrazo, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ig_leader = yes
+	birth_date = 1807.9.29
+	interest_group = ig_intelligentsia #Seems fitting, I think
+	ideology = ideology_federalist_leader
+	home_region = STATE_YUCATAN
+	traits = { #one of the staunchest advocates for the independence of Yucatán
+		persistent
+		inspirational_orator
+	}
+}
+
+MEX_santiago_iman = {
+	first_name = Santiago
+	last_name = Ima_n #Or Barbachano_y_Tarrazo, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = cu:mayan
+	ig_leader = yes
+	birth_date = 1807.9.29
+	interest_group = ig_rural_folk #Inspired the Caste War of the Mayans. But his background makes him more of a ig_petty_bourgeoisie, but since they are insignificant I choose rural folk.
+	ideology = ideology_federalist_leader
+	home_region = STATE_YUCATAN
+	traits = { #one of the staunchest advocates for the independence of Yucatán
+		persistent
+		demagogue
+	}
+}
+
+#Tabasco Revolt
+MEX_agustin_ruiz_de_la_pena = {
+	first_name = Agustin_Ruiz
+	last_name = de_la_Pena #Or de_la_Pena_y_Urruntia, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	ig_leader = yes
+	birth_date = 1790.8.28
+	interest_group = ig_intelligentsia
+	ideology = ideology_federalist_leader
+	home_region = STATE_JALISCO
+	traits = { #Poet
+		literary
+	}
+}
+
+MEX_justo_santa_anna = {
+	first_name = Justo
+	last_name = Santa_Anna #Or Santa_Anna_Cabrera, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ig_leader = yes
+	birth_date = 1796.12.6 #Year known, rest not
+	interest_group = ig_intelligentsia
+	ideology = ideology_federalist_leader
+	home_region = STATE_VERACRUZ
+	traits = {
+		basic_diplomat
+	}
+}
+
+MEX_jose_victor_jimenez = {
+	first_name = JosE_
+	last_name = Victor_Jimenez #Or Victor_Jimenez_Falcon, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ig_leader = yes
+	birth_date = 1803.3.6
+	interest_group = ig_landowners
+	ideology = ideology_federalist_leader
+	home_region = STATE_JALISCO
+	traits = {
+
+	}
+}
+
+MEX_juan_pablo_de_anaya = {
+	first_name = Juan_Pablo #Real name is longer... of course...
+	last_name = de_Anaya
+	historical = yes
+	culture = primary_culture
+	is_general = yes
+	ig_leader = yes
+	birth_date = 1775.6.25
+	interest_group = ig_armed_forces
+	ideology = ideology_federalist_leader
+	home_region = STATE_MEXICO
+	traits = {
+		basic_offensive_planner
+	}
+}
+
+MEX_francisco_de_sentmanat = {
+	first_name = Francisco #Real name is longer... of course...
+	last_name = de_Sentmanat #Or de_Sentmanat_y_Zayas, but Paradox doesn't do non-standard surnames very well.
+	historical = yes
+	culture = primary_culture
+	is_general = yes
+	birth_date = 1802.11.6
+	interest_group = ig_armed_forces
+	ideology = ideology_federalist_leader
+	home_region = STATE_CENTRAL_CUBA
+	traits = {
+		celebrity_commander
+	}
+}
+
+MEX_fernando_nicolas_maldonado = {
+	first_name = Fernando_Nicolas
+	last_name = Maldonado
+	historical = yes
+	culture = primary_culture
+	is_general = yes
+	birth_date = 1809.4.17 #date of birth unknow
+	interest_group = ig_armed_forces
+	ideology = ideology_federalist_leader
+	home_region = STATE_RIO_GRANDE
+	traits = {	#Federation or death!
+		demagogue
+	}
+}
+
+#Rio Grande Revolt
+MEX_jesus_de_cardenas = {
+	first_name = Jesus
+	last_name = de_Cardenas
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	birth_date = 1787.4.16 #Unknown birth date
+	interest_group = ig_landowners
+	ideology = ideology_federalist_leader
+	home_region = STATE_RIO_GRANDE
+	traits = {
+		imperious
+	}
+}
+
+MEX_jose_maria_jesus_carbajal = {
+	first_name = Jose_Maria_Jesus
+	last_name = Carbajal
+	historical = yes
+	culture = primary_culture
+	religion = rel:protestant
+	is_general = yes
+	ig_leader = yes
+	birth_date = 1809.9.11 #Born 1802, rest random
+	interest_group = ig_petty_bourgeoisie	#Seems fitting
+	ideology = ideology_federalist_leader
+	home_region = STATE_RIO_GRANDE
+	traits = {	#Decades spanning career in trying to establish a federalist state. Fought a guerilla war.
+		persistent
+		pillager
+		defense_in_depth_specialist
+	}
+}
+
+MEX_manuel_maria_de_llano = {
+	first_name = Manuel_Maria
+	last_name = de_Llano #Llano_Lozano, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ig_leader = yes
+	birth_date = 1799.05.23
+	interest_group = ig_intelligentsia
+	ideology =ideology_reformer
+	home_region = STATE_MEXICO
+	traits = {	#Journalist
+		literary
+	}
+}
+
+MEX_francosco_vidaurri_y_villasenor = {
+	first_name = Francisco
+	last_name = Vidaurri_y_Villasenor #Llano_Lozano, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ig_leader = yes
+	birth_date = 1799.05.23
+	interest_group = ig_landowners #seems fitting considering his surname
+	ideology = ideology_federalist_leader
+	home_region = STATE_RIO_GRANDE
+	traits = {	#He believed that the population of the South was "ignorant" and that was more permissive of despotic governments (he pointed out that the southerners "can only be governed by a despotism") because they supported centralism. -Wikipedia
+		bigoted
+	}
+}
+
+MEX_antonio_canales = {
+	first_name = Antonio
+	last_name = Canales	#Canales_Rosillo, but Paradox doesn't do non-standard surnames very wel.
+	historical = yes
+	culture = primary_culture
+	ig_leader = yes
+	birth_date = 1802.6.6 #Born 1802, rest random
+	interest_group = ig_armed_forces
+	ideology = ideology_federalist_leader
+	home_region = STATE_RIO_GRANDE
+	traits = {
+		surveyor
+	}
+}
+
+TEX_samuel_jordan = { #Part of the Texan support for Rio Grande
+	first_name = Samuel
+	last_name = Jordan
+	historical = yes
+	culture = cu:dixie
+	is_general = yes
+	birth_date = 1809.7.16 #Unknown birth date
+	interest_group = ig_armed_forces
+	ideology = ideology_jingoist
+	home_region = STATE_TENNESSEE
+	traits = {
+		psychological_affliction #Commited suicide 1841, also attempted to murder Sam Houston in 1842
+	}
+}
+
+TEX_reuben_ross = { #Part of the Texan support for Rio Grande
+	first_name = Reuben
+	last_name = Ross
+	historical = yes
+	culture = cu:dixie
+	is_general = yes
+	birth_date = 1807.3.27 #Unknown birth date
+	interest_group = ig_armed_forces
+	ideology = ideology_jingoist
+	home_region = STATE_KENTUCKY
+	traits = {
+		basic_entrepreneur
+		romantic #Dueled twice of perceived offense to his/one other's honour
+	}
+}

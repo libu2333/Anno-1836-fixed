@@ -1,0 +1,324 @@
+﻿####Sound of Science cr_europe_events.1
+cr_sound_of_science_prestige_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+		country_prestige_add = 5
+}
+
+cr_sound_of_science_tech_spread_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_spread_mult = 0.15
+}
+
+####Minette ores cr_minette_ores_events.20
+cr_prospecting_for_minette_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_add = -125
+}
+
+cr_fort_ross_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_migration_pull_add = -30
+	state_migration_pull_mult = -0.30
+}
+
+cr_fort_ross_modifier_ai = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_migration_pull_add = -30
+	state_migration_pull_mult = -0.35
+}
+
+####Kazak Taming the steppes JE cr_kazakh_events.1
+cr_taming_the_steppes_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_authority_add = -300
+}
+cr_taming_the_steppes_state_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_colony_growth_speed_mult = 0.6
+}
+cr_steppe_disinterest = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.80
+}
+cr_steppe_colonial_ambitions_denied = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -2
+}
+cr_steppe_leniency_and_trade = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.33
+}
+cr_steppe_punitive_expedition = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_authority_add = -100
+}
+cr_steppe_caution_and_diplomacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_colony_growth_speed_mult = -0.33
+}
+cr_steppe_stirrings_of_unity = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.25
+}
+cr_steppe_broken_resistance = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_colony_growth_speed_mult = 0.10
+}
+cr_steppe_military_disaster = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.5
+}
+cr_steppe_military_setback = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.15
+}
+cr_steppe_imposing_the_yoke = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_colony_growth_speed_mult = 0.20
+}
+cr_steppe_lessening_the_yoke = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.20
+}
+cr_steppe_caged_nomads = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_colony_growth_speed_mult = 0.20
+}
+cr_steppe_free_rein_nomad = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.15
+}
+cr_steppe_gifts_for_auls = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_expenses_add = 1500
+}
+cr_steppe_no_gifts_for_auls = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.20
+}
+cr_steppe_increased_patrols_on_the_steppes = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_authority_add = -45
+}
+cr_steppe_enclosures = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = 0.20
+}
+cr_steppe_steppe_compromises = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -1
+}
+#cr_steppe_mediating_squabbles = {
+#	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+#	state_colony_growth_speed_mult = 0.15
+#}
+cr_steppe_kazakh_squabbles = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.25
+}
+cr_steppe_clan_warfare = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.20
+	state_infrastructure_mult = -0.10
+}
+cr_steppe_mediating_squabbles_country = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_authority_add = -40
+}
+cr_steppe_seperating_the_herds = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	goods_output_meat_mult = -0.15
+	state_colony_growth_speed_mult = -0.10
+}
+cr_steppe_cattle_raiding = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	goods_output_meat_mult = -0.15
+	state_colony_growth_speed_mult = -0.15
+}
+cr_steppe_returning_the_bride = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_authority_add = -50
+}
+cr_steppe_bride_kidnapping = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_birth_rate_mult = -0.05
+	state_colony_growth_speed_mult = -0.15
+}
+cr_steppe_increase_cossack_patrols_national = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_authority_add = -50
+}
+cr_steppe_kazakh_magistrates = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_institution_cost_institution_colonial_affairs_mult = 0.15
+}
+cr_steppe_kazakh_magistrates_local = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = 0.15
+	state_bureaucracy_population_base_cost_factor_mult = 0.15
+}
+cr_steppe_ineffective_administration = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.15
+}
+cr_steppe_coopting_kazakh_elders = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_institution_cost_institution_colonial_affairs_mult = 0.1
+}
+cr_steppe_coopting_kazakh_elders_local = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = 0.15
+}
+cr_steppe_harsh_rule_national = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	country_authority_add = -50
+}
+cr_steppe_harsh_rule_on_the_steppe = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_radicalism_increases_violent_hostility_mult = 0.10
+	state_radicalism_increases_cultural_erasure_mult = 0.10
+	state_radicalism_increases_open_prejudice_mult = 0.10
+	state_mortality_turmoil_mult = 0.05
+	state_turmoil_effects_mult = 0.50
+}
+cr_steppe_disloyal_clans = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.25
+}
+cr_steppe_distributing_aid = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_expenses_add = 3000
+}
+
+
+#Modified vanilla ones
+modifier_recompense_for_supply_convoy_raid_cr_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 3000
+	country_institution_cost_institution_colonial_affairs_mult = 0.1
+}
+modifier_kazakh_ungovernable_provinces_cr_changed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.25
+}
+
+modifier_shoring_up_kazakhstan_cr_modified = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_institution_cost_institution_colonial_affairs_mult = 0.15
+}
+
+modifier_fortress_raid_kazakhstan_cr_modified = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	state_russian_standard_of_living_add = -4
+	state_conscription_rate_mult = -0.5
+	state_colony_growth_speed_mult = -0.20
+}
+
+modifier_kenesary_revolt_cr_modified = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	unit_defense_mult = 0.9
+	unit_morale_loss_mult = -0.9
+	state_conscription_rate_mult = 1.0
+	unit_provinces_lost_mult = -0.75
+	battle_defense_owned_province_mult = 0.5
+	battle_offense_owned_province_mult = 0.5
+	country_institution_cost_institution_colonial_affairs_mult = -0.75
+}
+
+
+
+cr_supporting_bukey_horde_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_add = -50
+}
+cr_abandoned_bukey_horde_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_mult = -0.05
+}
+cr_steppe_russian_far_east = {	#temp solution to excessive colonisation in the far east.
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_colony_growth_speed_mult = -0.90
+}
+
+####The English Sitt/Queen of the Desert cr_europe_events.5
+
+#State modifier for Lebanon because moneylenders lost money and are admonished for charging such high interests
+cr_riba_condemned_income = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	state_capitalists_investment_pool_contribution_add = -0.15
+	state_aristocrats_investment_pool_contribution_add = -0.15
+	state_shopkeepers_investment_pool_contribution_add = -0.15
+}
+
+#State modifier for Lebanon because moneylenders are reimbursed for their unpaid debts. 
+cr_riba_endorsed_income = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_upper_strata_standard_of_living_add = 1
+}
+
+#IG modifiers Egypt. Devout don't like riba/interest. Condemning it will reduce IG_industrialist attraction
+cr_riba_condemned_devout = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 1
+}
+cr_riba_condemned_bankers = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_pop_attraction_mult = -0.15
+}
+cr_engaged_in_riba = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -1
+	interest_group_pop_attraction_mult = 0.1
+}
+
+#IG modifiers for UK. Liberals do not like it when government funds are used to support nobles, and visa versa.
+#cr_paid_noble_debt_positive = { #unused
+#	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+#	interest_group_approval_add = 1
+#}
+cr_paid_noble_debt_negative = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -1
+}
+#cr_not_paid_noble_debt_positive = { #unused
+#	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+#	interest_group_approval_add = 1
+#}
+cr_not_paid_noble_debt_negative = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -1
+}
+
+#Netherlands
+cr_sint_maarten_border_patrol_colonial = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_institution_cost_institution_colonial_affairs_mult = 0.10
+}
+cr_sint_maarten_border_patrol_police = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_institution_cost_institution_police_mult = 0.10
+}
+cr_sint_maarten_border_patrol_generic = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_bureaucracy_mult = -0.05
+}
+
+cr_sint_maarten_border_patrol_movement = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	political_movement_pop_attraction_mult = 0.05
+}
+
+cr_sint_maarten_slavery_abolished_movement = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	political_movement_radicalism_add = 0.05
+}
+
+cr_sint_maarten_emancipator = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_prestige_mult = 0.025
+}
+
+cr_resettling_freed_slaves = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_colony_growth_speed_mult = 0.10
+}

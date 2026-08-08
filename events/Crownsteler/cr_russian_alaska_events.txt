@@ -1,0 +1,625 @@
+﻿namespace = cr_russian_alaska_events
+
+
+cr_russian_alaska_events.99 = { #event bridge
+	type = country_event
+	hidden = yes
+	immediate = {
+		#name = cr_russian_alaska_events.99
+		if = {
+			limit = {
+				p:xD6A835.owner = c:ALK
+				c:ALK ?= { is_player = yes }
+			}
+			c:ALK = {
+				trigger_event = cr_russian_alaska_events.1
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					p:xD6A835.owner = c:ALK
+					p:xD6A835.owner = c:RUS
+				}
+			}
+			c:RUS = {
+				trigger_event = cr_russian_alaska_events.1
+			}
+		}
+		else = {
+			s:STATE_CALIFORNIA = {
+				random_scope_state = {
+				}
+			}
+		}
+	}
+}
+
+cr_russian_alaska_events.1 = { #Two Years Before the Mast
+	type = country_event
+	placement = p:xD6A835
+
+	title = cr_russian_alaska_events.1.t
+	desc = cr_russian_alaska_events.1.d
+
+	flavor = cr_russian_alaska_events.1.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+	
+	cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+		#Triggered at start up
+		#year > 1836
+		#OR = {
+		#	p:xD6A835.owner = ROOT
+		#	any_subject_or_below = {
+		#		p:xD6A835.owner = THIS
+		#	}
+		#}
+	}
+
+	immediate = {
+		ROOT = {
+			save_scope_as = selling_country
+		}
+		top_overlord = {
+			save_scope_as = selling_country_overlord
+		}
+		p:x1116AA.owner = {
+			save_scope_as = buying_country
+		}
+		p:xD6A835.owner = {
+			random_scope_state = {
+				limit = {
+					state_region = s:STATE_CALIFORNIA
+				}
+				save_scope_as = our_california
+			}
+		}
+		s:STATE_CALIFORNIA = {
+			random_scope_state = {
+				limit = {
+					owner = scope:buying_country
+				}
+				save_scope_as = california
+			}
+		}
+		scope:our_california.state_region = {
+			save_scope_as = state_of_california
+		}
+		s:STATE_ALASKA = {
+			random_scope_state = {
+				limit = {
+					owner = c:ALK
+				}
+				save_scope_as = alaska
+			}
+		}
+		scope:our_california = {
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.1.a
+		custom_tooltip = cr_russian_alaska_events.1.a_tt
+		show_as_tooltip = {
+			scope:our_california = {
+			}
+		}
+		c:ALK = {
+			add_journal_entry = {
+				type = je_cr_fort_ross
+			}
+			if = {
+				limit = {
+					AND = {
+						is_ai = yes
+						ROOT = { is_ai = yes }
+					}
+				}
+				scope:our_california = {
+					start_building_construction = building_wheat_farm
+				}
+			}
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 5
+				taking_loans = no
+			}
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.1.b
+		trigger = {
+			NOT = { has_war_with = scope:buying_country }
+		}
+		custom_tooltip = {
+			text = cr_russian_alaska_events.1.b_tt
+			scope:buying_country = {
+				trigger_event = { id = cr_russian_alaska_events.2 days = 30 }			
+			}
+		}
+		show_as_tooltip = {
+			scope:our_california = {
+			}
+		}
+		default_option = yes
+		ai_chance = {
+			base = 99
+		}
+	}
+}
+
+cr_russian_alaska_events.2 = { #The Future of Russian California - with alternative event text for if the buyer is John Sutter / New Helvetia
+	type = country_event
+	placement = p:x1116AA
+
+	title = { 
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:SUTCAL ?= this
+				}
+				desc = cr_russian_alaska_events.2.t_cal
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_russian_alaska_events.2.t
+			}
+		}
+	}
+	desc = { 
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:SUTCAL ?= this
+				}
+				desc = cr_russian_alaska_events.2.desc_cal
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_russian_alaska_events.2.desc
+			}
+		}
+	}
+	flavor = { 
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					c:SUTCAL ?= this
+				}
+				desc = cr_russian_alaska_events.2.f_cal
+			}
+			triggered_desc = {
+				trigger = {
+					always = yes
+				}
+				desc = cr_russian_alaska_events.2.f
+			}
+		}
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	
+	}
+
+	option = {
+		name = cr_russian_alaska_events.2.a
+		trigger = {
+			NOT = { c:SUTCAL ?= this }
+		}
+		scope:selling_country = {
+			post_notification = cr_fort_ross_accepted 		
+		}
+		scope:our_california = {
+			set_state_owner = scope:buying_country
+		}
+		#add_treasury = -5000	#Because Mexico is too much in debt already
+		default_option = yes
+		ai_chance = {
+			base = 99
+			modifier = {
+				factor = 0
+				scaled_debt  > 0.85
+			}
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.2.b
+		trigger = {
+			NOT = { c:SUTCAL ?= this }
+		}
+		scope:selling_country = {
+			post_notification = cr_fort_ross_rejected 		
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 100
+				scaled_debt  > 0.85
+			}
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.2.a_cal
+		trigger = {
+			c:SUTCAL ?= this
+		}
+		scope:selling_country = {
+			post_notification = cr_fort_ross_accepted 		
+		}
+		scope:our_california = {
+			set_state_owner = scope:buying_country
+			remove_modifier = cr_fort_ross_modifier
+		}
+		#add_treasury = -5000	#Because Mexico is too much in debt already
+		default_option = yes
+		ai_chance = {
+			base = 99
+			modifier = {
+				factor = 0
+				scaled_debt  > 0.85
+			}
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.2.b_cal
+		trigger = {
+			c:SUTCAL ?= this
+		}
+		scope:selling_country = {
+			post_notification = cr_fort_ross_rejected 		
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 100
+				scaled_debt  > 0.85
+			}
+		}
+	}
+}
+
+cr_russian_alaska_events.5 = { #The Liquidation of Fort Ross
+	type = country_event
+	placement = p:x1116AA
+
+	title = cr_russian_alaska_events.5.t
+	desc = cr_russian_alaska_events.5.desc
+	flavor = cr_russian_alaska_events.5.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		ROOT = {
+			save_scope_as = selling_country
+		}
+		top_overlord = {
+			save_scope_as = selling_country_overlord
+		}
+		p:x1116AA.owner = {
+			save_scope_as = buying_country
+		}
+		s:STATE_CALIFORNIA = {
+			random_scope_state = {
+				limit = {
+					owner = scope:buying_country
+				}
+				save_scope_as = california
+			}
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.5.a
+		custom_tooltip = cr_russian_alaska_events.closing_je
+		scope:buying_country = {
+			trigger_event = { id = cr_russian_alaska_events.6 }			
+		}
+		hidden_effect = {
+			scope:selling_country_overlord = {
+				trigger_event = { id = cr_russian_alaska_events.6 }			
+			}
+		}
+		default_option = yes
+	}
+}
+
+cr_russian_alaska_events.6 = { #The End of Russian America
+	type = country_event
+	placement = p:x1116AA
+
+	title = cr_russian_alaska_events.6.t
+	desc = cr_russian_alaska_events.6.desc
+	flavor = cr_russian_alaska_events.6.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	
+	}
+
+	option = {
+		name = cr_russian_alaska_events.6.a
+		trigger = {
+			this = scope:buying_country
+		}
+		s:STATE_CALIFORNIA.region_state:ALK = {
+			set_state_owner = scope:buying_country
+			remove_modifier = cr_fort_ross_modifier
+		}
+		default_option = yes
+	}
+
+	option = {
+		name = cr_russian_alaska_events.6.b
+		trigger = {
+			this = scope:selling_country_overlord
+		}
+		default_option = yes
+	}
+}
+
+cr_russian_alaska_events.9 = { #The Golden Gate
+	type = country_event
+	placement = p:x1116AA
+
+	title = cr_russian_alaska_events.9.t
+	desc = cr_russian_alaska_events.9.desc
+	flavor = cr_russian_alaska_events.9.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		ROOT = {
+			save_scope_as = selling_country
+		}
+		top_overlord = {
+			save_scope_as = selling_country_overlord
+		}
+		p:x1116AA.owner = {
+			save_scope_as = buying_country
+		}
+		s:STATE_CALIFORNIA.region_state:ALK = {
+			save_scope_as = our_california
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.9.a
+		#custom_tooltip = cr_russian_alaska_events.closing_je
+		if = {
+			limit = {
+				scope:our_california = {
+					NOT = { has_modifier = cr_golden_gate_25 }
+				}
+			}
+			scope:our_california = {
+				add_modifier = {
+					name = cr_golden_gate_25
+					days = normal_modifier_time
+				}
+			}
+		}
+		scope:our_california = {
+			remove_modifier = cr_fort_ross_modifier
+		}
+		default_option = yes
+	}
+}
+
+
+cr_russian_alaska_events.10 = { #The Inland Empire
+	type = country_event
+	placement = p:x1116AA
+
+	title = cr_russian_alaska_events.10.t
+	desc = cr_russian_alaska_events.10.desc
+	flavor = cr_russian_alaska_events.10.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_gold_prospectors.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		ROOT = {
+			save_scope_as = selling_country
+		}
+		top_overlord = {
+			save_scope_as = selling_country_overlord
+		}
+		if= { 
+			limit = {
+				exists = s:STATE_CALIFORNIA.region_state:ALK
+			}
+			save_scope_as = our_california
+		}
+		else = {
+			s:STATE_CALIFORNIA = {
+				random_scope_state = {
+					limit = {
+						owner = ROOT
+					}
+					save_scope_as = our_california
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.10.a
+		scope:our_california = {
+			add_modifier = {
+				name = cr_valley_of_plenty_25
+				days = long_modifier_time
+			}
+			remove_modifier = cr_fort_ross_modifier
+		}
+	}
+}
+
+cr_russian_alaska_events.11 = { #Valley of Plenty
+	type = country_event
+	placement = p:x1116AA
+
+	title = cr_russian_alaska_events.11.t
+	desc = cr_russian_alaska_events.11.desc
+	flavor = cr_russian_alaska_events.11.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_gold_prospectors.bk2"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		ROOT = {
+			save_scope_as = selling_country
+		}
+		top_overlord = {
+			save_scope_as = selling_country_overlord
+		}
+		p:x1116AA.owner = {
+			save_scope_as = buying_country
+		}
+		if= { 
+			limit = {
+				exists = s:STATE_CALIFORNIA.region_state:ALK
+			}
+			save_scope_as = our_california
+		}
+		else = {
+			s:STATE_CALIFORNIA = {
+				random_scope_state = {
+					limit = {
+						owner = ROOT
+					}
+					save_scope_as = california
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cr_russian_alaska_events.11.a
+		custom_tooltip = cr_russian_alaska_events.closing_je
+		hidden_effect = {
+			scope:our_california = {
+				if = {
+					limit = {
+						has_modifier = cr_valley_of_plenty_25
+					}
+					remove_modifier = cr_valley_of_plenty_25
+				}
+			}
+		}
+		scope:our_california = {
+			add_modifier = {
+				name = cr_valley_of_plenty_50
+				days = long_modifier_time
+			}
+			remove_modifier = cr_fort_ross_modifier
+		}
+		capital = {
+			add_modifier = {
+				name = cr_valley_of_plenty_25
+				days = long_modifier_time
+			}
+		}
+	}
+}

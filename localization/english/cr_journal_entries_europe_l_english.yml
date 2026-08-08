@@ -1,0 +1,115 @@
+﻿l_english:
+ #France
+ je_cr_minette_ores:0 "The Little Veins of Lorraine"
+ je_cr_minette_ores_reason:0 "Beneath the gentle hills of [SCOPE.sState('minette_ore_state').GetNameNoFormatting] lie vast beds of #italic minette ore#!—an iron-rich sedimentary deposit whose sheer abundance promises industrial prosperity. Yet this promise remains unrealized. Though plentiful, the ore is laced with high levels of phosphorus, rendering it unfit for steelmaking with current techniques.\n\nBy investing in metallurgical research and experimenting with modern refining methods—such as the #BOLD Open Hearth Process#!- we may discover a way to neutralize the phosphorus and unlock the ore’s true potential.\n\nSupporting local industry with [GetDecreeType('decree_encourage_resource_industry').GetName] and increasing our [concept_innovation] could tip the balance, transforming [SCOPE.sState('minette_ore_state').GetName] into a steelmaking powerhouse.\n\nA buried empire of iron waits beneath our feet. All that remains is to dig smart—and burn hot."
+ je_cr_minette_ores_complete_tt:0 "We have developed a method to make use of the #BOLD minette ores#!."
+ minette_je_fail_tt:0 "We have lost control of Alsace."
+
+ je_poland_liberation:"Liberation of Poland"
+ je_poland_liberation_reason:"It is time for us to fight for independence for all Poles living under imperial rule."
+ je_poland_independence:"Polish Independence"
+ je_poland_independence_reason:"We find ourselves under the yoke of hostile empires. The first step toward reforming Poland is to overthrow the foreign governments."
+ je_poland_liberation_complete_trigger_desc:"Countries without Polish as a primary culture [Concept('concept_primary_cultures', '$concept_primary_culture$')] will be targeted."
+ 
+ cr_minette_ores_progress_bar_name:0 "Minette ore smelting technique"
+ cr_minette_ores_progress_bar_desc:0 "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/500)"
+ 
+ cr_minette_ores_bessemer_process_researched:0 "Bessemer Process not researched"
+ cr_minette_ores_open_hearth_process_researched:0 "Open Hearth Process researched"
+ cr_minette_ores_electric_arc_process_researched:0 "Electric Arc Process researched"
+ cr_minette_ores_encouraging_resource_industry:0 "[GetDecreeType('decree_encourage_resource_industry').GetName] in Alsace"
+ cr_minette_ores_industrialist_approval:0 "Industrialists $concept_approval$"
+ cr_minette_ores_university_level:0 "University level in [SCOPE.sState('minette_ore_state').GetName]"
+ cr_minette_ores_steel_mill_level:0 "Steel Mill level in [SCOPE.sState('minette_ore_state').GetName]"
+ cr_minette_ores_ore_production_rank:0 "Being a #BOLD Top-3#! producer of [GetGoods('iron').GetName]"
+ cr_minette_ores_ore_expensive:0 "[GetGoods('iron').GetName] being #BOLD >40%#! more expensive than their [concept_base_price]"
+ cr_minette_ores_ore_cheap:0 "[GetGoods('iron').GetName] being #BOLD >20%#! cheaper than their [concept_base_price]"
+ cr_minette_ores_innovation:0 "[concept_innovation]"
+ cr_minette_ores_is_ai:0 "being an AI player"
+ 
+   
+ #Spain
+ je_cr_carlist_war_carlists:0 "God, Country and the Fueros"
+ je_cr_carlist_war_carlists_reason:0 "The laws of succession are as old as the monarchy itself. The eldest son inherits; and if there be no son, then the brother takes his place. Thus has it been from time immemorial, ordained by God and sanctified by tradition. By these sacred precepts, His Majesty Don [SCOPE.sCountry('cr_carlists').GetRuler.GetFirstName] stands as the only rightful [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle] of Spain.\n\nYet, in these tumultuous times, this ancient custom has been callously disregarded. Queen #variable Maria Christina#!, driven by ambition, has manipulated the late [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle] #variable Ferdinand#!'s will to install her daughter [SCOPE.sCountry('cr_christinos').GetRuler.GetFirstName] on the throne, defying the very laws that have upheld our nation. This betrayal has plunged Spain into chaos, pitting brother against brother and tearing at the fabric of our society.\n\nThis is no mere quarrel over inheritance. It is an assault on Spain itself.\n\nIn their unholy pursuit of power, the [SCOPE.gsInterestGroup('cr_spanish_liberals').GetNameNoIcon] have unleashed a war upon the very foundations of our kingdom. The Holy [SCOPE.gsInterestGroup('cr_spanish_catholic_church').GetNameNoIcon], which has guided Spain for centuries, now finds itself plundered and desecrated. The #italic desamortización#!—that vile theft of monastery lands—has stripped the faithful of their refuge, leaving the poor without alms, the widows without charity, and the villages without their shepherds. The [SCOPE.gsInterestGroup('cr_spanish_liberals').GetNameNoFormatting], claiming to bring freedom, have instead brought godlessness, robbing Spain of its soul in the name of false progress.\n\nBut their betrayal does not end with the Church. For over six hundred years, the Crown stood as guardian of the #variable Fueros#!, the sacred liberties of our [SCOPE.sCulture('cr_basque_culture').GetName] and [SCOPE.sCulture('cr_catalan_culture').GetName] subjects. These ancient rights, which have governed our lands since before Castile itself, are now branded as obstacles to modernity. The [SCOPE.gsInterestGroup('cr_spanish_liberals').GetNameNoFormatting] would see them abolished, reducing Spain’s proud provinces to mere subjects of Madrid’s tyranny. What is a [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle|l] who does not uphold the laws of his people? A tyrant in disguise.\n\nYet all is not lost. The true [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle] still stands. Don [SCOPE.sCountry('cr_carlists').GetRuler.GetFirstNameNoFormatting] alone can restore what has been stolen—our Faith, our Laws, our Kingdom. Against the false promises of the [SCOPE.gsInterestGroup('cr_spanish_liberals').GetNameNoFormatting], we raise the standard of God, [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle], and Fueros. Spain shall not fall to the enemies of tradition. We take up arms, not for ambition, but for the eternal order. We fight not merely for ourselves, but for our children, our altars, and our fathers' graves.\n\nLet the traitors tremble. We march for Spain!"
+ cr_defeat_the_christinos:0 "We have defeated the [SCOPE.sCountry('cr_christinos').GetAdjective] usurpurs and established our rightful rule."
+ je_cr_carlist_war_christinos:0 "Queen, Nation, and Progress" 
+ je_cr_carlist_war_christinos_reason:0 "Spain stands at a crossroads. Two paths lie before us—one leading toward unity, stability, and progress, the other dragging us back into feudalism, clerical tyranny, and endless war. The choice is clear: [SCOPE.sCountry('cr_christinos').GetRuler.GetPrimaryRoleTitle] [SCOPE.sCountry('cr_christinos').GetRuler.GetFirstName] is the rightful sovereign, declared so by her father, [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle] #variable Ferdinand#!, in accordance with the laws of the land. Yet the [SCOPE.sCountry('cr_carlists').GetAdjectiveNoFlag], clinging to an outdated notion of succession, would throw Spain into bloodshed rather than accept the will of their own [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle].\n\nLet us be clear: Don [SCOPE.sCountry('cr_carlists').GetRuler.GetFirstName] has no claim but force. He was never the heir. The late [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle|l], in full command of his faculties, abolished the Salic Law and by #variable Pragmatic Sanction#! affirmed that his daughter would rule after him. The [SCOPE.sCountry('cr_carlists').GetAdjectiveNoFormatting] call this treachery, but what greater treason is there than to reject the will of the [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle|l] himself? It is not Don Carlos who is defending the Crown, but [SCOPE.sCountry('cr_christinos').GetRuler.GetPrimaryRoleTitle] [SCOPE.sCountry('cr_christinos').GetRuler.GetFirstNameNoFormatting] and her loyal subjects. The [SCOPE.sCountry('cr_carlists').GetAdjectiveNoFormatting] cause is nothing but a rebellion draped in false piety, a movement of warlords and fanatics who would sooner tear Spain apart than see it move forward.\n\nAnd what is the future they offer? A return to the rule of monks and provincial lords, where fueros and feudal privileges take precedence over the nation itself. For too long, separate laws have divided Spain, placing loyalty to the province over loyalty to the Crown. The [SCOPE.sCountry('cr_carlists').GetAdjectiveNoFormatting] claim to fight for tradition, but what they truly defend is a fractured, backward Spain where the [SCOPE.sCountry('cr_carlists').GetRuler.GetPrimaryRoleTitle|l] is hostage to outdated customs. If Spain is to survive, it must be united, governed by a single just rule, where every Spaniard stands equal before the law.\n\nThey cry out in defense of the [SCOPE.gsInterestGroup('cr_spanish_catholic_church').GetNameNoIcon], yet what is their true aim? Not to protect faith, but to preserve the unchecked power of the clergy, who hoard vast lands while common Spaniards toil in poverty. The #variable desamortización#! is not an attack on faith, but a restoration of justice—the wealth of Spain should serve the people, not a privileged few. The Church will remain, but it must know its place.\n\nSo let the [SCOPE.sCountry('cr_carlists').GetAdjectiveNoFormatting]s weep for the past—we march toward the future. For [SCOPE.sCountry('cr_christinos').GetRuler.GetPrimaryRoleTitle] [SCOPE.sCountry('cr_christinos').GetRuler.GetFirstNameNoFormatting], for Spain, and for progress!" 
+ cr_defeat_the_carlists:0 "We have defeated the [SCOPE.sCountry('cr_carlists').GetAdjective] rebellion."
+ 
+ je_cr_carlist_question_christinos:0 "The Carlist Question"
+ je_cr_carlist_question_christinos_completion_tt:0 "The [SCOPE.sPoliticalMovement('carlist_movement').GetName] will disband."
+ 
+ je_cr_don_carlos_stop_supporting_portugese_liberals_button:0 "End support for [SCOPE.sCountry('don_carlos_exile_country').GetAdjectiveNoFormatting] Liberals."
+ je_cr_don_carlos_stop_supporting_portugese_liberals_button_desc:0 "When [SCOPE.sCountry('don_carlos_exile_country').GetName] started supporting Don Carlos' bid for our throne, we started supporting the [SCOPE.sCountry('don_carlos_exile_country').GetAdjectiveNoFormatting] [SCOPE.sPoliticalMovement('supported_movement').GetName] in turn. But times can change and we can always decide to end our support of the [SCOPE.sPoliticalMovement('supported_movement').GetNameNoFormatting] in the hopes of [SCOPE.sCountry('don_carlos_exile_country').GetNameNoFormatting] doing the same."
+ 
+ je_cr_ferdinando_po:0 "The Return of Fernando Pó" 
+ je_cr_ferdinando_po_reason:0 "Under a treaty signed with [SCOPE.sCountry('cr_fernado_po_prev_owner').GetName] in 1778 we gained possession of the island of [SCOPE.sState('cr_fernando_po_state').GetName] on the coast of Africa, yet -with the the depravities of the Napoleonic Wars and the subsequent loss of our American Empire- our claim to the island has somewhat lapsed.\n\nCurrently the island is occupied by [SCOPE.sCountry('cr_fernado_po_owner').GetName] who use it as a base for combating the illicit slave trade. Quite a twist of fate, really, as we originally acquired the island for centralising our slave trading activities on.\n\nShould we desire to expand our interest in [SCOPE.sStrategicRegion('cr_biafra').GetName], we could either try and leverage our treaty with Portugal to regain possession over the island or find a different way. Either way; the island would make for an excellent springboard to grow our influence from."
+ je_cr_ferdinando_po_reason_old:0 "Currently -and illegally- occupied by [SCOPE.sCountry('cr_fernado_po_owner').GetNameNoFormatting], [SCOPE.sState('cr_fernando_po_state').GetNameNoFormatting] was originally ceded to us by the [SCOPE.sCountry('cr_fernado_po_prev_owner').GetAdjectiveNoFormatting] in 1778, and was intended as a base for us to centralise our slave trading activities on. However the depravities of the Napoleonic Wars and -of course- the subsequent loss of our American Empire, meant those plans came to naught. Should we desire to expand our interest in [SCOPE.sStrategicRegion('cr_biafra').GetName], we could try and leverage this treaty to regain possession over the island and use it as a springboard to grow our presence in the region.\n\nThe [SCOPE.sCountry('cr_fernado_po_owner').GetAdjectiveNoFormatting] might not be keen to part with the island though as the island has become the home of their West Africa Squadron, which -in quite a twist of fate- is tasked with the suppression of the slave trade in the region."
+ je_cr_ferdinando_po_reason_old_2:0 "In 1778 we acquired the island of the island of [SCOPE.sState('cr_fernando_po_state').GetName] from the [SCOPE.sCountry('cr_fernado_po_prev_owner').GetAdjectiveNoFormatting] in exchange for relinquishing our claims to [SCOPE.sState('cr_uruguay_state').GetPortHubName] in [SCOPE.sState('cr_uruguay_state').GetName]. Yet our hopes of turning the island into a bastion of the [GetLawType('law_slave_trade').GetName] for our American Empire were dashed by our involvement in the American Revolutionary War, the Napoleonic War and -of course- the subsequent loss of our American Empire.\n\nWithout purpose [SCOPE.sState('cr_fernando_po_state').GetNameNoFormatting] languished until the [SCOPE.sCountry('cr_fernado_po_owner').GetAdjectiveNoFlag] took possession of it for use of their West African Squadron. And so -in quite the twist of fate- the island now serves as bastion to suppress the slave trade instead.\n\nThe noblest of pursuits of course, but -with our own interests in [SCOPE.sStrategicRegion('cr_fernando_po_region').GetName] reinvigorated- we should perhaps enforce our claim to the island." 
+ 
+ je_cr_ferdinando_po_complete_tooltip:0 "We have retaken control of #variable Fernando Pó#!"
+ je_cr_ferdinando_po_a:0 "Appeal to the original claim"
+ je_cr_ferdinando_po_a_desc:0 "We will make a legal case based the original #variable Treaty of El Pardo#! for the island to be ceded to us."
+ je_cr_ferdinando_po_a_desc_old:0 "We will make a legal case based the original #variable Treaty of El Pardo#! for the island to be ceded to us.\nThe success is based our [concept_relations], their current [concept_infamy] and their number of colonies in [SCOPE.sStrategicRegion('cr_biafra').GetName]."
+ je_cr_ferdinando_po_a_tt:0 "We have not asked for the return of the island in the past #variable 5 years#!"
+ je_cr_ferdinando_po_button_a_tt:0 "The attitude of [SCOPE.sCountry('cr_fernado_po_owner').GetName] towards [SCOPE.sCountry('cr_fernado_po_claimant').GetName] is either #G Concilliatory#!, #G Protective #!, #G Genial#! or #G Cooperative#!."
+ je_cr_ferdinando_po_b:0 "Use an obligation"
+ je_cr_ferdinando_po_b_desc:0 "We will call upon an obligation owed to us to force the return the island.\n\nThis will use us the [concept_obligation] but it is guaranteed to succeed."
+ je_cr_ferdinando_po_button_b_tt:0 "The attitude of [SCOPE.sCountry('cr_fernado_po_owner').GetName] towards [SCOPE.sCountry('cr_fernado_po_claimant').GetName] is not #N Antagonstic#! nor #N Belligerent#!."
+ 
+ je_cr_ferdinando_po_c:0 "Offer an obligation"
+ je_cr_ferdinando_po_c_desc:0 "We will offer an obligation in exchange for the island."
+ je_cr_ferdinando_po_button_c_tt:0 "The attitude of [SCOPE.sCountry('cr_fernado_po_owner').GetName] towards [SCOPE.sCountry('cr_fernado_po_claimant').GetName] is not #N Antagonstic#! nor #N Belligerent#!."
+ 
+ cr_carlist_victory:0 "Carlist Victory"
+ 
+ 
+ #Algeria Update
+ je_conquest_of_algeria_mascara_destroyed:0 "Abdelkader's #variable Emirate of Mascara#! has been destroyed"
+ je_conquest_of_algeria_mascara_captures:0 "We've capture the city of #variable Mascara#!"
+ je_conquest_of_algeria_medea_captures:0 "We've capture the city of #variable Médéa#!"
+ je_conquest_of_algeria_constantine_captures:0 "We've capture the city of #variable Constantine#!"
+ je_conquest_of_algeria_tt_update:0 "Events about large scale raids will occur far less frequently."
+
+ je_cr_confederation:"Argentine Confederation"
+ je_cr_confederation_reason:"In 1831, the signing of the Federal Pact formally marked the birth of the Argentine Confederation. However, the strongman of [ROOT.GetCountry.GetOverlord.GetNameNoFlag] Province, relying on his superior military and economic power, firmly controls the actual authority of the Confederation, rendering the federal system established by the pact nominal only. We now stand at a crossroads of destiny, facing two starkly different choices: either sit idly by and watch [ROOT.GetCountry.GetOverlord.GetNameNoFlag] gradually erode and annex our lands and sovereignty, or rise up in resistance, seize leadership of the Confederation from their hands, and reshape a federal order that belongs to us."
+ 
+ # Swiss Confederation: In reality all cantons are equal, but due to game mechanics Bern must be set as the absolute leader.
+ je_cr_swi_confederation:"Swiss Confederation"
+ je_cr_swi_confederation_reason:"The fires of the Napoleonic Wars swept across Europe and completely reshaped Switzerland's fate. After the collapse of the short-lived Helvetic Republic, Switzerland finally ushered in a new era of lasting peace. The Federal Treaty signed in 1815 granted the cantons a high degree of autonomy and significant political power. Of course, in practice, a few more powerful cantons often exerted influence that placed them above the others. Now, [ROOT.GetCountry.GetOverlord.GetName] harbors ambitions to centralize power and break the current balance of cantonal autonomy, seeking to bring all federal cantons under its direct control. Our only path forward is to catch up with and ultimately surpass [ROOT.GetCountry.GetOverlord.GetName] — and then rightfully become the new leader of the Confederation, establishing our own new order."
+ 
+ je_cr_confederation_leader:"Unify the Confederation"
+ je_cr_confederation_leader_reason:"Although our country is nominally a confederation in which all provinces enjoy equal status and independent autonomy, we have never abandoned our ambition to unify the nation, and we now possess the strength to integrate all forces and achieve true unity. The time has come to break the loose and fragmented situation of the provinces acting on their own, integrate the resources and power of all provinces, establish our absolute leadership over the entire country, and forge a truly unified and powerful nation-state."
+ 
+ je_cr_swiconfederation_leader:"Unify the Confederation"
+ je_cr_swiconfederation_leader_reason:"Although our country is nominally a confederation in which all cantons enjoy equal status and independent autonomy, we have never abandoned our ambition to unify the nation, and we now possess the strength to integrate all forces and achieve true unity. The time has come to break the loose and fragmented situation of the cantons acting on their own, integrate the resources and power of all cantons, establish our absolute leadership over the entire country, and forge a truly unified and powerful nation-state."
+ 
+ cr_consolidated_member:"Consolidated Confederation Member"
+ cr_federation_leader:"Confederation Leader"
+ je_cr_takeover:"Seize Leadership"
+ je_cr_takeover_desc:"After long-term development and accumulation, our military, economic, and political strength has matured. We now have the capital to compete on equal footing with [ROOT.GetCountry.GetOverlord.GetNameNoFormatting]. The entire Confederation should belong to us. It is time to propose a motion in the assembly and firmly take leadership into our own hands."
+ 
+ je_cr_annex_members:"Consolidate the Confederation"
+ je_cr_annex_members_desc:"Annex a subordinate province to demonstrate the authority of the Confederation leader."
+ 
+ cr_federation.1.t:"Confederation Leadership Seized!"
+ cr_federation.1.d:"Federal Assembly Dispatch: Leadership of the Confederation has now formally passed to [ROOT.GetCountry.GetOverlord.GetName]. Assembly representatives stated in a public declaration that after a full vote, the assembly unanimously believes that this province’s strength and influence far surpass those of [ROOT.GetCountry.GetName], and that it is better suited to represent the interests and future of the entire Confederation."
+ cr_federation.1.f:"The streets of [ROOT.GetCountry.GetNameNoFormatting] are filled with agitated crowds — some supporting the assembly, others demanding independence… The two factions have even come to blows… Governor [ROOT.GetCountry.GetRuler.GetLastName] has declared a state of emergency… The air is thick with unease and resentment."
+ cr_federation.1.a:"This is terrible news."
+ cr_federation.1.b:"We can survive without the Confederation!"
+ 
+ cr_federation.2.t:"Confederation Leader Demands Union!"
+ cr_federation.2.d:"Representatives from [ROOT.GetCountry.GetOverlord.GetNameNoFlag] Province have personally arrived to declare that we are obligated to “become part of [ROOT.GetCountry.GetOverlord.GetNameNoFormatting] Province” and achieve the unification of the Confederation."
+ cr_federation.2.f:"The representatives spoke with overbearing arrogance, as if our sovereignty and autonomy had never existed. On the border, troops from [ROOT.GetCountry.GetOverlord.GetNameNoFlag] Province are quietly assembling. It is clear to all that this is not a friendly proposal, but naked coercion and annexation."
+ cr_federation.2.a:"We have no choice."
+ cr_federation.2.b:"Rise up and resist."
+ 
+ cr_federation.3.t:"Union with [SCOPE.sCountry('consolidated_member').GetName]"
+ cr_federation.3.d:"After careful consideration, Governor [ROOT.GetCountry.GetRuler.GetLastName] has formally decided to unite with [SCOPE.sCountry('consolidated_member').GetName] and has promptly notified the Federal Assembly of this historic decision, awaiting final confirmation."
+ cr_federation.3.f:"Cheers erupt across the squares as the people wave the flags of our province, witnessing this historic moment. Governor [ROOT.GetCountry.GetRuler.GetLastName] stands on the steps of the assembly hall and declares to the crowd with firm resolve: this step is a glorious stride toward the Confederation’s unification and the beginning of our shared journey toward strength."
+ cr_federation.3.a:"A glorious step."
+ 
+ cr_is_arg_member:"[ROOT.GetCountry.GetName] is not a member of the Confederation"
+ cr_is_swi_member:"[ROOT.GetCountry.GetName] is not a member of the Confederation"
+ cr_own_argentina_states:"[ROOT.GetCountry.GetName] owns all Argentine regions and has no other Confederation members as subjects"
+ cr_confederation_leader:"[ROOT.GetCountry.GetName] is not the Confederation leader, or [ROOT.GetCountry.GetName] is a subject of another nation"

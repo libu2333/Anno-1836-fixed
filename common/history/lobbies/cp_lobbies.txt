@@ -1,0 +1,18 @@
+﻿LOBBIES = {
+	c:CPL = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:RUS
+			add_interest_group = ig:ig_devout
+			add_interest_group = ig:ig_armed_forces
+			add_interest_group = ig:ig_landowners
+		}
+	}
+}	
+
+
+
+
+
+
+

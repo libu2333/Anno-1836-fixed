@@ -1,0 +1,995 @@
+﻿# common variables
+@coa_width = 768
+@coa_height = 512
+@canton_scale_cross_x = @[ ( 333 / coa_width ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / coa_height ) + 0.001 ]
+@canton_scale_sweden_x = @[ ( 255 / coa_width ) + 0.001 ]
+@canton_scale_sweden_y = @[ ( 204 / coa_height ) + 0.001 ]
+@canton_scale_norway_x = @[ ( 192 / coa_width ) + 0.001 ]
+@canton_scale_norway_y = @[ ( 192 / coa_height ) + 0.001 ]
+@canton_scale_denmark_x = @[ ( 220 / coa_width ) + 0.001 ]
+@canton_scale_denmark_y = @[ ( 220 / coa_height ) + 0.001 ]
+@third = @[1/3]
+
+YAK2 = { # Yakutia
+	flag_definition = {
+		coa = YAK
+		subject_canton = YAK
+		priority = 1
+	}
+}
+POS = { # Posen
+	flag_definition = {
+		coa = POS
+		subject_canton = POS
+		priority = 1
+	}
+	flag_definition = {
+		coa = POS_subject_PRU
+		subject_canton = POS_subject_PRU
+		priority = 50
+		trigger = {
+			coa_def_prussian_ensign_trigger = yes
+		}
+	}
+}
+BC01 = { # Newfoundland
+	flag_definition = {
+		coa = NEW
+		coa_with_overlord_canton = NEW_subject
+		allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = NEW_republic
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NEW_coa
+		priority = 20
+		trigger = {
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NEW_theocracy
+		subject_canton = NEW_theocracy
+		priority = 20
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NEW_subject
+		allow_overlord_canton = yes
+		priority = 50
+		trigger = {
+			coa_def_british_ensign_trigger = yes
+		}
+	}
+}
+BC02 = { 
+	flag_definition = {
+		coa = BLZ_imp
+		subject_canton = BLZ_imp
+		coa_with_overlord_canton = BLZ
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC03 = { 
+	flag_definition = {
+		coa = B_GHN
+		subject_canton = B_GHN
+		coa_with_overlord_canton = wjdjsehif
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC04 = { 
+	flag_definition = {
+		coa = GYN
+		subject_canton = GYN
+		coa_with_overlord_canton = B_GYN
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC05 = { 
+	flag_definition = {
+		coa = SAI_imp
+		subject_canton = SAI_imp
+		coa_with_overlord_canton = SAI
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC06 = { 
+	flag_definition = {
+		coa = SAI2_imp
+		subject_canton = SAI2_imp
+		coa_with_overlord_canton = SAI2
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC07 = { 
+	flag_definition = {
+		coa = SAI3_imp
+		subject_canton = SAI3_imp
+		coa_with_overlord_canton = SAI3
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC08 = { 
+	flag_definition = {
+		coa = SAI4_imp
+		subject_canton = SAI4_imp
+		coa_with_overlord_canton = SAI4
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC09 = { 
+	flag_definition = {
+		coa = IOT_imp
+		subject_canton = IOT_imp
+		coa_with_overlord_canton = IOT
+		allow_overlord_canton =	yes	
+		priority = 1
+	}
+}
+BC10 = { 
+	flag_definition = {
+		coa = B_IOT2_imp
+		subject_canton = B_IOT2_imp
+		coa_with_overlord_canton = B_IOT2
+		allow_overlord_canton =	yes	
+		priority = 1
+	}
+}
+BC11 = { 
+	flag_definition = {
+		coa = IOT_imp
+		subject_canton = IOT_imp
+		coa_with_overlord_canton = B_IOT3
+		allow_overlord_canton =	yes	
+		priority = 1
+	}
+}
+BC12 = { 
+	flag_definition = {
+		coa = ZBLT_imp
+		subject_canton = ZBLT_imp
+		coa_with_overlord_canton = ZBLT
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC13 = { 
+	flag_definition = {
+		coa = SMS_imp
+		subject_canton = SMS_imp
+		coa_with_overlord_canton = SMS
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC14 = { 
+	flag_definition = {
+		coa = BHM_imp
+		subject_canton = BHM_imp
+		coa_with_overlord_canton = BHM
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+BC15 = { 
+	flag_definition = {
+		coa = BWI1_imp
+		subject_canton = BWI1_imp
+		coa_with_overlord_canton = BWI1
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC16 = { 
+	flag_definition = {
+		coa = BWI2_imp
+		subject_canton = BWI2_imp
+		coa_with_overlord_canton = BWI2
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC17 = { 
+	flag_definition = {
+		coa = BWI3_imp
+		subject_canton = BWI3_imp
+		coa_with_overlord_canton = BWI3
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC18 = { 
+	flag_definition = {
+		coa = BWI4_imp
+		subject_canton = BWI4_imp
+		coa_with_overlord_canton = BWI4
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC19 = { 
+	flag_definition = {
+		coa = BWI5_imp
+		subject_canton = BWI5_imp
+		coa_with_overlord_canton = BWI5
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC20 = { 
+	flag_definition = {
+		coa = BWI6_imp
+		subject_canton = BWI6_imp
+		coa_with_overlord_canton = BWI6
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC21 = { 
+	flag_definition = {
+		coa = BWI7_imp
+		subject_canton = BWI7_imp
+		coa_with_overlord_canton = BWI7
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC22 = { 
+	flag_definition = {
+		coa = BWI8_imp
+		subject_canton = BWI8_imp
+		coa_with_overlord_canton = BWI8
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC23 = { 
+	flag_definition = {
+		coa = BWI9_imp
+		subject_canton = BWI9_imp
+		coa_with_overlord_canton = BWI9
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC24 = { 
+	flag_definition = {
+		coa = BWI10_imp
+		subject_canton = BWI10_imp
+		coa_with_overlord_canton = BWI10
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC25 = { 
+	flag_definition = {
+		coa = BWI11_imp
+		subject_canton = BWI11_imp
+		coa_with_overlord_canton = BWI11
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC27 = { 
+	flag_definition = {
+		coa = JAM2_imp
+		subject_canton = JAM2_imp
+		coa_with_overlord_canton = JAM2
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC28 = { 
+	flag_definition = {
+		coa = PCP_imp
+		subject_canton = PCP_imp
+		coa_with_overlord_canton = PCP
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+
+BC29 = { 
+	flag_definition = {
+		coa = THT
+		subject_canton = THT
+		coa_with_overlord_canton = THTsub
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+BC30 = { 
+	flag_definition = {
+		coa = HHHH_imp
+		subject_canton = HHHH_imp
+		coa_with_overlord_canton = HHHH
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+BC31 = { 
+	flag_definition = {
+		coa = B_GBA_imp
+		subject_canton = B_GBA_imp
+		coa_with_overlord_canton = B_GBA
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+FC01 = { 
+	flag_definition = {
+		coa = SPM
+		subject_canton = SPM
+		allow_overlord_canton = no		
+		priority = 1
+	}
+}
+FC02 = { 
+	flag_definition = {
+		coa = F_GYN
+		subject_canton = F_GYN
+		allow_overlord_canton = no		
+		priority = 1
+	}
+}
+FC03 = { 
+	flag_definition = {
+		coa = F_IOT
+		subject_canton = F_IOT
+		allow_overlord_canton = no		
+		priority = 1
+	}
+}
+FC04 = { 
+	flag_definition = {
+		coa = FWI
+		subject_canton = FWI
+		allow_overlord_canton = no		
+		priority = 1
+	}
+}
+FC05 = { 
+	flag_definition = {
+		coa = FWI2_imp
+		subject_canton = FWI2_imp
+		trigger = { 
+			scope:actor ?= {
+				is_subject = no
+			}
+		}
+		priority = 1
+	}
+	flag_definition = {
+		coa = FWI2
+		subject_canton = FWI2
+		trigger = { 
+			scope:actor ?= {
+				is_subject = yes
+			}
+		}
+		priority = 1
+	}
+}
+FC06 = { 
+	flag_definition = {
+		coa = FWI3
+		subject_canton = FWI3
+		allow_overlord_canton = no		
+		priority = 1
+	}
+}
+FC07 = { 
+	flag_definition = {
+		coa = F_IND
+		subject_canton = F_IND_imp
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_french_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = F_IND_imp
+		subject_canton = F_IND_imp
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+FC08 = { 
+	flag_definition = {
+		coa = ICT
+		subject_canton = ICT
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+FC09 = { 
+	flag_definition = {
+		coa = SNG1
+		subject_canton = SNG1
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+SC01 = { 
+	flag_definition = {
+		coa = S_MRS
+		subject_canton = S_MRS
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+SC02 = { 
+	flag_definition = {
+		coa = S_MOR
+		subject_canton = S_MOR
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+PC01 = { 
+	flag_definition = {
+		coa = P_AGL
+		subject_canton = AGL
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = AGL
+		subject_canton = AGL
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC02 = { 
+	flag_definition = {
+		coa = P_MSBQ
+		subject_canton = MSBQ
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MSBQ
+		subject_canton = MSBQ
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC03 = { 
+	flag_definition = {
+		coa = CVD
+		subject_canton = CVD_imp
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CVD_imp
+		subject_canton = CVD_imp
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC04 = { 
+	flag_definition = {
+		coa = P_IND
+		subject_canton = P_IND_imp
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = P_IND_imp
+		subject_canton = P_IND_imp
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC05 = { 
+	flag_definition = {
+		coa = P_IND
+		subject_canton = P_IND_imp
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = P_IND_imp
+		subject_canton = P_IND_imp
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC06 = { 
+	flag_definition = {
+		coa = P_IND
+		subject_canton = P_IND_imp
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = P_IND_imp
+		subject_canton = P_IND_imp
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC07 = { 
+	flag_definition = {
+		coa = P_TMR
+		subject_canton = TMR111
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TMR111
+		subject_canton = TMR111
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC08 = { 
+	flag_definition = {
+		coa = STMP
+		subject_canton = STMP_imp
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = STMP_imp
+		subject_canton = STMP_imp
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+PC09 = { 
+	flag_definition = {
+		coa = P_GBA
+		subject_canton = GBA
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_portugal_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBA
+		subject_canton = GBA
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+DC01 = { 
+	flag_definition = {
+		coa = D_GHN
+		subject_canton = D_GHN
+		coa_with_overlord_canton = wjdjsehif
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+DC02 = { 
+	flag_definition = {
+		coa = _ICL
+		subject_canton = _ICL
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+DC03 = { 
+	flag_definition = {
+		coa = RGT
+		subject_canton = RGT
+		allow_overlord_canton = no	
+		priority = 2
+		trigger = { 
+			coa_def_danish_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN
+		subject_canton = GRN
+		allow_overlord_canton = no	
+		priority = 1
+	}
+}
+DC04 = { 
+	flag_definition = {
+		coa = DWI_imp
+		subject_canton = DWI_imp
+		coa_with_overlord_canton = DWI
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+DC05A = { 
+	flag_definition = {
+		coa = DC05A
+		subject_canton = DC05A
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+DC05 = { # British East India Company
+	flag_definition = { # this is the raj flag
+		coa = D_IND_imp
+		subject_canton = D_IND_imp
+		coa_with_overlord_canton = BIC_subject
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+DC02A = { 
+	flag_definition = {
+		coa = _FRO 
+		subject_canton = _FRO 
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+FC06A = { 
+	flag_definition = {
+		coa = idontknowswii
+		subject_canton = idontknowswii
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+NC01 = { 
+	flag_definition = {
+		coa = N_GHN
+		subject_canton = N_GHN
+		coa_with_overlord_canton = wjdjsehif
+		allow_overlord_canton = yes	
+		priority = 1
+	}
+}
+NC02 = { 
+	flag_definition = {
+		coa = N_GYN
+		subject_canton = N_GYN
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+NC03 = { 
+	flag_definition = {
+		coa = NATL
+		subject_canton = NATL
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+NC04 = { 
+	flag_definition = {
+		coa = SWII
+		subject_canton = SWII
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+NC05 = { 
+	flag_definition = {
+		coa = NATL3
+		subject_canton = NATL3
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+NNV2 = { 
+	flag_definition = {
+		coa = NNV
+		subject_canton = NNV
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+AMZ2 = { 
+	flag_definition = {
+		coa = AMZ
+		subject_canton = AMZ
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+GRN2 = { 
+	flag_definition = {
+		coa = GRN
+		subject_canton = GRN
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+AHD = { # Anhalt
+	flag_definition = {
+		coa = ANH
+		subject_canton = ANH
+		priority = 1
+	}
+}
+
+AHK = { # Anhalt
+	flag_definition = {
+		coa = ANH
+		subject_canton = ANH
+		priority = 1
+	}
+}
+
+AHB = { # Anhalt
+	flag_definition = {
+		coa = ANH
+		subject_canton = ANH
+		priority = 1
+	}
+}
+
+SRO = { #San Marino
+	flag_definition = {
+		coa = SRO
+		subject_canton = SRO
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+REPLACE:MON = { # Montenegro
+	flag_definition = {
+		coa = MON_theocracy
+		subject_canton = MON_theocracy
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MON_theocracy			
+		priority = 10
+		trigger = { 
+			scope:actor = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = MON_principality_absolutist
+		subject_canton = MON_principality_absolutist
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MON_principality_absolutist			
+		priority = 10
+		trigger = { 
+			scope:actor = {
+				has_law_or_variant = law_type:law_monarchy
+				country_tier = principality
+				has_law_or_variant = law_type:law_autocracy
+			}
+		}
+	}
+	flag_definition = {
+		coa = MON_principality_variant
+		subject_canton = MON_principality_variant
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MON_principality_variant			
+		priority = 10
+		trigger = { 
+			scope:actor = {
+				has_law_or_variant = law_type:law_monarchy
+				country_tier = principality
+				NOT = { has_law_or_variant = law_type:law_autocracy }
+			}
+		}
+	}
+	flag_definition = {
+		coa = MON_kingdom
+		subject_canton = MON_kingdom
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MON_kingdom			
+		priority = 10
+		trigger = { 
+			scope:actor = {
+				has_law_or_variant = law_type:law_monarchy
+				NOT = { country_tier = principality }
+			}
+		}
+	}
+	flag_definition = {
+		coa = MON_republic
+		subject_canton = MON_republic
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MON_republic		
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MON_communist
+		subject_canton = MON_communist
+		allow_overlord_canton = no
+		coa_with_overlord_canton = MON_principality_variant			
+		priority = 10
+		trigger = { 
+			scope:actor = {
+				has_law_or_variant = law_type:law_council_republic
+			}
+		}
+	}
+}
+
+PEI = { # New Brunswick
+	flag_definition = {
+		coa = PEI
+		coa_with_overlord_canton = PEI_subject
+		allow_overlord_canton = yes		
+	}
+	flag_definition = {
+		coa = PEI_subject_FRA
+		allow_overlord_canton = yes			
+		priority = 50
+		trigger = { 
+			coa_def_french_ensign_trigger = yes
+		}
+	}	
+}
+
+MGK = {
+	flag_definition = {
+		coa = MGK_theocracy
+		subject_canton = MGK_theocracy
+		allow_overlord_canton = no			
+		priority = 10
+		trigger = { 
+			scope:actor = {
+				has_law_or_variant = law_type:law_theocracy
+			}
+		}
+	}
+}
+
+SUTCAL = {
+	flag_definition = {
+		coa = CAL_nueva_helvetia
+		subject_canton = CAL_nueva_helvetia
+		allow_overlord_canton = no			
+		priority = 1
+		trigger = { 
+		}
+	}
+	flag_definition = {
+		coa = SUTCAL_american
+		subject_canton = SUTCAL_american
+		allow_overlord_canton = no			
+		priority = 1
+		trigger = { 
+			coa_def_american_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SUTCAL_switzerland
+		subject_canton = SUTCAL_switzerland
+		allow_overlord_canton = no			
+		priority = 1
+		trigger = { 
+			OR = {
+			coa_def_swiss_ensign_trigger = yes
+			coa_def_bern_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = SUTCAL_mexican
+		subject_canton = SUTCAL_mexican
+		allow_overlord_canton = no			
+		priority = 1
+		trigger = { 
+			coa_def_mexican_ensign_trigger = yes
+		}
+	}
+}
+
+ALC = {
+	flag_definition = {
+		coa = ALC_subject
+		subject_canton = ALC_subject
+		allow_overlord_canton = no			
+		priority = 10
+		trigger = {
+			coa_def_mexican_ensign_trigger = yes
+			#exists = c:MEX
+			#scope:actor = {
+			#	is_subject_of = c:MEX
+			#}
+		}
+	}
+	flag_definition = {
+		coa = ALC
+		subject_canton = ALC
+		allow_overlord_canton = no			
+		priority = 0
+		trigger = {
+		}
+	}
+}
+
+SPA = {
+	flag_definition = {
+		coa = SPA_carlists
+		subject_canton = SPA_carlists
+		allow_overlord_canton = no
+		priority = 10
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				has_variable = cr_carlist_victory
+			}
+		}
+	}
+}
+
+TNS2 = { # Tungus
+	flag_definition = {
+		coa = TNS
+		subject_canton = TNS
+		priority = 1
+	}
+}
+
+BRY2 = { # Buryatia
+	flag_definition = {
+		coa = BRY
+		subject_canton = BRY
+		priority = 1
+	}
+	flag_definition = {  # To the madness of daring, we chant a song.
+		coa = BRY_communist
+		subject_canton = BRY_communist
+		priority = 1000
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}

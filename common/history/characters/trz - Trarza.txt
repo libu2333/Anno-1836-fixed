@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:TRZ ?= {
+		create_character = {
+			template = TRZ_mohammed_al_habib_ould_amar
+		}	
+		create_character = {
+			template = TRZ_sidi_mbairika_ould_mohammed
+		}	
+	}
+}

@@ -1,0 +1,267 @@
+﻿namespace = cr_american_events
+
+cr_american_events.1 = { #The National Rifle Association
+	type = country_event
+	placement = ROOT
+
+	title = cr_american_events.1.t
+	desc = { 
+		random_valid = {
+			triggered_desc = {
+				desc = cr_american_events.1.desc_lost
+				trigger = {
+					has_variable = recently_lost_war
+				}
+			}
+			triggered_desc = {
+				desc = cr_american_events.1.desc_won
+				trigger = {
+					has_variable = recently_won_war
+				}
+			}
+		}
+		
+	}
+	flavor = cr_american_events.1.f
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:nra_founding_general
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+		this ?= c:USA
+		has_technology_researched = rifling # Need to have rifling to found the National RIFLE association
+		has_variable = recently_had_war
+		is_at_war = no
+		ig:ig_armed_forces = {
+			is_marginal = no
+		}
+		any_scope_character = {
+			has_role_of_type = general
+		}
+		any_scope_building = {
+			is_building_type = building_arms_industry
+		}
+		NOR = {	
+			has_law = law_type:law_peasant_levies
+			has_law = law_type:law_no_police
+		}
+	}
+
+	immediate = {
+		ig:ig_armed_forces = {
+			save_scope_as = the_national_rifle_association_scope
+		}
+		random_scope_character = {
+			limit = {
+				has_role_of_type = general
+			}
+			save_scope_as = nra_founding_general
+		}
+		random_scope_state = {
+			limit = {
+				has_building = building_arms_industry
+			}
+			save_scope_as = nra_founding_state
+		}
+		random_country = {
+			limit = {
+				has_truce_with = ROOT
+			}
+			save_scope_as = recent_opponent_scope
+		}
+	}
+
+	option = {
+		name = cr_american_events.1.a
+		default_option = yes
+		ig:ig_armed_forces = {
+			custom_tooltip = {
+				text = cr_american_events.1.a_tt
+				set_interest_group_name = ig_national_rifle_association
+			}
+			add_modifier = {
+				name = cr_the_nra_ig
+			}
+		}
+		cu:dixie = {
+			add_cultural_obsession = small_arms
+		}
+		cu:yankee = {
+			add_cultural_obsession = small_arms
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = cr_american_events.1.b
+		ig:ig_armed_forces = {
+			#custom_tooltip = {
+			#	text = cr_american_events.1.a_tt
+			#	set_interest_group_name = ig_national_rifle_association
+			#}
+			add_modifier = {
+				name = cr_national_rifle_associations_ig
+			}
+		}
+		cu:dixie = {
+			add_cultural_obsession = small_arms
+		}
+		cu:yankee = {
+			add_cultural_obsession = small_arms
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+cr_american_events.9 = { #event bridge
+	type = country_event
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { c:ORG ?= { is_player = yes } } 
+			c:ORG ?= {
+				trigger_event = { id = cr_american_events.10 days = 1 }
+			}
+		}
+		else_if = {
+			limit = { c:HBC ?= { is_player = yes } } 
+			c:HBC ?= {
+				trigger_event = { id = cr_american_events.10 days = 1 }
+			}
+		}
+		else_if = {
+			limit = { c:GBR ?= { is_player = yes } } 
+			c:GBR ?= {
+				trigger_event = { id = cr_american_events.10 days = 1 }
+			}
+		}
+		else = {
+			c:ORG ?= {
+				trigger_event = { id = cr_american_events.10 days = 1 }
+			}
+		}
+	}
+}
+
+cr_american_events.10 = { #The Acquisition of Fort Hall
+	type = country_event
+	placement = scope:fort_hall_scope
+
+	title = cr_american_events.10.t
+	desc = cr_american_events.10.desc
+	flavor = cr_american_events.10.flavour
+
+	event_image = {
+		video = "europenorthamerica_gold_prospectors"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+	
+	cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+		p:xBC0AA9.owner = { is_country_type = decentralized }	#Fort Hall province. It is possible the US maps the oregon trail before this event fires, invalidating this event.
+	}
+
+	immediate = {
+		if = {
+			limit = { exists = c:ORG }
+			c:ORG ?= { save_scope_as = oregon_district }
+		}
+		else_if = {
+			limit = { exists = c:HBC }
+			c:HBC ?= { save_scope_as = oregon_district }
+		}
+		else_if = {
+			limit = { exists = c:CAN }
+			c:CAN ?= { save_scope_as = oregon_district }
+		}
+		else = {
+			save_scope_as = oregon_district
+		}
+		p:xBC0AA9 = {
+			save_scope_as = fort_hall_scope
+		}
+		c:HBC ?= {
+			save_scope_as = hbc_scope
+		}
+		c:ORG ?= {
+			save_scope_as = oregon_scope
+		}
+	}
+	
+	cancellation_trigger = {
+		NOT = { p:xBC0AA9.owner = { is_country_type = decentralized } } #Fort Hall province. It is possible the US maps the oregon trail while this event fires, invalidating this event.
+	}
+
+	option = {	#Should advance the Oregon Dispute JE in favour of the Oregon Territory/Britain
+		name = cr_american_events.10.a
+		default_option = yes
+		custom_tooltip = {
+			text = cr_american_events.10.a_tt
+			cr_acquiring_fort_hall_effect = yes
+			random_scope_state = {
+				limit = {
+					state_region = s:STATE_IDAHO
+				}
+				save_scope_as = fort_hall_region_scope
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					c:GBR ?= this
+					institution_investment_level = {
+						institution = institution_colonial_affairs
+						value > 2
+					}
+				}
+			}
+			add_modifier = {
+				name = cr_purchase_fort_hall_mod
+				days = normal_modifier_time
+			}
+		}
+		else = {
+			add_modifier = {
+				name = cr_purchase_fort_hall_alt_mod
+				days = normal_modifier_time
+			}		
+		}
+
+		c:USA ?= { post_notification = cr_hbc_acquires_fort_hall }
+		ai_chance = {
+			base = 95
+		}
+	}
+
+	option = {	#Will result in the US gaining Fort Hall through the Mapping the Oregon Trail event, eventually.
+		name = cr_american_events.10.b
+		
+		ai_chance = {
+			base = 5
+		}
+	}
+}

@@ -1,0 +1,16 @@
+﻿### Quebec character template file ###
+
+QUE_john_molson = {
+	first_name = John
+	last_name = "Molson"
+	historical = yes
+	culture = cu:anglo_canadian
+	birth_date = 1763.12.28
+	ig_leader = yes
+	interest_group = ig_industrialists
+	ideology =  ideology_ethno_nationalist
+	home_region = STATE_EAST_ANGLIA
+	traits = {
+		ambitious bigoted basic_political_operator
+	}
+}

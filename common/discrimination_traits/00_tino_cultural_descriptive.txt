@@ -1,0 +1,24 @@
+#han_subgroups = {} 汉族民系,被han替代
+tibetan_ethnic = {}
+
+sino_tibeto = {}
+#han_chinese = {} 汉语,被sinosphere替代
+#tibetan = {} 藏语
+
+southwest_tien_mandarin = {}
+chungyuan_mandarin = {}
+kianghwai_mandarin = {}
+southwest_shu_mandarin = {}
+hakkaese = {}
+min_chinese = {}
+jin_chinese = {}
+hsiang_chinese = {}
+cantonese = {}
+kan_chinese = {}
+hwei_chinese = {}
+wu_chinese = {}
+
+amdo_tibetan = {}
+utsang_tibetan = {}
+kham_tibetan = {}
+

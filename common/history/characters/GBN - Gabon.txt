@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:GBN ?= {
+		create_character = {
+			template = GBN_antchoue_kome_rapontcombo
+		}	
+	}
+}

@@ -1,0 +1,20 @@
+POWER_BLOCS = {
+	c:CHI ?= {
+		create_power_bloc = {
+			name = EMPIRE_OF_CHINA
+
+			map_color = { 252 185 61 }
+
+			founding_date = 1683.9.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			member = c:DAI
+			member = c:SIA
+			member = c:SUL
+			member = c:NEP
+			member = c:BUR
+			member = c:KOK
+		}
+	}
+}

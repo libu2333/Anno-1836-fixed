@@ -1,0 +1,254 @@
+﻿GLOBAL = {
+	c:USA = {
+		add_journal_entry = { type = je_indian_removal }
+		add_journal_entry = { type = je_oregon }
+		add_modifier = {
+			name = seminole_war_expense_mod
+		}
+	}
+	s:STATE_FLORIDA.region_state:USA = {
+		add_modifier = {
+			name = seminole_war_forward_policy
+		}
+	}
+	s:STATE_HOKKAIDO.region_state:EZO = {
+		add_modifier = {
+			name = cr_new_colonization_100
+			months = 120
+		}
+	}
+	#s:STATE_GREENLAND.region_state:DEN = {
+	#	add_modifier = {
+	#		name = cr_the_cold_waste
+	#		months = 840
+	#	}
+	#}
+	if = {
+		limit = {
+			has_game_rule = decentralized_canada
+		}
+			s:STATE_QUEBEC.region_state:QUE = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_QUEBEC.region_state:INU = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_QUEBEC.region_state:NHW = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ONTARIO.region_state:ONT = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ONTARIO.region_state:HBC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ONTARIO.region_state:CTF = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ONTARIO.region_state:NHW = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_NEWFOUNDLAND.region_state:GBR = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_NEWFOUNDLAND.region_state:INU = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_NEWFOUNDLAND.region_state:NNV2 = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_UNGAVA.region_state:HBC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_UNGAVA.region_state:NHW = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_UNGAVA.region_state:NNV2 = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_UNGAVA.region_state:INU = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_KENORA.region_state:HBC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_KENORA.region_state:NHW = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_KENORA.region_state:CTF = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_MANITOBA.region_state:HBC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_MANITOBA.region_state:CTF = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_MANITOBA.region_state:NHW = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_MANITOBA.region_state:IRC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_MANITOBA.region_state:ATB = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_SASKATCHEWAN.region_state:HBC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_SASKATCHEWAN.region_state:ATB = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_SASKATCHEWAN.region_state:NHW = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_SASKATCHEWAN.region_state:IRC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_SASKATCHEWAN.region_state:GVT = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ALBERTA.region_state:HBC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ALBERTA.region_state:ATB = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ALBERTA.region_state:IRC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ALBERTA.region_state:BLF = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_ALBERTA.region_state:GVT = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_NORTHWEST_TERRITORIES.region_state:HBC = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_NORTHWEST_TERRITORIES.region_state:NNV2 = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_NORTHWEST_TERRITORIES.region_state:ATB = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_YUKON_TERRITORY.region_state:NNV2 = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+	s:STATE_YUKON_TERRITORY.region_state:ATB = {
+		add_modifier = {
+			name = cr_unceded_territory_100
+			months = 840
+		}
+	}
+		}
+	}
+

@@ -1,0 +1,20 @@
+﻿POPULATION = {
+	c:AHK ?= {
+		
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_high = yes
+		
+	}
+	c:AHD ?= {
+		
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_high = yes
+		
+	}
+	c:AHB ?= {
+		
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_high = yes
+		
+	}
+}

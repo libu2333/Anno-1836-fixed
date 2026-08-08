@@ -1,0 +1,24 @@
+﻿DIPLOMATIC_PLAYS = {
+	if = {
+		limit = {
+			has_game_rule = all_historical_wars
+		}
+	c:SAF ?= {
+		create_diplomatic_play = {
+			name = cr_xhosa_war
+		
+			target_state = s:STATE_EASTERN_CAPE.region_state:XHO
+			
+			war = yes
+			
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:XHO
+				type = conquer_state
+				target_state = s:STATE_EASTERN_CAPE.region_state:SAF
+			}			
+		}	
+	}
+}
+}

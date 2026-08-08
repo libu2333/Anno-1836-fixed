@@ -1,0 +1,89 @@
+﻿cr_fort_ross_accepted = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+cr_fort_ross_rejected = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+cr_alaska_colonisation_encouraged = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+}
+
+cr_alaska_colonisation_discouraged = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+}
+
+cr_california_colonisation_encouraged = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+}
+
+cr_california_colonisation_discouraged = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+}
+
+cr_numbered_treaties_switched_to_no_colonial_affairs = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+}
+
+cr_numbered_treaties_war_makes_negotiations_impossible = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+}
+
+texan_war_of_independence_mexico_accepts_treaties_of_velasco = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+texan_war_of_independence_autonomy_and_exiles = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+texan_war_of_independence_mexico_rejects_treaties_of_velasco = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+texan_war_of_independence_remember_the_alamao = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/military.dds"
+	notification_type = toast
+}
+
+cr_hbc_acquires_fort_hall = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = feed
+}
+
+mex_john_sutters_colony = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+}
+
+usa_john_sutters_colony = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = feed
+}

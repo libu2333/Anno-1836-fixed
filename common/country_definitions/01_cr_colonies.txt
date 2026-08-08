@@ -1,0 +1,558 @@
+###################
+# British Subject #
+###################
+
+
+BC01 = { #Newfoundland
+	color = rgb{ 24 1 180 }
+	country_type = colonial
+	tier = kingdom
+	capital = STATE_NEWFOUNDLAND
+	cultures = { anglo_canadian }
+}
+
+BC02 = { #Berlize
+	color = rgb{ 182 75 222 } 
+	country_type = colonial
+	tier = principality
+	capital = STATE_GUATEMALA
+	cultures = { central_american }
+}
+
+BC03 = { #Ghana
+	color = rgb{ 129 122 44 } 
+	country_type = colonial
+	tier = principality
+	capital = STATE_GHANA
+	cultures = { akan }
+}
+
+BC04 = { #Guayana
+	color = rgb{ 18 39 222 } 
+	country_type = colonial
+	tier = principality
+	capital = STATE_GUAYANA
+	cultures = { afro_caribbean }
+}
+
+BC05 = { # Falkland Islands
+	color = { 68 17 2 }
+	country_type = colonial
+	tier = city_state
+	cultures = { british }
+	capital = STATE_SOUTH_ATLANTIC_ISLANDS
+}
+
+BC06 = { # South Georgia and the South Sandwich Islands
+	color = { 11 97 148 }
+	country_type = colonial
+	tier = city_state
+	cultures = { british }
+	capital = STATE_SOUTH_ATLANTIC_ISLANDS
+}
+
+BC07 = { # Ascension Island
+	color = { 152 109 84 }
+	country_type = colonial
+	tier = city_state
+	cultures = { british }
+	capital = STATE_SOUTH_ATLANTIC_ISLANDS
+}
+
+BC08 = { # Saint Helena
+	color = { 42 214 188 }
+	country_type = colonial
+	tier = city_state
+	cultures = { british }
+	capital = STATE_SOUTH_ATLANTIC_ISLANDS
+}
+
+BC09 = { # Mauritius
+	color = { 255 21 235 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean }
+	capital = STATE_INDIAN_OCEAN_TERRITORY
+}
+
+BC10 = { # Seychelles
+	color = { 174 32 218 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean }
+	capital = STATE_INDIAN_OCEAN_TERRITORY
+}
+
+BC11 = { # Chagos Archipelago
+	color = { 182 39 66 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean }
+	capital = STATE_INDIAN_OCEAN_TERRITORY
+}
+
+BC12 = { # Gibraltar
+	color = { 128 33 121 }
+	country_type = colonial
+	tier = city_state
+	cultures = { spanish }
+	capital = STATE_UPPER_ANDALUSIA
+}
+
+BC13 = { # Bermuda
+	color = { 223 11 223 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_caribbean }
+	capital = STATE_BERMUDA
+}
+
+BC14 = { # Bahamas
+	color = { 217 44 2 }
+	country_type = colonial
+	tier = principality
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_BAHAMAS
+}
+
+BC15 = { # Montserrat
+	color = { 123 45 67 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+BC16 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC17 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC18 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC19 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC20 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC21 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC22 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC23 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC24 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC25 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+BC26 = { #Jamaica
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = principality
+	cultures = { british }
+	capital = STATE_JAMAICA
+}
+BC27 = { #Cayman Islands
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = {  afro_caribbean }
+	capital = STATE_JAMAICA
+}
+BC28 = { # Equatorial Guinea
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = principality
+	cultures = { fang }
+	capital = STATE_SAO_TOME_AND_PRINCIPE
+}
+BC29 = { # Pitcairn Islands
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { british }
+	capital = STATE_TUAMOTES
+}
+BC30 = { 
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = city_state
+	cultures = { british }
+	capital = STATE_BAHAMAS
+}
+BC31 = { # Gambia
+	color = { 89 101 112 }
+	country_type = colonial
+	tier = principality
+	cultures = { mande }
+	capital = STATE_GAMBIA # Remember to change capital to STATE_GAMBIA_RIVER
+}
+
+####################
+#  French Subject  #
+####################
+
+FC01 = { # Saint Pierre and Miquelon
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_SAINT_PIERRE_AND_MIQUELON
+	cultures = { french }
+}
+
+FC02 = { # French Guayana
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_CAYENNE
+	cultures = { afro_caribbean }
+}
+
+FC03 = { # French Indian Territory
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_INDIAN_OCEAN_TERRITORY
+	cultures = { afro_antillean }
+}
+
+FC04 = { 
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_WEST_INDIES
+	cultures = { afro_antillean afro_caribbean }
+}
+
+FC05 = { 
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_WEST_INDIES
+	cultures = { afro_antillean afro_caribbean }
+}
+
+FC06 = { 
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_WEST_INDIES
+	cultures = { afro_antillean afro_caribbean }
+}
+
+FC06A = { 
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_WEST_INDIES
+	cultures = { afro_antillean afro_caribbean }
+}
+
+FC07 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_MADRAS
+	cultures = { tamil }
+}
+
+FC08 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_IVORY_COAST
+	cultures = { akan }
+}
+
+FC09 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_SENEGAL
+	cultures = { fulbe wolof }
+}
+
+#####################
+#  Spanish Subject  #
+#####################
+
+SC01 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_WEST_MICRONESIA
+	cultures = { micronesian }
+}
+
+SC02 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_AL_RIF
+	cultures = { maghrebi }
+}
+
+######################
+#  Portugal Subject  #
+######################
+
+PC01 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_ANGOLA
+	cultures = { bakongo ovimbundu kavango_bantu }
+}
+
+PC02 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_MOCAMBIQUE
+	cultures = { tonga nguni swahili shona chewa }
+}
+
+PC03 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_CAPE_VERDE
+	cultures = { portuguese }
+}
+
+PC04 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_GUJARAT
+	cultures = { gujarati }
+}
+
+PC05 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_GUJARAT
+	cultures = { gujarati }
+}
+
+PC06 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_BOMBAY
+	cultures = { marathi }
+}
+
+PC07 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_TIMOR
+	cultures = { moluccan }
+}
+
+PC08 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_SAO_TOME_AND_PRINCIPE
+	cultures = { fang }
+}
+
+PC09 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_GAMBIA
+	cultures = { mande }
+}
+
+####################
+#  Danish Subject  #
+####################
+
+DC01 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_GHANA
+	cultures = { akan }
+}
+
+DC02 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_ICELAND
+	cultures = { icelandic }
+}
+DC02A = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_ICELAND
+	cultures = { icelandic }
+}
+
+DC03 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_GREENLAND
+	cultures = { danish inuit }
+}
+
+DC04 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_WEST_INDIES
+	cultures = { afro_antillean afro_caribbean }
+}
+
+DC05 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_MADRAS
+	cultures = { tamil }
+}
+
+DC05A = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_ARAKAN
+	cultures = { mon }
+}
+
+###################
+#  Dutch Subject  #
+###################
+
+NC01 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_GHANA
+	cultures = { akan }
+}
+
+NC02 = {
+	color = rgb{ 42 56 123 }
+	country_type = colonial
+	tier = principality
+	capital = STATE_SURINAME
+	cultures = { afro_caribbean }
+}
+
+NC03 = {
+	color = rgb{ 114 51 45 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_LEEWARD_ANTILLES
+	cultures = { afro_caribbean }
+}
+
+NC04 = {
+	color = rgb{ 114 51 45 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_LEEWARD_ANTILLES
+	cultures = { afro_caribbean }
+}
+
+NC05 = {
+	color = rgb{ 114 51 45 }
+	country_type = colonial
+	tier = city_state
+	capital = STATE_LEEWARD_ANTILLES
+	cultures = { afro_caribbean }
+}
+
+NWI = {
+	color = { 12 157 1 }
+	
+	country_type = colonial
+
+	tier = city_state
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+NWI2 = {
+	color = { 12 157 1 }
+	
+	country_type = colonial
+
+	tier = city_state
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+NWI3 = {
+	color = { 12 157 1 }
+	
+	country_type = colonial
+
+	tier = city_state
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+LZZ = {
+	color = { 148 216 141 }
+	tier = principality
+	country_type = unrecognized
+	cultures = { han }
+	capital = STATE_HUNAN
+}

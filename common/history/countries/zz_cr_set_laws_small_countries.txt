@@ -1,0 +1,188 @@
+﻿COUNTRIES = {
+	c:AMZ2 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:GRN2 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:YAK2 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KHN ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:CTF ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:TNS2 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:TAR ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BRY2 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:CKC ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:MLD ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:MNC ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KSN ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BST ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:TKE ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:DAK ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BSS ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KSS ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:TIV ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:SRA ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BJA ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:NBA ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:CHW ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:LMW ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:MKU ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:MRV ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:CAO ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:SSS ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BNI ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:CLB ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BDA ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:DKL ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:GBN ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:GBY ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:JOS ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:LBD ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:WSH ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:NFD ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:RUB ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:DLG ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:EVK ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:EVN ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KMI ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KMD ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KRJ ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KTY ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:LKP ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:NNT ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:NNY ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:ANR ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BAA ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BAR ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:ONI ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:MAE ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:BRW ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:TEV ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:MMB ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:KLG ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:RZW ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:GML ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:YUZ ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:NKU ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:TAI ?= {
+		effect_starting_politics_traditional = yes
+	}
+}

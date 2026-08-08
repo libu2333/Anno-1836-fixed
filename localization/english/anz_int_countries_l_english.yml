@@ -1,0 +1,219 @@
+﻿l_english:
+
+ TAR2: "Hek"
+ TAR2_ADJ: "Hek"
+ TAI: "Pota"
+ TAI_ADJ: "Pota"
+ NKU: "Faenga"
+ NKU_ADJ: "Faenga"
+ RAP: "Topa"
+ RAP_ADJ: "Topa"
+ MQS: "Kamehame"
+ MQS_ADJ: "Kamehame"
+ MGR: "Kaili"
+ MGR_ADJ: "Kaili"
+ TUP: "Lika"
+ TUP_ADJ: "Lika"
+ TUM: "Kala"
+ TUM_ADJ: "Kala"
+ BOA: "Keoua"
+ BOA_ADJ: "Keoua"
+ GKI: "Kalakaua"
+ GKI_ADJ: "Kalakaua"
+ SAM: "Polynesia"
+ SAM_ADJ: "Polynesian"
+ TOK: "Pomare"
+ TOK_ADJ: "Pomare"
+ ELL: "Elato"
+ ELL_ADJ: "Elato"
+ GIL: "Drelaragia"
+ GIL_ADJ: "Drelaragia"
+ CRL: "Micronesia"
+ CRL_ADJ: "Micronesian"
+ MLD: "Maldives"
+ MLD_ADJ: "Maldivian"
+ VIC: "Victoria"
+ VIC_ADJ: "Victorian"
+ NAN: "Nan"
+ NAN_ADJ: "Nan"
+ MPU: "Manipur"
+ MPU_ADJ: "Manipuri"
+ TKH: "Kham"
+ TKH_ADJ: "Kham"
+ HOR: "Hopar"
+ HOR_ADJ: "Hopar"
+ RIA: "Pagaruyung"
+ RIA_ADJ: "Pagaruyung"
+ YAWNGHWE: "Yawnghwe"
+ YAWNGHWE_ADJ: "Yawnghwe"
+
+ VIC: "Victoria"
+ VIC_ADJ: "Victorian"
+
+ QLD: "Queensland"
+ QLD_ADJ: "Queenslander"
+
+ dyn_c_van_diemans_land_adj: "Vandemonian"
+ 
+ ESR: "Eureka Stockade Rebellion"
+ ESR_ADJ: "Rebel"
+
+ NNG: "Nyungar"
+ NNG_ADJ: "Nyungic"
+
+ I01: "Kulin"
+ I01_ADJ: "Kulinic"
+
+ I02: "Kurnai"
+ I02_ADJ: "Kurnai"
+
+ I03: "Yorta Yorta"
+ I03_ADJ: "Yotayotic"
+
+ I04: "Yuin–Kuri"
+ I04_ADJ: "Yuin–Kuric"
+
+ I05: "Wiradhuri"
+ I05_ADJ: "Wiradhuric"
+
+ I06: "Baagandji"
+ I06_ADJ: "Baagandji"
+
+ I07: "Ngarrindjeri"
+ I07_ADJ: "Ngarrindjeri"
+
+ I08: "Yarli"
+ I08_ADJ: "Yarli"
+
+ I09: "Karna"
+ I09_ADJ: "Karnic"
+
+ I10: "Gumbaynggar"
+ I10_ADJ: "Gumbaynggiric"
+
+ I11: "Yugambeh–Bundjalung"
+ I11_ADJ: "Yugambeh–Bundjalung"
+
+ I12: "Pama"
+ I12_ADJ: "Paman"
+
+ I13: "Dyirbal"
+ I13_ADJ: "Dyirbalic"
+
+ I14: "Waka-Gabi"
+ I14_ADJ: "Waka-Gabi"
+
+ I15: "Mayi"
+ I15_ADJ: "Mayabic"
+
+ I16: "Ngarru"
+ I16_ADJ: "Ngarna"
+
+ I17: "Kalkatungu"
+ I17_ADJ: "Kalkatungic"
+
+ I18: "Mara"
+ I18_ADJ: "Maric"
+
+ I19: "Yura"
+ I19_ADJ: "Yura"
+
+ I20: "Mirning"
+ I20_ADJ: "Mirning"
+
+ I21: "Wati"
+ I21_ADJ: "Wati"
+
+ I22: "Kartu"
+ I22_ADJ: "Kartu"
+
+ I23: "Kanyara–Mantharta"
+ I23_ADJ: "Kanyara–Mantharta"
+
+ I24: "Ngayarda"
+ I24_ADJ: "Ngayarda"
+
+ I25: "Marrngu"
+ I25_ADJ: "Marrngu"
+
+ I26: "Ngumpin-Yapa"
+ I26_ADJ: "Ngumpin-Yapa"
+
+ I27: "Warumungu"
+ I27_ADJ: "Warumungu"
+
+ I28: "Arrernte"
+ I28_ADJ: "Arandic"
+
+ I29: "Garawa"
+ I29_ADJ: "Garawan"
+
+ I30: "Mirndi"
+ I30_ADJ: "Mirndi"
+
+ I31: "Arnhem"
+ I31_ADJ: "Arnhem"
+
+ I32: "Yolngu"
+ I32_ADJ: "Yolngu"
+
+ I33: "Wardaman"
+ I33_ADJ: "Wardaman"
+
+ I34: "Wagiman"
+ I34_ADJ: "Wagiman"
+
+ I35: "Daly"
+ I35_ADJ: "Daly"
+
+ I36: "Laragiya"
+ I36_ADJ: "Laragiya"
+
+ I37: "Iwaidja"
+ I37_ADJ: "Iwaidjan"
+
+# I38: "Tiwi"
+# I38_ADJ: "Tiwi"
+
+ I39: "Jarrak"
+ I39_ADJ: "Jarrakan"
+
+ I40: "Nyulnyul"
+ I40_ADJ: "Nyulnyulan"
+
+ I41: "Bunuba"
+ I41_ADJ: "Bunuban"
+
+ I42: "Worrorra"
+ I42_ADJ: "Worrorran"
+
+ HOW: "Howitat"
+ HOW_ADJ: "Howitat"
+ DRV: "Darwaz"
+ DRV_ADJ: "Darwaz"
+ MZS: "Maiwand"
+ MZS_ADJ: "Maiwand"
+ SGN: "Sut"
+ SGN_ADJ: "Sut"
+ WKN: "Wakhan"
+ WKN_ADJ: "Wakhan"
+ WZR: "Waziristan"
+ WZR_ADJ: "Waziristani"
+ LKP: "Evenki"
+ LKP_ADJ: "Evenki"
+ EVK: "Evenki"
+ EVK_ADJ: "Evenki"
+ NNY: "Daur"
+ NNY_ADJ: "Daur"
+ UDG: "Kyrgyz"
+ UDG_ADJ: "Kyrgyz"
+ DLG: "Dolgan"
+ DLG_ADJ: "Dolgan"
+ YKG: "Yukaghir"
+ YKG_ADJ: "Yukaghir"
+ EVN: "Even"
+ EVN_ADJ: "Even"
+ KRJ: "Koryak"
+ KRJ_ADJ: "Koryak"
+ KMD: "Kamchatka"
+ KMD_ADJ: "Kamchatkan"

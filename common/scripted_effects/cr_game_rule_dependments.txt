@@ -1,0 +1,538 @@
+﻿russia_conquer_siberia_effect = {
+	c:RUS ?= {
+		annex = c:NNT
+		annex = c:EVK
+		annex = c:EVN
+		annex = c:CHU2
+		annex = c:KMI
+		annex = c:KRJ
+		annex = c:KMD
+		annex = c:YKG
+		annex = c:YAK2
+		annex = c:TNS2
+		annex = c:DLG
+		annex = c:BRY2
+		annex = c:LKP
+		annex = c:NSI
+		annex = c:KTY
+	}
+}
+
+adjust_chinese_border_effect = {
+	c:CHI ?= {
+		annex = c:BDK
+		annex = c:KYR2
+	}
+	s:STATE_JETISY = {
+		every_scope_state = {
+			set_state_owner = c:CHI
+		}
+	}
+	s:STATE_ALTAI = {
+		every_scope_state = {
+			set_state_owner = c:CHI
+		}
+	}
+	s:STATE_ALAY = {
+		set_owner_of_provinces = {
+			country = c:CHI
+			provinces = {
+				xE5AD64 x6A30D3 x180E7A x7AAB55 xA5418A
+			}
+		}
+	}
+	s:STATE_KIRGHIZIA = {
+		set_owner_of_provinces = {
+			country = c:CHI
+			provinces = {
+				x643CF5 xBE2F49 x480704 x99410F x6678CA x4214B3 xC863B0 x599B9D xAA16B7 xBA55E4 xA9525C x8B7EFD 
+			}
+		}
+	}
+}
+
+britain_conquer_canada_effect = {
+	s:STATE_ALASKA = {
+		every_scope_state = {
+			set_state_owner = c:ALK
+		}
+	}
+	s:STATE_BRITISH_COLUMBIA = {
+		every_scope_state = {
+			set_state_owner = c:ORG
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = independent_colony
+		}
+		s:STATE_NEWFOUNDLAND = {
+			every_scope_state = {
+				set_state_owner = c:NEW
+			}
+		}
+	}
+	else = {
+		s:STATE_NEWFOUNDLAND = {
+			every_scope_state = {
+				set_state_owner = c:GBR
+			}
+		}
+	}
+	s:STATE_ONTARIO = {
+		every_scope_state = {
+			set_state_owner = c:ONT
+		}
+	}
+	s:STATE_QUEBEC = {
+		every_scope_state = {
+			set_state_owner = c:QUE
+		}
+	}
+	if = {
+		limit = {
+			exists = c:HBC
+		}
+		c:HBC = {
+			annex = c:ATB
+			annex = c:NNV2
+			annex = c:NHW
+			annex = c:INU
+		}
+	}
+	if = {
+		limit = {
+			exists = c:DC03
+		}
+		c:DC03 ?= {
+			annex = c:GRN2
+		}
+	}
+	else = {
+		c:DEN ?= {
+			annex = c:GRN2
+		}
+	}
+	s:STATE_MANITOBA.region_state:CTF = {
+		set_state_owner = c:HBC
+	}
+	s:STATE_KENORA.region_state:CTF = {
+		set_state_owner = c:HBC
+	}
+	if = {
+		limit = {
+			exists = c:ORG
+		}
+		c:ORG = {
+			annex = c:SLS
+			annex = c:NWP
+			annex = c:SHP
+		}
+	}
+	if = {
+		limit = {
+			exists = c:FLT
+		}
+		c:FLT = {
+			annex = c:KTN
+		}
+	}
+	s:STATE_CALIFORNIA.region_state:ORG = {
+		set_state_owner = c:HKI
+	}
+}
+
+restore_switzerland_effect = {
+	c:BEX ?= {
+		annex = c:SCZ
+		annex = c:ZUG
+		annex = c:LNE
+		annex = c:NID
+		annex = c:OBW
+		annex = c:URI
+		annex = c:FRI
+		annex = c:VIS
+		annex = c:API
+		annex = c:NTL
+		annex = c:TIC
+		annex = c:GRSS
+		annex = c:GLA
+		annex = c:GLL
+		annex = c:APA
+		annex = c:THUU
+		annex = c:SHU
+		annex = c:ZUR
+		annex = c:AAU
+		annex = c:BSL
+		annex = c:SRNN
+		annex = c:VAU
+		annex = c:GVA
+		change_tag = SWI
+		remove_variable = SWI_leader
+	}
+	every_state = {
+		limit = {
+			owner = c:SWI
+		}
+		set_state_type = incorporated
+	}
+}
+
+restore_argentina_effect = {
+	c:BUE ?= {
+		annex = c:COE
+		annex = c:ENT
+		annex = c:TUC
+		annex = c:MDZZ
+		annex = c:SLT
+		annex = c:SDE
+		annex = c:SFE
+		annex = c:CDA
+		annex = c:JUJ
+		annex = c:CMA
+		annex = c:LRJ
+		annex = c:SJN
+		annex = c:SLUU
+		change_tag = ARG
+		remove_variable = ARG_leader
+	}
+	every_state = {
+		limit = {
+			owner = c:ARG
+		}
+		set_state_type = incorporated
+	}
+}
+
+reduce_start_tags_effect = {
+	c:SOK ?= {
+		annex = c:ILR
+		annex = c:BID
+		annex = c:JOS
+		annex = c:DSS
+		annex = c:HAU
+		annex = c:ZDR
+	}
+	c:BOR ?= {
+		annex = c:MDA
+		annex = c:MGA
+		annex = c:KNM
+		annex = c:BGI
+	}
+	c:WAD ?= {
+		annex = c:DAK
+	}
+	c:OVM ?= {
+		annex = c:BIU
+		annex = c:HUA
+		annex = c:VIY
+	}
+	c:ACE ?= {
+		annex = c:SGK
+		annex = c:TOB2
+	}
+	c:POE ?= {
+		annex = c:TOB
+	}
+	c:NNG ?= {
+		annex = c:MRN
+	}
+	c:BLA ?= {
+		annex = c:HLA
+	}
+	c:WZR ?= {
+		annex = c:ZHB
+	}
+	c:BOL ?= {
+		annex = c:ATM
+	}
+	c:PAT ?= {
+		annex = c:THL
+		annex = c:KWQ
+		annex = c:SLK
+		annex = c:YGN
+	}
+	c:EGY ?= {
+		annex = c:JUM
+		annex = c:DRU
+		annex = c:TAK
+		annex = c:BJA
+	}
+	c:TRI ?= {
+		annex = c:AWG
+	}
+	c:MOR ?= {
+		annex = c:SSS
+	}
+	c:MAS ?= {
+		annex = c:OSC
+		annex = c:ONL
+		annex = c:AJB
+	}
+	c:AIT ?= {
+		annex = c:ZWA
+	}
+	c:CON ?= {
+		annex = c:CAO
+	}
+	c:WSH ?= {
+		annex = c:FZN
+		annex = c:AHG
+		annex = c:AIR
+		annex = c:TUA
+	}
+	c:LBD ?= {
+		annex = c:TBI
+	}
+	c:PAP ?= {
+		annex = c:SRO
+	}
+	c:KTU2 ?= {
+		annex = c:IJB
+		annex = c:IFE
+		annex = c:IBD
+		change_tag = OYO
+	}
+	c:ASH ?= {
+		annex = c:DKY
+		annex = c:FTE
+		annex = c:GGY
+		annex = c:BNA
+		annex = c:DGB
+	}
+	c:MOS ?= {
+		annex = c:WLA
+	}
+	c:KRU ?= {
+		annex = c:BLE
+		annex = c:AYI
+		annex = c:BSS
+	}
+	c:MDK ?= {
+		annex = c:KSS
+		annex = c:KYA
+	}
+	c:ARO ?= {
+		annex = c:WRR2
+		annex = c:BNI
+		annex = c:CLB
+		annex = c:TIV
+	}
+	c:PER ?= {
+		annex = c:WDST
+		annex = c:MZK
+		annex = c:SDK
+		annex = c:ZFL
+		annex = c:TBJ
+		annex = c:KZE
+		annex = c:JEL
+		annex = c:SHZ
+		annex = c:JLI
+		annex = c:MKR
+		annex = c:ARL
+	}
+	c:TUR ?= {
+		annex = c:HKR
+		annex = c:BKT
+		annex = c:BTL
+		annex = c:BYD
+		annex = c:KOC
+		annex = c:DOJ
+		annex = c:MIL
+		annex = c:KHA
+		annex = c:SRN
+		annex = c:TAII
+		annex = c:BOK
+		annex = c:BBN
+	}
+	c:KAL ?= {
+		annex = c:LBL
+	}
+	c:SAR ?= {
+		annex = c:MNOOO
+	}
+	c:SPA ?= {
+		annex = c:ANRR
+	}
+	c:NSW ?= {
+		annex = c:I10
+		annex = c:I11
+	}
+	c:KRI ?= {
+		annex = c:I04
+		annex = c:I03
+	}
+	c:PMA ?= {
+		annex = c:I15
+		annex = c:I17
+		annex = c:I13
+	}
+	c:ARH ?= {
+		annex = c:I33
+		annex = c:I30
+		annex = c:I16
+		annex = c:I35
+	}
+	c:KYN ?= {
+		annex = c:I24
+	}
+	c:WRR ?= {
+		annex = c:I40
+		annex = c:I39
+	}
+	c:MAD ?= {
+		annex = c:TRY
+		annex = c:ONI
+		annex = c:BAR
+		annex = c:MAE
+		annex = c:BQBK
+		annex = c:BAA
+		annex = c:TSY
+		annex = c:JLLNN
+		annex = c:ANR
+	}
+	c:HSW ?= {
+		annex = c:YGH
+		annex = c:KLNI
+		annex = c:KGG
+		annex = c:WST
+		annex = c:QJJ
+		change_tag = SHS
+	}
+	c:BUR ?= {
+		annex = c:MMI
+		annex = c:MAM
+		annex = c:MEG
+		annex = c:MYG
+	}
+	c:CHH ?= {
+		annex = c:KKI
+		annex = c:TIP
+		annex = c:JDG
+	}
+	c:MGH ?= {
+		annex = c:JYTY
+		annex = c:NKQR
+	}
+	c:CMI ?= {
+		annex = c:NAN
+	}
+	c:LYM ?= {
+		annex = c:HOG
+	}
+	c:ASM ?= {
+		annex = c:MTQ
+		annex = c:SDY
+	}
+	c:LAD ?= {
+		annex = c:BLI
+	}
+	c:SIA ?= {
+		annex = c:KED
+		annex = c:PTU
+	}
+	c:DEI ?= {
+		annex = c:POE
+		annex = c:KOTT
+		annex = c:MTN
+		annex = c:PON
+		annex = c:LDK
+		annex = c:PASS
+		annex = c:BAL
+		annex = c:KTI
+		annex = c:SBL
+		annex = c:LRT
+		annex = c:SBW
+		annex = c:END
+		annex = c:BIM
+		annex = c:SMW
+		annex = c:ARU
+	}
+	c:LAN ?= {
+		annex = c:DAIYAN
+	}
+	c:TID ?= {
+		annex = c:TRT
+	}
+	c:OGD ?= {
+		annex = c:AJR
+	}
+	c:BUG ?= {
+		annex = c:KJG
+		annex = c:LGI
+		annex = c:ACH
+		annex = c:BNY
+		annex = c:BSG
+	}
+	c:KRO ?= {
+		annex = c:LUG
+	}
+	c:BRD ?= {
+		annex = c:BUA
+	}
+	c:KRG ?= {
+		annex = c:BDD
+		annex = c:BHY
+		annex = c:USS
+	}
+	c:BGK ?= {
+		annex = c:KNA
+		annex = c:TOR
+		annex = c:WAJ
+		annex = c:LUW
+		annex = c:MDR
+		annex = c:SIG
+		annex = c:PGI
+		annex = c:DGL
+		annex = c:TOL
+		annex = c:GOR
+		annex = c:TOJ
+		annex = c:BLN
+		change_tag = SLW
+		set_country_type = decentralized
+	}
+	c:AHD ?= {
+		annex = c:AHK
+		annex = c:AHB
+		change_tag = ANH
+	}
+	c:PHI ?= {
+		annex = c:LZN
+	}
+	c:DGR ?= {
+		annex = c:MOI
+	}
+}
+
+tech_desicion = {
+	every_country = {
+		limit = {
+			NOT = {
+				is_country_type = decentralized
+			}
+		}
+		add_era_researched = era_1
+		add_era_researched = era_2
+		set_country_type = recognized
+	}
+}
+
+decentral_to_central_decision = {
+	every_decentralized_country = {
+		set_country_type = unrecognized
+		effect_starting_technology_tier_6_tech = yes
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = prospecting
+		add_technology_researched = distillation
+		add_technology_researched = standing_army
+		add_technology_researched = mandatory_service
+		add_technology_researched = military_drill
+		add_technology_researched = urban_planning
+		add_technology_researched = international_trade
+		add_technology_researched = international_relations
+		add_technology_researched = rationalism
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+	}
+}

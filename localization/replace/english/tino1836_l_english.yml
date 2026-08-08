@@ -1,0 +1,15 @@
+﻿l_english:
+#1.JE
+##TINO start settings
+je_tino_start_settings: "TINO 1836 map description"
+je_tino_start_settings_reason: "Still testing and improving, welcome to add QQ group 1037885609 for feedback"
+
+##DLC_METADATA
+dlc_tino1836: "TINO 1836 MAP"
+dlc_tino1836_desc: "The colonial era that began in 1836 entered the industrial revolution of historical development.\nSince the beginning of the 19th century, China has been prosperous on the surface, but in fact, undercurrents are surging and storms are coming. No one knows whether China will overthrow Manchuria and expel the Tartars, or whether it will prolong its national destiny and enjoy the throne; whether it will strive to strengthen itself and resist the dark, maintain peace and revive the country, or stir up the storm and stop the waves."
+
+construction_site_tt: "@information! The Yuqing project is under construction. Let's explore the area ahead later~"
+
+company_kiangnam_manufacturing_bureau: "Jiangnan Machinery Manufacturing Bureau"
+
+company_foochow_arsenal: "Fuzhou Mawei Shipyard"

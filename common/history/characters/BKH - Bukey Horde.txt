@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BKH ?= {
+		create_character = {
+			template = BKH_zhangir_kerei
+		}
+		create_character = {
+			template = BKH_isatai_taymanuly
+		}
+	}
+}

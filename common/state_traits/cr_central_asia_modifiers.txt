@@ -1,0 +1,32 @@
+﻿state_trait_cr_tien_shan = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	modifier = {
+		state_infrastructure_mult = -0.15
+		state_construction_mult = -0.15
+	}
+}
+
+state_trait_cr_altai = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	modifier = {
+		state_infrastructure_mult = -0.15
+		state_construction_mult = -0.15
+		building_group_bg_mining_throughput_add = 0.10
+	}
+}
+
+state_trait_cr_pamir_mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	modifier = {
+		state_infrastructure_mult = -0.25
+		state_construction_mult = -0.25
+	}
+}
+
+state_trait_cr_lapis_lazuli_deposits = {
+	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+
+	modifier = {
+		goods_output_dye_mult = 0.1
+	}
+}

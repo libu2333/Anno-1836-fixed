@@ -1,0 +1,11 @@
+SWI = {
+	states = {
+		STATE_WEST_SWITZERLAND
+		STATE_EAST_SWITZERLAND
+		STATE_SOUTH_SWITZERLAND
+	}
+
+	required_states_fraction = 1
+
+	ai_will_do = { always = yes }
+}

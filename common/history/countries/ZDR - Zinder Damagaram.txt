@@ -1,0 +1,10 @@
+COUNTRIES = {
+	c:ZDR ?= {
+		effect_starting_technology_west_africa_transition = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_west_african_slavery = yes
+
+		#activate_law = law_type:law_racial_segregation #Was relatively open to outsiders #Subjecthood should cover this
+	}
+}

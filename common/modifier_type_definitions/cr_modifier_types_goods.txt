@@ -1,0 +1,291 @@
+﻿goods_output_copper_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_input_copper_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+building_copper_mine_throughput_add = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+#building_copper_mine_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+goods_output_copper_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_sugar_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_coffee_plantation_throughput_add = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_fish_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_grain_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_iron_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_sulfur_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_wood_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+#Needs localisation
+goods_output_meat_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_fabric_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_dye_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_coal_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_lead_mult = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+#goods_fabric_throughput_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_group_bg_agriculture_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#bg_ranching_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#bg_livestock_ranches_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_livestock_ranch_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_rye_farm_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+#
+#building_rice_farm_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_sulfur_mine_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_iron_mine_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_coal_mine_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_logging_camp_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_fishing_wharf_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_lead_mine_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_oil_rig_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+#building_dye_plantation_output_add = {
+#	decimals=1
+#	color=good
+#	percent=yes
+#	game_data={
+#		ai_value=0
+#	}
+#}
+
+building_group_bg_mining_infrastructure_usage_mult={
+	decimals=0
+	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}

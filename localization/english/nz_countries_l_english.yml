@@ -1,0 +1,24 @@
+﻿l_english:
+
+# Default countries
+
+ TAI:0 "Tainui"
+ TAI_ADJ:0 "Tainui"
+
+ NKU:0 "Ngāti Kahungunu"
+ NKU_ADJ:0 "Ngāti Kahungunu"
+
+ KGI:0 "Tainui"
+ KGI_ADJ:0 "Tainui"
+
+ #TUH:0 "Tūhoe"
+ #TUH_ADJ:0 "Tūhoe"
+ 
+ NMS:0 "New Munster"
+ NMS_ADJ:0 "New Munster"
+
+ NZC:0 "New Zealand Company"
+ NZC_ADJ:0 "New Zealand Company"
+ 
+ nms_releasable_tt:0 "South Island separatism has been proposed"
+ 

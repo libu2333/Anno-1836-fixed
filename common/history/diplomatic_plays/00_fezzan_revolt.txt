@@ -1,0 +1,49 @@
+﻿DIPLOMATIC_PLAYS = {
+	if = {
+		limit = {
+			has_game_rule = all_historical_wars
+		}
+	c:TRI ?= {
+		create_diplomatic_play = {
+			target_state = c:QDF.capital
+
+			war = yes
+
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:QDF
+				type = revoke_all_claims
+				target_country = c:TRI
+			}
+		}
+		create_diplomatic_play = {
+			target_state = c:WRF.capital
+
+			war = yes
+
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:WRF
+				type = revoke_all_claims
+				target_country = c:TRI
+			}
+		}
+		create_diplomatic_play = {
+			target_state = c:AWL.capital
+
+			war = yes
+
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:AWL
+				type = revoke_all_claims
+				target_country = c:TRI
+			}
+		}
+	}
+}
+}
+

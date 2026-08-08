@@ -1,0 +1,77 @@
+﻿l_english:
+  toma_de_poder: "Seizure of Power"
+  toma_de_poder_desc: "The new government has taken power with force, but its legitimacy is questioned and society begins to polarize"
+
+  paro_golpe_estado: "Coup Attempt Thwarted"
+  paro_golpe_estado_desc: "Institutions have resisted a coup attempt. Although authority has been weakened, government legitimacy has increased"
+  
+  porfiriato_militar: "Military Consolidation of the Porfiriato"
+  porfiriato_militar_desc: "Díaz's regime has consolidated its power with the support of the armed forces. The state has gained efficiency and stability increases thanks to imposed order"
+  
+  legado_porfiriato_militar: "Legacy of the Porfiriato"
+  legado_porfiriato_militar_desc: "Even after the fall of the regime, the military structures and order established under Díaz continue to influence the state. Discipline, centralization, and a focus on stability remain part of the national identity"
+
+  porfiriato_industrial: "Industrial Consolidation of the Porfiriato"
+  porfiriato_industrial_desc: "The Porfiriato has embraced economic development and material progress. Industrialization is the new driving force of the country, although not all benefit equally"
+  
+  legado_porfiriato_industrial: "Legacy of the Porfiriato"
+  legado_porfiriato_industrial_desc: "The industrial momentum driven by the Porfiriato continues to shape the country's economic direction. Infrastructure, foreign investment ties, and a drive toward modernization still persist despite the regime's end"
+  
+  porfiriato_ig: "Interest Group Favored by the Porfiriato"
+  porfiriato_ig_desc: "This interest group has been politically elevated by Díaz's regime, gaining unprecedented influence and importance within the system"
+  
+  muerte_porfirio: "The death of Porfirio Diaz"
+  muerte_porfirio_desc: "The death of Porfirio Díaz has shaken the nation. The regime's legitimacy is wavering, and society is divided over the country's political future"
+  
+  exilio_porfirio: "The exile of Porfirio Diaz"
+  exilio_porfirio_desc: "The exile of Porfirio Díaz has shaken the nation. The new regime's legitimacy is wavering, and society is divided over the country's political future"
+
+
+  benito_ig_buff: "Influence of Benito Juárez"
+  benito_ig_buff_desc: "The inteligentia have gained political influence thanks to Juárez's liberal ideas. Their growing presence will shape debates and policy direction in the nation."
+
+  reforma_incial: "Initial Liberal Reforms"
+  reforma_incial_desc: "The government begins implementing liberal reforms. Progress is gradual, and the success of further laws will depend on how these changes are managed."
+
+  nacion_estado_medio: "Nation-State in Formation"
+  nacion_estado_medio_desc: "The country is starting to unify culturally and expand education. Early reforms increase innovation and set the foundations for a modern Mexican state."
+
+  nacion_estado_grande: "Consolidated Nation-State"
+  nacion_estado_grande_desc: "Mexico moves toward a fully unified and modern nation. Education, innovation, and cultural integration are reinforced, shaping a stronger national identity."
+
+  dictadura_ini_perpetua: "Dictatorship Stands"
+  dictadura_ini_perpetua_desc: "Authority is strongly imposed and innovation slows. The government consolidates and the military is empowered, but political opposition and radical movements grow in response."
+
+  liberalizacion_fallida: "Failed Liberalization"
+  liberalizacion_fallida_desc: "Attempts to implement liberal reforms have faltered. Liberal interest groups are marginalized."
+
+  liberalizacion_parcial: "Partial Liberalization"
+  liberalizacion_parcial_desc: "Some reforms have been adopted, but liberal goals are only partially achieved. Interest groups loose some influence."
+
+  estado_crisitano_tradicional: "Traditional Christian State"
+  estado_crisitano_tradicional_desc: "The nation relies heavily on religious influence to maintain legitimacy and authority. Social and political life remains conservative, with strong support for the Church."
+
+  estado_crisitano_progresista: "Progressive Christian State"
+  estado_crisitano_progresista_desc: "The state balances religious influence with modernization. Authority and legitimacy are strengthened through religion."
+
+
+  nuevo_linaje: "New Dynasty"
+  nuevo_linaje_desc: "A new royal house has been established in Mexico. It will take time for the Mexican population to accept them as legitimate rulers."
+
+  monarca_legitimo: "Legitimate Monarch"
+  monarca_legitimo_desc: "A monarch of the Mexican royal lineage assumes the throne, consolidating internal legitimacy and strengthening ties with traditional institutions."
+
+  prestamo_extranjero: "Foreign Loan"
+  prestamo_extranjero_desc: "Mexico resorts to European financing, gaining immediate resources but tying its future to foreign creditors."
+
+  heredero_mex: "Mexican Heir"
+  heredero_mex_desc: "A native heir strengthens national legitimacy and offers continuity rooted in local traditions."
+
+  heredero_aus: "Austrian Heir"
+  heredero_aus_desc: "An Austrian successor brings foreign influence into the monarchy, raising questions of loyalty and sparking political tensions."
+
+  colonizacion: "Northern Colonial Expansion"
+  colonizacion_desc: "Efforts are directed toward expanding colonial frontiers in the north, accelerating settlement and extending state control over new territories."
+
+  national_pride: "National Pride"
+  national_pride_desc: "The nation stands united in defense of its sovereignty, with the armed forces embodying the people's resolve."

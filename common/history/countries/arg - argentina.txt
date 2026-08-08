@@ -1,0 +1,941 @@
+﻿COUNTRIES = {
+	c:BUE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_leader
+	}
+	c:COE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:ENT ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:TUC ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+
+	c:MDZZ ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:SLT ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:SDE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:SFE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:CDA ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:JUJ ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:CMA ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:LRJ ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:SLUU ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+	c:SJN ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard # Mazorcas
+		
+		add_taxed_goods = g:tobacco
+		
+		set_tax_level = high
+		
+		set_import_tariff_level = { 
+			goods = g:artillery
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:small_arms
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:clippers
+			level = high_subventions
+		}
+		set_import_tariff_level = { 
+			goods = g:manowars
+			level = high_subventions
+		}			
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 1
+		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= { 
+			set_interest_group_name = ig_catholic_church
+		}
+		add_modifier = {
+			name = age_of_caudillos_modifier
+		}
+		initialise_caciquismo_effect = yes
+
+		set_variable = ARG_federation
+	}
+}

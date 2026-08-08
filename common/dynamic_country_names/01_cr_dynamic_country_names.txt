@@ -1,0 +1,1185 @@
+﻿### Try to keep tags in alphabetical order if it's not too far gone, please.
+
+BAK = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+
+DYK = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+				NOT = { is_country_type = decentralized }
+			}
+		}
+	}
+}
+
+SLI = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+				NOT = { is_country_type = decentralized }
+			}
+		}
+	}
+}
+
+KOTT = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+
+MTN = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+
+GTB = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+
+BAU = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+
+SBL = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+
+PASS = { # Banjar
+	dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+
+CPL = { # Poland
+	dynamic_country_name = {
+		name = dyn_c_congress_poland
+		adjective = dyn_c_congress_poland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = c:RUS
+			c:RUS ?= {
+				has_diplomatic_pact = {
+					who = c:CPL
+					type = personal_union
+					is_initiator = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_poland_crown_land
+		adjective = dyn_c_congress_poland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = c:RUS
+			c:RUS ?= {
+				has_diplomatic_pact = {
+					who = c:CPL
+					type = crown_land
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+CAU = { # Caucasus
+	dynamic_country_name = {
+		name = dyn_c_caucasus_governorate
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = c:RUS
+			c:RUS ?= {
+				has_diplomatic_pact = {
+					who = c:CAU
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+
+GZA = {
+	dynamic_country_name = {
+		name = cr_dyn_c_gaza_empire
+		adjective = GZA_ADJ
+
+		priority = 100
+		
+		trigger = {
+			scope:actor ?= {
+				country_has_monarchy_law = yes
+			}
+		}
+	}
+}
+
+RZW = {
+	dynamic_country_name = {
+		name = cr_dyn_c_rozwi_empire
+		adjective = RZW_ADJ
+
+		priority = 100
+		
+		trigger = {
+			scope:actor ?= {
+				country_has_monarchy_law = yes
+			}
+		}
+	}
+}
+
+RIA = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+
+
+SGK = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+
+BARR = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+
+MGK = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+
+DAIYAN = { # Dai's Yan
+	dynamic_country_name = { # Bo-Ni
+		name = dyn_c_boni
+		adjective = dyn_c_boni_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+
+TOB = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+				NOT = { is_country_type = decentralized }
+			}
+		}
+	}
+}
+
+TOB2 = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+				NOT = { is_country_type = decentralized }
+			}
+		}
+	}
+}
+
+POE = { # Sumatra
+	dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+				NOT = { is_country_type = decentralized }
+			}
+		}
+	}
+}
+POS = {
+	dynamic_country_name = {
+		name = cr_dyn_c_pozen
+		adjective = cr_dyn_c_pozen_adj
+
+		priority = 100
+		
+		trigger = {
+			scope:actor ?= {
+				is_subject = yes
+				overlord = {
+					OR = {
+						country_has_primary_culture = cu:north_german
+						country_has_primary_culture = cu:south_german
+						country_has_primary_culture = cu:east_german
+					}
+				}
+			}
+		}
+	}
+}
+BC03 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_british_ghana
+		adjective = BC03_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:GBR
+			scope:actor ?= {
+				is_subject_of = c:GBR
+			}
+		}
+	}
+}
+BC05 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_filkland_islands
+		adjective = cr_dyn_c_filkland_islands_adj
+
+		priority = 100
+		
+		trigger = {
+			exists = c:GBR
+			scope:actor ?= {
+				is_subject_of = c:GBR
+			}
+		}
+	}
+}
+SC02 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_spanish_morocco
+		adjective = SC02_ADJ
+
+		priority = 100
+
+		trigger = {
+			exists = c:SPA
+			scope:actor ?= {
+				is_subject_of = c:SPA
+			}
+		}
+	}
+}
+PC01 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_POR_west_africa
+		adjective = cr_dyn_c_POR_west_africa_adj
+
+		priority = 100
+		
+		trigger = {
+			exists = c:POR
+			scope:actor ?= {
+				is_subject_of = c:POR
+			}
+		}
+	}
+}
+PC02 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_POR_east_africa
+		adjective = cr_dyn_c_POR_east_africa_adj
+
+		priority = 100
+		
+		trigger = {
+			exists = c:POR
+			scope:actor ?= {
+				is_subject_of = c:POR
+			}
+		}
+	}
+}
+DC01 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_danish_ghana
+		adjective = DC01_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:DEN
+			scope:actor ?= {
+				is_subject_of = c:DEN
+			}
+		}
+	}
+}
+DC03 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_danish_greenland
+		adjective = DC03_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:DEN
+			scope:actor ?= {
+				is_subject_of = c:DEN
+			}
+		}
+	}
+}
+LZZ = {
+	dynamic_country_name = {
+		name = cr_dyn_c_Lanfei
+		adjective = LZZ_ADJ
+
+		priority = 105
+		
+		trigger = {
+			exists = c:CHI
+			scope:actor ?= {
+				is_at_war = yes
+			}
+		}
+	}
+}
+DC05 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_danish_india
+		adjective = DC05_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:DEN
+			scope:actor ?= {
+				is_subject_of = c:DEN
+			}
+		}
+	}
+}
+NC01 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_dutch_ghana
+		adjective = NC01_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:NET
+			scope:actor ?= {
+				is_subject_of = c:NET
+			}
+		}
+	}
+}
+NC02 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_dutch_guayana
+		adjective = NC02_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:NET
+			scope:actor ?= {
+				is_subject_of = c:NET
+			}
+		}
+	}
+}
+#Tripolitania
+TRI = {
+	dynamic_country_name = {
+		name = cr_dyn_c_tripolitania
+		adjective = TRI_ADJ
+		priority = 100
+		
+		trigger = {
+			exists = c:TUR
+			scope:actor ?= {
+				is_subject_of = c:TUR
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = cr_dyn_c_libya
+		adjective = cr_dyn_c_libya_adj
+
+		priority = 100
+		
+		trigger = {
+			exists = c:ITA
+			scope:actor ?= {
+				is_subject_of = c:ITA
+			}
+		}
+	}
+}
+BC13 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_samos_company
+		adjective = cr_dyn_c_samos_company_adj
+
+		priority = 100
+		
+		trigger = {
+			exists = c:GBR
+			scope:actor ?= {
+				is_subject_of = c:GBR
+			}
+		}
+	}
+}
+FC02 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_french_guayana
+		adjective = FC02_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:FRA
+			scope:actor ?= {
+				is_subject_of = c:FRA
+			}
+		}
+	}
+}
+FC07 = {
+	dynamic_country_name = {
+		name = cr_dyn_c_french_india
+		adjective = F_IND_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:FRA
+			scope:actor ?= {
+				is_subject_of = c:FRA
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = cr_dyn_c_free_city_of_f_ind
+		adjective = F_IND_ADJ
+
+		priority = 100
+		
+		trigger = {
+			scope:actor ?= {
+				is_subject = no
+				has_law = law_type:law_presidential_republic
+			}
+		}
+	}
+}
+REF = {
+	dynamic_country_name = {
+		name = cr_dyn_c_REF_VNZ
+		adjective = REF_ADJ
+
+		priority = 100
+		
+		trigger = {
+			exists = c:VNZ
+		}
+	}
+	dynamic_country_name = {
+		name = cr_dyn_c_REF_VNZ2
+		adjective = cr_dyn_c_REF_VNZ2_adj
+
+		priority = 100
+		
+		trigger = {
+			NOT = { exists = c:VNZ }
+		}
+	}
+}
+
+PES = {
+	dynamic_country_name = {
+		name = cr_dyn_c_salaverry
+		adjective = PES_ADJ
+
+		priority = 100
+		
+		trigger = {
+			NOT = {has_global_variable = salaverry_ended}
+		}
+	}
+}
+
+PER = {
+	dynamic_country_name = {
+		name = dyn_c_iran
+		adjective = dyn_c_iran_adj
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			scope:actor = {
+				is_country_type = recognized
+			}
+		}
+	}
+}
+
+HDJ = {
+	dynamic_country_name = {
+		name = dyn_c_mecca_sharifate
+		adjective = dyn_c_mecca_sharifate_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			#coa_def_theocracy_flag_trigger = yes
+			scope:actor = {
+				is_country_type = unrecognized
+			}
+		}
+	}
+}
+
+#sub_HDJ = { # Hedjaz
+#	dynamic_country_name = {
+#		name = dyn_c_mecca_sharifate
+#		adjective = dyn_c_mecca_sharifate_ADJ
+#		
+#		is_main_tag_only = yes
+#		priority = 1
+#		
+#		trigger = {
+#			coa_def_theocracy_flag_trigger = yes
+#			scope:actor = {
+#				is_non_customs_union_subject = yes
+#				#NOT = {
+#				#	AND = {
+#				#		has_technology_researched = nationalism
+#				#		is_non_customs_union_subject = no
+#				#	}
+#				#	has_technology_researched = pan-nationalism
+#				#}
+#			}
+#		}
+#	}
+#	dynamic_country_name = {
+#		name = dyn_c_saudi_arabia
+#		adjective = dyn_c_saudi_arabia_adj
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_monarchy_flag_trigger = yes
+#			scope:actor = {
+#				owns_entire_state_region = STATE_NEJD
+#				owns_entire_state_region = STATE_HEDJAZ
+#			}
+#		}
+#	}
+#	dynamic_country_name = {
+#		name = dyn_c_hashemite_arabia
+#		adjective = dyn_c_hashemite_ADJ
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_monarchy_flag_trigger = yes
+#			scope:actor = {
+#				owns_entire_state_region = STATE_NEJD
+#				owns_entire_state_region = STATE_HEDJAZ
+#				owns_entire_state_region = STATE_HAIL
+#			}
+#		}
+#	}
+#}
+HRB = {
+	dynamic_country_name = {
+		name = dyn_c_hiraab_imamate
+		adjective = HRB_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+}
+
+#SPA = {
+#	dynamic_country_name = {
+#		name = SPA
+#		adjective = dyn_c_christinos_spain_ADJ
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			scope:actor = {
+#				has_variable = cr_carlist_war_ongoing
+#			}
+#		}
+#	}
+#}
+
+NEJ = { # Nejd
+	dynamic_country_name = {
+		name = dyn_c_saudi_arabia
+		adjective = dyn_c_saudi_arabia_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+				owns_entire_state_region = STATE_NEJD
+				owns_entire_state_region = STATE_HEDJAZ
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_saudi_arabia_full
+		adjective = dyn_c_saudi_arabia_full_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+				owns_entire_state_region = STATE_NEJD
+				owns_entire_state_region = STATE_HEDJAZ
+				owns_entire_state_region = STATE_HAIL
+			}
+		}
+	}
+}
+
+NNV2 = {
+	dynamic_country_name = {
+		name = dyn_c_inuit
+		adjective = dyn_c_inuit_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				is_country_type = decentralized
+			}
+		}
+	}
+}
+
+BGM = {
+	dynamic_country_name = {
+		name = dyn_c_gondar
+		adjective = dyn_c_gondar_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_gondar
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_amharia
+		adjective = dyn_c_amharia_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_amharia
+			}
+		}
+	}
+}
+
+GJM = {
+	dynamic_country_name = {
+		name = dyn_c_gondar
+		adjective = dyn_c_gondar_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_gondar
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_amharia
+		adjective = dyn_c_amharia_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_amharia
+			}
+		}
+	}
+}
+
+SHW = {
+	dynamic_country_name = {
+		name = dyn_c_amharia
+		adjective = dyn_c_amharia_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_amharia
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_oromia
+		adjective = dyn_c_oromia_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_oromia
+			}
+		}
+	}
+}
+
+WLO = {
+	dynamic_country_name = {
+		name = dyn_c_gondar
+		adjective = dyn_c_gondar_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_gondar
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_oromia
+		adjective = dyn_c_oromia_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_variable = cr_renamed_to_oromia
+			}
+		}
+	}
+}
+
+MGK = {
+	dynamic_country_name = {
+		name = dyn_c_padris
+		adjective = dyn_c_padris_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_pagaruyung
+		adjective = dyn_c_pagaruyung_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
+TUV = {
+	dynamic_country_name = {
+		name = dyn_c_uriankjai
+		adjective = dyn_c_uriankjai_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				is_country_type = decentralized
+			}
+		}
+	}
+}
+
+TOB2 = {
+	dynamic_country_name = {
+		name = dyn_c_bataks
+		adjective = dyn_c_bataks_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				is_country_type = decentralized
+			}
+		}
+	}
+}
+
+
+CAT = {
+	dynamic_country_name = {
+		name = dyn_c_aragon
+		adjective = dyn_c_catalan_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				is_subject_of = c:SPA
+				is_subject_type = subject_type_personal_union
+			}
+		}
+	}
+}
+
+
+SUTCAL = {
+	dynamic_country_name = {
+		name = dyn_c_nueva_helvetia
+		adjective = dyn_c_nueva_helvetia_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					is_subject_of = c:MEX
+					is_subject_of = c:ALC
+				}
+				has_variable = cr_john_sutters_california
+			}
+		}
+	}
+}
+
+ALC = {
+	dynamic_country_name = {
+		name = dyn_c_baja_california
+		adjective = dyn_c_baja_california_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				capital.state_region = s:STATE_BAJA_CALIFORNIA
+				NOT = {
+					any_scope_state = {
+						state_region = s:STATE_CALIFORNIA
+					}
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_two_californias_mex
+		adjective = dyn_c_two_californias_mex_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				any_scope_state = {
+					state_region = s:STATE_CALIFORNIA
+				}
+				any_scope_state = {
+					state_region = s:STATE_BAJA_CALIFORNIA
+				}
+			}
+		}
+	}
+}

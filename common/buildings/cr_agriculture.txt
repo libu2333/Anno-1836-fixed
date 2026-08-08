@@ -1,0 +1,47 @@
+﻿building_date_plantation = {
+	building_group = bg_plantations
+	icon = "gfx/interface/icons/building_icons/date_plantation.dds"
+	required_construction = construction_cost_low
+	
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 25
+	
+	production_method_groups = {
+		pmg_irrigation_building_date_plantation
+		pmg_harvest_building_date_plantation
+	}
+	ownership_type = self	
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+}
+
+building_kashmir_ranch = {
+	building_group = bg_ranching
+
+	icon = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	
+	city_type = farm
+	levels_per_mesh = 25
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_kashmir_ranch
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}

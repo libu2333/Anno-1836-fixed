@@ -1,0 +1,234 @@
+﻿# Cherokee
+CHE_john_ross = {
+	first_name = "John"
+	last_name = "Ross"
+	historical = yes
+	ruler = yes
+	birth_date = 1790.11.3
+	interest_group = ig_petty_bourgeoisie
+	ig_leader = yes
+	traits = {
+		persistent
+		tactful
+		experienced_political_operator
+	}
+	home_region = STATE_ALABAMA   # Turkeytown, near present-day Centre, Alabama
+}
+
+CHE_major_ridge = {
+	first_name = "Major"
+	last_name = "Ridge"
+	historical = yes
+	ruler = no
+	birth_date = 1771.1.1
+	interest_group = ig_intelligentsia
+	ig_leader = yes
+	traits = {
+		cautious
+		basic_political_operator
+	}
+	home_region = STATE_TENNESSEE   # Great Hiwassee, Tennessee
+}
+
+# Creek
+MSC_opothle_yohola = {
+	first_name = "Opothle"
+	last_name = "Yohola"
+	historical = yes
+	ruler = yes
+	birth_date = 1778.1.1
+	interest_group = ig_petty_bourgeoisie
+	ig_leader = yes
+	ideology = ideology_traditionalist
+	traits = {
+		charismatic
+		firebrand
+	}
+	home_region = STATE_ALABAMA   # Tuckabatchee, Elmore County, Alabama
+}
+
+MSC_jim_henry = {
+	first_name = "Jim"
+	last_name = "Henry"
+	historical = yes
+	is_general = yes
+	birth_date = 1800.1.1
+	interest_group = ig_armed_forces
+	ideology = ideology_jingoist_leader
+	traits = {
+	}
+	home_region = STATE_ALABAMA
+}
+
+MSC_eneah_emathla = {
+	first_name = "Eneah"
+	last_name = "Emathla"
+	historical = yes
+	is_general = yes
+	birth_date = 1754.1.1
+	interest_group = ig_armed_forces
+	ideology = ideology_jingoist_leader
+	traits = {
+	}
+	home_region = STATE_GEORGIA
+}
+
+# Seminole
+SML_micanopy = {
+	# Micanopy, a chief of the Seminole people from 1819 or 1825 to 1849
+	first_name = "Hulbutta_Hajo" #Nickname -> Crazy Aligator
+	last_name = "Micanopy" 
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	birth_date = 1780.8.21 #approx
+	interest_group = ig_petty_bourgeoisie
+	ig_leader = yes
+	ideology = ideology_moderate
+	traits = {
+		persistent
+		brave
+		basic_diplomat
+	}
+	home_region = STATE_FLORIDA   # Near St. Augustine, Florida
+}
+
+SML_osceola = {
+	# Osceola
+	first_name = Asiyahola
+	last_name = Osceola
+	historical = yes
+	birth_date = 1804.4.18 #random date
+	ig_leader = yes # Both general and IG leader
+	interest_group = ig_armed_forces
+	ideology = ideology_jingoist_leader
+	is_general = yes
+	commander_rank = commander_rank_1
+	traits = {
+		pillager
+		experienced_defensive_strategist
+		defense_in_depth_specialist
+	}
+	home_region = STATE_ALABAMA   # Talisi / Tallassee, Alabama 
+}
+
+SML_abiaka = {
+	# Abiaka
+	first_name = Sam_Jones
+	last_name = Abiaka
+	historical = yes
+	culture = primary_culture
+	birth_date = 1781.3.4 #random date
+	ig_leader = yes
+	interest_group = ig_devout	#initially rose to prominence as a powerful shaman, also appointed a prophet
+	ideology = ideology_sovereignist
+	traits = {
+		imperious
+		elder
+		defense_in_depth_specialist
+	}
+	home_region = STATE_GEORGIA   # Flint River area, Georgia (early life)
+}
+
+SML_chipco = {
+	# Chipco
+	first_name = Echo_Emathla
+	last_name = Chipco
+	historical = yes
+	birth_date = 1805.7.30 #random date
+	ig_leader = yes # Both general and IG leader
+	interest_group = ig_rural_folk #Because
+	ideology = ideology_traditionalist
+	traits = {
+		wrathful
+		pillager
+	}
+	home_region = STATE_ALABAMA
+}
+
+SML_john_horse = {
+	# John Horse
+	first_name = John
+	last_name = Horse
+	historical = yes
+	culture = cu:afro_american
+	birth_date = 1812.12.16 #random date
+	ig_leader = yes # Both general and IG leader
+	interest_group = ig_trade_unions	#Because
+	ideology = ideology_moderate
+	traits = {
+		wrathful
+		basic_diplomat
+	}
+	home_region = STATE_FLORIDA
+}
+
+SML_holata_micco = {
+	# Billy Bowlegs
+	first_name = Billy
+	last_name = Bowlegs
+	historical = yes
+	culture = primary_culture
+	birth_date = 1810.5.5 #random date
+	ig_leader = yes # Both general and IG leader
+	interest_group = ig_landowners	#Because
+	ideology = ideology_moderate
+	traits = {
+		wrathful
+		persistent
+	}
+	home_region = STATE_FLORIDA
+}
+
+SML_coacoochee = {
+	# Wild Cat
+	first_name = Coacoochee	#Means Wild Cat
+	last_name = Wild_Cat
+	historical = yes
+	culture = primary_culture
+	birth_date = 1807.11.27 #random date
+	ig_leader = yes # Both general and IG leader
+	interest_group = ig_intelligentsia	#Because
+	ideology = ideology_moderate
+	traits = {
+		pillager
+		erudite #Thought to have a special give according to wikipedia
+	}
+	home_region = STATE_FLORIDA
+}
+
+SML_halleck_tustenuggee = {
+	# Halleck Tustenuggee
+	first_name = Halleck
+	last_name = Tustenuggee
+	historical = yes
+	culture = primary_culture
+	birth_date = 1807.11.27 #random date
+	ig_leader = yes # Both general and IG leader
+	interest_group = ig_devout #Successor to Abiaka, created by event
+	ideology = ideology_moderate
+	traits = {
+		pillager
+		basic_diplomat
+	}
+	home_region = STATE_FLORIDA
+}
+
+SML_halpatter_tustenuggee = {
+	# Halpatter Tustenuggee
+	first_name = Halpatter
+	last_name = Tustenuggee
+	historical = yes
+	culture = primary_culture
+	birth_date = 1795.6.6 #random date
+	ig_leader = yes # Both general and IG leader
+	interest_group = ig_industrialists #Successor to Abiaka, created by event
+	ideology = ideology_jingoist_leader
+	traits = {
+		pillager
+		reckless
+		brave
+		defense_in_depth_specialist
+	}
+	home_region = STATE_FLORIDA
+}

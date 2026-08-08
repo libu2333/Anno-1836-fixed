@@ -1,0 +1,24 @@
+﻿DIPLOMATIC_PLAYS = {
+	if = {
+		limit = {
+			has_game_rule = all_historical_wars
+		}
+	c:TEX = {
+		create_diplomatic_play = {
+			name = texan_war_of_independence
+
+			target_state = s:STATE_TEXAS.region_state:MEX
+
+			war = yes
+
+			type = dp_independence
+
+			add_war_goal = {
+				holder = c:MEX
+				type = humiliation	#Should be make puppet, but that doesn't seem to exist...?
+				target_state = s:STATE_TEXAS.region_state:TEX
+			}
+		}
+	}
+}
+}

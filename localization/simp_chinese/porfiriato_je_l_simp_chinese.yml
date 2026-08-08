@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+  je_group_porfiriato: "波菲里奥时代"
+  je_porfiriato_buff: "波菲里奥时代的巩固"
+  je_porfiriato_buff_reason: "随着波菲里奥·迪亚斯的崛起，国家寻求巩固其新的政治与经济方向，以稳定治理、社会和谐以及可控的激进影响为指导原则。"
+  je_porfiriato_buff_goal: "以下条件必须总计持续10年："
+
+  je_group_mexlibi: "墨西哥自由主义"
+  je_mexlibi_revayu: "阿尤特拉计划"
+  je_mexlibi_revayu_reason: "圣安娜的独裁统治已耗尽国家元气。广泛的自由派联盟寻求推翻他，建立拥有自由选举的宪政政府。"
+
+  je_mexlibi_buff_medium: "初步改革"
+  je_mexlibi_buff_medium_reason: "自由派计划实施初步改革，推动公共教育、限制教士特权并加强公民权利。推进这些改革，将使国家走向更具教育水平与整合度的方向。"
+
+  je_mexlibi_buff_grande: "自由派制度的巩固"
+  je_mexlibi_buff_grande_reason: "为巩固自由派制度，必须完成高级改革：推广世俗教育、削减教会的政治与经济影响，并强化国家认同。成功将推动墨西哥走向现代与统一的民族国家。"
+
+  je_group_monarquiamex: "墨西哥君主制"
+  je_group_monarquiamex_tiempodeuda: "欧洲债务承诺"
+  je_group_monarquiamex_tiempodeuda_reason: "墨西哥已获得欧洲贷款，确保资源持续流入以维持自身。然而，每一枚借来的硬币都投下阴影——偿还之日终将到来，数百万债务之外，外国势力可能要求超出国家财富的让步。"
+
+  #je_group_monarquiamex_finmonarq: "墨西哥君主制的命运"
+  #je_group_monarquiamex_finmonarq_reason: "墨西哥君主制正处于十字路口。无论因政治变革还是外国压力，君主制机构本身面临威胁。若其倒台，国家历史将开启新篇章，不再由皇帝塑造，而是由他人意志主导。"

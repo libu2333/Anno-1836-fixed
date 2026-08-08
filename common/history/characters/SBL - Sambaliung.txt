@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:SBL ?= {
+		create_character = {
+			template = SBL_amiruddin_maharaja_abidin
+		}	
+		create_character = {
+			template = SBL_kaharuddin_raja_bungkoh
+		}	
+	}
+}

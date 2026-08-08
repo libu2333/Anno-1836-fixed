@@ -1,0 +1,86 @@
+COUNTRIES = {
+	c:ACH ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:BDD ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:BNY ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:ANK ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:BSG ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:KIG ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:TOO ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:KOO ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:BUA ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:USS ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:BHY ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+	c:BDD ?= {
+		effect_starting_technology_tier_7_tech = yes		
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_3 = yes
+		activate_law = law_type:law_debt_slavery
+	}
+}

@@ -1,0 +1,4165 @@
+﻿cr_acquiring_fort_hall_effect = {
+	s:STATE_OREGON = {
+		if = {
+			limit = {
+				p:xCD9293.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					xCD9293
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x9B28DC.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					x9B28DC
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xFB0F43.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					xFB0F43
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x3E3F88.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					x3E3F88
+				}
+			}
+		}
+	}
+	s:STATE_IDAHO = {
+		if = {
+			limit = {
+				p:xBC0AA9.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					xBC0AA9
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xA1A13A.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					xA1A13A
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xA1C84D.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					xA1C84D
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xFD9C12.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					xFD9C12
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x2C976D.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = scope:oregon_district
+				provinces = {
+					x2C976D
+				}
+			}
+		}
+	}
+
+}
+
+
+cr_mapping_the_oregon_trail = {
+	s:STATE_OREGON = {
+		if = {
+			limit = {
+				p:xCD9293.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xCD9293
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x9B28DC.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x9B28DC
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xFB0F43.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xFB0F43
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x3E3F88.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x3E3F88
+				}
+			}
+		}
+	}
+	s:STATE_IDAHO = {
+		if = {
+			limit = {
+				p:x06E885.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x06E885
+				}
+			}
+		}
+		##Fort Hall 
+		if = {
+			limit = {
+				p:xBC0AA9.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xBC0AA9
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xA1A13A.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xA1A13A
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xA1C84D.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xA1C84D
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xFD9C12.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xFD9C12
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x2C976D.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x2C976D
+				}
+			}
+		}
+	}
+	s:STATE_WYOMING = {
+		if = {
+			limit = {
+				p:x2403EF.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x2403EF
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xE387E7.owner = { is_country_type = decentralized }
+				p:x93B583.owner = { is_country_type = recognized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xE387E7
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x5F141F.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x5F141F
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x5B70BB.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x5B70BB
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xF3326F.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF3326F
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x90C080.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x90C080
+				}
+			}
+		}
+	}
+	s:STATE_NEBRASKA = {
+		if = {
+			limit = {
+				p:x0F6ED8.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x0F6ED8
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xC547CE.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xC547CE
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xABDA2C.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xABDA2C
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xD08040.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xD08040
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x46C0C9.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x46C0C9
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xF7CF1A.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF7CF1A
+				}
+			}
+		}
+	}
+}
+
+cr_map_the_salt_lake = {
+	s:STATE_WYOMING = {
+		if = {
+			limit = {
+				p:x93B583.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x93B583
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x5B70BB.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x5B70BB
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xF3326F.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF3326F
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x90C080.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x90C080
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x465DC8.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x465DC8
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xE387E7.owner = { is_country_type = decentralized }
+				p:x2403EF.owner = { NOT = { is_country_type = decentralized } }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xE387E7
+				}
+			}
+		}
+	}
+	s:STATE_NEBRASKA = {
+		if = {
+			limit = {
+				p:x0F6ED8.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x0F6ED8
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xC547CE.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xC547CE
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xABDA2C.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xABDA2C
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xD08040.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xD08040
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x46C0C9.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x46C0C9
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xF7CF1A.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF7CF1A
+				}
+			}
+		}
+	}
+	s:STATE_UTAH = {
+		if = {
+			limit = {
+				p:xA9B917.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xA9B917
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xA7E6DC.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xA7E6DC
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xF3B4BA.owner = { is_country_type = decentralized }
+				p:xA7E6DC.owner = { NOT = { is_country_type = decentralized } }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF3B4BA
+				}
+			}
+		}
+	}
+}
+
+cr_mapping_the_california_trail = {
+	###Utah
+	if = {
+		limit = {
+			p:x9888F6.owner = { is_country_type = decentralized }
+		}
+		s:STATE_UTAH = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x9888F6
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			p:xD4D9A8.owner = { is_country_type = decentralized }
+		}
+		s:STATE_UTAH = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xD4D9A8
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			p:xF480A1.owner = { is_country_type = decentralized }
+		}
+		s:STATE_UTAH = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF480A1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				p:xF3B4BA.owner = { is_country_type = decentralized }
+				p:xA7E6DC.owner = { NOT = { is_country_type = decentralized } }
+			}
+		}
+		s:STATE_UTAH = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF3B4BA
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				p:x5708EE.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_UTAH = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x5708EE
+				}
+			}
+		}
+	}
+	
+	####Nevada
+	if = {
+		limit = {
+			AND = {
+				p:xA8DB62.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_NEVADA = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xA8DB62
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				p:x9FF17F.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_NEVADA = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x9FF17F
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				p:xBB8631.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_NEVADA = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xBB8631
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				p:x455838.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_NEVADA = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x455838
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				p:xEF5007.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_NEVADA = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xEF5007
+				}
+			}
+		}
+	}
+	#### California
+	if = {
+		limit = {
+			AND = {
+				p:x519529.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_NEVADA = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x519529
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				p:xf6b075.owner = { is_country_type = decentralized }
+			}
+		}
+		s:STATE_NEVADA = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xF6b075
+				}
+			}
+		}
+	}
+}
+
+cr_create_john_sutters_colony_effect = {
+	
+	create_country = {
+		tag = SUTCAL
+		origin = scope:california_owner_scope
+		province = p:x908000
+		on_created = {
+			set_variable = cr_john_sutters_california	#Remove for the bear flag revolt!
+			s:STATE_CALIFORNIA = {
+				set_owner_of_provinces = {
+					country = c:SUTCAL
+					provinces = { xC54807 xE6440D x3F27C8 }
+				}
+			}
+			create_character = {
+				template = MEX_john_sutter
+				on_created = {
+					set_character_as_ruler = yes
+				}
+			}
+		}
+	}
+	c:SUTCAL ?= {	
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_presidential_republic
+		set_variable = cr_john_sutters_california	#Remove for the bear flag revolt! - incase the on_created doesn't set the variable
+		ruler = {
+			save_scope_as = john_sutter_scope
+		}
+	}
+	#### California
+	
+	s:STATE_CALIFORNIA = {
+		if = {
+			limit = {
+				AND = {
+					p:x2A91D8.owner = { is_country_type = decentralized }
+				}
+			}
+			set_owner_of_provinces = {
+				country = c:SUTCAL
+				provinces = {
+					x2A91D8
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					p:xAB1AA2.owner = { is_country_type = decentralized }
+				}
+			}
+			set_owner_of_provinces = {
+				country = c:SUTCAL
+				provinces = {
+					xAB1AA2
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					p:x5EF8F5.owner = { is_country_type = decentralized }
+				}
+			}
+			set_owner_of_provinces = {
+				country = c:SUTCAL
+				provinces = {
+					x5EF8F5
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					p:xDBCBC6.owner = { is_country_type = decentralized }
+				}
+			}
+			set_owner_of_provinces = {
+				country = c:SUTCAL
+				provinces = {
+					xDBCBC6
+				}
+			}
+		}
+	}
+}
+
+
+cr_canadian_treaty_annuities_effect = {
+	if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_24
+		}
+		
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_23
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_23
+			add_modifier = {
+				name = cr_treaty_annuities_24
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_22
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_22
+			add_modifier = {
+				name = cr_treaty_annuities_23
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_21
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_21
+			add_modifier = {
+				name = cr_treaty_annuities_22
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_20
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_20
+			add_modifier = {
+				name = cr_treaty_annuities_21
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_19
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_19
+			add_modifier = {
+				name = cr_treaty_annuities_20
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_18
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_18
+			add_modifier = {
+				name = cr_treaty_annuities_19
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_17
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_17
+			add_modifier = {
+				name = cr_treaty_annuities_18
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_16
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_16
+			add_modifier = {
+				name = cr_treaty_annuities_17
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_15
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_15
+			add_modifier = {
+				name = cr_treaty_annuities_16
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_14
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_14
+			add_modifier = {
+				name = cr_treaty_annuities_15
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_13
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_13
+			add_modifier = {
+				name = cr_treaty_annuities_14
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_12
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_12
+			add_modifier = {
+				name = cr_treaty_annuities_13
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_11
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_11
+			add_modifier = {
+				name = cr_treaty_annuities_12
+			}
+		}
+	}
+	else_if = {
+			limit = {
+				has_modifier = cr_treaty_annuities_10
+			}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_10
+			add_modifier = {
+				name = cr_treaty_annuities_11
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_9
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_9
+			add_modifier = {
+				name = cr_treaty_annuities_10
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_8
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_8
+			add_modifier = {
+				name = cr_treaty_annuities_9
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_7
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_7
+			add_modifier = {
+				name = cr_treaty_annuities_8
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_6
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_6
+			add_modifier = {
+				name = cr_treaty_annuities_7
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_5
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_5
+			add_modifier = {
+				name = cr_treaty_annuities_6
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities_4
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_4
+			add_modifier = {
+				name = cr_treaty_annuities_5
+			}
+		}
+	}
+	else_if = {
+			limit = {
+				has_modifier = cr_treaty_annuities_3
+			}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_3
+			add_modifier = {
+				name = cr_treaty_annuities_4
+			}
+		}
+	}
+	else_if = {
+			limit = {
+				has_modifier = cr_treaty_annuities_2
+			}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities_2
+			add_modifier = {
+				name = cr_treaty_annuities_3
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = cr_treaty_annuities
+		}
+		custom_tooltip =  {
+			text = cr_treaty_annuities_increased_tt
+			remove_modifier = cr_treaty_annuities
+			add_modifier = {
+				name = cr_treaty_annuities_2
+			}
+		}
+	}
+	else = {
+		add_modifier = {
+			name = cr_treaty_annuities
+		}	
+	}
+}
+
+cr_opening_the_route_to_acre_BRZ = {
+	s:STATE_AMAZONAS = {
+		if = {
+			limit = {
+				p:x328b67.owner = ROOT
+				p:x329800.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x329800
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x328b67.owner = ROOT
+				p:xf83090.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xf83090
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xf83090.owner = ROOT
+				p:x9778e0.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x9778e0
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xf83090.owner = ROOT
+				p:x2811a6.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x2811a6
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x9778e0.owner = ROOT
+				p:xcc99c2.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xcc99c2
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x2811a6.owner = ROOT
+				p:x8a52d2.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x8a52d2
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x9778e0.owner = ROOT
+				p:x34c294.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x34c294
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x34c294.owner = ROOT
+				p:x645927.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x645927
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x645927.owner = ROOT
+				p:x6c2ed1.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x6c2ed1
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x6c2ed1.owner = ROOT
+				p:xf7fd32.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xf7fd32
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:x6c2ed1.owner = ROOT
+				p:xec140b.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xec140b
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xf7fd32.owner = ROOT
+				p:xf3946e.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xf3946e
+				}
+			}
+		}
+		if = {
+			limit = {
+				p:xf3946e.owner = ROOT
+				p:x8bd00a.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x8bd00a
+				}
+			}
+		}
+	}
+}
+
+cr_opening_the_route_to_acre_in_stages_BRZ = {
+	s:STATE_AMAZONAS = {
+		if = {
+			limit = {
+				p:xf3946e.owner = ROOT
+				p:x8bd00a.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x8bd00a
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:xf7fd32.owner = ROOT
+				p:xf3946e.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xf3946e
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x6c2ed1.owner = ROOT
+				p:xec140b.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xec140b
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x6c2ed1.owner = ROOT
+				p:xf7fd32.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xf7fd32
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x8a52d2.owner = ROOT
+				p:x83b1ba.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x83b1ba
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x83b1ba.owner = ROOT
+				p:x6c2ed1.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x6c2ed1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x328b67.owner = ROOT
+				p:x329800.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x329800
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x34c294.owner = ROOT
+				p:x645927.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x645927
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x9778e0.owner = ROOT
+				p:x34c294.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x34c294
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x2811a6.owner = ROOT
+				p:x8a52d2.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x8a52d2
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x9778e0.owner = ROOT
+				p:xcc99c2.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xcc99c2
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x9778e0.owner = ROOT
+				p:x2811a6.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x2811a6
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:xf83090.owner = ROOT
+				p:x9778e0.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x9778e0
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x328b67.owner = ROOT
+				p:xf83090.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xf83090
+				}
+			}
+		}
+	}
+}
+
+cr_opening_the_route_to_acre_via_mato_grosso_BRZ = {
+	s:STATE_MATO_GROSSO = {
+		if = {
+			limit = {
+				p:xb29291.owner = ROOT
+				p:xf605cb.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xf605cb
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x8f231d.owner = ROOT
+				p:xb29291.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xb29291
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x5ac0b3.owner = ROOT
+				p:x8f231d.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x8f231d
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:x4eb3aa.owner = ROOT
+				p:x5ac0b3.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x5ac0b3
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:xe70fb1.owner = ROOT
+				p:x4eb3aa.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					x4eb3aa
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				p:xa30d13.owner = ROOT
+				p:xe70fb1.owner = { is_country_type = decentralized }
+			}
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = {
+					xe70fb1
+				}
+			}
+		}
+	}
+}
+
+#############################################
+#											#
+#	  MEX - Federal Questions JE effects	#
+#											#
+#############################################
+
+cr_exile_texan_leaders_effect = {
+	hidden_effect = { #For cleaner tooltip
+		scope:texas_president_scope = { #Brunet wasn't particularly relevant after the succesful revolution. Not necessary to keep I think
+			kill_character = yes
+		}
+		if = {	#Brunet wasn't particularly relevant after the succesful revolution. Not necessary to keep I think
+			limit = { exists = scope:burnet_scope }
+			scope:burnet_scope = {
+				kill_character = yes
+			}
+		}
+	}
+	scope:houston_scope = {
+		exile_character = yes
+		add_character_role = agitator
+	}
+	if = {
+		limit = { exists = scope:travis_scope }
+		scope:travis_scope = {
+			exile_character = yes
+			add_character_role = agitator
+		}
+	}
+	hidden_effect = {	#For cleaner tooltip
+		scope:lamar_scope = {
+			kill_character = yes # Not relevant to keep I think
+		}
+		scope:rusk_scope = {
+			kill_character = yes # Not relevant to keep I think
+		}
+		scope:hawkins_scope = {
+			kill_character = yes #Texan admiral. Not relevant to keep I think
+		}
+	}
+}
+
+cr_mexico_set_rebel_starting_military_large_effect = {
+	scope:rebellious_state_scope = {
+		create_building = {
+			building = building_barrack
+			level = 3
+		}
+	}
+}
+
+cr_mexico_set_rebel_starting_military_effect = {
+	scope:rebellious_state_scope = {
+		create_building = {
+			building = building_barrack
+			level = 2
+		}
+	}
+}
+
+cr_mexico_set_rebel_starting_military_small_effect = {
+	scope:rebellious_state_scope = {
+		create_building = {
+			building = building_barrack
+			level = 1
+		}
+	}
+}
+
+cr_mexico_succesful_federalist_revolt_effect = {
+	scope:rebellious_tag_scope = {
+		set_variable = {
+			name = cr_mexico_integration_cooldown
+			days = 365
+		}
+		add_loyalists = {
+			value = very_large_radicals
+		}
+		show_as_tooltip = {
+			capital = {
+				add_modifier = {
+					name = cr_mexico_recent_federalist_revolution_pos
+					days = short_modifier_time
+				}
+			}
+		}
+		hidden_effect = {
+			every_scope_state = {
+				add_modifier = {
+					name = cr_mexico_recent_federalist_revolution_pos
+					days = short_modifier_time
+				}
+			}
+		}
+	}
+}
+
+cr_mexico_succesful_centralist_revolt_effect = {
+	scope:rebellious_tag_scope = {
+		add_loyalists = {
+			value = very_large_radicals
+		}
+		show_as_tooltip = {
+			capital = {
+				add_modifier = {
+					name = cr_mexico_recent_centralist_revolution_pos
+					days = short_modifier_time
+				}
+			}
+		}
+		hidden_effect = {
+			every_scope_state = {
+				add_modifier = {
+					name = cr_mexico_recent_centralist_revolution_pos
+					days = short_modifier_time
+				}
+			}
+		}
+	}
+}
+
+cr_mexico_failed_federalist_revolt_effect = {
+	scope:rebellious_tag_scope = {
+		add_loyalists = {
+			value = very_large_radicals
+		}
+		show_as_tooltip = {
+			capital = {
+				add_modifier = {
+					name = cr_mexico_recent_federalist_revolution_neg
+					days = short_modifier_time
+				}
+			}
+		}
+		hidden_effect = {
+			every_scope_state = {
+				add_modifier = {
+					name = cr_mexico_recent_federalist_revolution_neg
+					days = short_modifier_time
+				}
+			}
+		}
+	}
+}
+
+cr_mexico_failed_centralist_revolt_effect = {
+	scope:rebellious_tag_scope = {
+		add_radicals = {
+			value = medium_radicals
+		}
+		show_as_tooltip = {
+			capital = {
+				add_modifier = {
+					name = cr_mexico_recent_centralist_revolution_neg
+					days = short_modifier_time
+				}
+			}
+		}
+		hidden_effect = {
+			every_scope_state = {
+				add_modifier = {
+					name = cr_mexico_recent_centralist_revolution_neg
+					days = short_modifier_time
+				}
+			}
+		}
+	}
+}
+
+cr_mexico_set_rebel_starting_laws = {
+	if = {
+		limit = {
+			capital = {
+				has_modifier = cr_mexico_federalist_sympathies
+			}
+		}
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_federal_state
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_presidential_republic
+	}
+	else_if = {
+		limit = {
+			capital = {
+				has_modifier = cr_mexico_centralist_sympathies
+			}
+		}
+		random_list = {
+			50 = {
+				activate_law = law_type:law_professional_army
+			}
+			50 = {
+				activate_law = law_type:law_mass_conscription
+			}
+		}
+		random_list = {
+			60 = {
+				activate_law = law_type:law_oligarchy
+			}
+			20 = {
+				activate_law = law_type:law_wealth_voting
+			}
+			20 = {
+				activate_law = law_type:law_autocracy
+			}
+		}
+		activate_law = law_type:law_unitary_state
+		activate_law = law_type:law_no_colonial_affairs
+	}
+	else = {
+		activate_law = law_type:law_unitary_state
+	}
+
+}
+
+cr_mexico_create_california_rebellion_effect = {
+	create_country = {
+		tag = CAL
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:CAL ?= { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_appointed_bureaucrats
+				NOT = { has_variable = cr_mexico_alvarados_california_has_happened }
+			}
+			create_character = {
+				template = MEX_juan_bautista_alvarado
+			}
+			create_character = {	#Should be centralist governor in case of centralist rebellion, but have a bit of trouble getting the roles to assign properly via script
+				template = MEX_nicolas_gutierrez
+			}
+		}
+		cr_mexico_set_rebel_starting_military_effect = yes
+	}
+	cr_set_borders_of_rebel_california_effect = yes
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_appointed_bureaucrats
+			NOT = { has_variable = cr_mexico_alvarados_california_has_happened }
+		}
+		set_variable = cr_mexico_alvarados_california_has_happened
+	}
+}
+
+cr_set_borders_of_rebel_california_effect = {
+	if = {	#In case Baja California revolts
+		limit = {
+			exists = s:STATE_CALIFORNIA.region_state:MEX
+			NOT = { exists = s:STATE_CALIFORNIA.region_state:ALC }
+		}
+		s:STATE_CALIFORNIA.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	if = {
+		limit = {
+			exists = s:STATE_NEVADA.region_state:MEX
+		}
+		s:STATE_NEVADA.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	if = {
+		limit = {
+			exists = s:STATE_UTAH.region_state:MEX
+		}
+		s:STATE_UTAH.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	hidden_effect = {
+		s:STATE_ARIZONA = {
+			if = {
+				limit = {
+					p:x1546DA = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = scope:rebellious_tag_scope
+					provinces = {
+						x1546DA
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xA615B6 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = scope:rebellious_tag_scope
+					provinces = {
+						xA615B6
+					}
+				}
+			}
+		}
+	}
+}
+
+cr_mexico_create_sante_fe_rebellion_effect = {
+	create_country = {
+		tag = PUE
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:PUE = {
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+		if = {
+			limit = {
+				#has_law_or_variant = law_type:law_appointed_bureaucrats	#DEBUG
+				NOT = { has_variable = cr_mexico_rio_arriba_rebellion_has_happened }
+			}
+			create_character = {
+				template = MEX_jose_maria_gonzalez
+			}
+		}
+		create_character = { #Montoya came back a few times to rebel.
+			template = MEX_pablo_montoya
+		}
+	}
+	if = {
+		limit = {
+			exists = s:STATE_COLORADO.region_state:MEX
+		}
+		s:STATE_COLORADO.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_appointed_bureaucrats
+			NOT = { has_variable = cr_mexico_rio_arriba_rebellion_has_happened }
+		}
+		set_variable = cr_mexico_rio_arriba_rebellion_has_happened
+	}
+}
+
+cr_mexico_create_yucatan_rebellion_effect = {
+	create_country = {
+		tag = YUC
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope	#Currently takes the whole of Yucatan, include a small part of Tabasco.
+		on_created = {
+		}
+	}
+	c:YUC = { 
+		set_variable = cr_centralist_federalist_struggle
+		save_scope_as = rebellious_tag_scope
+		cr_mexico_set_rebel_starting_laws = yes
+		if = {
+			limit = {
+				#has_law_or_variant = law_type:law_appointed_bureaucrats	#Mendez was more of centralist anyway, so it is fine if he becomes president in case of a centralist rebellion
+				NOT = { has_variable = cr_mexico_yucatan_rebellion_has_happened }
+			}
+			create_character = {
+				template = MEX_santiago_mendez
+			}
+			create_character = {
+				template = MEX_miguel_barbachano
+			}
+			create_character = {
+				template = MEX_santiago_iman
+			}
+		}
+	}
+	cr_mexico_set_rebel_starting_military_large_effect = yes
+	
+	if = {
+		limit = {
+			#has_law_or_variant = law_type:law_appointed_bureaucrats#Mendez was more of centralist anyway, so it is fine if he becomes president in case of a centralist rebellion
+			NOT = { has_variable = cr_mexico_yucatan_rebellion_has_happened }
+		}
+		set_variable = cr_mexico_yucatan_rebellion_has_happened
+	}
+}
+
+cr_mexico_create_tabasco_rebellion_effect = {
+	create_country = {
+		tag = TBS
+		origin = scope:mexico_scope
+		province = p:x5CE75E
+		on_created = {
+			s:STATE_VERACRUZ = {
+				set_owner_of_provinces = {
+					country = c:TBS
+					provinces = { x1B2176 x067F2A x253627 }
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			exists = s:STATE_YUCATAN.region_state:MEX
+		}
+		s:STATE_YUCATAN = {
+			set_owner_of_provinces = {
+				country = c:TBS
+				provinces = { xDC714A x10B0C0 }
+			}
+		}
+		
+	}
+	c:TBS = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_federal_state
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_presidential_republic		
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_appointed_bureaucrats
+				NOT = { has_variable = cr_mexico_tabasco_rebellion_has_happened }
+			}
+			create_character = {
+				template = MEX_agustin_ruiz_de_la_pena
+			}
+			create_character = {
+				template = MEX_fernando_nicolas_maldonado
+			}
+			create_character = {
+				template = MEX_francisco_de_sentmanat
+			}
+			create_character = {
+				template = MEX_juan_pablo_de_anaya
+			}
+			create_character = {
+				template = MEX_jose_victor_jimenez
+			}
+			create_character = {
+				template = MEX_justo_santa_anna
+			}
+		}
+	}
+
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_appointed_bureaucrats
+			NOT = { has_variable = cr_mexico_tabasco_rebellion_has_happened }
+		}
+		set_variable = cr_mexico_tabasco_rebellion_has_happened
+	}
+}
+
+cr_mexico_create_sonora_rebellion_effect = {
+	create_country = {
+		tag = SON
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:SON = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_appointed_bureaucrats
+				NOT = { has_variable = cr_mexico_sonora_rebellion_has_happened }
+			}
+			create_character = {
+				template = MEX_jose_de_urrea
+			}
+		}
+	}
+	if = {
+		limit = {
+			exists = s:STATE_SINALOA.region_state:MEX
+			NOT = { exists = s:STATE_SINALOA.region_state:SON }
+			s:STATE_SINALOA.region_state:MEX ?= {
+				has_modifier = cr_mexico_federalist_sympathies
+				#turmoil > 0.25
+			}
+		}
+		s:STATE_SINALOA.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	else_if = {
+		limit = {
+			exists = s:STATE_SONORA.region_state:MEX
+			NOT = { exists = s:STATE_SONORA.region_state:SON }
+			s:STATE_SONORA.region_state:MEX ?= {
+				has_modifier = cr_mexico_federalist_sympathies
+				#turmoil > 0.25
+			}
+		}
+		s:STATE_SONORA.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	if = {
+		limit = {
+			exists = s:STATE_BAJA_CALIFORNIA.region_state:MEX
+			NOT = { exists = s:STATE_BAJA_CALIFORNIA.region_state:SON }
+			s:STATE_BAJA_CALIFORNIA.region_state:MEX ?= {
+				has_modifier = cr_mexico_federalist_sympathies
+				turmoil > 0.40
+			}
+		}
+		s:STATE_BAJA_CALIFORNIA.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	
+	cr_set_borders_of_sonora_effect = yes
+	
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_appointed_bureaucrats
+			NOT = { has_variable = cr_mexico_sonora_rebellion_has_happened }
+		}
+		set_variable = cr_mexico_sonora_rebellion_has_happened
+	}
+}
+
+cr_set_borders_of_sonora_effect = {
+	if = {
+		limit = {
+			exists = s:STATE_SONORA.region_state:SON
+			s:STATE_ARIZONA.region_state:MEX ?= { is_split_state = yes }
+		}
+		s:STATE_ARIZONA = {
+			if = {
+				limit = {
+					p:x949C3F = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x949C3F
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xD331E1 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						xD331E1
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xC96399 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						xC96399
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x8737CC = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x8737CC
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x022AE2 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x022AE2
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x48A4E7 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x48A4E7
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x39AEE1 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x39AEE1
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xC28CA0 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						xC28CA0
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x52AD57 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x52AD57
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x44CC50 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x44CC50
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xBB6368 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						xBB6368
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xBF471B = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						xBF471B
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x2392B7 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x2392B7
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xA8531A = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						xA8531A
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x77EF15 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x77EF15
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x8755F3 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x8755F3
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x1BDEB7 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x1BDEB7
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x1A06C1 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x1A06C1
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xD08000 = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						xD08000
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x67A8BE = { c:MEX ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:SON
+					provinces = {
+						x67A8BE
+					}
+				}
+			}
+		}
+	}
+}
+
+cr_mexico_create_rio_grande_rebellion_effect = {
+	create_country = {
+		tag = RIO
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:RIO = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_appointed_bureaucrats
+				NOT = { has_variable = cr_mexico_rio_grande_republic_has_happened }
+			}
+			create_character = {
+				template = MEX_jesus_de_cardenas
+			}
+			create_character = {
+				template = MEX_jose_maria_jesus_carbajal
+			}
+			create_character = {
+				template = MEX_manuel_maria_de_llano
+			}
+			create_character = {
+				template = MEX_francosco_vidaurri_y_villasenor
+			}
+			create_character = {
+				template = MEX_antonio_canales
+			}
+		}
+		
+		cr_mexico_set_rebel_starting_military_large_effect = yes
+	}
+	if = {
+		limit = {
+			exists = s:STATE_TEXAS.region_state:RIO
+			NOT = { exists = s:STATE_RIO_GRANDE.region_state:RIO }
+			s:STATE_RIO_GRANDE.region_state:MEX ?= {
+				has_modifier = cr_mexico_federalist_sympathies
+				turmoil > 0.20
+			}
+		}
+		s:STATE_RIO_GRANDE.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	else_if = {
+		limit = {
+			exists = s:STATE_RIO_GRANDE.region_state:RIO
+			exists = s:STATE_TEXAS.region_state:MEX
+			NOT = { exists = s:STATE_TEXAS.region_state:RIO }
+			OR = {
+				exists = s:STATE_TEXAS.region_state:TEX
+				exists = s:STATE_TEXAS.region_state:USA
+			}
+		}
+		s:STATE_TEXAS.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	else_if = {
+		limit = {
+			exists = s:STATE_RIO_GRANDE.region_state:RIO
+			exists = s:STATE_TEXAS.region_state:MEX
+			NOT = { exists = s:STATE_TEXAS.region_state:RIO }
+			s:STATE_TEXAS.region_state:MEX ?= {
+				has_modifier = cr_mexico_federalist_sympathies
+				turmoil > 0.15
+			}
+		}
+		s:STATE_TEXAS.region_state:MEX = { set_state_owner = scope:rebellious_tag_scope }
+	}
+	
+	cr_set_borders_of_rio_grande_effect = yes
+	
+	cr_mexico_set_rebel_starting_military_large_effect = yes
+	
+	if = {
+		limit = {
+			c:RIO = { has_law_or_variant = law_type:law_appointed_bureaucrats }
+			NOT = { has_variable = cr_mexico_rio_grande_republic_has_happened }
+		}
+		set_variable = cr_mexico_rio_grande_republic_has_happened
+	}
+}
+
+cr_set_borders_of_rio_grande_effect = {
+	if = {
+		limit = {
+			exists = s:STATE_TEXAS.region_state:RIO
+			exists = s:STATE_CHIHUAHUA.region_state:MEX
+		}
+		s:STATE_TEXAS = {
+			set_owner_of_provinces = {
+				country = c:MEX
+				provinces = {
+					x18F9D5
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = s:STATE_TEXAS.region_state:RIO
+			exists = s:STATE_CHIHUAHUA.region_state:CUA 
+		}
+		s:STATE_TEXAS = {
+			set_owner_of_provinces = {
+				country = c:CUA
+				provinces = {
+					x18F9D5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			exists = s:STATE_TEXAS.region_state:RIO
+			exists = s:STATE_CHIHUAHUA.region_state:MEX
+			NOT = { exists = s:STATE_RIO_GRANDE.region_state:RIO }
+		}	
+		s:STATE_TEXAS = {
+			if = {
+				limit = {
+					p:x6E8169 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x6E8169
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x5D3843 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x5D3843
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x8EBCC7 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x8EBCC7
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x90CE2B = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x90CE2B
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xA55E5C = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						xA55E5C
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xC9D330 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						xC9D330
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x951736 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x951736
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x2DA551 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x2DA551
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x10CA7B = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x10CA7B
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x6958D6 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x6958D6
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:xD08070 = { c:RIO ?= state.owner } 
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x6958D6
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x24C127 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x24C127
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x760779 = { c:RIO ?= state.owner } 
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x760779
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x4E19F4 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x4E19F4
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x6BB536 = { c:RIO ?= state.owner }
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x6BB536
+					}
+				}
+			}
+			if = {
+				limit = {
+					p:x94A617 = { c:RIO ?= state.owner } 
+				}
+				set_owner_of_provinces = {
+					country = c:MEX
+					provinces = {
+						x94A617
+					}
+				}
+			}
+		}
+	}
+}
+
+#Non-historical revolts
+cr_mexico_create_bajio_rebellion_effect = {
+	create_country = {
+		tag = BAJ
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:BAJ = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_bajio_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_bajio_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_chiapas_rebellion_effect = {
+	create_country = {
+		tag = CPS
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:CPS = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_chiapas_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_chiapas_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_chihuahua_rebellion_effect = {
+	create_country = {
+		tag = CUA
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:CUA = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_chihuahua_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_chihuahua_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_durango_rebellion_effect = {
+	create_country = {
+		tag = DUR
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:DUR = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_durango_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_durango_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_guerrero_rebellion_effect = {
+	create_country = {
+		tag = GUE
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:GUE = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_guerrero_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_guerrero_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_jalisco_rebellion_effect = {
+	create_country = {
+		tag = MCO
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+			set_country_type = recognized
+		}
+	}
+	c:MCO = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		c:MCO = { has_law_or_variant = law_type:law_appointed_bureaucrats }
+	#		NOT = { has_variable = cr_mexico_oaxaca_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_jalisco_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_oaxaca_rebellion_effect = {
+	create_country = {
+		tag = OAX
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+			set_country_type = recognized
+		}
+	}
+	c:OAX = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_oaxaca_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_oaxaca_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_veracruz_rebellion_effect = {
+	create_country = {
+		tag = VRS
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:VRS = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_veracruz_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_veracruz_rebellion_has_happened
+	#}
+}
+
+cr_mexico_create_zacatecas_rebellion_effect = {
+	create_country = {
+		tag = ZAC
+		origin = scope:mexico_scope
+		state = scope:rebellious_state_scope
+		on_created = {
+		}
+	}
+	c:ZAC = { 
+		save_scope_as = rebellious_tag_scope
+		set_variable = cr_centralist_federalist_struggle
+		cr_mexico_set_rebel_starting_laws = yes
+	}
+	cr_mexico_set_rebel_starting_military_small_effect = yes
+	
+	#if = {
+	#	limit = {
+	#		has_law_or_variant = law_type:law_appointed_bureaucrats
+	#		NOT = { has_variable = cr_mexico_zacatecas_rebellion_has_happened }
+	#	}
+	#	set_variable = cr_mexico_zacatecas_rebellion_has_happened
+	#}
+}
+
+#cr_mexplosion_effect = {	#wish I could get this to work. 
+#	ROOT = {
+#		save_scope_as = mexico_scope
+#	}
+#	#New Mexico
+#	if = {
+#		limit = {
+#			exists = s:STATE_NEW_MEXICO.region_state:MEX
+#			s:STATE_NEW_MEXICO.region_state:mexico_scope = {
+#				#turmoil >= 0.06
+#			}		
+#		}
+#		s:STATE_NEW_MEXICO.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_sante_fe_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Tabasco
+#	if = {
+#		limit = {
+#			exists = s:STATE_VERACRUZ.region_state:MEX
+#			s:STATE_VERACRUZ.region_state:MEX = {
+#				#turmoil >= 0.08
+#			}
+#		}
+#		s:STATE_VERACRUZ.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_tabasco_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Yucatan
+#	if = {
+#		limit = {
+#			exists = s:STATE_YUCATAN.region_state:MEX
+#			s:STATE_YUCATAN.region_state:MEX = {
+#				#turmoil >= 0.05
+#			}
+#		}
+#		s:STATE_YUCATAN.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_yucatan_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Sonora 
+#	if = {
+#		limit = {
+#			exists = s:STATE_SONORA.region_state:MEX
+#			s:STATE_SONORA.region_state:MEX = {
+#				#turmoil >= 0.1
+#			}
+#		}
+#		s:STATE_SONORA.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_sonora_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#California 
+#	if = {
+#		limit = {
+#			exists = s:STATE_CALIFORNIA.region_state:MEX
+#			s:STATE_CALIFORNIA.region_state:MEX = {
+#				#turmoil >= 0.08
+#			}
+#		}
+#		s:STATE_CALIFORNIA.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_california_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	
+#	
+#	#Bajio
+#	if = {
+#		limit = {
+#			exists = s:STATE_BAJIO.region_state:MEX
+#			s:STATE_BAJIO.region_state:MEX = {
+#				#turmoil >= 0.19
+#			}
+#		}
+#		s:STATE_BAJIO.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_bajio_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Chiapas
+#	if = {
+#		limit = {
+#			exists = s:STATE_CHIAPAS.region_state:MEX
+#			s:STATE_CHIAPAS.region_state:MEX = {
+#				#turmoil >= 0.01	#Should just rebel
+#			}
+#		}
+#		s:STATE_CHIAPAS.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_chiapas_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Chihuahua
+#	if = {
+#		limit = {
+#			exists = s:STATE_CHIHUAHUA.region_state:MEX
+#			s:STATE_CHIHUAHUA.region_state:MEX = {
+#				#turmoil >= 0.12
+#			}
+#		}
+#		s:STATE_CHIHUAHUA.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_chihuahua_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#The return of Texas!
+#	if = {
+#		limit = {
+#			exists = s:STATE_TEXAS.region_state:MEX
+#			NOR = {
+#				exists = c:TEX
+#				exists = s:STATE_TEXAS.region_state:USA 
+#			}
+#			s:STATE_TEXAS.region_state:MEX = {
+#				#turmoil >= 0.01
+#			}
+#		}
+#		create_country = {
+#			tag = TEX
+#			origin = this
+#			state = s:STATE_TEXAS.region_state:MEX
+#			on_created = {
+#			}
+#		}
+#	}
+#	#Rio Grande - in between due to assigning El Paso
+#	if = {
+#		limit = {
+#			exists = s:STATE_RIO_GRANDE.region_state:MEX
+#			s:STATE_RIO_GRANDE.region_state:MEX = {
+#				#turmoil >= 0.08
+#			}
+#		}
+#		create_country = {
+#			tag = RIO
+#			origin = this
+#			state = s:STATE_RIO_GRANDE.region_state:MEX
+#			on_created = {
+#				set_variable = cr_centralist_federalist_struggle
+#				cr_mexico_set_rebel_starting_laws = yes
+#			}
+#		}
+#		if = {
+#			limit = {
+#				exists = s:STATE_TEXAS.region_state:MEX
+#			}
+#			s:STATE_TEXAS.region_state:MEX = { set_state_owner = c:RIO }
+#		}
+#	}
+#	#alternative in case Mexico doesn't have STATE_RIO_GRANDE for some odd reason, or it doesn't rebel
+#	else_if = {
+#		limit = {
+#			exists = s:STATE_TEXAS.region_state:MEX
+#			s:STATE_TEXAS.region_state:MEX = {
+#				#turmoil >= 0.05
+#			}
+#		}
+#		create_country = {
+#			tag = RIO
+#			origin = this
+#			state = s:STATE_TEXAS.region_state:MEX
+#			on_created = {
+#				set_variable = cr_centralist_federalist_struggle
+#				cr_mexico_set_rebel_starting_laws = yes
+#			}
+#		}
+#	}
+#	#Durango
+#	if = {
+#		limit = {
+#			exists = s:STATE_DURANGO.region_state:MEX
+#			s:STATE_DURANGO.region_state:MEX = {
+#				#turmoil >= 0.17
+#			}
+#		}
+#		s:STATE_DURANGO.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_durango_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Guerrero
+#	if = {
+#		limit = {
+#			exists = s:STATE_GUERRERO.region_state:MEX
+#			s:STATE_GUERRERO.region_state:MEX = {
+#				#turmoil >= 0.12
+#			}
+#		}
+#		s:STATE_GUERRERO.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_guerrero_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Jalisco
+#	if = {
+#		limit = {
+#			exists = s:STATE_JALISCO.region_state:MEX
+#			s:STATE_JALISCO.region_state:MEX = {
+#				#turmoil >= 0.22
+#			}
+#		}
+#		s:STATE_JALISCO.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_jalisco_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Oaxaca
+#	if = {
+#		limit = {
+#			exists = s:STATE_OAXACA.region_state:MEX
+#			s:STATE_OAXACA.region_state:MEX = {
+#				#turmoil >= 0.22
+#			}
+#		}
+#		s:STATE_OAXACA.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_oaxaca_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Veracruz
+#	if = {
+#		limit = {
+#			exists = s:STATE_VERACRUZ.region_state:MEX
+#			s:STATE_VERACRUZ.region_state:MEX = {
+#				#turmoil >= 0.25
+#			}
+#		}
+#		s:STATE_VERACRUZ.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_veracruz_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#	#Zacatecas
+#	if = {
+#		limit = {
+#			exists = s:STATE_ZACATECAS.region_state:MEX
+#			s:STATE_ZACATECAS.region_state:MEX = {
+#				#turmoil >= 0.12
+#			}
+#		}
+#		s:STATE_ZACATECAS.region_state:mexico_scope = {
+#			save_scope_as = rebellious_state_scope
+#		}
+#		cr_mexico_create_zacatecas_rebellion_effect = yes
+#		clear_saved_scope = rebellious_state_scope
+#	}
+#}
+
+cr_mexplosion_effect = {
+	#New Mexico
+	if = {
+		limit = {
+			exists = s:STATE_NEW_MEXICO.region_state:MEX
+			NOT = {
+				exists = c:PUE
+			}
+			s:STATE_NEW_MEXICO.region_state:MEX = {
+				#turmoil >= 0.06
+			}		
+		}
+		create_country = {
+			tag = PUE
+			origin = this
+			state = s:STATE_NEW_MEXICO.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+		if = {
+			limit = {
+				exists = s:STATE_COLORADO.region_state:MEX
+			}
+			s:STATE_COLORADO.region_state:MEX = { set_state_owner = c:PUE }
+		}
+	}
+	#Tabasco
+	if = {
+		limit = {
+			exists = s:STATE_VERACRUZ.region_state:MEX
+			NOT = {
+				exists = c:TBS
+			}
+			s:STATE_VERACRUZ.region_state:MEX = {
+				#turmoil >= 0.08
+			}
+		}
+		create_country = {
+			tag = TBS
+			origin = this
+			province = p:x5CE75E
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+				s:STATE_VERACRUZ = {
+					set_owner_of_provinces = {
+						country = c:TBS
+						provinces = { x1B2176 x067F2A x253627 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = s:STATE_YUCATAN.region_state:MEX
+			}
+			s:STATE_YUCATAN = {
+				set_owner_of_provinces = {
+					country = c:TBS
+					provinces = { xDC714A x10B0C0 }
+				}
+			}
+			
+		}
+	
+	}
+	#Yucatan
+	if = {
+		limit = {
+			exists = s:STATE_YUCATAN.region_state:MEX
+			NOT = {
+				exists = c:YUC
+			}
+			s:STATE_YUCATAN.region_state:MEX = {
+				#turmoil >= 0.05
+			}
+		}
+		create_country = {
+			tag = YUC
+			origin = this
+			state = s:STATE_YUCATAN.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}	
+	}
+	#Sonora 
+	if = {
+		limit = {
+			exists = s:STATE_SONORA.region_state:MEX
+			NOT = {
+				exists = c:SON
+			}
+			s:STATE_SONORA.region_state:MEX = {
+				#turmoil >= 0.1
+			}
+		}
+		create_country = {
+			tag = SON
+			origin = this
+			state = s:STATE_SONORA.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+		if = {
+			limit = {
+				exists = s:STATE_SINALOA.region_state:MEX
+				s:STATE_SINALOA.region_state:MEX = {
+					#turmoil >= 0.06
+				}
+			}
+			s:STATE_SINALOA.region_state:MEX = { set_state_owner = c:SON }
+		}
+		if = {
+			limit = {
+				exists = s:STATE_BAJA_CALIFORNIA.region_state:MEX
+				NOT = { exists = s:STATE_CALIFORNIA.region_state:MEX }
+				s:STATE_BAJA_CALIFORNIA.region_state:MEX = {
+					#turmoil >= 0.03
+				}
+			}
+			s:STATE_BAJA_CALIFORNIA.region_state:MEX = { set_state_owner = c:SON }
+		}
+		cr_set_borders_of_sonora_effect = yes
+	}
+	#California 
+	if = {
+		limit = {
+			exists = s:STATE_CALIFORNIA.region_state:MEX
+			NOT = {
+				exists = c:ALC
+			}
+			s:STATE_CALIFORNIA.region_state:MEX = {
+				#turmoil >= 0.08
+			}
+		}
+		create_country = {
+			tag = ALC
+			origin = this
+			state = s:STATE_CALIFORNIA.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+		if = {
+			limit = {
+				exists = s:STATE_BAJA_CALIFORNIA.region_state:MEX
+				s:STATE_BAJA_CALIFORNIA.region_state:MEX = {
+					#turmoil >= 0.03
+				}
+			}
+			s:STATE_BAJA_CALIFORNIA.region_state:MEX = { set_state_owner = c:ALC }
+		}
+		c:ALC = {
+			save_scope_as = rebellious_tag_scope
+		}
+		cr_set_borders_of_rebel_california_effect = yes
+		clear_saved_scope = rebellious_tag_scope
+	}
+	
+	
+	#Bajido
+	if = {
+		limit = {
+			exists = s:STATE_BAJIO.region_state:MEX
+			NOT = {
+				exists = c:BAJ
+			}
+			s:STATE_BAJIO.region_state:MEX = {
+				#turmoil >= 0.19
+			}
+		}
+		create_country = {
+			tag = BAJ
+			origin = this
+			state = s:STATE_BAJIO.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Chiapas
+	if = {
+		limit = {
+			exists = s:STATE_CHIAPAS.region_state:MEX
+			NOT = {
+				exists = c:CPS
+			}
+			s:STATE_CHIAPAS.region_state:MEX = {
+				#turmoil >= 0.01	#Should just rebel
+			}
+		}
+		create_country = {
+			tag = CPS
+			origin = this
+			state = s:STATE_CHIAPAS.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Chihuahua
+	if = {
+		limit = {
+			exists = s:STATE_CHIHUAHUA.region_state:MEX
+			NOT = {
+				exists = c:CUA
+			}
+			s:STATE_CHIHUAHUA.region_state:MEX = {
+				#turmoil >= 0.12
+			}
+		}
+		create_country = {
+			tag = CUA
+			origin = this
+			state = s:STATE_CHIHUAHUA.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+		if = {
+			limit = {
+				exists = s:STATE_TEXAS.region_state:MEX
+			}
+			s:STATE_TEXAS = {
+				set_owner_of_provinces = {
+					country = c:CUA
+					provinces = {
+						x18F9D5
+					}
+				}
+			}
+		}
+	}
+	#The return of Texas!
+	if = {
+		limit = {
+			exists = s:STATE_TEXAS.region_state:MEX
+			NOR = {
+				exists = c:TEX
+				exists = s:STATE_TEXAS.region_state:USA 
+			}
+			s:STATE_RIO_GRANDE.region_state:MEX = {
+				#turmoil >= 0.01
+			}
+		}
+		create_country = {
+			tag = TEX
+			origin = this
+			state = s:STATE_TEXAS.region_state:MEX
+			on_created = {
+			}
+		}
+	}
+	#Rio Grande - in between due to assigning El Paso
+	if = {
+		limit = {
+			exists = s:STATE_RIO_GRANDE.region_state:MEX
+			NOT = {
+				exists = c:RIO
+			}
+			s:STATE_RIO_GRANDE.region_state:MEX = {
+				#turmoil >= 0.08
+			}
+		}
+		create_country = {
+			tag = RIO
+			origin = this
+			state = s:STATE_RIO_GRANDE.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+		if = {
+			limit = {
+				exists = s:STATE_TEXAS.region_state:MEX
+			}
+			s:STATE_TEXAS.region_state:MEX = { set_state_owner = c:RIO }
+		}
+	}
+	#alternative in case Mexico doesn't have STATE_RIO_GRANDE for some odd reason, or it doesn't rebel
+	else_if = {
+		limit = {
+			exists = s:STATE_TEXAS.region_state:MEX
+			NOT = {
+				exists = c:RIO
+			}
+			s:STATE_TEXAS.region_state:MEX = {
+				#turmoil >= 0.05
+			}
+		}
+		create_country = {
+			tag = RIO
+			origin = this
+			state = s:STATE_TEXAS.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Durango
+	if = {
+		limit = {
+			exists = s:STATE_DURANGO.region_state:MEX
+			NOT = {
+				exists = c:DUR
+			}
+			s:STATE_DURANGO.region_state:MEX = {
+				#turmoil >= 0.17
+			}
+		}
+		create_country = {
+			tag = DUR
+			origin = this
+			state = s:STATE_DURANGO.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Guerrero
+	if = {
+		limit = {
+			exists = s:STATE_GUERRERO.region_state:MEX
+			NOT = {
+				exists = c:GUE
+			}
+			s:STATE_GUERRERO.region_state:MEX = {
+				#turmoil >= 0.12
+			}
+		}
+		create_country = {
+			tag = GUE
+			origin = this
+			state = s:STATE_GUERRERO.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Jalisco
+	if = {
+		limit = {
+			exists = s:STATE_JALISCO.region_state:MEX
+			NOT = {
+				exists = c:MCO
+			}
+			s:STATE_JALISCO.region_state:MEX = {
+				#turmoil >= 0.22
+			}
+		}
+		create_country = {
+			tag = MCO
+			origin = this
+			state = s:STATE_JALISCO.region_state:MEX
+			on_created = {
+				set_country_type = recognized
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Oaxaca
+	if = {
+		limit = {
+			exists = s:STATE_OAXACA.region_state:MEX
+			NOT = {
+				exists = c:OAX
+			}
+			s:STATE_OAXACA.region_state:MEX = {
+				#turmoil >= 0.22
+			}
+		}
+		create_country = {
+			tag = OAX
+			origin = this
+			state = s:STATE_OAXACA.region_state:MEX
+			on_created = {
+				set_country_type = recognized
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Veracruz
+	if = {
+		limit = {
+			exists = s:STATE_VERACRUZ.region_state:MEX
+			NOT = {
+				exists = c:VRS
+			}
+			s:STATE_VERACRUZ.region_state:MEX = {
+				#turmoil >= 0.25
+			}
+		}
+		create_country = {
+			tag = VRS
+			origin = this
+			state = s:STATE_VERACRUZ.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+	#Zacatecas
+	if = {
+		limit = {
+			exists = s:STATE_ZACATECAS.region_state:MEX
+			NOT = {
+				exists = c:ZAC
+			}
+			s:STATE_ZACATECAS.region_state:MEX = {
+				#turmoil >= 0.12
+			}
+		}
+		create_country = {
+			tag = ZAC
+			origin = this
+			state = s:STATE_ZACATECAS.region_state:MEX
+			on_created = {
+				set_variable = cr_centralist_federalist_struggle
+				cr_mexico_set_rebel_starting_laws = yes
+			}
+		}
+	}
+}
+
+#############################################
+#											#
+#	 RUS - Taming the Steppes JE effects	#
+#											#
+#############################################
+cr_steppe_punitive_expedition_effect = {
+	add_modifier = {
+		name = cr_steppe_punitive_expedition
+		days = 365
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_variable = cr_steppe_first_expedition_has_returned
+			}
+		}
+		custom_tooltip = {
+			text = cr_steppe_launch_first_expedition_effect
+			random_list = { #could perhaps be a bit more randomised. Perhaps add a general as expedition leader?
+				10 = {
+					trigger_event = { id = cr_kazakh_events.13 days = 240 }  
+				}
+				70 = {
+					trigger_event = { id = cr_kazakh_events.14 days = 240 }  
+				}
+				20 = {
+					trigger_event = { id = cr_kazakh_events.15 days = 240 }  
+				}
+			}
+		}
+	}
+	else = {
+		custom_tooltip = {
+			text = cr_steppe_launch_first_expedition_effect
+			random_list = { #could perhaps be a bit more randomised. Perhaps add a general as expedition leader?
+				50 = {
+					trigger_event = { id = cr_kazakh_events.16 days = 240 } #inconclusive
+				}
+				10 = {
+					trigger_event = { id = cr_kazakh_events.17 days = 240 } #small victory 
+				}
+				5 = {
+					trigger_event = { id = cr_kazakh_events.18 days = 240 } #medium victory 
+				}
+				5 = {
+					trigger_event = { id = cr_kazakh_events.19 days = 240 } #large victory 
+				}
+				5 = {
+					trigger_event = { id = cr_kazakh_events.20 days = 240 } #defeat 
+				}
+				10 = {
+					trigger_event = { id = cr_kazakh_events.21 days = 240 } #minor defeat 
+				}
+			}
+		}
+	}
+}
+
+#Select event location
+cr_steppe_random_event_location_choser_effect = {
+	random_scope_state = {
+		limit = {
+			region = sr:region_central_asia
+			is_split_state = yes
+			any_neighbouring_state = {
+				owner = {
+					country_has_primary_culture = cu:kazak
+					is_country_type = decentralized
+				}
+			}
+		}
+		save_scope_as = kazak_event_state
+	}
+	random_state = {
+		limit = {
+			region = sr:region_central_asia
+			owner = {
+				country_has_primary_culture = cu:kazak
+				is_country_type = decentralized
+			}
+		}
+		save_scope_as = kazak_event_neighbour_state
+	}
+	#scope:kazak_event_state ={
+	#	random_neighbouring_state = {
+	#		limit = {
+	#			owner = {
+	#				country_has_primary_culture = cu:kazak
+	#				is_country_type = decentralized
+	#			}
+	#		}
+	#		save_scope_as = kazak_event_neighbour_state
+	#	}
+	#}
+}
+
+#Space random events
+cr_steppe_set_random_event_spacer_effect = {
+	set_variable = {
+		name = cr_steppe_random_event_cooldown
+		days = 145
+	}
+}
+#cr_steppe_set_random_event_spacer_effect = yes
+#NOT = { has_variable = cr_steppe_random_event_cooldown }
+
+###
+#Increase Tension effects
+###
+cr_steppe_increase_tension_small_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 5
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 5
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = 10
+		}
+	}
+}
+
+cr_steppe_increase_tension_normal_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 10
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 10
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = 15
+		}
+	}
+}
+
+cr_steppe_increase_tension_large_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 15
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 15
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = 20
+		}
+	}
+}
+
+cr_steppe_increase_tension_very_large_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 20
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 20
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = 25
+		}
+	}
+}
+
+cr_steppe_increase_tension_huge_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = 30
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = 30
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = 35
+		}
+	}
+}
+
+###
+#Decrease Tension effects
+###
+cr_steppe_decrease_tension_small_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -5
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -5
+		}
+	}
+	else = {
+		#change_tension = {
+		#  country = c:UZH
+		#  value = -2
+		#}
+	}
+}
+
+cr_steppe_decrease_tension_normal_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -10
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -10
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = -5
+		}
+	}
+}
+
+cr_steppe_decrease_tension_large_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -15
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -15
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = -10
+		}
+	}
+}
+
+cr_steppe_decrease_tension_very_large_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -20
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -20
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = -15
+		}
+	}
+}
+
+cr_steppe_decrease_tension_huge_effect = {
+	if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:KZH ?= this }
+		}
+		change_tension = {
+		  country = c:KZH
+		  value = -30
+		}
+	}
+	else_if = {
+		limit = {
+			scope:kazak_event_neighbour_state.owner = { c:OZH ?= this }
+		}
+		change_tension = {
+		  country = c:OZH
+		  value = -30
+		}
+	}
+	else = {
+		change_tension = {
+		  country = c:UZH
+		  value = -20
+		}
+	}
+}
+
+cr_steppe_annex_kazakh_states_effect = {
+	if = {
+		limit = { exists = s:STATE_SYRDARYA.region_state:OZH }
+		s:STATE_SYRDARYA.region_state:OZH = { set_state_owner = c:KAZ }
+	}
+	if = {
+		limit = { exists = s:STATE_SYRDARYA.region_state:RUS }
+		s:STATE_SYRDARYA.region_state:RUS = { set_state_owner = c:KAZ }
+	}
+	if = {
+		limit = { 
+			exists = s:STATE_SYRDARYA.region_state:KZH 
+			c:KZH = { has_variable = cr_we_support_kenesary }
+		}
+		s:STATE_SYRDARYA.region_state:KZH = { set_state_owner = c:KAZ }
+	}
+	else_if = {
+		limit = { 
+			exists = s:STATE_SYRDARYA.region_state:RUS
+			c:KZH = { has_variable = cr_we_support_kenesary }
+		}
+		s:STATE_SYRDARYA.region_state:RUS = { set_state_owner = c:KAZ }
+	}
+	if = {
+		limit = { 
+			exists = s:STATE_AKMOLINSK.region_state:OZH 
+			c:OZH = { has_variable = cr_we_support_kenesary }
+		}
+		s:STATE_AKMOLINSK.region_state:KZH = { set_state_owner = c:KAZ }
+	}
+	else_if = {
+		limit = { 
+			exists = s:STATE_SEMIRECHE.region_state:OZH
+			c:OZH = { has_variable = cr_we_support_kenesary }
+		}
+		s:STATE_SEMIRECHE.region_state:KZH = { set_state_owner = c:KAZ }
+	}
+	if = {
+		limit = { 
+			exists = s:STATE_SYRDARYA.region_state:UZH
+			c:UZH = { has_variable = cr_we_support_kenesary }
+		}
+		s:STATE_SYRDARYA.region_state:UZH = { set_state_owner = c:KAZ }
+	}
+}
+
+cr_steppe_assign_kazakh_claims_effect = {
+	s:STATE_AKMOLINSK = {
+		add_claim = c:KAZ
+	}
+	s:STATE_URALSK = {
+		add_claim = c:KAZ
+	}
+	s:STATE_KHIVA = {
+		add_claim = c:KAZ
+	}
+	s:STATE_AKTOBE = {
+		add_claim = c:KAZ
+	}
+	s:STATE_SEMIRECHE = {
+		add_claim = c:KAZ
+	}
+	s:STATE_SYRDARYA = {
+		add_claim = c:KAZ
+	}
+	s:STATE_TRANSOXIANA = {
+		add_claim = c:KAZ
+	}
+	s:STATE_JETISY = {
+		add_claim = c:KAZ
+	}
+}
+
+cr_steppe_notify_neighbours_of_kenesarys_rise_effect = {
+	if = {
+		limit = {
+			c:CHI ?= {
+				OR = {
+					any_scope_state = {
+						state_region = s:STATE_DZUNGARIA
+					}
+					any_subject_or_below = {
+						any_scope_state = {
+							state_region = s:STATE_DZUNGARIA
+						}
+					}
+				}
+			}
+		}
+		c:CHI ?= {
+			trigger_event = cr_kazakh_events.60
+		}
+	}
+	every_country = {
+		limit = {
+			OR = {
+				c:KOK ?= this
+				c:KHI ?= this
+				c:BUK ?= this
+				c:AFG ?= this
+				c:PER ?= this
+				any_scope_state = {	state_region = s:STATE_FERGANA }
+				any_scope_state = {	state_region = s:STATE_KHIVA }
+				any_scope_state = {	state_region = s:STATE_UZBEKIA }
+				#AND = {	#Haven't found the right tone yet.
+				#	has_interest_marker_in_region = region_central_asia
+				#	country_rank = rank_value:great_power
+				#}
+			}
+			NOR = { 
+				this = ROOT
+				this = c:CHI
+			}
+		}
+		trigger_event = cr_kazakh_events.61
+	}
+
+}
+
+cr_decrease_siberian_tensions_effect = {
+	if = {
+		limit = {
+			exists = c:NNT
+		}
+		change_tension = {
+		  country = c:NNT
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:KMI
+		}
+		change_tension = {
+		  country = c:KMI
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:NSI
+		}
+		change_tension = {
+		  country = c:NSI
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:KTY
+		}
+		change_tension = {
+		  country = c:KTY
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:LKP
+		}
+		change_tension = {
+		  country = c:LKP
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:TNS2
+		}
+		change_tension = {
+		  country = c:TNS2
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:YAK2
+		}
+		change_tension = {
+		  country = c:YAK2
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:EVN
+		}
+		change_tension = {
+		  country = c:EVN
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:EVK
+		}
+		change_tension = {
+		  country = c:EVK
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:TUV
+		}
+		change_tension = {
+		  country = c:TUV
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:BRY2
+		}
+		change_tension = {
+		  country = c:BRY2
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:YKG
+		}
+		change_tension = {
+		  country = c:YKG
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:CKC
+		}
+		change_tension = {
+		  country = c:CKC
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:KRJ
+		}
+		change_tension = {
+		  country = c:KRJ
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:KMD
+		}
+		change_tension = {
+		  country = c:KMD
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:UDG
+		}
+		change_tension = {
+		  country = c:UDG
+		  value = -30
+		}
+	}
+	if = {
+		limit = {
+			exists = c:NNY
+		}
+		change_tension = {
+		  country = c:NNY
+		  value = -30
+		}
+	}
+}
+
+create_kyrgyzia_effect = {
+	create_country = {
+		tag = KYR2
+		origin = ROOT
+		province = p:x0B0E9E
+		on_created = {
+			s:STATE_KIRGHIZIA = {
+				set_owner_of_provinces = {
+					country = c:KYR2
+					provinces = { xA2A052 x71586F x01387D x70C74E x3F077A xF20193 x0FEA61 x1AF55D xED1DFF xF5C441 xD0F675 xA553A3 xB7562E xC8CDED x7E2912 xC45955 x5BFB6D x7C21B1 x999094 x0BD6F5 x080348 x36EF23 x41EF15 xA20332 xF15FB9 x384DCD }
+				}
+			}
+		}
+	}
+}

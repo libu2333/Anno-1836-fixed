@@ -1,0 +1,37 @@
+﻿l_english:
+ #
+ bg_workshops: "Urban workshops"
+ bg_cafe: "Urban taverns"
+ bg_houses: "Urban housing"
+ #
+ building_workshops: "Urban workshops"
+ building_cafe: "Urban taverns"
+ building_houses: "Urban housing"
+ #
+ pmg_workshops_base: "$pm_base$"
+ pmg_workshops_subsidies: "Workshop subsidies"
+ pmg_cafe_base: "$pm_base$"
+ pmg_cafe_control: "Government control"
+ pmg_houses: "$pm_base$"
+ pmg_houses_heating: "Housing heating"
+ pmg_houses_landscaping: "Landscaping"
+ pmg_houses_subsidies: "Communal subsidies"
+ #
+ pm_workshops_base: "Private workshops"
+ pm_workshops_banned: "Industrial goods ban"
+ pm_workshops_nosubsidies: "No Subsidies"
+ pm_workshops_subsidies: "Workshop payments"
+ pm_cafe_base: "Private taverns"
+ pm_cafe_state: "Public canteens"
+ pm_cafe_uncontrolled: "No control"
+ pm_cafe_suppressed: "State control"
+ pm_houses: "Public Utilities"
+ pm_houses_heating_base: "Wood and coal heating"
+ pm_houses_heating_central: "Central heating"
+ pm_houses_no_landscaping: "No landscaping"
+ pm_houses_landscaping: "Landscaping"
+ pm_houses_nosubsidies: "No subsidies"
+ pm_houses_subsidies: "Communal subsidies"
+ #
+ goods_input_tea_add: "@tea! $tea$ input"
+ goods_input_coffee_add: "@coffe! $coffe$ input"

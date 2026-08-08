@@ -1,0 +1,652 @@
+﻿namespace = cr_test_events
+
+cr_test_events.1 = { #Lake Superior Copper Rush
+	type = country_event
+	placement = p:xD6A835
+
+	title = cr_test_events.1.t
+	desc = cr_test_events.1.d
+
+	flavor = cr_test_events.1.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = cr_test_events.1.a
+		random_state = {
+			limit = {
+				state_region = s:STATE_MICHIGAN
+			}
+			force_resource_discovery = bg_copper_mining
+		}
+	}
+
+	option = {
+		name = cr_test_events.1.b
+		random_state = {
+			limit = {
+				state_region = s:STATE_ONTARIO
+			}
+			force_resource_discovery = bg_copper_mining
+		}
+		
+		default_option = yes
+		ai_chance = {
+			base = 99
+		}
+	}
+}
+
+cr_test_events.2 = { #An Incomplete Reconciliation
+	type = country_event
+	placement = p:xD6A835
+
+	title = cr_test_events.1.t
+	desc = cr_test_events.1.d
+
+	flavor = cr_test_events.1.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = cr_test_events.2.a
+		default_option = yes
+		s:STATE_OKLAHOMA = {
+			set_owner_of_provinces = {
+				country = c:CHE
+				provinces = {
+					x269541 x7A707B xA07F85 x9A9935 x5F2DBA x8BDF6D x94D9C2
+				}
+			}
+		}
+		c:CHE = {
+			every_scope_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_ALABAMA
+						state_region = s:STATE_TENNESSEE
+						state_region = s:STATE_NORTH_CAROLINA
+						state_region = s:STATE_GEORGIA
+						state_region = s:STATE_MISSISSIPPI
+					}
+				}
+				set_state_owner = c:USA
+			}
+			set_capital = STATE_OKLAHOMA
+		}
+	}
+
+	option = {
+		name = cr_test_events.2.b
+		s:STATE_OKLAHOMA = {
+			set_owner_of_provinces = {
+				country = c:CSW
+				provinces = {
+					x32D681 xBFD5C4 x4BE9C6
+				}
+			}
+		}	
+		c:CSW = {
+			every_scope_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_ALABAMA
+						state_region = s:STATE_TENNESSEE
+						state_region = s:STATE_NORTH_CAROLINA
+						state_region = s:STATE_GEORGIA
+						state_region = s:STATE_MISSISSIPPI
+					}
+				}
+				set_state_owner = c:USA
+			}
+			set_capital = STATE_OKLAHOMA
+		}
+	}
+
+	option = {
+		name = cr_test_events.2.c
+		s:STATE_OKLAHOMA = {
+			set_owner_of_provinces = {
+				country = c:MSC
+				provinces = {
+					x286941 xD6ADF2 xE1CC08
+				}
+			}
+		}
+		c:MSC = {
+			every_scope_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_ALABAMA
+						state_region = s:STATE_TENNESSEE
+						state_region = s:STATE_NORTH_CAROLINA
+						state_region = s:STATE_GEORGIA
+						state_region = s:STATE_MISSISSIPPI
+					}
+				}
+				set_state_owner = c:USA
+			}
+			set_capital = STATE_OKLAHOMA
+		}
+	}
+
+	option = {
+		name = cr_test_events.2.d
+		s:STATE_OKLAHOMA = {
+			set_owner_of_provinces = {
+				country = c:SML
+				provinces = {
+					xE0ACB6
+				}
+			}
+		}
+		c:SML = {
+			every_scope_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_ALABAMA
+						state_region = s:STATE_TENNESSEE
+						state_region = s:STATE_NORTH_CAROLINA
+						state_region = s:STATE_GEORGIA
+						state_region = s:STATE_MISSISSIPPI
+					}
+				}
+				set_state_owner = c:USA
+			}
+			set_capital = STATE_OKLAHOMA
+		}
+	}
+
+	option = {
+		name = cr_test_events.2.e
+		s:STATE_OKLAHOMA = {
+			set_owner_of_provinces = {
+				country = c:CTW
+				provinces = {
+					xC03040 xEF15A7 x32D681 xF6681C xAE0966 x8CD89B x47C329 x49BF7D x158786
+				}
+			}
+		}
+		c:CTW = {
+			every_scope_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_ALABAMA
+						state_region = s:STATE_TENNESSEE
+						state_region = s:STATE_NORTH_CAROLINA
+						state_region = s:STATE_GEORGIA
+						state_region = s:STATE_MISSISSIPPI
+					}
+				}
+				set_state_owner = c:USA
+			}
+			set_capital = STATE_OKLAHOMA
+		}
+	}
+}
+
+
+cr_test_events.3 = { #New Northern Neighbours
+	type = country_event
+	placement = p:xD6A835
+
+	title = cr_test_events.1.t
+	desc = cr_test_events.1.d
+
+	flavor = cr_test_events.1.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+	
+	hidden = yes
+
+	immediate = {
+		#c:USA = {
+		#	if = {
+		#		limit = {
+		#			c:MEX = {
+		#				any_scope_state = {
+		#					state_region = s:STATE_TEXAS
+		#				}
+		#				NOT = { has_variable = cr_indian_removal_new_northern_neighbours }
+		#			}
+		#		}
+		#		c:MEX = {
+		#			save_scope_as = cr_texas_owner
+		#		}
+		#	}
+		#	else_if = {
+		#		limit = {
+		#			c:TEX = {
+		#				is_country_alive = yes
+		#				NOT = { has_variable = cr_indian_removal_new_northern_neighbours }
+		#			}
+		#		}
+		#		c:TEX = {
+		#			save_scope_as = cr_texas_owner
+		#		}
+		#	}
+		#	100 = {
+		#		scope:cr_texas_owner = {
+		#			trigger_event = {
+		#				id = cr_indian_removal.65
+		#			}
+		#		}
+		#	}
+		#}
+		p:x973B1C.owner = {
+			trigger_event = {
+				id = cr_indian_removal.65
+			}
+		}
+	}
+}
+
+
+
+cr_test_events.4 = { #New Northern Neighbours
+	type = country_event
+	placement = p:xD6A835
+
+	title = cr_test_events.4.t
+	desc = cr_test_events.4.d
+
+	flavor = cr_test_events.4.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+	
+	hidden = yes
+
+	immediate = {
+		c:USA = { 
+			ai_expedition_simulator_start = yes 
+		}
+	}
+}
+
+cr_test_events.7 = {
+	type = country_event
+	placement = p:xD6A835
+	title = cr_test_events.7.t
+	desc = cr_test_events.7.d
+	flavor = cr_test_events.7.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+
+	trigger = {
+		c:LZZ ?= this
+		is_at_war = no
+	}
+	
+	hidden = yes
+	immediate = {
+		change_tag = CHI
+	}
+}
+
+
+
+cr_test_events.5 = { #East Asia Treaty Ports
+	type = country_event
+	placement = p:xD6A835
+
+	title = cr_test_events.4.t
+	desc = cr_test_events.4.d
+
+	flavor = cr_test_events.4.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+	
+	hidden = yes
+
+	immediate = {
+		s:STATE_PYONGYANG = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x096D79
+				}
+			}
+		}
+		s:STATE_SARIWON = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x21D080
+				}
+			}
+		}
+		s:STATE_YANGHO = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x8ACAAA
+				}
+			}
+		}
+		s:STATE_BUSAN = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xC3F34F
+				}
+			}
+		}
+		s:STATE_SEOUL = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xB05000
+				}
+			}
+		}
+		s:STATE_SHIKOKU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x9B7469
+				}
+			}
+		}
+		s:STATE_CHUGOKU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x1151C0
+				}
+			}
+		}
+		s:STATE_KYUSHU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xAE5874
+				}
+			}
+		}
+		s:STATE_KANSAI = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x70D040
+				}
+			}
+		}
+		s:STATE_CHUBU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xE76E8F
+				}
+			}
+		}
+		s:STATE_KANTO = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x7010C0
+				}
+			}
+		}
+		s:STATE_TOHOKU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xE22202
+				}
+			}
+		}
+		s:STATE_HOKKAIDO = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xA090C0
+				}
+			}
+		}
+		s:STATE_TAMBRALINGA = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xBE9208
+				}
+			}
+		}
+		s:STATE_MEKONG = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x00C0B0
+				}
+			}
+		}
+		s:STATE_ANNAM = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xA01EF1
+				}
+			}
+		}
+		s:STATE_TONKIN = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x64BE62
+				}
+			}
+		}
+		s:STATE_BANGKOK = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x9030DF
+				}
+			}
+		}
+		s:STATE_CAMBODIA = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x7A5B5E
+				}
+			}
+		}
+		s:STATE_SUZHOU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xE9E92E
+				}
+			}
+		}
+		s:STATE_SHANDONG = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xAC24A6
+				}
+			}
+		}
+		s:STATE_FORMOSA = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x9A5066
+				}
+			}
+		}
+		s:STATE_ZHILI = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x43043A
+				}
+			}
+		}
+		s:STATE_JIANGSU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x2C1D6B
+				}
+			}
+		}
+		s:STATE_ZHEJIANG = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x6F9BC4
+				}
+			}
+		}
+		s:STATE_FUJIAN = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xF07060
+				}
+			}
+		}
+		s:STATE_GUANGDONG = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xB031E0
+				}
+			}
+		}
+		s:STATE_OUTER_MANCHURIA = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x79F88A
+				}
+			}
+		}
+		s:STATE_SHENGJING = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					x709001
+				}
+			}
+		}
+		s:STATE_BEIJING = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xB00D9D
+				}
+			}
+		}
+		s:STATE_SHAOZHOU = {
+			set_owner_of_provinces = {
+				country = c:GBR
+				provinces = {
+					xB03161
+				}
+			}
+		}
+	}
+}
+
+
+
+cr_test_events.6 = { #East Asia Treaty Ports
+	type = country_event
+	placement = root
+
+	title = cr_test_events.4.t
+	desc = cr_test_events.4.d
+
+	flavor = cr_test_events.4.f
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/construction_colony"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+	
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		
+	}
+	option = {
+		name = cr_test_events.2.c
+		add_technology_researched = civilizing_mission
+	}
+}

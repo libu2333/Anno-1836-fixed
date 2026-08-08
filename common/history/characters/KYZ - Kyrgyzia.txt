@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:KYR2 ?= {
+		create_character = {
+			template = KYZ_tailak_batyr
+		}
+		create_character = {
+			template = KYZ_atantay_batyr
+		}
+	}
+}

@@ -1,0 +1,66 @@
+﻿state_trait_cr_ottowa_timber_trade = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	modifier = {
+		goods_output_wood_mult = 0.15
+		goods_output_hardwood_mult = -0.20
+	}
+}
+
+state_trait_cr_clay_belt = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+	}
+}
+
+state_trait_cr_humboldt_current = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
+	
+	modifier = {
+		goods_output_fish_mult = 0.10
+	}
+}
+
+state_trait_cr_gateway_to_the_mississippi = {	
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	modifier = {
+		building_shipyard_throughput_add = 0.1
+		building_military_shipyard_throughput_add = 0.1
+		building_port_throughput_add = 0.1
+		state_trade_capacity_mult = 0.15
+		state_building_naval_base_max_level_add = 10
+		state_market_access_price_impact = 0.05
+		state_migration_pull_mult = 0.1
+	}
+}
+
+state_trait_cr_cerrado = {
+	icon = "gfx/interface/icons/state_trait_icons/poor_soils.dds"
+	
+	modifier = {
+		#goods_output_grain_mult = -0.075
+		goods_output_hardwood_mult = -0.50
+	}
+}
+
+state_trait_indian_territory = {
+	icon = "gfx/interface/icons/state_trait_icons/native_resistance.dds"
+	required_techs_for_colonization = { mass_surveillance }  #random tech to disallow colonisation
+	
+	modifier = {
+		
+	}
+}
+
+state_trait_great_american_desert = {
+	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
+	disabling_technologies = { "nitrogen_fixation" }
+	
+	modifier = {
+		state_migration_pull_mult = -0.25
+		state_colony_growth_speed_mult = -0.50
+		building_group_bg_agriculture_throughput_add = -0.15
+		building_group_bg_plantations_throughput_add = -0.15
+		
+	}
+}

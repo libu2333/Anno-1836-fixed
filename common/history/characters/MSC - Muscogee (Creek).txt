@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+	c:MSC ?= {
+		create_character = {
+			template = MSC_opothle_yohola
+		}
+		create_character = {
+			template = MSC_jim_henry
+		}
+		create_character = {
+			template = MSC_eneah_emathla
+		}
+	}
+}

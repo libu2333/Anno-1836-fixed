@@ -1,0 +1,710 @@
+﻿namespace = texan_war_of_independence
+
+# For TEX
+# Victory event, reuse loc from event 6 but also make it about joining USA
+texan_war_of_independence.1 = {
+	type = country_event
+	placement = ROOT
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = texan_war_of_independence.1.t
+	desc = texan_war_of_independence.1.d
+	flavor = texan_war_of_independence.1.f
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		c:USA ?= {
+			save_scope_as = usa_scope
+		}
+	}
+
+	option = {
+		name = texan_war_of_independence.1.a
+		trigger = { is_player = no }
+		c:USA ?= {
+			set_variable = tex_annexation
+			trigger_event = { id = texan_war_of_independence.2 }
+			show_as_tooltip = {
+				c:USA ?= {
+					annex = ROOT
+				}
+			}
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	option = {
+		name = texan_war_of_independence.1.b
+		c:USA ?= {
+			set_variable = tex_subject
+			trigger_event = { id = texan_war_of_independence.2 }
+			show_as_tooltip = {
+				create_diplomatic_pact = {
+					country = c:TEX
+					type = protectorate
+				}
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+	option = {
+		name = texan_war_of_independence.1.c
+		default_option = yes
+		show_as_tooltip = {
+			change_relations = {
+				country = c:USA
+				value = -30
+			}
+			s:STATE_TEXAS = {
+				add_claim = c:USA
+			}
+		}
+		c:USA ?= {
+			set_variable = tex_independent
+			trigger_event = { id = texan_war_of_independence.2 }
+		}
+		add_modifier = {
+			name = lone_star_state
+			days = normal_modifier_time
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+# For USA
+texan_war_of_independence.2 = {
+	type = country_event
+	placement = scope:texas_capital
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = texan_war_of_independence.2.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = texan_war_of_independence.2.d1
+				trigger = {
+					has_variable = tex_annexation
+				}
+			}
+			triggered_desc = {
+				desc = texan_war_of_independence.2.d2
+				trigger = {
+					has_variable = tex_subject
+				}
+			}
+			triggered_desc = {
+				desc = texan_war_of_independence.2.d3
+				trigger = {
+					has_variable = tex_independent
+				}
+			}
+		}
+	}
+	flavor = texan_war_of_independence.2.f
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		c:TEX ?= {
+			save_scope_as = texas_scope
+			capital = {
+				save_scope_as = texas_capital
+			}
+		}
+	}
+
+	option = {
+		name = texan_war_of_independence.2.a
+		default_option = yes
+		trigger = {
+			has_variable = tex_annexation
+		}
+		add_involvement = {
+			strategic_region = sr:region_pacific_coast
+			value = 2500
+		}
+		annex = c:TEX
+	}
+	option = {
+		name = texan_war_of_independence.2.b
+		default_option = yes
+		trigger = {
+			has_variable = tex_subject
+		}
+		add_involvement = {
+			strategic_region = sr:region_pacific_coast
+			value = 2500
+		}
+		create_diplomatic_pact = {
+			country = c:TEX
+			type = protectorate
+		}
+	}
+	option = {
+		name = texan_war_of_independence.2.c
+		default_option = yes
+		trigger = {
+			has_variable = tex_independent
+		}
+		change_relations = {
+			country = c:TEX
+			value = -30
+		}
+		s:STATE_TEXAS = {
+			add_claim = c:USA
+		}
+	}
+}
+
+# Capture of Santa Anna
+texan_war_of_independence.3 = {
+	type = country_event
+	placement = ROOT
+	event_image = {
+		texture = "gfx/event_pictures/cr_santa_ana_captured.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = texan_war_of_independence.3.t
+	desc = texan_war_of_independence.3.d
+	flavor = texan_war_of_independence.3.f
+
+	duration = 3
+
+	trigger = {
+		NOT = {
+			has_variable = santa_anna_captured
+		}
+		exists = c:TEX
+		exists = c:MEX
+		c:TEX ?= ROOT
+		any_diplomatic_play = {
+			initiator_is = c:TEX
+			target_is = c:MEX
+		}
+		c:MEX ?= {
+			#is_player = no	#Added events to give player Mexico options in case of Santa Anna's capture
+			any_scope_character = {
+				has_variable = is_santa_anna
+			}
+		}
+	}
+
+	immediate = {
+		c:MEX ?= {
+			save_scope_as = mexico_scope
+			random_scope_character = {
+				limit = {
+					has_variable = is_santa_anna
+				}
+				save_scope_as = santa_anna_scope
+			}
+		}
+		set_variable = {
+			name = santa_anna_captured
+		}
+	}
+
+	option = {
+		name = texan_war_of_independence.3.a
+		default_option = yes
+		every_diplomatic_play = {
+			limit = {
+				initiator_is = c:TEX
+				target_is = c:MEX
+			}
+			end_play = yes
+		}
+		c:MEX ?= {
+			trigger_event = texan_war_of_independence.4
+		}
+		hidden_effect = {
+			c:TEX ?= { save_scope_as = texas_scope }
+			c:MEX ?= { save_scope_as = mexico_scope }
+			every_country = {
+				limit = {
+					NOT = { c:TEX ?= THIS }
+					NOT = { c:MEX ?= THIS }
+					OR = {
+						has_diplomatic_relevance = c:TEX
+						has_diplomatic_relevance = c:MEX
+					}
+				}
+				post_notification = santa_anna_captured_notification
+			}
+			remove_variable = cr_texas_revolution_ongoing
+			c:MEX = { remove_variable = cr_texas_revolution_ongoing }
+		}
+		ai_chance = {
+			base = 98
+		}
+	}
+	option = {
+		name = texan_war_of_independence.3.b
+		ai_chance = {
+			base = 2
+		}
+	}
+}
+
+# Nice to have: Make a Je for Mexico using loc from .2 event text
+
+
+# Treaty of Valesco
+texan_war_of_independence.4 = {
+	type = country_event
+	placement = scope:texas_scope
+
+	event_image = {
+		texture = "gfx/event_pictures/cr_santa_ana_captured.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = texan_war_of_independence.4.t
+	desc = texan_war_of_independence.4.d
+	flavor = texan_war_of_independence.4.f
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		c:TEX ?= { save_scope_as = texas_scope }
+		random_scope_character = {
+			limit = {
+				has_variable = is_santa_anna
+			}
+			save_scope_as = santa_anna_scope
+		}
+		set_variable = {
+			name = santa_anna_captured
+		}
+	}
+
+	option = {
+		name = texan_war_of_independence.4.a
+		default_option = yes
+		ai_chance = {
+			base = 95
+		}
+		#Should probably be better tied into the 'Age of Caudillos' JE
+		ig:ig_armed_forces = {
+			add_modifier = {
+				name = cr_texan_independence
+				days = normal_modifier_time
+				is_decaying = yes
+			}			
+		}
+		add_radicals = {
+			pop_type = officers
+			value = large_radicals
+		}
+		add_radicals = {
+			pop_type = soldiers
+			value = medium_radicals
+		}
+		every_scope_state = {
+			limit = {
+				has_modifier = cr_mexico_federalist_sympathies
+			}
+			add_radicals_in_state = {
+				value = medium_radicals
+			}
+		}
+		scope:santa_anna_scope = {
+			add_modifier = {
+				name = cr_disgrace_of_san_jacinto
+				days = long_modifier_time
+				is_decaying = yes
+			}
+		}
+	}
+	option = {
+		name = texan_war_of_independence.4.b
+		#Should probably be better tied into the 'Age of Caudillos' JE
+		create_diplomatic_play = {
+			target_country = scope:texas_scope
+			type = dp_return_state
+			target_state = s:STATE_TEXAS.region_state:TEX
+			add_war_goal = { holder = scope:texas_scope target_country = ROOT type = humiliation }
+		}
+
+		create_incident = {
+			country = ROOT
+			value = 15
+		}
+		change_relations = {
+			country = c:USA
+			value = -30
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_caudillo
+			}
+			custom_tooltip = {
+				text = gain_caudillo_points
+				change_variable = {
+					name = caudillo_var
+					add = 100
+				}
+			}
+		}
+		scope:texas_scope = {
+			post_notification = texan_war_of_independence_mexico_rejects_treaties_of_velasco
+		}
+		
+		ai_chance = {
+			base = 5
+		}
+	}
+}
+
+# The Fall of the Alamo
+texan_war_of_independence.5 = {
+	type = country_event
+	placement = p:x059C90	#San Antonio. Remember when updating the map!
+	event_image = {
+		texture = "gfx/event_pictures/cr_battle_of_the_alamo.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = texan_war_of_independence.5.t
+	desc = texan_war_of_independence.5.d
+	flavor = texan_war_of_independence.5.f
+
+	duration = 3
+
+	trigger = {
+		NOT = {
+			has_variable = the_alamo_has_fallen
+		}
+		exists = c:TEX
+		exists = c:MEX
+		ROOT = c:TEX
+		any_diplomatic_play = {
+			initiator_is = c:TEX
+			target_is = c:MEX
+		}
+		any_scope_character = {
+			has_template = TEX_William_Travis
+		}
+		scope:defender = {
+			OR = {
+				has_template = TEX_William_Travis
+				has_template = TEX_samuel_houston
+			}
+		}
+	}
+
+	immediate = {
+		save_scope_as = texas_scope
+		random_scope_character = {
+			limit = {
+				has_template = TEX_William_Travis
+			}
+			save_scope_as = travis_scope
+		}
+		#Should also have a Davy Crockett scope I guess
+		c:MEX = {
+			save_scope_as = mexico_scope
+			random_scope_character = {
+				limit = {
+					has_variable = is_santa_anna
+				}
+				save_scope_as = santa_anna_scope
+			}
+		}
+		set_variable = {
+			name = the_alamo_has_fallen
+		}
+	}
+
+	option = {
+		name = texan_war_of_independence.5.a
+		default_option = yes
+		scope:travis_scope = {
+			kill_character = yes
+		}
+		add_modifier = {
+			name = cr_remember_the_alamo
+			days = 365
+			is_decaying = yes
+		}
+		scope:mexico_scope = {
+			post_notification = texan_war_of_independence_remember_the_alamao
+		}
+	}
+}
+
+# Mexican Victory
+texan_war_of_independence.6 = {
+	type = country_event
+	placement = scope:texas_scope
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = texan_war_of_independence.6.t
+	desc = texan_war_of_independence.6.d
+	flavor = texan_war_of_independence.6.f
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		save_scope_as = mexico_scope
+		random_scope_character = {
+			limit = {
+				has_variable = is_santa_anna
+			}
+			save_scope_as = santa_anna_scope
+		}
+		c:TEX = {
+			save_scope_as = texas_scope
+			ruler = {
+				save_scope_as = texas_president_scope
+			}
+			random_scope_character = {	#Likely to be president, but just in case.
+				limit = {
+					has_template = TEX_david_burnet
+					is_ruler_of_own_country = no
+				}
+				save_scope_as = burnet_scope
+			}
+			random_scope_character = {
+				limit = {
+					has_template = TEX_samuel_houston
+				}
+				save_scope_as = houston_scope
+			}
+			random_scope_character = {	#Travis can die at the Alamo, but still setting this scope to exile him
+				limit = {
+					has_template = TEX_William_Travis
+				}
+				save_scope_as = travis_scope
+			}
+			random_scope_character = {
+				limit = {
+					has_template = TEX_mirabeau_lamar
+				}
+				save_scope_as = lamar_scope
+			}
+			random_scope_character = {
+				limit = {
+					has_template = TEX_thomas_jefferson_rusk
+				}
+				save_scope_as = rusk_scope
+			}
+			random_scope_character = {
+				limit = {
+					has_template = TEX_Charles_Edward_Hawkins
+				}
+				save_scope_as = hawkins_scope
+			}
+			
+		}
+		remove_variable = cr_texas_revolution_ongoing #Just in case
+	}
+
+	option = {
+		name = texan_war_of_independence.6.a
+		trigger = {
+			c:TEX ?= { is_ai = yes }
+		}
+		default_option = yes
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_federalist
+			}
+			add_modifier = {
+				name = cr_mexico_texan_seperatism_squashed
+				days = long_modifier_time
+			}
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_centralist
+			}
+			add_modifier = {
+				name = cr_mexico_texan_seperatism_squashed_centralists
+				days = long_modifier_time
+			}
+		}
+		hidden_effect = {	#In the interest of the tooltip
+			cr_exile_texan_leaders_effect = yes
+		}
+		annex = c:TEX
+		s:STATE_TEXAS.region_state:MEX = {
+			add_radicals_in_state = {
+				value = huge_radicals
+				culture = cu:dixie
+			}
+			add_radicals_in_state = {
+				value = medium_radicals
+				culture = cu:mexican
+			}
+		}
+		#Adds loyalists because crushing the Texan rebellion should undermine other federalist efforts.
+		add_loyalists = {
+			value = small_radicals
+		}
+		show_as_tooltip = { #In the interest of the tooltip
+			cr_exile_texan_leaders_effect = yes
+		}
+		
+		ai_chance = {
+			base = 85
+		}
+	}
+
+	option = {
+		name = texan_war_of_independence.6.b
+		ai_chance = {
+			base = 10
+		}
+		hidden_effect = {	#In the interest of the tooltip
+			cr_exile_texan_leaders_effect = yes
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_federalist
+			}
+			add_modifier = {
+				name = cr_mexico_texan_seperatism_worked
+				days = long_modifier_time
+			}
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_centralist
+			}
+			add_modifier = {
+				name = cr_mexico_texan_seperatism_worked_centralist
+				days = long_modifier_time
+				multiplier = 0.5
+			}
+		}
+		s:STATE_TEXAS.region_state:MEX = {
+			add_radicals_in_state = {
+				value = very_large_radicals
+				culture = cu:dixie
+			}
+			add_radicals_in_state = {
+				value = small_radicals
+				culture = cu:mexican
+			}
+		}
+		#Adds radicals because granting Texas autonomy would inspire federalists.
+		every_scope_state = {
+			limit = {
+				NOT = { state_region = s:STATE_TEXAS }
+				has_modifier = cr_mexico_federalist_sympathies
+			}
+			
+			add_radicals_in_state = {
+				value = small_radicals
+			}
+		}
+		show_as_tooltip = { #In the interest of the tooltip
+			cr_exile_texan_leaders_effect = yes
+		}
+		scope:texas_scope = {
+			post_notification = texan_war_of_independence_autonomy_and_exiles
+		}
+	}
+
+	option = {
+		name = texan_war_of_independence.6.c
+		ai_chance = {
+			base = 5
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_federalist
+			}
+			add_modifier = {
+				name = cr_mexico_texan_seperatism_worked
+				days = long_modifier_time
+				multiplier = 0.5
+			}
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_centralist
+			}
+			add_modifier = {
+				name = cr_mexico_texan_seperatism_worked_centralist
+				days = long_modifier_time
+			}
+		}
+		s:STATE_TEXAS.region_state:MEX = {
+			add_radicals_in_state = {
+				value = medium_radicals
+				culture = cu:dixie
+			}
+			add_loyalists_in_state = {
+				value = medium_radicals
+				culture = cu:mexican
+			}
+		}
+		#Adds radicals because granting Texas autonomy would inspire federalists.
+		every_scope_state = {
+			limit = {
+				NOT = { state_region = s:STATE_TEXAS }
+				has_modifier = cr_mexico_federalist_sympathies
+			}
+			
+			add_radicals_in_state = {
+				value = medium_radicals
+			}
+		}
+		c:TEX ?= {
+			add_liberty_desire = 30
+		}
+		scope:texas_scope = {
+			post_notification = texan_war_of_independence_mexico_rejects_treaties_of_velasco
+		}
+	}
+}

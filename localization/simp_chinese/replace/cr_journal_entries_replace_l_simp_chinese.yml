@@ -1,0 +1,42 @@
+﻿l_simp_chinese:
+ #原住民迁移 / 印第安人迁移法案
+ je_indian_removal: "印第安人迁移法案"
+ je_indian_removal_reason: "面对南方#variable 文明五部落#!的土地持续遭到定居者侵占——即[SCOPE.sCountry('cherokee_nation').GetNameNoFlag]、[SCOPE.sCountry('chickasaw_nation').GetNameNoFlag]、[SCOPE.sCountry('choctaw_nation').GetNameNoFlag]、[SCOPE.sCountry('creek_nation').GetNameNoFlag]以及[SCOPE.sCountry('seminole_nation').GetNameNoFlag]——政府已实施《印第安人迁移法案》。\n\n虽然北方原住民群体大多已消失，但这些南方部落仍然保持着顽强的生命力，却也日益暴露在“进步”无情推进的威胁之下。该法案的解决方案是强制这些部落向西迁移，跨越密西西比河。\n\n这项强制撤离旨在给他们一个机会，让他们在密西西比河以西的领土上，在自治条件下尽可能保留自身的生活方式、文化习俗与传统，不再持续遭受定居者的侵蚀；与此同时，也保障了美国定居扩张与繁荣的持续推进。"
+ je_indian_removal_resolve_the_chain: "结束当前的迁移进程：可以选择停止行动，或彻底完成迁移。"
+ je_indian_removal_end_0: "#variable 文明五部落#!将被强行驱离其祖先土地，过程中将付出巨大的生命代价。"
+ je_indian_removal_end_1: "密西西比河以东的原有领土将被吞并并向定居者开放。"
+ je_indian_removal_end_2: "每成功完成一次迁移，受影响州的可用耕地数量将增加。"
+ je_indian_removal_end_3: "此外，[SCOPE.sState('state_of_georgia').GetName]将获得数量有限的#variable 金矿田#!，而[SCOPE.sState('state_of_alabama').GetName]将获得少量#variable 铜矿藏#!"
+
+ je_seminole_war_containment_policy: "遏制政策"
+ je_seminole_war_containment_policy_desc: "我们可以将针对塞米诺尔战争的政策调整为遏制塞米诺尔人。这将降低开支，同时提高定居者的安全。"
+ je_seminole_war_containment_policy_tt: "这将降低塞米诺尔人发动袭击的概率。"
+ je_seminole_war_forward_policy: "前进政策"
+ je_seminole_war_forward_policy_desc: "我们可以将针对塞米诺尔战争的政策调整为积极主动、武力根除，将他们以武力逐出佛罗里达。"
+ je_seminole_war_forward_policy_tt: "军队将定期派出小队进入沼泽，试图寻找塞米诺尔人的作战队伍与定居点。这些行动可能带来#g正面#!或#r负面#!的结果。"
+ je_seminole_war_diplomatic_policy: "外交政策"
+ je_seminole_war_diplomatic_policy_desc: "我们可以将针对塞米诺尔战争的政策调整为外交手段，试图劝说塞米诺尔人走出藏身之处并离开。"
+ je_seminole_war_diplomatic_policy_tt: "将偶尔出现与塞米诺尔人进行外交接触的机会，通常带有#g正面#!的结果。"
+
+ je_seminole_war_policy_cooldown: "我们距离上次更改政策还不到#variable 1年#!"
+ je_seminole_war_policy_already_active: "该政策目前已经生效。"
+
+ cr_indian_removal_clear_the_states_complete_tt_cherokee: "#variable [SCOPE.sCountry('cherokee_nation').GetName]迁移#!已完成"
+ cr_indian_removal_clear_the_states_complete_tt_chickasaw: "#variable [SCOPE.sCountry('chickasaw_nation').GetName]迁移#!已完成"
+ cr_indian_removal_clear_the_states_complete_tt_choctaw: "#variable [SCOPE.sCountry('choctaw_nation').GetName]迁移#!已完成"
+ cr_indian_removal_clear_the_states_complete_tt_creek: "#variable [SCOPE.sCountry('creek_nation').GetName]迁移#!已完成"
+ cr_indian_removal_clear_the_states_complete_tt_seminole: "#variable [SCOPE.sCountry('seminole_nation').GetName]迁移#!已完成"
+ indian_removal_end: "如果迁移未能被阻止，切罗基民族将被迫进行大规模痛苦迁徙，付出巨大生命代价。"
+ indian_removal_fail_tt: "美国境内已无切罗基[Concept('concept_pop', '$concept_pops$')]存在"
+
+ #王子时代（埃塞俄比亚）
+ je_age_of_princes: "王侯纷争时代"
+ je_age_of_princes_reason: "自耶库诺·阿姆拉克以来，所罗门与示巴之后裔一直坐在大卫的宝座上，至今依然如此。皇帝如今仍从贡德尔王座上进行“统治”，却无法真正掌权。自从约阿斯被刺杀后，皇位一直被软弱的皇帝占据，他们完全受制于梅萨芬特（诸侯）的操弄，后者可随意废立皇帝。与此同时，帝国各省出现了野心勃勃的贵族，他们对贡德尔的傀儡皇帝几乎毫不理会。于是，在皇帝威望跌至谷底之际，帝国进入了泽梅内·梅萨芬特——即“王侯纷争时代”。\n\n其中最显赫的梅萨芬特是瓦拉·谢赫（Sheik之子），他们掌控着贝格姆德尔省及帝国首都贡德尔。这些出自沃洛北部的瓦拉·谢赫——正如其名所示——是皈依基督教的穆斯林奥罗莫后裔。然而，他们对新信仰的虔诚度受到一些人质疑，为本已紧张的局势增添了宗教冲突的火药味。在北方，野心勃勃的武贝从混乱中为自己开辟出一片堪比瓦拉·谢赫势力的“帝国”，并似乎准备向皇位发起挑战。然而他的残暴手段令臣民与附庸深恶痛绝，只需一点火星就能终结他的野心。在南方，绍阿之主萨赫勒·塞拉西走了一条不同道路。他基本不插手帝国政治，而是专注于建设自己的王国，甚至自封为“内古斯”（国王）。但饥荒与疾病严重削弱了他的财力，而教义争端也正在酝酿，威胁着教会的统一。\n\n现在帝国站在十字路口：梅萨芬特各自不同的野心会导致帝国的永久分裂吗？还是会有人崛起，重振皇帝的威望，将诸侯重新纳入掌控？"
+
+ amazonas.2.t_2: "伊基托斯条约"
+
+ native_resettlement.5.d: "将#variable 文明五部落#!迁移至[SCOPE.sCountry('cherokee_nation').GetCapital.GetStateRegion.GetName]的艰巨任务已成功完成。\n\n通过坚持不懈的努力与集中资源，这件充满争议的事情终于尘埃落定。不论将其视为政策的胜利还是通向进步的必要一步，事情已成定局，历史自会评判。土地现已向定居与开发开放，标志着我们扩张的新篇章。"
+ native_resettlement.5.desc_2: "#variable 文明五部落#!向[SCOPE.sCountry('cherokee_nation').GetCapital.GetStateRegion.GetName]的迁移已完成。不管结果是好是坏，此事已了结。"
+
+ je_pacify_the_steppes: "驯服草原"
+ je_pacify_the_steppes_reason: "在欧洲俄罗斯的有序省份之外，是一片广袤、风吹草低的边疆——无边无际的草原一直延伸到中亚烈日炙烤的群山。这就是哈萨克草原：一片由运动与寂静构成的海洋，没有边界，也不屈从于法律。\n\n一个多世纪以来，帝国一直在向这片边疆推进。堡垒拔地而起，条约陆续签订，讨伐远征不断展开。哥萨克军团名义上效忠帝国，却常常行事狂野，他们驰骋草原、守卫前哨——半是定居者，半是战士。然而，真正的控制依然遥不可及。草原不是行省，不是王室领地——它是一片活着的广袤空间，由游牧民的迁徙、可汗之间的争斗以及人群与牲畜在旷野中的不断流动所塑造。\n\n要驯服这片边疆绝非简单的征服。道路会在草丛中消失。无法征税的地方只能靠进贡维系。劫掠者的速度永远快过正规军的行军。每一座前哨的建立都需要补给，每一项协议都需要用实际存在而非空洞承诺来强制执行。\n\n但若帝国想要抵达中亚那些传说中的城市——希瓦、布哈拉、浩罕——这片荒野必须首先被征服。没有一条铁路能通往撒马尔罕，除非先在草原上开辟出一条路。问题不在于是否应该平定草原，而在于我们愿意为此付出多少——人力、卢布与决心。"

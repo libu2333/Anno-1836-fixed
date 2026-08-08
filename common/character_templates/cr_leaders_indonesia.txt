@@ -1,0 +1,79 @@
+﻿##################################
+#								 #
+# 			 Borneo 			 #
+#								 #
+##################################
+PDA_mahmud_han_alamsja = {
+	first_name = Mahmud_ali
+	last_name = Alamsja
+	historical = yes
+	age = 57	#Random age, makes him about 70 when hhe died
+	ruler = yes
+	#dna = dna_alfred_krupp
+	culture = primary_culture
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_WEST_BORNEO
+	traits = {
+	}
+}
+
+GTB_aji_kuning_bin_zainal_abidin = {
+	first_name = Mahmud_ali
+	last_name = Alamsja
+	historical = yes
+	age = 65	#Random age, makes him about 80 when he died
+	ruler = yes
+	#dna = dna_alfred_krupp
+	culture = primary_culture
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_EAST_BORNEO
+	traits = {
+	}
+}
+
+GTB_amiruddin_maharaja_abidin = {
+	first_name = Amiruddin
+	last_name = Maharaja_dendah
+	historical = yes
+	age = 36	#Random age, makes him about 76 when he died
+	heir = yes
+	#dna = dna_alfred_krupp
+	culture = primary_culture
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_EAST_BORNEO
+	traits = {
+	}
+}
+
+SBL_amiruddin_maharaja_abidin = {
+	first_name = Alimuddin
+	last_name = raja_alam
+	historical = yes
+	age = 64	#Random age, makes him about 72 when he died
+	ruler = yes
+	#dna = dna_alfred_krupp
+	culture = primary_culture
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_EAST_BORNEO
+	traits = {
+	}
+}
+
+SBL_kaharuddin_raja_bungkoh = {
+	first_name = Kaharuddin
+	last_name = raja_bungkoh
+	historical = yes
+	age = 46	#Random age, makes his dad about 18 when he had him. Makes him 50 at end of reign
+	heir = yes
+	#dna = dna_alfred_krupp
+	culture = primary_culture
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_EAST_BORNEO
+	traits = {
+	}
+}

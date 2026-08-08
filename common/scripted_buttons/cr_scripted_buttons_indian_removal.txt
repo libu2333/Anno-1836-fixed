@@ -1,0 +1,648 @@
+﻿#je_cr_indian_removal_button_a_choctaw = {
+#	name = "je_cr_indian_removal_button_a_choctaw"
+#	desc = "je_cr_indian_removal_button_a_choctaw_desc"
+#
+#	visible = { 
+#		NOT = {
+#			has_variable = cr_choctaw_removal_complete
+#		}
+#		c:CTW = {
+#			any_scope_state = {
+#				state_region = s:STATE_MISSISSIPPI
+#			}
+#		}
+#	}
+#
+#	ai_chance = {
+#		value = 50
+#	}
+#	
+#	possible = {
+#		c:CTW = {
+#			is_subject_of = ROOT
+#		}
+#		custom_tooltip = {
+#			text = je_cr_indian_removal_button_a_choctaw_finished
+#			NOT = {
+#				has_variable = cr_choctaw_removal_complete
+#			}
+#		}
+#	}
+#
+#	effect = {
+#	}
+#}
+
+je_cr_indian_removal_button_b_chickasaw = {
+	name = "je_cr_indian_removal_button_b_chickasaw"
+	desc = "je_cr_indian_removal_button_b_chickasaw_desc"
+
+	visible = {
+		NOT = {
+			has_variable = cr_chickasaw_removal_complete
+		}
+		NOT = {
+			has_journal_entry = je_chickasaw_removal
+		}
+		c:CSW = {
+			any_scope_state = {
+				state_region = s:STATE_MISSISSIPPI
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 50
+	}
+	
+	possible = {
+		c:CSW = {
+			is_subject_of = ROOT
+			is_at_war = no
+		}
+		OR = {
+			c:CSW = {
+				relations:ROOT >= 50
+			}
+			custom_tooltip = {
+				text = je_cr_indian_removal_button_b_chickasaw_tt
+				always = no #Treaty of Doaksville triggers removal on its own
+			}
+		#	custom_tooltip = {
+		#		text = je_cr_indian_removal_button_d_cherokee_violate_treaty
+		#		is_ai = no
+		#		ruler = {
+		#			NOT = { has_ideology = ideology:ideology_pacifist } #should be some sort of westward expansionist, do not forget to update the tooltip, do not forget to update the tooltip
+		#		}
+		#	}
+		}
+		custom_tooltip = {
+			text = je_cr_indian_removal_button_b_chickasaw_tt_b
+			NOT = { has_journal_entry = je_chickasaw_removal }
+		}
+		NOT = {
+			is_enacting_law = law_type:law_no_colonial_affairs
+		}
+	}
+
+	effect = {
+		add_journal_entry = { type = je_chickasaw_removal }
+		#if = {
+		#	limit = {
+		#		NOR = { 
+		#			has_variable = cr_roanoke_massacre_has_happened 
+		#			has_journal_entry = je_chickasaw_removal
+		#		}
+		#	}
+		#	custom_tooltip = je_cr_indian_removal_button_violate_treaty_button_tt
+		#	change_infamy = 4
+		#	add_radicals = {
+		#		value = large_radicals
+		#		culture = cu:yankee
+		#		interest_group = ig:ig_intelligentsia
+		#	}
+		#}
+		c:CSW = {
+			set_immune_to_revolutions = yes
+			set_variable = voluntary_removal
+		}
+		add_modifier = {
+			name = cr_chickasaw_removal_cost
+		}
+	}
+}
+
+je_cr_indian_removal_button_c_creek = {
+	name = "je_cr_indian_removal_button_c_creek"
+	desc = "je_cr_indian_removal_button_c_creek_desc"
+
+	visible = {
+		NOT = {
+			has_variable = cr_creek_removal_complete
+		}
+		NOT = {
+			has_journal_entry = je_creek_removal
+		}
+		c:MSC = {
+			any_scope_state = {
+				state_region = s:STATE_ALABAMA
+			}
+		}
+	}
+	
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				game_date > 1837.8.1
+			}
+			add = 50
+		}
+	}
+	
+	possible = {
+		c:MSC = {
+			is_subject_of = ROOT
+			is_at_war = no
+		}
+		OR = {
+			custom_tooltip = {
+				text = je_cr_indian_removal_button_c_creek_tt
+				has_variable = cr_roanoke_massacre_has_happened
+			}
+			c:MSC = {
+				relations:ROOT >= 75
+			}
+		#	custom_tooltip = {
+		#		text = je_cr_indian_removal_button_d_cherokee_violate_treaty
+		#		is_ai = no
+		#		ruler = {
+		#			NOT = { has_ideology = ideology:ideology_pacifist } #should be some sort of westward expansionist, do not forget to update the tooltip, do not forget to update the tooltip
+		#		}
+		#	}
+		}
+		custom_tooltip = {
+			text = je_cr_indian_removal_button_b_creek_tt_b
+			NOT = { has_journal_entry = je_creek_removal }
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = je_cr_indian_removal_button_c_creek
+			add_journal_entry = { type = je_creek_removal }
+			s:STATE_OKLAHOMA = {
+				set_owner_of_provinces = {
+					country = c:MSC
+					provinces = {
+						x286941 xD6ADF2 xE1CC08
+					}
+				}
+			}
+		}
+		c:MSC = {
+			set_variable = voluntary_removal
+			set_immune_to_revolutions = yes
+		}
+		add_modifier = {
+			name = cr_creek_removal_cost
+		}
+		#if = {
+		#	limit = {
+		#		NOR = { 
+		#			has_variable = cr_roanoke_massacre_has_happened 
+		#			has_journal_entry = je_chickasaw_removal
+		#		}
+		#	}
+		#	custom_tooltip = je_cr_indian_removal_button_violate_treaty_button_tt
+		#	change_infamy = 4
+		#	add_radicals = {
+		#		value = large_radicals
+		#		culture = cu:yankee
+		#		interest_group = ig:ig_intelligentsia
+		#	}
+		#}
+	}
+}
+
+je_cr_indian_removal_button_d_cherokee_treaty = {
+	name = "je_cr_indian_removal_button_d_cherokee_treaty"
+	desc = "je_cr_indian_removal_button_d_cherokee_treaty_desc"
+
+	visible = { 
+		NOT = { 
+			has_variable = treaty_of_new_echota_passed
+			has_variable = cr_cherokee_removal_treaty_var 
+			has_variable = cr_cherokee_removal_complete 
+		} 
+		c:CHE = {
+			any_scope_state = {
+				state_region = s:STATE_GEORGIA
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 50
+	}
+	
+	possible = {
+		c:CHE = {
+			is_subject_of = ROOT
+			is_at_war = no
+		}
+		custom_tooltip = {
+			text = je_cr_indian_removal_button_d_cherokee_treaty_tt
+			NOT = { has_variable = cr_treaty_of_new_echota_negotiations_ongoing }
+		}
+		c:CHE = {
+			relations:ROOT >= 50
+		}
+		custom_tooltip = {
+			text = je_cr_indian_removal_button_d_e_cherokee_tt_journey_west
+			NOT = { has_journal_entry = je_cherokee_removal }
+		}	
+	}
+
+	effect = {
+		set_variable = {
+			name = cr_cherokee_removal_treaty_var
+		}
+		custom_tooltip = {
+			text = je_cr_indian_removal_button_d_cherokee
+			add_journal_entry = { type = je_cherokee_removal }
+			set_variable = { #To delay triggering and make the description make more sense.
+				name = cr_waiting_for_emerson
+				months = 12
+			}
+		}
+		add_modifier = {
+			name = cr_cherokee_removal_cost
+		}
+		c:CHE = {
+			set_immune_to_revolutions = yes
+			set_variable = voluntary_removal
+		}
+	}
+}
+
+je_cr_indian_removal_button_d_cherokee = {
+	name = "je_cr_indian_removal_button_d_cherokee"
+	desc = "je_cr_indian_removal_button_d_cherokee_desc"
+
+	visible = {
+		NOT = {
+			has_variable = cr_cherokee_removal_complete
+		}
+		NOT = {
+			has_variable = the_trial_of_tears_has_started
+		}
+		NOT = {
+			has_variable = treaty_of_new_echota_rejected
+		}
+		OR = {
+			has_variable = cr_cherokee_removal_treaty_var
+			has_variable = treaty_of_new_echota_passed
+		}
+		c:CHE = {
+			any_scope_state = {
+				state_region = s:STATE_GEORGIA
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 50
+	}
+	
+	possible = {
+		c:CHE = {
+			is_subject_of = ROOT
+			#any_scope_state ={
+			#	OR = {
+			#		state_region = s:STATE_GEORGIA
+			#		state_region = s:STATE_ALABAMA				
+			#		state_region = s:STATE_TENNESSEE
+			#		state_region = s:STATE_NORTH_CAROLINA
+			#	}			
+			#}
+		}
+		#OR = {
+			custom_tooltip = {
+				text = je_cr_indian_removal_button_d_cherokee_time_expired
+				NOT = { 
+					has_variable = cr_cherokee_removal_treaty_cooldown_var 
+					has_modifier = cr_awaiting_cherokee_removal
+				}
+			}
+		#	custom_tooltip = {
+		#		text = je_cr_indian_removal_button_d_cherokee_violate_treaty
+		#		is_ai = no
+		#		ruler = {
+		#			NOT = { has_ideology = ideology:ideology_pacifist } #should be some sort of westward expansionist, do not forget to update the tooltip, do not forget to update the tooltip
+		#		}
+		#	}
+		#}
+		custom_tooltip = {
+			text = je_cr_indian_removal_button_d_e_cherokee_tt_journey_west
+			NOT = { has_journal_entry = je_cherokee_removal }
+		}
+		NOT = {
+			has_war_with = c:CHE
+		}
+	}
+
+	effect = {
+		trigger_event = cr_indian_removal.15
+		add_journal_entry = { type = je_cherokee_removal }
+		#if = {
+		#	limit = {
+		#		has_variable = cr_cherokee_removal_treaty_cooldown_var
+		#	}
+		#	custom_tooltip = je_cr_indian_removal_button_d_cherokee_violate_treaty_button_tt
+		#	change_infamy = 4
+		#	add_radicals = {
+		#		value = large_radicals
+		#		culture = cu:yankee
+		#		interest_group = ig:ig_intelligentsia
+		#	}
+		#}
+		add_modifier = {
+			name = cr_cherokee_removal_cost
+		}
+		hidden_effect = {
+			set_variable = {
+				name = cr_cherokee_removal_treaty_cooldown_var
+				months = 18
+			}
+			set_variable = {
+				name = the_trial_of_tears_has_started
+			}
+		}
+		c:CHE = {
+			set_immune_to_revolutions = yes
+			set_variable = voluntary_removal
+		}
+	}
+}
+
+je_cr_indian_removal_button_e_seminole = {
+	name = "je_cr_indian_removal_button_e_seminole"
+	desc = "je_cr_indian_removal_button_e_seminole_desc"
+
+	visible = { 
+		NOT = {
+			has_variable = cr_seminole_removal_complete
+		}
+	}
+
+	ai_chance = {
+		value = 50
+	}
+	
+	possible = {
+		OR = {
+			scope:state_of_florida = {
+				custom_tooltip = {
+					text = je_cr_indian_removal_tt_seminole_war_ended
+					NOR = {
+						has_modifier = seminole_war_containment_policy
+						has_modifier = seminole_war_forward_policy
+						has_modifier = seminole_war_diplomatic_policy
+					}
+				}
+			}
+			c:SML = { relations:ROOT >= 50 }
+		}
+		OR = {
+			c:SML = {
+				is_subject_of = ROOT
+				is_at_war = no
+			}
+			owns_entire_state_region = STATE_FLORIDA
+		}
+		custom_tooltip = {
+			text = cr_seminole_removal_has_started_tt
+			NOT = {	has_variable = cr_seminole_removal_has_started }
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				has_truce_with = c:SML
+			}
+			trigger_event = cr_indian_removal.29 
+		}
+		else = {
+			add_journal_entry = { type = je_seminole_removal }
+		}
+		
+		###########	To be moved if updated ############
+		if = {
+			limit = { has_modifier = seminole_war_expense_mod }
+			remove_modifier = seminole_war_expense_mod
+		}
+		scope:state_of_florida = {
+			if = {
+				limit = { has_modifier = seminole_war_diplomatic_policy }
+				remove_modifier = seminole_war_diplomatic_policy
+			}
+			if = {
+				limit = { has_modifier = seminole_war_forward_policy }
+				remove_modifier = seminole_war_forward_policy
+			}
+			if = {
+				limit = { has_modifier = seminole_war_containment_policy }
+				remove_modifier = seminole_war_containment_policy
+			}
+		}		
+		
+		hidden_effect = {
+			set_variable = cr_seminole_removal_has_started
+		}
+		c:SML = {
+			set_variable = voluntary_removal
+			set_immune_to_revolutions = yes
+		}
+	}
+}
+
+je_seminole_war_containment_policy = {
+	name = "je_seminole_war_containment_policy"
+	desc = "je_seminole_war_containment_policy_desc"
+
+	visible = { 
+		always = yes
+	}
+
+	ai_chance = {
+		base = 0
+		if = {
+			add = 1
+			limit = { 
+				has_variable = seminole_war_ai_select_containment_policy
+			}
+		}
+	}
+	
+	possible = {
+		custom_tooltip = {
+			text = je_seminole_war_policy_cooldown
+			NOT = {
+				has_variable = seminole_war_policy_cooldown
+			}
+		}
+		ruler = {
+			NOT = { has_trait = reckless }
+		}
+		custom_tooltip = {
+			text = je_seminole_war_policy_already_active
+			NOT = {
+				has_variable = seminole_war_containment_policy
+			}
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = je_seminole_war_containment_policy_tt
+			remove_variable = seminole_war_forward_policy
+			remove_variable = seminole_war_diplomatic_policy
+			set_variable = seminole_war_containment_policy
+			
+			set_variable = {
+				name = seminole_war_policy_cooldown
+				days = 365
+			}
+		}
+		scope:flarda = {
+			if = {
+				limit = { has_modifier = seminole_war_diplomatic_policy }
+				remove_modifier = seminole_war_diplomatic_policy
+			}
+			if = {
+				limit = { has_modifier = seminole_war_forward_policy }
+				remove_modifier = seminole_war_forward_policy
+			}
+			add_modifier = seminole_war_containment_policy
+		}
+		remove_modifier = seminole_war_expense_mod
+		add_modifier = {
+			name = seminole_war_expense_mod
+			multiplier = 0.5
+		}
+
+	}
+}
+
+je_seminole_war_forward_policy = {
+	name = "je_seminole_war_forward_policy"
+	desc = "je_seminole_war_forward_policy_desc"
+
+	visible = { 
+		always = yes
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			add = 1
+			limit = { has_variable = seminole_war_ai_select_forward_policy }
+		}
+	}
+	
+	possible = {
+		custom_tooltip = {
+			text = je_seminole_war_policy_cooldown
+			NOT = {
+				has_variable = seminole_war_policy_cooldown
+			}
+		}
+		ruler = {
+			NOT = {	has_ideology = ideology:ideology_pacifist }
+			NOT = {	has_ideology = ideology:ideology_humanitarian }
+		}
+		custom_tooltip = {
+			text = je_seminole_war_policy_already_active
+			NOT = {
+				has_variable = seminole_war_forward_policy
+			}
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = je_seminole_war_forward_policy_tt
+			remove_variable = seminole_war_diplomatic_policy
+			remove_variable = seminole_war_containment_policy
+			set_variable = seminole_war_forward_policy
+			
+			set_variable = {
+				name = seminole_war_policy_cooldown
+				days = 365
+			}
+		}
+		scope:flarda = {
+			if = {
+				limit = { has_modifier = seminole_war_diplomatic_policy }
+				remove_modifier = seminole_war_diplomatic_policy
+			}
+			if = {
+				limit = { has_modifier = seminole_war_containment_policy }
+				remove_modifier = seminole_war_containment_policy
+			}
+			add_modifier = seminole_war_forward_policy
+		}
+		remove_modifier = seminole_war_expense_mod
+		add_modifier = {
+			name = seminole_war_expense_mod
+		}
+	}
+}
+
+je_seminole_war_diplomatic_policy = {
+	name = "je_seminole_war_diplomatic_policy"
+	desc = "je_seminole_war_diplomatic_policy_desc"
+
+	visible = { 
+		always = yes
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			add = 1
+			limit = { has_variable = seminole_war_ai_select_diplomatic_policy }
+		}
+	}
+	
+	possible = {
+		custom_tooltip = {
+			text = je_seminole_war_policy_cooldown
+			NOT = {
+				has_variable = seminole_war_policy_cooldown
+			}
+		}
+		ruler = {
+			NOT = {	has_ideology = ideology:ideology_jingoist_leader }
+			NOT = { has_trait = bigoted	}
+		}
+		custom_tooltip = {
+			text = je_seminole_war_policy_already_active
+			NOT = {
+				has_variable = seminole_war_diplomatic_policy
+			}
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = je_seminole_war_diplomatic_policy_tt
+			remove_variable = seminole_war_containment_policy
+			remove_variable = seminole_war_forward_policy
+			set_variable = seminole_war_diplomatic_policy
+			
+			set_variable = {
+				name = seminole_war_policy_cooldown
+				days = 365
+			}
+		}
+		scope:flarda = {
+			if = {
+				limit = { has_modifier = seminole_war_forward_policy }
+				remove_modifier = seminole_war_forward_policy
+			}
+			if = {
+				limit = { has_modifier = seminole_war_containment_policy }
+				remove_modifier = seminole_war_containment_policy
+			}
+			add_modifier = seminole_war_diplomatic_policy
+		}
+		remove_modifier = seminole_war_expense_mod
+		add_modifier = {
+			name = seminole_war_expense_mod
+			multiplier = 1.5
+		}
+	}
+}

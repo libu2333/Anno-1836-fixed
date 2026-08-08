@@ -1,0 +1,75 @@
+﻿cr_don_carlos_exile_positive_reaction = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+cr_don_carlos_exile_negative_reaction = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+cr_don_carlos_exile_provided = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = feed
+}
+
+cr_don_carlos_exile_refused = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = feed
+}
+
+cr_don_carlos_exile_supported = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = feed
+}
+
+cr_don_carlos_support_negative_reaction = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+cr_don_carlos_exile_support_liberalism = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+cr_stop_support_for_movement = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+	notification_type = toast
+}
+
+cr_kazakh_harsh_rule_on_the_steppes = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/military.dds"
+	notification_type = feed
+	days = 28
+}
+
+cr_slaves_returned_sint_maarten = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+	days = 28
+}
+
+cr_slaves_not_returned_sint_maarten = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+	days = 28
+}
+
+cr_brazil_slave_ship_captured_libreville = {
+	type = feed
+	texture = "gfx/interface/icons/notification_icons/colonial.dds"
+	notification_type = toast
+	days = 28
+}

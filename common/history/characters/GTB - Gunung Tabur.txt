@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:GTB ?= {
+		create_character = {
+			template = GTB_aji_kuning_bin_zainal_abidin
+		}	
+		create_character = {
+			template = GTB_amiruddin_maharaja_abidin
+		}	
+	}
+}

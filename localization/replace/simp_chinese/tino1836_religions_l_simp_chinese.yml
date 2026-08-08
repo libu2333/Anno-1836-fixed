@@ -1,0 +1,124 @@
+﻿l_simp_chinese:
+#Yuutsing
+##NEW RELIGIONS:
+
+##HERITAGE
+ han_buddhism: "汉传佛教"
+ tibetan_buddhism: "藏传佛教"
+ theravada_buddhism: "南传佛教"
+
+ hyeonjong_buddhism: "显宗"
+ tantric_buddhism: "密宗"
+
+ sunni_islam: "逊尼派"
+ shia_islam: "什叶派"
+ ibadi_islam: "依巴德派"
+
+ catholic_christian: "天主教"
+ protestantism_christian: "新教"
+ eastern_orthodox_christian: "东正教会"
+ assyrian_christian: "东方亚述教会"
+
+ eastern_animist: "东方民俗"
+ shaman: "萨满"
+ daojiao: "道教"
+ England: "圣公会"
+
+
+##RELIGIONS
+
+ wu_animist: "巫觋教"
+ chinese_folk_religions: "中华民祀"
+ tiandi: "天地会"
+ bon_animist: "苯教"
+ hmong_animist: "苗俗信仰"
+ korean_wu_animist: "朝鲜巫教"
+ ryukyuan_animist: "琉球神道"
+ manchu_tungusic_shaman: "满通萨满"
+ mongol_shaman: "孛额萨满"
+ central_asia_shaman: "中亚萨满"
+ siberian_shaman: "西伯利亚萨满"
+ ancestor_worship: "祖灵崇拜"
+
+ #Buddhism
+ mahayana: "大乘佛教"
+ chan_buddhism: "禅宗"
+ huayan_buddhism: "华严宗"
+ jingtu_buddhism: "净土宗"
+ shingon_buddhism: "真言宗"
+ nichiren_buddhism: "日莲宗"
+ nyingma_pa_buddhism: "宁玛派"
+ saskya_pa_buddhism: "萨迦派"
+ dgelugs_pa_buddhism: "格鲁派"
+ bkabrgyud_pa_buddhism: "噶举派"
+ dhammayuttika_nikaya_buddhism: "法相应派"
+ maha_nikaya_buddhism: "大宗派"
+ shwegyin_nikaya_buddhism: "瑞琴派"
+
+ #ISLAM
+ hanafi_islam: "哈乃斐派"
+ hanbali_islam: "罕百里派"
+ maliki_islam: "马立克派"
+ shafii_islam: "沙斐仪派"
+
+ ithana_ashari_islam: "十二伊玛目派"
+ isma_iliyya_islam: "伊斯玛仪派"
+ zaydi_islam: "宰德派"
+
+ ibadi_islam: "依巴德派"
+
+ #CHRISTIAN
+ catholic_christian: "天主教"
+ anglicanism_christian: "圣公宗"
+ lutheranism_christian: "路德宗"
+ calvinism_christian: "加尔文宗"
+
+ #HINDUISM
+ smartism_hinduism: "师摩多派"
+ vaishnava_hinduism: "毗湿奴派"
+ shaivism_hinduism: "湿婆派"
+ shaktism_hinduism: "性力派"
+
+ taoist: "道教"
+
+ #Cultures&Religions
+ hui: "回"
+ ryukyu: "琉球"
+ tungusic: "通古斯"
+ taranchi: "塔兰奇"
+ yuanzhumin: "高山"
+
+ sinosphere: "汉语圈"
+ han_chinese: "汉族民系"
+ tibetan: "藏族"
+ chwan_shu_han: "川蜀"
+ kianghwai_han: "江淮"
+ southwest_han: "西南"
+ jin_han: "晋绥"
+ hsiang_han: "湘"
+ kan_han: "赣"
+ hwei_han: "徽"
+ wu_han: "吴"
+ yue: "广福"
+ min: "闽南"
+ tibetan_ethnic: "藏族民系"
+ tibetan: "卫藏"
+ khampa: "康巴"
+ amdo: "安多"
+ 
+ southwest_tien_mandarin: "滇贵官话"
+ chungyuan_mandarin: "中原官话"
+ kianghwai_mandarin: "江淮官话"
+ southwest_shu_mandarin: "西南官话"
+ hakkaese: "客家话"
+ min_chinese: "闽语"
+ jin_chinese: "晋语"
+ hsiang_chinese: "湘话"
+ cantonese: "广福话"
+ kan_chinese: "赣语"
+ hwei_chinese: "徽语"
+ wu_chinese: "吴语"
+
+ amdo_tibetan: "安多话"
+ utsang_tibetan: "卫藏话"
+ kham_tibetan: "康巴话"

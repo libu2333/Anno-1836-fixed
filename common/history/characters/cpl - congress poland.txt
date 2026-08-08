@@ -1,0 +1,114 @@
+CHARACTERS = {
+	c:CPL ?= {
+		create_character = {
+			# Ivan Fyodorovich Paskevich - Viceroy of Congress Poland
+			first_name = Ivan_Fyodorovich
+			last_name = Paskevich
+			historical = yes
+			ruler = yes
+			birth_date = 1782.5.19
+			interest_group = ig_armed_forces
+			ig_leader = yes
+			ideology = ideology_traditionalist
+			traits = {
+				ruthless
+				experienced_diplomat
+				experienced_political_operator
+				wrathful
+			}
+			on_created = {
+				set_variable = is_married
+			}
+			home_region = STATE_MAZOVIA   # Warsaw
+		}
+
+		create_character = {
+			first_name = Witold
+			last_name = Czartoryski
+			historical = yes
+			#heir = yes
+			noble = yes
+			birth_date = 1822.7.6
+			interest_group = ig_landowners
+			ideology = ideology_republican
+			traits = {
+				literary
+				experienced_diplomat
+				experienced_political_operator
+			}
+			home_region = STATE_MAZOVIA
+		}
+		
+		create_character = {
+			first_name = Jan
+			last_name = Ledochowski
+			historical = yes
+			noble = yes
+			birth_date = 1791.6.23
+			interest_group = ig_intelligentsia
+			ig_leader = yes
+			ideology = ideology_republican
+			home_region = STATE_MAZOVIA   # Warsaw
+		}
+		
+		create_character = {
+			first_name = Jan
+			last_name = Szaniecki
+			historical = yes
+			noble = yes
+			birth_date = 1783.12.16
+			interest_group = ig_petty_bourgeoisie
+			ig_leader = yes
+			ideology = ideology_radical
+			home_region = STATE_GREATER_POLAND   # Poznań / Plewiska 
+		}
+		
+		create_character = {
+			first_name = Roman
+			last_name = Soltyk
+			historical = yes
+			noble = yes
+			birth_date = 1790.2.28
+			interest_group = ig_armed_forces
+			ig_leader = yes
+			ideology = ideology_abolitionist
+			home_region = STATE_MAZOVIA   # Warsaw
+		}
+		
+		create_character = {
+			first_name = Henryk
+			last_name = Lubienski
+			historical = yes
+			noble = yes
+			birth_date = 1793.7.11
+			interest_group = ig_industrialists
+			ig_leader = yes
+			ideology = ideology_market_liberal
+			home_region = STATE_MAZOVIA
+		}
+		
+		create_character = {
+			first_name = Alojzy_Prosper
+			last_name = Biernacki
+			historical = yes
+			noble = yes
+			birth_date = 1778.6.21
+			interest_group = ig_rural_folk
+			ig_leader = yes
+			ideology = ideology_land_reformer
+			home_region = STATE_GREATER_POLAND   
+		}
+
+		create_character = {
+			first_name = Stanislaw_Kostka
+			last_name = Choromanski
+			historical = yes
+			noble = yes
+			birth_date = 1769.2.21
+			interest_group = ig_devout
+			ig_leader = yes
+			ideology = ideology_traditionalist
+			home_region = STATE_MAZOVIA   
+		}
+	}
+}

@@ -1,0 +1,23 @@
+﻿DIPLOMATIC_PLAYS = {
+	if = {
+		limit = {
+			has_game_rule = all_historical_wars
+		}
+	c:KAS ?= {
+		create_diplomatic_play = {
+			target_state = s:STATE_KASHMIR.region_state:LAD
+
+			war = yes
+
+			type = dp_return_state
+
+			add_war_goal = {
+				holder = c:LAD
+				type = revoke_all_claims
+				target_country = c:KAS
+				primary_demand = yes
+			}
+		}
+	}
+}
+}

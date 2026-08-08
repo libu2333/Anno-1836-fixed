@@ -1,0 +1,14 @@
+#debug_1111 = {
+#	is_shown = {
+#		is_player = yes
+#	}
+#	possible = {
+#		always = yes
+#	}
+#	when_taken = {
+#		custom_tooltip = {
+#			text = expedition_events.301.a_tt
+#			britain_conquer_canada_effect = yes
+#		}
+#	}
+#}

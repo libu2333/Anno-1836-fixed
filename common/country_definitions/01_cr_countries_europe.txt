@@ -1,0 +1,431 @@
+﻿
+#############################
+#							#
+#		   EUROPE			#
+#							#
+#############################
+
+SRO = {
+	color = { 92 194 245 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_ROMAGNA
+}
+
+LIE = {
+	color = rgb { 255 215 0 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	capital = STATE_TYROL
+	cultures = { south_german }
+	is_named_from_capital = yes
+}
+MNOOO = {
+	color = { 206 15 61 }
+	country_type = recognized
+	tier = principality
+	cultures = { north_italian }
+	capital = STATE_PROVENCE
+}
+
+#Geneva
+GVA = {
+    color = { 241  148  88 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_WEST_SWITZERLAND
+}
+
+#Vaud
+VAU = {
+    color = { 245  243  187 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_WEST_SWITZERLAND
+}
+
+#Bern
+BEX = {
+    color = { 165 35 28 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Solothurn
+SRNN = {
+    color = { 241  218  157 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_WEST_SWITZERLAND
+}
+
+#Basel
+BSL = {
+    color = { 247  171  100 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_WEST_SWITZERLAND
+}
+
+#Aargau
+AAU = {
+    color = { 248  197  145 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Zürich
+ZUR = {
+    color = { 238  192  219 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Schaffhausen
+SHU = {
+    color = { 229  228  73 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Thurgau
+THUU = {
+    color = { 190  203  135 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Appenzell Ausserrhoden
+APA = {
+    color = { 249  14  196 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#St. Gallen
+GLL = {
+    color = { 132  204  208 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Glarus
+GLA = {
+    color = { 219  206  71 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Grisons
+GRSS = {
+    color = { 229  195  217 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_SOUTH_SWITZERLAND
+}
+
+#Ticino
+TIC = {
+    color = { 178  213  154 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_SOUTH_SWITZERLAND
+}
+
+##Neutrals
+
+#Neuchâtel
+NTL = {
+    color = { 215  192  73 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { francoprovencal }
+	capital = STATE_WEST_SWITZERLAND
+}
+
+#Appenzell Innerhoden
+API = {
+    color = { 243  178  143 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+##Sonderbund
+
+#Valais
+VIS = {
+    color = { 205  203  135 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_WEST_SWITZERLAND
+}
+
+#Fribourg
+FRI = {
+    color = { 172  207  114 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_WEST_SWITZERLAND
+}
+
+#Uri
+URI = {
+    color = { 247  169  64 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Obwalden
+OBW = {
+    color = { 251  225  147 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Nidwalden
+NID = {
+    color = { 249  208  83 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Lucerne
+LNE = {
+    color = { 127  205  158 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Zug
+ZUG = {
+    color = { 163  136  190 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+#Schwyz
+SCZ = {
+    color = { 205  203  135 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { alemannic }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+AHB = {
+	color = { 203  93  124 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { north_german }
+	capital = STATE_ANHALT
+}
+AHD = {
+	color = { 203  93  124 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { north_german }
+	capital = STATE_ANHALT
+}
+AHK = {
+	color = { 203  93  124 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { north_german }
+	capital = STATE_ANHALT
+}
+
+HHB = {
+	color = { 203  93  124 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_RHINELAND
+}
+
+HHN = {
+	color = rgb { 83 49 83 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_WURTTEMBERG
+}
+
+# Saxe-Altenburg
+
+ALN = {
+	color = rgb { 200 220 135 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_THURINGIA
+}
+
+# Saxe-Lauenburg
+
+LAU = {
+	color = rgb { 1 1 1 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_SCHLESWIG_HOLSTEIN
+}
+
+# Reuss-Gera
+
+GRAA = {
+	color = rgb { 250 230 130 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_THURINGIA
+}
+
+# Reuss-Greiz
+
+GRZ = {
+	color = rgb { 230 180 20 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_THURINGIA
+}
+
+
+SND = {
+	color = rgb { 45 100 165 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_THURINGIA
+}
+ANRR = {
+	color = rgb { 170 85 85 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}

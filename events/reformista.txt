@@ -1,0 +1,37 @@
+namespace = reformista
+
+reformista.1 = {
+    type = country_event
+    placement = ROOT
+
+    title = reformista.1.t
+    desc = reformista.1.d
+    flavor = reformista.1.f
+
+    event_image = {
+        video = "unspecific_military_parade"
+    }
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+    duration = 3
+
+    trigger = {
+    }
+
+    option = {
+        name = reformista.1.a
+        default_option = yes
+        every_scope_state = {
+            limit = {
+                is_incorporated = no
+            }
+			set_state_type = incorporated
+        }
+        change_tag = VNZ
+        ai_chance = {
+            base = 10
+        }
+    }
+}

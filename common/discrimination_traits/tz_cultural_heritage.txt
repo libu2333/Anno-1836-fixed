@@ -1,0 +1,3 @@
+﻿zexutz_heritage = {
+	heritage = yes
+}

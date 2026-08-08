@@ -1,0 +1,87 @@
+namespace = salaverry
+
+salaverry.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = salaverry.1.t
+	desc = salaverry.1.d
+	flavor = salaverry.1.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	option = {
+		name = salaverry.1.a
+		default_option = yes
+		# Consolidate States. Dont know what to do.
+		change_tag = PEU
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = salaverry.1.b
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+salaverry.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = salaverry.2.t
+	desc = salaverry.2.d
+	flavor = salaverry.2.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	option = {
+		name = salaverry.2.a
+		change_tag = PEU
+		every_scope_state = {
+            limit = {
+                is_incorporated = no
+            }
+			set_state_type = incorporated
+        }
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = salaverry.2.b
+		every_scope_state = {
+            limit = {
+                is_incorporated = no
+            }
+			set_state_type = incorporated
+        }
+		ai_chance = {
+			base = 0
+		}
+	}
+}

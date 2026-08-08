@@ -1,0 +1,137 @@
+﻿je_manifest_destiny_mexico = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_usa_manifest_destiny
+
+	# note that if you change this, also update the decision
+	complete = {
+		OR = {
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_CALIFORNIA
+				country_or_subject_owns_entire_state_region = STATE_NEVADA
+				country_or_subject_owns_entire_state_region = STATE_UTAH
+				country_or_subject_owns_entire_state_region = STATE_ARIZONA
+				country_or_subject_owns_entire_state_region = STATE_NEW_MEXICO
+				country_or_subject_owns_entire_state_region = STATE_TEXAS
+			}
+			has_variable = manifest_destiny_we_did_it_folks
+		}
+		NOT = { has_variable = manifest_destiny_we_did_it_folks_cooldown}
+	}
+
+	on_complete = {
+		trigger_event = { id = manifest_destiny.1 }
+	}
+
+	weight = 100
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+je_manifest_destiny_frontier_wars = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_usa_manifest_destiny
+
+	immediate = {
+		if = {
+			limit = {
+				s:STATE_MONTANA = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_MONTANA = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+		if = {
+			limit = {
+				s:STATE_WYOMING = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_WYOMING = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+		if = {
+			limit = {
+				s:STATE_COLORADO = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_COLORADO = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+		if = {
+			limit = {
+				s:STATE_NORTH_DAKOTA = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_NORTH_DAKOTA = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+		if = {
+			limit = {
+				s:STATE_SOUTH_DAKOTA = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_SOUTH_DAKOTA = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+		if = {	#Should be removed by a Kansas-Nebraska Act event
+			limit = {
+				s:STATE_NEBRASKA = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_NEBRASKA = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+		if = { #Should be removed by a Kansas-Nebraska Act event
+			limit = {
+				s:STATE_KANSAS = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_KANSAS = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+		if = {
+			limit = {
+				s:STATE_MINNESOTA = { has_state_trait = state_trait_indian_territory }
+			}
+			s:STATE_MINNESOTA = {
+				remove_state_trait = state_trait_indian_territory
+				add_state_trait = state_trait_native_resistance
+			}
+		}
+	
+	}
+
+	# note that if you change this, also update the decision
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_MONTANA
+		country_or_subject_owns_entire_state_region = STATE_WYOMING
+		country_or_subject_owns_entire_state_region = STATE_COLORADO
+		country_or_subject_owns_entire_state_region = STATE_NORTH_DAKOTA
+		country_or_subject_owns_entire_state_region = STATE_SOUTH_DAKOTA
+		country_or_subject_owns_entire_state_region = STATE_NEBRASKA
+		country_or_subject_owns_entire_state_region = STATE_KANSAS
+	}
+
+	on_complete = {
+		trigger_event = { id = manifest_destiny.2 }
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			10 = 0
+			1 = manifest_destiny.3
+		}
+	}
+
+	weight = 100
+
+	transferable = no
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

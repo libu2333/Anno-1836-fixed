@@ -1,0 +1,301 @@
+﻿l_english:
+ #Kyrgyzs
+ cr_central_asia_events.1.t: "The Khan of the Kyrgyzs"
+ cr_central_asia_events.1.d_kyrgyz_exit: "From the squabling [SCOPE.sCountry('kyrgyzia').GetAdjectiveNoFlag] tribes rises [SCOPE.sCharacter('tailak_baatyr_scope').GetFullName] Khan. Having proven himself in battle against both the Qing as well as our forces, the clans are quickly rallying to his banner as protector of the [SCOPE.sCulture('kyrgyz_culture').GetNameNoFormatting].\n\nThis matter should be dealt with urgently."
+ cr_central_asia_events.1.d_kyrgyz_not_exist: "From the squabling Kyrgyz tribes rises Tailak Baatyr Khan. Having proven himself in battle against both the Qing as well as our forces, the clans are quickly rallying to his banner as protector of the [SCOPE.sCulture('kyrgyz_culture').GetName].\n\nThis matter should be dealt with urgently."
+ cr_central_asia_events.1.f: "Tailak Baatyr, a true son of the Kyrgyz steppe, rode like the wind, his spear striking true, as he defended his land and vanquished his foes with unwavering determination."
+ cr_central_asia_events.1.a: "If only somebody could rid us of this turbulent khan..."
+ cr_central_asia_events.1.a_tt: "This option is available due to having positive @aut![Nbsp][concept_authority]"
+ cr_central_asia_events.1.a_tt_2: "An assassin is sent into Tailak Baatyr's camp to poison him"
+ cr_central_asia_events.1.b: "What threat could this Tailak Baatyr really be?"
+ cr_central_asia_events.1.b_tt: "#Variable Kyrgyzia#! will be released as a new country. It will take control over the eastern half of [SCOPE.sState('kokandi_kirghizia').GetName]."
+ cr_central_asia_events.1.c: "This Tailak Baatyr seems like an interesting fellow"
+ cr_central_asia_events.5.t: "On The Shores of the Issyk-Kul"
+ cr_central_asia_events.5.d: "Yurts as far as the eye can see populate the shores of the Issyk-Kul; some small and humble, some large and ostentatious. But no manap could afford to not be here. No matter how small their clan, or how long the journey, from all over the Tien Shan they have come. For today is the day of their choosing of a new Khan, today is the day of the Kurultai.\n\nManap of the #lore Sarybagysh#! clan [SCOPE.sCountry('kyrgyzia').GetRuler.GetFullName] -ambitious, shrewd and with just the amount of cruelty to keep the clans in line- has emerged as forerunner in the contest. Yet not all clans share his vision of unity, unity under Sarybagysg domination..."
+ cr_central_asia_events.5.f: "First, a tebetei, which is a traditional Kyrgyz headdress with a red top, was placed on Ormon's head as a crown, and he was then put on a white felt mat and raised in the air three times. Following this, nine white horses were slaughtered to honor the chiefs who attended the kurultai."
+ cr_central_asia_events.5.a: "Lets hope for the best"
+ cr_central_asia_events.5.a_tt: "[SCOPE.sCountry('kyrgyzia').GetRuler.GetFullName] becomes Khan of the Kyrgyz and threat to our rule"
+ cr_central_asia_events.5.b: "Maybe this [SCOPE.sCountry('kyrgyzia').GetRuler.GetFirstName] can be reasoned with?"
+ cr_central_asia_events.5.b_tt: "We will establish peaceful relations with [SCOPE.sCountry('kyrgyzia').GetRuler.GetFullName]"
+ cr_central_asia_events.5.b_tt_2: "This option is available due to having positive @inf![Nbsp][concept_influence]"
+ cr_central_asia_events.5.c: "Those Kyrgyz divions are so tragic"
+ cr_central_asia_events.5.c_tt: "We exploit the divisions between the Kyrgyz clans to prevent unification"
+ cr_central_asia_events.5.c_tt_2: "This option is available because we are not actively disunifying the [SCOPE.sCulture('kyrgyz_culture').GetName]."
+ cr_central_asia_events.5.e: "All hail [SCOPE.sCountry('kyrgyzia').GetRuler.GetFullName]"
+ #need to look into Shabdan Batyr/Batir for more events
+ 
+ #Kazakh content
+ #Journal Entry
+ je_pacify_the_steppes_sent_expedition_button: "Launch a punitive expedition"
+ je_pacify_the_steppes_sent_expedition_button_desc: "Dispatch a punitive force to the steppe to crush unrest and reimpose order."
+ je_pacify_the_steppes_no_active_expedition: "We currently do not have an expedition hunting for Kenesary."
+ je_pacify_the_steppes_know_where_kenesary_is: "Kenesary's general whereabouts is known to us."
+ je_pacify_the_steppes_no_recent_expedition: "It has been #variable 1 year#! since we last organised a punitive expedition."
+ cr_steppe_launch_first_expedition_effect: "We will launch a punitive expedition against Kenesary which has chance of driving him off and #g reducing#! [concept_tension|l] with the #variable Zhuzes#!, but which also has a chance of being defeated #r increasing#! [concept_tension|l] with the #variable Zhuzes#!."
+ #Events
+ cr_kazakh_events.1.t: "The Road to Central Asia"
+ cr_kazakh_events.1.d: "Just beyond our southern border lie the storied cities of Central Asia—[SCOPE.sCountry('khiva').GetName], [SCOPE.sCountry('kokand').GetName], [SCOPE.sCountry('bukhara').GetName]— ancient centers of wealth, faith, and influence. Their bazaars humming with the legacy of the Silk Road, their rulers command powerful khanates, and their capture would mark the triumph of Russian ambition in the heart of Asia.\n\nBut they remain out of reach, separated from us by the vast steppe—a lawless expanse of open grasslands, home to nomads, raiders, and scattered clans. To reach the cities, the steppe must first be brought to heel. No flag will fly over Bukhara until it flies first over the grasslands that guard it."
+ cr_kazakh_events.1.f: "There are no roads, no central authority, no firm lines to draw on maps. Only the wind, the horse, and the rifle."
+ cr_kazakh_events.1.a: "Begin the campaign into the steppe."
+ cr_kazakh_events.1.a_tt: "Expand Russian influence into Central Asia by establishing lasting control over the Kazakh territories."
+ cr_kazakh_events.1.b: "Our attention lies elsewhere—for now."
+ cr_kazakh_events.1.b_tt: "Colonization of Central Asia will proceed more slowly."
+ cr_kazakh_events.1.t_2: "The Untamed Steppe"
+ cr_kazakh_events.1.d_2: "Beyond the orderly provinces of European Russia lies a vast, windswept frontier—open grasslands stretching endlessly toward the sun-scorched mountains of Central Asia.\n\nThese Kazakh steppes remain, for now, loosely controlled—inhabited by nomads and fractured tribes, far from the civilizing hand of the Tsar. But within the halls of government and the ranks of the army, voices grow louder calling for the extension of Russian order, Russian law, and Russian influence deep into the heart of Asia."
+ cr_kazakh_events.1.f_2: "We must bring the frontier under the cross, the crown, and the census roll."
+ cr_kazakh_events.1.a_2: "The steppe must be brought to heel."
+ cr_kazakh_events.1.a_tt_2: "Expand Russian influence into Central Asia and establish lasting control over the Kazakh territories."
+ 
+ cr_kazakh_events.2.t_old: "A Khan for the Steppe"
+ cr_kazakh_events.2.t: "The Horns of Rebellion"
+ cr_kazakh_events.2.d: "A dangerous challenge has taken shape across the Kazakh steppes. The clans, notoriously fractious and prone to feuding, have always been easier to manage than to control. Yet the troublesome [SCOPE.sCharacter('kenesary_scope').GetFirstName] has done what none before him could: he has gathered the tribes in a grand Kurultai and been proclaimed [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle], reclaiming the title once held by his grandfather, Ablai Khan.\n\nWith the clans rallying under a single banner, our ambition for [SCOPE.sStrategicRegion('central_asia').GetName] faces a new and unpredictable obstacle. Even so, [SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting] extends a hand alongside the sword, offering fealty to the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] should his claim be recognized. Diplomacy, defiance, or cunning—only time will reveal which it is."
+ cr_kazakh_events.2.f: "From the northern pastures to the deserts beyond the Syr Darya, riders now flock to his banner, bound by blood, faith, and the fading memory of their old independence. His words spread faster than our patrols can ride: the promise of unity, the defiance of rule from afar."
+ cr_kazakh_events.2.a: "What we sought to pacify now stirs against us."
+ cr_kazakh_events.2.b: "If a title buys peace, let him have it."
+ cr_kazakh_events.2.c: "The steppe has a Khan once more!"
+ 
+ cr_kazakh_events.3.t: "The Steppe Unites"
+ cr_kazakh_events.3.desc: "The years have passed, and the steppe has not yielded. Each expedition rode out with banners high and returned weary, its victories fading like dust in the wind. Now, as our strength wanes and our presence recedes, Kenesary’s name carries weight beyond any single clan. One by one, the auls turn to him—not out of defiance, but because no other power remains to heed them."
+ cr_kazakh_events.3.flavour: "The empire lost its way in the grass, and the steppe found its voice.”
+ cr_kazakh_events.3.a: "The steppe, long divided, has found its center.”
+ cr_kazakh_events.3.b: "The steppe will remember this day.”
+ 
+ cr_kazakh_events.4.t: "The Khan of the Reborn Steppe"
+ cr_kazakh_events.4.desc: "As turmoil grips the empire, Kenesary’s call echoes louder across the plains. Russian forts stand half-abandoned, their garrisons drawn away by civil strife. Into this void rides Kenesary, uniting the scattered clans under one banner. Where once he was a fugitive, he now rides as a sovereign—his horsemen guarding the steppe from the Ural to the Syr Darya."
+ cr_kazakh_events.4.flavour: "When the empire turns inward, the steppe looks to its own.”
+ cr_kazakh_events.4.a: "The frontier is lost, for now.”
+ cr_kazakh_events.4.b: "The steppe will remember this day.”
+ 
+ cr_kazakh_events.5.t: "The Khan of the Reborn Steppe"
+ cr_kazakh_events.5.desc: "With Russia’s strength diminished and her influence waning, the grip on the steppe weakens. The forts crumble, the Cossack patrols grow scarce, and the Kazakh clans reclaim their old grazing grounds. In the vacuum left behind, Kenesary’s name once more stirs hearts—a symbol of resistance reborn as empire falters."
+ cr_kazakh_events.5.flavour: "Where the eagle no longer flies, the wolf returns.”
+ cr_kazakh_events.5.a: "Our reach no longer extends that far.”
+ cr_kazakh_events.5.b: "The steppe remembers who it once belonged to.”
+
+  
+ cr_kazakh_events.10.t: "Unrest on the Steppe"
+ cr_kazakh_events.10.desc: "The frontier grows uneasy. Cossack patrols report rising defiance among the Kazakh clans—caravans raided, outposts harassed, and envoys turned away. Reforms meant to bring order have instead stirred resentment, as old loyalties fray and new leaders whisper of resistance.\n\nA recent attack on a convoy near Petropavlovsk has alarmed the border stations. Some blame restless warriors seeking revenge; others speak of a noble named [SCOPE.sCharacter('kenesary_scope').GetFirstName] gathering discontented riders beneath his banner.\nWhatever the cause, the steppes are restless once more."
+ cr_kazakh_events.10.flavour: "The wind carries more than dust across the grasslands—it carries the murmur of revolt."
+ cr_kazakh_events.10.a: "Strengthen the frontier garrisons."
+ cr_kazakh_events.10.b: "Appease the clans with trade and leniency."
+
+ cr_kazakh_events.11.t: "The Raid on Akmolinsk"
+ cr_kazakh_events.11.desc: "News from the steppe is rarely good, and this time is no exception. The frontier post at Akmolinsk has been overrun by a band of Kazakh raiders and sacked, its stores plundered and a number of soldiers carried off into the steppe.\n\nWhile raids and skirmishes are nothing new, the sheer boldness of this one has unsettled even the most hardened officers. Some say it was the work of ordinary bandits; others whisper again the name of [SCOPE.sCharacter('kenesary_scope').GetFirstName], the ambitious noble rumored to be gathering disaffected clans. Whatever the truth, order on the steppe remains as uncertain as ever."
+ cr_kazakh_events.11.desc_old: "Disturbing news has reached Omsk: a Kazakh warband, said to number several thousand, has struck at the frontier post of Akmolinsk. Under cover of darkness they surrounded the fort, set its outbuildings ablaze, and overwhelmed the small garrison. When relief arrived, the raiders had vanished—taking with them supplies, livestock, and several prisoners.\n\nSuch audacity is unheard of on the steppe. Some say it was the work of ordinary bandits; others whisper again the name of [SCOPE.sCharacter('kenesary_scope').GetFirstName], the ambitious noble rumored to be gathering disaffected clans. Whether the attack was chance or omen, one thing is certain—the frontier is no longer quiet."
+ cr_kazakh_events.11.flavour: "The wind carries more than dust across the steppe—it carries rumor, and rumor breeds unrest."
+ cr_kazakh_events.11.a: "Dispatch a punitive column to reassert control."
+ cr_kazakh_events.11.b: "Dispatch envoys to the clans before this spreads."
+ 
+ cr_kazakh_events.12.t: "The Gathering on the Steppe"
+ cr_kazakh_events.12.desc: "The steppe stirs with unease. Messengers ride between distant auls, and campfires once lit in isolation now burn in unison. Old feuds are set aside as talk spreads of lost rights, foreign rule, and vengeance for the fallen. Where quarrels once divided the clans, a shared purpose begins to bind them.\n\nAmong those answering the call is [SCOPE.sCharacter('kenesary_ally_char').GetFirstName] of the [SCOPE.sCountry('kenesary_ally_tag').GetNameNoFlag], who has sworn the [SCOPE.sCharacter('kenesary_ally_char').GetLastNameNoFormatting] to the cause of [SCOPE.sCharacter('kenesary_scope').GetFirstName]."
+ cr_kazakh_events.12.desc_old: "The raids have grown bolder, the bands larger. Smoke rises from the borderlands again—too often, and too far apart, to be mere coincidence. Across the plains, old rivalries seem to fade as new oaths are sworn around shared fires.\n\nThe name whispered before now carries weight: [SCOPE.sCharacter('kenesary_scope').GetFirstName]. Once a minor noble with grievances, he now draws to his side the restless and the dispossessed, promising them justice, or perhaps revenge."
+ cr_kazakh_events.12.flavour: "The raids have grown bolder, the bands larger. Smoke rises again from the edge of the frontier—too far apart, and too often, to be chance. Across the plains, rival clans that once fought each other now share their fires and ride beneath common banners."
+ cr_kazakh_events.12.a: "Dispatch a punitive column to reassert control."
+ cr_kazakh_events.12.a_tt: "This option is available because we haven't had a recent expedition and we have information on [SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]'s general whereabouts."
+ cr_kazakh_events.12.b: "The embers of rebellion begin to glow."
+ 
+ cr_kazakh_events.13.t: "The Steppe Slips Away"
+ cr_kazakh_events.13.desc: "The expedition sent to hunt down [SCOPE.sCharacter('kenesary_scope').GetFirstName] has at last met him upon the open steppe. The fighting was sharp and brief—our volleys broke his riders and scattered their herds. Many of his followers fell, their banners trampled into the dust.\n\nYet the man himself slipped the noose. [SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting] has vanished into the empty plains, leaving only ashes and the dead behind him. His camp is taken, his stores lost, his name cursed by those who followed him. For now, his strength is broken—but not gone."
+ cr_kazakh_events.13.flavour: "On the steppe, even defeat can vanish over the horizon."
+ cr_kazakh_events.13.a: "He will return. They always do."
+ 
+ cr_kazakh_events.14.t: "Driven Beyond the Horizon"
+ cr_kazakh_events.14.desc: "The expedition sent to punish [SCOPE.sCharacter('kenesary_scope').GetFirstName] found no single battle—only dust, smoke, and scattered skirmishes across the steppe. Each time our columns advanced, his riders melted into the plains; each time we rested, they struck again.\n\nAt last, [SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting] and his followers have slipped beyond the southern horizon, their camps abandoned and their herds driven before them."
+ cr_kazakh_events.14.flavour: "The steppe swallows them whole, as it always does. The border is quiet for now, yet the emptiness beyond feels uneasy—as if waiting for the wind to shift once more."
+ cr_kazakh_events.14.a: "At least the border breathes again—for a time."
+ cr_kazakh_events.14.a_tt: "It will be some time before [SCOPE.sCharacter('kenesary_scope').GetFirstName] appears again."
+ 
+ cr_kazakh_events.15.t: "The Steppe Strikes Back"
+ cr_kazakh_events.15.desc: "The expedition sent against [SCOPE.sCharacter('kenesary_scope').GetFirstName] met its fate far from any road or fortress. His riders harried our columns day and night, cutting supply lines, stealing horses, and vanishing into the dust.\n\nWhen battle was finally joined, the wind turned against us. The steppe became fire and confusion; guns jammed with sand, and men lost their way in the smoke. Few returned to tell the tale. The rest lie buried beneath the grass, their weapons taken as trophies, their failure whispered in the camps along the frontier."
+ cr_kazakh_events.15.flavour: "The steppe remembers its own—strangers are not forgiven easily."
+ cr_kazakh_events.15.a: "So the hunter becomes the hunted."
+ 
+ cr_kazakh_events.16.t: "Across the Empty Steppe"
+ cr_kazakh_events.16.desc: "The expedition marched far and fought often, but the rebel columns melted into the horizon. Each skirmish ended as it began—with smoke, dust, and hoofprints fading into the wind. Kenesary remains at large, his followers scattered but unbroken."
+ cr_kazakh_events.16.flavour: "The steppe hides those who know it best."
+ cr_kazakh_events.16.a: "The steppe cannot be tamed in a single season."
+ 
+ cr_kazakh_events.17.t: "Pushed Beyond the Plains"
+ cr_kazakh_events.17.desc: "Our forces pressed hard against the rebels, driving them deeper into the barren steppe. Though no decisive battle was fought, Kenesary’s followers are weary, their herds lost, and their camps in disarray. The frontier, for now, lies quiet once more."
+ cr_kazakh_events.17.flavour: "They flee farther each time, but the wind always carries their songs back."
+ cr_kazakh_events.17.a: "Good. Let the steppe remember our reach."
+ 
+ cr_kazakh_events.18.t: "The Scattered Auls"
+ cr_kazakh_events.18.desc: "The expedition sent to the steppes has at last met some measure of success. Marching through [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName], our columns came upon several auls known to shelter [SCOPE.sCharacter('kenesary_scope').GetFirstName]’s followers. The villages were swiftly taken —herds driven off, stores seized, and many captives made. Among them are said to be kin of the rebel himself.\n\nThough [SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting] eluded capture, his cause has suffered a clear setback, and his men scatter to protect what little remains of their homes."
+ cr_kazakh_events.18.flavour: "The steppe is wide, but even its sons must sleep somewhere."
+ cr_kazakh_events.18.a: "Welcome news."
+ 
+ cr_kazakh_events.19.t: "Victory on the Steppe"
+ cr_kazakh_events.19.desc: "In open battle at dawn, our expedition at last met Kenesary’s riders on the plain. After fierce fighting, the rebels broke and fled, leaving behind their dead, their banners, and their pride. The steppe lies subdued—for now."
+ cr_kazakh_events.19.flavour: "Even the wind paused to watch the smoke drift eastward."
+ cr_kazakh_events.19.a: "A hard-won victory. The frontier breathes easier tonight."
+ 
+ cr_kazakh_events.20.t: "A Reverse on the Steppe"
+ cr_kazakh_events.20.desc: "The expedition met fiercer resistance than anticipated. Kenesary’s riders struck with precision and fury, harassing the column from every ridge and ravine. Supply wagons burned, outposts vanished into smoke, and mounting casualties left the commander no choice but to retreat to [SCOPE.sState('kazak_event_state').GetCityHubName] to preserve what remained of his force."
+ cr_kazakh_events.20.flavour: "The steppe spares neither the reckless nor the weary."
+ cr_kazakh_events.20.a: "A costly lesson—withdraw and regroup."
+ 
+ cr_kazakh_events.21.t: "Ambush in the Steppe"
+ cr_kazakh_events.21.desc: "Our expedition, sent to bring [SCOPE.sCharacter('kenesary_scope').GetFirstName] to heel, has met with misfortune. While traversing a barren stretch of the steppe, a detachment of the column was set upon at dawn by mounted raiders. The attack was sudden and well-coordinated—supply wagons burned, scouts overrun, and before the troops could form a proper line, the assailants had melted back into the plains.\n\nWith casualties mounting and provisions destroyed, the commander deemed it impossible to continue the advance and has withdrawn the expedition to [SCOPE.sState('kazak_event_state').GetCityHubName] to regroup. [SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting] remains at large, his defiance undiminished."
+ cr_kazakh_events.21.flavour: "The steppe swallowed them as easily as it spat them forth."
+ cr_kazakh_events.21.desc_old: "Our expedition advanced deep into the steppe in pursuit of [SCOPE.sCharacter('kenesary_scope').GetFirstName], only to find the hunter turned prey. In a sudden assault from the ridges, the rebels fell upon our rearguard and supply train, scattering the baggage and burning the wagons before vanishing once more into the endless grass.\n\nThough the main column remained intact, the losses in men and materiel are severe, and morale has suffered. [SCOPE.sCharacter('kenesary_scope').GetFirstName] has again proven his cunning—striking hard, then dissolving into the horizon."
+ cr_kazakh_events.21.flavour_old: "The wind carries away the smoke of battle, but not the memory of defeat."
+ cr_kazakh_events.21.a: "He slips away again..."
+ 
+ cr_kazakh_events.30.t: "The Weight of the Yoke"
+ cr_kazakh_events.30.desc: "Our rule over the steppe brings order — and resentment. Each tax collector, each patrol, reminds the clans that the land is no longer theirs alone. Loyalty is uncertain, and resentment simmers beneath the surface — some urge firmer control, others warn that force will only feed the fires of defiance."
+ cr_kazakh_events.30.desc_old: "The steppe has seen many masters, yet the clans remain, their loyalties shifting with the wind. Our rule brings order, but also resentment; every tax collector and patrol reminds them that the land is no longer theirs alone.\n\nSome call for firmer control to root out disobedience. Others warn that force breeds only rebellion."
+ cr_kazakh_events.30.flavour: "A Kazakh elder once told a Russian officer: 'We bend under two yokes — the herds we drive and the rulers who drive us.'"
+ cr_kazakh_events.30.a: "Tighten control and remind them who rules the steppe."
+ cr_kazakh_events.30.b: "Show restraint—let time soften their resentment."
+ 
+ cr_kazakh_events.31.t: "The Wandering Clans"
+ cr_kazakh_events.31.desc: "The Kazakhs of [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] still roam with their herds, following the grass and the seasons, untroubled by the borders drawn on our maps. They cross from pasture to pasture—and sometimes across imperial lines—recalling our authority only when a patrol demands tribute or papers they cannot read. At [SCOPE.sState('kazak_event_state').GetCityHubName], the governor now debates whether to curb their wanderings or tolerate them as the price of peace."
+ cr_kazakh_events.31.desc_old: "On the steppes of [SCOPE.sState('kazak_event_state').GetStateRegion.GetName] the Kazakh still moves with his herds, following the grass and the seasons. Our borders, marked neatly on maps, mean little to him. He drifts from one pasture to another, sometimes across imperial lines, and only remembers our law when a patrol demands tribute or papers he cannot read.\n\nAt [SCOPE.sState('kazak_event_state').GetCityHubName] he governor is weighing whether to restrict their wanderings or tolerate them as the price of peace."
+ cr_kazakh_events.31.flavour: "The steppe knows no boundaries—only horizons."
+ cr_kazakh_events.31.a: "Enforce fixed grazing zones and border controls."
+ cr_kazakh_events.31.b: "Allow them their freedom for now."
+ 
+ cr_kazakh_events.32.t: "Gifts for the Auls"
+ cr_kazakh_events.32.desc: "On the steppes the only certainty is consistent change. As an aul can be here today and gone tomorrow, so can allegiances shift from one season to the next.\n\nIn an effort to secure the favour of the Kazakh elders in [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] and bind their auls to [ROOT.GetCountry.GetNameNoFormatting], an offering of tea, salt, and cloth—gifts, not bribes—has been suggested."
+ cr_kazakh_events.32.flavour: "The Kazakhs are a fickle people, their auls kingdoms unto themselves. Allegiance shifts as swiftly as the wind across the grasslands; today’s friend may ride with another tomorrow. Loyalty, such as it exists, belongs first to kin, then to clan, and rarely beyond."
+ cr_kazakh_events.32.a: "Approve the gifts; better a bought peace than a costly one."
+ cr_kazakh_events.32.b: "We rule by authority, not alms."
+ 
+ cr_kazakh_events.33.t: "The Wanderers’ Discontent"
+ cr_kazakh_events.33.desc: "A group of [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] herders has come before the [SCOPE.sState('kazak_event_state').GetFarmHubName] district office, claiming that Russian settlers have fenced off ancient pastures and waterholes. Their spokesmen speak politely but bitterly: 'Our fathers grazed here when your grandfathers were still in Muscovy.'\n\nThe Cossacks say they have been patient enough—and that patience will soon run dry."
+ cr_kazakh_events.33.flavour: "Every pasture has two owners—the one who built the fence, and the one who remembers the land before it."
+ cr_kazakh_events.33.a: "Side with the settlers and enforce the new boundaries."
+ cr_kazakh_events.33.b: "Order the Cossacks to negotiate compensation."
+ cr_kazakh_events.33.c: "Ignore the matter—it is beneath our concern."
+ 
+ cr_kazakh_events.34.t: "The Movement of the Seasons"
+ cr_kazakh_events.34.desc: "The Kazakh clans of [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] are on the move again. A harsh winter, failed pastures, or renewed quarrels have driven families to seek new grazing grounds. Each migration blur the lines of our maps and risks unsettling the fragile balance of the frontier.
+ cr_kazakh_events.34.desc_old: "The Kazakh is never still. Even when settled, he dreams of the open plain. A harsh winter, a poor grazing season, or the quarrel of two clans can set whole families in motion overnight. They say a man without a herd is like a man without a shadow, and so they wander in search of grass, water, and freedom.\n\nEach migration unsettles the borders we draw, and every caravan lost to raiders brings new petitions for intervention. The steppe shifts beneath our feet, and with it, our grasp upon it."
+ cr_kazakh_events.34.flavour: "The Kazakh is never still. Even when settled, he dreams of the open plain. A harsh winter, a poor season, or the quarrel of two clans can set whole families in motion overnight. They say a man without a herd is like a man without a shadow, and so they wander in search of grass, water, and freedom."
+ cr_kazakh_events.34.a: "Send more patrols to enforce order."
+ cr_kazakh_events.34.b: "Let them wander—it is their nature."
+ 
+ cr_kazakh_events.35.t: "The Unquiet Steppe"
+ cr_kazakh_events.35.desc: "Smoke was seen on the horizon today—an aul burned, a herd scattered. Whether it was bandits, rival clans, or restless horsemen, no one can say. Life continues, but there is a new sharpness in the air, a sense that the peace of the steppes is thinning."
+ cr_kazakh_events.35.flavour: "Even the wind seems to carry anger these days."
+ cr_kazakh_events.35.a: "Increase patrols and restore calm."
+ cr_kazakh_events.35.b: "Ignore it; these feuds burn themselves out."
+ 
+ cr_kazakh_events.40.t: "Kazakh Squabbles"
+ cr_kazakh_events.40.desc: "A feud between rival clans in [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] has already left several auls burned and families scattered. The elders now send word to us—better the Cossack’s law, they say, than endless blood between cousins."
+ cr_kazakh_events.40.flavour: "Was it bride kidnapping, or elopement? Was it a land grab, or just a herdsman seeking new pastures? Was it cattle raiding, or the justified taking of payment? Was it a new offence, or retribution for an old? None can say, and all will claim the right. Yet such quarrels are the lifeblood of the steppe, and when honour demands vengeance, reason is seldom invited."
+ cr_kazakh_events.40.a: "Dispatch Cossacks to enforce peace."
+ cr_kazakh_events.40.b: "Let the clans settle it their way."
+ 
+ cr_kazakh_events.41.t: "The Stolen Bride"
+ cr_kazakh_events.41.desc: "The latest quarrel between the [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] clans began, as many do, over a woman. A young bride, taken from her husband’s yurt in [SCOPE.sState('kazak_event_neighbour_state').GetFarmHubName], was carried off by horsemen from a rival clan. Whether she went willingly or not no longer matters—the husband’s kin have armed themselves, the roads are unsafe, and caravans avoid the area.\n\nThe elders beg our intervention before vengeance claims more blood. But some say these affairs are best left to the steppe’s own customs."
+ cr_kazakh_events.41.flavour: "Between love and honour, the steppe always chooses honour."
+ cr_kazakh_events.41.a: "Send a mediator to restore peace."
+ cr_kazakh_events.41.b: "Ignore the affair—it will burn itself out."
+ 
+ cr_kazakh_events.42.t: "Cattle and Retribution"
+ cr_kazakh_events.42.desc: "Clans on the steppe are quick to settle scores, and old grievances often spark new ones. In [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName], disputes over cattle have reignited, and a cycle of raids and counter-raids now threatens the fragile peace. Intervention could restore order—or risk entangling us further in their quarrels."
+ cr_kazakh_events.42.flavour: "On the steppe, every theft is a memory of another."
+ cr_kazakh_events.42.a: "Send a Cossack detachment to separate the herds."
+ cr_kazakh_events.42.b: "Let them fight it out; the strongest will keep order."
+ 
+ cr_kazakh_events.43.t: "The Wandering Judge"
+ cr_kazakh_events.43.desc: "Disputes over grazing lands are as constant as the wind on the steppe. Clans shift their boundaries with the seasons, and each insists that memory, not maps, defines what is theirs. Our attempts to mediate such quarrels rarely endure—verdicts fade, agreements are forgotten, and each new pasture brings another claim.\n\nIn [SCOPE.sState('kazak_event_neighbour_state').GetName] the locals now speak of our envoy as the #italic wandering judge#!—a man who travels far, settles little, and leaves the dust to carry his words away."
+ cr_kazakh_events.43.flavour: "The law written on paper fades faster than the trail of a caravan."
+ cr_kazakh_events.43.a: "Establish a permanent post to oversee disputes."
+ cr_kazakh_events.43.b: "Rotate Cossack patrols instead."
+ cr_kazakh_events.43.c: "Withdraw the judge; we’ve done enough."
+ 
+ cr_kazakh_events.44.t: "A Question of Loyalty"
+ cr_kazakh_events.44.desc: "The Kazakh swears loyalty easily, but to whom depends on the season. Today a clan calls the [SCOPE.sCountry('russia_scope').GetRuler.GetPrimaryRoleTitle] their protector; tomorrow they shelter raiders from across the Syr Darya. The elders of [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] speak of honour and kinship, but the younger men follow whoever promises grazing rights and plunder.\n\nOur administrators debate whether to reward the loyal or punish the treacherous—though the line between them is as shifting as the dunes."
+ cr_kazakh_events.44.flavour: "A promise on the steppe lasts only until the wind changes."
+ cr_kazakh_events.44.a: "Reward those who stand with us."
+ cr_kazakh_events.44.b: "Punish those who defy us."
+ cr_kazakh_events.44.c: "Do nothing—loyalty cannot be bought."
+ notification_cr_kazakh_harsh_rule_on_the_steppes_name: "[SCOPE.sCountry('russia_scope').GetName] imposes harsh rule on the steppes."
+ notification_cr_kazakh_harsh_rule_on_the_steppes_desc: "To quell disloyalty amongst the Kazakh on the steppes of  [SCOPE.sState('kazak_event_neighbour_state').GetName] the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] have resorted to a policy of harsh rule causing [concept_devastation|l]."
+ 
+ #China reaction
+ cr_kazakh_events.60.t: "Stirrings on the Western Steppe"
+ cr_kazakh_events.60.desc: "Beyond the sands and river valleys of our western border, the steppe grows restless. The wandering clans, long divided by custom and quarrel, now rally behind a certain [SCOPE.sCharacter('kenesary_scope').GetFirstName], who has declared himself [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle] in defiance of [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] encroachment.\n\nThe Kazakh tribes within our reach still offer tribute and graze under our protection, yet the steppe knows no boundary. Should his call carry further, the frontier itself may begin to drift."
+ cr_kazakh_events.60.flavour: "The western frontier has never been calm—herds drift, raiders slip across the borders, and allegiances are fleeting—but the unification of the clans brings a new uncertainty, as those under our suzerainty weigh duty against the old promise of freedom."
+ cr_kazakh_events.60.desc_recognised: "To the west, the steppe now moves to a single will. The clans that once roamed masterless have sworn allegiance to [SCOPE.sCharacter('kenesary_scope').GetFirstName], now recognised as [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle] by the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] court. His name carries far beyond their frontier—across rivers and sands—and with it, our hold over our westernmost tribes has slipped away.\n\nThe banners that once marked their auls have been lowered; their riders now serve another. The loss is quiet, but the silence along the frontier speaks of changing times."
+ cr_kazakh_events.60.flavour_recognised: "The steppe bows to no wall nor empire; its loyalty follows the strongest rider."
+ cr_kazakh_events.60.a: "A worrysome development."
+ cr_kazakh_events.60.a_tt: "We have lost control over all uncolonised #variable Kazakh#! states."
+ cr_kazakh_events.60.b: "Recognise him as [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle] as well."
+ cr_kazakh_events.60.b_tt: "We have lost control over all uncolonised #variable Kazakh#! states."
+ 
+ #Kokand reaction
+ cr_kazakh_events.61.a: "We'll see what the future brings."
+ cr_kazakh_events.61.b: "Try to find common ground with him."
+ 
+ cr_kazakh_events.61.t: "Echoes from the Northern Steppe"
+ cr_kazakh_events.61.desc: "From beyond the northern deserts, word reaches us of a new power rising among the Kazakh clans. Once scattered and quarrelsome, they now gather beneath the banner of one called [SCOPE.sCharacter('kenesary_scope').GetFirstName], who has proclaimed himself [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle] in defiance of [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] encroachment upon their lands.\n\nThe winds that sweep down from the steppe carry more than dust and rumour—they carry unrest. The herders who wander our northern marches listen keenly, and the roads to Tashkent and Turkestan grow uneasy."
+ cr_kazakh_events.61.flavour: "The steppe has always been a sea without shores—when it stirs, the waves reach even our gates."
+ 
+ cr_kazakh_events.61.t_recognised: "A Khan at Our Door"
+ cr_kazakh_events.61.desc_recognised: "The balance upon our northern frontier shifts. The Kazakh clans, once disunited, now follow [SCOPE.sCharacter('kenesary_scope').GetFirstName], newly recognised by the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] as [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]. With this recognition, his power swells—his horsemen now ride freely across the steppe, and the tribes that grazed under our protection begin to drift toward his camp.\n\nAlready, some of our border auls look north for guidance rather than east. The frontier that once guarded us now lies open to the ambitions of another."
+ cr_kazakh_events.61.flavour_recognised: "The wind from the steppe brings neither friend nor foe—only the promise that the old order cannot last."
+
+ #Khiva
+ cr_kazakh_events.62.t: "A Stirring Among the Steppe Clans"
+ cr_kazakh_events.62.desc: "North of the Syr Darya, the Kazakh clans have found new purpose beneath a certain [SCOPE.sCharacter('kenesary_scope').GetFirstName], who now claims the mantle of [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]. His riders harry the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] frontier, plundering their posts and proclaiming defiance in every raid.\n\nFor us, this uprising is both nuisance and opportunity. Should his fury remain fixed upon the north, the steppe may yet serve as a buffer—its smoke and chaos keeping the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFormatting] gaze from our own borders."
+ cr_kazakh_events.62.flavour: "A restless neighbour is troublesome—but a restless neighbour facing north can be useful indeed."
+ 
+ cr_kazakh_events.62.t_recognised: "The Steppe Turns South"
+ cr_kazakh_events.62.desc_recognised: "What once seemed a distant quarrel now takes a graver shape. The Kazakh clans, once divided, have united under [SCOPE.sCharacter('kenesary_scope').GetFirstName], whom the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] now recognise as [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]. With his legitimacy affirmed, the horsemen of the north grow bold, ranging further across the Syr Darya and drawing the wandering tribes into his fold.\n\nThe fires that once scorched only the Russian frontier may soon find their way southward, and what otherwise might have been a useful distraction now darkens the horizon."
+ cr_kazakh_events.62.flavour_recognised: "The wind we once welcomed now carries the smell of smoke."
+
+#Bukhara
+ cr_kazakh_events.63.t: "Unrest Beyond the Steppe"
+ cr_kazakh_events.63.desc: "From the lands beyond the Syr Darya come tales of turmoil. The Kazakh clans, ever unruly, now rally to a man calling himself [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle], striking against [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] forts and settlements along their frontier.\n\nTo us, this northern turmoil is yet another ripple in the endless feuds of the steppe. But such ripples, if left to grow, have a way of becoming storms—and storms travel fast across open land."
+ cr_kazakh_events.63.flavour: "The troubles of the north are like dust on the wind—easy to ignore until they reach your eyes."
+
+ cr_kazakh_events.63.t_recognised: "A New Power in the North"
+ cr_kazakh_events.63.desc_recognised: "The steppe no longer murmurs—it speaks with a single voice. The Kazakh clans have sworn allegiance to [SCOPE.sCharacter('kenesary_scope').GetFirstName], now recognised by the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] as [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]. The lands between the Syr Darya and the northern plains, once a patchwork of feuding tribes, now march to his will.\n\nWhether his rise brings new order or new ruin remains to be seen—but the winds that carry his name blow ever closer to Bukhara."
+ cr_kazakh_events.63.flavour_recognised: "Between the steppe and the city, the space for peace grows thin."
+ 
+ cr_kazakh_events.64.t: "A Khan Rises on the Steppe"
+ cr_kazakh_events.64.desc: "Dispatches from the Asian frontier speak of renewed unrest among the Kazakh tribes. A leader named [SCOPE.sCharacter('kenesary_scope').GetFirstName] has proclaimed himself [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle], uniting the scattered clans in resistance against [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] encroachment.\n\nThe affair is, for now, a distant concern—but it stirs the balance of power across Central Asia. In the shifting sands between empire and steppe, even a local revolt can redraw the map."
+ cr_kazakh_events.64.flavour: "From the deserts of Turkestan to the snows of Siberia, small fires have a way of spreading far."
+
+ cr_kazakh_events.64.t_recognised: "The Steppe Crowned"
+ cr_kazakh_events.64.desc_recognised: "Reports from the frontier confirm that [SCOPE.sCharacter('kenesary_scope').GetFirstName], long a thorn in the side of [SCOPE.sCountry('russia_scope').GetNameNoFlag], has been formally recognised by them as [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]. His dominion now stretches across much of the Kazakh steppe, offering both stability and strength to a region long fractured.\n\nObservers in our chancery note that the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFormatting] seem content to crown their rebel rather than crush him—a curious choice, and perhaps a telling one."
+ cr_kazakh_events.64.flavour_recognised: "Empires often make peace with the men they cannot easily destroy."
+
+ 
+ #Generic
+ cr_kazakh_events.65.t: "Whispers of a Steppe Khan"
+ cr_kazakh_events.65.desc: "Reports from the northern steppe speak of a Kazakh leader who has bound the once-fractious clans beneath his banner. Calling himself [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle], [SCOPE.sCharacter('kenesary_scope').GetFirstName] proclaims resistance against [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] rule and vows to restore the old order of the steppe.\n\nThough his reach is distant, his name travels swiftly—carried by merchants, herders, and the wind itself. Whether this is but another fleeting rebellion or the beginning of something greater remains uncertain."
+ cr_kazakh_events.65.flavour: "The steppe has a way of birthing men who make empires tremble, if only for a season."
+ cr_kazakh_events.65.t_recognised: "The Steppe Unites"
+ cr_kazakh_events.65.desc_recognised: "The Kazakh clans, long divided, now stand united under [SCOPE.sCharacter('kenesary_scope').GetFirstName], newly recognised by the [SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag] as [SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]. His authority stretches across the northern plains, and the restless tribes of Central Asia speak his name with a mix of hope and fear.\n\nFrom afar, his rise seems but a distant tremor—but such tremors have a way of shaking even the strongest foundations."
+ cr_kazakh_events.65.flavour_recognised: "When the steppe gathers beneath one banner, the whole horizon seems to move."
+ 
+ 
+ ##Bukey Horde Events
+ cr_bukey_events.1.t: "The Poet’s Reproach"
+ cr_bukey_events.1.desc: "The steppe is uneasy. What began as scattered murmurs among the herders has grown into a dangerous chorus—complaints of seized pastureland, rising taxes, and favoritism at court. Our modernization efforts, meant to strengthen the Horde, have instead deepened inequality and alienated much of the nomadic population.\n\nNow, resistance is coalescing around [SCOPE.sCharacter('isatai_taymanuly').GetFullName] and [SCOPE.sCharacter('mahambet_utemisov').GetFullName] —one a dispossessed clan leader, the other a poet turned agitator. Their calls for justice have struck a chord, and what began as a plea for reform is quickly turning into a revolt that threatens the Khan’s rule."
+ cr_bukey_events.1.flavour: "To those who trample our pastures with foreign boots,\nTo those who trade freedom for favor—\nYou may sit in your mansions, but we have the steppe."
+ cr_bukey_events.1.a: "Ask the Tsar for help"
+ cr_bukey_events.1.b: "No need to trouble our overlords"
+ cr_bukey_events.1.b_tt: "We will deal with [SCOPE.sCharacter('isatai_taymanuly').GetFullName] and [SCOPE.sCharacter('mahambet_utemisov').GetFullName] on our own."
+ 
+ cr_bukey_events.2.t: "The Poet’s Reproach"
+ cr_bukey_events.2.desc: "Word has arrived from [SCOPE.sCharacter('bukey_khan_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('bukey_khan_scope').GetFullName] of the [SCOPE.sCountry('bukey_scope').GetName] that his authority is being challenged by two agitators—[SCOPE.sCharacter('isatai_taymanuly').GetFullName], a prominent noble, and the poet [SCOPE.sCharacter('mahambet_utemisov').GetFullName]—who have stirred unrest over land seizures and taxation. Faced with rebellion he requests our support to maintain the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]'s rule.\n\nThe Khan’s loyalty to us has never wavered, but his reforms have angered many. Now his enemies threaten to topple him entirely. Intervention offers an opportunity to reinforce our influence over the steppe—but also risks inflaming resentment if handled poorly."
+ cr_bukey_events.2.flavour: "I did not raise my sword to take the Khan’s place, I raised it so no Kazakh need kneel again."
+ cr_bukey_events.2.a: "Dispatch Cossacks to restore order."
+ cr_bukey_events.2.b: "If [SCOPE.sCharacter('bukey_khan_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('bukey_khan_scope').GetFirstNameNoFormatting] wants to reign he will need to learn to rule."
+ cr_bukey_events.2.b2: "Offer advisors and arms, but let the Khan fight his own war."
+ cr_bukey_events.2.c: "Let the Khan fall—then sweep in to restore stability."
+ 
+ cr_bukey_events.4.t: "The Passing of the Steppe"
+ cr_bukey_events.4.desc: "News has come from the steppes between the Volga and Ural: Khan [SCOPE.sCharacter('last_bukey_sultan').GetFirstName], ruler of the [SCOPE.sCharacter('last_bukey_sultan').GetCountry.GetName], is dead. Educated, refined, and loyal to the Empire, Zhangir sought to bring order and learning to his people. He built schools, traded freely, and sought to curb the old tribal ways. Yet in doing so he nearly lost his throne—when the banner of rebellion was raised against his reforms, a reminder that change is not always welcomed on the steppe.\n\nNow the horde lies leaderless and uncertain. Some see little reason to preserve its old autonomy; others urge caution, fearing unrest should the Empire’s hand press too heavily."
+ cr_bukey_events.4.flavour: "The khan’s palace stands silent over the Ural sands; its gates open to the wind and to history alike."
+ cr_bukey_events.4.t_old: "The Last Bukey Sultan"
+ cr_bukey_events.4.desc_old: "Once, the steppes between the Volga and the Ural echoed with the migrations of countless nomadic hordes. Those journeys ended only in the last century, when such movements were forbidden for the strain they placed upon our Bashkir subjects. Yet the border proved porous, and 'illegal' crossings continued for years, leaving much of the land empty and untamed.\n\nIt was only in 1801 that Sultan Bukey, granted permission to settle with some 7,500 families, brought life back to these desolate plains. Now, with the death of the Bukey Sultan, that chapter comes to an end. By the pledge of fealty under which they once settled, the Bukey lands may rightfully return to direct imperial administration."
+ cr_bukey_events.4.flavour_old: "Another frontier lord passes into history, and with him the last trace of the old steppe order."
+ cr_bukey_events.4.a: "Reclaim the Bukey lands for the Empire."
+ cr_bukey_events.4.b: "Permit the Horde to choose a successor."

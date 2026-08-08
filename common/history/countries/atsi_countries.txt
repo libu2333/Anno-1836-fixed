@@ -1,0 +1,129 @@
+﻿COUNTRIES = {
+	#effect works, otherwise not really functional including them in same file. doing to prevent initial law errors
+	#c:TRSI ?= {
+	#	effect_starting_politics_traditional = yes
+	#}
+	c:I01 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I02 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I03 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I04 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I05 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I06 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I07 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I08 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I09 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I10 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I11 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I12 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I13 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I14 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I15 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I16 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I17 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I18 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I19 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I20 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	#c:I21 ?= {
+	#	effect_starting_politics_traditional = yes
+	#}
+	c:I22 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I23 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I24 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I25 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I26 ?= {
+		effect_starting_politics_traditional = yes
+	}
+#	c:I27 ?= {
+#		effect_starting_politics_traditional = yes
+#	}
+	c:I28 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I29 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I30 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I31 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I32 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I33 ?= {
+		effect_starting_politics_traditional = yes
+	}
+#	c:I34 ?= {
+#		effect_starting_politics_traditional = yes
+#	}
+	c:I35 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I36 ?= {
+		effect_starting_politics_traditional = yes
+	}
+#	c:I37 ?= {
+#		effect_starting_politics_traditional = yes
+#	}
+	c:I39 ?= {
+		effect_starting_politics_traditional = yes
+	}
+	c:I40 ?= {
+		effect_starting_politics_traditional = yes
+	}
+#	c:I41 ?= {
+#		effect_starting_politics_traditional = yes
+#	}
+	c:I42 ?= {
+		effect_starting_politics_traditional = yes
+	}
+}

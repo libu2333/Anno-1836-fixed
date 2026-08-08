@@ -1,0 +1,59 @@
+﻿POPULATION = {
+	c:NET ?= {
+		effect_starting_pop_wealth_very_high = yes
+		#effect_starting_pop_literacy_very_high = yes
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = {
+					value = 0.6
+					# Professions requiring reading at 100%
+					if = {
+						limit = {
+							OR = {
+								is_pop_type = bureaucrats
+								is_pop_type = academics
+								is_pop_type = clergymen
+								is_pop_type = engineers
+							}
+						}
+						add = 0.2
+					}
+					# Upper Class pops at 95%
+					if = {
+						limit = {
+							strata = upper
+						}
+						add = 0.15
+					}
+					# Professions where reading is important at 90%
+					if = {
+						limit = {
+							OR = {
+								is_pop_type = clerks
+								is_pop_type = shopkeepers
+							}
+						}
+						add = 0.1
+					}
+					# Subsistence farmers at 70% base
+					if = {
+						limit = {
+							OR = {
+								pop_employment_building_group = bg_subsistence_agriculture
+								pop_employment_building_group = bg_subsistence_ranching
+							}
+						}
+						add = -0.1
+					}
+					# People in Unincorporated territories at half
+					if = {
+						limit = {
+							state = { is_incorporated = no }
+						}
+						multiply = 0.5
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,129 @@
+﻿geographic_region_africa = {
+	short_key = "africa"
+
+	strategic_regions = {
+		sr:region_egypt
+		sr:region_nile_basin
+		sr:region_ethiopia
+		sr:region_north_africa
+		sr:region_senegal
+		sr:region_niger
+		sr:region_congo
+		sr:region_southern_africa
+		sr:region_zanj
+		sr:region_western_sahara
+		sr:region_eastern_sahara
+		sr:region_chad_basin
+		sr:region_biafra
+		sr:region_guinea
+		sr:region_african_lakes
+		sr:region_madagascar
+		sr:region_zambezia
+		sr:region_south_west_africa
+	}
+
+	state_regions = {
+		STATE_RED_SEA_COAST
+		STATE_EASTERN_DESERT
+		STATE_ERITREA
+	}
+}
+
+geographic_region_subsaharan_africa = {
+	short_key = "subsaharan_africa"
+
+	strategic_regions = {
+		sr:region_nile_basin
+		sr:region_ethiopia
+		sr:region_senegal
+		sr:region_niger
+		sr:region_congo
+		sr:region_southern_africa
+		sr:region_zanj
+		sr:region_chad_basin
+		sr:region_biafra
+		sr:region_guinea
+		sr:region_african_lakes
+		sr:region_madagascar
+		sr:region_zambezia
+		sr:region_south_west_africa
+	}
+}
+
+geographic_region_north_africa = {
+	short_key = "north_africa"
+
+	strategic_regions = {
+		sr:region_north_africa
+		sr:region_egypt
+	}
+
+	state_regions = {
+		STATE_RED_SEA_COAST
+		STATE_EASTERN_DESERT
+		STATE_ERITREA
+	}
+}
+
+geographic_region_north_africa_egypt = {
+	short_key = "north_africa_egypt"
+
+	strategic_regions = {
+		sr:region_north_africa
+		sr:region_western_sahara
+		sr:region_eastern_sahara
+		sr:region_egypt
+	}
+
+	state_regions = {
+		STATE_RED_SEA_COAST
+	}
+}
+
+geographic_region_south_africa = {
+	short_key = "south_africa"
+
+	strategic_regions = {
+		sr:region_southern_africa
+	}
+}
+
+geographic_region_west_africa = {
+	short_key = "west_africa"
+
+	strategic_regions = {
+		sr:region_senegal
+		sr:region_niger
+		sr:region_guinea
+	}
+}
+
+geographic_region_angola = {
+	short_key = "angola"
+
+	state_regions = {
+		STATE_BENGUELA
+		STATE_ANGOLA
+		STATE_BUNDALAND
+	}
+}
+
+geographic_region_mozambique = {
+	short_key = "mozambique"
+
+	state_regions = {
+		STATE_MOCAMBIQUE
+		STATE_SOFALA
+		STATE_LOURENCO_MARQUES
+	}
+}
+
+geographic_region_zambezi_basin = {
+	short_key = "zambezi_basin"
+
+	state_regions = {
+		STATE_KAZEMBE
+		STATE_ZAMBIA
+		STATE_ZAMBEZI
+	}
+}

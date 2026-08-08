@@ -1,0 +1,8 @@
+﻿l_english:
+ cr_carlist_events.98.t:0 "Ideology Selector"
+ cr_carlist_events.98.desc:0 "For testing purposes"
+ cr_carlist_events.98.flavour:0 "If only real life was so easy."
+ cr_carlist_events.1.orleanist:0 "Switch to Orleanist"
+ cr_carlist_events.1.legitimist:0 "Switch to Legitimist"
+ cr_carlist_events.1.bonapartist:0 "Switch to Bonapartist"
+ cr_carlist_events.1.republic:0 "Switch to republic"

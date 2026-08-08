@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:EZO = {
+		create_character = {
+			# Actually, chief of Kusiri (Kushiro, Hokkaido)
+			first_name = AHR_Menkakush
+			last_name = AHR_Kusiri
+			home_region = STATE_HOKKAIDO
+			historical = yes
+			culture = cu:ainu
+			ruler = yes
+			birth_date = 1780.1.1
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				basic_diplomat
+			}
+		}	
+	}
+}

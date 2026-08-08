@@ -1,0 +1,33 @@
+COUNTRIES = {
+	c:MNOOO = {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		
+		effect_starting_politics_reactionary = yes
+		activate_law = law_type:law_religious_schools
+	
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+	c:SRO = {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		
+		effect_starting_politics_reactionary = yes
+		activate_law = law_type:law_religious_schools
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+}

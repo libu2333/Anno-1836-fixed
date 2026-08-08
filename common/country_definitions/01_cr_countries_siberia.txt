@@ -1,0 +1,149 @@
+﻿#############################
+#							#
+#		   SIBERIA			#
+#							#
+#############################
+
+DLG = { #Dolgans
+	color = { 180 180 100 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { yakut }
+	capital = STATE_UPPER_YENISEYSK
+}
+
+EVK = { #Evenki 
+	color = { 11 115 39 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { Tungus ewen }
+	capital = STATE_YAKUTSK
+}
+
+EVN = { #Lamuts / Eveni 
+	color = { 50 50 120 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { Tungus }
+	capital = STATE_OKHOTSK
+}
+
+KMI = { #Komi
+	color = { 124 133 177 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { ugrian }	
+	capital = STATE_GALICH
+}
+
+KMD = { #Itelmens
+	color = { 21 101 254 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { siberian }	
+	capital = STATE_KAMCHATKA
+}
+
+KRJ = { #Koryak
+	color = { 147 150 111 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { siberian }	
+	capital = STATE_KAMCHATKA
+}
+
+KTY = { #Khanty
+	color = { 75 91 211 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { ugrian }	
+	capital = STATE_OB
+}
+
+LKP = { #Selkup
+	color = { 155 31 111 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { ugrian }	
+	capital = STATE_OB
+}
+
+NNT = { #Nenets
+	color = { 94 177 124 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { ugrian }	
+	capital = STATE_NENETSIA
+}
+
+NNY = { #Nanai
+	color = { 75 115 64 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { Tungus }	
+	capital = STATE_AMUR
+}
+
+NSI = { #Mansi
+	color = { 98 161 58 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { ugrian }	
+	capital = STATE_SURGUT
+}
+
+UDG = { #Udege
+	color = { 51 68 164 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { ker dawoer Tungus  }	
+	capital = STATE_OUTER_MANCHURIA
+}
+
+YKG = { # Yukaghir 
+	color = { 71 116 181 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { siberian }
+
+	capital = STATE_KOLYMA
+}

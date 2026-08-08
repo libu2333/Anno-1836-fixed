@@ -1,0 +1,46 @@
+﻿l_english:
+ #Native Removal
+ je_indian_removal: "The Indian Removal Act"
+ je_indian_removal_reason: "In response to the persistent encroachment of settlers on the lands of the #variable Five Civilized Tribes#! in the South, namely the [SCOPE.sCountry('cherokee_nation').GetNameNoFlag], [SCOPE.sCountry('chickasaw_nation').GetNameNoFlag], [SCOPE.sCountry('choctaw_nation').GetNameNoFlag], [SCOPE.sCountry('creek_nation').GetNameNoFlag], and [SCOPE.sCountry('seminole_nation').GetNameNoFlag], the Indian Removal Act has been implemented\n\nWhile in the North, indigenous populations have largely vanished, these tribes have remained resilient but increasingly vulnerable to the relentless march of progress. The Act provides a solution by compelling the tribes to relocate westward, beyond the Mississippi River.\n\nThis mandated evacuation aims to offer them a chance to preserve their way of life under self-rule in territories where their cultural practices and traditions can endure without the constant threat of settler encroachment, while ensuring the continued expansion of American settlement and prosperity."
+ je_indian_removal_resolve_the_chain: "Conclude the ongoing process of Removal either by stopping the proceedings or completing them."
+ je_indian_removal_end_0: "The #variable Five Civilized Tribes#! will have been forcably removed from their ancestoral lands at great cost of life."
+ je_indian_removal_end_1: "Their former territory east of the Mississippi will have been annexed and opened up for settlement."
+ je_indian_removal_end_2: "For each succesful removal the amount of arable land in the affected states will be increased."
+ je_indian_removal_end_3: "In addition [SCOPE.sState('state_of_georgia').GetName] will get a limited number of #variable gold fields#!, while [SCOPE.sState('state_of_alabama').GetName] will get a small #variable copper deposit#!"
+ 
+ #je_seminole_wars: "The Seminole War"
+ #je_seminole_wars_reason: ""
+ je_seminole_war_containment_policy: "Containment Policy"
+ je_seminole_war_containment_policy_desc: "We can switch our policy on the Seminole War to one of containment of the Seminole. This will reduce expenses while increasing security for settles."
+ je_seminole_war_containment_policy_tt: "This will decrease the chances of Seminole raids occuring."
+ je_seminole_war_forward_policy: "Forward Policy"
+ je_seminole_war_forward_policy_desc: "We can switch our policy on the Seminole War to one of aggressive rooting out of the Seminole, forcing them out of Florida by force of arms."
+ je_seminole_war_forward_policy_tt: "Periodically columns will be sent out into the swamps to try and find Seminole warbands and settlements. These can have #g positive#! and #r negative#! outcomes."
+ je_seminole_war_diplomatic_policy: "Diplomatic Policy"
+ je_seminole_war_diplomatic_policy_desc: "We can switch our policy on the Seminole War to one of diplomacy, trying to coax the Seminole out of hiding and persuade them to leave."
+ je_seminole_war_diplomatic_policy_tt: "Occassional chances to engage in diplomacy with the Seminole will ocurre, generally with #g positive#! outcomes."
+ 
+ je_seminole_war_policy_cooldown: "We haven't changed our policy for #variable 1 year#!"
+ je_seminole_war_policy_already_active: "This policy isn't currently active."
+ 
+ cr_indian_removal_clear_the_states_complete_tt_cherokee: "The #variable [SCOPE.sCountry('cherokee_nation').GetName] Removal#! has been completed"
+ cr_indian_removal_clear_the_states_complete_tt_chickasaw: "The #variable [SCOPE.sCountry('chickasaw_nation').GetName] Removal#! has been completed"
+ cr_indian_removal_clear_the_states_complete_tt_choctaw: "The #variable [SCOPE.sCountry('choctaw_nation').GetName] Removal#! has been completed"
+ cr_indian_removal_clear_the_states_complete_tt_creek: "The #variable [SCOPE.sCountry('creek_nation').GetName] Removal#! has been completed"
+ cr_indian_removal_clear_the_states_complete_tt_seminole: "The #variable [SCOPE.sCountry('seminole_nation').GetName] Removal#! has been completed"
+ indian_removal_end: "If the Removal is not prevented, the Cherokee people will be forced to migrate at great loss of life."
+ indian_removal_fail_tt: "No Cherokee [Concept('concept_pop', '$concept_pops$')] remain in the United States"
+ 
+ #The Age of Princes
+ je_age_of_princes: "The Zemene Mesafint"
+ je_age_of_princes_reason: "Ever since the days of Yekuno Amlak a descendent of Solomon and Sheba has sat on the throne of David. And so it is today. With the emperor reigning from his throne at Gondar. Reigning but not ruling. For since the assassination of Iyoas the throne has been occupied by weak emperors beholden to machinations of the Mesafint who install and depose them at will. The imperial provinces meanwhile have seen the rise of ambitious nobles who pay little heed to the puppet emperor at Gondar. And thus, with the prestige of the emperor at its nadir, the empire has entered the Zemene Mesafint: the Time of the Princes.\n\nThe most prominent of the Mesafint are the Wara Sheh -the Sons of the Sheik- who hold sway over Begemder and the imperial capital of Gondar. Hailing form northern Wello the Wara Sheh are -as their name implies- descendants of Muslim Oromo who have converted to Christianity. However the sincerity with which they hold to their new faith has been questioned by some, adding religious tension to an already frought situation. In the north the ambitious Wube has carved himself an empire out of the chaos which rivals the Wara Sheh in strength, and he seems poised to make a move for the throne. Yet his brutal methods has left him despised by his subjects and his vassals, who would not need but a spark to end Wube's ambitions. In the south Sahle Selassie, Lord of Shewa, has taken a different path. Mostly refraining from interfering in Imperial politics, he has instead put his energies to building his own realm, going as far as elevating himself to the rank of Negus -king. Yet his ambitions have been stiffled by famine and disease putting a heavy strain on the purse, while a conflict over doctrine is brewing threatening the unity of the Church.\n\nNow the empire stands at a crossroad; will the differing ambitions of the Mesafint cause a permanent breakup? Or will someone rise who can restore the prestige of the emperor and bring the princes to heel?"
+ 
+ #je_acw_countdown_reason:1 "The one issue that the Founding Fathers of our great nation were never able to answer conclusively, was the question concerning the status of slavery within the union. This inflamed debate has only gained traction in the years since the revolution, and it is presently the singular most important issue on our country's political agenda. With polarisation rising and compromise an ever more distant prospect, there are those that argue secession is the only alternative to being dominated into emancipation by the central power in Washington. Sooner or later, the arguments will stop being made with words and start being made with bullets."
+ 
+ amazonas.2.t_2: "Treaty of Iquitos"
+ 
+ native_resettlement.5.d: "The arduous task of removing the #variable Five Civilized Tribes#! to [SCOPE.sCountry('cherokee_nation').GetCapital.GetStateRegion.GetName] has been successfully concluded.\n\nThrough diligent efforts and concerted resources, the matter, however contentious, has been resolved. Whether viewed as a triumph of policy or a necessary step towards progress, the deed is done, and history shall judge its outcome. The lands are now open for settlement and development, marking a new chapter in our expansion."
+ native_resettlement.5.desc_2: "The removal of the #variable Five Civilized Tribes#! to [SCOPE.sCountry('cherokee_nation').GetCapital.GetStateRegion.GetName] has been completed. For good or for worse, the matter is settled."
+ 
+ je_pacify_the_steppes: "Taming the Steppes"
+ je_pacify_the_steppes_reason: "Beyond the orderly provinces of European Russia lies a vast, windswept frontier—open grasslands stretching endlessly toward the sun-scorched mountains of Central Asia. This is the Kazakh steppe: a sea of motion and silence, unmarked by borders and unyielding to law.\n\nFor over a century, the empire has pressed against its edges. Fortresses have risen, treaties signed, and punitive expeditions launched. Cossack hosts, loyal in name but often wild in conduct, ride its plains and guard its outposts—half-settlers, half-warriors. And yet, true control remains elusive. The steppe is no province, no crown land—it is a living expanse, shaped by the migrations of nomads, the rivalries of khans, and the constant drift of men and herds across open space.\n\nTo tame this frontier is no simple conquest. Roads vanish in the grasses. Tribute is given where taxes cannot be levied. Raiders ride faster than regiments can march. Every outpost built must be supplied, every agreement enforced by presence, not promise.\n\nBut if the empire is to reach the storied cities of Central Asia—Khiva, Bukhara, Kokand—this wilderness must first be subdued. No rail will ever run to Samarkand unless a road is first beaten through the steppe. The question is not whether the steppe should be pacified. It is how much we are willing to spend—in men, rubles, and resolve—to do so."

@@ -1,0 +1,140 @@
+namespace = cr_federation
+
+cr_federation.1 = { 
+	type = country_event
+	placement = ROOT.capital
+
+	title = cr_federation.1.t
+	desc = cr_federation.1.d
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	immediate = {
+		overlord = {
+			save_scope_as = new_leader
+		}
+	}
+
+	option = { 
+		name = cr_federation.1.a
+		default_option = yes
+		hidden_effect = {
+			if = {
+				limit = {
+					has_variable = ARG_leader
+				}
+				remove_variable = ARG_leader
+				set_variable = ARG_federation
+			}
+			else = {
+				remove_variable = SWI_leader
+				set_variable = SWI_federation
+			}
+		}
+	}
+
+	option = { 
+		name = cr_federation.1.b
+		trigger = {
+			is_ai = no
+		}
+		create_diplomatic_play = {
+			target_country = scope:new_leader
+			war = yes
+			add_war_goal = {
+				holder = ROOT
+				type = independence
+				target_country = scope:new_leader
+			}
+		}
+	}
+}
+
+cr_federation.2 = { 
+	type = country_event
+	placement = ROOT.capital
+
+	title = cr_federation.2.t
+	desc = cr_federation.2.d
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	immediate = {
+		overlord = {
+			save_scope_as = leader
+		}
+	}
+
+	option = { 
+		name = cr_federation.2.a
+		default_option = yes
+		scope:leader = { id = cr_fedaration.3 days = 3 }
+	}
+
+	option = { 
+		name = cr_federation.2.b
+		create_diplomatic_play = {
+			target_country = scope:leader
+			war = yes
+			add_war_goal = {
+				holder = ROOT
+				type = independence
+				target_country = scope:leader
+			}
+			add_war_goal = {
+				holder = scope:leader
+				type = annex_country
+			}
+		}
+	}
+}
+
+cr_federation.3 = {
+	type = country_event
+	placement = ROOT.capital
+
+	title = cr_federation.3.t
+	desc = cr_federation.3.d
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	option = {
+		name = cr_federation.3.a
+		default_option = yes
+		annex = scope:consolidated_member
+		add_modifier = {
+			name = cr_consolidated_member
+			years = 1
+		}
+	}
+}

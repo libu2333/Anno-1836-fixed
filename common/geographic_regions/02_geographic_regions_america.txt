@@ -1,0 +1,314 @@
+﻿geographic_region_north_america = {
+	short_key = "north_america"
+
+	strategic_regions = {
+		sr:region_canada
+		sr:region_ruperts_land
+		sr:region_new_england
+		sr:region_pacific_coast
+		sr:region_great_plains
+		sr:region_the_midwest
+		sr:region_dixie
+		sr:region_california
+	}
+}
+
+geographic_region_central_america = {
+	short_key = "central_america"
+
+	strategic_regions = {
+		sr:region_mexico
+		sr:region_central_america
+		sr:region_caribbean
+	}
+}
+
+geographic_region_south_america = {
+	short_key = "south_america"
+
+	strategic_regions = {
+		sr:region_brazil
+		sr:region_la_plata
+		sr:region_patagonia
+		sr:region_andes
+		sr:region_gran_colombia
+		sr:region_guayana
+		sr:region_amazon
+	}
+}
+
+geographic_region_americas = {
+	short_key = "americas"
+
+	strategic_regions = {
+		#geographic_region_north_america
+		sr:region_canada
+		sr:region_ruperts_land
+		sr:region_new_england
+		sr:region_pacific_coast
+		sr:region_great_plains
+		sr:region_the_midwest
+		sr:region_dixie
+		sr:region_california
+
+		#geographic_region_central_america
+		sr:region_mexico
+		sr:region_central_america
+		sr:region_caribbean
+
+		#geographic_region_south_america
+		sr:region_brazil
+		sr:region_la_plata
+		sr:region_patagonia
+		sr:region_andes
+		sr:region_gran_colombia
+		sr:region_guayana
+		sr:region_amazon
+	}
+}
+
+geographic_region_peru = {
+	short_key = "peru"
+
+	state_regions = {
+		STATE_PASTAZA
+		STATE_CAJAMARCA
+		STATE_LIMA
+		STATE_ICA
+		STATE_AREQUIPA
+		STATE_TARAPACA
+		STATE_PASTAZA
+	}
+}
+
+geographic_region_bolivia = {
+	short_key = "bolivia"
+
+	state_regions = {
+		STATE_SANTA_CRUZ
+		STATE_LA_PAZ
+		STATE_POTOSI
+		STATE_JUJUY
+		STATE_ACRE
+		STATE_ANTOFAGASTA
+	}
+}
+
+# Spanish New World Georegions
+
+geographic_region_colonial_new_spain = {
+	short_key = "colonial_new_spain"
+
+	strategic_regions = {
+	 	# Mexico
+		sr:region_mexico
+	}
+
+	state_regions = {
+		STATE_BAJA_CALIFORNIA
+		# Central America
+		STATE_YUCATAN
+		STATE_CHIAPAS
+		STATE_GUATEMALA
+		STATE_NICARAGUA
+		STATE_SAN_SALVADOR
+		STATE_HONDURAS
+		STATE_COSTA_RICA
+		# USA
+		STATE_CALIFORNIA
+		STATE_ARIZONA
+		STATE_UTAH
+		STATE_NEW_MEXICO
+		STATE_TEXAS
+		STATE_COLORADO
+		STATE_NEVADA
+	}
+}
+
+geographic_region_colonial_new_grenada = {
+	short_key = "colonial_new_grenada"
+
+	strategic_regions = {
+	 	# Mexico
+		sr:region_gran_colombia
+	}
+
+	state_regions = {
+		# Central America Region
+		STATE_PANAMA
+		# Andes Region
+		STATE_ECUADOR
+		STATE_PASTAZA
+	}
+}
+
+geographic_region_colonial_peru = {
+	short_key = "colonial_peru"
+
+	state_regions = {
+		# Andes Region
+		STATE_CAJAMARCA
+		STATE_LIMA
+		STATE_ACRE
+		STATE_ICA
+		STATE_AREQUIPA
+		STATE_TARAPACA
+		# Chile
+		STATE_SANTIAGO
+		STATE_LOS_RIOS
+		# Amazon Region
+		STATE_PASTAZA
+	}
+}
+
+geographic_region_colonial_la_plata = {
+	short_key = "colonial_la_plata"
+
+	state_regions = {
+		# La Plata Region
+		STATE_BUENOS_AIRES
+		STATE_SANTA_FE
+		STATE_CORRIENTES
+		STATE_CHACO
+		STATE_ALTO_PARAGUAY
+		STATE_BAJO_PARAGUAY
+		STATE_LA_PAMPA
+		STATE_TUCUMAN
+		STATE_RIO_NEGRO
+		STATE_PATAGONIA
+		STATE_ARAUCANIA
+		STATE_NANJI
+		STATE_SOUTH_ATLANTIC_ISLANDS
+		STATE_CUYO
+		# Andes Region
+		STATE_SANTA_CRUZ
+		STATE_JUJUY
+		STATE_ANTOFAGASTA
+		STATE_POTOSI
+		STATE_LA_PAZ
+		# Brazil Region
+		STATE_URUGUAY
+		STATE_RIO_GRANDE_DO_SUL
+	}
+}
+
+geographic_region_andean_federation = {
+	short_key = "andean_federation"
+
+	strategic_regions = {
+		sr:region_andes
+		sr:region_gran_colombia
+		sr:region_la_plata
+	}
+}
+
+geographic_region_brazil = {
+	short_key = "brazil"
+
+	strategic_regions = {
+		sr:region_brazil
+	}
+	
+	
+	state_regions = {
+		STATE_AMAZONAS 
+		STATE_ACRE 
+		STATE_GOIAS 
+		STATE_MATO_GROSSO 
+		STATE_PARA 
+	}
+}
+
+
+geographic_region_amazon = {
+	short_key = "amazon"
+
+	strategic_regions = {
+		sr:region_amazon
+	}
+}
+
+geographic_region_northern_mexico = {
+	short_key = "northern_mexico"
+
+	state_regions = {
+		STATE_TEXAS
+		STATE_ARIZONA
+		STATE_NEW_MEXICO
+		STATE_COLORADO
+		STATE_UTAH
+		STATE_CALIFORNIA
+		STATE_NEVADA
+	}
+}
+
+geographic_region_latin_america = {
+	short_key = "latin_america"
+
+	strategic_regions = {
+		sr:region_brazil
+		sr:region_guayana
+		sr:region_la_plata
+		sr:region_andes
+		sr:region_gran_colombia
+		sr:region_central_america
+		sr:region_patagonia
+		sr:region_caribbean
+		sr:region_amazon
+	}
+}
+
+geographic_region_greater_canada = {
+	short_key = "greater_canada"
+
+	strategic_regions = {
+		sr:region_canada
+		sr:region_ruperts_land
+	}
+
+	state_regions = {
+		STATE_BRITISH_COLUMBIA
+		STATE_ALBERTA
+		STATE_SASKATCHEWAN
+		STATE_YUKON_TERRITORY
+		STATE_NEW_BRUNSWICK
+		STATE_WASHINGTON
+		STATE_IDAHO
+		STATE_OREGON
+	}
+}
+
+geographic_region_north_andes = { # North Andean homelands
+	short_key = "north_andes"
+
+	state_regions = {
+		STATE_ECUADOR
+		STATE_ZULIA
+		STATE_MIRANDA
+		STATE_BOLIVAR
+		STATE_ANTIOQUIA
+		STATE_GUAVIARE
+		STATE_CUNDINAMARCA
+		STATE_CAUCA
+	}
+}
+
+geographic_region_southern_cone = {
+	short_key = "southern_cone"
+
+	state_regions = {
+		STATE_URUGUAY
+		STATE_ALTO_PARAGUAY
+		STATE_BAJO_PARAGUAY
+		STATE_BUENOS_AIRES
+		STATE_RIO_NEGRO
+		STATE_LA_PAMPA
+		STATE_SANTA_FE
+		STATE_CORRIENTES
+		STATE_TUCUMAN
+		STATE_CHACO
+		STATE_JUJUY
+		STATE_CUYO
+		STATE_MISIONES
+	}
+}

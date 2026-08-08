@@ -1,0 +1,440 @@
+﻿
+ideology_frontier_expansionist_leader_cr = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_frontier_expansionist.dds"
+	
+	show_in_list = no
+	
+	character_ideology = yes
+
+	lawgroup_colonization = {		
+		law_no_colonial_affairs = disapprove
+		law_colonial_resettlement = neutral
+		law_frontier_colonization = strongly_approve
+		law_colonial_exploitation = neutral
+	}
+
+	lawgroup_land_reform = {
+		law_serfdom = neutral
+		law_tenant_farmers = strongly_disapprove
+		law_homesteading = strongly_approve
+		law_collectivized_agriculture = disapprove
+		law_commercialized_agriculture = neutral
+	}
+	
+	interest_group_leader_trigger = {
+		always = no
+	}
+
+	non_interest_group_leader_trigger = {
+		NOT = { has_role_of_type = agitator }
+	}
+	
+	interest_group_leader_weight = {
+		value = 0
+	}
+	
+	non_interest_group_leader_weight = {
+		value = 0
+	}
+}
+
+ideology_federalist_leader = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_positivist.dds"
+	
+	character_ideology = yes
+
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = strongly_disapprove
+		law_appointed_bureaucrats = strongly_approve
+		law_elected_bureaucrats = approve
+	}
+	
+	lawgroup_governance_principles = {
+		law_presidential_republic = disapprove
+		law_parliamentary_republic = approve
+		law_corporate_state = neutral
+		law_monarchy = disapprove
+		law_council_republic = neutral
+	}
+
+	lawgroup_army_model = {
+		law_national_militia = strongly_approve
+		law_mass_conscription = approve
+		law_peasant_levies = neutral
+		law_professional_army = strongly_disapprove
+	}
+
+	country_trigger = {
+		c:MEX ?= this
+	}
+	
+	interest_group_leader_trigger = {
+		ideology_radical_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role_of_type = agitator
+			owner = {
+				has_law_or_variant = law_type:law_appointed_bureaucrats
+				has_law_or_variant = law_type:law_parliamentary_republic
+				has_law_or_variant = law_type:law_national_militia
+			}
+		}
+	}
+	
+	interest_group_leader_weight = {
+		value = 125	#Mexicans should gravitate towards it
+		if = {
+			limit = {
+				NOT = {
+					has_variable = cr_centralist_federalist_struggle
+				}
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_trade_unions
+				}
+			}
+			add = 30
+		}
+		# less likely for IG's profiting from a centralised nation
+		if = {
+			limit = {
+				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_petty_bourgeoisie
+			}
+			add = -30
+		}
+
+		# more likely for characters if government legitimacy is high while under federalist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy > 75
+					has_law_or_variant = law_type:law_appointed_bureaucrats
+				}
+			}
+			add = 50
+		}
+
+		# less likely for characters if government legitimacy is low while under federalist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy < 50
+					has_law_or_variant = law_type:law_appointed_bureaucrats
+				}
+			}
+			add = -20
+		}
+
+		# more likely for characters if government legitimacy is low while under centralist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy < 50
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = 20
+		}
+		
+		#more likely for powerful industrialists when landowers are weak
+		if = {
+			limit = {
+				is_interest_group_type = ig_industrialists
+				is_powerful = yes
+				owner = {
+					exists = ig:ig_landowners 
+					ig:ig_landowners = {
+						is_powerful = no
+					}
+				}
+			}
+			add = 25
+		}
+	}
+	
+	non_interest_group_leader_weight = {
+		value = 125	#Mexicans should gravitate towards it
+		if = {
+			limit = {
+				NOT = {
+					has_variable = cr_centralist_federalist_struggle
+				}
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add = 30
+		}
+		# less likely for progressive IG's
+		if = {
+			limit = {
+				is_interest_group_type = ig_trade_unions
+			}
+			add = -50
+		}
+
+		# more likely for characters if government legitimacy is high while under centralist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy > 75
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = 50
+		}
+
+		# less likely for characters if government legitimacy is low while under centralist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy < 50
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = -20
+		}
+
+		# less likely for characters if government legitimacy is high while under federalist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy < 50
+					has_law_or_variant = law_type:law_appointed_bureaucrats
+				}
+			}
+			add = -20
+		}
+
+		# more likely for powerful industrialists when landowers are weak
+		if = {
+			limit = {
+				is_interest_group_type = ig_industrialists
+				is_powerful = yes
+				owner = {
+					exists = ig:ig_landowners 
+					ig:ig_landowners = {
+						is_powerful = no
+					}
+				}
+			}
+			add = 25
+		}
+	}
+}
+
+ideology_centralist_leader = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_stratocratic.dds"
+	
+	character_ideology = yes
+
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = strongly_approve
+		law_appointed_bureaucrats = strongly_disapprove
+		law_elected_bureaucrats = strongly_disapprove
+	}
+	
+	lawgroup_governance_principles = {
+		law_presidential_republic = strongly_approve
+		law_parliamentary_republic = disapprove
+		law_corporate_state = neutral
+		law_monarchy = approve
+		law_theocracy = neutral	
+		law_council_republic = strongly_disapprove
+	}
+
+	lawgroup_army_model = {
+		law_national_militia = strongly_disapprove
+		law_mass_conscription = neutral
+		law_peasant_levies = strongly_disapprove
+		law_professional_army = approve
+	}
+
+	country_trigger = {
+		c:MEX ?= this
+	}
+	
+	interest_group_leader_trigger = {
+		ideology_traditionalist_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role_of_type = agitator
+			owner = {
+				has_law_or_variant = law_type:law_hereditary_bureaucrats
+				has_law_or_variant = law_type:law_presidential_republic
+				has_law_or_variant = law_type:law_professional_army
+			}
+		}
+	}
+	
+	interest_group_leader_weight = {
+		value = 125	#Mexicans should gravitate towards it
+		if = {
+			limit = {
+				NOT = {
+					has_variable = cr_centralist_federalist_struggle
+				}
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add = 20
+		}
+		# less likely for progressive IG's
+		if = {
+			limit = {
+				is_interest_group_type = ig_trade_unions
+			}
+			add = -50
+		}
+
+		# more likely for characters if government legitimacy is high while under centralist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy > 75
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = 50
+		}
+
+		# less likely for characters if government legitimacy is low while under centralist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy < 50
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = -20
+		}
+
+		# less likely for characters if government legitimacy is high while under federalist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy > 75
+					has_law_or_variant = law_type:law_appointed_bureaucrats
+				}
+			}
+			add = -20
+		}
+
+		# more likely for weaker industrialists when landowers are powerful
+		if = {
+			limit = {
+				is_interest_group_type = ig_industrialists
+				is_powerful = no
+				owner = {
+					exists = ig:ig_landowners 
+					ig:ig_landowners = {
+						is_powerful = yes
+					}
+				}
+			}
+			add = 50
+		}
+	}
+	
+	non_interest_group_leader_weight = {
+		value = 125	#Mexicans should gravitate towards it
+		if = {
+			limit = {
+				NOT = {
+					has_variable = cr_centralist_federalist_struggle
+				}
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_devout
+				}
+			}
+			add = 20
+		}
+		# less likely for progressive IG's
+		if = {
+			limit = {
+				is_interest_group_type = ig_trade_unions
+			}
+			add = -50
+		}
+
+		# more likely for characters if government legitimacy is high while under centralist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy > 75
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = 50
+		}
+
+		# less likely for characters if government legitimacy is low while under centralist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy < 50
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = -20
+		}
+
+		# less likely for characters if government legitimacy is high while under federalist rule
+		if = {
+			limit = {
+				owner = {
+					government_legitimacy > 75
+					has_law_or_variant = law_type:law_appointed_bureaucrats
+				}
+			}
+			add = -20
+		}
+
+		# more likely for weaker industrialists when landowers are powerful
+		if = {
+			limit = {
+				is_interest_group_type = ig_industrialists
+				is_powerful = no
+				owner = {
+					exists = ig:ig_landowners 
+					ig:ig_landowners = {
+						is_powerful = yes
+					}
+				}
+			}
+			add = 50
+		}
+	}
+}

@@ -1,0 +1,83 @@
+﻿# Werkspoor
+company_solvay = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/belgium_solvay_modern.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	
+	flavored_company = yes
+	
+	preferred_headquarters = { STATE_WALLONIA STATE_FLANDERS }
+	
+	building_types = {  
+		building_chemical_plant
+	}
+
+	extension_building_types = {
+		building_explosives_factory
+		building_synthetics_plant
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_western_europe
+	}
+	
+	attainable = {
+		has_technology_researched = nitroglycerin
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				OR = {
+					state_region = s:STATE_WALLONIA
+					state_region = s:STATE_FLANDERS			
+				}
+			}
+		}
+	}	
+	
+	possible = {
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_WALLONIA
+				state_region = s:STATE_FLANDERS			
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_explosives_factory
+					is_building_type = building_chemical_plant				
+				}
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_paper_mill_throughput_add = 0.1
+		building_glassworks_throughput_add = 0.1
+	}	
+
+	ai_will_do = {
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_WALLONIA
+				state_region = s:STATE_FLANDERS			
+			}
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_chemical_plant = {
+			level = 5
+			state_trigger = {
+				OR = {
+					state_region = s:STATE_SUZHOU
+					state_region = s:STATE_ZHEJIANG
+					state_region = s:STATE_NANJING
+				}
+			}
+		}
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}

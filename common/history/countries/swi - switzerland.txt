@@ -1,0 +1,1131 @@
+COUNTRIES = {
+		c:VIS ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:BEX ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_leader
+		}
+		c:BSL ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:SRNN ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:GLA ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:ZUG ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:SCZ ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:LNE ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:AAU ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:ZUR ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:SHU ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:GLL ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:THUU ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:API ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:APA ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:OBW ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:NID ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:URI ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:NTL ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:VAU ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:FRI ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:GVA ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:GRSS ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+
+			set_variable = SWI_federation
+		}
+		c:TIC ?= {	
+			effect_starting_technology_tier_2_tech = yes
+   if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+			add_technology_researched = dialectics	
+			
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_freedom_of_conscience
+			activate_law = law_type:law_census_voting
+			activate_law = law_type:law_national_supremacy
+			activate_law = law_type:law_mercantilism
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_migration_controls
+			activate_law = law_type:law_right_of_assembly		
+			activate_law = law_type:law_per_capita_based_taxation
+			activate_law = law_type:law_religious_schools
+			activate_law = law_type:law_national_militia
+			activate_law = law_type:law_homesteading
+			
+			set_import_tariff_level = { 
+				goods = g:artillery
+				level = high_subventions
+			}
+			set_import_tariff_level = { 
+				goods = g:small_arms
+				level = high_subventions
+			}	
+			
+			set_institution_investment_level = {
+				institution = institution_schools
+				level = 3
+			}
+			
+			set_variable = free_elections_var
+			active_law:lawgroup_distribution_of_power ?= { # Census Voting
+				add_amendment = {
+					type = amendment_tradition_of_free_elections
+					sponsor = PREV.ig:ig_rural_folk
+				}
+			}
+			
+			ig:ig_rural_folk ?= {
+				add_ruling_interest_group = yes
+			}
+			set_variable = SWI_federation
+		}
+
+	
+
+	c:LIE ?= {
+		effect_starting_technology_tier_2_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		add_technology_researched = dialectics	
+		
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_homesteading
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}	
+	}
+}

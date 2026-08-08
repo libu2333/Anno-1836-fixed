@@ -1,0 +1,36 @@
+﻿l_english:
+  mexicanize_north_decision: "Mexicanize the North"
+  mexicanize_north_decision_desc: "We shall consolidate our control over the northern territories, ensuring that the Mexican identity prevails over local and foreign cultures, even if it stirs radicals among local communities."
+  mexicanize_north_decision_tooltip: "Northern territories will become Mexican homelands, and their populations will begin adopting our culture and religion, finally 10% of the population will assimilate immediately."
+
+  mexicanize_south_decision: "Mexicanize Central America"
+  mexicanize_south_decision_desc: "The time has come to reunite the peoples of Central America under one national identity: the Mexican one. Their destiny is to become part of our homeland, whether they want it or not."
+  mexicanize_south_decision_tooltip: "Central American territories will become Mexican homelands, and their populations will begin adopting our culture, finally 10% of the population will assimilate immediately."
+
+  mexicanize_caribean_decision: "Mexicanize The Caribbean"
+  mexicanize_caribean_decision_desc: "The Cuban and Afro-descendant communities of the Caribbean must be integrated into the Mexican nation. While some of their traditions may remain, the priority will be to consolidate a common Mexican identity, even if this sparks resistance among the population."
+  mexicanize_caribean_decision_tooltip: "Caribbean territories will become Mexican homelands, and their populations will begin adopting our culture, finally 10% of the population will assimilate immediately."
+
+  mexicanize_philippines_decision: "Mexicanize The Philippines"
+  mexicanize_philippines_decision_desc: "Though far across the Pacific, the Philippines has long been tied to us by history and faith. By declaring them part of our homeland, we reaffirm Mexico's legacy as a Pacific power, even if such actions ignite fierce resistance among the archipelago's people."
+  mexicanize_philippines_decision_tooltip: "The Philippines territories will become Mexican homelands, and their populations will begin adopting our culture, finally 10% of the population will assimilate immediately."
+
+  mexicanize_mexico_decision: "Consolidate the Mexican Identity"
+  mexicanize_mexico_decision_desc: "To strengthen national unity, we must erase old ethnic and cultural divisions in the heart of Mexico. Only a shared Mexican identity will ensure the stability and progress of the nation, even if it means to antagonize these cultures."
+  mexicanize_mexico_decision_tooltip: "Indigenous homelands in central Mexico will be removed, consolidating the Mexican identity as the foundation of the State."
+  
+  buy_gbr_colonies_decision: "Buy British Central American Colonies"
+  buy_gbr_colonies_decision_desc: "Through diplomacy and gold, we can negotiate with the United Kingdom to obtain its colonies in Central America, expanding Mexico's territory."
+  buy_gbr_colonies_decision_tooltip: "Mexico will acquire British colonies in Central America in exchange for money."
+  
+  southern_claims_decision: "Reassert Claims over Central America"
+  southern_claims_decision_desc: "Central America once formed part of the Mexican state after independence. Though long separated, our destiny calls for the restoration of our rightful influence and the protection of Mexican interests in the South."
+  southern_claims_decision_tooltip: "Mexico gains claims over Central American states, but such ambitions may stir unrest at home and provoke diplomatic tensions abroad."
+
+  caribean_claims_decision: "Assert Claims in the Caribbean"
+  caribean_claims_decision_desc: "Cuba, Puerto Rico, and Hispaniola are the last vestiges of Spain's colonial empire in the New World. Mexico, once tied to them under the Spanish crown, can now proclaim its right to lead the Caribbean and protect the peoples of these islands under a new destiny."
+  caribean_claims_decision_tooltip: "Mexico gains claims over the Caribbean islands. Spain may see this as a threat, straining diplomatic relations."
+
+  philippine_claims_decision: "Revive Claims over the Philippines"
+  philippine_claims_decision_desc: "Before independence, Mexico and the Philippines were bound together under the Spanish crown through the Manila galleons and the Viceroyalty of New Spain. With Spain weakened and our influence rising, we can revive these ancient bonds and extend Mexican power across the Pacific once more."
+  philippine_claims_decision_tooltip: "Mexico gains claims over the Philippine islands. Spain may see this as a threat, straining diplomatic relations."

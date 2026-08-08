@@ -1,0 +1,35 @@
+﻿DIPLOMATIC_PLAYS = {
+	if = {
+		limit = {
+			has_game_rule = all_historical_wars
+		}
+	c:DEI ?= {
+		create_diplomatic_play = {
+			name = cr_padri_war
+		
+			target_state = s:STATE_MINANGKABAU.region_state:MGK
+			
+			war = yes
+			
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:MGK
+				type = conquer_state
+				target_state = s:STATE_MINANGKABAU.region_state:DEI
+			}			
+		}	
+	}
+}
+	c:LZZ ?= {
+		create_diplomatic_play = {
+			name = lanzhengzun
+	
+			target_state = s:STATE_BEIJING.region_state:CHI
+		
+			war = yes
+		
+			type = dp_revolution
+		}			
+	}
+}

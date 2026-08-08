@@ -1,0 +1,115 @@
+ DAMING = { 
+	dynamic_country_name = {
+		name = dyn_c_republic_daming
+		
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes 
+		priority = 10
+		
+		trigger = {
+            coa_def_monarchy_flag_trigger = yes
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_kingdom_daming
+		
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes 
+		priority = 0
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+    dynamic_country_name = {
+		name = dyn_c_empire_daming
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes
+		priority = 11
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+			has_modifier = alaska_won  }
+
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_republic_daming
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes
+		priority = 11
+		
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			NOT = { coa_def_communist_flag_trigger = yes }
+
+		}
+	}
+	dynamic_country_name = {#
+		name = dyn_c_alaska_daming_chi
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes
+		priority = 100
+		
+		trigger = {
+			#coa_def_monarchy_flag_trigger = yes
+			NOT = { exists = c:CHI } 
+		}
+	} 
+	dynamic_country_name = {
+		name = dyn_c_alaska_daming
+		
+		adjective = dyn_c_alaska_daming
+		is_main_tag_only = yes
+		priority = 20
+		
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			NOT = { coa_def_communist_flag_trigger = yes }
+			scope:actor = {
+			has_modifier = modifier_alaska_republic }
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_daming_puppet
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes 
+		priority = 25
+		
+		trigger = {
+ 			 scope:actor = {
+				OR = {
+					is_subject_type = subject_type_dominion
+					is_subject_type = subject_type_puppet
+                }
+            }
+		}
+	}
+	dynamic_country_name = {#
+		name = dyn_c_societ_republic_daming
+		
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_theocracy_daming
+		
+		adjective = DAMING_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+} 

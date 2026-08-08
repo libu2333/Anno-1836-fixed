@@ -1,0 +1,269 @@
+﻿
+TRY_REPLACE:LAO = {
+	states = {
+		STATE_LAOS
+		STATE_VIENTIANE
+	}
+
+	required_states_fraction = 1.0
+
+	ai_will_do = { always = yes }
+}
+
+TRY_REPLACE:CZH = {
+	STATES = {
+		STATE_BOHEMIA
+		STATE_MORAVIA
+		STATE_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+		STATE_RUTHENIA
+		STATE_SUDETENLAND
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOR = {
+			c:AUS ?= this
+			c:KUK ?= this
+		}
+	}
+}
+
+TRY_REPLACE:ARA = {
+	states = {
+		STATE_YEMEN
+		STATE_SOUTH_YEMEN
+		STATE_ASIR
+		STATE_OMAN
+		STATE_ABU_DHABI
+		STATE_NEJD
+		STATE_HEDJAZ
+		STATE_HAIL
+		STATE_HAJAR
+		STATE_BAGHDAD
+		STATE_TRANSJORDAN
+		STATE_PALESTINE
+		STATE_LEBANON
+		STATE_SYRIA
+		STATE_ALEPPO
+		STATE_MOSUL
+		STATE_DEIR_EZ_ZOR
+		STATE_BADIYA
+		STATE_SINAI
+		STATE_LOWER_EGYPT
+		STATE_MIDDLE_EGYPT
+		STATE_MATRUH
+		STATE_EGYPTIAN_DESERT
+		STATE_UPPER_EGYPT
+	}
+
+	required_states_fraction = 0.75	
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
+TRY_REPLACE:MAL = {
+	states = {
+		STATE_TIMBUKTU
+		STATE_WESTERN_MALI
+		STATE_EASTERN_MALI
+		STATE_SENEGAL
+		STATE_MANDINKA
+		STATE_GAMBIA
+		STATE_UPPER_VOLTA
+	}
+
+	required_states_fraction = 0.5
+
+	ai_will_do = { always = yes }
+}
+
+TRY_REPLACE:TRH = {
+	states = { 
+		STATE_UZBEKIA
+		STATE_KIRGHIZIA
+		STATE_TAJIKISTAN
+		STATE_TURKMENIA
+		STATE_KHIVA
+		STATE_SEMIRECHE
+		STATE_AKMOLINSK
+		STATE_URALSK
+		STATE_TIANSHAN
+		STATE_DZUNGARIA
+		STATE_JETISY
+		
+		STATE_SYRDARYA
+		STATE_AKTOBE #STATE_KARAGANDA
+		STATE_TASHKENT
+		STATE_FERGANA
+		STATE_ALAY
+		STATE_BADAKHSHAN
+		STATE_MERZ
+		STATE_TRANSOXIANA
+	}
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
+TRY_REPLACE:IDN = {
+	states = {
+		STATE_WEST_JAVA
+		STATE_CENTRAL_JAVA
+		STATE_EAST_JAVA
+		STATE_ACEH
+		STATE_TAPANULI
+		STATE_MINANGKABAU
+		STATE_THE_LAMPONGS
+		STATE_NORTH_SUMATRA
+		STATE_SOUTH_SUMATRA
+		STATE_NORTH_BORNEO
+		STATE_SARAWAK
+		STATE_WEST_BORNEO
+		STATE_EAST_BORNEO
+		STATE_MALAYA
+		STATE_MOLUCCAS
+		STATE_CELEBES
+		STATE_SOUTH_CELEBES
+		STATE_BALI
+		STATE_SUNDA_ISLANDS
+		STATE_WESTERN_NEW_GUINEA
+	}
+
+	required_states_fraction = 0.70
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+
+	}
+}
+
+TRY_REPLACE:YEM = {
+	states = {
+		STATE_YEMEN
+		STATE_SOUTH_YEMEN
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+
+TRY_REPLACE:PEU = {
+	states = {
+		STATE_LIMA
+		STATE_CAJAMARCA
+		STATE_ICA
+		STATE_AREQUIPA
+		STATE_TARAPACA
+		STATE_UCAYALI
+		STATE_PASTAZA
+	}
+
+	required_states_fraction = 0.70
+	
+	ai_will_do = { always = yes }
+}
+
+TRY_REPLACE:UNL = {
+	states = {
+		STATE_HOLLAND
+		STATE_FLANDERS
+		STATE_WALLONIA
+		STATE_FRIESLAND
+		STATE_GELRE
+		STATE_BRABANT
+	}
+
+	required_states_fraction = 1
+
+	ai_will_do = { always = yes }
+}
+
+TRY_REPLACE:PLT = {
+	states = {
+		STATE_BUENOS_AIRES
+		STATE_CHACO
+		STATE_PATAGONIA
+		STATE_SANTA_FE
+		STATE_URUGUAY
+		STATE_BAJO_PARAGUAY
+		STATE_ALTO_PARAGUAY
+		STATE_RIO_NEGRO
+		STATE_LA_PAMPA
+		STATE_TUCUMAN
+		STATE_JUJUY
+		STATE_CORRIENTES
+		STATE_MISIONES
+		STATE_CUYO
+	}
+
+	required_states_fraction = 0.80
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
+TRY_REPLACE:UZB = {
+	states = {
+		STATE_UZBEKIA
+		STATE_FERGANA
+		STATE_KHIVA
+		STATE_TASHKENT
+		STATE_TRANSOXIANA
+	}
+
+	required_states_fraction = 0.60
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
+TRY_REPLACE:KYR = {
+	states = {
+		STATE_KIRGHIZIA
+		STATE_KALAKR
+		STATE_ALAY
+	}
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
+TRY_REPLACE:TJI = {
+	states = {
+		STATE_TAJIKISTAN
+		STATE_BADAKHSHAN
+	}
+
+	required_states_fraction = 1
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}

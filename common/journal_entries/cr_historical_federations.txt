@@ -1,0 +1,232 @@
+je_cr_confederation = {
+    icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+    group = je_group_internal_affairs
+    is_shown_when_inactive = {
+        OR = {
+            has_variable = ARG_federation
+        }
+    }
+
+    scripted_button = je_cr_takeover_button
+
+    possible = {
+        overlord = {
+            has_variable = ARG_leader
+        }
+    }
+
+    immediate = {
+        overlord = {
+            save_scope_as = argentina_leader_scope
+        }
+        set_variable = ARG_federation
+    }
+
+
+    invalid = {
+        custom_tooltip = {
+            text = cr_is_arg_member
+            NOT = {
+                has_variable = ARG_federation
+            }
+        }
+
+    }
+
+    fail = {
+        NOT = {
+            is_subject_of = scope:argentina_leader_scope
+        }
+
+    }
+
+    on_fail = {
+    }
+
+    weight = 20
+    should_be_pinned_by_default_uninvolved_or_context = yes
+	can_revolution_inherit = yes
+}
+
+je_cr_swi_confederation = {
+    icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+    group = je_group_internal_affairs
+    is_shown_when_inactive = {
+        OR = {
+            has_variable = SWI_federation
+        }
+    }
+
+    scripted_button = je_cr_takeover_button
+
+    possible = {
+        overlord = {
+            has_variable = SWI_leader
+        }
+    }
+
+    immediate = {
+        overlord = {
+            save_scope_as = switzerland_leader_scope
+        }
+        set_variable = SWI_federation
+    }
+
+
+    invalid = {
+        custom_tooltip = {
+            text = cr_is_swi_member
+            NOT = {
+                has_variable = SWI_federation
+            }
+        }
+
+    }
+
+    fail = {
+        NOT = {
+            is_subject_of = scope:switzerland_leader_scope
+        }
+
+    }
+
+    on_fail = {
+    }
+
+    weight = 20
+    should_be_pinned_by_default_uninvolved_or_context = yes
+	can_revolution_inherit = yes
+}
+
+je_cr_confederation_leader = {
+    icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+    group = je_group_internal_affairs
+    is_shown_when_inactive = {
+        has_variable = ARG_leader
+    }
+
+    scripted_button = je_cr_annex_members_button
+
+    possible = {
+        always = yes
+    }
+
+    immediate = {
+        set_variable = ARG_leader
+    }
+
+    modifiers_while_active = {
+        cr_federation_leader
+    }
+
+    complete = {
+        custom_tooltip = {
+            text = cr_own_argentina_states
+            has_state_in_state_region = STATE_BUENOS_AIRES
+            has_state_in_state_region = STATE_LA_PAMPA
+            has_state_in_state_region = STATE_SANTA_FE
+            has_state_in_state_region = STATE_CORRIENTES
+            has_state_in_state_region = STATE_MISIONES
+            has_state_in_state_region = STATE_TUCUMAN
+            has_state_in_state_region = STATE_CHACO
+            has_state_in_state_region = STATE_JUJUY
+            has_state_in_state_region = STATE_CUYO
+            any_country = {
+                limit = {
+                    is_subject_of = ROOT
+                    NOT = { has_variable = ARG_federation }
+                }
+            }
+        }
+    }
+
+    on_complete = {
+        hidden_effect = {
+            remove_variable = ARG_leader
+        }
+        change_tag = ARG
+    }
+
+    fail = {
+        custom_tooltip = {
+            text = cr_confederation_leader
+            OR = {
+                is_subject = yes
+                NOT = {
+                    has_variable = ARG_leader
+                }
+                NOT = {
+                    any_country = {
+                        is_subject_of = ROOT
+                        has_variable = ARG_federation
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    weight = 120
+    should_be_pinned_by_default_uninvolved_or_context = yes
+	can_revolution_inherit = yes
+}
+
+je_cr_swiconfederation_leader = {
+    icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+    group = je_group_internal_affairs
+    is_shown_when_inactive = {
+        has_variable = SWI_leader
+    }
+
+    scripted_button = je_cr_annex_members_button
+
+    possible = {
+        always = yes
+    }
+
+    immediate = {
+        set_variable = SWI_leader
+    }
+
+    modifiers_while_active = {
+        cr_federation_leader
+    }
+
+    complete = {
+        owns_entire_state_region = STATE_WEST_SWITZERLAND
+        owns_entire_state_region = STATE_EAST_SWITZERLAND
+        owns_entire_state_region = STATE_SOUTH_SWITZERLAND
+    }
+
+    on_complete = {
+        hidden_effect = {
+            remove_variable = SWI_leader
+        }
+        change_tag = SWI
+    }
+
+    fail = {
+        custom_tooltip = {
+            text = cr_confederation_leader
+            OR = {
+                is_subject = yes
+                NOT = {
+                    has_variable = SWI_leader
+                }
+                NOT = {
+                    any_country = {
+                        is_subject_of = ROOT
+                        has_variable = SWI_federation
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    weight = 120
+    should_be_pinned_by_default_uninvolved_or_context = yes
+	can_revolution_inherit = yes
+}

@@ -1,0 +1,126 @@
+COUNTRIES = {
+	c:PGI = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_isolationism
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:KNA = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:TOJ = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:BGK = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:SIG = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:TOL = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:DGL = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:BLN = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_isolationism
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:GOR = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:TOR = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:WAJ = {
+		effect_starting_technology_tier_4_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+}

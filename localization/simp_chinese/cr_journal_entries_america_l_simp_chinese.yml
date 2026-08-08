@@ -1,0 +1,147 @@
+﻿l_simp_chinese:
+
+ #本土移除
+ je_cr_indian_removal_button_a_choctaw: "开始乔克托移除"
+ je_cr_indian_removal_button_a_choctaw_desc: "我们已完成乔克托移除。"
+ je_cr_indian_removal_button_a_choctaw_finished: "我们已完成乔克托移除"
+ je_cr_indian_removal_button_b_chickasaw: "开始奇卡索移除"
+ je_cr_indian_removal_button_b_chickasaw_desc: "根据庞托托克溪条约，奇卡索人同意出售密西西比河以东的剩余土地，并在找到合适的迁徙地后向西迁移。"
+ je_cr_indian_removal_button_b_chickasaw_tt: "奇卡索人已被#italic 适当激励#!，只要关系值低于或等于#variable -20#!，他们就会找到合适的定居地。"
+ je_cr_indian_removal_button_b_chickasaw_tt_old: "奇卡索人已在西部选定合适的土地。\n奇卡索人需被#italic 适当激励#!，通过维持关系值低于或等于#variable -20#!来找到这样的土地。"
+ je_cr_indian_removal_button_b_chickasaw_tt_b: "奇卡索人#variable 尚未#!开始西迁之旅"
+ je_cr_indian_removal_button_b_chickasaw_effect: "奇卡索民族的移除将开始"
+ je_cr_indian_removal_button_c_creek: "开始克里克移除"
+ je_cr_indian_removal_button_c_creek_desc: "根据库塞塔条约，克里克人割让了密西西比河以东的土地并同意向西迁移，但条约中有一条款允许愿意留下的克里克人获得个人土地分配。这一条款被大规模援引，导致阿拉巴马大片地区事实上仍为克里克土地。\n\n若我们希望解决这一局面并向定居全面开放阿拉巴马，则应寻求重新谈判条约……或寻找理由无视它。"
+ je_cr_indian_removal_button_c_creek_tt: "已找到合适的挑衅理由"
+ je_cr_indian_removal_button_b_creek_tt_b: "克里克人#variable 尚未#!开始西迁之旅"
+ je_cr_indian_removal_button_d_cherokee_treaty: "与切罗基人签署移除条约"
+ je_cr_indian_removal_button_d_cherokee_treaty_desc: "根据《印第安人移除法案》，移除行动只能通过与印第安部落正式签订条约执行。目前我们缺乏此类条约，因此应先推动谈判，之后才能开始移除。"
+ je_cr_indian_removal_button_d_cherokee_treaty_tt: "我们#variable 目前未#!在谈判条约。"
+ je_cr_indian_removal_button_d_e_cherokee_tt_journey_west: "切罗基人#variable 尚未#!开始西迁之旅"
+ je_cr_indian_removal_button_d_cherokee_time_expired: "给予切罗基人的宽限期已到期"
+ je_cr_indian_removal_button_d_cherokee_violate_treaty: "我们的[concept_ruler] #variable 不#!持有#variable 和平主义#!意识形态"
+ je_cr_indian_removal_button_d_cherokee_violate_treaty_button_tt: "由于#variable 2年#!宽限期尚未到期："
+ je_cr_indian_removal_button_d_cherokee: "开始切罗基移除"
+ je_cr_indian_removal_button_d_cherokee_desc: "开始切罗基移除"
+ je_cr_indian_removal_button_e_seminole: "开始塞米诺尔移除"
+ je_cr_indian_removal_button_e_seminole_desc: "开始塞米诺尔民族的移除"
+ je_cr_indian_removal_tt_seminole_war_ended: "[SCOPE.sState('state_of_florida').GetName]不持有#variable 塞米诺尔战争#!修正"
+ cr_seminole_removal_has_started_tt: "塞米诺尔人#variable 尚未#!开始西迁之旅"
+ je_cr_indian_removal_button_violate_treaty_button_tt: "由于条约仍有效："
+
+ je_chickasaw_removal: "奇卡索泪水之路"
+ je_chickasaw_removal_reason: "在密西西比河以西选定适合他们需求的土地后，[SCOPE.sCountry('target_of_removal').GetAdjective]人现正准备向西部新家园进发；这是一场远离祖先遗骨的长久流放之旅。"
+ cr_chickasaw_removal_complete: "[SCOPE.sCountry('target_of_removal').GetAdjective]土地将被开放供定居"
+
+ je_creek_removal: "克里克泪水之路"
+ je_creek_removal_reason: "在我们与[SCOPE.sCountry('target_of_removal').GetName]先前的条约失效后，我们现在可强迫他们残余人口离开土地，向密西西比河以西的新家园迁移，远离先祖遗骨。"
+ cr_creek_removal_complete: "[SCOPE.sCountry('target_of_removal').GetAdjective]土地将被开放供定居"
+ cr_creek_removal_protectorated: "根据条约，[SCOPE.sCountry('target_of_removal').GetAdjective]土地将被授予内部自治。"
+
+ je_cherokee_removal: "切罗基泪水之路"
+ je_cherokee_removal_reason: "[SCOPE.sCountry('target_of_removal').GetName]现正准备向西部新家园进发；这是一场远离祖先遗骨的长久流放之旅。"
+
+ cr_cherokee_removal_complete: "[SCOPE.sCountry('target_of_removal').GetAdjective]土地将被开放供定居"
+
+ je_seminole_removal: "塞米诺尔泪水之路"
+ je_seminole_removal_reason: "[SCOPE.sCountry('target_of_removal').GetName]现正准备向西部新家园进发；这是一场远离祖先遗骨的长久流放之旅。"
+
+ cr_indian_removal_complete: "[SCOPE.sCountry('target_of_removal').GetAdjective]土地将被开放供定居"
+ cr_indian_state_removal_complete: "若该州不再有印第安人，将应用以下效果："
+
+ je_cr_robinson_treaties: "苏必利尔湖铜矿热潮"
+ je_cr_robinson_treaties_reason: "传统上，苏必利尔湖沿岸经济围绕与奥吉布韦猎人的毛皮贸易展开，猎人向法国航海者、如今向哈德逊湾公司提供海狸皮。尽管铜矿藏已知数世纪，但勘探迄今收效甚微。然而，随着密歇根湖对岸发现大量铜矿，这一局面即将改变。人们对北岸发现类似矿藏抱有很高期望，财富前景诱人。\n\n尽管希望高涨，仍有一个小问题需解决：土地所有权。当地奥吉布韦人仍持有土地原住民权利，根据1763年《皇家宣言》规定，未经他们同意不得开发。\n\n因此，$ig_industrialists$正向[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]施压，要求与奥吉布韦人签订条约，开放该地区进行经济开发。"
+ je_cr_robinson_treaties_complete_tt: "触发#B 罗宾逊条约#!事件"
+ je_cr_robinson_treaties_fail_on_timeout_tt: "#variable 10年#!已过去"
+ je_cr_robinson_treaties_trigger_copper_mines_ontario: "@铜! [GetGoods('copper').GetName]已在#variable 安大略#!发现"
+ je_cr_robinson_treaties_trigger_copper_mines_michigan: "@铜! [GetGoods('copper').GetName]已在#variable 密歇根#!发现"
+
+ je_cr_numbered_treaties: "编号条约"
+ je_cr_numbered_treaties_reason: "随着鲁珀特地并入[ROOT.GetCountry.GetNameNoFlag]，管理这片广袤地区的任务令人生畏。该地区人口极为稀少，现有人口绝大多数为印第安人，除向#variable 哈德逊湾公司#!提供毛皮外贡献甚微。\n\n然而，这片土地潜力巨大，拥有丰富的木材、矿藏与极度肥沃的土壤。为开发潜力并鼓励定居，必须从印第安居民手中获得土地转让。根据#variable 1763年皇家宣言#!，他们持有土地原住民权利，未经同意不得定居。因此，谈判编号条约是我们解锁这片广袤领土经济与农业繁荣、将其融入国家肌理的关键一步。"
+ je_cr_numbered_treaties_reason_old: "随着鲁珀特地并入[ROOT.GetCountry.GetNameNoFlag]，管理这片广袤地区的任务令人生畏。该地区人口极为稀少，现有人口绝大多数为印第安人，除向#variable 哈德逊湾公司#!提供毛皮外贡献甚微。\n\n若要将这片广袤土地转为生产用途——我们完全可以，因为它富含木材、矿藏与特别肥沃的土地——必须诱导人们定居。然而在此之前，我们需说服已居住在那里的印第安人将土地转让给我们。根据#variable 1763年皇家宣言#!，他们持有土地原住民权利，未经同意任何人不得定居。"
+
+ je_cr_numbered_treaties_objective_ontario: "#variable 安大略#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_quebec: "#variable 魁北克#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_kenora: "#variable 凯诺拉#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_new_brunswick: "#variable 新不伦瑞克#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_uganva: "#variable 昂加瓦#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_newfoundland: "#variable 纽芬兰#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_alberta: "#variable 阿尔伯塔#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_british_colombia: "#variable 不列颠哥伦比亚#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_saskatchewan: "#variable 萨斯喀彻温#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_manitoba: "#variable 马尼托巴#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_northwest_territory: "#variable 西北地区#!不再有#variable 未割让领土#!"
+ je_cr_numbered_treaties_objective_yukon_territory: "#variable 育空地区#!不再有#variable 未割让领土#!"
+
+ cr_canada_numbered_treaties_start: "开始条约谈判"
+ cr_canada_numbered_treaties_start_desc: "我们将指派一名#variable 专员#!开始与印第安民族谈判条约。每签署一项条约将使我们的#variable 条约年金#!增加@money!#r 150#!"
+ cr_canada_numbered_treaties_start_desc_tt: "一名专员被指派为条约谈判者。"
+ cr_canada_numbered_treaties_start_event: "将触发事件让你选择目标州"
+ cr_canada_numbered_treaties_start_possible_tt: "我们目前未在谈判条约，且自上次签约以来已过去足够时间。"
+ cr_canada_numbered_treaties_stop: "暂停条约谈判"
+ cr_canada_numbered_treaties_stop_desc: "我们将暂时停止进一步的条约谈判。"
+ cr_canada_numbered_treaties_stop_desc_tt: "专员被解除职务。"
+ cr_canada_numbered_treaties_abscond: "逃避条约义务"
+ cr_canada_numbered_treaties_abscond_desc: "我们已与居住在我们土地上的印第安人签订条约，但谁来监督我们遵守呢？"
+ cr_canada_numbered_treaties_abscond_paying_annuities_tt: "我们正在支付年金"
+ cr_canada_numbered_treaties_abscond_cooldown_tt: "过去#variable 24个月#!我们未曾逃避"
+ cr_canada_numbered_treaties_stop_paying_tt: "#variable 条约年金#!修正被移除"
+
+ #加拿大叛乱
+ je_cr_chateau_clique: "下加拿大的税收起义"
+ je_cr_chateau_clique_reason: "多年来，[ROOT.GetCountry.GetNameNoFlag]内部少数[SCOPE.sCulture('anglo_canadian_culture').GetName]商人——围绕[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]形成寡头并事实上统治殖民地——与多数被实际剥夺政治权利的[SCOPE.sCulture('franco_canadian_culture').GetName]人之间冲突不断酝酿，两者代表了殖民地截然不同的未来。\n\n统称为[SCOPE.gsInterestGroup('cr_canadian_industrialists').GetNameNoIcon]的[SCOPE.sCulture('anglo_canadian_culture').GetNameNoFormatting]商人集团寻求与[SCOPE.sCountry('cr_upper_canada').GetName]合并，将其置于[SCOPE.sCulture('english_culture').GetNameNoFormatting]霸权之下，边缘化[SCOPE.sCulture('franco_canadian_culture').GetNameNoFormatting]文化。他们计划废除民法体系，代之以[SCOPE.sCulture('english_culture').GetNameNoFormatting]普通法体系，废除[SCOPE.gsInterestGroup('cr_canadian_landowners').GetNameNoIcon]领主制，并推广[SCOPE.gsInterestGroup('cr_anglican_church').GetNameNoIcon]为国教。\n\n反对他们的是[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoIcon]，他们希望利用人口优势保卫[SCOPE.sCountry('cr_original_coloniser_quebec').GetAdjective]遗产，并最终争取——即便不是完全独立——也在大英帝国内部获得单独自治领地位。\n\n随着[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoFormatting]在1834年选举中大获全胜，紧张局势达到顶点。由[SCOPE.gsInterestGroup('cr_canadian_liberals').GetLeader.GetFullName]起草的#variable 92项决议#!——一份大胆陈述[SCOPE.sCulture('franco_canadian_culture').GetNameNoFormatting]不满的请愿书——已送往[SCOPE.sCountry('cr_lower_canada_overlord').GetCapital.GetCityHubName]。首要诉求是#variable 责任政府#!——要求完全内部自治与普选，实质上将权力交给[SCOPE.sCulture('franco_canadian_culture').GetNameNoFormatting]。请愿书伴随的隐晦威胁是：若诉求未获满足，殖民地可能走上美国殖民地的老路。由[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoFormatting]发起的立法拒税行动，只是强化诉求的第一步。"
+
+ je_cr_chateau_clique_UNUSED: "城堡集团"
+ je_cr_chateau_clique_reason_UNUSED: "虽然1791年《宪法法案》名义上通过民选议会提供代表，但[ROOT.GetCountry.GetNameNoFlag]的真正权力不在议会，而在由总督任命的立法与行政委员会。这些委员会可否决议会提出的法案，更重要的是，他们可直接接触总督并建议[ROOT.GetCountry.GetRuler.GetHerHim]行使否决权。\n\n这一安排本身已极不受欢迎，而该[SCOPE.gsInterestGroup('cr_canadian_landowners').GetNameNoIcon]几乎全部由[SCOPE.sCulture('english_culture').GetName]商人组成，更是为火上浇油。这一集团不仅代表商人及工业家利益——以及随之而来的经济变革——还积极推动将[ROOT.GetCountry.GetNameNoFormatting]同化为[SCOPE.sCulture('anglo_canadian_culture').GetName]省份，试图以普通法取代民法、以圣公会取代天主教会、废除领主制，深深切割[SCOPE.sCulture('franco_canadian_culture').GetName]身份。\n\n围绕这一问题的紧张局势已达沸点。1834年，在[SCOPE.gsInterestGroup('cr_canadian_liberals').GetLeader.GetFullName]领导下，[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoIcon]在选举中大获全胜。"
+
+ je_cr_92_resolutions_ENG: "92项决议"
+ je_cr_92_resolutions_ENG_reason: "我们的[SCOPE.sCountry('cr_lower_canada').GetName]殖民地并非一切安好。自1763年接管法国领土以来，我们一直在平衡自身意图与本地法裔居民的诉求，最终形成1791年《宪法法案》，保障两加拿大的政治权利与特权，并通过民选议会实现参与式治理。然而，这些议会如今已成为煽动性与革命活动的温床。\n\n在[SCOPE.gsInterestGroup('cr_canadian_liberals').GetLeader.GetFullName]领导下，并得到广泛民众支持，[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoIcon]已掌控民选议会，推动政治改革。他们的纲领体现在1834年送交议会的#variable 92项决议#!中，我们尚未作出回应。\n\n他们的怒火主要针对所谓城堡集团——主导未选举产生的立法与行政委员会、掌握大部分政治权力的[SCOPE.sCulture('anglo_canadian_culture').GetName]忠诚商人。他们要求权力归于——由[SCOPE.sCulture('franco_canadian_culture').GetName]主导的——议会。但在表面之下，还潜伏着对被[SCOPE.sCulture('anglo_canadian_culture').GetNameNoFormatting]主导的恐惧，后者已在魁北克与蒙特利尔接近多数，并通过移民与经济力量可能淹没法裔文化。\n\n在诉求——转向#variable 责任政府#!（自治）、更好代表性、法语官方保护与使用、公平税收——得到满足之前，[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoFormatting]正利用议会权力阻挠进一步征税，并隐晦威胁殖民地可能重蹈美国殖民地的覆辙。"
+
+ cr_offered_response_to_92_resolutions_text: "我们对#variable 92项决议#!作出了正式答复"
+ je_cr_92_resolutions_ENG_tooptip1: "[SCOPE.sCountry('cr_lower_canada').GetNameNoFlag]已颁布[GetLawType('law_census_voting').GetName]或[GetLawType('law_universal_suffrage').GetName]"
+ je_cr_92_resolutions_ENG_tooptip2: "[SCOPE.sCountry('cr_lower_canada').GetNameNoFlag]已颁布[GetLawType('law_national_supremacy').GetName]或[GetLawType('law_ethnostate').GetName]"
+
+ #北美毛皮贸易
+ je_cr_russian_america: "俄美公司"
+ je_cr_russian_america_reason: "是水獭与海狸将我们带到阿拉斯加海岸。它们珍贵的毛皮推动了向东扩张：先穿越西伯利亚，再到远东，最终跨越白令海峡进入美洲，始终追逐新的狩猎场与财富。俄美公司如今是我们帝国最遥远的前哨，从新阿尔汉格尔斯克总部控制海上毛皮贸易。\n\n然而公司未来充满不确定性：公司高度依赖向中国毛皮市场供应海獭皮，但海獭种群已显衰退迹象，尽管美洲内陆可能存在新的狩猎富集区。更麻烦的是领土的偏远性：补给与防御困难，若墨西哥人、美国人或——更糟的——英国人将目光投向此处，他们可轻易将其压倒。"
+
+ je_cr_russian_america_fail_tt: "[THIS.GetCountry.GetName]及其任何[THIS.GetCountry.GetAdjectiveNoFlag][Concept('concept_subject', '$concept_subject$')]在阿拉斯加无任何领土"
+ je_cr_russian_america_resolve_the_chain: "待定"
+ je_cr_russian_america_colonise_alaska_button: "鼓励阿拉斯加殖民"
+ je_cr_russian_america_colonise_alaska_button_desc: "由于偏远与人口稀少，我们对阿拉斯加的控制十分脆弱。若欲巩固对阿拉斯加的控制，应鼓励更多定居。\n\n撤销此项或与俄属加利福尼亚相关行动有#variable 6个月#!冷却。"
+ je_cr_russian_america_colonise_alaska_stop_button: "停止鼓励阿拉斯加殖民"
+ je_cr_russian_america_colonise_alaska_stop_button_desc: "我们目前正在鼓励阿拉斯加殖民。但随着优先级变化，我们可暂时中止该项目。\n\n撤销此项或与俄属加利福尼亚相关行动有#variable 6个月#!冷却。"
+ je_cr_russian_america_colonise_california_button: "鼓励加利福尼亚殖民"
+ je_cr_russian_america_colonise_california_button_desc: "阿拉斯加领土富含毛皮与其他资源，但耕地贫瘠，且偏远使其补给几乎不可能。若欲发展殖民地，应向南看向加利福尼亚丰富的农业土地，以保障阿拉斯加的粮食供应与未来繁荣。\n\n撤销此项或与俄属加利福尼亚相关行动有#variable 6个月#!冷却。"
+ je_cr_russian_america_colonise_california_button_fur_decline_tt: "加利福尼亚毛皮贸易已衰退"
+ je_cr_russian_america_colonise_california_stop_button: "停止鼓励加利福尼亚殖民"
+ je_cr_russian_america_colonise_california_stop_button_desc: "我们目前正在鼓励加利福尼亚殖民。但随着优先级变化，我们可暂时中止该项目。\n\n撤销此项或与俄属加利福尼亚相关行动有#variable 6个月#!冷却。"
+ je_cr_russian_america_annex_it_button: "整合俄属美洲"
+ je_cr_russian_america_annex_it_button_desc: "整合俄属美洲"
+ je_cr_russian_america_policy_change_cooldown: "过去#variable 6#!个月我们未改变对俄属美洲的政策"
+
+ je_cr_fort_ross:1 "加利福尼亚毛皮热的终结"
+ je_cr_fort_ross_goal: "#variable 5#!年已过去"
+ je_cr_fort_ross_reason: "当加利福尼亚水獭皮在中国可获超1000%利润的消息传开后，英国人、波士顿人、墨西哥商人以及——当然——俄国猎人很快涌向美洲太平洋海岸。在几十年辉煌时期，冒险者可赚取巨额财富。但好景不长。曾经每季可收获数千张皮，如今几百张已算丰收，且大多不再是高利润的海獭皮，而是海豹皮。\n\n种群严重枯竭，加利福尼亚毛皮贸易很快将彻底终结。\n\n因此，我们在该地区的据点罗斯堡正处于十字路口：若投入巨资，或许可将其转为农业殖民地，为阿拉斯加据点提供补给；否则，随着最后的水獭与海豹被捕尽，它将慢慢凋零而亡。"
+
+ je_cr_fort_ross_complete_tt_a: "我们通过控制#variable 旧金山湾#!确保了在[SCOPE.sState('california_scope').GetName]的殖民地"
+ je_cr_fort_ross_complete_tt_b: "俄国通过向#variabl e萨克拉门托河#!内陆扩张或控制#variable 旧金山湾#!确保了在[SCOPE.sState('california_scope').GetName]的殖民地"
+ je_cr_fort_ross_goal_complete_tt: "我们已将[SCOPE.sState('california_scope').GetName]殖民地向#variable 萨克拉门托河#!内陆扩张或控制#variable 旧金山湾#!"
+ je_cr_fort_ross_goal_fail_tt: "我们未能将[SCOPE.sState('california_scope').GetName]殖民地向#variable 萨克拉门托河#!内陆扩张或控制#variable 旧金山湾#!"
+
+ #阿拉斯加购买
+ je_alaska_tooltip_1: "征服[SCOPE.sState('alaska_scope').GetName]"
+ je_alaska_tooltip_2: "[SCOPE.sCountry('russia_scope').GetName]在[SCOPE.sState('alaska_scope').GetName]无任何领土"
+
+ #阿克里争端
+ acre_dispute_button_tt: "阿克里的殖民已开始。"
+
+ #俄勒冈条约
+ cr_je_oregon_province_owned: "我们已占有#variable 哈德逊湾公司#!在#variable 俄勒冈#!、#variable 华盛顿#!与#variable 爱达荷#!的财产。"
+ california_trail_tt: "通过探索美国西部边疆，#variable 加利福尼亚小径#!已被测绘"
+
+ #墨西哥
+ je_cr_reorganise_mexico: "分裂的国家"
+ je_cr_reorganise_mexico_reason: "在共和国成立之初，墨西哥在两种对立的治理愿景间分裂。[SCOPE.sPoliticalMovement('centralist_movement').GetName]寻求从首都统一指挥的国家，而[SCOPE.sPoliticalMovement('federalist_movement').GetName]坚持1824年宪法下的省份自治。独立以来，这两种理念的斗争定义了国家政治，塑造了联盟、叛乱与政府。\n\n在此争斗中，国家权威仍脆弱。内地省份不满暗流涌动；边疆地区敌对袭击与匪患持续。每一次政府更迭都带来改革的承诺——以及新一轮混乱的风险。"
+ je_cr_reorganise_mexico_complete_tt: "联邦问题将明确倾向于中央集权国家。"
+ je_cr_reorganise_mexico_complete_tt2: "#variable 官僚法组#!将恢复默认设置。"

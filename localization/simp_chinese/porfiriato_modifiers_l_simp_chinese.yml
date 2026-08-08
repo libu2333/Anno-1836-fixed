@@ -1,0 +1,75 @@
+﻿l_simp_chinese:
+  toma_de_poder: "夺取政权"
+  toma_de_poder_desc: "新政府通过武力夺取权力，但其合法性备受质疑，社会开始两极分化。"
+
+  paro_golpe_estado: "政变企图被挫败"
+  paro_golpe_estado_desc: "国家机构成功抵御了政变企图。尽管权威受到削弱，但政府的合法性反而有所提升。"
+
+  porfiriato_militar: "波菲里奥时代的军事巩固"
+  porfiriato_militar_desc: "迪亚斯政权在武装力量的支持下巩固了权力。国家因强加的秩序而获得效率与稳定。"
+
+  legado_porfiriato_militar: "波菲里奥时代的遗产"
+  legado_porfiriato_militar_desc: "即使政权倒台，迪亚斯时期建立的军事结构与秩序仍继续影响国家。纪律、中央集权以及对稳定的重视已成为国家认同的一部分。"
+
+  porfiriato_industrial: "波菲里奥时代的工业巩固"
+  porfiriato_industrial_desc: "波菲里奥时代拥抱经济发展与物质进步。工业化成为国家的新驱动力，尽管并非人人平等受益。"
+
+  legado_porfiriato_industrial: "波菲里奥时代的遗产"
+  legado_porfiriato_industrial_desc: "波菲里奥时代推动的工业势头继续塑造国家经济方向。基础设施、外资联系以及现代化动力尽管政权结束仍持续存在。"
+
+  porfiriato_ig: "波菲里奥时代青睐的利益集团"
+  porfiriato_ig_desc: "该利益集团在迪亚斯政权下获得政治提升，在体系内获得前所未有的影响力和重要性。"
+
+  muerte_porfirio: "波菲里奥·迪亚斯的逝世"
+  muerte_porfirio_desc: "波菲里奥·迪亚斯的逝世震撼全国。政权合法性动摇，社会对国家政治未来产生分裂。"
+
+  exilio_porfirio: "波菲里奥·迪亚斯的流放"
+  exilio_porfirio_desc: "波菲里奥·迪亚斯的流放震撼全国。新政权合法性动摇，社会对国家政治未来产生分裂。"
+
+  benito_ig_buff: "贝尼托·华雷斯的影响"
+  benito_ig_buff_desc: "得益于华雷斯的自由主义思想，知识分子获得政治影响力。他们的日益壮大将塑造国家辩论与政策方向。"
+
+  reforma_incial: "初步自由派改革"
+  reforma_incial_desc: "政府开始实施自由派改革。进展渐进，后续法律的成功取决于这些变革的管理方式。"
+
+  nacion_estado_medio: "形成中的民族国家"
+  nacion_estado_medio_desc: "国家开始文化统一并扩展教育。早期改革提升创新，并为现代墨西哥国家奠定基础。"
+
+  nacion_estado_grande: "巩固的民族国家"
+  nacion_estado_grande_desc: "墨西哥迈向完全统一与现代化的民族国家。教育、创新与文化整合得到强化，塑造更强的国家认同。"
+
+  dictadura_ini_perpetua: "独裁持续"
+  dictadura_ini_perpetua_desc: "权威被强力施加，创新放缓。政府巩固，军队获得赋权，但政治反对派与激进运动随之增长。"
+
+  liberalizacion_fallida: "自由化失败"
+  liberalizacion_fallida_desc: "实施自由派改革的尝试失败。自由派利益集团被边缘化。"
+
+  liberalizacion_parcial: "部分自由化"
+  liberalizacion_parcial_desc: "部分改革被采纳，但自由派目标仅部分实现。利益集团失去部分影响力。"
+
+  estado_crisitano_tradicional: "传统基督教国家"
+  estado_crisitano_tradicional_desc: "国家高度依赖宗教影响来维持合法性与权威。社会与政治生活保持保守，对教会强烈支持。"
+
+  estado_crisitano_progresista: "进步基督教国家"
+  estado_crisitano_progresista_desc: "国家在宗教影响与现代化之间取得平衡。通过宗教加强权威与合法性。"
+
+  nuevo_linaje: "新王朝"
+  nuevo_linaje_desc: "墨西哥建立新王室。墨西哥人民接受其合法统治者身份仍需时日。"
+
+  monarca_legitimo: "合法君主"
+  monarca_legitimo_desc: "墨西哥王室血统的君主登基，巩固内部合法性并加强与传统机构的联系。"
+
+  prestamo_extranjero: "外国贷款"
+  prestamo_extranjero_desc: "墨西哥求助于欧洲融资，立即获得资源，但未来被外国债权人捆绑。"
+
+  heredero_mex: "墨西哥继承人"
+  heredero_mex_desc: "本土继承人加强国家合法性，并提供根植于本土传统的连续性。"
+
+  heredero_aus: "奥地利继承人"
+  heredero_aus_desc: "奥地利继承人将外国影响引入君主制，引发忠诚质疑与政治紧张。"
+
+  colonizacion: "北方殖民扩张"
+  colonizacion_desc: "努力集中于北方殖民边疆的扩张，加速定居并将国家控制延伸至新领土。"
+
+  national_pride: "民族自豪"
+  national_pride_desc: "国家团结捍卫主权，武装力量体现人民的决心。"

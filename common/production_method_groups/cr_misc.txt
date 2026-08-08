@@ -1,0 +1,10 @@
+﻿
+
+pmg_kashmir_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_kashmir_ranch
+		pm_kasmir_farms
+		pm_intensive_kashmir_ranch
+	}
+}

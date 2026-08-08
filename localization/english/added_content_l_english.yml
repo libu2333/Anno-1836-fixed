@@ -1,0 +1,45 @@
+l_english:
+
+
+#resolution
+added_decision_chuang_guandong:"Chuang Guandong"
+added_decision_chuang_guandong_desc:"With the increasingly acute contradiction between people and land in the interior, and the invasion of the northern border by the great powers led by Tsarist Russia, it is imperative to fully open up the Northeast and encourage residents of the interior to go to the outside of the pass to cultivate. There is no doubt that this will bring an unprecedented wave of immigration and consolidate the border, but the conservative forces in the court still delay the implementation of the decree as much as possible."
+
+added_decision_chuang_guandong_2:"Develop Outer Northeast"
+added_decisio n_chuang_guandong_2_desc:"Reclaim the vast territory north of Heilongjiang. We will not and cannot lose this land again this time."
+
+added_decision_zouxikou:"Go west"
+
+added_decision_zouxikou_desc:"As early as the Kangxi period, there were many people from the border areas of Shanxi and Shaanxi who went to Inner Mongolia to make a living. As the culture of Shanxi and Inner Mongolia further integrated, the economic and cultural structure of the region changed profoundly."
+
+#Correction
+reclamation_enthusiasm:"Enthusiasm for reclamation"
+chuangguandong:"Go to Guandong"
+
+### Gold Coast
+# Danish
+STATE_GHANA_danish_full:"Guldkysten"
+STATE_GHANA_danish_partial:"Danske Guldkyst"
+HUB_NAME_STATE_GHANA_city_danish:"Kumasi"
+HUB_NAME_STATE_GHANA_port_danish:"Christiansborg"
+HUB_NAME_STATE_GHANA_mine_danish:"Tamale"
+HUB_NAME_STATE_GHANA_farm_danish:"Frederiksborg"
+HUB_NAME_STATE_GHANA_wood_danish:"Bolgatanga"
+# Dutch
+STATE_GHANA_dutch_full:"Goudkust"
+STATE_GHANA_dutch_partial:"Nederlandse Goudkust"
+HUB_NAME_STATE_GHANA_city_dutch:"Kumasi"
+HUB_NAME_STATE_GHANA_port_dutch:"Accra"
+UB_NAME_STATE_GHANA_mine_dutch:"Tamale"
+HUB_NAME_STATE_GHANA_farm_dutch:"Kustkaap"
+HUB_NAME_STATE_GHANA_wood_dutch:"Bolgatanga"
+# Akan
+STATE_GHANA_akan:"Asanteman"
+HUB_NAME_STATE_GHANA_city_akan:"Kumasi"
+HUB_NAME_STATE_GHANA_port_akan:"Nkran"
+HUB_NAME_STATE_GHANA_mine_akan:"Tamale"
+HUB_NAME_STATE_GHANA_farm_akan:"Oguaa"
+HUB_NAME_STATE_GHANA_wood_akan:"Bolgatanga"
+
+
+

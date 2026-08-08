@@ -1,0 +1,11 @@
+﻿l_english:
+ dlc_anno1836:0 "Anno 1836"
+ 
+ POP_CULTURE_CATALAN:0 "$Catalan$ [concept_culture]"
+ POP_CULTURE_BASQUE:0 "$Basque$ [concept_culture]"
+ POP_CULTURE_GALICIAN:0 "$Galician$ [concept_culture]"
+ POP_CULTURE_DIXIE:0 "$Dixie$ [concept_culture]"
+ STATE_SPLIT_STATE: "Inhabiting a [concept_split_state]"
+ USA_INDIAN_REMOVAL_INCOMPLETE: "Incomplete Indian Removal"
+ RULER_IMPOPULARITY:0 "[concept_ruler] (im)[concept_popularity]"
+ DESAMORTIZACIONS:0 "Desamortizacións"

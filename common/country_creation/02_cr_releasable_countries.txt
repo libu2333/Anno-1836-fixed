@@ -1,0 +1,573 @@
+﻿
+TGU = {
+	provinces = { xF9F87A x80C0B0 xCAB9F2 xFCBAFC }
+	ai_will_do = { always = no }
+}
+
+ZWA = {
+	provinces = { xCB898B	x5ACA8F }
+	ai_will_do = { always = no }
+}
+
+TRT = {
+	provinces = { x22A870 xD02FE9 xF0CE19 xF94D86 xF88172 xD3A69B xC4C41D x7A4DF4 x7BD240 }
+	ai_will_do = { always = no }
+}
+
+LDK = {
+	provinces = { x2A3D46 xE02CB6 x706E00 }
+	ai_will_do = { always = no }
+}
+
+MTN = {
+	provinces = { x4DD36E xAD54BC x4408AB xF8375D xB7B05B }
+	ai_will_do = { always = no }
+}
+HRB = {
+	provinces = { xF5E822 xCB3B07 x529552 x0F9944 x1D4F93 x606011 xD191E8 xF0C31D x0085FA x72DC5E x655F7E x10CF18 }
+
+	ai_will_do = { always = no }
+}
+
+
+FDH = {
+	provinces = { x0C7E0C xD3F276 xBAA208 x657048 x3D1674 xA1AAB0 x567A83 xFA0283 x2975A3 x54840B x2BD409 }
+	ai_will_do = { always = no }
+}
+
+PTU = {
+	provinces = { xFB4ADA xBE9208 xA060D0 x8000B0 }
+	ai_will_do = { always = no }
+}
+CAL = {
+	states = {
+		STATE_CALIFORNIA
+		STATE_BAJA_CALIFORNIA
+	}
+	
+	required_num_states = 1
+	
+	ai_will_do = { always = no }
+}
+
+ZAC = {
+	states = {
+		STATE_ZACATECAS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+KQR = {
+	provinces = {
+		x30B15A x8C6C79
+	}
+
+	ai_will_do = { always = no }
+}
+
+SUTCAL = {
+	provinces = {
+		xC54807 xE6440D x3F27C8 x908000 x2A91D8 xAB1AA2 x5EF8F5 xDBCBC6
+	}
+
+	ai_will_do = { always = no }
+}
+
+BAJ = {
+	states = {
+		STATE_BAJIO
+	}
+	
+	ai_will_do = { always = no }
+}
+
+CPS = {
+	states = {
+		STATE_CHIAPAS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+CUA = {
+	states = {
+		STATE_CHIHUAHUA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+DUR = {
+	states = {
+		STATE_DURANGO
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GUE = {
+	states = {
+		STATE_GUERRERO
+	}
+	
+	ai_will_do = { always = no }
+}
+
+VRS = {
+	states = {
+		STATE_VERACRUZ
+	}
+	
+	ai_will_do = { always = no }
+}
+
+MCO = {
+	provinces = { x41E3BB xE26CDE xCE2837 x52E09C xC1F60B x107001 x725961 x80B8A5 } #x8CC01A xA80151 x10EF01 X4606C7 xBFDB49 x829A25
+	ai_will_do = { always = no }
+}
+
+SON = {
+	states = {
+		STATE_SONORA
+		STATE_SINALOA
+	}
+	
+	required_num_states = 1
+	
+	ai_will_do = { always = no }
+}
+
+TBS = {
+	provinces = { xDC714A x10B0C0 x5CE75E x1B2176 x067F2A x253627 }
+	ai_will_do = { always = no }
+}
+
+PEI = {
+	provinces = { x70C040 x8D0F89 x1C5C74 }
+	ai_will_do = { always = no }
+}
+
+NC03 = {
+	provinces = { x3F7774 }
+	ai_will_do = { always = no }
+}
+
+NC04 = {
+	provinces = { x50B71E }
+	ai_will_do = { always = no }
+}
+
+NC05 = {
+	provinces = { xB03080 }
+	ai_will_do = { always = no }
+}
+
+NWI = {
+	provinces = { x30B09D }
+	ai_will_do = { always = no }
+}
+NWI2 = {
+	provinces = { x43853B }
+	ai_will_do = { always = no }
+}
+NWI3 = {
+	provinces = { x576735 }
+	ai_will_do = { always = no }
+}
+NC02 = {
+	states = {
+		STATE_SURINAME
+	}
+	ai_will_do = { always = no }
+}
+DC02A = {
+	provinces = {
+		x8B7790
+	}
+	ai_will_do = { always = no }
+}
+DC04 = {
+	provinces = {
+		x30F080
+	}
+	ai_will_do = { always = no }
+}
+DC05 = {
+	provinces = {
+		x10B060
+	}
+	ai_will_do = { always = no }
+}
+DC05A = {
+	provinces = {
+		xB030A0
+	}
+	ai_will_do = { always = no }
+}
+SC01 = {
+	provinces = {
+		x414170 xC0426B xEF50C0 xD06E0F x0FD013 xC0D00F 
+	}
+	ai_will_do = { always = no }
+}
+SC02 = {
+	provinces = {
+		xCA9F75
+	}
+	ai_will_do = { always = no }
+}
+FC01 = {
+	states = {
+		STATE_SAINT_PIERRE_AND_MIQUELON
+	}
+	ai_will_do = { always = no }
+}
+FC02 = {
+	states = {
+		STATE_CAYENNE
+	}
+	ai_will_do = { always = no }
+}
+FC03 = {
+	provinces = {
+		xD690E0
+	}
+	ai_will_do = { always = no }
+}
+FC04 = {
+	provinces = {
+		x33895B 
+	}
+	ai_will_do = { always = no }
+}
+FC05 = {
+	provinces = {
+		x9C52CA 
+	}
+	ai_will_do = { always = no }
+}
+
+FC06 = {
+	provinces = {
+		xECC061 
+	}
+	ai_will_do = { always = no }
+}
+
+FC06A = {
+	provinces = {
+		xA79640
+	}
+	ai_will_do = { always = no }
+}
+FC07 = {
+	provinces = {
+		xABADB1
+	}
+	ai_will_do = { always = no }
+}
+BC02 = {
+	provinces = {
+		xD0B040 x02073E x7D333F
+	}
+	ai_will_do = { always = no }
+}
+BC04 = {
+	states = {
+		STATE_GUAYANA
+	}
+	ai_will_do = { always = no }
+}
+BC05 = {
+	provinces = {
+		x3020D0 x5E9DB3 x9EF337 
+	}
+	ai_will_do = { always = no }
+}
+BC06 = {
+	provinces = {
+		xB0BDDF xB5100C 
+	}
+	ai_will_do = { always = no }
+}
+BC07 = {
+	provinces = {
+		xB5760C 
+	}
+	ai_will_do = { always = no }
+}
+BC08 = {
+	provinces = {
+		x0CB556 
+	}
+	ai_will_do = { always = no }
+}
+BC09 = {
+	provinces = {
+		xD0E090
+	}
+	ai_will_do = { always = no }
+}
+BC10 = {
+	provinces = {
+		x60E0B0
+	}
+	ai_will_do = { always = no }
+}
+BC11 = {
+	provinces = {
+		x5B5C22
+	}
+	ai_will_do = { always = no }
+}
+BC12 = {
+	provinces = {
+		xBC6ED3
+	}
+	ai_will_do = { always = no }
+}
+BC13 = {
+	states = {
+		STATE_BERMUDA
+	}
+	ai_will_do = { always = no }
+}
+BC15 = {
+	provinces = {
+		x335389 #蒙特塞拉特
+	}
+	ai_will_do = { always = no }
+}
+BC16 = {
+	provinces = {
+		x89337A #圣基茨和尼维斯
+	}
+	ai_will_do = { always = no }
+}
+BC17 = {
+	provinces = {
+		x445B6C #巴巴多斯
+	}
+	ai_will_do = { always = no }
+}
+BC18 = {
+	provinces = {
+		x5299CA #圣卢西亚
+	}
+	ai_will_do = { always = no }
+}
+BC19 = {
+	provinces = {
+		x70F001 #多米尼克
+	}
+	ai_will_do = { always = no }
+}
+BC20 = {
+	provinces = {
+		xF0F001 #格林纳达
+	}
+	ai_will_do = { always = no }
+}
+BC21 = {
+	provinces = {
+		#特立尼达和多巴哥
+		x707080 #多巴哥
+		xD496B1 #特立尼达
+	}
+	ai_will_do = { always = no }
+}
+BC22 = {
+	provinces = {
+		x446C63 #圣文森特和格林纳丁斯
+	}
+	ai_will_do = { always = no }
+}
+BC23 = {
+	provinces = {
+		x606060 #维尔京群岛
+	}
+	ai_will_do = { always = no }
+}
+BC24 = {
+	provinces = {
+		x89334D #安提瓜和巴布达
+	}
+	ai_will_do = { always = no }
+}
+BC25 = {
+	provinces = {
+		xAB37B5 #安圭拉
+	}
+	ai_will_do = { always = no }
+}
+BC27 = {
+	provinces = {
+		x1E761E
+	}
+	ai_will_do = { always = no }
+}
+BC28 = {
+	provinces = {
+		x902089
+	}
+	ai_will_do = { always = no }
+}
+BC29 = {
+	provinces = {
+		xCF9200	
+	}
+	ai_will_do = { always = no }
+}
+BC30 = {
+	provinces = {
+		x7A6FA3
+	}
+	ai_will_do = { always = no }
+}
+PC03 = {
+	states = {
+		STATE_CAPE_VERDE
+	}
+	ai_will_do = { always = no }
+}
+PC04 = {
+	provinces = {
+		xC188A3
+	}
+	ai_will_do = { always = no }
+}
+PC05 = {
+	provinces = {
+		x578368
+	}
+	ai_will_do = { always = no }
+}
+PC06 = {
+	provinces = {
+		x51F0A0
+	}
+	ai_will_do = { always = no }
+}
+PC07 = {
+	provinces = {
+		 x3CCE91 x555707 x8E502F x95515f x99e0e1 x448ecc xe44141 x1e2d9a x8ab65a x7f4592 xccc566 x41b5c1 xcb70f0 x986e50 x4ee71e
+	}
+	ai_will_do = { always = no }
+}
+PC08 = {
+	provinces = {
+		xC02050 x2A6A51
+	}
+	ai_will_do = { always = no }
+}
+AGP = {
+	provinces = {
+		xD2139B xD2C34D xD238D2 xF5C0FC xF8346B x8FE067
+	}
+	ai_will_do = { always = no }
+}
+AGP2 = {
+	provinces = {
+		xADDE52 xBC0BCD x83DFE3 xEB2EA9 x28F81E x4CBB7C x687371 x84F73C x687372
+	}
+	ai_will_do = { always = no }
+}
+AGP3 = {
+	states = {
+		STATE_CHAYU
+	}
+	ai_will_do = { always = no }
+}
+
+MNOOO = {
+	provinces = {
+		x511CA4
+	}
+	ai_will_do = { always = no }
+}
+AHB = {
+	provinces = {
+		x5485CE x66CE56 xCE3D33
+	}
+	ai_will_do = { always = no }
+}
+AHD = {
+	provinces = {
+		x8A448C
+	}
+	ai_will_do = { always = no }
+}
+AHK = {
+	provinces = {
+		x718E27 x4B23CE
+	}
+	ai_will_do = { always = no }
+}
+HHB = {
+	provinces = {
+		x8983EF
+	}
+	ai_will_do = { always = no }
+}
+LAU = {
+	provinces = {
+		xE000A0
+	}
+	ai_will_do = { always = no }
+}
+HHN = {
+	provinces = {
+		x6B5F47
+	}
+	ai_will_do = { always = no }
+}
+GRZ = {
+	provinces = {
+		x9E7398
+	}
+	ai_will_do = { always = no }
+}
+GRAA = {
+	provinces = {
+		xB59A32 x411096
+	}
+	ai_will_do = { always = no }
+}
+SND = {
+	provinces = {
+		xDB9595
+	}
+	ai_will_do = { always = no }
+}
+ALN = {
+	provinces = {
+		x205611 x3A9671
+	}
+	ai_will_do = { always = no }
+}
+ANRR = {
+	provinces = {
+		xEAC575
+	}
+	ai_will_do = { always = no }
+}
+SRO = {
+	provinces = {
+		x0BA7EA
+	}
+	ai_will_do = { always = no }
+}
+LIE = {
+	provinces = {
+		x819210
+	}
+	ai_will_do = { always = no }
+}
+BKH = {
+	provinces = {
+		x5A093C x7A0B02 x5E2101 x2D27C6 x702E4A xDD121A xB22244 x024FEF x873F80 xCD2E5B xEA1BD5 x745238 x285ED3 x6C4AFC xDB32CF x137A72 x32745E x636379 x944AFB x448823 xA86F28 xFE5B2A x09A78F x23A192 x389F61 x818962 x09BF53 xEF7A45 x839887 x54B279 x85B325 x7FAE7F x03D970 x31D92C x84BB74 x3ADF14 x47D771 x8EC3E4 xBEC5B8 xF4D564 xF3CFD6 xD1DAF9
+	}
+	ai_will_do = { always = no }
+}
+

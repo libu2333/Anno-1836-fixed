@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:AWL ?= {
+		create_character = {
+			template = fzn_abd_al_jalil_al_nasir_template
+		}
+	}
+	c:WRF ?= {
+		create_character = {
+			template = fnz_ghuma_al_mahmudi_template
+		}
+	}
+}

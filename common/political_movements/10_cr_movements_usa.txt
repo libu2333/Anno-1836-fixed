@@ -1,0 +1,283 @@
+﻿movement_frontier_movement = {
+	category = movement_category_ideological
+
+	ideology = ideology_agrarian_jeffersonian
+	character_ideologies = {
+		 ideology_jacksonian_democrat
+		 ideology_jingoist_leader
+		 ideology_land_reformer
+	}
+	
+	disband_trigger = {
+		NOT = { any_scope_state = { is_split_state = no } } 
+	}
+	on_disbanded = {
+	}
+	
+	creation_trigger = {
+		always = no
+	}
+	creation_weight = {
+		value = 100
+	}	
+	on_created = {
+		#set_bolstering = yes
+	}
+	
+	character_support_trigger = {
+		OR = {
+			has_ideology = ideology:ideology_jacksonian_democrat
+			has_ideology = ideology:ideology_luddite
+			has_ideology = ideology:ideology_land_reformer
+			has_ideology = ideology:ideology_jingoist_leader
+			has_ideology = ideology:ideology_protectionist	#Because it should tie into the 2nd Nullification Crisis event - which I haven't created yuet.
+		}
+	}
+	character_support_weight = {
+		value = 100
+		#Should probably add something here
+	}
+	
+	pop_support_factors = {
+		movement_support_split_state
+		movement_support_farmers
+		movement_support_laborers
+		movement_support_peasants
+		movement_support_soldiers
+		movement_support_aristocrats
+		#movement_support_dixie
+	}	
+
+	pop_support_weight = {	
+		if = {
+			limit = {
+				exists = scope:political_movement
+				scope:political_movement ?= {
+					OR = {
+						is_being_suppressed = yes
+						is_being_bolstered = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					scope:political_movement = {
+						is_being_suppressed = yes
+					}
+				}
+				add = {
+					value = suppression_base_value
+					multiply = {
+						value = -0.5
+						add = owner.modifier:country_suppression_attraction_factor
+					}
+					desc = "concept_suppressed"
+				}
+			}
+			else = {
+				add = {
+					value = bolstering_base_value
+					multiply = {
+						value = 0.5
+						add = owner.modifier:country_bolster_attraction_factor
+					}
+					desc = "concept_bolstered"
+				}
+			}
+		}
+		
+		if = {	#Because this means there are indians to be removed to claim farmland
+			limit = {
+				state = {
+					is_split_state = yes
+				}
+			}
+			add = {
+				value = 60
+				desc = "FRONTIER_SYMPATHIES"
+			}
+		}
+		
+		if = {
+			limit = {
+				is_pop_type = peasants
+			}
+			add = {
+				value = 50
+				desc = "POP_PEASANT"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = laborers
+			}
+			add = {
+				value = 25
+				desc = "POP_LABORERS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = farmers
+			}
+			add = {
+				value = 40
+				desc = "POP_FARMERS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = soldiers
+			}
+			add = {
+				value = 30
+				desc = "POP_SOLDIERS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = aristocrats
+			}
+			add = {
+				value = 20
+				desc = "POP_ARISTOCRATS"
+			}
+		}
+		#if = {
+		#	limit = {
+		#		culture = cu:dixie
+		#	}
+		#	add = {
+		#		value = 10
+		#		desc = "POP_DIXIE"
+		#	}
+		#}
+	}
+
+	revolution = {
+		possible = {
+			political_movement_support >= 0.30
+		}
+		
+		weight = {
+			value = 100
+		}
+		
+		state_weight = {
+			value = 1
+			if = {
+			   limit = { 
+					is_split_state = yes
+			   }
+				multiply = 2.0
+			}	
+		}
+	}
+
+	secession = {
+		possible = {
+			always = no
+		}		
+	}	
+	
+	additional_radicalism_factors = {
+		if = {
+			limit = {
+				owner = {
+					has_journal_entry = je_indian_removal
+					NOT = { has_variable = cr_indian_removal_mostly_complete }
+				}
+			}
+			if = {
+				limit = {
+					owner = { year = 1836 }
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.175
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { year = 1837 }
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.20
+				}
+			}
+			else_if = {
+				limit = {
+					year = 1838
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.25
+				}
+			}
+			else_if = {
+				limit = {
+					year = 1839
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.30
+				}
+			}
+			else_if = {
+				limit = {
+					year = 1840
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.35
+				}
+			}
+			else_if = {
+				limit = {
+					year = 1841
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.40
+				}
+			}
+			else_if = {
+				limit = {
+					year = 1842
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.45
+				}
+			}
+			else_if = {
+				limit = {
+					year = 1843
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.50
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { year = 1844 }
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.55
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { year >= 1845 } 
+				}
+				add = {
+					desc = "USA_INDIAN_REMOVAL_INCOMPLETE"
+					value = 0.60
+				}
+			}
+		}
+	}
+}

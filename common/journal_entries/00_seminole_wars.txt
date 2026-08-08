@@ -1,0 +1,139 @@
+﻿je_seminole_wars = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_usa_manifest_destiny
+	
+	scripted_button = je_seminole_war_containment_policy
+	scripted_button = je_seminole_war_forward_policy
+	scripted_button = je_seminole_war_diplomatic_policy
+	
+	complete = {
+		owns_entire_state_region = STATE_FLORIDA
+		NOT = { exists = c:SML }
+	}
+
+	on_complete = {
+		show_as_tooltip = {
+			if = {
+				limit = {
+					c:SEQ ?= { is_subject_of = c:USA }
+					exists = s:STATE_OKLAHOMA.region_state:SEQ
+				}
+				custom_tooltip = {
+					text = je_seminole_wars_removal
+					s:STATE_FLORIDA.region_state:USA ?= {
+						every_scope_pop = {
+							limit = {
+								culture = cu:muskogean
+							}
+							move_pop = s:STATE_OKLAHOMA.region_state:SEQ
+						}
+					}
+				}
+			}
+			else = {
+				s:STATE_FLORIDA.region_state:USA ?= {
+					add_modifier = {
+						name = florida_resettlement
+						days = long_modifier_time
+					}
+				}
+			}
+		}
+		trigger_event = { id = native_resettlement.7 }
+		remove_modifier = seminole_war_expense_mod
+		scope:flarda = {
+			if = {
+				limit = { has_modifier = seminole_war_diplomatic_policy }
+				remove_modifier = seminole_war_diplomatic_policy
+			}
+			if = {
+				limit = { has_modifier = seminole_war_forward_policy }
+				remove_modifier = seminole_war_forward_policy
+			}
+			if = {
+				limit = { has_modifier = seminole_war_containment_policy }
+				remove_modifier = seminole_war_containment_policy
+			}
+		}
+	}
+
+	immediate = {
+		add_modifier = seminole_war_expense_mod
+		set_variable = seminole_war_forward_policy
+		set_variable = {
+			name = seminole_war_policy_cooldown
+			days = 365
+		}
+		c:SML = {
+			save_scope_as = seminoles
+		}
+		cu:muskogean = {
+			save_scope_as = seminole_peoples
+		}
+		s:STATE_OKLAHOMA = {
+			save_scope_as = oklahoma_region
+		}
+		c:SEQ ?= {
+			save_scope_as = indian_territory
+		}
+		s:STATE_FLORIDA.region_state:USA = {
+			save_scope_as = flarda
+		}
+	}
+
+	fail = {
+		OR = {
+			c:SML ?= {
+				owns_entire_state_region = STATE_FLORIDA
+			}
+			c:MSC ?= {
+				owns_entire_state_region = STATE_FLORIDA
+			}
+		}
+	}
+
+	on_fail = {
+		s:STATE_FLORIDA = {
+			remove_claim = c:USA
+		}
+		remove_modifier = seminole_war_expense_mod
+	}
+	
+	invalid = {
+		NOT = { exists = c:SML }
+		NOT = { any_scope_state = { state_region = s:STATE_FLORIDA } }
+	}
+	on_invalid = {
+		remove_modifier = seminole_war_expense_mod		
+	}
+
+	on_monthly_pulse = {
+	}
+	on_yearly_pulse = {
+		if = {	#To randomise the policies for the AI
+			limit = { is_ai = yes }
+			remove_variable = seminole_war_ai_select_containment_policy
+			remove_variable = seminole_war_ai_select_forward_policy
+			remove_variable = seminole_war_ai_select_diplomatic_policy
+			random_list = {
+				2 = {
+				
+				}
+				1 = {
+					set_variable = seminole_war_ai_select_containment_policy
+				}
+				1 = {
+					set_variable = seminole_war_ai_select_forward_policy
+				}
+				1 = {
+					set_variable = seminole_war_ai_select_diplomatic_policy
+				}
+			}
+		}
+	}
+
+	weight = 100
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

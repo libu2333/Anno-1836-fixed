@@ -1,0 +1,148 @@
+﻿l_english:
+  # ================================
+  # Porfiriato
+  # ================================
+  inicio_porfiriato.1.t: "Plan de la Noria"
+  inicio_porfiriato.1.d: "General Porfirio Díaz has issued a proclamation against the current government, accusing him of betraying the democratic principles fought for during the Reform and foreign interventions. Supported by sympathizers within the army and opposition factions, Díaz calls the people to arms under the banner of the 'Plan de la Noria.'\n\nMexico stands on the brink of insurrection."
+  inicio_porfiriato.1.f: "“The Nation is in a deplorable state: reelection threatens to perpetuate power, and the people cry out for freedom and legality. If our weapons must speak, let them speak for justice.“\n\n— Proclamation of Porfirio Díaz, 1871"
+  inicio_porfiriato.1.a: "Díaz marches on the capital and seizes power"
+  inicio_porfiriato_takeover_tt: "Porfirio Díaz becomes the 'President' of Mexico."
+  inicio_porfiriato.1.b: "The government suppresses the rebellion"
+  inicio_porfiriato_failure_tt: "The uprising is crushed and the government consolidates its power."
+
+  inicio_porfiriato.2.t: "A Promising Young Officer"
+  inicio_porfiriato.2.d: "Mexico is at a critical juncture in its history. While the wounds of war remain fresh, a young military officer, Porfirio Díaz, is beginning to make noise. His image as a disciplined leader committed to liberal ideals has propelled him forward both on the battlefield and in political circles. As Díaz gains notoriety, his political loyalty will become crucial for the country's future. Will he serve the interests of the Armed Forces or embrace industrial progress?"
+  inicio_porfiriato.2.d2: "The nation is in a period of reconstruction and redefinition after years of turmoil. Amid this transition, a young officer named Porfirio Díaz is starting to attract attention in military and political circles. Known for his discipline and commitment to liberal ideals, he is emerging as a promising figure for the country's future."
+  inicio_porfiriato.2.f: "“There is no salvation for the country unless the government is reformed.“\n\n— Porfirio Díaz"
+  inicio_porfiriato.2.a: "Appoint Porfirio Díaz as a disciplined general"
+  porfirio_general_fa_tt: "Porfirio Díaz joins the military as a general. This may yield military benefits and encourage radicalization in the future."
+  inicio_porfiriato.2.b: "Appoint Porfirio Díaz as a progressive general"
+  porfirio_general_industrial_tt: "Porfirio Díaz becomes a general with one idea in mind: industrialization. This may boost national production but increase radicals in the future."
+
+  inicio_porfiriato.3.t: "Plan de Tuxtepec"
+  inicio_porfiriato.3.d: "After being sidelined from military and political circles due to his opposition to the government, Porfirio Díaz has not remained idle. From internal exile, he has drafted a new proclamation: the Plan de Tuxtepec. This document not only condemns reelection but calls for armed insurrection to restore republican principles. Some view him as a power-hungry rebel; others see him as the herald of a new era."
+  inicio_porfiriato.3.f: "“Effective suffrage, no reelection“ is the battle cry of Díaz's followers. What began as personal dissent now threatens to become a national movement."
+  inicio_porfiriato.3.b: "Enough! This will be Díaz's final rebellion"
+  inicio_porfiriato_final_failure_tt: "Porfirio Díaz is executed."
+
+  inicio_porfiriato.4.t: "The Strength of Order"
+  inicio_porfiriato.4.d: "Porfirio Díaz has risen to power with the decisive support of the Armed Forces. His ascent was forged in battle, and now, with the country under his command, he must define the essence of his rule. Strengthening order, obedience, and military discipline may ensure long-lasting stability in uncertain times."
+  inicio_porfiriato.4.f: "“To govern is to ensure the railways reach everywhere... but also to ensure cannons do not have to.“\n\n— Porfirio Díaz"
+  inicio_porfiriato.4.a: "We must strengthen order and military discipline"
+  porfiriato_militar_tt: "Díaz aligns with the Armed Forces as the pillar of his government, though the fruits of this strategy will take some years to materialize."
+
+  inicio_porfiriato.5.t: "A Nation on the Move"
+  inicio_porfiriato.5.d: "With power in his hands, Porfirio Díaz envisions a modern country, united not only by discipline but also by the rails of progress. To ensure stability, he proposes industrial development, foreign investment, and the expansion of infrastructure to connect and energize the nation. Under his leadership, Mexico could become a regional power driven by labor, technology, and efficiency."
+  inicio_porfiriato.5.f: "“To govern is to ensure the railways reach everywhere... but also to ensure cannons do not have to.“\n\n— Porfirio Díaz"
+  inicio_porfiriato.5.a: "The time has come for progress and industry"
+  porfiriato_industrial_tt: "Díaz bets on economic development as the foundation of his power, though the fruits of this strategy will take some years to materialize."
+
+  inicio_porfiriato.6.t: "The Porfiriato Consolidates"
+  inicio_porfiriato.6.d: "Ten years have passed since Porfirio Díaz took the presidency. His vision has taken deep root within the state apparatus, establishing a new era of stability — though not without authoritarianism — that will define the nation's course."
+  inicio_porfiriato.6.f: "“Order and progress have always been my motto.“\n\n— Porfirio Díaz"
+  inicio_porfiriato.6.a: "The era of Porfirio has truly begun"
+  porfiriato_consolidado_tt: "Permanent national bonuses are applied under Díaz's regime."
+
+  inicio_porfiriato.7.t: "The Porfirian Dream Fades"
+  inicio_porfiriato.7.d: "Porfirio Díaz failed to establish himself as the uncontested leader of the nation. Internal factions, social pressures, and a lack of support have eroded his position beyond repair."
+  inicio_porfiriato.7.f: "“Less politics and more administration.“\n\n— Porfirio Díaz"
+  inicio_porfiriato.7.a: "We return to uncertainty"
+  porfiriato_no_consolidado_tt: "The Porfirian regime has failed to consolidate."
+
+  inicio_porfiriato.8.t: "The Death of Porfirio Díaz"
+  inicio_porfiriato.8.d: "With the death of Porfirio Díaz, an era marked by order, progress, and controversy comes to an end. His legacy will be debated for generations to come."
+  inicio_porfiriato.8.f: "“In the Porfirian peace, the nation slept like a dreamed-of virgin.“\n\n— Ramón López Velarde"
+  inicio_porfiriato.8.a: "The Porfiriato has come to an end"
+  porfiriato_muerto_tt: "The death of Porfirio Díaz removes his immediate bonuses, but his long-standing impact on politics and the economy will endure."
+
+  inicio_porfiriato.9.t: "The Exile of Porfirio Díaz"
+  inicio_porfiriato.9.d: "After his political influence wanes, Porfirio Díaz is forced into exile. The nation must now navigate the uncertainties of this new political landscape, while his legacy continues to shape the country."
+  inicio_porfiriato.9.f: "“I feel hurt. One part of the country took up arms to overthrow me, while the other stood idly by to watch me fall. Both owed me in their own way for a share of things.“\n\n— Porfirio Díaz"
+  inicio_porfiriato.9.a: "Send Porfirio Díaz into exile"
+  porfirio_exilio_tt: "Exiling Porfirio Díaz removes his immediate influence, but his long-standing impact on politics and the economy will endure."
+  # ================================
+  # Liberalizaion
+  # ================================
+  liberalizcion_inicial.1.t: "Call of Benito Juárez"
+  liberalizcion_inicial.1.d: "Liberals beggin to rise against Santa Anna's dictatorship, aiming to establish a freer and more just republic. The initial reforms focus on ganting the right to vote."
+  liberalizcion_inicial.1.f: "“Sooner or later the cause of rights and justice will triumph.“\n\n— Benito Juárez"
+  liberalizcion_inicial.1.a: "Juárez will become the beacon of Mexico"
+  benito_ig_tt: "Juárez gains a presence in the political system, and the liberal intelligentsia receives a boost."
+
+  liberalizcion_inicial.2.t: "Liberalization of Mexico"
+  liberalizcion_inicial.2.d: "Juárez has become the head of the Mexican government, taking control of the presidency. His rise marks a turning point in the nation's history, as the liberal movement gains the opportunity to influence national policy."
+  liberalizcion_inicial.2.f: "“Among individuals, as among nations, respect for the rights of others is peace.“\n\n— Benito Juárez"
+  liberalizcion_inicial.2.a: "Juárez assumes leadership"
+  lib_ini_alc_tt: "Juárez consolidates liberal reforms and political influence."
+
+  liberalizcion_inicial.3.t: "The Dictatorship Persists"
+  liberalizcion_inicial.3.d: "Despite liberal efforts, Santa Anna remains in power. Resistance slows reform, and liberal influence is temporarily curtailed."
+  liberalizcion_inicial.3.f: "“Authority resists, but the spirit of reform remains.“\n\n— Anonymous"
+  liberalizcion_inicial.3.a: "Authoritarian rule continues"
+  dic_ini_per_tt: "The liberal intelligentsia loses influence, and the state strengthens its authoritarian stance."
+
+  liberalizcion_inicial.4.t: "Failed Liberalization"
+  liberalizcion_inicial.4.d: "Liberal reforms fail to take root in the country, and it remains under traditional, social and political structures. The potential benefits of Juárez's policies will remain a dream to many mexicans."
+  liberalizcion_inicial.4.f: "“Until when will the man who thinks be more esteemed than the man who kills?“\n\n— Melchor Ocampo"
+  liberalizcion_inicial.4.a: "The liberalization efforts fail"
+  lib_i_fall_tot_tt: "Liberal influence collapses, and the country continues under conservative and authoritarian control."
+
+  liberalizcion_inicial.5.t: "Partial Liberalization"
+  liberalizcion_inicial.5.d: "Some liberal measures are enacted, but the reforms are incomplete. While certain aspects of Juárez's vision take effect, the full transformation of the state never occurs."
+  liberalizcion_inicial.5.f: "“It is by talking, not killing each other, that we should understand each other.“\n\n— Melchor Ocampo"
+  liberalizcion_inicial.5.a: "Partial reforms succeed"
+  lib_i_fall_par_tt: "Some liberal influence persists, and partial reforms provide modest improvements, but the country remains constrained by traditional powers."
+ 
+ # ================================
+ # Monarquia
+ # ================================
+  monarquia_mexicana.1.t: "The Fate of the Throne"
+  monarquia_mexicana.1.d: "Mexico faces a decisive moment. The choice of a monarch will define the stability and legitimacy of the Crown. Should we welcome a new dynasty or restore the lineage of Iturbide?"
+  monarquia_mexicana.1.f: "“Only under a strong monarchical government can Mexico achieve the unity and peace it so desperately needs.“\n\n— Juan Nepomuceno Almonte"
+  monarquia_mexicana.1.a: "Proclaim a New Dynasty"
+  monarquia_mexicana.1.b: "Restore the Iturbide Line"
+  emperador_lider_tt: "The current leader establishes a new dynasty in Mexico."
+  emperador_Iturbide_tt: "Agustín Jerónimo de Iturbide is proclaimed Emperor of Mexico."
+
+  monarquia_mexicana.2.t: "European Loans"
+  monarquia_mexicana.2.d: "Mexico faces economic shortages and European creditors offer 'generous' loans. These funds will temporarily ease financial troubles, but repayment will eventually demand a heavy price."
+  monarquia_mexicana.2.f: "“To incur debt with foreign powers is to mortgage the freedom of the homeland.“\n\n— Lucas Alamán"
+  monarquia_mexicana.2.a: "Accept the Loans"
+  monarquia_mexicana.2.b: "Reject Their Offers"
+  pedir_prestamos_tt: "We will receive £5,000 weekly income, but in the future Mexico must pay £7,000,000 and perhaps even consider granting the throne to a foreign prince to free herself from the debt."
+  no_pedir_prestamos_tt: "We avoid foreign debt, but risk economic stagnation."
+
+  monarquia_mexicana.3.t: "The Debt Comes Due"
+  monarquia_mexicana.3.d: "The generous loans that once sustained Mexico have reached their end. Creditors now demand repayment of the enormous sum owed, and they suggest a compromise: the enthronement of a European prince."
+  monarquia_mexicana.3.f: "“We come from the people of Dolores, descend from Hidalgo, and were born fighting like our father for all the symbols of emancipation, and like him, fighting for such a holy cause, we shall disappear from the face of the earth.“\n\n— Ignacio Ramírez"
+  monarquia_mexicana.3.a: "Repay the Debt in Full"
+  monarquia_mexicana.3.b: "Accept a foreign monarch"
+  pagar_deuda_tt: "We repay the loans, losing a large part of our treasury."
+  acuerdo_monarquia_tt: "Maximilian of Habsburg arrives in Mexico to claim the throne."
+
+  monarquia_mexicana.4.t: "The Question of Succession"
+  monarquia_mexicana.4.d: "Maximilian sits upon the throne of Mexico, yet his years and childless marriage leave the monarchy without a clear future. Whispers spread in the court: will the empire be bound to Austria through his brother, or will Maximilian win the hearts of the Mexicans by entrusting the crown to a native heir?"
+  monarquia_mexicana.4.f: "“I want that henceforth there be no distinction between Indians and those who are not. All are Mexicans.“\n\n— Maximilian of Habsburg"
+  monarquia_mexicana.4.a: "Karl Ludwig will be the Heir"
+  monarquia_mexicana.4.b: "Iturbide's lineage will succeed the throne"
+  heredero_austriaco_tt: "Karl Ludwig of Austria is proclaimed heir to the Mexican throne."
+  heredero_mexicano_tt: "Agustín Jerónimo's line continues as the future of Mexico."
+
+  monarquia_mexicana.5.t: "The End of the Mexican Monarchy"
+  monarquia_mexicana.5.d: "The dream of a Mexican monarchy has once again ended. The crown is abandoned, and the nation moves toward a new form of government."
+  monarquia_mexicana.5.f: "“Mexico cannot accept any form of government other than that which derives from the sovereignty of the people.“\n\n— Sebastián Lerdo de Tejada"
+  monarquia_mexicana.5.a: "A New Republic is Born"
+  fin_mon_tt: "The monarchy collapses, leaving room for a new political order."
+
+  # ================================
+  # Mexico-America
+  # ================================
+  guer_mex_amer.1.t: "The Mexican-American War"
+  guer_mex_amer.1.d: "The United States has declared war upon us, threatening our sovereignty and territorial integrity. Mexico must decide: shall we face this challenge alone, or seek aid from powerful allies in Europe?"
+  guer_mex_amer.1.f: "“Poor Mexico! So far from God, so close to the United States.“\n\n— Nemesio García Naranjo"
+  guer_mex_amer.1.a: "We shall stand alone!"
+  guer_mex_amer.1.b: "Seek help from France and Britain"
+  sin_ayuda_tt: "Mexico will resist the United States without foreign aid, strengthening national pride."
+  pedir_ayuda_tt: "Mexico will request support from France and Britain in exchange of economical concessions, forging alliances with European powers."
+  treaty_mexico_france_defense_investment: "The Veracruz concessions"
+  treaty_mexico_britain_defense_investment: "The Veracruz concessions"

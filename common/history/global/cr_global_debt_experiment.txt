@@ -1,0 +1,313 @@
+﻿# This is executed last among all history
+GLOBAL = {
+	c:GBR ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -2.1
+		}
+	}
+	c:RUS ?= { #Floated a massive 20 milion (pound?) loan in 1820
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -2.6
+		}
+	}
+	c:FRA ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -2.1
+		}
+	}
+	c:SPA ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -2.35
+		}
+	}
+	c:POR ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -2.75
+		}
+	}
+	c:SAR ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.4
+		}
+	}
+	c:PAR ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.4
+		}
+	}
+	c:MOD ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.4
+		}
+	}
+	c:LUC ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.4
+		}
+	}
+	c:TUS ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.4
+		}
+	}
+	c:PAP ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.2
+		}
+	}
+	c:SIC ?= {	#Large sovereign debt floated in the 1820s
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -2.0
+		}
+	}
+	c:DEN ?= {	#small debt floated in 1820s
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.4
+		}
+	}
+	c:SWE ?= {	#no large scale bond issues until the 1858. https://www.riksbank.se/globalassets/media/forskning/monetar-statistik/volym-3/riksbanken_iii_ch4.pdf
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.6
+		}
+	}
+	c:NOR ?= {	#No debt. 'domestic credit was scarce and international credit expensive. As result, the Norwegian economy went into stagnation, which lasted until the end of the 1830s.' https://openaccess.nhh.no/nhh-xmlui/bitstream/handle/11250/163220/dp2010-13.pdf?sequence=1&isAllowed=y
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.8
+		}
+	}
+	c:FIN ?= { #assumed no debt
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.8
+		}
+	}
+	c:UBD ?= { #assumed no debt
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.8
+		}
+	}
+	
+	#Bad debtors from the 1827 crash in South America -SOVEREIGN DEBT IN LATIN AMERICA, 1820–1913 by Gerardo della Paolera and Alan M. Taylo
+	#Arrears on interest paid and service resumed in 1829.
+	c:BRZ ?= {	#Brazil was about 5 milion pounds in debt Brazil as a debtor, 1824–1931 By MARCELO de PAIVA ABREU
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:BUE ?= {	#Of course Argentina. Buenos Aires Resumed service in 1857.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:BOL ?= { #No issue of debt till the late 19th century
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.70
+		}
+	}
+	c:NPU ?= { #Peru Arrears on interest paid and service resumed in 1849. Default in 1876.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:SPU ?= { #Peru Arrears on interest paid and service resumed in 1849. Default in 1876.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:IQU ?= { #No debt
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.70
+		}
+	}
+	c:CHL ?= { #Arrears on interest paid and service resumed in 1842.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:CLM ?= {	#Inherited 50% share of Gran Colombia debt. Principal and arrears paid off by new loan in 1845. Default in 1850. Principal and arrears paid off by new loan in 1861.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:ECU ?= {	#Inherited 21.5% share of Gran Colombia debt. Principal paid off by new loan in 1855. Arrears cancelled in exchange for land warrants and Peruvian bonds. Default in 1868.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:MEX ?= {	#Refinancing in 1831 to cover principal and arrears on interest. Quickly defaulted on. New refinancing in 1837. More defaults and refunding. Resolved 1864.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -3.5
+		}
+		add_taxed_goods = g:tobacco #Because of the tobacco industry, and Mexico needs some cash
+	}
+	c:PRG ?= { #No issue of debt till the late 19th century still no borrowing for South American countries at this time
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.5
+		}
+	}
+	c:UCA ?= {	#Should be an event for the debt to be distributed amongst the former member states.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:URU ?= {	#Not Uruguay apparently, No issue of debt till the late 19th century still no borrowing for South American countries at this time
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.73
+		}
+	}
+	c:VNZ ?= {	#Inherited 28.5% share of Gran Colombia debt. Principal and arrears paid off by new loan in 1841. Default in 1847. New arrangements and further defaults then follow.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	
+	c:MKT ?= {	#No debt. Well perhaps that of Poyais
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.75
+		}
+	}
+	
+	c:USA ?= {	#Debt fully paid off by Andrew Jackson
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.8
+		}
+	}
+	
+	c:GRE ?= {	#Two massive loans floated in London in 1824 and 1825 amounting to 120% of GDP. Refinanced by a Troika of the UK, France and Russia in 1833 worth 124% of GDP. See https://www.cadtm.org/spip.php?page=imprimer&id_article=13375
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -4.0
+		}
+	}
+	c:SER ?= { #Probably no to little debt. Added to vanilla situation
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.2
+		}	
+	}
+	c:WAL ?= { #Probably no to little debt
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.72
+		}	
+	}
+	c:MOL ?= { #Probably no to little debt
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.75
+		}	
+	}
+	
+	#Canada, no debts that I know of, but probably not cash flush either.
+	every_country = {
+		limit = {
+			exists = yes
+			OR = {
+				country_has_primary_culture = cu:anglo_canadian
+				country_has_primary_culture = cu:franco_canadian
+				country_has_primary_culture = cu:metis
+			}
+		}
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.0
+		}
+	
+	}
+	every_country = {
+		limit = {
+			exists = yes
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+				country_has_primary_culture = cu:alemannic
+			}
+			NOR = {
+				this ?= c:PRU
+				this ?= c:AUS
+			}
+		}
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.0
+		}
+	}
+	every_country = {
+		limit = {
+			exists = yes
+			OR = {
+				country_has_state_religion = rel:sunni
+				country_has_state_religion = rel:shiite
+				country_has_state_religion = rel:ibadi
+			}
+			NOR = {
+				this ?= c:TUR
+			}
+		}
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.8
+		}
+	}
+	c:TUR = {	#To remove the cash reserves.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.4
+		}	
+	}
+	every_country = {
+		limit = {
+			exists = yes
+			OR = {
+				country_has_state_religion = rel:hindu
+				country_has_state_religion = rel:mahayana
+				country_has_state_religion = rel:gelugpa
+				country_has_state_religion = rel:theravada
+				country_has_state_religion = rel:confucian
+				country_has_state_religion = rel:shinto
+				country_has_state_religion = rel:sikh
+				country_has_state_religion = rel:animist
+			}
+			#NOR = {
+			#	this ?= c:TUR
+			#}
+		}
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.0
+		}
+	}
+	
+}

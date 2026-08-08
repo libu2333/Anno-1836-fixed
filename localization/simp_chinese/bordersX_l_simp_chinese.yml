@@ -1,0 +1,608 @@
+﻿ l_simp_chinese:
+
+
+  ATI:0 "阿萨巴斯卡"
+  ATI_ADJ:0 "阿萨巴斯卡"
+
+
+  JXP:0 "江心坡"
+  JXP_ADJ:0 "江心坡"
+
+  SDK:0 "沙杜伊"
+  SDK_ADJ:0 "沙杜伊"
+
+  TRT:0 "特尔纳特"
+  TRT_ADJ:0 "特尔纳特"
+
+  DYK:0 "达雅克"
+  DYK_ADJ:0 "达雅克"
+
+  TRT:0 "特尔纳特"
+  TRT_ADJ:0 "特尔纳特"
+
+
+
+  TEH:0 "土尔扈特"
+  TEH_ADJ:0 "土尔扈特"
+
+
+  DRU:0 "德鲁兹"
+  DRU_ADJ:0 "德鲁兹"
+
+  MAE:0 "梅纳贝"
+  MAE_ADJ:0 "萨卡拉瓦"
+
+  KZQ:0 "克孜勒库姆"
+  KZQ_ADJ:0 "克孜勒"
+
+  HLQ:0 "哈扎拉"
+  HLQ_ADJ:0 "哈扎拉"
+
+  TNW:0 "鞑靼游牧民"
+  TNW_ADJ:0 "鞑靼游牧民"
+
+  BAA:0 "博伊纳"
+  BAA_ADJ:0 "博伊纳"
+
+  DTS:0 "傣族酋邦"
+  DTS_ADJ:0 "傣族酋邦"
+
+  dyn_c_societ_republic_KZQ:0 "克孜勒社会主义共和国"
+  dyn_shenquan_KZQ:0 "克孜勒神权国"
+  dyn_c_republic_KZQ:0 "克孜勒共和国"
+  dyn_c_jzz_KZQ:0 "克孜勒公国"
+
+  dyn_c_societ_republic_PAA:0 "米兰卡社会主义共和国"
+  dyn_shenquan_PAA:0 "米兰卡神权国"
+  dyn_c_republic_PAA:0 "米兰卡民主共和国"
+  dyn_c_jzz_PAA:0 "米兰卡公国"
+
+  dyn_c_societ_republic_AYN:0 "阿伊努人民共和国"
+  dyn_shenquan_AYN:0 "阿伊努神权国"
+  dyn_c_republic_AYN:0 "阿伊努民主共和国"
+  dyn_c_jzz_AYN:0 "阿伊努部族"
+
+  dyn_c_societ_republic_BED:0 "巴尔蒂人民共和国"
+  dyn_shenquan_BED:0 "巴尔蒂藏传神权国"
+  dyn_c_republic_BED:0 "巴尔蒂共和国"
+  dyn_c_jzz_BED:0 "巴尔蒂斯坦"
+
+  dyn_c_societ_republic_QZT:0 "康朱提人民共和国"
+  dyn_shenquan_QZT:0 "康朱提神权国"
+  dyn_c_republic_QZT:0 "康朱提民主共和国"
+  dyn_c_jzz_QZT:0 "康朱提公国"
+
+  dyn_c_societ_republic_GSK:0 "远东人民共和国"
+  dyn_shenquan_GSK:0 "远东神权国"
+  dyn_c_republic_GSK:0 "哥萨克雇佣军"
+  dyn_c_gsk_empire:0 "哥萨克公国"
+
+  dyn_c_societ_republic_NCR:0 "霍默社会主义共和国"
+  dyn_shenquan_NCR:0 "霍默神权国"
+  dyn_c_republic_NCR:0 "霍默民主共和国"
+  dyn_c_jzz_NCR:0 "霍默王国"
+
+  dyn_c_societ_republic_DRU:0 "德鲁兹人民共和国"
+  dyn_shenquan_DRU:0 "德鲁兹神权国"
+  dyn_c_republic_DRU:0 "德鲁兹民主共和国"
+  dyn_c_jzz_DRU:0 "德鲁兹王国"
+
+  dyn_c_societ_republic_YGH:0 "永贵人民共和国"
+  dyn_shenquan_YGH:0 "永贵神权国"
+  dyn_c_republic_YGH:0 "永贵民主共和国"
+  dyn_c_jzz_YGH:0 "永贵王国"
+
+  dyn_c_societ_republic_TEH:0 "大辽人民共和国"
+  dyn_shenquan_TEH:0 "土尔扈特神权国"
+  dyn_c_republic_TEH:0 "大辽民主共和国"
+  dyn_c_jzz_TEH:0 "土尔扈特部族"
+
+  dyn_c_societ_republic_SHANG:0 "商唐人民共和国"
+  dyn_shenquan_SHANG:0 "商唐神权国"
+  dyn_c_republic_SHANG:0 "商唐民主共和国"
+  dyn_c_jzz_SHANG:0 "商唐公国"
+
+  dyn_c_yli_puppet:0 "新疆省"
+
+  dyn_c_societ_republic_TIAN:0 "天地会社会主义联盟"
+  dyn_shenquan_TIAN:0 "天地会神权国"
+  dyn_c_republic_TIAN:0 "天地会共和国"
+  dyn_c_jzz_TIAN:0 "天地会反清复明组织"
+
+  dyn_c_societ_republic_PEI:0 "爱德华人民共和国"
+  dyn_shenquan_PEI:0 "爱德华神权国"
+  dyn_c_republic_PEI:0 "爱德华共和国"
+  dyn_c_jzz_PEI:0 "爱德华公国"
+
+  dyn_c_societ_republic_GSK:0 "哥萨克社会主义联盟"
+  dyn_shenquan_GSK:0 "哥萨克神权国"
+  dyn_c_republic_GSK:0 "哥萨克雇佣军"
+  dyn_c_jzz_GSK:0 "哥萨克公国"
+
+  dyn_c_societ_republic_YUM:0 "浩罕莫社会主义联盟"
+  dyn_shenquan_YUM:0 "浩罕莫神权国"
+  dyn_c_republic_YUM:0 "浩罕莫共和国"
+  dyn_c_jzz_YUM:0 "浩罕莫公国"
+
+  dyn_c_societ_republic_DTS:0 "傣族社会主义联盟"
+  dyn_shenquan_DTS:0 "傣族神权国"
+  dyn_c_republic_DTS:0 "傣族共和国"
+  dyn_c_jzz_DTS:0 "傣族土司公国"
+
+  dyn_c_societ_republic_YTS:0 "彝族社会主义联盟"
+  dyn_shenquan_YTS:0 "彝族神权国"
+  dyn_c_republic_YTS:0 "彝族共和国"
+  dyn_c_jzz_YTS:0 "彝族土司公国"
+
+
+  YTS:0 "彝族土司"
+  YTS_ADJ:0 "彝族土司"
+
+  TIAN:0 "天地会"
+  TIAN_ADJ:0 "天地会"
+
+  SHENGJING:0 "盛京将军"
+  SHENGJING_ADJ:0 "盛京"
+
+  SMN:0 "塞米诺尔"
+  SMN_ADJ:0 "塞米诺尔"
+
+
+  MOI:0 "高棉"
+  MOI_ADJ:0 "高棉"
+
+  ARL:0 "阿尔达兰"
+  ARL_ADJ:0 "阿尔达兰"
+
+  HKR:0 "哈卡里"
+  HKR_ADJ:0 "哈卡里"
+
+  PAA:0 "米兰卡"
+  PAA_ADJ:0 "米兰卡"
+
+  KWT:0 "科威特"
+  KWT_ADJ:0 "科威特"
+
+
+  FZN:0 "费赞"
+  FZN_ADJ:0 "费赞"
+
+
+  MGK:0 "米南加保"
+  MGK_ADJ:0 "米南加保"
+
+  BKH:0 "布基"
+  BKH_ADJ:0 "布基"
+
+
+
+  YLI:0 "伊犁将军"
+  YLI_ADJ:0 "伊犁"
+
+
+  KULUN:0 "库伦大臣"
+  KULUN_ADJ:0 "库伦"
+
+  GSK:0 "哥萨克"
+  GSK_ADJ:0 "哥萨克"
+
+  JILIN:0 "吉林将军"
+  JILIN_ADJ:0 "吉林"
+
+  ALY:0 "意大利帝国"
+  ALY_ADJ:0 "意大利"
+
+  PEI:0 "爱德华王子岛"
+  PEI_ADJ:0 "爱德华王子岛"
+
+  NFH:0 "苦兀"
+  NFH_ADJ:0 "苦兀"
+
+  dyn_c_societ_republic_BLT:0 "布鲁特人民共和国"
+  dyn_shenquan_BLT:0 "布鲁特神权国"
+  dyn_c_republic_BLT:0 "布鲁特民主共和国"
+  dyn_c_blt_empire:0 "布鲁特汗国"
+
+  dyn_c_societ_republic_BDK:0 "巴达赫尚人民共和国"
+  dyn_shenquan_BDK:0 "巴达赫尚神权国"
+  dyn_c_republic_BDK:0 "巴达赫尚民主共和国"
+  dyn_c_bdk_empire:0 "巴达赫尚汗国"
+
+  dyn_c_societ_republic_SMN:0 "塞米诺尔人民共和国"
+  dyn_shenquan_SMN:0 "塞米诺尔神权国"
+  dyn_c_republic_SMN:0 "塞米诺尔民主共和国"
+  dyn_c_smn_empire:0 "塞米诺尔公国"
+
+  dyn_c_societ_republic_MGK:0 "米南加保人民共和国"
+  dyn_shenquan_MGK:0 "米南加保神权国"
+  dyn_c_republic_MGK:0 "米南加保民主共和国"
+  dyn_c_mgk_empire:0 "米南加保酋长国"
+
+  dyn_c_societ_republic_NFH:0 "尼夫赫人民共和国"
+  dyn_shenquan_NFH:0 "尼夫赫神权国"
+  dyn_c_republic_NFH:0 "尼夫赫民主共和国"
+  dyn_c_nfh_empire:0 "尼夫赫公国"
+
+  dyn_c_societ_republic_FZN:0 "费赞人民共和国"
+  dyn_shenquan_FZN:0 "费赞神权国"
+  dyn_c_republic_FZN:0 "费赞民主共和国"
+  dyn_c_fzn_empire:0 "费赞酋长国"
+
+  dyn_c_societ_republic_MUP:0 "孟潘人民共和国"
+  dyn_shenquan_MUP:0 "孟潘神权国"
+  dyn_c_republic_MUP:0 "孟潘民主共和国"
+  dyn_c_mup_empire:0 "孟潘王国"
+
+  dyn_c_societ_republic_NAN:0 "难府人民共和国"
+  dyn_shenquan_NAN:0 "难府神权国"
+  dyn_c_republic_NAN:0 "难府民主共和国"
+  dyn_c_nan_empire:0 "难府王国"
+
+  dyn_c_societ_republic_BKH:0 "布基人民共和国"
+  dyn_shenquan_BKH:0 "布基神权国"
+  dyn_c_republic_BKH:0 "布基民主共和国"
+  dyn_c_bkh_empire:0 "布基酋长国"
+
+  dyn_c_societ_republic_KWT:0 "科威特人民共和国"
+  dyn_shenquan_KWT:0 "科威特神权国"
+  dyn_c_republic_KWT:0 "科威特民主共和国"
+  dyn_c_kwt_empire:0 "科威特酋长国"
+
+  dyn_c_societ_republic_SDK:0 "沙杜伊人民共和国"
+  dyn_shenquan_SDK:0 "沙杜伊神权国"
+  dyn_c_republic_SDK:0 "沙杜伊民主共和国"
+  dyn_c_sdk_empire:0 "沙杜伊汗国"
+
+  dyn_c_societ_republic_ARL:0 "阿尔达兰人民共和国"
+  dyn_shenquan_ARL:0 "阿尔达兰神权国"
+  dyn_c_republic_ARL:0 "阿尔达兰民主共和国"
+  dyn_c_arl_empire:0 "阿尔达兰酋长国"
+
+  dyn_c_societ_republic_HKR:0 "哈卡里人民共和国"
+  dyn_shenquan_HKR:0 "哈卡里神权国"
+  dyn_c_republic_HKR:0 "哈卡里民主共和国"
+  dyn_c_hkr_empire:0 "哈卡里酋长国"
+
+  dyn_c_societ_republic_TBJ:0 "贾姆人民共和国"
+  dyn_shenquan_TBJ:0 "贾姆神权国"
+  dyn_c_republic_TBJ:0 "贾姆民主共和国"
+  dyn_c_tbj_empire:0 "贾姆酋长国"
+
+  dyn_c_societ_republic_FRA:0 "法兰西社会主义人民共和国"
+  dyn_shenquan_FRA:0 "法兰西神权国"
+  dyn_c_republic_FRA:0 "法兰西民主共和国"
+  dyn_c_jzz_FRA:0 "法兰西王国"
+  dyn_c_fra_empire:0 "法兰西帝国"
+
+  dyn_c_societ_republic_ANY:0 "德意志人民共和国"
+  dyn_shenquan_ANY:0 "德意志神权国"
+  dyn_c_republic_ANY:0 "德意志民主共和国"
+  dyn_c_jzz_ANY:0 "德意志王国"
+  dyn_c_any_empire:0 "德意志帝国"
+
+  dyn_c_kingdom_zexu:0 "泽西王国"
+
+  dyn_c_societ_republic_ALY:0 "意大利人民共和国"
+  dyn_shenquan_ALY:0 "意大利神权国"
+  dyn_c_republic_ALY:0 "意大利民主共和国"
+  dyn_c_jzz_ALY:0 "意大利王国"
+
+  dyn_c_societ_republic_LAD:0 "拉达克人民共和国"
+  dyn_shenquan_LAD:0 "拉达克神权国"
+  dyn_c_republic_LAD:0 "拉达克民主共和国"
+  dyn_c_jzz_LAD:0 "拉达克王国"
+
+  dyn_c_aly_empire:0 "意大利帝国"
+
+  dyn_c_republic_jibei:0 "天治共和国"
+
+  dyn_c_societ_republic_YLI:0 "伊犁将军政权"
+  dyn_shenquan_YLI:0 "伊犁将军神权政权"
+  dyn_c_republic_YLI:0 "伊犁将军政权"
+  dyn_c_jzz_YLI:0 "伊犁将军政权"
+
+  dyn_c_societ_republic_BFJ:0 "西北人民共和国"
+  dyn_shenquan_BFJ:0 "西北神权国"
+  dyn_c_republic_BFJ:0 "西北共和国"
+  dyn_c_jzz_BFJ:0 "西北王国"
+
+  dyn_c_societ_republic_RYU:0 "琉球人民共和国"
+  dyn_shenquan_RYU:0 "琉球神权国"
+  dyn_c_republic_RYU:0 "琉球共和国"
+  dyn_c_jzz_RYU:0 "琉球王国"
+
+  dyn_c_societ_republic_ZUK:0 "泽胡克尤人民共和国"
+  dyn_shenquan_ZUK:0 "泽胡克尤乌克兰圣公会神权国"
+  dyn_c_republic_ZUK:0 "泽胡克尤乌克兰共和国"
+  dyn_c_jzz_ZUK:0 "泽胡克尤乌克兰王国"
+
+  dyn_c_societ_republic_LAF:0 "南洋人民共和国"
+  dyn_shenquan_LAF:0 "南洋神权国"
+  dyn_c_republic_LAF:0 "南洋共和国"
+  dyn_c_jzz_LAF:0 "南洋王国"
+
+  dyn_c_societ_republic_EUC:0 "欧洲联邦社会主义联盟"
+  dyn_shenquan_EUC:0 "欧洲联邦神权国"
+  dyn_c_republic_EUC:0 "欧洲联邦共和国"
+
+  dyn_c_jzz_EUC:0 "欧洲联邦王国"
+
+  dyn_c_societ_republic_MOL:0 "摩尔多瓦社会主义共和国"
+  dyn_shenquan_MOL:0 "摩尔多瓦神权国"
+  dyn_c_republic_MOL:0 "摩尔多瓦共和国"
+  dyn_c_jzz_MOL:0 "摩尔多瓦王国"
+
+  dyn_c_societ_republic_LAN:0 "兰芳人民共和国"
+  dyn_shenquan_LAN:0 "兰芳神权国"
+  dyn_c_republic_LAN:0 "兰芳共和国"
+  dyn_c_empire_LAN:0 "兰芳帝国"
+  dyn_c_jzz_LAN:0 "兰芳王国"
+  dyn_c_communist_LAN:0 "兰芳社会主义共和国"
+  dyn_c_theocracy_LAN:0 "兰芳道国"
+
+  dyn_c_societ_republic_WUSHI:0 "吴氏人民共和国"
+  dyn_shenquan_WUSHI:0 "吴氏神权国"
+  dyn_c_republic_WUSHI:0 "吴氏共和国"
+  dyn_c_jzz_WUSHI:0 "吴氏王国"
+
+  dyn_c_societ_republic_ALY:0 "意大利人民共和国"
+  dyn_shenquan_ALY:0 "意大利神权国"
+  dyn_c_republic_ALY:0 "意大利民主共和国"
+  dyn_c_jzz_ALY:0 "意大利王国"
+  dyn_c_aly_empire:0 "意大利帝国"
+
+  dyn_c_societ_republic_ALY:0 "意大利人民共和国"
+  dyn_shenquan_ALY:0 "意大利神权国"
+  dyn_c_republic_ALY:0 "意大利民主共和国"
+  dyn_c_jzz_ALY:0 "意大利王国"
+
+  PLT:0 "阿根廷"
+  PLT_ADJ:0 "阿根廷"
+
+  dyn_c_societ_republic_PLT:0 "阿根廷人民共和国"
+  dyn_shenquan_PLT:0 "阿根廷神权国"
+  dyn_c_republic_PLT:0 "阿根廷民主共和国"
+  dyn_c_jzz_PLT:0 "阿根廷王国"
+
+  YLI:0 "伊犁将军"
+  YLI_ADJ:0 "伊犁"
+
+  GSK:0 "哥萨克"
+  GSK_ADJ:0 "哥萨克"
+
+  JILIN:0 "吉林将军"
+  JILIN_ADJ:0 "吉林"
+
+  AGU:0 "阿古柏"
+  AGU_ADJ:0 "阿古柏"
+
+  dyn_c_societ_republic_AGU:0 "阿古柏人民共和国"
+  dyn_shenquan_AGU:0 "阿古柏神权国"
+  dyn_c_republic_AGU:0 "阿古柏民主共和国"
+  dyn_c_jzz_AGU:0 "哲德沙尔阿古柏汗国"
+
+  IN1:0 "因纽皮亚特"
+  IN1_ADJ:0 "因纽皮亚特"
+
+  DH3:0 "达基"
+  DH3_ADJ:0 "达基"
+
+  G03:0 "圭逊"
+  G03_ADJ:0 "圭逊"
+
+  A01:0 "阿特纳"
+  A01_ADJ:0 "阿特纳"
+
+  DX1:0 "德希坦"
+  DX1_ADJ:0 "德希坦"
+
+  JZL:0 "子罗"
+  JZL_ADJ:0 "子罗"
+
+  SUOLUN:0 "索伦"
+  SUOLUN_ADJ:0 "索伦"
+
+  dyn_c_societ_republic_SUOLUN:0 "索伦人民共和国"
+  dyn_shenquan_SUOLUN:0 "索伦神权国"
+  dyn_c_republic_SUOLUN:0 "索伦民主共和国"
+  dyn_c_jzz_SUOLUN:0 "索伦部"
+
+  QKT:0 "乔克托"
+  QKT_ADJ:0 "乔克托"
+
+  dyn_c_societ_republic_QKT:0 "乔克托人民共和国"
+  dyn_shenquan_QKT:0 "乔克托神权国"
+  dyn_c_republic_QKT:0 "乔克托民主共和国"
+  dyn_c_jzz_QKT:0 "乔克托印第安公国"
+
+  dyn_c_societ_republic_JZL:0 "子罗人民共和国"
+  dyn_shenquan_JZL:0 "子罗神权国"
+  dyn_c_republic_JZL:0 "子罗民主共和国"
+  dyn_c_jzz_JZL:0 "子罗王国"
+
+  ATC:0 "阿萨巴斯卡"
+  ATC_ADJ:0 "阿萨巴斯卡"
+
+  LZN:0 "吕宋"
+  LZN_ADJ:0 "吕宋"
+
+  SWI:0 "瑞士"
+  SWI_ADJ:0 "瑞士"
+
+  dyn_c_societ_republic_SWI:0 "瑞士人民共和国"
+  dyn_shenquan_SWI:0 "瑞士神权国"
+  dyn_c_republic_SWI:0 "瑞士民主共和国"
+  dyn_c_jzz_SWI:0 "瑞士王国"
+
+  CSW:0 "奇克索"
+  CSW_ADJ:0 "奇克索"
+
+  dyn_c_indiacompany_puppet_GBR:0 "不列颠东印度公司"
+  dyn_c_lanfang_puppet_CHI:0 "大清兰芳采金公司"
+
+  dyn_c_societ_republic_CSW:0 "奇克索人民共和国"
+  dyn_shenquan_CSW:0 "奇克索神权国"
+  dyn_c_republic_CSW:0 "奇克索民主共和国"
+  dyn_c_jzz_CSW:0 "奇克索印第安公国"
+
+  CHE:0 "切罗基"
+  CHE_ADJ:0 "切罗基"
+
+  YUAN:0 "大元"
+  YUAN_ADJ:0 "大元"
+
+  TANG:0 "大唐"
+  TANG_ADJ:0 "大唐"
+
+  DAHAN:0 "大汉"
+  DAHAN_ADJ:0 "大汉"
+
+  HUAXIA:0 "华夏"
+  HUAXIA_ADJ:0 "华夏"
+
+  JUS:0 "美利坚"
+  JUS_ADJ:0 "美利坚"
+
+  KTN:0 "库特奈"
+  KTN_ADJ:0 "库特奈"
+
+  dyn_c_societ_republic_LZN:0 "吕宋人民共和国"
+  dyn_shenquan_LZN:0 "吕宋神权国"
+  dyn_c_republic_LZN:0 "吕宋共和国"
+  dyn_c_jzz_LZN:0 "吕宋公国"
+
+  dyn_c_societ_republic_PHI:0 "菲律宾人民共和国"
+  dyn_shenquan_PHI:0 "菲律宾神权国"
+  dyn_c_republic_PHI:0 "菲律宾共和国"
+  dyn_c_jzz_PHI:0 "菲律宾王国"
+
+  dyn_c_societ_republic_YUAN:0 "元朝人民共和国"
+  dyn_shenquan_YUAN:0 "元朝神权国"
+  dyn_c_republic_YUAN:0 "元朝共和国"
+  dyn_c_empire_YUAN:0 "元帝国"
+
+  dyn_c_societ_republic_TANG:0 "唐朝人民共和国"
+  dyn_shenquan_TANG:0 "唐朝神权国"
+  dyn_c_republic_TANG:0 "唐朝共和国"
+  dyn_c_empire_TANG:0 "唐帝国"
+
+  dyn_c_societ_republic_DAHAN:0 "汉人民共和国"
+  dyn_shenquan_DAHAN:0 "汉神权国"
+  dyn_c_republic_DAHAN:0 "汉共和国"
+  dyn_c_empire_DAHAN:0 "汉帝国"
+
+  dyn_c_societ_republic_HUAXIA:0 "中华社会主义联盟"
+  dyn_shenquan_HUAXIA:0 "中华神权国"
+  dyn_c_republic_HUAXIA:0 "中华共和国"
+  dyn_c_empire_HUAXIA:0 "中华帝国"
+
+  dyn_c_societ_republic_JUS:0 "美利坚人民共和国"
+  dyn_shenquan_JUS:0 "美利坚神权国"
+  dyn_c_republic_JUS:0 "美利坚联邦共和国"
+  dyn_c_jzz_JUS:0 "美利坚帝国"
+
+  GUO:0 "果敢"
+  GUO_ADJ:0 "果敢"
+
+  HLJ:0 "黑龙江将军"
+  HLJ_ADJ:0 "黑龙江"
+
+  BFJ:0 "乌里雅苏台将军"
+  BFJ_ADJ:0 "乌里雅苏台"
+
+  dyn_c_societ_republic_BFJ:0 "乌里雅苏台人民共和国"
+  dyn_shenquan_BFJI:0 "乌里雅苏台神权国"
+  dyn_c_republic_BFJ:0 "乌里雅苏台共和国"
+  dyn_c_jzz_BFJ:0 "大清乌里雅苏台将军"
+
+  dyn_c_societ_republic_GUO:0 "果敢人民共和国"
+  dyn_shenquan_GUO:0 "果敢神权国"
+  dyn_c_republic_GUO:0 "果敢共和国"
+  dyn_c_jzz_GUO:0 "果敢土司"
+  dyn_c_societ_republic_WAL:0 "瓦拉几亚人民共和国"
+  dyn_shenquan_WAL:0 "瓦拉几亚神权国"
+  dyn_c_republic_WAL:0 "瓦拉几亚共和国"
+  dyn_c_jzz_WAL:0 "瓦拉几亚公国"
+  HMR:0 "南美洲联邦"
+  HMR_ADJ:0 "南美洲联邦"
+  dyn_c_societ_republic_HMR:0 "南美洲社会主义联盟"
+  dyn_shenquan_HMR:0 "南美洲神权联邦"
+  dyn_c_republic_HMR:0 "南美洲联邦共和国"
+  dyn_c_jzz_HMR:0 "南美洲王国"
+  ASK:0 "俄罗斯帝国东西伯利亚总督区"
+  ASK_ADJ:0 "俄罗斯帝国东西伯利亚总督区"
+  CHU:0 "楚科奇"
+  CHU_ADJ:0 "楚科奇"
+  QZT:0 "甘德鲁"
+  QZT_ADJ:0 "甘德鲁"
+  BLT:0 "布鲁特"
+  BLT_ADJ:0 "布鲁特"
+  BDK:0 "巴达克山"
+  BDK_ADJ:0 "巴达克山"
+  dyn_c_societ_republic_ASK:0 "苏维埃东西伯利亚总督区"
+  dyn_shenquan_ASK:0 "东西伯利亚神权总督区"
+  dyn_c_republic_ASK:0 "东西伯利亚共和国总督区"
+  dyn_c_jzz_ASK:0 "东西伯利亚总督区"
+  dyn_c_russian_alaska:0 "俄罗斯帝国东西伯利亚总督区"
+  dyn_c_russian_alaska_ADJ:0 "俄罗斯帝国东西伯利亚总督区"
+  dyn_c_societ_republic_QZT:0 "犍陀罗人民共和国"
+  dyn_shenquan_QZT:0 "犍陀罗神权国"
+  dyn_c_republic_QZT:0 "犍陀罗共和国"
+  dyn_c_jzz_QZT:0 "犍陀罗王国"
+  dyn_c_societ_republic_BDK:0 "巴达赫尚人民共和国"
+  dyn_shenquan_BDK:0 "巴达赫尚神权国"
+  dyn_c_republic_BDK:0 "巴达赫尚共和国"
+  dyn_c_jzz_BDK:0 "巴达赫尚汗国"
+  dyn_c_societ_republic_BLT:0 "布鲁特人民共和国"
+  dyn_shenquan_BLT:0 "布鲁特神权国"
+  dyn_c_republic_BLT:0 "布鲁特共和国"
+  dyn_c_jzz_BLT:0 "布鲁特汗国"
+  dyn_c_societ_republic_LDK:0 "兰达克人民共和国"
+  dyn_shenquan_LDK:0 "兰达克神权国"
+  dyn_c_republic_LDK:0 "兰达克共和国"
+  dyn_c_jzz_LDK:0 "兰达克王国"
+  dyn_c_societ_republic_DAIYAN:0 "戴燕社会主义联盟"
+  dyn_shenquan_DAIYAN:0 "戴燕神权国"
+  dyn_c_republic_DAIYAN:0 "戴燕共和国"
+  dyn_c_jzz_DAIYAN:0 "戴燕王国"
+
+  WUSHI:0 "吴氏"
+  WUSHI_ADJ:0 "吴氏"
+  DAIYAN:0 "戴燕"
+  DAIYAN_ADJ:0 "戴燕"
+  ZEXU:0 "则徐"
+  ZEXU_ADJ:0 "则徐"
+  dyn_c_societ_republic_ZEXU:0 "则徐社会主义联盟"
+  dyn_shenquan_ZEXU:0 "则徐神权国"
+  dyn_c_republic_ZEXU:0 "则徐共和国"
+  dyn_c_jzz_ZEXU:0 "则徐公国"
+  ZUK:0 "则徐乌克兰联邦"
+  ZUK_ADJ:0 "则徐乌克兰"
+  dyn_c_societ_republic_ZUK:0 "则徐乌克兰社会主义联盟"
+  dyn_shenquan_ZUK:0 "则徐乌克兰神权国"
+  dyn_c_republic_ZUK:0 "则徐乌克兰共和国"
+  dyn_c_jzz_ZUK:0 "则徐乌克兰王国"
+  dyn_c_empire_ZUK:0 "则徐乌克兰帝国"
+  RYU:0 "琉球"
+  RYU_ADJ:0 "琉球"
+  JIBEI:0 "天治"
+  JIBEI_ADJ:0 "天治"
+  DAMING:0 "大明"
+  DAMING_ADJ:0 "大明"
+  dyn_c_alaska_zexu_uas:0 "则徐联邦合众国"
+  dyn_c_alaska_zexu_uas_ADJ:0 "则徐联邦合众国"
+  TER:0 "天治北美联邦"
+  TER_ADJ:0 "天治"
+  LAF:0 "南洋联邦"
+  LAF_ADJ:0 "南洋"
+  KOZ:0 "乌克兰"
+  KOZ_ADJ:0 "乌克兰"
+  RUK:0 "哥萨克"
+  RUK_ADJ:0 "哥萨克"
+  dyn_c_austria-hungary:0 "奥匈帝国"
+  dyn_c_austria-hungary_adj:0 "奥匈帝国"
+  dyn_c_cuba_puppet_SPA:0 "西属古巴"
+  dyn_c_haiti_absolutist_monarchy:0 "海地王国"
+  dyn_c_egypt_absolutist_monarchy:0 "埃及赫迪夫国"
+  dyn_c_french_commune:0 "法兰西社会主义共和国"
+  dyn_c_french_commune_adj:0 "法兰西公社"

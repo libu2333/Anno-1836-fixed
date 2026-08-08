@@ -1,0 +1,84 @@
+﻿state_pop_support_movement_carlists_add={
+	decimals=1
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_carlists_mult={
+	decimals=0
+	color=neutral
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_centralist_add={
+	decimals=1
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_centralist_mult={
+	decimals=0
+	color=neutral
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_frontier_movement_add={
+	decimals=1
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_frontier_movement_mult={
+	decimals=0
+	color=neutral
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_christinos_add={
+	decimals=1
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_christinos_mult={
+	decimals=0
+	color=neutral
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_federalist_add={
+	decimals=1
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_pop_support_movement_federalist_mult={
+	decimals=0
+	color=neutral
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}

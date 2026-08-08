@@ -1,0 +1,28 @@
+﻿l_simp_chinese:
+
+ #利益集团名称
+ ig_padri:0 "帕德里"
+ ig_adat:0 "阿达特"
+
+ #荷兰
+ ig_catholics:0 "天主教徒"
+ ig_liberals:0 "自由派"
+ ig_merchant_bankers:0 "商人银行家"
+ ig_protestants:0 "新教徒"
+ ig_socialists:0 "社会主义者"
+
+ #荷属东印度
+ ig_bupati:0 "布帕蒂"
+
+ #下加拿大/法裔加拿大
+ ig_seigneurs:0 "领主"
+ ig_seigneurs_desc:0 "领主以身为土地管理者为荣，他们拥有大片土地授封，通常源于法国殖民时期。这些授封附带特权，使他们对居住在其土地上的居民（Habitants）拥有显著权威。"
+ ig_habitants:0 "居民"
+ ig_habitants_desc:0 "居民是居住在乡村与边疆的自豪而坚韧的农民。他们以自给自足和与土地的深厚联系而闻名，对自己的生活方式以及依靠土地生存的能力深感自豪。"
+ ig_patriotes:0 "爱国者"
+ ig_patriotes_desc:0 "受启蒙运动启发，并在英国政治体系中感到边缘化，爱国者是下加拿大的一场政治运动，寻求民主改革以及法裔加拿大人更大的自治权。"
+ ig_chateau_clique:0 "城堡集团"
+ ig_chateau_clique_desc:0 "这是一个有影响力的英裔商人集团的统称，他们致力于推动现代工业利益——以及将下加拿大同化为一个更大的英语加拿大。"
+
+ #美国
+ ig_national_rifle_association:0 "全国步枪协会"

@@ -1,0 +1,130 @@
+﻿l_simp_chinese:
+
+ ### 事件描述 ###
+ cr_europe_events.1.t:0 "科学之声"
+ cr_europe_events.1.d2:0 "#bold #variable [SCOPE.sState('sound_of_science_state').GetFarmHubName]-[SCOPE.sState('sound_of_science_state').GetCityHubName]#!#! 铁路见证了一场富有想象力的实验，用以验证关于恒星运动的理论。"
+ cr_europe_events.1.d:0 "[SCOPE.sState('sound_of_science_state').GetCityHubName]大学的教授们证明了#variable Christian Doppler#!的理论：当声源或光源、或观察者处于运动状态时，所观察到的声音或光的频率会发生变化。"
+ cr_europe_events.1.f:0 "一列疾驰的火车、一支高声吹奏的铜号以及十几位拥有完美音高的耳朵，在#bold #variable [SCOPE.sState('sound_of_science_state').GetFarmHubName]-[SCOPE.sState('sound_of_science_state').GetCityHubName]#!#! 铁路上共同完成了一场富有想象力的实验。赌注是什么？多普勒关于恒星运动的理论。因为如果波的频率随物体速度变化的理论正确，那么当火车疾驰而过时，铜号发出的刺耳高音应该会出现明显的音调下降。\n\n这些观众因能分辨出八分之一音高的差异而被选中，他们仔细记录火车呼啸而过的观察结果。经过三天的数据整理，结果出来了……一致显示：音调下降！"
+ cr_europe_events.1.a:0 "观察与实验是知识的基础。"
+ cr_europe_events.1.b:0 "人们无法预知一个新真理会以多么意想不到的方式找到用武之地。"
+
+ cr_europe_events.5.t:0 "英国夫人"
+ cr_europe_events.5.desc:0 "在黎巴嫩的群山中住着一位隐居的英国夫人——冒险家、考古学家，同时也是难民、弃儿与罪犯们的女主人——她如今深陷债务。当地放债人要求我们出面干预，迫使她偿还欠款。"
+ cr_europe_events.5.desc_2:0 "在黎巴嫩的群山中住着一位隐居的英国夫人，她以英国旗帜提供的保护吸引了大量难民、弃儿与罪犯，将自己确立为他们的女主人。\n\n然而，她众多的冒险行为开始反噬自身：从对阿拉维派的惩罚远征，到在阿什凯隆失败的考古发掘，她欠下的债务远远超出她的偿还能力。\n\n如今，当地放债人与权势人物要求我们出面干预，以某种方式迫使她清偿债务。"
+ cr_europe_events.5.f:0 "至于我的债务，并非如你所想的那样每年只需支付25%，而是50%乃至95%；有一次我遭受的损失更大。他们在这里以28皮阿斯特的金币计给我45皮阿斯特的价值，我花掉时是28皮阿斯特，却要在贝鲁特以45皮阿斯特的汇率偿还……你自己算算吧！——#italic 赫丝特夫人致其私人医生的信#!"
+ cr_europe_events.5.a:0 "提醒放债人们，#italic 高利贷（riba）#! 是 #italic 哈拉姆（禁忌）#! 的……"
+ cr_europe_events.5.a_tt:0 "#italic 穆斯林（1598）记载贾比尔说：真主的使者（愿真主赐他祝福与平安）诅咒吃高利贷者、付高利贷者、记录高利贷者以及见证高利贷的两人，并说：他们都是一样的。#!"
+ cr_europe_events.5.b:0 "或许我们可以请英国人替我们出面干预"
+ cr_europe_events.5.b_tt:0 "#italic 根据投降条约，所有居住在黎凡特的英国臣民完全受其本国政府管辖，所有诉讼均提交其领事法庭，由领事裁决。严格来说，根据英国法律，我们无权裁决此类事务，正如我们无权强迫本国臣民出庭英国领事一样。#!"
+ cr_europe_events.5.c:0 "就没有人能帮我们除掉这个不安分的女人吗？"
+ cr_europe_events.5.c_tt:0 "#italic 她极具讽刺天赋，她的讽刺往往令人胆寒。她的许多信件都‘点缀’着尖酸刻薄的批评。她的怪癖无穷无尽。她对人和动物都有许多古怪的品性考验，当然也常常被两者欺骗，令她付出代价。#!"
+ cr_europe_events.5.d:0 "为了友谊，我们应当替她清偿债务"
+ cr_europe_events.5.d_tt:0 "在大多数话题上，她不仅神智清醒，而且见多识广、极其精明。她拥有非凡的谈话天赋，对她愿意示好的人极具魅力。"
+
+ cr_europe_events.6.t:0 "沙漠女王"
+ cr_europe_events.6.desc:0 "赫丝特·斯坦霍普夫人——尊贵的#variable William Pitt the Younger#!的侄女——在黎凡特的种种冒险，已成为[ROOT.GetCountry.GetRuler.GetHerHis|U]陛下政府的一大尴尬来源。\n\n赫丝特夫人长期缺钱，她的[SCOPE.sCountry('LadyHestersLiege').GetAdjectiveNoFlag]放债人向[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetPrimaryRoleTitle]呼吁，要求清偿她那相当可观的债务。根据投降条约，[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetSheHe]已将此事转交我们在[SCOPE.sState('LadyHestersHome').GetCityHubName]的领事裁决。"
+ cr_europe_events.6.desc_2:0 "多年前，#bold #variable Lady Hester Stanhope#!#!——尊贵的#bold #variable William Pitt the Younger#!#!的侄女——离开英国，前往黎凡特追寻命运——抑或逃避上流社会的闲言碎语，随你怎么理解。\n\n她长期缺钱，她的冒险行为已成为[ROOT.GetCountry.GetRuler.GetHerHis|U]陛下政府的一大尴尬来源；赫丝特夫人的[SCOPE.sCountry('LadyHestersLiege').GetAdjectiveNoFlag]放债人向[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetPrimaryRoleTitle]呼吁，要求清偿她那相当可观的债务。根据投降条约，[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetSheHe]已将此事转交我们在[SCOPE.sState('LadyHestersHome').GetCityHubName]的领事裁决。"
+ cr_europe_events.6.f:0 "在马耳他，有人告诉她她将是犹太人的救世主；在君士坦丁堡，她直视苏丹的眼睛；在开罗，她与阿里帕夏平起平坐；她不戴面纱、骑马进入大马士革；帕尔米拉人称她为#italic Meleki#!（女王）；在黎巴嫩，她与神秘的德鲁兹人结为朋友；因一名法国上校被杀，阿拉维派在她手中付出惨重代价，然而战争来临时，她又为所有求助者提供庇护。如今她在朱恩以半疯先知女的身份统治，隐居不出，从不离开城堡围墙，只在黑夜中与人交谈。"
+ cr_europe_events.6.a:0 "为了她已故舅舅的情分，我们来支付"
+ cr_europe_events.6.a_tt:0 "#italic 她在阿拉伯部落以及所有遭受易卜拉欣军队蹂躏、或为奥斯曼帝国摇摇欲坠而叹息的人中影响巨大。她比任何人都更有能力确保英国获得那些国家的好感，而当——这一天必将很快到来——我们必须为奥斯曼的独立与俄国对抗时，这些善意对我们的利益至关重要。#! ——威廉·内皮尔爵士"
+ cr_europe_events.6.b:0 "不幸的是，夫人得自己面对"
+ cr_europe_events.6.b_tt:0 "#italic 这些债务中有许多是因为愚蠢的原因欠下的——例如她给了希伯伦的拉比利维7000皮阿斯特，只因他陪她彻夜长谈弥赛亚等等。#! ——沃尔夫医生致帕默斯顿勋爵的报告"
+
+ cr_europe_events.7.t:0 "英国夫人"
+ cr_europe_events.7.desc:0 "[SCOPE.sState('LadyHestersHome').GetCityHubName]的英国领事已明确表示，[SCOPE.sCountry('LadyHesterMotherland').GetRuler.GetHerHis|U]陛下政府拒绝为#variable Lady Hester Stanhope#!清偿债务。\n\n事实上，他已否认一切[SCOPE.sCountry('LadyHesterMotherland').GetAdjectiveNoFlag]的介入，将此事完全交给我们处理。"
+ cr_europe_events.7.f:0 "当她终于拿到那封信时，赫丝特夫人相信自己所有的麻烦都结束了。她从未一刻怀疑过答案会是什么。不再等待与守望；不再有希望落空的低沉痛苦；不再有债务与催债人；她胜利与解脱的时刻已经到来，她终于继承了属于她的东西。她激动得几乎要爆血管，医生真担心她会脑溢血。唉！当她打开信时，发现并非来自弗朗西斯爵士的预期答复，而是一封截然不同的信件。那是她无意中收到的致命一击。"
+
+ cr_europe_events.8.t:0 "英国夫人"
+ cr_europe_events.8.desc:0 "[SCOPE.sState('LadyHestersHome').GetCityHubName]的英国领事已明确表示，[SCOPE.sCountry('LadyHesterMotherland').GetRuler.GetHerHis|U]陛下政府将为#variable Lady Hester Stanhope#!清偿债务。"
+ cr_europe_events.8.f:0 "如果X的故事属实，我的债务总额近1万皮阿斯特即将被清偿，那么我将继续进行崇高而哲学的发现，沉浸于深奥的抽象研究；尽管我的体力已衰，不能像过去那样日夜工作。在那种情况下，我需要一名泥瓦匠、木匠、犁田人、园丁、马夫、医生等等，因此我必须获得协助。年收入定为4000，外加1000给像你这样的人；另需5000现金用于食物、建筑、牲畜、手头资金等，以便我能从头开始。——#italic 赫丝特夫人致其私人医生的信#!"
+ cr_europe_events.8.a:0 "我们可以认为此事已了结"
+
+ ### 修正值 ###
+ # 利益集团 #
+ cr_riba_condemned_devout:0 "谴责高利贷"
+ cr_riba_condemned_bankers:0 "谴责高利贷"
+ cr_engaged_in_riba:0 "偿还放债人"
+ cr_paid_noble_debt_positive:0 "偿还贵族债务"
+ cr_paid_noble_debt_negative:0 "偿还贵族债务"
+ cr_not_paid_noble_debt_positive:0 "拒绝偿还贵族债务"
+ cr_not_paid_noble_debt_negative:0 "拒绝偿还贵族债务"
+
+ # 州修正值 #
+ cr_riba_condemned_income:0 "谴责高利贷" 
+ cr_riba_endorsed_income:0 "资助当地债务"
+
+ # 国家修正值 #
+ cr_sound_of_science_prestige_modifier:0 "科学之声"
+ cr_sound_of_science_tech_spread_modifier:0 "科学之声"
+
+ #洛林的小矿脉
+ cr_minette_ores_events.1.t:0 "洛林的小矿脉"
+ cr_minette_ores_events.1.desc:0 "在[SCOPE.sState('minette_ore_state').GetName]的丘陵之下，蕴藏着巨大的富铁#italic 米内特#!矿石储量。几十年来，其丰度一直令法国实业家与地质学家垂涎。然而，这片地区的潜力始终被锁在地下。\n\n矿石中高含量的磷使其无法用于现行炼钢方法。没有提纯手段，洛林的巨量矿藏更像地质奇观，而非经济引擎。"
+ cr_minette_ores_events.1.flavour:0 "目前，法国的熔炉仍需从别处获取燃料。但若未来的冶金突破能提纯米内特矿，它或可将该地区转变为法国钢铁生产的支柱。"
+ cr_minette_ores_events.1.a:0 "它的时代终将到来。"
+ cr_minette_ores_events.1.a_tt:0 "当#variable 贝塞麦法#!被研究出来后，将解锁日志条目，用于开发提纯#italic 米内特#!矿石的方法，并移除[SCOPE.sState('minette_ore_state').GetNameNoFormatting]的#variable 米内特矿石#!特性。"
+
+ cr_minette_ores_events.2.t:0 "埋藏的财富，涌动的潜力"
+ cr_minette_ores_events.2.desc:0 "多年来，[SCOPE.sState('minette_ore_state').GetName]地底巨大的#italic 米内特#!矿层始终是未开发的资产——储量惊人，却因高磷含量而受限。\n\n如今，随着#BOLD 贝塞麦法#!的最新发展，实业与科学界都看到了前进的道路。虽然该工艺本身无法完全解决磷的问题，但它为冶金精炼打开了大门，或许终于能让这种矿石适用于钢铁生产。"
+ cr_minette_ores_events.2.flavour:0 "曾经被视为不可用的东西，或许很快将成为国家工业的战略支柱。只需创新、投资，以及将理论化为烈火的意志。"
+
+ cr_minette_ores_events.2.a:0 "这可能改变一切。"
+ cr_minette_ores_events.2.a_tt:0 "解锁#variable 洛林的小矿脉#!日志条目。\n完成该日志条目将移除[SCOPE.sState('minette_ore_state').GetNameNoFormatting]的#variable 米内特矿石#!州特性，释放其铁矿开采潜力。"
+
+ cr_minette_ores_events.3.t:0 "铁矿重归法国"
+ cr_minette_ores_events.3.desc:0 "随着[SCOPE.sState('minette_ore_state').GetName]重归法国之手，我们夺回的不仅是领土，更是长久被剥夺的机会。丘陵之下是著名的#italic 米内特#!矿层：富饶、广阔、曾因磷含量而被弃之不用。\n\n但时代变了。我们的工业已进步。曾经不可用的资源如今成为等待唤醒的国家资产。工程师与冶金学家提议全力开发这些长眠的矿藏。"
+ cr_minette_ores_events.3.flavour:0 "我们拥有时无法开采。他们夺走时也无法开采。现在我们将向双方展示锻造未来的真正含义。"
+ cr_minette_ores_events.3.a:0 "我们将完成从未完成的事。"
+ cr_minette_ores_events.3.a_tt:0 "解锁#variable 洛林的小矿脉#!日志条目。\n完成该日志条目将允许法国移除[SCOPE.sState('minette_ore_state').GetNameNoFormatting]的#variable 米内特矿石#!州特性，释放其全部铁矿潜力。"
+
+ cr_minette_ores_events.4.t:0 "洛林的小矿脉"
+ cr_minette_ores_events.4.desc:0 "我们最近获得的[SCOPE.sState('minette_ore_state').GetName]带来了欧洲已知最大的铁矿储量之一。该地区富含#italic 米内特#!——一种以储量著称、却因杂质而长期被忽视的沉积矿石。\n\n问题在于磷：矿石虽丰富，现行技术无法将其提炼成炼钢级原料。工程师认为，若冶金技术进步能中和其化学缺陷，该矿或具未来价值。"
+ cr_minette_ores_events.4.flavour:0 "一件太重而无法举起的宝藏；一个帝国的承诺，等待科学赶上。"
+ cr_minette_ores_events.4.a:0 "我们将密切关注科学进展。"
+ cr_minette_ores_events.4.a_tt:0 "一旦#variable 贝塞麦法#!被研究出来，将解锁日志条目，用于在[SCOPE.sState('minette_ore_state').GetNameNoFormatting]开发提纯#italic 米内特#!矿石的方法。"
+
+ cr_minette_ores_events.5.t:0 "破解米内特"
+ cr_minette_ores_events.5.desc:0 "冶金学的进步重新点燃了对[SCOPE.sState('minette_ore_state').GetName]地下巨量铁矿床的兴趣。尽管因高磷含量长期被视为不可用，新的精炼技术如今或可突破这一化学障碍。\n\n实业家与科学家共同提议集中力量开发可靠的提纯方法——这或许能最终释放该地区的巨大经济潜力。"
+ cr_minette_ores_events.5.flavour:0 "有时改变的不是矿石，而是我们用来塑造它的工具。"
+ cr_minette_ores_events.5.a:0 "让工作开始吧。"
+ cr_minette_ores_events.5.a_tt:0 "解锁#variable 洛林的小矿脉#!日志条目，允许你追求提纯米内特矿石的方法。"
+
+ cr_minette_ores_events.6.t:0 "沉睡钢铁之地"
+ cr_minette_ores_events.6.desc:0 "随着[SCOPE.sState('minette_ore_state').GetName]新近落入我们掌控，该地区广阔的铁矿田向我们敞开。几十年来，这种矿石的高磷含量阻碍了其在炼钢中的使用，但工业技术的最新突破或许终于让我们能克服这一限制。\n\n工程师们敦促政府行动——免得又一代铁矿白白埋藏。"
+ cr_minette_ores_events.6.flavour:0 "有些征服带来土地，有些带来未来。"
+ cr_minette_ores_events.6.a:0 "开始这项努力。"
+ cr_minette_ores_events.6.a_tt:0 "解锁#variable 洛林的小矿脉#!日志条目，使你能够开发提纯米内特矿石的方法，并移除#variable 米内特矿石#!州特性。"
+
+ cr_minette_ores_events.7.t:0 "遥不可及的财富"
+ cr_minette_ores_events.7.desc:0 "我们最近征服[SCOPE.sState('minette_ore_state').GetName]带来的不仅是政治控制——还有其丘陵下广阔的米内特矿床。\n\n纸面上，这一发现非同寻常：铁矿储量惊人，足以供应几代钢厂。但矿石有瑕。高磷含量使其无法用现行技术加工，需等待技术进步方可利用。"
+ cr_minette_ores_events.7.flavour:0 "当地官员谈论其巨大前景，但工程师们摇头叹息。目前，这笔巨额财富实际上毫无用处——帝国的奖赏被一道顽固的化学壁垒锁住，等待我们尚未实现的冶金突破。"
+ cr_minette_ores_events.7.a:0 "等待中的奖赏。"
+ cr_minette_ores_events.7.a_tt:0 "当#variable 贝塞麦法#!被研究出来后，将解锁日志条目，用于开发提纯#italic 米内特#!矿石的方法，并移除[SCOPE.sState('minette_ore_state').GetNameNoFormatting]的#variable 米内特矿石#!特性。"
+
+ cr_minette_ores_events.10.t:0 "烈火铸就" 
+ cr_minette_ores_events.10.desc:0 "多年的实验、投资与创新终于开花结果。在[SCOPE.sState('minette_ore_state').GetCityHubName]工作的冶金学家成功开发出一种去除米内特矿石中磷的方法——彻底释放其在现代炼钢中的全部价值。"
+ cr_minette_ores_events.10.flavour:0 "曾经被视为不适合工业的地质奇观，如今可被送入全地区的熔炉。鼓风炉轰鸣，烟囱升起，钢铁流淌，而这里曾经只有原始的潜力。"
+ cr_minette_ores_events.10.a:0 "让洛林的小矿脉为日益壮大的工业强国的血脉供血。"
+ cr_minette_ores_events.10.a_tt:0 "让火焰永不熄灭。"
+
+ cr_minette_ores_events.11.t:0 "并非我们点燃的火焰"
+ cr_minette_ores_events.11.desc:0 "来自[SCOPE.sState('minette_ore_state').GetCityHubName]的消息称，[SCOPE.sCountry('occupier_of_lorraine').GetNameNoFlag]当局已开发出提纯米内特矿石的方法——去除其高磷含量，释放其全部炼钢潜力。\n\n几十年来，法国科学家与工程师一直在努力攻克这一难题，却因战争与洛林的丧失而中断。如今，熔炉轰鸣——却在另一面旗帜之下。"
+ cr_minette_ores_events.11.flavour:0 "丘陵记得谁最先梦想地底之物。但它们不选择谁来挖掘。"
+ cr_minette_ores_events.11.a:0 "我们不会忘记。"
+
+
+ cr_minette_ores_events.20.t:0 "矿床延伸"
+ cr_minette_ores_events.20.desc_no_tech:0 "隆维地区最近的地质勘测揭示了米内特矿带令人震惊的延伸范围。此前人们认为该矿带仅限于蒂永维尔盆地，如今看来其向西延伸得远超预期。\n\n新发现的矿藏规模巨大——可能与东部已知矿藏不相上下。但热情被一个熟悉的障碍所抑制：矿石仍含有高磷，因此在当前技术下仍不适合炼钢生产。"
+ cr_minette_ores_events.20.desc_tech_discovered:0 "隆维附近的新地质勘测颠覆了长期以来关于米内特铁矿范围的假设。曾经以为矿床在蒂永维尔附近逐渐变薄，如今已被追踪到显著更远的西部。\n\n这一次，消息带来的不止是学术兴趣。随着现代冶炼方法能够处理富磷矿石，这些新测绘的矿藏已成为一项立即可用的宝贵工业资产。"
+ cr_minette_ores_events.20.flavour_no_tech:0 "在科学赶上地质之前，这些西部矿床仍只是未兑现的承诺。"
+ cr_minette_ores_events.20.flavour_tech_discovered:0 "实业家们已在行动。新矿井、新铁路、新财富似乎只差一个签名。"
+ cr_minette_ores_events.20.a:0 "标记这些地点。未来或许会在这里挖掘。"
+ cr_minette_ores_events.20.b:0 "开始准备开发新矿藏。"
+ cr_minette_ores_events.20.b_tt:0 "此选项可用，因为已发现利用#italic 米内特矿石#!的方法。"
+
+ cr_minette_ores_events.26.t:0 "脚下的铁矿"
+ cr_minette_ores_events.26.desc_no_known_deposits:0 "战后[SCOPE.sState('minette_ore_state').GetName]的边界被重新划定时，[SCOPE.sCharacter('border_treaty_drawer').GetPrimaryRoleTitle][SCOPE.sCharacter('border_treaty_drawer').GetLastName]极为小心，确保蒂永维尔附近的巨量米内特矿床完全落入[SCOPE.sCountry('minette_ore_state_owner').GetAdjectiveNoFlag]控制之下。这条线并非偶然——它是地质决定的。\n\n但地质学家们最近的低语表明，富铁地层在新边界处可能并未如此整齐地终止。初步勘测暗示，相同的矿层可能向西延伸，潜入[ROOT.GetCountry.GetAdjectiveNoFormatting]的土壤之下。这一可能性值得更深入的调查。"
+ cr_minette_ores_events.26.desc_known_deposits:0 "战后，[SCOPE.sCharacter('border_treaty_drawer').GetPrimaryRoleTitle][SCOPE.sCharacter('border_treaty_drawer').GetName]在重新划定边界时毫不掩饰[SCOPE.sCharacter('border_treaty_drawer').GetHerHis]的意图：这条线并非基于文化或历史，而是地质考量。通过将边界西移至蒂永维尔以西，[SCOPE.sCharacter('border_treaty_drawer').GetHerHis]为[SCOPE.sCountry('minette_ore_state_owner').GetNameNoFlag]夺取了已知最丰富的米内特矿藏。\n\n然而[SCOPE.sCharacter('border_treaty_drawer').GetHerHis]无法夺走一切。新边界我们一侧已知存在矿层——虽勘探较少，但前景可期。其深度、品质与范围仍不确定，但潜力真实存在。彻底的地质勘测或能揭示与失去矿藏相当的储量。"
+ cr_minette_ores_events.26.flavour:0 "[SCOPE.sCharacter('border_treaty_drawer').GetHerHis|U]拿走了[SCOPE.sCharacter('border_treaty_drawer').GetHerHis]认为能拿的一切。让我们证明[SCOPE.sCharacter('border_treaty_drawer').GetHerHis]留下的远比[SCOPE.sCharacter('border_treaty_drawer').GetHerHis]想象的多。"
+ cr_minette_ores_events.26.a:0 "立即启动勘探勘测。"
+ cr_minette_ores_events.26.b:0 "失去的就是失去了，不必纠结。"

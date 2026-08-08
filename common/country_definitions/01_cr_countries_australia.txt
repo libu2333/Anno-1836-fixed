@@ -1,0 +1,27 @@
+﻿#############################
+#							#
+#  PamaNyungan Aboriginals	#
+#							#
+#############################
+
+PAA = { #Paakintyi 
+	color = { 77 68 204 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+YMT = { #Yamatji
+	color = { 119 62 247 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}

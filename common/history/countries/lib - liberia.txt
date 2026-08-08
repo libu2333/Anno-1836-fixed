@@ -1,0 +1,1063 @@
+COUNTRIES = {
+	c:LIB ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		activate_law = law_type:law_presidential_republic # Liberia did not declare independence until 1847; until then, the American Colonization Society ran the show
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_national_supremacy
+
+		ig:ig_intelligentsia ?= {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:BC02 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:central_american
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC03 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:akan
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC04 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC05 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC06 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC07 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC08 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC09 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC10 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC11 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC12 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:spanish
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC13 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC14 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC15 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC16 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC17 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC18 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC19 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC20 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC21 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC22 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC23 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC24 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC25 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:JAM ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC27 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC28 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:fang
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC29 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC30 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:BC31 ?= {
+		add_primary_culture = cu:british
+		remove_primary_culture = cu:mande
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:MLT ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC06A ?= {
+		add_primary_culture = cu:swedish
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC01 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC02 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:afro_caribbean
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC03 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:afro_antillean
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC04 ?= {
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC05 ?= {
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC06 ?= {
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC07 ?= {
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:tamil
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC08 ?= {
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:akan
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:FC09 ?= {
+		add_primary_culture = cu:french
+		remove_primary_culture = cu:fulbe
+		remove_primary_culture = cu:wolof
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC01 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:bakongo
+		remove_primary_culture = cu:ovimbundu
+		remove_primary_culture = cu:kavango_bantu
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC02 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:shona
+		remove_primary_culture = cu:chewa
+		remove_primary_culture = cu:tonga
+		remove_primary_culture = cu:nguni
+		remove_primary_culture = cu:swahili
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC03 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC04 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:gujarati
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC05 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:gujarati
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC06 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:marathi
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC07 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:moluccan
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC08 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:fang
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:PC09 ?= {
+		add_primary_culture = cu:portuguese
+		remove_primary_culture = cu:mande
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:DC01 ?= {
+		add_primary_culture = cu:danish
+		remove_primary_culture = cu:akan
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:DC02 ?= {
+		add_primary_culture = cu:danish
+		remove_primary_culture = cu:icelandic
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:DC02A ?= {
+		add_primary_culture = cu:danish
+		remove_primary_culture = cu:icelandic
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:DC03 ?= {
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:DC04 ?= {
+		add_primary_culture = cu:danish
+		remove_primary_culture = cu:afro_antillean
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:DC05 ?= {
+		add_primary_culture = cu:danish
+		remove_primary_culture = cu:tamil
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:DC05A ?= {
+		add_primary_culture = cu:danish
+		remove_primary_culture = cu:mon
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NC01 ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:akan
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NC02 ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NC03 ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NC04 ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NC05 ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:afro_caribbean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NWI ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NWI2 ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+	c:NWI3 ?= {
+		add_primary_culture = cu:dutch
+		remove_primary_culture = cu:afro_caribbean
+		remove_primary_culture = cu:afro_antillean
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_subjecthood
+	}
+}

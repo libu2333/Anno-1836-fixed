@@ -1,0 +1,41 @@
+l_simp_chinese:
+
+ #resolution
+ added_decision_chuang_guandong:"闯关东"
+ added_decision_chuang_guandong_desc:"随着内地人地矛盾日益尖锐，以及以沙皇俄国为首的列强对北部边疆的侵扰，全面开放东北、鼓励内地居民出关垦殖已势在必行。毫无疑问，这将带来前所未有的移民浪潮并巩固边疆，但朝廷中的保守势力仍在尽可能拖延这一法令的实施。"
+
+ added_decision_chuang_guandong_2:"开发外东北"
+ added_decision_chuang_guandong_2_desc:"开垦黑龙江以北的广袤土地。这一次，我们不会、也不能再失去这片土地。"
+
+ added_decision_zouxikou:"走西口"
+
+ added_decision_zouxikou_desc:"早在康熙年间，便已有许多来自晋陕边地的人前往内蒙古谋生。随着晋蒙文化的进一步交融，当地的经济与文化结构也发生了深刻变化。"
+
+ #Correction
+ reclamation_enthusiasm:"垦殖热情"
+ chuangguandong:"闯关东"
+
+ ### Gold Coast
+ #Danish
+ STATE_GHANA_danish_full:"黄金海岸"
+ STATE_GHANA_danish_partial:"丹属黄金海岸"
+ HUB_NAME_STATE_GHANA_city_danish:"库马西"
+ HUB_NAME_STATE_GHANA_port_danish:"克里斯蒂安堡"
+ HUB_NAME_STATE_GHANA_mine_danish:"塔马利"
+ HUB_NAME_STATE_GHANA_farm_danish:"腓特烈堡"
+ HUB_NAME_STATE_GHANA_wood_danish:"博尔加坦加"
+ #Dutch
+ STATE_GHANA_dutch_full:"黄金海岸"
+ STATE_GHANA_dutch_partial:"尼德兰黄金海岸"
+ HUB_NAME_STATE_GHANA_city_dutch:"库马西"
+ HUB_NAME_STATE_GHANA_port_dutch:"阿克拉"
+ HUB_NAME_STATE_GHANA_mine_dutch:"塔马利"
+ HUB_NAME_STATE_GHANA_farm_dutch:"海岸角堡"
+ HUB_NAME_STATE_GHANA_wood_dutch:"博尔加坦加"
+ #Akan
+ STATE_GHANA_akan:"阿桑特曼"
+ HUB_NAME_STATE_GHANA_city_akan:"库马西"
+ HUB_NAME_STATE_GHANA_port_akan:"恩克兰"
+ HUB_NAME_STATE_GHANA_mine_akan:"塔马利"
+ HUB_NAME_STATE_GHANA_farm_akan:"奥瓜"
+ HUB_NAME_STATE_GHANA_wood_akan:"博尔加坦加"

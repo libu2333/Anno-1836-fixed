@@ -1,0 +1,80 @@
+﻿TRY_REPLACE:KON_andre_kinlaza = {
+	# André II Kinlaza
+	first_name = "Andre"
+	last_name = "Kinlaza"
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	religion = rel:catholic
+	birth_date = 1798.6.12 # Only year known
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	home_region = STATE_ANGOLA
+	traits = {
+	}
+}
+TRY_REPLACE:TRZ_mohammed_al_habib_ould_amar = {
+	first_name = Mohammed
+	last_name = Al_Habib_Ould_Amar
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	age = 37	#Random Age
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	home_region = STATE_MAURITANIA
+	traits = {
+		
+	}
+}
+
+TRY_REPLACE:TRZ_sidi_mbairika_ould_mohammed = {
+	first_name = Sidi
+	last_name = Mbairika_Ould_Mohammed
+	historical = yes
+	culture = primary_culture
+	heir = yes
+	age = 8	#Random age
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	home_region = STATE_MAURITANIA
+	traits = {
+		honorable
+	}
+}
+TRY_REPLACE:GAR_sudarshan_shah_template = {
+    # Sudarshan Shan
+    first_name = Sudarshan
+    last_name = Panwar
+    historical = yes
+    ruler = yes
+    noble = yes
+    birth_date = 1794.5.8 # Unknown
+    culture = cu:pahari
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    home_region = STATE_WESTERN_HIMALAYAS
+    traits = {
+    }
+    on_created = {
+    }
+}
+
+TRY_REPLACE:GAR_bhawani_shah_template = {
+    # Bhawani Shah
+    first_name = Bhawani
+    last_name = Panwar
+    historical = yes
+    heir = yes
+    noble = yes
+    birth_date = 1834.2.10 # Unknown
+    culture = cu:pahari
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    home_region = STATE_WESTERN_HIMALAYAS
+    traits = {
+        trait_child
+    }
+    on_created = {
+    }
+}

@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:MDA ?= {
+		create_character = {
+			first_name = Hiassae
+			last_name = Adjara 
+			historical = yes
+			ruler = yes
+			age = 46
+			interest_group = ig_landowners
+			ideology = ideology_jingoist_leader
+			home_region = STATE_BORNU
+			traits = {
+				
+			}
+		}	
+	}
+}

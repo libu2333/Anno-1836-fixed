@@ -1,0 +1,45 @@
+﻿CHARACTERS = {
+	c:KHI ?= {
+		create_character = {
+			template = KHI_allah_quli_bahadur_qungrat
+		}	
+
+		create_character = {
+			template = KHI_muhammad_qungrat
+		}
+	}
+	c:URATEPA ?= {
+		create_character = {
+			# Shahi Parwanachi
+			first_name = "Shahi"
+			last_name = "Parwanachi"
+			historical = yes
+			culture = primary_culture
+			ruler = yes
+			age = 32
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			home_region = STATE_ALAY
+			traits = {
+				meticulous
+			}
+		}	
+	}
+	c:MERV ?= {
+		create_character = {
+			# Muhammad Topchibashi
+			first_name = "Muhammad"
+			last_name = "Topchibashi"
+			historical = yes
+			culture = primary_culture
+			ruler = yes
+			age = 32
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			home_region = STATE_MERZ
+			traits = {
+				meticulous
+			}
+		}	
+	}
+}

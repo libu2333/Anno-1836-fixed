@@ -1,0 +1,1113 @@
+﻿namespace = cr_south_africa_events
+
+cr_south_africa_events.1 = {
+	type = country_event
+	placement = p:xC84364
+
+	title = cr_south_africa_events.1.t
+	desc = cr_south_africa_events.1.desc
+	flavor = cr_south_africa_events.1.flavour
+	
+	event_image = {
+		texture = "gfx/event_pictures/cr_xhose_army.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/leader_arguing"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+	
+	duration = 3
+
+
+	trigger = {
+		#Triggered by onaction
+	}
+
+	immediate = {
+		#random_political_movement = {
+		#	limit = {
+		#		is_political_movement_type = movement_to_preserve
+		#	}
+		#	save_scope_as = rally_movement
+		#}
+		c:XHO = {
+			save_scope_as = xhosa_scope
+		}
+		save_scope_as = south_africa_scope
+	}
+
+	option = {
+		name = cr_south_africa_events.1.a
+		default_option = yes
+		custom_tooltip = { 
+			text = cr_south_africa_events.1.a.annexed_queen_adelaide_province_saf
+			s:STATE_EASTERN_CAPE = {
+				set_owner_of_provinces = {
+					country = ROOT
+					provinces = {
+						x7cea40 xfc7da6 xa66043 x30e0cf xb0dfd0 xa3b602 x8b9eb1
+					}
+				}
+			}
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:boer
+		}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:khoisan
+		}
+		if = {
+			limit = {
+				is_subject = yes
+			}
+			top_overlord = {
+				set_variable = cr_annexed_queen_adelaide_province
+				trigger_event = { id = cr_south_africa_events.3 days = 7 }
+			}
+		}
+		c:XHO = {
+			trigger_event = { id = cr_south_africa_events.2 }
+		}
+		hidden_effect = {
+			c:XHO = {
+				set_variable = cr_annexed_queen_adelaide_province
+			}
+		}
+		ai_chance = {
+			base = 85
+			#modifier = {
+			#	factor = 0
+			#}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.1.b
+		c:XHO = { set_variable = cr_xhosa_protectorate }
+		create_diplomatic_pact = {
+			country = c:XHO
+			type = protectorate
+		}
+		add_radicals = {
+			value = 0.05
+			culture = cu:boer
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:xhosa
+		}
+		if = {
+			limit = {
+				is_subject = yes
+			}
+			top_overlord = {
+				set_variable = cr_xhosa_protectorate
+				trigger_event = { id = cr_south_africa_events.3 days = 7 }
+			}
+		}
+		c:XHO = {
+			trigger_event = { id = cr_south_africa_events.2 }
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				c:XHO ?= { is_player = yes }
+			}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.1.c
+		add_modifier = {
+			name = cr_frontier_restraint
+			days = normal_modifier_time
+		}
+		change_infamy = -3
+		add_radicals = {
+			value = 0.15
+			culture = cu:boer
+		}
+		add_radicals = {
+			value = 0.15
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.05
+			pop_type = soldiers
+		}
+		add_loyalists = {
+			value = 0.2
+			culture = cu:xhosa
+		}
+		c:XHO = {
+			trigger_event = { id = cr_south_africa_events.2 }
+		}
+		if = {
+			limit = {
+				is_subject = yes
+			}
+			top_overlord = {
+				trigger_event = { id = cr_south_africa_events.3 days = 7 }
+			}
+		}
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				c:XHO ?= { is_player = yes }
+			}
+		}
+	}
+}
+
+cr_south_africa_events.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = cr_south_africa_events.2.t_annex
+
+	desc = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.2.desc_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province
+				}
+			
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.2.desc_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.2.desc_old_frontier
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+	flavor = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.2.flavour_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.2.flavour_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.2.flavour_old_frontier
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	event_image = {
+		texture = "gfx/event_pictures/cr_xhose_army.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/leader_arguing"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#Triggered by other event
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = cr_south_africa_events.2.a_annex
+		trigger = {
+			has_variable = cr_annexed_queen_adelaide_province
+		}
+		default_option = yes
+		custom_tooltip = cr_south_africa_events.2.annexed_queen_adelaide_province_xhosa
+		#add_war_exhaustion = {
+		#	target = ROOT
+		#	value = -15
+		#}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:xhosa
+		}
+		add_modifier = {
+			name = cr_xhose_lessons_or_reliance
+			days = short_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_annexed_queen_adelaide_province
+		}
+		ai_chance = {
+			base = 85
+			#modifier = {
+			#	factor = 0
+			#}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.2.b_annex
+		trigger = {
+			has_variable = cr_annexed_queen_adelaide_province
+		}
+		custom_tooltip = cr_south_africa_events.2.annexed_queen_adelaide_province_xhosa
+		#add_war_exhaustion = {
+		#	target = ROOT
+		#	value = 10
+		#}
+		change_relations = {
+			country = scope:south_africa_scope
+			value = -30 # Enough to cause a relations level drop and a negative catalyst
+		}
+		add_radicals = {
+			value = 0.10
+			pop_type = aristocrats
+		}
+		add_radicals = {
+			value = 0.10
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.05
+			pop_type = soldiers
+		}
+		add_modifier = {
+			name = cr_xhose_lessons_or_war
+			days = short_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_annexed_queen_adelaide_province
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.2.c_annex
+		trigger = {
+			has_variable = cr_annexed_queen_adelaide_province
+		}
+		custom_tooltip = cr_south_africa_events.2.annexed_queen_adelaide_province_xhosa
+		change_relations = {
+			country = scope:south_africa_scope
+			value = 30 # Enough to cause a relations level increase and a positive catalyst
+		}
+		add_radicals = {
+			value = 0.05
+			culture = cu:xhosa
+		}
+		add_modifier = {
+			name = cr_xhose_lessons_or_peace
+			days = short_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_annexed_queen_adelaide_province
+		}
+		ai_chance = {
+			base = 5
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.2.a_protectorate
+		trigger = {
+			has_variable = cr_xhosa_protectorate
+		}
+		default_option = yes
+		show_as_tooltip = {
+			scope:south_africa_scope = {
+				create_diplomatic_pact = {
+					country = ROOT
+					type = protectorate
+				}
+			}
+		}
+		add_liberty_desire = -15
+		add_loyalists = {
+			value = 0.075
+			culture = cu:xhosa
+		}
+		add_modifier = {
+			name = cr_xhose_lessons_or_reliance
+			days = short_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate
+		}
+		ai_chance = {
+			base = 30
+			#modifier = {
+			#	factor = 0
+			#}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.2.b_protectorate
+		trigger = {
+			has_variable = cr_xhosa_protectorate
+		}
+		show_as_tooltip = {
+			scope:south_africa_scope = {
+				create_diplomatic_pact = {
+					country = ROOT
+					type = protectorate
+				}
+			}
+		}
+		change_relations = {
+			country = scope:south_africa_scope
+			value = -15 
+		}
+		add_radicals = {
+			value = 0.075
+			pop_type = aristocrats
+		}
+		add_radicals = {
+			value = 0.075
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.05
+			pop_type = soldiers
+		}
+		add_modifier = {
+			name = cr_xhose_lessons_or_war
+			days = short_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate
+		}
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.2.c_protectorate
+		trigger = {
+			has_variable = cr_xhosa_protectorate
+		}
+		show_as_tooltip = {
+			scope:south_africa_scope = {
+				create_diplomatic_pact = {
+					country = ROOT
+					type = protectorate
+				}
+			}
+		}
+		add_liberty_desire = -30
+		add_loyalists = {
+			value = 0.15
+			culture = cu:xhosa
+		}
+		add_modifier = {
+			name = cr_xhose_lessons_or_peace
+			days = short_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.2.a_old_frontier
+		trigger = {
+			NOR = {
+				has_variable = cr_xhosa_protectorate
+				has_variable = cr_annexed_queen_adelaide_province
+			}
+		}
+		default_option = yes
+		add_loyalists = {
+			value = 0.05
+			culture = cu:xhosa
+		}
+		add_modifier = {
+			name = cr_xhose_lessons_or_reliance
+			days = short_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate
+		}
+		ai_chance = {
+			base = 30
+			#modifier = {
+			#	factor = 0
+			#}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.2.b_old_frontier
+		trigger = {
+			NOR = {
+				has_variable = cr_xhosa_protectorate
+				has_variable = cr_annexed_queen_adelaide_province
+			}
+		}
+		change_relations = {
+			country = scope:south_africa_scope
+			value = -30 # Enough to cause a relations level drop and a negative catalyst
+		}
+		#add_war_exhaustion = {
+		#	target = ROOT
+		#	value = 10
+		#}
+		add_modifier = {
+			name = cr_xhose_lessons_or_war
+			days = short_modifier_time
+		}
+		add_radicals = {
+			value = 0.05
+			pop_type = aristocrats
+		}
+		add_radicals = {
+			value = 0.075
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.025
+			pop_type = soldiers
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+cr_south_africa_events.3 = {
+	type = country_event
+	placement = p:xC84364
+
+	title = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.3.t_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province
+				}
+			
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.3.t_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.3.t_old_frontier
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}		
+
+	desc = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.3.desc_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province
+				}
+			
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.3.desc_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.3.desc_old_frontier
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+	flavor = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.3.flavour_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.3.flavour_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.3.flavour_old_frontier
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	event_image = {
+		texture = "gfx/event_pictures/cr_xhose_army.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/leader_arguing"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#Triggered by other event
+	}
+
+	immediate = {
+		save_scope_as = british_scope
+		if = {
+			limit = {
+				ig:ig_intelligentsia ?= {
+					is_in_government = yes
+					leader = {
+						NOT = {
+							has_ideology = ideology:ideology_jingoist_leader
+							has_ideology = ideology:ideology_ethno_nationalist
+							has_ideology = ideology:ideology_fascist
+							has_ideology = ideology:ideology_slaver
+						}
+					}
+				}
+			}
+			ig:ig_intelligentsia ?= {
+				leader = {
+					save_scope_as = anti_colonialist_politician
+				}
+				save_scope_as = anti_colonialist_ig
+			}
+		}
+		else_if = {
+			limit = {
+				any_interest_group = {
+					is_in_government = yes
+					leader = {
+						NOT = {
+							has_ideology = ideology:ideology_jingoist_leader
+							has_ideology = ideology:ideology_ethno_nationalist
+							has_ideology = ideology:ideology_fascist
+							has_ideology = ideology:ideology_slaver
+						}
+					}
+					NOT = { this = ig:ig_armed_forces }
+				}
+			}
+			random_interest_group = {
+				limit = {
+					is_in_government = yes
+					leader = {
+						NOT = {
+							has_ideology = ideology:ideology_jingoist_leader
+							has_ideology = ideology:ideology_ethno_nationalist
+							has_ideology = ideology:ideology_fascist
+							has_ideology = ideology:ideology_slaver
+						}
+					}
+					NOT = { this = ig:ig_armed_forces }
+				}
+				leader = {
+					save_scope_as = anti_colonialist_politician
+				}
+				save_scope_as = anti_colonialist_ig
+			}
+		}
+		else_if = {
+			limit = {
+				any_interest_group = {
+					is_in_government = yes
+					leader = {
+						NOT = {
+						has_ideology = ideology:ideology_utopian
+						has_ideology = ideology:ideology_reformer
+						has_ideology = ideology:ideology_radical
+						has_ideology = ideology:ideology_pacifist
+						has_ideology = ideology:ideology_market_liberal
+						has_ideology = ideology:ideology_humanitarian
+						has_ideology = ideology:ideology_enlightened_royalist
+						has_ideology = ideology:ideology_abolitionist
+						}
+					}
+					NOT = { this = ig:ig_armed_forces }
+				}
+			}
+			random_interest_group = {
+				limit = {
+					is_in_government = yes
+					leader = {
+						has_ideology = ideology:ideology_utopian
+						has_ideology = ideology:ideology_reformer
+						has_ideology = ideology:ideology_radical
+						has_ideology = ideology:ideology_pacifist
+						has_ideology = ideology:ideology_market_liberal
+						has_ideology = ideology:ideology_humanitarian
+						has_ideology = ideology:ideology_enlightened_royalist
+						has_ideology = ideology:ideology_abolitionist
+					}
+					NOT = { this = ig:ig_armed_forces }	
+				}
+				leader = {
+					save_scope_as = anti_colonialist_politician
+				}
+				save_scope_as = anti_colonialist_ig
+			}
+		}
+		else_if = {
+			limit = {
+				ig:ig_intelligentsia ?= {
+					is_in_government = yes
+				}
+			}
+			ig:ig_devout = {
+				leader = {
+					save_scope_as = anti_colonialist_politician
+				}
+				save_scope_as = anti_colonialist_ig
+			}
+		}
+		else = {
+			random_scope_character = {
+				limit = {
+					NOT = {
+						has_ideology = ideology:ideology_jingoist_leader
+					}
+					NOT = { interest_group = ig:ig_armed_forces }
+				}
+				save_scope_as = anti_colonialist_politician
+				interest_group = { save_scope_as = anti_colonialist_ig }
+			}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.3.a_annex
+		trigger = {
+			has_variable = cr_annexed_queen_adelaide_province
+		}
+		add_modifier = {
+			name = cr_cape_expansion_administrative_border
+			days = long_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_annexed_queen_adelaide_province
+		}
+		ai_chance = {
+			base = 15
+			modifier = {
+				scope:south_africa_scope = {
+					is_player = yes
+				}
+				add = 35
+			}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.3.b_annex
+		trigger = {
+			has_variable = cr_annexed_queen_adelaide_province
+		}
+		default_option = yes
+		custom_tooltip = cr_south_africa_events.3.b_annex_tt
+		show_as_tooltip = {
+			scope:south_africa_scope = {
+				add_radicals = {
+					value = 0.20
+					culture = cu:boer
+				}
+				add_liberty_desire = 15
+				change_relations = {
+					country = ROOT
+					value = -30 # Enough to cause a relations level drop and a negative catalyst
+				}
+			}
+		}
+		scope:south_africa_scope = {
+			trigger_event = {
+				id = cr_south_africa_events.4
+				days = 7
+			}
+			set_variable = cr_annexed_queen_adelaide_province_denied
+		} 
+		add_modifier = {
+			name = cr_cape_colonial_expansion_denied
+			days = long_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_annexed_queen_adelaide_province
+			if = {
+				limit = {
+					exists = s:STATE_EASTERN_CAPE.region_state:XHO
+				}
+				every_scope_pop = {
+					limit = {
+						culture = cu:xhosa
+					}
+					move_pop = s:STATE_EASTERN_CAPE.region_state:XHO
+				}
+			}
+		}
+		ai_chance = {
+			base = 85
+			modifier = {
+				scope:south_africa_scope = {
+					is_player = yes
+				}
+				add = -35
+			}
+			modifier = {
+				scope:xhosa_scope = {
+					is_player = yes
+				}
+				add = 10
+			}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.3.a_protectorate
+		trigger = {
+			has_variable = cr_xhosa_protectorate
+		}
+		default_option = yes
+		add_modifier = {
+			name = cr_cape_expansion_administrative_border_small
+			days = long_modifier_time
+		}
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate
+		}
+		ai_chance = {
+			base = 45
+			modifier = {
+				scope:south_africa_scope = {
+					is_player = yes
+				}
+				add = 15
+			}
+			modifier = {
+				scope:xhosa_scope = {
+					is_player = yes
+				}
+				add = -25
+			}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.3.b_protectorate
+		trigger = {
+			has_variable = cr_xhosa_protectorate
+		}
+		default_option = yes
+		custom_tooltip = cr_south_africa_events.3.b_protectorate_tt
+		show_as_tooltip = {
+			scope:south_africa_scope = {
+				add_radicals = {
+					value = 0.2
+					culture = cu:boer
+				}
+				add_liberty_desire = 10
+				change_relations = {
+					country = ROOT
+					value = -15 # Not enough to cause a relations level drop and a negative catalyst
+				}
+			}
+		}
+		scope:south_africa_scope = {
+			trigger_event = {
+				id = cr_south_africa_events.4
+				days = 7
+			}
+			set_variable = cr_xhosa_protectorate_denied
+		}
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate
+		}
+		ai_chance = {
+			base = 55
+			modifier = {
+				scope:south_africa_scope = {
+					is_player = yes
+				}
+				add = -15
+			}
+			modifier = {
+				scope:xhosa_scope = {
+					is_player = yes
+				}
+				add = 25
+			}
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.3.a_old_frontier
+		trigger = {
+			NOR = {
+				has_variable = cr_xhosa_protectorate
+				has_variable = cr_annexed_queen_adelaide_province
+			}
+		}
+		default_option = yes
+		change_infamy = 3
+	}
+}
+
+cr_south_africa_events.4 = {
+	type = country_event
+	placement = scope:british_scope
+
+	title = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.4.t_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province_denied
+				}
+			
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.4.t_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate_denied
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.4.t
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	desc = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.4.desc_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province_denied
+				}
+			
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.4.desc_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate_denied
+				}
+			}
+		}
+	}
+	flavor = {
+		first_valid = { 
+			triggered_desc = {
+				desc = cr_south_africa_events.4.flavour_annex
+				trigger = {
+					has_variable = cr_annexed_queen_adelaide_province_denied
+				}
+			}
+			triggered_desc = {
+				desc = cr_south_africa_events.4.flavour_protectorate
+				trigger = {
+					has_variable = cr_xhosa_protectorate_denied
+				}
+			}
+		}
+	}
+
+	event_image = {
+		video = "gfx/event_pictures/africa_leader_arguing.bk2"	#Temp
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	dlc = dlc_anno1836
+
+	duration = 3
+
+	trigger = {
+		#Triggered by other event
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = cr_south_africa_events.4.a_annex
+		trigger = {
+			has_variable = cr_annexed_queen_adelaide_province_denied
+		}
+		default_option = yes
+		s:STATE_EASTERN_CAPE = {
+			set_owner_of_provinces = {
+				country = scope:xhosa_scope
+				provinces = {
+					x7cea40 xfc7da6 xa66043 x30e0cf xb0dfd0 xa3b602 x8b9eb1
+				}
+			}
+		}
+		
+		add_radicals = {
+			value = 0.3
+			culture = cu:boer
+		}
+		add_liberty_desire = -10
+		change_relations = {
+			country = scope:british_scope
+			value = -15 # Enough to cause a relations level drop and a negative catalyst
+		}
+		hidden_effect = {
+			remove_variable = cr_annexed_queen_adelaide_province_denied
+			c:XHO = {
+				post_notification = cr_SAF_queen_adelaide_province_denied
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.4.b_annex
+		trigger = {
+			has_variable = cr_annexed_queen_adelaide_province_denied
+		}
+		s:STATE_EASTERN_CAPE = {
+			set_owner_of_provinces = {
+				country = scope:xhosa_scope
+				provinces = {
+					x7cea40 xfc7da6 xa66043 x30e0cf xb0dfd0 xa3b602 x8b9eb1
+				}
+			}
+		}
+		change_infamy = 3
+		add_radicals = {
+			value = 0.15
+			culture = cu:boer
+		}
+		add_liberty_desire = 20
+		change_relations = {
+			country =scope:british_scope
+			value = -30 # Enough to cause a relations level drop and a negative catalyst
+		}
+		s:STATE_EASTERN_CAPE = {
+			add_claim = ROOT
+		}
+		hidden_effect = {
+			remove_variable = cr_annexed_queen_adelaide_province_denied
+			c:XHO = {
+				post_notification = cr_SAF_queen_adelaide_province_denied
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.4.a_protectorate
+		trigger = {
+			has_variable = cr_xhosa_protectorate_denied
+		}
+		default_option = yes
+		remove_diplomatic_pact = {
+			country = scope:xhosa_scope
+			type = protectorate
+		}
+		add_radicals = {
+			value = 0.15
+			culture = cu:boer
+		}
+		add_liberty_desire = -5
+		change_relations = {
+			country = scope:british_scope
+			value = -30 # Enough to cause a relations level drop and a negative catalyst
+		}
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate_denied
+			c:XHO = {
+				post_notification = cr_SAF_xhosa_protectorate_denied
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = cr_south_africa_events.4.b_protectorate
+		trigger = {
+			has_variable = cr_xhosa_protectorate_denied
+		}
+		default_option = yes
+		remove_diplomatic_pact = {
+			country = scope:xhosa_scope
+			type = protectorate
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:boer
+		}
+		add_liberty_desire = 10
+		change_relations = {
+			country = scope:british_scope
+			value = -30 # Enough to cause a relations level drop and a negative catalyst
+		}
+		s:STATE_EASTERN_CAPE = {
+			add_claim = ROOT
+		}
+		change_infamy = 5
+		hidden_effect = {
+			remove_variable = cr_xhosa_protectorate_denied
+			c:XHO = {
+				post_notification = cr_SAF_xhosa_protectorate_denied
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}

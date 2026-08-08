@@ -1,0 +1,36 @@
+﻿l_simp_chinese:
+  mexicanize_north_decision: "墨西哥化北方"
+  mexicanize_north_decision_desc: "我们将巩固对北方领土的控制，确保墨西哥身份压倒当地和外来文化，即便这会激起当地社区中的激进分子。"
+  mexicanize_north_decision_tooltip: "北方领土将成为墨西哥家园，其人口将开始采纳我们的文化和宗教，最终10%的人口将立即同化。"
+
+  mexicanize_south_decision: "墨西哥化中美洲"
+  mexicanize_south_decision_desc: "是时候将中美洲人民重新团结在一种国家身份之下：墨西哥身份之下。他们的命运就是成为我们祖国的一部分，无论他们愿不愿意。"
+  mexicanize_south_decision_tooltip: "中美洲领土将成为墨西哥家园，其人口将开始采纳我们的文化，最终10%的人口将立即同化。"
+
+  mexicanize_caribean_decision: "墨西哥化加勒比地区"
+  mexicanize_caribean_decision_desc: "加勒比地区的古巴人和非裔后裔社区必须融入墨西哥民族。虽然他们的一些传统可能保留，但优先任务是巩固共同的墨西哥身份，即便这会引发民众抵抗。"
+  mexicanize_caribean_decision_tooltip: "加勒比领土将成为墨西哥家园，其人口将开始采纳我们的文化，最终10%的人口将立即同化。"
+
+  mexicanize_philippines_decision: "墨西哥化菲律宾"
+  mexicanize_philippines_decision_desc: "尽管隔着太平洋遥远，菲律宾长期以来与我们因历史和信仰而紧密相连。通过宣布它们为我们家园的一部分，我们重申墨西哥作为太平洋强国的遗产，即便此举会点燃群岛人民激烈的抵抗。"
+  mexicanize_philippines_decision_tooltip: "菲律宾领土将成为墨西哥家园，其人口将开始采纳我们的文化，最终10%的人口将立即同化。"
+
+  mexicanize_mexico_decision: "巩固墨西哥身份"
+  mexicanize_mexico_decision_desc: "为了加强国家统一，我们必须抹去墨西哥心脏地带旧有的民族和文化分歧。只有共同的墨西哥身份才能确保国家的稳定与进步，即便这意味着与这些文化为敌。"
+  mexicanize_mexico_decision_tooltip: "墨西哥中部的原住民家园将被移除，墨西哥身份将成为国家基础。"
+
+  buy_gbr_colonies_decision: "购买英国中美洲殖民地"
+  buy_gbr_colonies_decision_desc: "通过外交和黄金，我们可以与英国谈判，获取其中美洲殖民地，扩大墨西哥领土。"
+  buy_gbr_colonies_decision_tooltip: "墨西哥将以金钱换取英国中美洲殖民地。"
+
+  southern_claims_decision: "重申对中美洲的主权"
+  southern_claims_decision_desc: "中美洲曾于独立后成为墨西哥国家的一部分。尽管长期分离，我们的命运要求恢复我们应有的影响，并在南方保护墨西哥利益。"
+  southern_claims_decision_tooltip: "墨西哥获得对中美洲国家的领土主张，但此类野心可能在国内引发动荡，在国外引发外交紧张。"
+
+  caribean_claims_decision: "主张加勒比地区主权"
+  caribean_claims_decision_desc: "古巴、波多黎各和伊斯帕尼奥拉岛是西班牙在新大陆殖民帝国的最后残余。墨西哥曾与它们在西班牙王冠下紧密相连，如今可以宣称领导加勒比地区并在新命运下保护这些岛屿人民的权利。"
+  caribean_claims_decision_tooltip: "墨西哥获得对加勒比岛屿的领土主张。西班牙可能视此为威胁，损害外交关系。"
+
+  philippine_claims_decision: "复兴对菲律宾的主权"
+  philippine_claims_decision_desc: "独立之前，墨西哥和菲律宾通过马尼拉大帆船和新西班牙总督辖区在西班牙王冠下紧密相连。随着西班牙衰弱和我们影响力的崛起，我们可以复兴这些古老纽带，再次将墨西哥力量延伸至太平洋彼岸。"
+  philippine_claims_decision_tooltip: "墨西哥获得对菲律宾岛屿的领土主张。西班牙可能视此为威胁，损害外交关系。"

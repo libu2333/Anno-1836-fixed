@@ -1,0 +1,597 @@
+﻿l_english:
+
+ ATI:0 "Athabaska"
+ ATI_ADJ:0 "Athabaskan"
+
+ JXP:0 "Jiangxinpo"
+ JXP_ADJ:0 "Jiangxinpo"
+
+ SDK:0 "Shadui"
+ SDK_ADJ:0 "Shadui"
+
+ TRT:0 "Ternate"
+ TRT_ADJ:0 "Ternatan"
+
+ DYK:0 "Dayak"
+ DYK_ADJ:0 "Dayak"
+
+ TEH:0 "Torgut"
+ TEH_ADJ:0 "Torgut"
+
+ DRU:0 "Druze"
+ DRU_ADJ:0 "Druze"
+
+ MAE:0 "Menabe"
+ MAE_ADJ:0 "Sakalava"
+
+ KZQ:0 "Kyzylkum"
+ KZQ_ADJ:0 "Kyzyl"
+
+ HLQ:0 "Hazara"
+ HLQ_ADJ:0 "Hazara"
+
+ TNW:0 "Tatar Nomads"
+ TNW_ADJ:0 "Tatar Nomad"
+
+ BAA:0 "Boyna"
+ BAA_ADJ:0 "Boyna"
+
+ DTS:0 "Dai Chiefdom"
+ DTS_ADJ:0 "Dai Chiefdom"
+
+ dyn_c_societ_republic_KZQ:0 "Kyzyl Socialist Republic"
+ dyn_shenquan_KZQ:0 "Kyzyl Theocracy"
+ dyn_c_republic_KZQ:0 "Kyzyl Republic"
+ dyn_c_jzz_KZQ:0 "Kyzyl Duchy"
+
+ dyn_c_societ_republic_PAA:0 "Milanka Socialist Republic"
+ dyn_shenquan_PAA:0 "Milanka Theocracy"
+ dyn_c_republic_PAA:0 "Milanka Democratic Republic"
+ dyn_c_jzz_PAA:0 "Milanka Duchy"
+
+ dyn_c_societ_republic_AYN:0 "Ainu People's Republic"
+ dyn_shenquan_AYN:0 "Ainu Theocracy"
+ dyn_c_republic_AYN:0 "Ainu Democratic Republic"
+ dyn_c_jzz_AYN:0 "Ainu Tribe"
+
+ dyn_c_societ_republic_BED:0 "Baltistan People's Republic"
+ dyn_shenquan_BED:0 "Baltistan Tibetan Theocracy"
+ dyn_c_republic_BED:0 "Baltistan Republic"
+ dyn_c_jzz_BED:0 "Baltistan"
+
+ dyn_c_societ_republic_QZT:0 "Kandjut People's Republic"
+ dyn_shenquan_QZT:0 "Kandjut Theocracy"
+ dyn_c_republic_QZT:0 "Kandjut Democratic Republic"
+ dyn_c_jzz_QZT:0 "Kandjut Duchy"
+
+ dyn_c_societ_republic_GSK:0 "Far East People's Republic"
+ dyn_shenquan_GSK:0 "Far East Theocracy"
+ dyn_c_republic_GSK:0 "Cossack Mercenary Host"
+ dyn_c_gsk_empire:0 "Cossack Host"
+
+ dyn_c_societ_republic_NCR:0 "Homer Socialist Republic"
+ dyn_shenquan_NCR:0 "Homer Theocracy"
+ dyn_c_republic_NCR:0 "Homer Democratic Republic"
+ dyn_c_jzz_NCR:0 "Kingdom of Homer"
+
+ dyn_c_societ_republic_DRU:0 "Druze People's Republic"
+ dyn_shenquan_DRU:0 "Druze Theocracy"
+ dyn_c_republic_DRU:0 "Druze Democratic Republic"
+ dyn_c_jzz_DRU:0 "Kingdom of the Druze"
+
+ dyn_c_societ_republic_YGH:0 "Yonggui People's Republic"
+ dyn_shenquan_YGH:0 "Yonggui Theocracy"
+ dyn_c_republic_YGH:0 "Yonggui Democratic Republic"
+ dyn_c_jzz_YGH:0 "Kingdom of Yonggui"
+
+ dyn_c_societ_republic_TEH:0 "Great Liao People's Republic"
+ dyn_shenquan_TEH:0 "Torgut Theocracy"
+ dyn_c_republic_TEH:0 "Great Liao Democratic Republic"
+ dyn_c_jzz_TEH:0 "Torgut Tribe"
+
+ dyn_c_societ_republic_SHANG:0 "Shang Tang People's Republic"
+ dyn_shenquan_SHANG:0 "Shang Tang Theocracy"
+ dyn_c_republic_SHANG:0 "Shang Tang Democratic Republic"
+ dyn_c_jzz_SHANG:0 "Shang Tang Duchy"
+
+ dyn_c_yli_puppet:0 "Xinjiang Province"
+
+ dyn_c_societ_republic_TIAN:0 "Tiandihui Socialist Union"
+ dyn_shenquan_TIAN:0 "Tiandihui Theocracy"
+ dyn_c_republic_TIAN:0 "Tiandihui Republic"
+ dyn_c_jzz_TIAN:0 "Tiandihui Anti-Qing Restoration Society"
+
+ dyn_c_societ_republic_PEI:0 "Prince Edward People's Republic"
+ dyn_shenquan_PEI:0 "Prince Edward Theocracy"
+ dyn_c_republic_PEI:0 "Prince Edward Republic"
+ dyn_c_jzz_PEI:0 "Prince Edward Duchy"
+
+ dyn_c_societ_republic_GSK:0 "Cossack Socialist Union"
+ dyn_shenquan_GSK:0 "Cossack Theocracy"
+ dyn_c_republic_GSK:0 "Cossack Mercenary Host"
+ dyn_c_jzz_GSK:0 "Cossack Host"
+
+ dyn_c_societ_republic_YUM:0 "Khoqand Socialist Union"
+ dyn_shenquan_YUM:0 "Khoqand Theocracy"
+ dyn_c_republic_YUM:0 "Khoqand Republic"
+ dyn_c_jzz_YUM:0 "Khoqand Duchy"
+
+ dyn_c_societ_republic_DTS:0 "Dai Socialist Union"
+ dyn_shenquan_DTS:0 "Dai Theocracy"
+ dyn_c_republic_DTS:0 "Dai Republic"
+ dyn_c_jzz_DTS:0 "Dai Tusi Duchy"
+
+ dyn_c_societ_republic_YTS:0 "Yi Socialist Union"
+ dyn_shenquan_YTS:0 "Yi Theocracy"
+ dyn_c_republic_YTS:0 "Yi Republic"
+ dyn_c_jzz_YTS:0 "Yi Tusi Duchy"
+
+ YTS:0 "Yi Tusi"
+ YTS_ADJ:0 "Yi Tusi"
+
+ TIAN:0 "Tiandihui"
+ TIAN_ADJ:0 "Tiandihui"
+
+ SHENGJING:0 "Shengjing General"
+ SHENGJING_ADJ:0 "Shengjing"
+
+ SMN:0 "Seminole"
+ SMN_ADJ:0 "Seminole"
+
+ MOI:0 "Khmer"
+ MOI_ADJ:0 "Khmer"
+
+ ARL:0 "Ardalan"
+ ARL_ADJ:0 "Ardalan"
+
+ HKR:0 "Hakkari"
+ HKR_ADJ:0 "Hakkari"
+
+ PAA:0 "Milanka"
+ PAA_ADJ:0 "Milanka"
+
+ KWT:0 "Kuwait"
+ KWT_ADJ:0 "Kuwaiti"
+
+ FZN:0 "Fezzan"
+ FZN_ADJ:0 "Fezzan"
+
+ MGK:0 "Minangkabau"
+ MGK_ADJ:0 "Minangkabau"
+
+
+ YLI:0 "Ili General"
+ YLI_ADJ:0 "Ili"
+
+ KULUN:0 "Kulun Minister"
+ KULUN_ADJ:0 "Kulun"
+
+ GSK:0 "Cossack"
+ GSK_ADJ:0 "Cossack"
+
+ JILIN:0 "Jilin General"
+ JILIN_ADJ:0 "Jilin"
+
+ ALY:0 "Italian Empire"
+ ALY_ADJ:0 "Italian"
+
+ PEI:0 "Prince Edward Island"
+ PEI_ADJ:0 "Prince Edward Island"
+
+ NFH:0 "Nivkh"
+ NFH_ADJ:0 "Nivkh"
+
+ dyn_c_societ_republic_BLT:0 "Burut People's Republic"
+ dyn_shenquan_BLT:0 "Burut Theocracy"
+ dyn_c_republic_BLT:0 "Burut Democratic Republic"
+ dyn_c_blt_empire:0 "Burut Khanate"
+
+ dyn_c_societ_republic_BDK:0 "Badakhshan People's Republic"
+ dyn_shenquan_BDK:0 "Badakhshan Theocracy"
+ dyn_c_republic_BDK:0 "Badakhshan Democratic Republic"
+ dyn_c_bdk_empire:0 "Badakhshan Khanate"
+
+ dyn_c_societ_republic_SMN:0 "Seminole People's Republic"
+ dyn_shenquan_SMN:0 "Seminole Theocracy"
+ dyn_c_republic_SMN:0 "Seminole Democratic Republic"
+ dyn_c_smn_empire:0 "Seminole Principality"
+
+ dyn_c_societ_republic_MGK:0 "Minangkabau People's Republic"
+ dyn_shenquan_MGK:0 "Minangkabau Theocracy"
+ dyn_c_republic_MGK:0 "Minangkabau Democratic Republic"
+ dyn_c_mgk_empire:0 "Minangkabau Chiefdom"
+
+ dyn_c_societ_republic_NFH:0 "Nivkh People's Republic"
+ dyn_shenquan_NFH:0 "Nivkh Theocracy"
+ dyn_c_republic_NFH:0 "Nivkh Democratic Republic"
+ dyn_c_nfh_empire:0 "Nivkh Principality"
+
+ dyn_c_societ_republic_FZN:0 "Fezzan People's Republic"
+ dyn_shenquan_FZN:0 "Fezzan Theocracy"
+ dyn_c_republic_FZN:0 "Fezzan Democratic Republic"
+ dyn_c_fzn_empire:0 "Fezzan Chiefdom"
+
+ dyn_c_societ_republic_MUP:0 "Mengpan People's Republic"
+ dyn_shenquan_MUP:0 "Mengpan Theocracy"
+ dyn_c_republic_MUP:0 "Mengpan Democratic Republic"
+ dyn_c_mup_empire:0 "Kingdom of Mengpan"
+
+ dyn_c_societ_republic_NAN:0 "Nan Prefecture People's Republic"
+ dyn_shenquan_NAN:0 "Nan Prefecture Theocracy"
+ dyn_c_republic_NAN:0 "Nan Prefecture Democratic Republic"
+ dyn_c_nan_empire:0 "Kingdom of Nan Prefecture"
+
+ dyn_c_societ_republic_BKH:0 "Buki People's Republic"
+ dyn_shenquan_BKH:0 "Buki Theocracy"
+ dyn_c_republic_BKH:0 "Buki Democratic Republic"
+ dyn_c_bkh_empire:0 "Buki Chiefdom"
+
+ dyn_c_societ_republic_KWT:0 "Kuwait People's Republic"
+ dyn_shenquan_KWT:0 "Kuwait Theocracy"
+ dyn_c_republic_KWT:0 "Kuwait Democratic Republic"
+ dyn_c_kwt_empire:0 "Kuwait Emirate"
+
+ dyn_c_societ_republic_SDK:0 "Shadui People's Republic"
+ dyn_shenquan_SDK:0 "Shadui Theocracy"
+ dyn_c_republic_SDK:0 "Shadui Democratic Republic"
+ dyn_c_sdk_empire:0 "Shadui Khanate"
+
+ dyn_c_societ_republic_ARL:0 "Ardalan People's Republic"
+ dyn_shenquan_ARL:0 "Ardalan Theocracy"
+ dyn_c_republic_ARL:0 "Ardalan Democratic Republic"
+ dyn_c_arl_empire:0 "Ardalan Emirate"
+
+ dyn_c_societ_republic_HKR:0 "Hakkari People's Republic"
+ dyn_shenquan_HKR:0 "Hakkari Theocracy"
+ dyn_c_republic_HKR:0 "Hakkari Democratic Republic"
+ dyn_c_hkr_empire:0 "Hakkari Emirate"
+
+ dyn_c_societ_republic_TBJ:0 "Jammu People's Republic"
+ dyn_shenquan_TBJ:0 "Jammu Theocracy"
+ dyn_c_republic_TBJ:0 "Jammu Democratic Republic"
+ dyn_c_tbj_empire:0 "Jammu Emirate"
+
+ dyn_c_societ_republic_FRA:0 "French People's Socialist Republic"
+ dyn_shenquan_FRA:0 "French Theocracy"
+ dyn_c_republic_FRA:0 "French Democratic Republic"
+ dyn_c_jzz_FRA:0 "Kingdom of France"
+ dyn_c_fra_empire:0 "French Empire"
+
+ dyn_c_societ_republic_ANY:0 "German People's Republic"
+ dyn_shenquan_ANY:0 "German Theocracy"
+ dyn_c_republic_ANY:0 "German Democratic Republic"
+ dyn_c_jzz_ANY:0 "Kingdom of Germany"
+ dyn_c_any_empire:0 "German Empire"
+
+ dyn_c_kingdom_zexu:0 "Kingdom of Zexu"
+
+ dyn_c_societ_republic_ALY:0 "Italian People's Republic"
+ dyn_shenquan_ALY:0 "Italian Theocracy"
+ dyn_c_republic_ALY:0 "Italian Democratic Republic"
+ dyn_c_jzz_ALY:0 "Kingdom of Italy"
+
+ dyn_c_societ_republic_LAD:0 "Ladakh People's Republic"
+ dyn_shenquan_LAD:0 "Ladakh Theocracy"
+ dyn_c_republic_LAD:0 "Ladakh Democratic Republic"
+ dyn_c_jzz_LAD:0 "Kingdom of Ladakh"
+
+ dyn_c_aly_empire:0 "Italian Empire"
+
+ dyn_c_republic_jibei:0 "Tianzhi Republic"
+
+ dyn_c_societ_republic_YLI:0 "Ili General Regime"
+ dyn_shenquan_YLI:0 "Ili General Theocratic Regime"
+ dyn_c_republic_YLI:0 "Ili General Regime"
+ dyn_c_jzz_YLI:0 "Ili General Regime"
+
+ dyn_c_societ_republic_BFJ:0 "Northwest People's Republic"
+ dyn_shenquan_BFJ:0 "Northwest Theocracy"
+ dyn_c_republic_BFJ:0 "Northwest Republic"
+ dyn_c_jzz_BFJ:0 "Northwest Kingdom"
+
+ dyn_c_societ_republic_RYU:0 "Ryukyu People's Republic"
+ dyn_shenquan_RYU:0 "Ryukyu Theocracy"
+ dyn_c_republic_RYU:0 "Ryukyu Republic"
+ dyn_c_jzz_RYU:0 "Kingdom of Ryukyu"
+
+ dyn_c_societ_republic_ZUK:0 "Zexu Ukraine People's Republic"
+ dyn_shenquan_ZUK:0 "Zexu Ukraine Theocracy"
+ dyn_c_republic_ZUK:0 "Zexu Ukraine Republic"
+ dyn_c_jzz_ZUK:0 "Kingdom of Zexu Ukraine"
+
+ dyn_c_societ_republic_LAF:0 "Nanyang People's Republic"
+ dyn_shenquan_LAF:0 "Nanyang Theocracy"
+ dyn_c_republic_LAF:0 "Nanyang Republic"
+ dyn_c_jzz_LAF:0 "Kingdom of Nanyang"
+
+ dyn_c_societ_republic_EUC:0 "European Federal Socialist Union"
+ dyn_shenquan_EUC:0 "European Federal Theocracy"
+ dyn_c_republic_EUC:0 "European Federal Republic"
+ dyn_c_jzz_EUC:0 "Kingdom of the European Federation"
+
+ dyn_c_societ_republic_MOL:0 "Moldova Socialist Republic"
+ dyn_shenquan_MOL:0 "Moldova Theocracy"
+ dyn_c_republic_MOL:0 "Moldova Republic"
+ dyn_c_jzz_MOL:0 "Kingdom of Moldova"
+
+ dyn_c_societ_republic_LAN:0 "Lanfang People's Republic"
+ dyn_shenquan_LAN:0 "Lanfang Theocracy"
+ dyn_c_republic_LAN:0 "Lanfang Republic"
+ dyn_c_empire_LAN:0 "Lanfang Empire"
+ dyn_c_jzz_LAN:0 "Kingdom of Lanfang"
+ dyn_c_communist_LAN:0 "Lanfang Socialist Republic"
+ dyn_c_theocracy_LAN:0 "Lanfang Dao State"
+
+ dyn_c_societ_republic_WUSHI:0 "Wu Clan People's Republic"
+ dyn_shenquan_WUSHI:0 "Wu Clan Theocracy"
+ dyn_c_republic_WUSHI:0 "Wu Clan Republic"
+ dyn_c_jzz_WUSHI:0 "Kingdom of the Wu Clan"
+
+ PLT:0 "Argentina"
+ PLT_ADJ:0 "Argentine"
+
+ dyn_c_societ_republic_PLT:0 "Argentine People's Republic"
+ dyn_shenquan_PLT:0 "Argentine Theocracy"
+ dyn_c_republic_PLT:0 "Argentine Democratic Republic"
+ dyn_c_jzz_PLT:0 "Kingdom of Argentina"
+
+ AGU:0 "Yaqub Beg"
+ AGU_ADJ:0 "Yaqub Beg"
+
+ dyn_c_societ_republic_AGU:0 "Yaqub Beg People's Republic"
+ dyn_shenquan_AGU:0 "Yaqub Beg Theocracy"
+ dyn_c_republic_AGU:0 "Yaqub Beg Democratic Republic"
+ dyn_c_jzz_AGU:0 "Yettishar Khanate"
+
+ IN1:0 "Inupiat"
+ IN1_ADJ:0 "Inupiat"
+
+ DH3:0 "Daki"
+ DH3_ADJ:0 "Daki"
+
+ G03:0 "Guixun"
+ G03_ADJ:0 "Guixun"
+
+ A01:0 "Atena"
+ A01_ADJ:0 "Atena"
+
+ DX1:0 "Dehistan"
+ DX1_ADJ:0 "Dehistan"
+
+ JZL:0 "Ziluo"
+ JZL_ADJ:0 "Ziluo"
+
+ SUOLUN:0 "Solon"
+ SUOLUN_ADJ:0 "Solon"
+
+ dyn_c_societ_republic_SUOLUN:0 "Solon People's Republic"
+ dyn_shenquan_SUOLUN:0 "Solon Theocracy"
+ dyn_c_republic_SUOLUN:0 "Solon Democratic Republic"
+ dyn_c_jzz_SUOLUN:0 "Solon Tribe"
+
+ QKT:0 "Choctaw"
+ QKT_ADJ:0 "Choctaw"
+
+ dyn_c_societ_republic_QKT:0 "Choctaw People's Republic"
+ dyn_shenquan_QKT:0 "Choctaw Theocracy"
+ dyn_c_republic_QKT:0 "Choctaw Democratic Republic"
+ dyn_c_jzz_QKT:0 "Choctaw Indian Principality"
+
+ dyn_c_societ_republic_JZL:0 "Ziluo People's Republic"
+ dyn_shenquan_JZL:0 "Ziluo Theocracy"
+ dyn_c_republic_JZL:0 "Ziluo Democratic Republic"
+ dyn_c_jzz_JZL:0 "Kingdom of Ziluo"
+
+ ATC:0 "Athabaska"
+ ATC_ADJ:0 "Athabaskan"
+
+ LZN:0 "Luzon"
+ LZN_ADJ:0 "Luzon"
+
+ SWI:0 "Switzerland"
+ SWI_ADJ:0 "Swiss"
+
+ dyn_c_societ_republic_SWI:0 "Swiss People's Republic"
+ dyn_shenquan_SWI:0 "Swiss Theocracy"
+ dyn_c_republic_SWI:0 "Swiss Democratic Republic"
+ dyn_c_jzz_SWI:0 "Kingdom of Switzerland"
+
+ CSW:0 "Chickasaw"
+ CSW_ADJ:0 "Chickasaw"
+
+ dyn_c_indiacompany_puppet_GBR:0 "British East India Company"
+ dyn_c_lanfang_puppet_CHI:0 "Qing Lanfang Gold Mining Company"
+
+ dyn_c_societ_republic_CSW:0 "Chickasaw People's Republic"
+ dyn_shenquan_CSW:0 "Chickasaw Theocracy"
+ dyn_c_republic_CSW:0 "Chickasaw Democratic Republic"
+ dyn_c_jzz_CSW:0 "Chickasaw Indian Principality"
+
+ CHE:0 "Cherokee"
+ CHE_ADJ:0 "Cherokee"
+
+ YUAN:0 "Great Yuan"
+ YUAN_ADJ:0 "Great Yuan"
+
+ TANG:0 "Great Tang"
+ TANG_ADJ:0 "Great Tang"
+
+ DAHAN:0 "Great Han"
+ DAHAN_ADJ:0 "Great Han"
+
+ HUAXIA:0 "Huaxia"
+ HUAXIA_ADJ:0 "Huaxia"
+
+ JUS:0 "America"
+ JUS_ADJ:0 "American"
+
+ dyn_c_societ_republic_LZN:0 "Luzon People's Republic"
+ dyn_shenquan_LZN:0 "Luzon Theocracy"
+ dyn_c_republic_LZN:0 "Luzon Republic"
+ dyn_c_jzz_LZN:0 "Duchy of Luzon"
+
+ dyn_c_societ_republic_PHI:0 "Philippine People's Republic"
+ dyn_shenquan_PHI:0 "Philippine Theocracy"
+ dyn_c_republic_PHI:0 "Philippine Republic"
+ dyn_c_jzz_PHI:0 "Kingdom of the Philippines"
+
+ dyn_c_societ_republic_YUAN:0 "Yuan Dynasty People's Republic"
+ dyn_shenquan_YUAN:0 "Yuan Dynasty Theocracy"
+ dyn_c_republic_YUAN:0 "Yuan Dynasty Republic"
+ dyn_c_empire_YUAN:0 "Yuan Empire"
+
+ dyn_c_societ_republic_TANG:0 "Tang Dynasty People's Republic"
+ dyn_shenquan_TANG:0 "Tang Dynasty Theocracy"
+ dyn_c_republic_TANG:0 "Tang Dynasty Republic"
+ dyn_c_empire_TANG:0 "Tang Empire"
+
+ dyn_c_societ_republic_DAHAN:0 "Han People's Republic"
+ dyn_shenquan_DAHAN:0 "Han Theocracy"
+ dyn_c_republic_DAHAN:0 "Han Republic"
+ dyn_c_empire_DAHAN:0 "Han Empire"
+
+ dyn_c_societ_republic_HUAXIA:0 "Chinese Socialist Union"
+ dyn_shenquan_HUAXIA:0 "Chinese Theocracy"
+ dyn_c_republic_HUAXIA:0 "Chinese Republic"
+ dyn_c_empire_HUAXIA:0 "Chinese Empire"
+
+ dyn_c_societ_republic_JUS:0 "American People's Republic"
+ dyn_shenquan_JUS:0 "American Theocracy"
+ dyn_c_republic_JUS:0 "United Republic of America"
+ dyn_c_jzz_JUS:0 "American Empire"
+
+ GUO:0 "Kokang"
+ GUO_ADJ:0 "Kokang"
+
+ HLJ:0 "Heilongjiang General"
+ HLJ_ADJ:0 "Heilongjiang"
+
+ BFJ:0 "Uriyastai General"
+ BFJ_ADJ:0 "Uriyastai"
+
+ dyn_c_societ_republic_BFJ:0 "Uriyastai People's Republic"
+ dyn_shenquan_BFJ:0 "Uriyastai Theocracy"
+ dyn_c_republic_BFJ:0 "Uriyastai Republic"
+ dyn_c_jzz_BFJ:0 "Qing Uriyastai General"
+
+ dyn_c_societ_republic_GUO:0 "Kokang People's Republic"
+ dyn_shenquan_GUO:0 "Kokang Theocracy"
+ dyn_c_republic_GUO:0 "Kokang Republic"
+ dyn_c_jzz_GUO:0 "Kokang Tusi"
+
+ dyn_c_societ_republic_WAL:0 "Wallachia People's Republic"
+ dyn_shenquan_WAL:0 "Wallachia Theocracy"
+ dyn_c_republic_WAL:0 "Wallachia Republic"
+ dyn_c_jzz_WAL:0 "Principality of Wallachia"
+
+ HMR:0 "South American Federation"
+ HMR_ADJ:0 "South American Federation"
+
+ dyn_c_societ_republic_HMR:0 "South American Socialist Union"
+ dyn_shenquan_HMR:0 "South American Theocratic Federation"
+ dyn_c_republic_HMR:0 "South American Federal Republic"
+ dyn_c_jzz_HMR:0 "Kingdom of South America"
+
+ ASK:0 "Russian Empire East Siberia Governorate"
+ ASK_ADJ:0 "Russian Empire East Siberia Governorate"
+
+ CHU:0 "Chukchi"
+ CHU_ADJ:0 "Chukchi"
+
+ QZT:0 "Gandhara"
+ QZT_ADJ:0 "Gandhara"
+
+ BLT:0 "Burut"
+ BLT_ADJ:0 "Burut"
+
+ BDK:0 "Badakhshan"
+ BDK_ADJ:0 "Badakhshan"
+
+ dyn_c_societ_republic_ASK:0 "Soviet East Siberia Governorate"
+ dyn_shenquan_ASK:0 "East Siberia Theocratic Governorate"
+ dyn_c_republic_ASK:0 "East Siberia Republic Governorate"
+ dyn_c_jzz_ASK:0 "East Siberia Governorate"
+ dyn_c_russian_alaska:0 "Russian Empire East Siberia Governorate"
+ dyn_c_russian_alaska_ADJ:0 "Russian Empire East Siberia Governorate"
+
+ dyn_c_societ_republic_QZT:0 "Gandhara People's Republic"
+ dyn_shenquan_QZT:0 "Gandhara Theocracy"
+ dyn_c_republic_QZT:0 "Gandhara Republic"
+ dyn_c_jzz_QZT:0 "Kingdom of Gandhara"
+
+ dyn_c_societ_republic_BDK:0 "Badakhshan People's Republic"
+ dyn_shenquan_BDK:0 "Badakhshan Theocracy"
+ dyn_c_republic_BDK:0 "Badakhshan Republic"
+ dyn_c_jzz_BDK:0 "Badakhshan Khanate"
+
+ dyn_c_societ_republic_BLT:0 "Burut People's Republic"
+ dyn_shenquan_BLT:0 "Burut Theocracy"
+ dyn_c_republic_BLT:0 "Burut Republic"
+ dyn_c_jzz_BLT:0 "Burut Khanate"
+
+ dyn_c_societ_republic_LDK:0 "Ladakh People's Republic"
+ dyn_shenquan_LDK:0 "Ladakh Theocracy"
+ dyn_c_republic_LDK:0 "Ladakh Republic"
+ dyn_c_jzz_LDK:0 "Kingdom of Ladakh"
+
+ dyn_c_societ_republic_DAIYAN:0 "Daiyan Socialist Union"
+ dyn_shenquan_DAIYAN:0 "Daiyan Theocracy"
+ dyn_c_republic_DAIYAN:0 "Daiyan Republic"
+ dyn_c_jzz_DAIYAN:0 "Kingdom of Daiyan"
+
+
+ WUSHI:0 "Wu Clan"
+ WUSHI_ADJ:0 "Wu Clan"
+
+ DAIYAN:0 "Daiyan"
+ DAIYAN_ADJ:0 "Daiyan"
+
+ ZEXU:0 "Zexu"
+ ZEXU_ADJ:0 "Zexu"
+
+ dyn_c_societ_republic_ZEXU:0 "Zexu Socialist Union"
+ dyn_shenquan_ZEXU:0 "Zexu Theocracy"
+ dyn_c_republic_ZEXU:0 "Zexu Republic"
+ dyn_c_jzz_ZEXU:0 "Zexu Principality"
+
+ ZUK:0 "Zexu Ukraine Federation"
+ ZUK_ADJ:0 "Zexu Ukraine"
+
+ dyn_c_societ_republic_ZUK:0 "Zexu Ukraine Socialist Union"
+ dyn_shenquan_ZUK:0 "Zexu Ukraine Theocracy"
+ dyn_c_republic_ZUK:0 "Zexu Ukraine Republic"
+ dyn_c_jzz_ZUK:0 "Kingdom of Zexu Ukraine"
+ dyn_c_empire_ZUK:0 "Zexu Ukraine Empire"
+
+ RYU:0 "Ryukyu"
+ RYU_ADJ:0 "Ryukyuan"
+
+ JIBEI:0 "Tianzhi"
+ JIBEI_ADJ:0 "Tianzhi"
+
+ DAMING:0 "Great Ming"
+ DAMING_ADJ:0 "Great Ming"
+
+ dyn_c_alaska_zexu_uas:0 "United States of Zexu"
+ dyn_c_alaska_zexu_uas_ADJ:0 "United States of Zexu"
+
+ TER:0 "Tianzhi North American Federation"
+ TER_ADJ:0 "Tianzhi"
+
+ LAF:0 "Nanyang Federation"
+ LAF_ADJ:0 "Nanyang"
+
+ KOZ:0 "Ukraine"
+ KOZ_ADJ:0 "Ukrainian"
+
+ RUK:0 "Cossack"
+ RUK_ADJ:0 "Cossack"
+
+ dyn_c_austria-hungary:0 "Austro-Hungarian Empire"
+ dyn_c_austria-hungary_adj:0 "Austro-Hungarian"
+
+ dyn_c_cuba_puppet_SPA:0 "Spanish Cuba"
+ dyn_c_haiti_absolutist_monarchy:0 "Kingdom of Haiti"
+ dyn_c_egypt_absolutist_monarchy:0 "Khedivate of Egypt"
+ dyn_c_french_commune:0 "French Socialist Republic"
+ dyn_c_french_commune_adj:0 "French Commune"

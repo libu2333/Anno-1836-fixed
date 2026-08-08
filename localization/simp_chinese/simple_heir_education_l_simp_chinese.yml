@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+  mod_simple_heir_education_ch_int: "教育继承人"
+  mod_simple_heir_education_ch_int_failed: "继承人叛逆：无变化"
+  mod_simple_heir_education_ch_int_ideology_success: "有其父必有其子"
+  mod_simple_heir_education_ch_int_failed_ramdom_ideology_tooltip: "将随机选择一种[concept_ideology]。可用意识形态列表随科技@innovation!扩展（按正常要求）。但每种特质权重相同。@warning! 额外奖励：若无平等主义，可能获得奴隶主..."

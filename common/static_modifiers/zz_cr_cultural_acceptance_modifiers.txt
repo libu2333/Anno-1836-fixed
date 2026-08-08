@@ -1,0 +1,91 @@
+﻿
+bariba_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_dhivehin_cultural_acceptance_add = 1
+}
+
+bariba_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_dhivehin_cultural_acceptance_add = 1
+}
+
+dhivehin_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_dhivehin_cultural_acceptance_add = 1
+}
+
+dhivehin_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_dhivehin_cultural_acceptance_add = 1
+}
+
+
+
+frisian_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_frisian_cultural_acceptance_add = 1
+}
+
+frisian_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_frisian_cultural_acceptance_add = 1
+}
+
+
+gbagyi_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_frisian_cultural_acceptance_add = 1
+}
+
+gbagyi_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_frisian_cultural_acceptance_add = 1
+}
+
+
+
+minangkabau_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_minangkabau_cultural_acceptance_add = 1
+}
+
+minangkabau_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_minangkabau_cultural_acceptance_add = 1
+}
+
+
+
+nupe_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_minangkabau_cultural_acceptance_add = 1
+}
+
+nupe_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_minangkabau_cultural_acceptance_add = 1
+}
+
+
+
+sundanese_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_sundanese_cultural_acceptance_add = 1
+}
+
+sundanese_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_sundanese_cultural_acceptance_add = 1
+}
+
+
+
+tungusic_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_tungusic_cultural_acceptance_add = 1
+}
+
+tungusic_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_tungusic_cultural_acceptance_add = 1
+}

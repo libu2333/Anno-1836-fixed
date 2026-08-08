@@ -1,0 +1,67 @@
+﻿atheist = {
+	icon = "gfx/interface/icons/religion_icons/atheist.dds"
+	heritage = heritage_materialist
+	color = { 1.0 1.0 1.0 }
+}
+
+wu_animist = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = eastern_animist
+	color = { 0 53 85 }
+}
+
+chinese_folk_religions = {
+	icon = "gfx/interface/icons/religion_icons/confucianism.dds"
+    heritage = eastern_animist
+	color = { 118 37 17 }
+}
+
+tiandi = {
+	icon = "gfx/interface/icons/religion_icons/confucianism.dds"
+	heritage = eastern_animist
+	color = { 155 37 17 }
+}
+
+bon_animist = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = eastern_animist
+	color = { 95 78 75 }
+}
+
+korean_wu_animist = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage =  eastern_animist
+	color = { 183 163 131 }
+}
+
+ryukyuan_animist = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = eastern_animist
+	color = { 199 163 67 }
+}
+
+manchu_tungusic_shaman = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = shaman
+	color = rgb{ 163 200 185 }
+}
+
+mongol_shaman = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = shaman
+	color = { 91 96 68 }
+}
+
+central_asia_shaman = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = shaman
+	color = { 149 142 116 }
+}
+
+siberian_shaman = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = shaman
+	color = { 182 189 205 }
+}
+
+

@@ -1,0 +1,28 @@
+﻿state_trait_cr_halong = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		goods_output_coal_mult = 0.15
+		building_group_bg_mining_infrastructure_usage_mult = -0.25 #The mines are right on the coast, they shouldn't consume infrastructure.
+	}
+}
+
+state_trait_manchurian_plain = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.10
+		building_group_bg_ranching_throughput_add = 0.10
+	}
+}
+
+state_trait_indochinese_dry_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+
+	modifier = {
+		goods_output_wood_mult = 0.05
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.05
+		state_colony_growth_speed_mult = -0.35
+	}
+}

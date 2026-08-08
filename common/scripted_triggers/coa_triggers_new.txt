@@ -1,0 +1,24 @@
+coa_def_argentina_ensign_trigger = {
+	exists = c:BUE
+	c:BUE ?= { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+coa_def_portugal_subject_trigger = {
+	exists = c:POR
+	c:POR ?= { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+coa_def_bern_subject_trigger = {
+	exists = c:BEX
+	c:BEX ?= { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+coa_def_swiss_subject_trigger = {
+	exists = c:SWI
+	c:SWI ?= { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+

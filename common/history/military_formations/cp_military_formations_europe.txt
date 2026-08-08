@@ -1,0 +1,67 @@
+﻿MILITARY_FORMATIONS = {
+	c:CPL = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_eastern_europe
+				name = "Armia"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_line_infantry
+					state_region = s:STATE_MAZOVIA
+					count = 10
+				}
+				
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_MAZOVIA
+					count = 10
+				} 
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_line_infantry
+					state_region = s:STATE_LESSER_POLAND
+					count = 5
+				}
+				
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_LESSER_POLAND
+					count = 5
+				} 
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_line_infantry
+					state_region = s:STATE_GREATER_POLAND
+					count = 5
+				}
+				
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_GREATER_POLAND
+					count = 5
+				} 
+	
+				save_scope_as = big_bad11
+			}
+	
+			create_character = {
+				is_general = yes
+				first_name = Jozef
+				last_name = Chlopicki
+				historical = yes
+				hq = region_eastern_europe
+				commander_rank = commander_rank_3
+				age = 65
+				traits = {
+					expert_offensive_planner
+					resupply_commander
+					reserved
+				}
+				save_scope_as = chlopicki_gen
+			}
+	
+			scope:chlopicki_gen = {
+				transfer_to_formation = scope:big_bad11
+			}
+		}
+	}

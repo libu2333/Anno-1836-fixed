@@ -1,0 +1,224 @@
+﻿TRY_REPLACE:ACE = { # Sumatra
+	TRY_REPLACE:dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+TRY_REPLACE:BLG = { # Bulungan
+	TRY_REPLACE:dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+TRY_REPLACE:BNJ = { # Banjar
+	TRY_REPLACE:dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+TRY_REPLACE:JMB = { # Jambi
+	TRY_REPLACE:dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+TRY_REPLACE:KTI = { # Kutai
+	TRY_REPLACE:dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+TRY_REPLACE:LAN = { # Lanfang
+	TRY_REPLACE:dynamic_country_name = { # Bo-Ni
+		name = dyn_c_boni
+		adjective = dyn_c_boni_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+TRY_REPLACE:PON = { # Pontianak
+	TRY_REPLACE:dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+TRY_REPLACE:SAK = { # Siak
+	TRY_REPLACE:dynamic_country_name = {
+		name = dyn_c_sumatra
+		adjective = dyn_c_sumatra_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_ACEH
+				owns_entire_state_region = STATE_NORTH_SUMATRA
+				owns_entire_state_region = STATE_TAPANULI
+				owns_entire_state_region = STATE_MINANGKABAU
+				owns_entire_state_region = STATE_THE_LAMPONGS
+				owns_entire_state_region = STATE_SOUTH_SUMATRA
+			}
+		}
+	}
+}
+TRY_REPLACE:SMB = { # Sambas
+	TRY_REPLACE:dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+TRY_REPLACE:STG = { # Sintang
+	TRY_REPLACE:dynamic_country_name = { # Kalimantan
+		name = dyn_c_kalimantan
+		adjective = dyn_c_kalimantan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				owns_entire_state_region = STATE_WEST_BORNEO
+				owns_entire_state_region = STATE_EAST_BORNEO
+				owns_entire_state_region = STATE_NORTH_BORNEO
+				owns_entire_state_region = STATE_SARAWAK
+			}
+		}
+	}
+}
+TRY_REPLACE:MSH = {
+	TRY_REPLACE:dynamic_country_name = {
+		name = dyn_c_rozvi_empire
+		adjective = dyn_c_rozvi_empire_adj
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			always = no
+		}
+	}
+}
+
+CHI = {
+	dynamic_country_name = {
+		name = dyn_c_republic_of_china
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			NOT = { coa_def_communist_flag_trigger = yes }
+		}
+	}
+}

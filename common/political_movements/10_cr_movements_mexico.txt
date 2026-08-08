@@ -1,0 +1,597 @@
+﻿movement_centralist = {
+	category = movement_category_ideological
+
+	ideology = ideology_centralist_movement	
+	character_ideologies = {
+		ideology_centralist_leader
+		ideology_traditionalist
+		ideology_royalist
+		ideology_authoritarian
+		ideology_modernizer_leader
+	}
+	
+	disband_trigger = {
+		NOT = { has_variable = cr_centralist_federalist_struggle }
+	}
+	on_disbanded = {
+		#owner = {
+		#	create_political_movement = { 
+		#		type = movement_religious_majority
+		#		religion = owner.religion 
+		#	}
+		#}
+	}
+	
+	creation_trigger = {
+		always = no
+	}
+	creation_weight = {
+		value = 100
+	}	
+	on_created = {
+		#set_bolstering = yes
+	}
+	
+	character_support_trigger = {
+		OR = {
+			has_ideology = ideology:ideology_centralist_leader
+			has_ideology = ideology:ideology_traditionalist
+			has_ideology = ideology:ideology_royalist
+			has_ideology = ideology:ideology_authoritarian
+			has_ideology = ideology:ideology_modernizer_leader
+		}
+	}
+	character_support_weight = {
+		value = 100
+		if = {
+			limit = {
+				scope:interest_group ?= {
+					OR = {
+						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_landowners
+						is_interest_group_type = ig_industrialists
+					}
+				}
+			}
+			multiply = {
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				scope:interest_group ?= {
+					is_interest_group_type = ig_petty_bourgeoisie
+				}
+			}
+			multiply = {
+				value = 1.5
+			}
+		}
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_centralist_leader
+			}
+			multiply = {
+				value = 100
+			}
+		}
+		else_if = {
+			limit = {
+				has_ideology = ideology:ideology_federalist_leader
+			}
+			multiply = {
+				value = 0
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_ideology = ideology:ideology_royalist
+					has_ideology = ideology:ideology_authoritarian
+				}
+			}
+			multiply = {
+				value = 5
+			}
+		}
+	}
+	
+	pop_support_factors = {
+		movement_support_high_urbanization
+		movement_support_ruler_popularity
+		movement_support_capitalists
+		movement_support_aristocrats
+		movement_support_clergymen
+		movement_support_officers
+	}	
+
+	pop_support_weight = {	
+		if = {
+			limit = {
+				exists = scope:political_movement
+				scope:political_movement ?= {
+					OR = {
+						is_being_suppressed = yes
+						is_being_bolstered = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					scope:political_movement = {
+						is_being_suppressed = yes
+					}
+				}
+				add = {
+					value = suppression_base_value
+					multiply = {
+						value = -0.5
+						add = owner.modifier:country_suppression_attraction_factor
+					}
+					desc = "concept_suppressed"
+				}
+			}
+			else = {
+				add = {
+					value = bolstering_base_value
+					multiply = {
+						value = 0.5
+						add = owner.modifier:country_bolster_attraction_factor
+					}
+					desc = "concept_bolstered"
+				}
+			}
+		}
+		add = {
+			desc = "URBAN_STATE"
+			value = 4
+			multiply = state.state_urbanization_rate
+		}
+		
+		#if = {	#Handled via the modifiers themselves
+		#	limit = {
+		#		state = {
+		#			has_modifier = cr_mexico_centralist_sympathies
+		#		}
+		#	}
+		#	add = {
+		#		value = 40
+		#		desc = "CENTRALIST_SYMPATHIES"
+		#	}
+		#}
+		
+		if = {
+			limit = {
+				is_pop_type = clergymen
+			}
+			add = {
+				value = 25
+				desc = "POP_CLERGYMEN"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = aristocrats
+			}
+			add = {
+				value = 30
+				desc = "POP_ARISTOCRATS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = capitalists
+			}
+			add = {
+				value = 20
+				desc = "POP_CAPITALISTS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = officers
+			}
+			add = {
+				value = 30
+				desc = "POP_OFFICERS"
+			}
+		}
+		#else_if = {
+		#	limit = {
+		#		is_pop_type = machinists
+		#	}
+		#	add = {
+		#		value = 25
+		#		desc = "POP_MACHINISTS"
+		#	}
+		#}
+		#else_if = {
+		#	limit = {
+		#		is_pop_type = farmers
+		#	}
+		#	add = {
+		#		value = 15
+		#		desc = "POP_FARMERS"
+		#	}
+		#}	
+		#else_if = {
+		#	limit = {
+		#		is_pop_type = laborers
+		#	}
+		#	add = {
+		#		value = 15
+		#		desc = "POP_LABORERS"
+		#	}
+		#}
+		else_if = {
+			limit = {
+				is_pop_type = academics
+			}
+			subtract = 10
+		}
+		else_if = {
+			limit = {
+				is_pop_type = clerks
+			}
+			subtract = 5
+		}
+		else_if = {
+			limit = {
+				is_pop_type = engineers
+			}
+			subtract = 5
+		}
+
+		#Centralists care about strongman rulers, federalists about government legitimacy.
+		if = {
+			limit = {
+				owner ?= {
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			multiply = {
+				add = owner.ruler.popularity
+				multiply = 0.01
+				add = 1
+				min = 0.2
+				max = 1.8
+				desc = "RULER_POPULARITY"
+			}
+		}
+		else_if = {
+			multiply = {
+				add = owner.ruler.popularity
+				multiply = -0.01
+				add = 1
+				min = 0.2
+				max = 1.8
+				desc = "RULER_IMPOPULARITY"
+			}
+		}
+	}
+
+	revolution = {
+		possible = {
+			political_movement_support >= 0.30
+		}
+		
+		weight = {
+			value = 100
+		}
+		
+		state_weight = {
+			value = 1
+			if = {
+			   limit = { 
+					has_modifier = cr_mexico_centralist_sympathies
+			   }
+				multiply = 2.0
+			}	
+		}
+	}
+
+	secession = {
+		possible = {	#Centralist don't secede. It is kind of in their name...
+			always = no
+		}	
+	
+		#weight = {
+		#	value = 50
+		#}	
+		#
+		#forced_tags = {
+		#}
+		#
+		#state_weight = {
+		#	value = 1
+		#	if = {
+		#	   limit = { 
+		#			state_region = { is_homeland = cu:catalan }
+		#	   }
+		#		multiply = 1.5
+		#	}
+		#	if = {
+		#	   limit = { 
+		#			state_region = { is_homeland = cu:basque }
+		#	   }
+		#		multiply = 2.0
+		#	}	
+		#	if = {
+		#	   limit = { 
+		#			state_region = { is_homeland = cu:galician }
+		#	   }
+		#		multiply = 1.25
+		#	}		
+		#}		
+	}	
+	
+	additional_radicalism_factors = {	
+	}
+}
+
+#####################################
+#									#
+#			 Federalists			#
+#									#
+#####################################
+
+movement_federalist = {
+	category = movement_category_ideological
+
+	ideology = ideology_federalist_movement	
+	character_ideologies = {
+		ideology_federalist_leader
+		ideology_land_reformer
+		ideology_radical
+		ideology_utilitarian_leader
+		ideology_reformer
+	}
+	
+	disband_trigger = {
+		NOT = { has_variable = cr_centralist_federalist_struggle }
+	}
+	on_disbanded = {
+		#owner = {
+		#	create_political_movement = { 
+		#		type = movement_religious_majority
+		#		religion = owner.religion 
+		#	}
+		#}
+	}
+	
+	creation_trigger = {
+		always = no
+	}
+	creation_weight = {
+		value = 100
+	}	
+	on_created = {
+		#set_suppression = yes
+	}
+	
+	character_support_trigger = {
+		OR = {
+			has_ideology = ideology:ideology_federalist_leader
+			has_ideology = ideology:ideology_land_reformer
+			has_ideology = ideology:ideology_radical
+			has_ideology = ideology:ideology_utilitarian_leader
+			has_ideology = ideology:ideology_reformer
+		}
+	}
+	character_support_weight = {
+		value = 100
+		if = {
+			limit = {
+				scope:interest_group ?= {
+					OR = {
+						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_landowners
+					}
+				}
+			}
+			multiply = {
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				scope:interest_group ?= {
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			multiply = {
+				value = 1.5
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_ideology = ideology:ideology_royalist
+					has_ideology = ideology:ideology_authoritarian
+				}
+			}
+			multiply = {
+				value = 5
+			}
+		}
+	}
+	
+	pop_support_factors = {
+		movement_support_legitimacy
+		movement_support_low_urbanization
+		movement_support_academics
+		movement_support_bureaucrats
+		movement_support_clerks
+	}	
+
+	pop_support_weight = {	
+		if = {
+			limit = {
+				exists = scope:political_movement
+				scope:political_movement ?= {
+					OR = {
+						is_being_suppressed = yes
+						is_being_bolstered = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					scope:political_movement = {
+						is_being_suppressed = yes
+					}
+				}
+				add = {
+					value = suppression_base_value
+					multiply = {
+						value = -0.5
+						add = owner.modifier:country_suppression_attraction_factor
+					}
+					desc = "concept_suppressed"
+				}
+			}
+			else = {
+				add = {
+					value = bolstering_base_value
+					multiply = {
+						value = 0.5
+						add = owner.modifier:country_bolster_attraction_factor
+					}
+					desc = "concept_bolstered"
+				}
+			}
+		}
+		add = {
+			desc = "URBAN_STATE" # Increases support in rural states, decreases in urban
+			value = 0.5
+			subtract = state.state_urbanization_rate
+			multiply = 10
+		}
+
+		#add = {
+		#	value = 15
+		#	desc = "POP_BASE_SUPPORT"
+		#}	
+		
+		#if = {	#Handeled via the modifier itself
+		#	limit = {
+		#		state = {
+		#			has_modifier = cr_mexico_federalist_sympathies
+		#		}
+		#	}
+		#	add = {
+		#		value = 40
+		#		desc = "FEDERALISTS_SYMPATHIES"
+		#	}
+		#}
+		
+		
+		if = {
+			limit = {
+				is_pop_type = academics
+			}
+			add = {
+				value = 25
+				desc = "POP_ACADEMICS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = bureaucrats
+			}
+			add = {
+				value = 45
+				desc = "POP_BUREAUCRATS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = capitalists
+			}
+			add = {
+				value = 10
+				desc = "POP_CAPITALISTS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = clerks
+			}
+			add = {
+				value = 20
+				desc = "POP_CLERKS"
+			}
+		}	
+		else_if = {
+			limit = {
+				is_pop_type = engineers
+			}
+			add = {
+				value = 20
+				desc = "POP_ENGINEERS"
+			}
+		}
+		else_if = {
+			limit = {
+				is_pop_type = clergymen
+			}
+			subtract = 30
+		}
+		else_if = {
+			limit = {
+				is_pop_type = aristocrats
+			}
+			subtract = 30
+		}
+
+		#Centralists care about strongman rulers, federalists about government legitimacy.
+		if = {
+			limit = {
+				owner ?= {
+					has_law_or_variant = law_type:law_hereditary_bureaucrats
+				}
+			}
+			add = {
+				value = 50
+				subtract = owner.legitimacy
+				multiply = 0.5
+				desc = "concept_legitimacy"
+			}
+		}
+		else_if = {
+			add = {
+				value = 0
+				add = owner.legitimacy
+				multiply = 0.5
+				desc = "concept_legitimacy"
+			}
+		}
+	}
+
+	revolution = {
+		possible = {
+			political_movement_support >= 0.35
+		}
+		
+		weight = {
+			value = 100
+		}
+		
+		state_weight = {
+			value = 1
+			if = {
+			   limit = { 
+					has_modifier = cr_mexico_centralist_sympathies
+			   }
+				multiply = 2.0
+			}	
+		}
+	}
+	
+	secession = {	#Secessions handled via events
+				
+	}	
+	
+	additional_radicalism_factors = {	
+	}
+}

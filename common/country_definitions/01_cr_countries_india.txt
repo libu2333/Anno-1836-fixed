@@ -1,0 +1,72 @@
+﻿#############################
+#							#
+#		 North India		#
+#							#
+#############################		
+
+AGP = { #Arunachal Pradesh/Lhoba/Lhoya
+	color = { 190 182 83 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	capital = STATE_CHAYU
+	cultures = { loba }
+}
+
+AGP2 = { #Arunachal Pradesh/Lhoba/Lhoya
+	color = { 86 140 161 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_CHAYU
+	cultures = { monpa }
+}
+
+AGP3 = { #Arunachal Pradesh/Lhoba/Lhoya
+	color = { 132 199 225 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_CHAYU
+	cultures = { tibetan monpa loba }
+}
+
+BLI = {
+	color = { 180 200 210 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_KASHMIR
+	cultures = { tibetan }
+	religion = shiite
+}
+
+GHW = {
+	color = { 65 121 38 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	capital = STATE_WESTERN_HIMALAYAS
+	cultures = { nepali }
+}
+
+GLG = {
+	color = { 55 140 155 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_KASHMIR
+	cultures = { kashmiri }
+}

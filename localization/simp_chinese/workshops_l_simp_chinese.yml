@@ -1,0 +1,37 @@
+﻿l_simp_chinese:
+ #
+ bg_workshops: "城市作坊"
+ bg_cafe: "城市酒肆"
+ bg_houses: "城市住宅"
+ #
+ building_workshops: "城市作坊"
+ building_cafe: "城市酒肆"
+ building_houses: "城市住宅"
+ #
+ pmg_workshops_base: "$pm_base$"
+ pmg_workshops_subsidies: "作坊补贴"
+ pmg_cafe_base: "$pm_base$"
+ pmg_cafe_control: "政府管控"
+ pmg_houses: "$pm_base$"
+ pmg_houses_heating: "住宅供暖"
+ pmg_houses_landscaping: "环境美化"
+ pmg_houses_subsidies: "公共补贴"
+ #
+ pm_workshops_base: "私营作坊"
+ pm_workshops_banned: "工业品禁令"
+ pm_workshops_nosubsidies: "无补贴"
+ pm_workshops_subsidies: "作坊补助"
+ pm_cafe_base: "私营酒肆"
+ pm_cafe_state: "公共食堂"
+ pm_cafe_uncontrolled: "无管控"
+ pm_cafe_suppressed: "国家管控"
+ pm_houses: "公共事业"
+ pm_houses_heating_base: "柴煤供暖"
+ pm_houses_heating_central: "集中供暖"
+ pm_houses_no_landscaping: "无美化"
+ pm_houses_landscaping: "环境美化"
+ pm_houses_nosubsidies: "无补贴"
+ pm_houses_subsidies: "公共补贴"
+ #
+ goods_input_tea_add: "@tea! $tea$ 输入"
+ goods_input_coffee_add: "@coffee! $coffee$ 输入"

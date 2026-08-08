@@ -1,0 +1,100 @@
+﻿# Modern china
+
+dsk_ahao_character_template = {
+    first_name = Ahao
+    last_name = Yamato
+   # historical = yes 
+	is_agitator = yes
+    culture = cu:han
+    female = no
+    religion = confucian
+    ideology = ideology_Advanced_conservatism
+    
+    interest_group = ig_petty_bourgeoisie
+    dna = dsk_dna_ahao
+    birth_date = 1819.1.1
+    traits = { 
+        direct 
+        innovative 
+        ambitious 
+        alcoholic 
+        defense_in_depth_specialist 
+        demagogue 
+        expert_offensive_planner 
+        raroles
+        }
+    agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:CHI ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+		earliest_usage_date = 1840.1.1 # 
+		latest_usage_date = 1880.12.31
+		chance = 100
+	}
+	home_region = STATE_GUANGDONG
+}
+
+dsk_Grate_character_template = {
+    first_name = Grate
+    last_name = Garbo
+   # historical = yes
+	is_agitator = yes
+    culture = cu:swedish
+    female = yes
+    religion = protestant
+    ideology = ideology_usfp_progressive
+    
+    interest_group = ig_industrialists
+    #dna = dsk_dna_
+    birth_date = 1819.1.1
+    traits = {
+        ambitious 
+        inspirational_orator
+        charismatic
+        raroles
+        }
+    agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:SWE ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+		earliest_usage_date = 1840.1.1 # 
+		latest_usage_date = 1880.12.31
+		chance = 100
+	}
+	home_region = STATE_SVEALAND
+}
+
+dsk_hhz_character_template = {
+    first_name = Honghuzi
+    last_name = Yamato
+   # historical = yes
+	#is_agitator = yes
+    culture = cu:han
+    female = no
+    religion = rel:atheist
+    ideology = ideology_social_democrat
+    
+    interest_group = ig_industrialists
+    #dna = dsk_dna_
+    birth_date = 1819.1.1
+    traits = { 
+        direct
+        cautious
+        imperious
+        ambitious
+        innovative
+        swimmer
+        raroles
+        }
+	home_region = STATE_SHENGJING
+}

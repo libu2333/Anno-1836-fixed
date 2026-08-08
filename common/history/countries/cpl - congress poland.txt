@@ -1,0 +1,62 @@
+COUNTRIES = {
+	c:POS = {
+		add_primary_culture = cu:north_german
+		remove_primary_culture = cu:polish
+		effect_starting_technology_tier_3_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+		effect_starting_politics_reactionary = yes
+		activate_law = law_type:law_religious_schools		
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}	
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+		add_journal_entry = {
+			type = je_poland_independence
+		}
+	}
+	c:CPL = {
+		add_primary_culture = cu:russian
+		remove_primary_culture = cu:polish
+		effect_starting_technology_tier_2_tech = yes
+  if = { limit = { has_game_rule = chaos_colonization } add_technology_researched = colonization activate_law = law_type:law_colonial_resettlement }
+
+		add_technology_researched = central_banking
+		add_technology_researched = nationalism
+		add_technology_researched = atmospheric_engine		
+
+		set_tax_level = medium
+
+		# Laws 
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		
+		add_taxed_goods = g:liquor
+		
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+		add_journal_entry = {
+			type = je_poland_independence
+		}
+	}
+}

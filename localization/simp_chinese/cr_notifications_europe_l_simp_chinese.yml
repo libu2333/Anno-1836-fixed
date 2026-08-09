@@ -3,43 +3,41 @@
  notification_cr_fernando_po_reclaimed_obligation_name: "费尔南多·波割让！"
  notification_cr_fernando_po_reclaimed_obligation_desc: "[SCOPE.sCountry('cr_fernado_po_claimant').GetName]已通过[concept_obligation]取得费尔南多·波的控制权。"
  notification_cr_fernando_po_reclaimed_obligation_desc_old: "[SCOPE.sCountry('cr_fernado_po_claimant').GetName]已通过[concept_obligation]取得费尔南多·波的控制权。\n\n他们通过1778年与葡萄牙签订的条约对该岛拥有权利。"
- notification_cr_fernando_po_reclaimed_obligation_tooltip: "#header $notification_cr_fernando_po_reclaimed_obligation$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_reclaimed_obligation_desc$"
+ notification_cr_fernando_po_reclaimed_obligation_tooltip: "#header $notification_cr_fernando_po_reclaimed_obligation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_reclaimed_obligation_desc$"
 
  notification_cr_fernando_po_returned_news_name: "岛屿交易"
  notification_cr_fernando_po_returned_news_desc: "作为对[SCOPE.sStrategicRegion('cr_biafra').GetName]日益增长兴趣的明确信号，[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]已从[SCOPE.sCountry('cr_fernado_po_seller').GetAdjective]手中取得费尔南多·波岛的控制权。"
- notification_cr_fernando_po_returned_news_tooltip: "#header $notification_cr_fernando_po_returned_news$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_news_desc$"
+ notification_cr_fernando_po_returned_news_tooltip: "#header $notification_cr_fernando_po_returned_news_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_news_desc$"
 
  notification_cr_fernando_po_returned_name: "谈判成功"
  notification_cr_fernando_po_returned_desc: "[SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting]已同意将[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]割让给我们。"
- notification_cr_fernando_po_returned_tooltip: "#header $notification_cr_fernando_po_returned$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_desc$"
+ notification_cr_fernando_po_returned_tooltip: "#header $notification_cr_fernando_po_returned_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_desc$"
 
  notification_cr_fernando_po_returned_obligation_name: "谈判成功"
  notification_cr_fernando_po_returned_obligation_desc: "[SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting]已接受我们以[concept_obligation]交换[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的提议。"
- notification_cr_fernando_po_returned_obligation_tooltip: "#header $notification_cr_fernando_po_returned_obligation$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_obligation_desc$"
+ notification_cr_fernando_po_returned_obligation_tooltip: "#header $notification_cr_fernando_po_returned_obligation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_obligation_desc$"
 
  notification_cr_fernando_po_kept_name: "谈判失败"
  notification_cr_fernando_po_kept_desc: "[SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting]拒绝将[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]割让给我们。"
- notification_cr_fernando_po_kept_tooltip: "#header $notification_cr_fernando_po_kept$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_kept_desc$"
+ notification_cr_fernando_po_kept_tooltip: "#header $notification_cr_fernando_po_kept_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_kept_desc$"
 
  notification_cr_fernando_po_negotionations_negative_obligation_name: "谈判失败"
  notification_cr_fernando_po_negotionations_negative_obligation_desc: "[SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting]拒绝我们以[concept_obligation]交换[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的提议。"
- notification_cr_fernando_po_negotionations_negative_toast_tooltip: "#header $notification_cr_fernando_po_negotionations_negative_obligation$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_negotionations_negative_obligation_desc$"
+ notification_cr_fernando_po_negotionations_negative_obligation_tooltip: "#header $notification_cr_fernando_po_negotionations_negative_obligation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_negotionations_negative_obligation_desc$"
 
  notification_cr_fernando_po_negotionations_positive_toast_name: "谈判成功"
  notification_cr_fernando_po_negotionations_positive_toast_desc: "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjectiveNoFormatting]已接受我们以义务交换[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的反提议。"
- notification_cr_fernando_po_returned_notification_tooltip: "#header $notification_cr_fernando_po_negotionations_positive_toast$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_negotionations_positive_toast_desc$"
+ notification_po_returned_notification_their_slavery_reinstated_name: "费尔南多·波的丧失"
+ notification_po_returned_notification_their_slavery_reinstated_desc: "随着[SCOPE.sCountry('cr_fernado_po_owner').GetAdjective]恢复[GetLawType('law_slave_trade').GetName]，我们已放弃通过外交手段重新夺回[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的努力。他们不太可能愿意放弃这样一个对奴隶贸易至关重要的港口。"
+ notification_po_returned_notification_their_slavery_reinstated_tooltip: "#header $notification_po_returned_notification_their_slavery_reinstated_name$#!\n$TOOLTIP_DELIMITER$\n$notification_po_returned_notification_their_slavery_reinstated_desc$"
 
- notification_cr_fernando_po_returned_notification_their_slavery_reinstated_name: "费尔南多·波的丧失"
- notification_cr_fernando_po_returned_notification_their_slavery_reinstated_desc: "随着[SCOPE.sCountry('cr_fernado_po_owner').GetAdjective]恢复[GetLawType('law_slave_trade').GetName]，我们已放弃通过外交手段重新夺回[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的努力。他们不太可能愿意放弃这样一个对奴隶贸易至关重要的港口。"
- notification_cr_fernando_po_returned_notification_their_slavery_reinstated_tooltip: "#header $notification_cr_fernando_po_returned_notification_their_slavery_reinstated$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_notification_their_slavery_reinstated_desc$"
-
- notification_cr_fernando_po_returned_notification_slavery_reinstated_name: "费尔南多·波的丧失"
- notification_cr_fernando_po_returned_notification_slavery_reinstated_desc: "随着我们恢复[GetLawType('law_slave_trade').GetName]，我们已放弃通过外交手段重新夺回[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的努力。[SCOPE.sCountry('cr_fernado_po_owner').GetAdjective]不太可能愿意将这样一个对奴隶贸易至关重要的港口交给我们。"
- notification_cr_fernando_po_returned_notification_slavery_reinstated_tooltip: "#header $notification_cr_fernando_po_returned_notification_slavery_reinstated$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_notification_slavery_reinstated_desc$"
+ notification_po_returned_notification_slavery_reinstated_name: "费尔南多·波的丧失"
+ notification_po_returned_notification_slavery_reinstated_desc: "随着我们恢复[GetLawType('law_slave_trade').GetName]，我们已放弃通过外交手段重新夺回[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的努力。[SCOPE.sCountry('cr_fernado_po_owner').GetAdjective]不太可能愿意将这样一个对奴隶贸易至关重要的港口交给我们。"
+ notification_po_returned_notification_slavery_reinstated_tooltip: "#header $notification_po_returned_notification_slavery_reinstated_name$#!\n$TOOLTIP_DELIMITER$\n$notification_po_returned_notification_slavery_reinstated_desc$"
 
  notification_cr_fernando_po_returned_scramble_for_africa_name: "费尔南多·波的丧失"
  notification_cr_fernando_po_returned_scramble_for_africa_desc: "随着非洲争夺战升温，我们已放弃从[SCOPE.sCountry('cr_fernado_po_owner').GetName]手中重新夺回[SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting]的努力。他们不太可能愿意放弃这样一个用于扩展非洲影响力的重要港口。"
- notification_cr_fernando_po_returned_scramble_for_africa_tooltip: "#header $notification_cr_fernando_po_returned_scramble_for_africa$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_scramble_for_africa_desc$"
+ notification_cr_fernando_po_returned_scramble_for_africa_tooltip: "#header $notification_cr_fernando_po_returned_scramble_for_africa_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_scramble_for_africa_desc$"
 
  notification_cr_SAF_queen_adelaide_province_denied_name: "边界恢复"
  notification_cr_SAF_queen_adelaide_province_denied_desc: "在[SCOPE.sCountry('british_scope').GetAdjective]的压力下，[SCOPE.sCountry('south_africa_scope').GetName]被迫将凯伊河与凯伊斯卡马河之间的土地归还给我们，恢复沿凯伊斯卡马河的旧边界。"

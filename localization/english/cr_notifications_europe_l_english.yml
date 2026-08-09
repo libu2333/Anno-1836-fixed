@@ -2,44 +2,42 @@
  notification_cr_fernando_po_reclaimed_obligation_name: "Fernando Pó Ceded!"
  notification_cr_fernando_po_reclaimed_obligation_desc: "[SCOPE.sCountry('cr_fernado_po_claimant').GetName] has assumed control of Fernando Po by use of an [concept_obligation]."
  notification_cr_fernando_po_reclaimed_obligation_desc_old: "[SCOPE.sCountry('cr_fernado_po_claimant').GetName] has taken control of Fernando Po by use of an [concept_obligation].\n\nThey held claim to the island through an 1778 treaty they signed with the Portuguese."
- notification_cr_fernando_po_reclaimed_obligation_tooltip: "#header $notification_cr_fernando_po_reclaimed_obligation$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_reclaimed_obligation_desc$"
+ notification_cr_fernando_po_reclaimed_obligation_tooltip: "#header $notification_cr_fernando_po_reclaimed_obligation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_reclaimed_obligation_desc$"
  
  notification_cr_fernando_po_returned_news_name: "Island Trading"
  notification_cr_fernando_po_returned_news_desc: "In a sure sign of their growing interest in [SCOPE.sStrategicRegion('cr_biafra').GetName], the [SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective] have taken control of the island of Fernando Pó from the [SCOPE.sCountry('cr_fernado_po_seller').GetAdjective]."
- notification_cr_fernando_po_returned_news_tooltip: "#header $notification_cr_fernando_po_returned_news$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_news_desc$"
+ notification_cr_fernando_po_returned_news_tooltip: "#header $notification_cr_fernando_po_returned_news_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_news_desc$"
  
  notification_cr_fernando_po_returned_name: "Succesful Negotiations"
  notification_cr_fernando_po_returned_desc: "The [SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting] have agreed to cede [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] to us."
- notification_cr_fernando_po_returned_tooltip: "#header $notification_cr_fernando_po_returned_obligation$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_obligation_desc$" 
+ notification_cr_fernando_po_returned_tooltip: "#header $notification_cr_fernando_po_returned_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_desc$" 
  
  notification_cr_fernando_po_returned_obligation_name: "Succesful Negotiations"
  notification_cr_fernando_po_returned_obligation_desc: "The [SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting] have accepted our offer to exchange [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] for an [concept_obligation]."
- notification_cr_fernando_po_returned_obligation_tooltip: "#header $notification_cr_fernando_po_returned_obligation$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_obligation_desc$" 
+ notification_cr_fernando_po_returned_obligation_tooltip: "#header $notification_cr_fernando_po_returned_obligation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_obligation_desc$" 
  
  notification_cr_fernando_po_kept_name: "Failed Negotiations"
  notification_cr_fernando_po_kept_desc: "The [SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting] have declined to cede [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] to us."
- notification_cr_fernando_po_kept_tooltip: "#header $notification_cr_fernando_po_kept$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_kept_desc$" 
+ notification_cr_fernando_po_kept_tooltip: "#header $notification_cr_fernando_po_kept_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_kept_desc$" 
  
  notification_cr_fernando_po_negotionations_negative_obligation_name: "Failed Negotiations"
  notification_cr_fernando_po_negotionations_negative_obligation_desc: "The [SCOPE.sCountry('cr_fernado_po_seller').GetAdjectiveNoFormatting] have rejected our offer to exchange [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] for an [concept_obligation]."
- notification_cr_fernando_po_negotionations_negative_toast_tooltip: "#header $notification_cr_fernando_po_negotionations_negative_obligation$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_negotionations_negative_obligation_desc$"
+ notification_cr_fernando_po_negotionations_negative_obligation_tooltip: "#header $notification_cr_fernando_po_negotionations_negative_obligation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_negotionations_negative_obligation_desc$"
  
  
  notification_cr_fernando_po_negotionations_positive_toast_name: "Succesful Negotiations"
  notification_cr_fernando_po_negotionations_positive_toast_desc: "The [SCOPE.sCountry('cr_fernado_po_claimant').GetAdjectiveNoFormatting] have accepted our counter offer to exchange [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] for an obligation."
- notification_cr_fernando_po_returned_notification_tooltip: "#header $notification_cr_fernando_po_negotionations_negative_toast$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_negotionations_negative_toast_desc$"
-
- notification_cr_fernando_po_returned_notification_their_slavery_reinstated_name: "The Loss of Fernando Pó"
- notification_cr_fernando_po_returned_notification_their_slavery_reinstated_desc: "With the [SCOPE.sCountry('cr_fernado_po_owner').GetAdjective] returning to the [GetLawType('law_slave_trade').GetName] we have abandoned our efforts to regain [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] through diplomatic means. It is unlikely that they will be willing to part with such a potent port for the trade."
- notification_cr_fernando_po_returned_notification_their_slavery_reinstated_tooltip: "#header $notification_cr_fernando_po_returned_notification_their_slavery_reinstated$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_notification_their_slavery_reinstated_desc$"
+ notification_po_returned_notification_their_slavery_reinstated_name: "The Loss of Fernando Pó"
+ notification_po_returned_notification_their_slavery_reinstated_desc: "With the [SCOPE.sCountry('cr_fernado_po_owner').GetAdjective] returning to the [GetLawType('law_slave_trade').GetName] we have abandoned our efforts to regain [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] through diplomatic means. It is unlikely that they will be willing to part with such a potent port for the trade."
+ notification_po_returned_notification_their_slavery_reinstated_tooltip: "#header $notification_po_returned_notification_their_slavery_reinstated_name$#!\n$TOOLTIP_DELIMITER$\n$notification_po_returned_notification_their_slavery_reinstated_desc$"
  
- notification_cr_fernando_po_returned_notification_slavery_reinstated_name: "The Loss of Fernando Pó"
- notification_cr_fernando_po_returned_notification_slavery_reinstated_desc: "With our return to the [GetLawType('law_slave_trade').GetName] we have abandoned our efforts to regain [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] through diplomatic means. It is unlikely that the [SCOPE.sCountry('cr_fernado_po_owner').GetAdjective] will be willing to hand us such a potent port for the trade."
- notification_cr_fernando_po_returned_notification_slavery_reinstated_tooltip: "#header $notification_cr_fernando_po_returned_notification_slavery_reinstated$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_notification_slavery_reinstated_desc$"
+ notification_po_returned_notification_slavery_reinstated_name: "The Loss of Fernando Pó"
+ notification_po_returned_notification_slavery_reinstated_desc: "With our return to the [GetLawType('law_slave_trade').GetName] we have abandoned our efforts to regain [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] through diplomatic means. It is unlikely that the [SCOPE.sCountry('cr_fernado_po_owner').GetAdjective] will be willing to hand us such a potent port for the trade."
+ notification_po_returned_notification_slavery_reinstated_tooltip: "#header $notification_po_returned_notification_slavery_reinstated_name$#!\n$TOOLTIP_DELIMITER$\n$notification_po_returned_notification_slavery_reinstated_desc$"
  
  notification_cr_fernando_po_returned_scramble_for_africa_name: "The Loss of Fernando Pó"
  notification_cr_fernando_po_returned_scramble_for_africa_desc: "With the Scramble for Africa heating up, we have abandoned our efforts to regain [SCOPE.sState('cr_fernado_po_province').GetNameNoFormatting] from [SCOPE.sCountry('cr_fernado_po_owner').GetName]. It is unlikely that they will be willing to part with such a potent port to expand their presence in Africa from."
- notification_cr_fernando_po_returned_scramble_for_africa_tooltip: "#header $notification_cr_fernando_po_returned_scramble_for_africa$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_scramble_for_africa_desc$"
+ notification_cr_fernando_po_returned_scramble_for_africa_tooltip: "#header $notification_cr_fernando_po_returned_scramble_for_africa_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fernando_po_returned_scramble_for_africa_desc$"
  
  notification_cr_SAF_queen_adelaide_province_denied_name: "Border Restored"
  notification_cr_SAF_queen_adelaide_province_denied_desc: "Under pressure from the [SCOPE.sCountry('british_scope').GetAdjective] the [SCOPE.sCountry('south_africa_scope').GetName] have been forced to surender their lands between the Kei and Keiskamma to us, restoring the old border along the Keiskamma River."
@@ -47,7 +45,7 @@
  
  notification_cr_SAF_xhosa_protectorate_denied_name: "Independence Restored"
  notification_cr_SAF_xhosa_protectorate_denied_desc: "Under pressure from the [SCOPE.sCountry('british_scope').GetAdjective] the [SCOPE.sCountry('south_africa_scope').GetName] have been forced to end their protectorate over us, restoring our full independence."
- notification_cr_SAF_xhosa_protectorate_denied_tooltip: "#header $notification_cr_SAF_xhosa_protectorate_denied_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_SAF_xhosa_protectorate_denied_denied_desc$"
+ notification_cr_SAF_xhosa_protectorate_denied_tooltip: "#header $notification_cr_SAF_xhosa_protectorate_denied_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_SAF_xhosa_protectorate_denied_desc$"
  
  
  
@@ -57,7 +55,7 @@
  
  notification_cr_fort_ross_rejected_name: "Failed Negotiations"
  notification_cr_fort_ross_rejected_desc: "[SCOPE.sCountry('buying_country').GetName] has declined to acquire our possessions along the coast of California."
- notification_cr_fort_ross_rejected_tooltip: "#header $notification_cr_fort_ross_accepted_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fort_ross_accepted_desc$"
+ notification_cr_fort_ross_rejected_tooltip: "#header $notification_cr_fort_ross_rejected_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_fort_ross_rejected_desc$"
  
  notification_cr_alaska_colonisation_encouraged_name: "Expanding the Frontier"
  notification_cr_alaska_colonisation_encouraged_desc: "[SCOPE.sCountry('overlord').GetNameNoFlag] has started encouraging the settlement of the Alaskan frontier."
@@ -69,11 +67,11 @@
  
  notification_cr_california_colonisation_encouraged_name: "Expanding the Southern Frontier"
  notification_cr_california_colonisation_encouraged_desc: "[SCOPE.sCountry('overlord').GetNameNoFlag] has started encouraging the settlement of the Californian frontier."
- notification_cr_california_colonisation_encouraged_tooltip: "#header $notification_cr_alaska_colonisation_encouraged_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_alaska_colonisation_encouraged_desc$"
+ notification_cr_california_colonisation_encouraged_tooltip: "#header $notification_cr_california_colonisation_encouraged_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_california_colonisation_encouraged_desc$"
  
  notification_cr_california_colonisation_discouraged_name: "Closing the Southern Frontier"
  notification_cr_california_colonisation_discouraged_desc: "[SCOPE.sCountry('overlord').GetNameNoFlag] has stoped encouraging the settlement of the Californian frontier."
- notification_cr_california_colonisation_discouraged_tooltip: "#header $notification_cr_alaska_colonisation_discouraged_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_alaska_colonisation_discouraged_desc$"
+ notification_cr_california_colonisation_discouraged_tooltip: "#header $notification_cr_california_colonisation_discouraged_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_california_colonisation_discouraged_desc$"
  
  notification_cr_numbered_treaties_switched_to_no_colonial_affairs_name: "Change in Colonisation Policy"
  notification_cr_numbered_treaties_switched_to_no_colonial_affairs_desc: "With the recent change to [GetLawType('law_no_colonial_affairs').GetName] we have stopped negotiating Land Cession Treaties with the Indians of [SCOPE.sStrategicRegion('canada_region').GetName] and [SCOPE.sStrategicRegion('ruperts_land').GetName]."
@@ -107,14 +105,14 @@
  notification_cr_don_carlos_exile_provided_tooltip: "#header $notification_cr_don_carlos_exile_provided_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_don_carlos_exile_provided_desc$"
  notification_cr_don_carlos_exile_refused_name: "Spanish Pretender Rejected"
  notification_cr_don_carlos_exile_refused_desc: "[SCOPE.sCountry('don_carlos_exile_country').GetName] has decided to refuse to provide refugee to Don Carlos, the [SCOPE.sCountry('spain').GetName] pretender, after he lost his was for the throne."
- notification_cr_don_carlos_exile_refused_tooltip: "#header $notification_cr_don_carlos_exile_refused_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_don_carlos_exile_rejected_desc$"
+ notification_cr_don_carlos_exile_refused_tooltip: "#header $notification_cr_don_carlos_exile_refused_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_don_carlos_exile_refused_desc$"
  notification_cr_don_carlos_exile_supported_name: "Spanish Pretender Finds Support"
  notification_cr_don_carlos_exile_supported_desc: "Despite losing his was for the throne, [SCOPE.sCountry('don_carlos_exile_country').GetName] has decided to provide refuge and support to Don Carlos, the absolutist [SCOPE.sCountry('spain').GetName] pretender."
  notification_cr_don_carlos_exile_supported_tooltip: "#header $notification_cr_don_carlos_exile_supported_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_don_carlos_exile_supported_desc$"
  
  notification_cr_slaves_returned_sint_maarten_name: "[SCOPE.sCountry('slave_emancipator').GetName] returns slaves to the [SCOPE.sState('slavery_state').GetName]!"
  notification_cr_slaves_returned_sint_maarten_desc: "France has acquiest to our request to return the runaway slaves to #Sint Maarten#!, increasing our relations and preserving our workforce."
- notification_cr_don_carlos_exile_supported_tooltip: "#header $notification_cr_slaves_returned_sint_maarten_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_slaves_returned_sint_maarten_desc$"
+ notification_cr_slaves_returned_sint_maarten_tooltip: "#header $notification_cr_slaves_returned_sint_maarten_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_slaves_returned_sint_maarten_desc$"
  
  notification_cr_slaves_not_returned_sint_maarten_name: "[SCOPE.sCountry('slave_emancipator').GetName] rejects return of slaves to the [SCOPE.sState('slavery_state').GetName]!"
  notification_cr_slaves_not_returned_sint_maarten_desc: "France has rejected our request to return the runaway slaves to #Sint Maarten#!, decreasing our relations and causing a large number of [GetPopType('slaves').GetName] to move to [SCOPE.sState('emancipated_state').GetName]."

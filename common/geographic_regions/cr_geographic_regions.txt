@@ -1,4 +1,4 @@
-﻿geographic_region_indonesia = {
+﻿REPLACE:geographic_region_indonesia = {
 	short_key = "indonesia"
 
 	state_regions = {
@@ -717,8 +717,12 @@ geographic_region_punjab_cr = {
 
 geographic_region_himalayas_cr = {
 	short_key = "himalayas_cr"
+	strategic_regions = {
+		sr:region_himalayas
+	}
+
 	state_regions = {
-		STATE_HIMALAYAS STATE_CHANGDU STATE_SIKKIM STATE_EASTERN_HIMALAYAS STATE_WESTERN_HIMALAYAS STATE_LHASA STATE_NGARI STATE_KASHMIR STATE_QINGHAI STATE_KHAM STATE_CHAYU
+		STATE_KHAM STATE_WESTERN_HIMALAYAS
 	}
 }
 

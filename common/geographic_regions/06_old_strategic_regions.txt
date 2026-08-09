@@ -407,13 +407,19 @@ geographic_region_niger_old = {
 geographic_region_congo_old = {
 	short_key = "congo_old"
 
-	state_regions = { STATE_BAS_CONGO STATE_CONGO STTAE_KIVU STATE_KASAI STATE_EQUATEUR STATE_CONGO_ORIENTALE STATE_UBANGI_SHARI STATE_SHARI STATE_ANGOLA STATE_LUNDA STATE_BENGUELA STATE_BUNDALAND STATE_NYASALAND STATE_ZAMBIA STATE_GABON STATE_SOUTH_CAMEROON STATE_KATANGA STATE_SAO_TOME_AND_PRINCIPE }
+	state_regions = { STATE_BAS_CONGO STATE_CONGO STATE_KIVU STATE_KASAI STATE_EQUATEUR STATE_CONGO_ORIENTALE STATE_UBANGI_SHARI STATE_SHARI STATE_ANGOLA STATE_LUNDA STATE_BENGUELA STATE_BUNDALAND STATE_NYASALAND STATE_ZAMBIA STATE_GABON STATE_SOUTH_CAMEROON STATE_KATANGA STATE_SAO_TOME_AND_PRINCIPE }
 }
 
 geographic_region_southern_africa_old = {
 	short_key = "southern_africa_old"
 
-	state_regions = { STATE_NAMAQUALAND STATE_BOTSWANA STATE_NORTHERN_CAPE STATE_CAPE_COLONY STATE_EASTERN_CAPE STATE_VRYSTAAT STATE_TRANSVAAL STATE_ZULULAND STATE_HEREROLAND STATE_LOURENCO_MARQUES  STATE_ZAMBEZI }
+	strategic_regions = {
+		sr:region_southern_africa
+	}
+
+	state_regions = {
+		STATE_LOURENCO_MARQUES STATE_ZAMBEZI
+	}
 }
 
 geographic_region_zanj_old = {
@@ -493,7 +499,14 @@ geographic_region_anatolia_old = {
 
 geographic_region_arabic_old = {
 	short_key = "arabic_old"
-	state_regions = { STATE_OMAN STATE_ABU_DHABI STATE_YEMEN STATE_HEDJAZ STATE_HAIL STATE_NEJD STATE_TRANSJORDAN STATE_PALESTINE STATE_LEBANON STATE_SYRIA STATE_ALEPPO STATE_DEIR_EZ_ZOR STATE_BAGHDAD STATE_BASRA STATE_MOSUL STATE_SOUTH_YEMEN STATE_ASIR STATE_HAJAR STATE_BADIYA }
+	strategic_regions = {
+		sr:region_arabia
+	}
+
+	state_regions = {
+		STATE_ALEPPO STATE_BAGHDAD STATE_BASRA STATE_DEIR_EZ_ZOR STATE_LEBANON STATE_MOSUL STATE_PALESTINE STATE_SYRIA
+		STATE_TRANSJORDAN
+	}
 }
 
 geographic_region_persia_old = {
@@ -503,7 +516,9 @@ geographic_region_persia_old = {
 
 geographic_region_central_asia_old = {
 	short_key = "central_asia_old"
-	state_regions = { STATE_UZBEKIA STATE_TRANSOXIANA STATE_ALAY STATE_KALAKR STATE_BADAKHSHAN STATE_TASHKENT STATE_KHIVA STATE_TAJIKISTAN STATE_KIRGHIZIA STATE_TURKMENIA STATE_SEMIRECHE STATE_AKMOLINSK STATE_AKTOBE STATE_SYRDARYA STATE_FERGANA STATE_MERZ STATE_DZUNGARIA STATE_TIANSHAN STATE_URALSK STATE_JETISY }
+	strategic_regions = {
+		sr:region_central_asia
+	}
 }
 
 geographic_region_caucasus_old = {
@@ -533,7 +548,13 @@ geographic_region_punjab_old = {
 
 geographic_region_himalayas_old = {
 	short_key = "himalayas_old"
-	state_regions = { STATE_HIMALAYAS STATE_WESTERN_HIMALAYAS STATE_LHASA STATE_NGARI STATE_KASHMIR STATE_QINGHAI STATE_EASTERN_HIMALAYAS STATE_CHANGDU STATE_KHAM STATE_SIKKIM STATE_CHAYU }
+	strategic_regions = {
+		sr:region_himalayas
+	}
+
+	state_regions = {
+		STATE_KHAM STATE_WESTERN_HIMALAYAS
+	}
 }
 
 geographic_region_central_india_old = {
@@ -555,7 +576,13 @@ geographic_region_new_england_old = {
 
 geographic_region_pacific_coast_old = {
 	short_key = "pacific_coast_old"
-	state_regions = { STATE_CALIFORNIA STATE_BAJA_CALIFORNIA STATE_WASHINGTON STATE_OREGON STATE_IDAHO STATE_NEVADA STATE_UTAH STATE_ARIZONA STATE_ALASKA STATE_YUKON_TERRITORY STATE_BRITISH_COLUMBIA }
+	strategic_regions = {
+		sr:region_pacific_coast
+	}
+
+	state_regions = {
+		STATE_BAJA_CALIFORNIA
+	}
 }
 
 geographic_region_great_plains_old = {

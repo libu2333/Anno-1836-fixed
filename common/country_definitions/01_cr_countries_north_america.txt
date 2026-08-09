@@ -33,7 +33,7 @@ KWQ = {
 
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { mapuche }
 	capital = STATE_ARAUCANIA
 }
 YGN = {
@@ -43,7 +43,7 @@ YGN = {
 
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { yahgan }
 	capital = STATE_NANJI
 }
 ATM = {
@@ -110,7 +110,7 @@ CTW = {
 	tier = principality
 	
 	capital = STATE_OKLAHOMA
-	cultures = { caddoan }
+	cultures = { muskogean }
 }
 
 FLT = {
@@ -121,7 +121,7 @@ FLT = {
 	tier = principality
 	
 	capital = STATE_MONTANA
-	cultures = { algonquian }
+	cultures = { interior_salish }
 }
 
 FOX = {
@@ -142,7 +142,7 @@ GVT = {
 	
 	tier = principality
 	
-	cultures = { siouan }
+	cultures = { plains_algonquian }
 	capital = STATE_MONTANA
 }
 
@@ -164,7 +164,7 @@ INU = {
 	
 	tier = principality
 	
-	cultures = { cree }
+	cultures = { innu }
 	capital = STATE_QUEBEC
 }
 
@@ -176,7 +176,7 @@ IOW  = {
 	tier = principality
 	
 	capital = STATE_IOWA
-	cultures = { algonquian }
+	cultures = { siouan }
 }
 
 KTN = {
@@ -187,7 +187,7 @@ KTN = {
 	tier = principality
 	
 	capital = STATE_BRITISH_COLUMBIA
-	cultures = { salish }
+	cultures = { kutenai }
 }
 NHW = {
 	color = { 117 114 59 }
@@ -208,7 +208,7 @@ NWP = {
 	tier = principality
 	
 	capital = STATE_OREGON
-	cultures = { salish }
+	cultures = { klamath }
 }
 
 OSA  = {
@@ -219,7 +219,7 @@ OSA  = {
 	tier = principality
 	
 	capital = STATE_KANSAS
-	cultures = { algonquian }
+	cultures = { siouan }
 }
 
 PIU = {
@@ -264,7 +264,7 @@ WKS = {
 	tier = principality
 	
 	capital = STATE_BRITISH_COLUMBIA
-	cultures = { athabaskan }
+	cultures = { wakashan }
 }
 
 
@@ -277,7 +277,7 @@ YOK = {
 	tier = principality
 	
 	capital = STATE_CALIFORNIA
-	cultures = { nez_perce }
+	cultures = { central_californian }
 }
 
 ####adapted from Meriadors work/for Hail Columbia
@@ -290,7 +290,7 @@ SHP = {
 	tier = principality
 	
 	capital = STATE_OREGON
-	cultures = { salish }
+	cultures = { nez_perce }
 }
 
 SPI = {

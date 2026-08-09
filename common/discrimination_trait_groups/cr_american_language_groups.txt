@@ -1,0 +1,7 @@
+language_group_lencan = {
+	type = language
+}
+
+language_group_xincan = {
+	type = language
+}

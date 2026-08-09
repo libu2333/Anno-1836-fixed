@@ -1,0 +1,9 @@
+language_lenca = {
+	type = language
+	trait_group = language_group_lencan
+}
+
+language_xinca = {
+	type = language
+	trait_group = language_group_xincan
+}

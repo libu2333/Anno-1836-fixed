@@ -8,7 +8,7 @@ YUM = {
 	tier = principality
 	
 	capital = STATE_CALIFORNIA
-	cultures = { hokan }
+	cultures = { yuman }
 }
 LZN = {
 	color = { 113 84 167 }

@@ -1,0 +1,196 @@
+# Decentralized Native American polities. Existing historical tags are reused
+# where they already represent a listed tribe; AM-prefixed tags are reserved
+# for newly prepared tribes without a pre-existing country tag.
+
+# Eastern Woodlands
+REPLACE:CTF = {
+	color = { 220 147 37 }
+	country_type = decentralized
+	tier = principality
+	cultures = { anishinaabe }
+	capital = STATE_MICHIGAN
+}
+
+AMOJB = { color = { 196 132 48 } country_type = decentralized tier = principality cultures = { anishinaabe } capital = STATE_MICHIGAN }
+AMODW = { color = { 173 117 54 } country_type = decentralized tier = principality cultures = { anishinaabe } capital = STATE_MICHIGAN }
+AMPOT = { color = { 151 102 59 } country_type = decentralized tier = principality cultures = { anishinaabe } capital = STATE_MICHIGAN }
+AMMEN = { color = { 123 142 77 } country_type = decentralized tier = principality cultures = { algonquian } capital = STATE_WISCONSIN }
+AMSHW = { color = { 149 113 65 } country_type = decentralized tier = principality cultures = { algonquian } capital = STATE_OHIO }
+AMMIA = { color = { 174 125 62 } country_type = decentralized tier = principality cultures = { algonquian } capital = STATE_INDIANA }
+AMLEN = { color = { 126 149 82 } country_type = decentralized tier = principality cultures = { algonquian } capital = STATE_PENNSYLVANIA }
+AMILL = { color = { 157 94 67 } country_type = decentralized tier = principality cultures = { algonquian } capital = STATE_ILLINOIS }
+
+AMMOH = { color = { 139 89 150 } country_type = decentralized tier = principality cultures = { haudenosaunee } capital = STATE_NEW_YORK }
+AMONE = { color = { 122 103 161 } country_type = decentralized tier = principality cultures = { haudenosaunee } capital = STATE_NEW_YORK }
+AMOND = { color = { 101 115 159 } country_type = decentralized tier = principality cultures = { haudenosaunee } capital = STATE_NEW_YORK }
+AMCAY = { color = { 137 105 143 } country_type = decentralized tier = principality cultures = { haudenosaunee } capital = STATE_NEW_YORK }
+AMSEN = { color = { 156 89 126 } country_type = decentralized tier = principality cultures = { haudenosaunee } capital = STATE_NEW_YORK }
+AMTUS = { color = { 120 118 152 } country_type = decentralized tier = principality cultures = { haudenosaunee } capital = STATE_NEW_YORK }
+
+
+# Subarctic and Arctic
+AMPCR = { color = { 96 143 170 } country_type = decentralized tier = principality cultures = { cree } capital = STATE_MANITOBA }
+AMWCR = { color = { 101 155 166 } country_type = decentralized tier = principality cultures = { cree } capital = STATE_MANITOBA }
+AMSCR = { color = { 89 136 154 } country_type = decentralized tier = principality cultures = { cree } capital = STATE_MANITOBA }
+AMMCR = { color = { 112 151 136 } country_type = decentralized tier = principality cultures = { cree } capital = STATE_MANITOBA }
+AMECR = { color = { 87 128 165 } country_type = decentralized tier = principality cultures = { cree } capital = STATE_QUEBEC }
+
+AMNAS = { color = { 77 121 154 } country_type = decentralized tier = principality cultures = { innu } capital = STATE_QUEBEC }
+AMATI = { color = { 102 144 171 } country_type = decentralized tier = principality cultures = { innu } capital = STATE_QUEBEC }
+
+AMCHP = { color = { 101 115 94 } country_type = decentralized tier = principality cultures = { athabaskan } capital = STATE_MANITOBA }
+AMSLV = { color = { 92 128 98 } country_type = decentralized tier = principality cultures = { athabaskan } capital = STATE_MANITOBA }
+AMTLI = { color = { 111 124 89 } country_type = decentralized tier = principality cultures = { athabaskan } capital = STATE_MANITOBA }
+AMGWI = { color = { 85 131 111 } country_type = decentralized tier = principality cultures = { athabaskan } capital = STATE_ALASKA }
+AMKOY = { color = { 99 143 116 } country_type = decentralized tier = principality cultures = { athabaskan } capital = STATE_ALASKA }
+
+AMINP = { color = { 111 179 196 } country_type = decentralized tier = principality cultures = { inuit } capital = STATE_ALASKA }
+AMINV = { color = { 92 162 186 } country_type = decentralized tier = principality cultures = { inuit } capital = STATE_MANITOBA }
+AMCIN = { color = { 122 186 204 } country_type = decentralized tier = principality cultures = { inuit } capital = STATE_MANITOBA }
+AMNET = { color = { 89 153 182 } country_type = decentralized tier = principality cultures = { inuit } capital = STATE_MANITOBA }
+AMCAR = { color = { 103 171 192 } country_type = decentralized tier = principality cultures = { inuit } capital = STATE_MANITOBA }
+
+AMCYU = { color = { 92 164 183 } country_type = decentralized tier = principality cultures = { yupik } capital = STATE_ALASKA }
+AMALT = { color = { 115 181 191 } country_type = decentralized tier = principality cultures = { yupik } capital = STATE_ALASKA }
+AMSYU = { color = { 77 145 173 } country_type = decentralized tier = principality cultures = { yupik } capital = STATE_ALASKA }
+
+# Northwest Coast and Plateau
+AMNUU = { color = { 70 143 163 } country_type = decentralized tier = principality cultures = { wakashan } capital = STATE_BRITISH_COLUMBIA }
+AMKWA = { color = { 88 128 176 } country_type = decentralized tier = principality cultures = { wakashan } capital = STATE_BRITISH_COLUMBIA }
+AMHEI = { color = { 75 156 142 } country_type = decentralized tier = principality cultures = { wakashan } capital = STATE_BRITISH_COLUMBIA }
+AMNUX = { color = { 93 143 130 } country_type = decentralized tier = principality cultures = { wakashan } capital = STATE_BRITISH_COLUMBIA }
+
+AMYAK = { color = { 170 122 70 } country_type = decentralized tier = principality cultures = { nez_perce } capital = STATE_OREGON }
+AMUMA = { color = { 148 111 77 } country_type = decentralized tier = principality cultures = { nez_perce } capital = STATE_OREGON }
+AMWAL = { color = { 159 99 71 } country_type = decentralized tier = principality cultures = { nez_perce } capital = STATE_OREGON }
+
+AMSPO = { color = { 106 154 125 } country_type = decentralized tier = principality cultures = { interior_salish } capital = STATE_MONTANA }
+AMCOE = { color = { 123 145 105 } country_type = decentralized tier = principality cultures = { interior_salish } capital = STATE_MONTANA }
+AMKSP = { color = { 118 165 127 } country_type = decentralized tier = principality cultures = { interior_salish } capital = STATE_MONTANA }
+
+
+# Great Basin and California
+AMHUP = { color = { 117 143 89 } country_type = decentralized tier = principality cultures = { hokan } capital = STATE_CALIFORNIA }
+AMYUR = { color = { 99 133 100 } country_type = decentralized tier = principality cultures = { hokan } capital = STATE_CALIFORNIA }
+AMKAR = { color = { 141 122 75 } country_type = decentralized tier = principality cultures = { hokan } capital = STATE_CALIFORNIA }
+AMSHA = { color = { 159 111 69 } country_type = decentralized tier = principality cultures = { hokan } capital = STATE_CALIFORNIA }
+
+AMMIW = { color = { 177 128 67 } country_type = decentralized tier = principality cultures = { central_californian } capital = STATE_CALIFORNIA }
+AMOHL = { color = { 137 151 87 } country_type = decentralized tier = principality cultures = { central_californian } capital = STATE_CALIFORNIA }
+AMPOM = { color = { 177 105 73 } country_type = decentralized tier = principality cultures = { central_californian } capital = STATE_CALIFORNIA }
+AMMAI = { color = { 149 131 77 } country_type = decentralized tier = principality cultures = { central_californian } capital = STATE_CALIFORNIA }
+AMWIN = { color = { 126 146 89 } country_type = decentralized tier = principality cultures = { central_californian } capital = STATE_CALIFORNIA }
+
+AMTON = { color = { 188 104 85 } country_type = decentralized tier = principality cultures = { southern_californian } capital = STATE_CALIFORNIA }
+AMCAH = { color = { 164 97 83 } country_type = decentralized tier = principality cultures = { southern_californian } capital = STATE_CALIFORNIA }
+AMLUI = { color = { 190 119 74 } country_type = decentralized tier = principality cultures = { southern_californian } capital = STATE_CALIFORNIA }
+AMSER = { color = { 173 93 73 } country_type = decentralized tier = principality cultures = { southern_californian } capital = STATE_CALIFORNIA }
+AMKUM = { color = { 142 118 81 } country_type = decentralized tier = principality cultures = { southern_californian } capital = STATE_CALIFORNIA }
+
+
+# Southwest
+AMWAP = { color = { 153 99 70 } country_type = decentralized tier = principality cultures = { apache } capital = STATE_ARIZONA }
+AMCHR = { color = { 164 86 67 } country_type = decentralized tier = principality cultures = { apache } capital = STATE_NEW_MEXICO }
+AMMES = { color = { 142 105 72 } country_type = decentralized tier = principality cultures = { apache } capital = STATE_NEW_MEXICO }
+AMJIC = { color = { 177 117 74 } country_type = decentralized tier = principality cultures = { apache } capital = STATE_NEW_MEXICO }
+AMLIP = { color = { 151 82 63 } country_type = decentralized tier = principality cultures = { apache } capital = STATE_TEXAS }
+AMPAP = { color = { 165 109 66 } country_type = decentralized tier = principality cultures = { apache } capital = STATE_OKLAHOMA }
+
+AMHOP = { color = { 183 133 78 } country_type = decentralized tier = principality cultures = { pueblo } capital = STATE_NEW_MEXICO }
+AMZUN = { color = { 147 121 83 } country_type = decentralized tier = principality cultures = { pueblo } capital = STATE_NEW_MEXICO }
+AMKER = { color = { 159 111 89 } country_type = decentralized tier = principality cultures = { pueblo } capital = STATE_NEW_MEXICO }
+AMTEW = { color = { 186 145 92 } country_type = decentralized tier = principality cultures = { pueblo } capital = STATE_NEW_MEXICO }
+AMTIW = { color = { 168 126 85 } country_type = decentralized tier = principality cultures = { pueblo } capital = STATE_NEW_MEXICO }
+AMTOW = { color = { 141 107 76 } country_type = decentralized tier = principality cultures = { pueblo } capital = STATE_NEW_MEXICO }
+
+AMMVH = { color = { 165 84 68 } country_type = decentralized tier = principality cultures = { yuman } capital = STATE_ARIZONA }
+AMQUE = { color = { 183 99 72 } country_type = decentralized tier = principality cultures = { yuman } capital = STATE_ARIZONA }
+AMYAV = { color = { 151 81 69 } country_type = decentralized tier = principality cultures = { yuman } capital = STATE_ARIZONA }
+AMHAV = { color = { 169 111 73 } country_type = decentralized tier = principality cultures = { yuman } capital = STATE_ARIZONA }
+AMHUA = { color = { 151 104 77 } country_type = decentralized tier = principality cultures = { yuman } capital = STATE_ARIZONA }
+
+AMAKI = { color = { 178 134 74 } country_type = decentralized tier = principality cultures = { oodham } capital = STATE_ARIZONA }
+AMTOH = { color = { 161 118 68 } country_type = decentralized tier = principality cultures = { oodham } capital = STATE_ARIZONA }
+AMPIM = { color = { 186 148 84 } country_type = decentralized tier = principality cultures = { oodham } capital = STATE_ARIZONA }
+
+# Great Plains
+REPLACE:DKT = { color = { 68 14 98 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_MINNESOTA }
+REPLACE:LKT = { color = { 198 114 168 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_SOUTH_DAKOTA }
+AMNKT = { color = { 116 82 141 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_NORTH_DAKOTA }
+ASB = { color = { 186 34 154 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_NORTH_DAKOTA }
+REPLACE:ABS = { color = { 131 87 65 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_MONTANA }
+AMHID = { color = { 124 102 68 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_NORTH_DAKOTA }
+AMMAN = { color = { 147 96 71 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_NORTH_DAKOTA }
+AMOMA = { color = { 162 103 68 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_KANSAS }
+AMPON = { color = { 139 115 72 } country_type = decentralized tier = principality cultures = { siouan } capital = STATE_KANSAS }
+
+REPLACE:ARP = { color = { 223 204 125 } country_type = decentralized tier = principality cultures = { plains_algonquian } capital = STATE_COLORADO }
+AMCHEY = { color = { 192 159 66 } country_type = decentralized tier = principality cultures = { plains_algonquian } capital = STATE_COLORADO }
+REPLACE:BLF = { color = { 97 107 153 } country_type = decentralized tier = principality cultures = { plains_algonquian } capital = STATE_ALBERTA }
+
+AMWIC = { color = { 170 111 72 } country_type = decentralized tier = principality cultures = { caddoan } capital = STATE_OKLAHOMA }
+AMCAD = { color = { 150 102 69 } country_type = decentralized tier = principality cultures = { caddoan } capital = STATE_OKLAHOMA }
+
+# Mexico
+AMMAY = { color = { 103 136 77 } country_type = decentralized tier = principality cultures = { mayan } capital = STATE_CHIAPAS }
+AMHST = { color = { 126 145 75 } country_type = decentralized tier = principality cultures = { mayan } capital = STATE_VERACRUZ }
+AMMEX = { color = { 157 115 62 } country_type = decentralized tier = principality cultures = { nahua } capital = STATE_VERACRUZ }
+AMPIP = { color = { 174 125 66 } country_type = decentralized tier = principality cultures = { nahua } capital = STATE_CHIAPAS }
+
+AMOTO = { color = { 139 106 68 } country_type = decentralized tier = principality cultures = { otomanguean } capital = STATE_VERACRUZ }
+AMMAZ = { color = { 161 122 70 } country_type = decentralized tier = principality cultures = { otomanguean } capital = STATE_VERACRUZ }
+AMZAP = { color = { 122 130 73 } country_type = decentralized tier = principality cultures = { otomanguean } capital = STATE_CHIAPAS }
+AMMAZT = { color = { 148 105 78 } country_type = decentralized tier = principality cultures = { otomanguean } capital = STATE_CHIAPAS }
+AMCHI = { color = { 115 141 82 } country_type = decentralized tier = principality cultures = { otomanguean } capital = STATE_CHIAPAS }
+
+AMYAQ = { color = { 180 122 58 } country_type = decentralized tier = principality cultures = { uto_aztecan } capital = STATE_SONORA }
+AMMAYO = { color = { 163 115 66 } country_type = decentralized tier = principality cultures = { uto_aztecan } capital = STATE_SONORA }
+AMTAR = { color = { 151 101 64 } country_type = decentralized tier = principality cultures = { uto_aztecan } capital = STATE_DURANGO }
+AMOPA = { color = { 173 132 69 } country_type = decentralized tier = principality cultures = { uto_aztecan } capital = STATE_SONORA }
+AMTEP = { color = { 156 111 61 } country_type = decentralized tier = principality cultures = { uto_aztecan } capital = STATE_DURANGO }
+AMCOR = { color = { 184 142 70 } country_type = decentralized tier = principality cultures = { uto_aztecan } capital = STATE_DURANGO }
+AMHUI = { color = { 144 125 72 } country_type = decentralized tier = principality cultures = { uto_aztecan } capital = STATE_DURANGO }
+
+AMMIX = { color = { 88 137 91 } country_type = decentralized tier = principality cultures = { mixe_zoquean } capital = STATE_CHIAPAS }
+AMZOQ = { color = { 101 151 82 } country_type = decentralized tier = principality cultures = { mixe_zoquean } capital = STATE_CHIAPAS }
+AMTOT = { color = { 133 119 70 } country_type = decentralized tier = principality cultures = { totonacan } capital = STATE_VERACRUZ }
+
+# Central America and Caribbean
+REPLACE:MKT = { color = { 80 153 153 } country_type = unrecognized tier = principality cultures = { miskito afro_caribbean } capital = STATE_NICARAGUA }
+AMLEC = { color = { 116 143 79 } country_type = decentralized tier = principality cultures = { lenca } capital = STATE_CHIAPAS }
+AMXIN = { color = { 127 130 73 } country_type = decentralized tier = principality cultures = { xinca } capital = STATE_CHIAPAS }
+
+AMNGB = { color = { 133 118 78 } country_type = decentralized tier = principality cultures = { chibchan } capital = STATE_CHIAPAS }
+AMBRI = { color = { 118 132 80 } country_type = decentralized tier = principality cultures = { chibchan } capital = STATE_CHIAPAS }
+AMCAB = { color = { 145 108 76 } country_type = decentralized tier = principality cultures = { chibchan } capital = STATE_CHIAPAS }
+AMKUN = { color = { 104 137 91 } country_type = decentralized tier = principality cultures = { chibchan } capital = STATE_CHIAPAS }
+AMMUI = { color = { 149 120 71 } country_type = decentralized tier = principality cultures = { chibchan } capital = STATE_CHIAPAS }
+
+AMEMB = { color = { 79 127 106 } country_type = decentralized tier = principality cultures = { chocoan } capital = STATE_CHIAPAS }
+AMWOU = { color = { 93 141 119 } country_type = decentralized tier = principality cultures = { chocoan } capital = STATE_CHIAPAS }
+AMKLG = { color = { 164 91 76 } country_type = decentralized tier = principality cultures = { carib } capital = STATE_CHIAPAS }
+AMLOK = { color = { 98 143 112 } country_type = decentralized tier = principality cultures = { arawak } capital = STATE_CHIAPAS }
+AMWPS = { color = { 110 152 118 } country_type = decentralized tier = principality cultures = { arawak } capital = STATE_CHIAPAS }
+
+# Andes, Amazonia, Chaco, and Patagonia
+REPLACE:GNI = { color = { 73 139 166 } country_type = decentralized tier = principality cultures = { guarani } capital = STATE_ALTO_PARAGUAY }
+AMPAE = { color = { 127 104 155 } country_type = decentralized tier = principality cultures = { barbacoan } capital = STATE_ANTOFAGASTA }
+AMGUA = { color = { 115 114 146 } country_type = decentralized tier = principality cultures = { barbacoan } capital = STATE_ANTOFAGASTA }
+
+AMTUP = { color = { 165 94 60 } country_type = decentralized tier = principality cultures = { tupinamba } capital = STATE_ARAUCANIA }
+AMMUN = { color = { 153 105 64 } country_type = decentralized tier = principality cultures = { munduruku } capital = STATE_ARAUCANIA }
+AMMAC = { color = { 159 84 74 } country_type = decentralized tier = principality cultures = { cariban } capital = STATE_ARAUCANIA }
+AMPEM = { color = { 173 99 80 } country_type = decentralized tier = principality cultures = { cariban } capital = STATE_ARAUCANIA }
+AMSHI = { color = { 108 141 68 } country_type = decentralized tier = principality cultures = { panoan } capital = STATE_ARAUCANIA }
+AMCON = { color = { 98 132 77 } country_type = decentralized tier = principality cultures = { panoan } capital = STATE_ARAUCANIA }
+AMGE = { color = { 164 112 77 } country_type = decentralized tier = principality cultures = { macro_je } capital = STATE_ARAUCANIA }
+AMBOR = { color = { 150 99 68 } country_type = decentralized tier = principality cultures = { macro_je } capital = STATE_ARAUCANIA }
+
+AMTOB = { color = { 136 89 64 } country_type = decentralized tier = principality cultures = { guaycuruan } capital = STATE_ARAUCANIA }
+AMMOC = { color = { 123 99 72 } country_type = decentralized tier = principality cultures = { guaycuruan } capital = STATE_ARAUCANIA }
+AMABI = { color = { 148 83 66 } country_type = decentralized tier = principality cultures = { guaycuruan } capital = STATE_ARAUCANIA }
+AMPIL = { color = { 119 113 71 } country_type = decentralized tier = principality cultures = { guaycuruan } capital = STATE_ARAUCANIA }
+AMWCH = { color = { 111 116 76 } country_type = decentralized tier = principality cultures = { matacoan } capital = STATE_ARAUCANIA }
+
+AMTEH = { color = { 112 134 158 } country_type = decentralized tier = principality cultures = { chonan } capital = STATE_ARAUCANIA }
+AMSLK = { color = { 91 120 151 } country_type = decentralized tier = principality cultures = { chonan } capital = STATE_NANJI }

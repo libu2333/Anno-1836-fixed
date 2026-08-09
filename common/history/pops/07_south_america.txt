@@ -1317,7 +1317,7 @@ create_pop = { pop_type = slaves culture = afro_caribbean religion = animist siz
 	s:STATE_ARAUCANIA = {
 		region_state:KWQ = {
 			create_pop = {
-				culture = patagonian
+				culture = mapuche
 				size = 28200
 			}
 		}
@@ -1331,7 +1331,7 @@ create_pop = { pop_type = slaves culture = afro_caribbean religion = animist siz
 	s:STATE_NANJI = {
 		region_state:YGN = {
 			create_pop = {
-				culture = patagonian
+				culture = yahgan
 				size = 3000
 			}
 		}	

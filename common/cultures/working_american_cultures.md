@@ -19,18 +19,22 @@ Yupik{Central_Yupik, Alutiiq, Siberian_Yupik}
 Unangan
 
 # Northwest Coast & Plateau 西北海岸 + 高原
-Tlingit Haida Tsimshian
+Tlingit
+Haida
+Tsimshian
 Wakashan{Nuu-chah-nulth, Kwakwaka'wakw, Heiltsuk, Nuxalk}
-Coast_Salish Chinook
-Sahaptin{Nez_Perce, Yakama, Umatilla, Walla_Walla}
+Coast_Salish
+Chinook
+Sahaptin{Nez_Perce, Yakama, Umatilla, Walla_Walla} # Penutian, remember to rename the culture in localization
 Cayuse
 Interior_Salish{Flathead, Spokane, Coeur_d'Alene, Kalispel}
-Klamath Kutenai
+Klamath
+sKutenai
 
 # Great Basin & California 大盆地 + 加利福尼亚
-Numic{Northern_Paiute, Southern_Paiute, Shoshone, Ute, Bannock}
+Numic{Northern_Paiute, Southern_Paiute, Shoshone, Ute, Bannock} # Paiute, remember to rename the culture in localization
 Washoe
-Northern_Californian{Hupa, Yurok, Karuk, Shasta}
+Northern_Californian{Hupa, Yurok, Karuk, Shasta} # Hokan, remember to rename the culture in localization
 Central_Californian{Miwok, Yokuts, Ohlone, Pomo, Maidu, Wintu}
 Chumash
 Southern_Californian{Tongva, Cahuilla, Luiseño, Serrano, Kumeyaay}

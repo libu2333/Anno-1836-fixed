@@ -1,4 +1,28 @@
 ﻿DIPLOMACY = {
+    # c:CTF ?= {
+    #     create_diplomatic_pact = {
+    #         country = c:AMOJB
+    #         type = tribal_confederation
+    #     }
+    #     create_diplomatic_pact = {
+    #         country = c:AMODW
+    #         type = tribal_confederation
+    #     }
+    #     create_diplomatic_pact = {
+    #         country = c:AMPOT
+    #         type = tribal_confederation
+    #     }
+    # }
+    # c:LKT ?= {
+    #     create_diplomatic_pact = {
+    #         country = c:DKT
+    #         type = tribal_confederation
+    #     }
+    #     create_diplomatic_pact = {
+    #         country = c:AMNKT
+    #         type = tribal_confederation
+    #     }
+    # }
     if = {
         limit = {
             has_game_rule = all_historical_subjects

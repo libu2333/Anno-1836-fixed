@@ -1,0 +1,3586 @@
+﻿# Native American cultures not represented by an existing vanilla culture key.
+
+anishinaabe = {
+	color = { 194 133 46 }
+	religion = animist
+	heritage = heritage_eastern_woodlands_indian
+	language = language_algonquian
+	traditions = { }
+	male_common_first_names = {
+		Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun
+		Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen
+		Neebeenaquin Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew
+		Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham
+		Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne
+		Nemetetowwa Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau
+		Keneobe Moksauba Mutchwetau Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack
+		Misheneanonquet Okemans Nimeke Puckwash Waseneso Montons Kennewobe Shawshauwenaubais
+		Okooyousinse Ondottowaugane Amickoneena Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan
+		Peaypaymanshee Ocanauck Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman
+		Singgok Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw
+		Kawotoktame Sabo Kewageone Metewa Kawgeshequm Keyacum Atowagesek Mawmawkens
+		Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk Paymusawtom Endus
+		Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam Nuwagon
+		Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+	}
+
+	female_common_first_names = {
+		Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans
+		Kiiwedin Kamenna Alawa Aanakwadikwe Aanakwadmeskwa Aazhawigiizhigokwe Adedabun Abequa
+		Ahshawaygeeshegoqua Anang Anangokaa Ashwiyaa Biidaban Damashkawizii Maemawengwahn Naawakamigookwe
+		Niigio Niibedashkaa Okimasekw Tapa Waasnodae
+	}
+
+	male_regal_first_names = {
+		Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun
+		Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen
+		Neebeenaquin Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew
+		Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham
+		Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne
+		Nemetetowwa Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau
+		Keneobe Moksauba Mutchwetau Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack
+		Misheneanonquet Okemans Nimeke Puckwash Waseneso Montons Kennewobe Shawshauwenaubais
+		Okooyousinse Ondottowaugane Amickoneena Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan
+		Peaypaymanshee Ocanauck Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman
+		Singgok Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw
+		Kawotoktame Sabo Kewageone Metewa Kawgeshequm Keyacum Atowagesek Mawmawkens
+		Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk Paymusawtom Endus
+		Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam Nuwagon
+		Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+	}
+
+	female_regal_first_names = {
+		Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans
+		Kiiwedin Kamenna Alawa Aanakwadikwe Aanakwadmeskwa Aazhawigiizhigokwe Adedabun Abequa
+		Ahshawaygeeshegoqua Anang Anangokaa Ashwiyaa Biidaban Damashkawizii Maemawengwahn Naawakamigookwe
+		Niigio Niibedashkaa Okimasekw Tapa Waasnodae
+	}
+
+	male_noble_first_names = {
+		Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun
+		Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen
+		Neebeenaquin Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew
+		Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham
+		Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne
+		Nemetetowwa Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau
+		Keneobe Moksauba Mutchwetau Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack
+		Misheneanonquet Okemans Nimeke Puckwash Waseneso Montons Kennewobe Shawshauwenaubais
+		Okooyousinse Ondottowaugane Amickoneena Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan
+		Peaypaymanshee Ocanauck Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman
+		Singgok Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw
+		Kawotoktame Sabo Kewageone Metewa Kawgeshequm Keyacum Atowagesek Mawmawkens
+		Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk Paymusawtom Endus
+		Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam Nuwagon
+		Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+	}
+
+	female_noble_first_names = {
+		Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans
+		Kiiwedin Kamenna Alawa Aanakwadikwe Aanakwadmeskwa Aazhawigiizhigokwe Adedabun Abequa
+		Ahshawaygeeshegoqua Anang Anangokaa Ashwiyaa Biidaban Damashkawizii Maemawengwahn Naawakamigookwe
+		Niigio Niibedashkaa Okimasekw Tapa Waasnodae
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+haudenosaunee = {
+	color = { 139 86 155 }
+	religion = animist
+	heritage = heritage_eastern_woodlands_indian
+	language = language_iroquoian
+	traditions = { }
+	male_common_first_names = {
+		Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton Tayagonendagighti
+		Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti Kayenthoghke Cageaga Sawedowa
+		Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho Kiandogewa
+		Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa
+		Sicahowa Tewanias Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee
+		Aupaumut Neeshonshuk Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh
+		Kussauwatau Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen
+		Kaukondanaiya Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth
+		Tauhoondos Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga
+		Tuggehshotta Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau
+		Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau Thaoowaunias
+		Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha Kendarindgon Nondiyauka
+		Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+	}
+
+	female_common_first_names = {
+		Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satakon Tekakwitha Otstoch Coocoochee
+		Degonwadonti Halona
+	}
+
+	male_regal_first_names = {
+		Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton Tayagonendagighti
+		Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti Kayenthoghke Cageaga Sawedowa
+		Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho Kiandogewa
+		Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa
+		Sicahowa Tewanias Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee
+		Aupaumut Neeshonshuk Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh
+		Kussauwatau Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen
+		Kaukondanaiya Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth
+		Tauhoondos Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga
+		Tuggehshotta Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau
+		Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau Thaoowaunias
+		Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha Kendarindgon Nondiyauka
+		Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+	}
+
+	female_regal_first_names = {
+		Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satakon Tekakwitha Otstoch Coocoochee
+		Degonwadonti Halona
+	}
+
+	male_noble_first_names = {
+		Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton Tayagonendagighti
+		Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti Kayenthoghke Cageaga Sawedowa
+		Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho Kiandogewa
+		Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa
+		Sicahowa Tewanias Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee
+		Aupaumut Neeshonshuk Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh
+		Kussauwatau Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen
+		Kaukondanaiya Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth
+		Tauhoondos Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga
+		Tuggehshotta Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau
+		Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau Thaoowaunias
+		Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha Kendarindgon Nondiyauka
+		Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+	}
+
+	female_noble_first_names = {
+		Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satakon Tekakwitha Otstoch Coocoochee
+		Degonwadonti Halona
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+ho_chunk = {
+	color = { 120 148 68 }
+	religion = animist
+	heritage = heritage_eastern_woodlands_indian
+	language = language_siouan
+	traditions = { }
+	male_common_first_names = {
+		Maxushga Notchininga Moanahonga Thegrowonung Ontopanga Chonocape Shaumonekusse Letan
+		Wyingwaha Wonghehronyne Wonehee Hahraga Eniswahanee Washcommanee Wyimppishcoonee Ranoingga
+		Wohomppee Shongatong Nahocheininugga Conja Chahowhropwa Manuhanu Chapee Ckugwata
+		Ishtagrassa Congatonga Histashone Mihahande Kanseepa Montistonga Pahagranga Watokiela
+		Mantoeakipea Achieya Wathapayinget Mantoeignet Wapontraska Tarposta Kahhepah Harahkraton
+		Tawequa Chanohato Wacanee Tarnomun Wahooga Tacamonee Wapusha Tonuphenone
+		Mondatonga Chowarowa Mehahhunjee Wawronesan Kansatauga Noekeesakay Tchaiaugrai Mantoigne
+		Threeraitchaineehgrai Ohhawkeewano Raigraia Tchaiwahtcheeray Kraitaunica Mautoakeepah Kaiwanigne Ehshawmanie
+		Ohawtcheekesakay Wamshekatounat Shougreshkay Tahmegraisooigne
+	}
+
+	female_common_first_names = {
+		Haynehudjihini Wakajawiga Waxopiniwiga Wiragosgewiga Wotiwiga Xawjanozogewiga Ahugiparwaiga Casgeguwiga
+		Hajare Hicaxsepewiga Jaberasanacatiwiga Konihewiga Naijijewiga Nanazogewiga Nasgezawiga Nixihucgewiga
+		Nizumaniwiga Pecawiga Wakajayugiwiga
+	}
+
+	male_regal_first_names = {
+		Maxushga Notchininga Moanahonga Thegrowonung Ontopanga Chonocape Shaumonekusse Letan
+		Wyingwaha Wonghehronyne Wonehee Hahraga Eniswahanee Washcommanee Wyimppishcoonee Ranoingga
+		Wohomppee Shongatong Nahocheininugga Conja Chahowhropwa Manuhanu Chapee Ckugwata
+		Ishtagrassa Congatonga Histashone Mihahande Kanseepa Montistonga Pahagranga Watokiela
+		Mantoeakipea Achieya Wathapayinget Mantoeignet Wapontraska Tarposta Kahhepah Harahkraton
+		Tawequa Chanohato Wacanee Tarnomun Wahooga Tacamonee Wapusha Tonuphenone
+		Mondatonga Chowarowa Mehahhunjee Wawronesan Kansatauga Noekeesakay Tchaiaugrai Mantoigne
+		Threeraitchaineehgrai Ohhawkeewano Raigraia Tchaiwahtcheeray Kraitaunica Mautoakeepah Kaiwanigne Ehshawmanie
+		Ohawtcheekesakay Wamshekatounat Shougreshkay Tahmegraisooigne
+	}
+
+	female_regal_first_names = {
+		Haynehudjihini Wakajawiga Waxopiniwiga Wiragosgewiga Wotiwiga Xawjanozogewiga Ahugiparwaiga Casgeguwiga
+		Hajare Hicaxsepewiga Jaberasanacatiwiga Konihewiga Naijijewiga Nanazogewiga Nasgezawiga Nixihucgewiga
+		Nizumaniwiga Pecawiga Wakajayugiwiga
+	}
+
+	male_noble_first_names = {
+		Maxushga Notchininga Moanahonga Thegrowonung Ontopanga Chonocape Shaumonekusse Letan
+		Wyingwaha Wonghehronyne Wonehee Hahraga Eniswahanee Washcommanee Wyimppishcoonee Ranoingga
+		Wohomppee Shongatong Nahocheininugga Conja Chahowhropwa Manuhanu Chapee Ckugwata
+		Ishtagrassa Congatonga Histashone Mihahande Kanseepa Montistonga Pahagranga Watokiela
+		Mantoeakipea Achieya Wathapayinget Mantoeignet Wapontraska Tarposta Kahhepah Harahkraton
+		Tawequa Chanohato Wacanee Tarnomun Wahooga Tacamonee Wapusha Tonuphenone
+		Mondatonga Chowarowa Mehahhunjee Wawronesan Kansatauga Noekeesakay Tchaiaugrai Mantoigne
+		Threeraitchaineehgrai Ohhawkeewano Raigraia Tchaiwahtcheeray Kraitaunica Mautoakeepah Kaiwanigne Ehshawmanie
+		Ohawtcheekesakay Wamshekatounat Shougreshkay Tahmegraisooigne
+	}
+
+	female_noble_first_names = {
+		Haynehudjihini Wakajawiga Waxopiniwiga Wiragosgewiga Wotiwiga Xawjanozogewiga Ahugiparwaiga Casgeguwiga
+		Hajare Hicaxsepewiga Jaberasanacatiwiga Konihewiga Naijijewiga Nanazogewiga Nasgezawiga Nixihucgewiga
+		Nizumaniwiga Pecawiga Wakajayugiwiga
+	}
+
+	noble_last_names = {
+		Hujra Sukcak Wakajara Wakana wakcexina Huwuna Cawaksep Xuraxa
+		Kerejusep Rucge
+	}
+
+	common_last_names = {
+		Hujra Sukcak Wakajara Wakana wakcexina Huwuna Cawaksep Xuraxa
+		Kerejusep Rucge
+	}
+
+	regal_last_names = {
+		Hujra Sukcak Wakajara Wakana wakcexina Huwuna Cawaksep Xuraxa
+		Kerejusep Rucge
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+innu = {
+	color = { 85 137 168 }
+	religion = animist
+	heritage = heritage_subarctic_indian
+	language = language_cree
+	traditions = { }
+	male_common_first_names = {
+		Ahtahkakoop Kaneonuskatew Kawacatoose Kahkiwistahaw Kisecawchuck Misithuimuskwa Mistawasis Muscowequan
+		Ojigkwanong Mahigan-Atic Maikan Nehirowisiw Kapapamahchakwew Abishabia Kamiokisihkwew Payipwat
+		Pitikwahanapiwiyin Tepastenam Wahwaashkung Kiwash Nahookeesic Oombash Panacheese Yesno
+		Wenangasie Katchang Moonias Ostamas Kwakigigckewang Keneswabe Matawagan Odagamea
+		Missabay Pootoosh
+	}
+
+	female_common_first_names = {
+		Ojigkwanong Nipiushkaiats Kokoptcitc Mikona Ashenee Astina Echa Kiche
+		Kika Mati Matisa Matisoon Nichena Osceola Pamoon Paniya
+	}
+
+	male_regal_first_names = {
+		Ahtahkakoop Kaneonuskatew Kawacatoose Kahkiwistahaw Kisecawchuck Misithuimuskwa Mistawasis Muscowequan
+		Ojigkwanong Mahigan-Atic Maikan Nehirowisiw Kapapamahchakwew Abishabia Kamiokisihkwew Payipwat
+		Pitikwahanapiwiyin Tepastenam Wahwaashkung Kiwash Nahookeesic Oombash Panacheese Yesno
+		Wenangasie Katchang Moonias Ostamas Kwakigigckewang Keneswabe Matawagan Odagamea
+		Missabay Pootoosh
+	}
+
+	female_regal_first_names = {
+		Ojigkwanong Nipiushkaiats Kokoptcitc Mikona Ashenee Astina Echa Kiche
+		Kika Mati Matisa Matisoon Nichena Osceola Pamoon Paniya
+	}
+
+	male_noble_first_names = {
+		Ahtahkakoop Kaneonuskatew Kawacatoose Kahkiwistahaw Kisecawchuck Misithuimuskwa Mistawasis Muscowequan
+		Ojigkwanong Mahigan-Atic Maikan Nehirowisiw Kapapamahchakwew Abishabia Kamiokisihkwew Payipwat
+		Pitikwahanapiwiyin Tepastenam Wahwaashkung Kiwash Nahookeesic Oombash Panacheese Yesno
+		Wenangasie Katchang Moonias Ostamas Kwakigigckewang Keneswabe Matawagan Odagamea
+		Missabay Pootoosh
+	}
+
+	female_noble_first_names = {
+		Ojigkwanong Nipiushkaiats Kokoptcitc Mikona Ashenee Astina Echa Kiche
+		Kika Mati Matisa Matisoon Nichena Osceola Pamoon Paniya
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+yupik = {
+	color = { 106 183 196 }
+	religion = animist
+	heritage = heritage_circumpolar
+	language = language_eskimoan
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = circumpolar }
+	graphics = decentralised_americas
+}
+
+unangan = {
+	color = { 76 124 163 }
+	religion = animist
+	heritage = heritage_circumpolar
+	language = language_eskimoan
+	traditions = { }
+	male_common_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_common_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	male_regal_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_regal_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	male_noble_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_noble_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	noble_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+
+	common_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+
+	regal_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+	ethnicities = { 1 = circumpolar }
+	graphics = decentralised_americas
+}
+
+tlingit = {
+	color = { 68 121 107 }
+	religion = animist
+	heritage = heritage_northwest_coast_indian
+	language = language_athabaskan
+	traditions = { }
+	male_common_first_names = {
+		Altsoba Anaba Dezba Doba Doli Haloke Hazhoni Kai
+		Kaibah Manaba Nanabah Nascha Nizhona Nizhoni Sakhyo Tahnazbah
+		Atsidi Bisahalani Bizhoshi Hosteen Kilchii Klah Nabahe Nantai
+		Sani Tahoma Toh_Yah Totsoni Tsela Sitahle Oahtekah Ahzaah
+		Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome Munamenek Otoahnisto Mahvipah Choseta
+		Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-Hae Cochise Delshay
+		Goyaale Juh
+	}
+
+	female_common_first_names = {
+		Altsoba Anaba Dezba Doba Doli Haloke Hazhoni Kai
+		Kaibah Manaba Nanabah Nascha Nizhona Nizhoni Sakhyo Tahnazbah
+		Atsidi Bisahalani Bizhoshi Hosteen Kilchii Klah Nabahe Nantai
+		Sani Tahoma Toh_Yah Totsoni Tsela Dahteste Ilthgozay Gouyen
+		Lozen Tohayea
+	}
+
+	male_regal_first_names = {
+		Altsoba Anaba Dezba Doba Doli Haloke Hazhoni Kai
+		Kaibah Manaba Nanabah Nascha Nizhona Nizhoni Sakhyo Tahnazbah
+		Atsidi Bisahalani Bizhoshi Hosteen Kilchii Klah Nabahe Nantai
+		Sani Tahoma Toh_Yah Totsoni Tsela Sitahle Oahtekah Ahzaah
+		Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome Munamenek Otoahnisto Mahvipah Choseta
+		Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-Hae Cochise Delshay
+		Goyaale Juh
+	}
+
+	female_regal_first_names = {
+		Altsoba Anaba Dezba Doba Doli Haloke Hazhoni Kai
+		Kaibah Manaba Nanabah Nascha Nizhona Nizhoni Sakhyo Tahnazbah
+		Atsidi Bisahalani Bizhoshi Hosteen Kilchii Klah Nabahe Nantai
+		Sani Tahoma Toh_Yah Totsoni Tsela Dahteste Ilthgozay Gouyen
+		Lozen Tohayea
+	}
+
+	male_noble_first_names = {
+		Altsoba Anaba Dezba Doba Doli Haloke Hazhoni Kai
+		Kaibah Manaba Nanabah Nascha Nizhona Nizhoni Sakhyo Tahnazbah
+		Atsidi Bisahalani Bizhoshi Hosteen Kilchii Klah Nabahe Nantai
+		Sani Tahoma Toh_Yah Totsoni Tsela Sitahle Oahtekah Ahzaah
+		Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome Munamenek Otoahnisto Mahvipah Choseta
+		Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-Hae Cochise Delshay
+		Goyaale Juh
+	}
+
+	female_noble_first_names = {
+		Altsoba Anaba Dezba Doba Doli Haloke Hazhoni Kai
+		Kaibah Manaba Nanabah Nascha Nizhona Nizhoni Sakhyo Tahnazbah
+		Atsidi Bisahalani Bizhoshi Hosteen Kilchii Klah Nabahe Nantai
+		Sani Tahoma Toh_Yah Totsoni Tsela Dahteste Ilthgozay Gouyen
+		Lozen Tohayea
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+haida = {
+	color = { 65 107 136 }
+	religion = animist
+	heritage = heritage_northwest_coast_indian
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+tsimshian = {
+	color = { 103 87 153 }
+	religion = animist
+	heritage = heritage_northwest_coast_indian
+	language = language_salish
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+wakashan = {
+	color = { 72 151 166 }
+	religion = animist
+	heritage = heritage_northwest_coast_indian
+	language = language_salish
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+chinook = {
+	color = { 169 118 71 }
+	religion = animist
+	heritage = heritage_northwest_coast_indian
+	language = language_sahaptian
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+cayuse = {
+	color = { 155 100 83 }
+	religion = animist
+	heritage = heritage_plateau_indian
+	language = language_sahaptian
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+interior_salish = {
+	color = { 110 157 130 }
+	religion = animist
+	heritage = heritage_plateau_indian
+	language = language_salish
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+klamath = {
+	color = { 152 99 58 }
+	religion = animist
+	heritage = heritage_plateau_indian
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+kutenai = {
+	color = { 139 132 72 }
+	religion = animist
+	heritage = heritage_plateau_indian
+	language = language_salish
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+washoe = {
+	color = { 172 121 82 }
+	religion = animist
+	heritage = heritage_great_basin_indian
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_common_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	male_regal_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_regal_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	male_noble_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_noble_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+central_californian = {
+	color = { 186 136 68 }
+	religion = animist
+	heritage = heritage_californian_indian
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+chumash = {
+	color = { 107 159 164 }
+	religion = animist
+	heritage = heritage_californian_indian
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_common_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_regal_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_regal_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	male_noble_first_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu Tsanda Tsiri Uakusi Uetsini
+	}
+
+	female_noble_first_names = {
+		Arameni Atzimba Auanda Erendirani Ireri Itzigueri Itzuri Janikua
+		Lime Parhi Tamarhu Tariarani Tinskani Tsipekua Xarhini
+	}
+
+	noble_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	common_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+
+	regal_last_names = {
+		Andarani Arhirani Atachi Atari Irepan Itsi Janitzio Orhepani
+		Taki Tarheri Tiriapu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+southern_californian = {
+	color = { 187 109 85 }
+	religion = animist
+	heritage = heritage_californian_indian
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_common_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	male_regal_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_regal_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	male_noble_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_noble_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	noble_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+
+	common_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+
+	regal_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+yuman = {
+	color = { 178 82 68 }
+	religion = animist
+	heritage = heritage_southwest_indian
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_common_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	male_regal_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_regal_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	male_noble_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_noble_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+plains_algonquian = {
+	color = { 174 145 62 }
+	religion = animist
+	heritage = heritage_plains_indian
+	language = language_algonquian
+	traditions = { }
+	male_common_first_names = {
+		Neetinee Kitcheeponneistah Onistaysaynahqueim Nahtoseonistah Kootomais Powahque Matoseapiw Stamiscotocar
+		Mekasto Natoseonistors Pokapiwotoian Sotenah Takoyestamix Akkakitcipimiwotas Attistahmacan Pitahpekis
+		Sakoyeaotan Zoatzetapitapiw Akkamakkoye Apenakosapop Wechegalla Tatoncapa Japu Takechesca
+		Chahpacpahha Matewashena Shonggemoneto Nahpatonca Ohkeecheta Tahhiota Otoahnacco Moketavatto
+		Naccohahket Moavovaast Issevonneve Vipponah Wopahah Onihahket Mamoki Otoahhastis
+		Wopoham Minninnewah Hahkethomemah Moyanhistehistow Wahhanissatta Voistitoevetz Nahkkomeien Kohkahywhcumest
+		Beahteaquisah Nebnibahssehit Motavato Vokivokamast Avonaco Oneahaket Nakohaistah Aamanaco
+		Wahtahnah Bahtache Ohcumgache Ichstahen Nonnesebe Kateunan Ahcheewah Weahsevose
+		Chesneoneah Matahnewetah Ohenaku Achekankooeni Tahmelapahsme
+	}
+
+	female_common_first_names = {
+		Archisha Asha Avasa Chameli Chelan Darika Elina Inayat
+		Jaya Kanaka Immookalee Kishori Lona Manda Nandita Neha
+		Ninovan Tisseewoonatis Mamakiaeh Waynoka Alsoomse Hausis Hurit Kanti
+		Kimi Makkitotosimew Nadie Nijlon Nittawosew Numees Nuna Nuttah
+		Pules Sokanon Sokw Sooleawa Tahki Wapun Wawetseka Koko
+		Peta Sinopa
+	}
+
+	male_regal_first_names = {
+		Neetinee Kitcheeponneistah Onistaysaynahqueim Nahtoseonistah Kootomais Powahque Matoseapiw Stamiscotocar
+		Mekasto Natoseonistors Pokapiwotoian Sotenah Takoyestamix Akkakitcipimiwotas Attistahmacan Pitahpekis
+		Sakoyeaotan Zoatzetapitapiw Akkamakkoye Apenakosapop Wechegalla Tatoncapa Japu Takechesca
+		Chahpacpahha Matewashena Shonggemoneto Nahpatonca Ohkeecheta Tahhiota Otoahnacco Moketavatto
+		Naccohahket Moavovaast Issevonneve Vipponah Wopahah Onihahket Mamoki Otoahhastis
+		Wopoham Minninnewah Hahkethomemah Moyanhistehistow Wahhanissatta Voistitoevetz Nahkkomeien Kohkahywhcumest
+		Beahteaquisah Nebnibahssehit Motavato Vokivokamast Avonaco Oneahaket Nakohaistah Aamanaco
+		Wahtahnah Bahtache Ohcumgache Ichstahen Nonnesebe Kateunan Ahcheewah Weahsevose
+		Chesneoneah Matahnewetah Ohenaku Achekankooeni Tahmelapahsme
+	}
+
+	female_regal_first_names = {
+		Archisha Asha Avasa Chameli Chelan Darika Elina Inayat
+		Jaya Kanaka Immookalee Kishori Lona Manda Nandita Neha
+		Ninovan Tisseewoonatis Mamakiaeh Waynoka Alsoomse Hausis Hurit Kanti
+		Kimi Makkitotosimew Nadie Nijlon Nittawosew Numees Nuna Nuttah
+		Pules Sokanon Sokw Sooleawa Tahki Wapun Wawetseka Koko
+		Peta Sinopa
+	}
+
+	male_noble_first_names = {
+		Neetinee Kitcheeponneistah Onistaysaynahqueim Nahtoseonistah Kootomais Powahque Matoseapiw Stamiscotocar
+		Mekasto Natoseonistors Pokapiwotoian Sotenah Takoyestamix Akkakitcipimiwotas Attistahmacan Pitahpekis
+		Sakoyeaotan Zoatzetapitapiw Akkamakkoye Apenakosapop Wechegalla Tatoncapa Japu Takechesca
+		Chahpacpahha Matewashena Shonggemoneto Nahpatonca Ohkeecheta Tahhiota Otoahnacco Moketavatto
+		Naccohahket Moavovaast Issevonneve Vipponah Wopahah Onihahket Mamoki Otoahhastis
+		Wopoham Minninnewah Hahkethomemah Moyanhistehistow Wahhanissatta Voistitoevetz Nahkkomeien Kohkahywhcumest
+		Beahteaquisah Nebnibahssehit Motavato Vokivokamast Avonaco Oneahaket Nakohaistah Aamanaco
+		Wahtahnah Bahtache Ohcumgache Ichstahen Nonnesebe Kateunan Ahcheewah Weahsevose
+		Chesneoneah Matahnewetah Ohenaku Achekankooeni Tahmelapahsme
+	}
+
+	female_noble_first_names = {
+		Archisha Asha Avasa Chameli Chelan Darika Elina Inayat
+		Jaya Kanaka Immookalee Kishori Lona Manda Nandita Neha
+		Ninovan Tisseewoonatis Mamakiaeh Waynoka Alsoomse Hausis Hurit Kanti
+		Kimi Makkitotosimew Nadie Nijlon Nittawosew Numees Nuna Nuttah
+		Pules Sokanon Sokw Sooleawa Tahki Wapun Wawetseka Koko
+		Peta Sinopa
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+kiowa = {
+	color = { 141 79 61 }
+	religion = animist
+	heritage = heritage_plains_indian
+	language = language_siouan
+	traditions = { }
+	male_common_first_names = {
+		Pope Ku-Htihth Galisteo Xenome Ollito Tagu Bolsas Naranjo
+		Catiti Wi Wiyeh Poeyeh Yoenu Paanu Sen Kwee
+		Tseh Than Poe Tsai Tsayyi Pi Phendi Yiya
+		Tada Tewha Khuu
+	}
+
+	female_common_first_names = {
+		Ootcakao Kahavasooah Sacagawea Chipeta Tocmetone Wi Wiyeh Poeyeh
+		Yoenu Paanu Sen Kwee Tseh Than Poe Tsai
+		Tsayyi Pi Phendi Yiya Tada Tewha Khuu
+	}
+
+	male_regal_first_names = {
+		Pope Ku-Htihth Galisteo Xenome Ollito Tagu Bolsas Naranjo
+		Catiti Wi Wiyeh Poeyeh Yoenu Paanu Sen Kwee
+		Tseh Than Poe Tsai Tsayyi Pi Phendi Yiya
+		Tada Tewha Khuu
+	}
+
+	female_regal_first_names = {
+		Ootcakao Kahavasooah Sacagawea Chipeta Tocmetone Wi Wiyeh Poeyeh
+		Yoenu Paanu Sen Kwee Tseh Than Poe Tsai
+		Tsayyi Pi Phendi Yiya Tada Tewha Khuu
+	}
+
+	male_noble_first_names = {
+		Pope Ku-Htihth Galisteo Xenome Ollito Tagu Bolsas Naranjo
+		Catiti Wi Wiyeh Poeyeh Yoenu Paanu Sen Kwee
+		Tseh Than Poe Tsai Tsayyi Pi Phendi Yiya
+		Tada Tewha Khuu
+	}
+
+	female_noble_first_names = {
+		Ootcakao Kahavasooah Sacagawea Chipeta Tocmetone Wi Wiyeh Poeyeh
+		Yoenu Paanu Sen Kwee Tseh Than Poe Tsai
+		Tsayyi Pi Phendi Yiya Tada Tewha Khuu
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+otomanguean = {
+	color = { 150 106 68 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_mixtecan
+	traditions = { }
+	male_common_first_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	female_common_first_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	male_regal_first_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	female_regal_first_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	male_noble_first_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	female_noble_first_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	noble_last_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	common_last_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+
+	regal_last_names = {
+		Joy Tzibi Ndahji Dehje Doshihjto Chala Shedi Hjitzi
+		Mahjitzi Guy Shikja Mahjki Mahjkime Urosha Shina Hjiadi
+		Zzana Ishi Kjahjpi Nzzoya Dahjta Ubida Madi
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+uto_aztecan = {
+	color = { 174 113 58 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_numic
+	traditions = { }
+	male_common_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_common_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	male_regal_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_regal_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	male_noble_first_names = {
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun
+		Tehowawinow Tewinnun Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot
+		Hiahidock Mattan Towahinnek Aach Sohone Ossinse Soakiantow Kardy
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	female_noble_first_names = {
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruriu Tstapittarius
+		Ahanu Ahdik Ahnandia Akando Akule Alchise Aseske Awan
+		Baishan Bemidji Beshe Bly Chachu Chesmu Chitto Dah-Keya
+		Daklegon Dakota Delsin Delzhinne Demothi Dyami Elsu Estchinaeintonyah
+		Etu Eyata Fun Gooday Gosheven Goyathlay Guyapi Guydelkon
+		Hackehadadolnihe Hahnee Halian Helaku Hestamaxana Hesutu Honon Hototo
+		Hunlona Imali Inteus Ishi Istee Kaahtenay Kaga Kaywaykla
+		Kijika Kilthdigai Koana Kohana Kono Lallo Lenno Lonan
+		Lusio Maska Matto Mehnenohka Mikasi Mojag Motega Mwinyi
+		Mwita Mzuzi Opachisto Otu Ouray Out Paeta Payat
+		Pilan Pillan Pionsenay Pocano Quanah Sahale Senaka Sequoyah
+		Skayocarne Skinya Skiriki Songan Squanto Tahoma Taklishim Takoda
+		Talli Tisnolthtos Toclanny Tooantuh Tsisnah
+	}
+
+	noble_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+
+	common_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+
+	regal_last_names = {
+		Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho Kichai
+		Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho Nasoni Natchitoches
+		Nechaui Neche Ouachia Tula Yatasi
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+mixe_zoquean = {
+	color = { 91 139 90 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_mayan
+	traditions = { }
+	male_common_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	female_common_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	male_regal_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	female_regal_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	male_noble_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	female_noble_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	noble_last_names = {
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat
+	}
+
+	common_last_names = {
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat
+	}
+
+	regal_last_names = {
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+totonacan = {
+	color = { 131 116 64 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_mayan
+	traditions = { }
+	male_common_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	female_common_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	male_regal_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	female_regal_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	male_noble_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	female_noble_first_names = {
+		Aktzin Qolu Aktzu Aqapun Akapun Akgapun Chamaqxkulit Chichini
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat Kintsumat Kistaku
+		Quistacu Kixanat Quixanat Klaqatiyan Kuxi Cushi Kushi Lannaku
+		Taskiwi Tzumat Lantsumat Xanat Lanxanat Likatsin Lilatamat Limilhsen
+		Limin Limuksun Lipaxawan Lipaxaw Lipaxkin Listakni Litliwaqe Malanah
+		Manixna Manixnah Manqanah Mapaqsina Maqastakna Matunkuna Tierna Staku
+		Staranka Stalanka Starenka Suja Jilina Tajsen Talhtzi Talhtsi
+		Tantsasnat Tasikunala Taxanan Taxtunu Taxtuna Tiku Tiyat Tlawanah
+		Tsasnah Tzasna Nakuh Tzikan Tsican
+	}
+
+	noble_last_names = {
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat
+	}
+
+	common_last_names = {
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat
+	}
+
+	regal_last_names = {
+		Chichina Ikpaxkiyan Ixlimuh Jun Kakchin Kamtzumat Katsina Catzinah
+		Kaxtlawanat Caxtlahuanat Kinaku Quinakuh Kinakuhkan Kinana Quinanah Kintzeh
+		Quinceh Kintse Kintzikan Kintiku Kintlat Kintzumat
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+seri = {
+	color = { 82 146 155 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_hokan
+	traditions = { }
+	male_common_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_common_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	male_regal_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_regal_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	male_noble_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+
+	female_noble_first_names = {
+		Zaaj_acaiila Paailc_haacot Xpanohax Hasixp Haxol_iihom Xapoo_eaah Hajhax Cyazim
+		Sacpatix Haanc Hatquisa Taaij_it Xniizc Tacata Heeme Hast_hax
+		Soosni_itaa Tejueg Kuak Kabiak Nauwi Huipe Wami Waki
+		Ethat Epang Konga Tasi Cala Rimarai Hwat Akal
+		Acit Kauwak Humok Supap Serap Apa Yesak Inya
+		Hexa Erkah Kwakwas Kwinyir Asitam Xuwaga Humuga Hopa
+		Thetrapa Pakri Ahat Inyaa Hala Aha Nyimsava Agwatheg
+		Ahwotiga Inyaga Mecil Hauwak Hamiik Minuk Seltipum Nickume
+		Yisko That Hulaa Ehaa Kwal Xnyiil Chin Huak
+		Chepap Sarap Ikuch Sinya Hut Enya Hallai Ha
+		Sinyaok Xatk Xalyaa Axa Nyimasava Kwesam Hwetam Nilyig
+		Seto Havik Hamok Chumpap Tharap Iipa Thinyaaak Hatchoq
+		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
+		Homuk
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+lenca = {
+	color = { 117 143 76 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_lenca
+	traditions = { }
+	male_common_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_common_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	male_regal_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_regal_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	male_noble_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_noble_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+xinca = {
+	color = { 127 130 73 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_xinca
+	traditions = { }
+	male_common_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_common_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	male_regal_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_regal_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	male_noble_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_noble_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+chibchan = {
+	color = { 134 119 76 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_muiscan
+	traditions = { }
+	male_common_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_common_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	male_regal_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_regal_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	male_noble_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	female_noble_first_names = {
+		Ahkinxoc Ahmetakkukul Ahnakukpech Balam Canek Chaob Chiam Kayom
+		Kiin Kukumatz Nachancan Yumcaax Can_Ek Balam_Quitze Cocom Pacal
+		Vahxaqui_Caam Ah_Cacao Cham_Bahlun Cu_Ix Pacal_Balam Yaxum_Balam Butz_Chan Chaan_Muan
+		Kan_Boar Yax_Kuk_Mok Yax_Pac Ah_Can Ahkinxok Ahmok Ahpop-Achi Arana
+		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
+		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
+		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+chocoan = {
+	color = { 83 128 106 }
+	religion = animist
+	heritage = heritage_mesoamerican
+	language = language_muiscan
+	traditions = { }
+	male_common_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_common_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_regal_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_regal_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_noble_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_noble_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+garifuna = {
+	color = { 97 123 161 }
+	religion = animist
+	heritage = heritage_atlantic
+	language = language_cariban
+	traditions = { }
+	male_common_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_common_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_regal_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_regal_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_noble_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_noble_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	noble_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	common_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	regal_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+taino = {
+	color = { 143 111 82 }
+	religion = animist
+	heritage = heritage_atlantic
+	language = language_cariban
+	traditions = { }
+	male_common_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_common_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_regal_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_regal_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_noble_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_noble_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	noble_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	common_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	regal_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+carib = {
+	color = { 167 91 73 }
+	religion = animist
+	heritage = heritage_atlantic
+	language = language_cariban
+	traditions = { }
+	male_common_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_common_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_regal_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_regal_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_noble_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_noble_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	noble_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	common_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	regal_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+arawak = {
+	color = { 100 146 117 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_common_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_regal_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_regal_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	male_noble_first_names = {
+		Abey Acanorex Agueybana Behechio Caguax Caonabo Guacanagari Guarionex
+		Hatuey Orocobix Urayoan
+	}
+
+	female_noble_first_names = {
+		Acabey Anacaona Cacicaguana Casiguaya Coati Guabuca Guanina Higuanama
+		Tinima Yuisa
+	}
+
+	noble_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	common_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+
+	regal_last_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi
+		Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+barbacoan = {
+	color = { 123 102 161 }
+	religion = animist
+	heritage = heritage_andean
+	language = language_muiscan
+	traditions = { }
+	male_common_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_common_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_regal_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_regal_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_noble_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_noble_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+canari = {
+	color = { 157 117 67 }
+	religion = animist
+	heritage = heritage_andean
+	language = language_quechuan
+	traditions = { }
+	male_common_first_names = {
+		Anquimarca Antaaccla Apo Apu Atahualpa Atoc Atocsopa Atocsuqui
+		Auquihuaman Canchari Capactupac Cariapata Cayotopa Chalcuchima Challco Chiaquitinta
+		Chiguantopa Chilche Chunchos Collatopa Condorcanqui Coyllas Curipaucar Curiatao
+		Cusi Cusichaca Guacra Guamanpoma Guaritito Guaritopa Huachuri Hualpa
+		Huaman Huaritico Huascar Huaynacapac Huaypalcon Illa Illaquita Inquill
+		Ispaca Llicllic Luyes Maila Manco Maras Marcavilca Mayta
+		Ninancuyuchi Ninancoro Orcovaranca Ozcoc Pachacuti Parinango Pascac Paucar
+		Paullu Pomacapi Pomaguala Puma Pumisopa Pusca Puyuvilca Ruminahui
+		Quilaco Quillissacha Sayritupac Sotaurco Sullcayanac Surandaman Taipi Tanqui
+		Taraque Tiso Tituatauchi Titucusi Torinaseo Tucuycuyche Tupac Tupacamaru
+		Tupachualpa Uscacuriatao Villacumu Yamquimayta Yuncailo Yupanqui Zambiza Zopahua
+		Zope
+	}
+
+	female_common_first_names = {
+		Anquimarca Antaaccla Apo Apu Atahualpa Atoc Atocsopa Atocsuqui
+		Auquihuaman Canchari Capactupac Cariapata Cayotopa Chalcuchima Challco Chiaquitinta
+		Chiguantopa Chilche Chunchos Collatopa Condorcanqui Coyllas Curipaucar Curiatao
+		Cusi Cusichaca Guacra Guamanpoma Guaritito Guaritopa Huachuri Hualpa
+		Huaman Huaritico Huascar Huaynacapac Huaypalcon Illa Illaquita Inquill
+		Ispaca Llicllic Luyes Maila Manco Maras Marcavilca Mayta
+		Ninancuyuchi Ninancoro Orcovaranca Ozcoc Pachacuti Parinango Pascac Paucar
+		Paullu Pomacapi Pomaguala Puma Pumisopa Pusca Puyuvilca Ruminahui
+		Quilaco Quillissacha Sayritupac Sotaurco Sullcayanac Surandaman Taipi Tanqui
+		Taraque Tiso Tituatauchi Titucusi Torinaseo Tucuycuyche Tupac Tupacamaru
+		Tupachualpa Uscacuriatao Villacumu Yamquimayta Yuncailo Yupanqui Zambiza Zopahua
+		Zope
+	}
+
+	male_regal_first_names = {
+		Anquimarca Antaaccla Apo Apu Atahualpa Atoc Atocsopa Atocsuqui
+		Auquihuaman Canchari Capactupac Cariapata Cayotopa Chalcuchima Challco Chiaquitinta
+		Chiguantopa Chilche Chunchos Collatopa Condorcanqui Coyllas Curipaucar Curiatao
+		Cusi Cusichaca Guacra Guamanpoma Guaritito Guaritopa Huachuri Hualpa
+		Huaman Huaritico Huascar Huaynacapac Huaypalcon Illa Illaquita Inquill
+		Ispaca Llicllic Luyes Maila Manco Maras Marcavilca Mayta
+		Ninancuyuchi Ninancoro Orcovaranca Ozcoc Pachacuti Parinango Pascac Paucar
+		Paullu Pomacapi Pomaguala Puma Pumisopa Pusca Puyuvilca Ruminahui
+		Quilaco Quillissacha Sayritupac Sotaurco Sullcayanac Surandaman Taipi Tanqui
+		Taraque Tiso Tituatauchi Titucusi Torinaseo Tucuycuyche Tupac Tupacamaru
+		Tupachualpa Uscacuriatao Villacumu Yamquimayta Yuncailo Yupanqui Zambiza Zopahua
+		Zope
+	}
+
+	female_regal_first_names = {
+		Anquimarca Antaaccla Apo Apu Atahualpa Atoc Atocsopa Atocsuqui
+		Auquihuaman Canchari Capactupac Cariapata Cayotopa Chalcuchima Challco Chiaquitinta
+		Chiguantopa Chilche Chunchos Collatopa Condorcanqui Coyllas Curipaucar Curiatao
+		Cusi Cusichaca Guacra Guamanpoma Guaritito Guaritopa Huachuri Hualpa
+		Huaman Huaritico Huascar Huaynacapac Huaypalcon Illa Illaquita Inquill
+		Ispaca Llicllic Luyes Maila Manco Maras Marcavilca Mayta
+		Ninancuyuchi Ninancoro Orcovaranca Ozcoc Pachacuti Parinango Pascac Paucar
+		Paullu Pomacapi Pomaguala Puma Pumisopa Pusca Puyuvilca Ruminahui
+		Quilaco Quillissacha Sayritupac Sotaurco Sullcayanac Surandaman Taipi Tanqui
+		Taraque Tiso Tituatauchi Titucusi Torinaseo Tucuycuyche Tupac Tupacamaru
+		Tupachualpa Uscacuriatao Villacumu Yamquimayta Yuncailo Yupanqui Zambiza Zopahua
+		Zope
+	}
+
+	male_noble_first_names = {
+		Anquimarca Antaaccla Apo Apu Atahualpa Atoc Atocsopa Atocsuqui
+		Auquihuaman Canchari Capactupac Cariapata Cayotopa Chalcuchima Challco Chiaquitinta
+		Chiguantopa Chilche Chunchos Collatopa Condorcanqui Coyllas Curipaucar Curiatao
+		Cusi Cusichaca Guacra Guamanpoma Guaritito Guaritopa Huachuri Hualpa
+		Huaman Huaritico Huascar Huaynacapac Huaypalcon Illa Illaquita Inquill
+		Ispaca Llicllic Luyes Maila Manco Maras Marcavilca Mayta
+		Ninancuyuchi Ninancoro Orcovaranca Ozcoc Pachacuti Parinango Pascac Paucar
+		Paullu Pomacapi Pomaguala Puma Pumisopa Pusca Puyuvilca Ruminahui
+		Quilaco Quillissacha Sayritupac Sotaurco Sullcayanac Surandaman Taipi Tanqui
+		Taraque Tiso Tituatauchi Titucusi Torinaseo Tucuycuyche Tupac Tupacamaru
+		Tupachualpa Uscacuriatao Villacumu Yamquimayta Yuncailo Yupanqui Zambiza Zopahua
+		Zope
+	}
+
+	female_noble_first_names = {
+		Anquimarca Antaaccla Apo Apu Atahualpa Atoc Atocsopa Atocsuqui
+		Auquihuaman Canchari Capactupac Cariapata Cayotopa Chalcuchima Challco Chiaquitinta
+		Chiguantopa Chilche Chunchos Collatopa Condorcanqui Coyllas Curipaucar Curiatao
+		Cusi Cusichaca Guacra Guamanpoma Guaritito Guaritopa Huachuri Hualpa
+		Huaman Huaritico Huascar Huaynacapac Huaypalcon Illa Illaquita Inquill
+		Ispaca Llicllic Luyes Maila Manco Maras Marcavilca Mayta
+		Ninancuyuchi Ninancoro Orcovaranca Ozcoc Pachacuti Parinango Pascac Paucar
+		Paullu Pomacapi Pomaguala Puma Pumisopa Pusca Puyuvilca Ruminahui
+		Quilaco Quillissacha Sayritupac Sotaurco Sullcayanac Surandaman Taipi Tanqui
+		Taraque Tiso Tituatauchi Titucusi Torinaseo Tucuycuyche Tupac Tupacamaru
+		Tupachualpa Uscacuriatao Villacumu Yamquimayta Yuncailo Yupanqui Zambiza Zopahua
+		Zope
+	}
+
+	noble_last_names = {
+		Achachau Alca Allauca Allcca Allccarima Alqa Amary Anhuaman
+		Aucapuca Auquitayasi Cahua Caipa Callanaupa Cancha Canchon Carhuanina
+		Carihuasari Ccahua Ccahuantico Ccarhuarupay Ccari Ccasani Ccolque Ccora
+		Chakana Chambi Champi Chanca Chanka Chaupin Chawpin Chillitupa
+		Chipana Choque Chum Chuquimango Chuquipoma Cocha Colca Colquehuanca
+		Condor Condori Curichimba Cusi Cusipuma Cuya Guaman Guanuna
+		Huaccha Huachalla Hualla Huaman Huamanchagua Huamancuri Huamanga Huamani
+		Huanca Huancachuri Huaricancha Huayhua Huayta Humahuaca Humala Huyhua
+		Inka Jaillita Mamani Manco Maygua Mayhuasca Michi Motocanchi
+		Naccha Nahuis Nana Naupari Nina Ninahuaman Olaya Orccosupa
+		Pachari Pachacutec Pari Paricahua Paucar Paucarchuco Pillihuaman Pillpe
+		Pinchi Pinto Polloqueri Poma Pumacaja Pumacallao Pumasupa Qelka
+		Qhawa Quelka Quichca Quillahuaman Quispe Quisuyupanqui Rimayhuaman Roca
+		Sayritupac Sihui Sinchi Soncco Sulca Surichaqui Ticahuanca Ticllacuri
+		Ticona Tupa Tupac Ucharima Uchuypoma Usucachi Vilca Yacupaico
+		Yupanqui
+	}
+
+	common_last_names = {
+		Achachau Alca Allauca Allcca Allccarima Alqa Amary Anhuaman
+		Aucapuca Auquitayasi Cahua Caipa Callanaupa Cancha Canchon Carhuanina
+		Carihuasari Ccahua Ccahuantico Ccarhuarupay Ccari Ccasani Ccolque Ccora
+		Chakana Chambi Champi Chanca Chanka Chaupin Chawpin Chillitupa
+		Chipana Choque Chum Chuquimango Chuquipoma Cocha Colca Colquehuanca
+		Condor Condori Curichimba Cusi Cusipuma Cuya Guaman Guanuna
+		Huaccha Huachalla Hualla Huaman Huamanchagua Huamancuri Huamanga Huamani
+		Huanca Huancachuri Huaricancha Huayhua Huayta Humahuaca Humala Huyhua
+		Inka Jaillita Mamani Manco Maygua Mayhuasca Michi Motocanchi
+		Naccha Nahuis Nana Naupari Nina Ninahuaman Olaya Orccosupa
+		Pachari Pachacutec Pari Paricahua Paucar Paucarchuco Pillihuaman Pillpe
+		Pinchi Pinto Polloqueri Poma Pumacaja Pumacallao Pumasupa Qelka
+		Qhawa Quelka Quichca Quillahuaman Quispe Quisuyupanqui Rimayhuaman Roca
+		Sayritupac Sihui Sinchi Soncco Sulca Surichaqui Ticahuanca Ticllacuri
+		Ticona Tupa Tupac Ucharima Uchuypoma Usucachi Vilca Yacupaico
+		Yupanqui
+	}
+
+	regal_last_names = {
+		Achachau Alca Allauca Allcca Allccarima Alqa Amary Anhuaman
+		Aucapuca Auquitayasi Cahua Caipa Callanaupa Cancha Canchon Carhuanina
+		Carihuasari Ccahua Ccahuantico Ccarhuarupay Ccari Ccasani Ccolque Ccora
+		Chakana Chambi Champi Chanca Chanka Chaupin Chawpin Chillitupa
+		Chipana Choque Chum Chuquimango Chuquipoma Cocha Colca Colquehuanca
+		Condor Condori Curichimba Cusi Cusipuma Cuya Guaman Guanuna
+		Huaccha Huachalla Hualla Huaman Huamanchagua Huamancuri Huamanga Huamani
+		Huanca Huancachuri Huaricancha Huayhua Huayta Humahuaca Humala Huyhua
+		Inka Jaillita Mamani Manco Maygua Mayhuasca Michi Motocanchi
+		Naccha Nahuis Nana Naupari Nina Ninahuaman Olaya Orccosupa
+		Pachari Pachacutec Pari Paricahua Paucar Paucarchuco Pillihuaman Pillpe
+		Pinchi Pinto Polloqueri Poma Pumacaja Pumacallao Pumasupa Qelka
+		Qhawa Quelka Quichca Quillahuaman Quispe Quisuyupanqui Rimayhuaman Roca
+		Sayritupac Sihui Sinchi Soncco Sulca Surichaqui Ticahuanca Ticllacuri
+		Ticona Tupa Tupac Ucharima Uchuypoma Usucachi Vilca Yacupaico
+		Yupanqui
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+munduruku = {
+	color = { 153 105 64 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_tupi
+	traditions = { }
+	male_common_first_names = {
+		Ajuricaba Araken Ararigboia Caua Caubi Caue Cosmas Jaci
+		Jacy Moacir Peri Pery Piata Pinon Raini Ruda
+		Tabare Ubirajara Ubirata Urubatan Yamandu
+	}
+
+	female_common_first_names = {
+		Anahei Anahi Annahi Araci Aracy Bartira Bartyra Ceci
+		Cycy Guacimara Guacira Guaraciaba Iara Iracema Irasema Iuna
+		Jaci Janaina Jasy Juci Kauane Maira Moara Poti
+		Potira Taina Uiara Yaci Yara Yeruti
+	}
+
+	male_regal_first_names = {
+		Ajuricaba Araken Ararigboia Caua Caubi Caue Cosmas Jaci
+		Jacy Moacir Peri Pery Piata Pinon Raini Ruda
+		Tabare Ubirajara Ubirata Urubatan Yamandu
+	}
+
+	female_regal_first_names = {
+		Anahei Anahi Annahi Araci Aracy Bartira Bartyra Ceci
+		Cycy Guacimara Guacira Guaraciaba Iara Iracema Irasema Iuna
+		Jaci Janaina Jasy Juci Kauane Maira Moara Poti
+		Potira Taina Uiara Yaci Yara Yeruti
+	}
+
+	male_noble_first_names = {
+		Ajuricaba Araken Ararigboia Caua Caubi Caue Cosmas Jaci
+		Jacy Moacir Peri Pery Piata Pinon Raini Ruda
+		Tabare Ubirajara Ubirata Urubatan Yamandu
+	}
+
+	female_noble_first_names = {
+		Anahei Anahi Annahi Araci Aracy Bartira Bartyra Ceci
+		Cycy Guacimara Guacira Guaraciaba Iara Iracema Irasema Iuna
+		Jaci Janaina Jasy Juci Kauane Maira Moara Poti
+		Potira Taina Uiara Yaci Yara Yeruti
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+panoan = {
+	color = { 110 141 67 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	female_common_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	male_regal_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	female_regal_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	male_noble_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	female_noble_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+tucanoan = {
+	color = { 78 136 128 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_common_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_regal_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_regal_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_noble_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_noble_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+yanomami = {
+	color = { 145 91 116 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_common_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_regal_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_regal_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_noble_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_noble_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+jivaroan = {
+	color = { 132 107 59 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Chikichik Jimiar Manaint Ainttiuk Uwej Aishman Nua Yawa
+		Etsa Nantu Entsa Puju Mukusa Tuntiak Yanua
+	}
+
+	female_common_first_names = {
+		Chikichik Jimiar Manaint Ainttiuk Uwej Aishman Nua Yawa
+		Etsa Nantu Entsa Puju Mukusa Tuntiak Yanua
+	}
+
+	male_regal_first_names = {
+		Chikichik Jimiar Manaint Ainttiuk Uwej Aishman Nua Yawa
+		Etsa Nantu Entsa Puju Mukusa Tuntiak Yanua
+	}
+
+	female_regal_first_names = {
+		Chikichik Jimiar Manaint Ainttiuk Uwej Aishman Nua Yawa
+		Etsa Nantu Entsa Puju Mukusa Tuntiak Yanua
+	}
+
+	male_noble_first_names = {
+		Chikichik Jimiar Manaint Ainttiuk Uwej Aishman Nua Yawa
+		Etsa Nantu Entsa Puju Mukusa Tuntiak Yanua
+	}
+
+	female_noble_first_names = {
+		Chikichik Jimiar Manaint Ainttiuk Uwej Aishman Nua Yawa
+		Etsa Nantu Entsa Puju Mukusa Tuntiak Yanua
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+bora_witoto = {
+	color = { 94 128 80 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_common_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_regal_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_regal_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	male_noble_first_names = {
+		Ainawi Akadale Akane Amaro Amaru Amaxupia Asuru Baratsuito
+		Bosikito Bosini Boyoli Bula Botala Derebu Domae Donoto
+		Dopadopa Dopasisi Doro Dowatji Dowatjimapiri Eko Ewapi Fauna
+		Folewabo Fuliawai Ipiri Iribosoto Jara Jatiawi Jawau Jeyoli
+		Jiapae Jiarajiara Jimi Jomaina Jomo Jomobuto Jomowabi Jororoto
+		Jowai Juameto Juyawi Kadawako Kaduduli Kaduwali Kafau Kaiwawali
+		Kalamanuto Kaliawiri Kalira Kamadui Kamaraisi Kamararau Kapisi Kariwana
+		Kasaruru Kasike Katiawi Kaure Kawerali Kawesi Kayawa Kekere
+		Kenaji Kesito Kuimali Kumo Kunimaneto Kutsibo Kutsikutsi Kuwaiyaluna
+		Kuyawisi Lipai Liwinai Maejawali Mafanali Maja Makudo Makutete
+		Malikai Malinai Marue Masa Masikui Matakawe Materibosoto Matsabokoleri
+		Matsaleri Matsubo Matsuludani Matsuna Maulesi Meneitajajasiruni
+	}
+
+	female_noble_first_names = {
+		Ainawi Alai Alirepe Awalinae Dakawa Dali Ejeba Emaba
+		Emarunae Jiala Jialai Jipila Jipilani Jowibolailai Juleke Jumeni
+		Kalabonojobo Kalawanae Kalidua Kamaliko Kani Kawaninae Kawininae Kayaninae
+		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
+		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
+		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+macro_je = {
+	color = { 167 115 76 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	female_common_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	male_regal_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	female_regal_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	male_noble_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+
+	female_noble_first_names = {
+		Misi Pyxi Mito Maparane Axkrut Pobe Siubdato Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
+		Rop Arigao Bada Myt Meri Aamo Chure Ari
+		Uza Kuvy Joru A Go Pobo
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+guaycuruan = {
+	color = { 131 91 64 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	female_common_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	male_regal_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	female_regal_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	male_noble_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	female_noble_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+matacoan = {
+	color = { 117 119 76 }
+	religion = animist
+	heritage = heritage_amazonian
+	language = language_amazonian
+	traditions = { }
+	male_common_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	female_common_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	male_regal_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	female_regal_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	male_noble_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	female_noble_first_names = {
+		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
+		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
+		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+chonan = {
+	color = { 113 135 157 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_chonan
+	traditions = { }
+	male_common_first_names = {
+		Krenk Kreeje Tella Jorrje Te Horrer Tschen Herrtschiske
+		Jauken Jiarr Uintsch Ueschn Ssintsch Fehlt
+	}
+
+	female_common_first_names = {
+		Krenk Kreeje Tella Jorrje Te Horrer Tschen Herrtschiske
+		Jauken Jiarr Uintsch Ueschn Ssintsch Fehlt
+	}
+
+	male_regal_first_names = {
+		Krenk Kreeje Tella Jorrje Te Horrer Tschen Herrtschiske
+		Jauken Jiarr Uintsch Ueschn Ssintsch Fehlt
+	}
+
+	female_regal_first_names = {
+		Krenk Kreeje Tella Jorrje Te Horrer Tschen Herrtschiske
+		Jauken Jiarr Uintsch Ueschn Ssintsch Fehlt
+	}
+
+	male_noble_first_names = {
+		Krenk Kreeje Tella Jorrje Te Horrer Tschen Herrtschiske
+		Jauken Jiarr Uintsch Ueschn Ssintsch Fehlt
+	}
+
+	female_noble_first_names = {
+		Krenk Kreeje Tella Jorrje Te Horrer Tschen Herrtschiske
+		Jauken Jiarr Uintsch Ueschn Ssintsch Fehlt
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+mapuche = {
+	color = { 59 125 73 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_chonan
+	traditions = { }
+	male_common_first_names = {
+		Alen Aliwen Aliwenko Aliwenkura Alofantv Alon Alonkura Amunkura
+		Amuway Amuy Amuylewfu Ancamilla Antecao Antilef Antillanca Antiman
+		Antinanco Antinirre Antipani Antvchiway Antvl Antvlaf Antvpi Antvyanka
+		Anuillang Aukaman Aukan Ayinko Ayinkuy Ayinnnku Ayinray Ayinyang
+		Ayllapan Ayllapange Ayme Ayun Ayunkurha Ayunlewfu Ayvlen Ayvnkvyen
+		Cadin Caicheo Caileo Caimapo Caipillan Calbuante Calbucoy Calbullahue
+		Calbullanca Calbumanque Calfunao Carilepi Carillanca Carimoney Caripan Catelican
+		Catrihual Catrilef Catrileo Catriman Caucaman Caucao Cayumanque Cayun
+		Cayupel Chaura Colivoro Coloane Coyopay Cumicheo Cumin Curil
+		Curiman Curinao Curumilla Cuyul Domoaukafe Epulewfu Epullanca Eymun
+		Foyelkay Fresia Gamin Gnorkintun Guaiquil Guala Guenul Heichatureo
+		Huanel Hueicha Hueico Huelet Huenchucheo Huentelican Huenten Huenteo
+		Huenuman Huequen Huichal Huichaman Huichaquelen Huilquiruca Huinao Huito
+		Ilwen Ilwenray Inaicheo Ishvmpang Janequeo Kalfukura Kalfupange Kalfuquepu
+		Kalfutray Kalfuyang Kanin Karvlemu Kayupange Kayupi Kelvray Keupukura
+		Kintunray Kinturhmay Kolvmanke Konpayantv Koyam Kumiray Kumlafken Kupayman
+		Kurukeupu Kuyenray Kvalapang Kvlapi Kvyentray
+	}
+
+	female_common_first_names = {
+		Alen Aliwen Aliwenko Aliwenkura Alofantv Alon Alonkura Amunkura
+		Amuway Amuy Amuylewfu Ancamilla Antecao Antilef Antillanca Antiman
+		Antinanco Antinirre Antipani Antvchiway Antvl Antvlaf Antvpi Antvyanka
+		Anuillang Aukaman Aukan Ayinko Ayinkuy Ayinnnku Ayinray Ayinyang
+		Ayllapan Ayllapange Ayme Ayun Ayunkurha Ayunlewfu Ayvlen Ayvnkvyen
+		Cadin Caicheo Caileo Caimapo Caipillan Calbuante Calbucoy Calbullahue
+		Calbullanca Calbumanque Calfunao Carilepi Carillanca Carimoney Caripan Catelican
+		Catrihual Catrilef Catrileo Catriman Caucaman Caucao Cayumanque Cayun
+		Cayupel Chaura Colivoro Coloane Coyopay Cumicheo Cumin Curil
+		Curiman Curinao Curumilla Cuyul Domoaukafe Epulewfu Epullanca Eymun
+		Foyelkay Fresia Gamin Gnorkintun Guaiquil Guala Guenul Heichatureo
+		Huanel Hueicha Hueico Huelet Huenchucheo Huentelican Huenten Huenteo
+		Huenuman Huequen Huichal Huichaman Huichaquelen Huilquiruca Huinao Huito
+		Ilwen Ilwenray Inaicheo Ishvmpang Janequeo Kalfukura Kalfupange Kalfuquepu
+		Kalfutray Kalfuyang Kanin Karvlemu Kayupange Kayupi Kelvray Keupukura
+		Kintunray Kinturhmay Kolvmanke Konpayantv Koyam Kumiray Kumlafken Kupayman
+		Kurukeupu Kuyenray Kvalapang Kvlapi Kvyentray
+	}
+
+	male_regal_first_names = {
+		Alen Aliwen Aliwenko Aliwenkura Alofantv Alon Alonkura Amunkura
+		Amuway Amuy Amuylewfu Ancamilla Antecao Antilef Antillanca Antiman
+		Antinanco Antinirre Antipani Antvchiway Antvl Antvlaf Antvpi Antvyanka
+		Anuillang Aukaman Aukan Ayinko Ayinkuy Ayinnnku Ayinray Ayinyang
+		Ayllapan Ayllapange Ayme Ayun Ayunkurha Ayunlewfu Ayvlen Ayvnkvyen
+		Cadin Caicheo Caileo Caimapo Caipillan Calbuante Calbucoy Calbullahue
+		Calbullanca Calbumanque Calfunao Carilepi Carillanca Carimoney Caripan Catelican
+		Catrihual Catrilef Catrileo Catriman Caucaman Caucao Cayumanque Cayun
+		Cayupel Chaura Colivoro Coloane Coyopay Cumicheo Cumin Curil
+		Curiman Curinao Curumilla Cuyul Domoaukafe Epulewfu Epullanca Eymun
+		Foyelkay Fresia Gamin Gnorkintun Guaiquil Guala Guenul Heichatureo
+		Huanel Hueicha Hueico Huelet Huenchucheo Huentelican Huenten Huenteo
+		Huenuman Huequen Huichal Huichaman Huichaquelen Huilquiruca Huinao Huito
+		Ilwen Ilwenray Inaicheo Ishvmpang Janequeo Kalfukura Kalfupange Kalfuquepu
+		Kalfutray Kalfuyang Kanin Karvlemu Kayupange Kayupi Kelvray Keupukura
+		Kintunray Kinturhmay Kolvmanke Konpayantv Koyam Kumiray Kumlafken Kupayman
+		Kurukeupu Kuyenray Kvalapang Kvlapi Kvyentray
+	}
+
+	female_regal_first_names = {
+		Alen Aliwen Aliwenko Aliwenkura Alofantv Alon Alonkura Amunkura
+		Amuway Amuy Amuylewfu Ancamilla Antecao Antilef Antillanca Antiman
+		Antinanco Antinirre Antipani Antvchiway Antvl Antvlaf Antvpi Antvyanka
+		Anuillang Aukaman Aukan Ayinko Ayinkuy Ayinnnku Ayinray Ayinyang
+		Ayllapan Ayllapange Ayme Ayun Ayunkurha Ayunlewfu Ayvlen Ayvnkvyen
+		Cadin Caicheo Caileo Caimapo Caipillan Calbuante Calbucoy Calbullahue
+		Calbullanca Calbumanque Calfunao Carilepi Carillanca Carimoney Caripan Catelican
+		Catrihual Catrilef Catrileo Catriman Caucaman Caucao Cayumanque Cayun
+		Cayupel Chaura Colivoro Coloane Coyopay Cumicheo Cumin Curil
+		Curiman Curinao Curumilla Cuyul Domoaukafe Epulewfu Epullanca Eymun
+		Foyelkay Fresia Gamin Gnorkintun Guaiquil Guala Guenul Heichatureo
+		Huanel Hueicha Hueico Huelet Huenchucheo Huentelican Huenten Huenteo
+		Huenuman Huequen Huichal Huichaman Huichaquelen Huilquiruca Huinao Huito
+		Ilwen Ilwenray Inaicheo Ishvmpang Janequeo Kalfukura Kalfupange Kalfuquepu
+		Kalfutray Kalfuyang Kanin Karvlemu Kayupange Kayupi Kelvray Keupukura
+		Kintunray Kinturhmay Kolvmanke Konpayantv Koyam Kumiray Kumlafken Kupayman
+		Kurukeupu Kuyenray Kvalapang Kvlapi Kvyentray
+	}
+
+	male_noble_first_names = {
+		Alen Aliwen Aliwenko Aliwenkura Alofantv Alon Alonkura Amunkura
+		Amuway Amuy Amuylewfu Ancamilla Antecao Antilef Antillanca Antiman
+		Antinanco Antinirre Antipani Antvchiway Antvl Antvlaf Antvpi Antvyanka
+		Anuillang Aukaman Aukan Ayinko Ayinkuy Ayinnnku Ayinray Ayinyang
+		Ayllapan Ayllapange Ayme Ayun Ayunkurha Ayunlewfu Ayvlen Ayvnkvyen
+		Cadin Caicheo Caileo Caimapo Caipillan Calbuante Calbucoy Calbullahue
+		Calbullanca Calbumanque Calfunao Carilepi Carillanca Carimoney Caripan Catelican
+		Catrihual Catrilef Catrileo Catriman Caucaman Caucao Cayumanque Cayun
+		Cayupel Chaura Colivoro Coloane Coyopay Cumicheo Cumin Curil
+		Curiman Curinao Curumilla Cuyul Domoaukafe Epulewfu Epullanca Eymun
+		Foyelkay Fresia Gamin Gnorkintun Guaiquil Guala Guenul Heichatureo
+		Huanel Hueicha Hueico Huelet Huenchucheo Huentelican Huenten Huenteo
+		Huenuman Huequen Huichal Huichaman Huichaquelen Huilquiruca Huinao Huito
+		Ilwen Ilwenray Inaicheo Ishvmpang Janequeo Kalfukura Kalfupange Kalfuquepu
+		Kalfutray Kalfuyang Kanin Karvlemu Kayupange Kayupi Kelvray Keupukura
+		Kintunray Kinturhmay Kolvmanke Konpayantv Koyam Kumiray Kumlafken Kupayman
+		Kurukeupu Kuyenray Kvalapang Kvlapi Kvyentray
+	}
+
+	female_noble_first_names = {
+		Alen Aliwen Aliwenko Aliwenkura Alofantv Alon Alonkura Amunkura
+		Amuway Amuy Amuylewfu Ancamilla Antecao Antilef Antillanca Antiman
+		Antinanco Antinirre Antipani Antvchiway Antvl Antvlaf Antvpi Antvyanka
+		Anuillang Aukaman Aukan Ayinko Ayinkuy Ayinnnku Ayinray Ayinyang
+		Ayllapan Ayllapange Ayme Ayun Ayunkurha Ayunlewfu Ayvlen Ayvnkvyen
+		Cadin Caicheo Caileo Caimapo Caipillan Calbuante Calbucoy Calbullahue
+		Calbullanca Calbumanque Calfunao Carilepi Carillanca Carimoney Caripan Catelican
+		Catrihual Catrilef Catrileo Catriman Caucaman Caucao Cayumanque Cayun
+		Cayupel Chaura Colivoro Coloane Coyopay Cumicheo Cumin Curil
+		Curiman Curinao Curumilla Cuyul Domoaukafe Epulewfu Epullanca Eymun
+		Foyelkay Fresia Gamin Gnorkintun Guaiquil Guala Guenul Heichatureo
+		Huanel Hueicha Hueico Huelet Huenchucheo Huentelican Huenten Huenteo
+		Huenuman Huequen Huichal Huichaman Huichaquelen Huilquiruca Huinao Huito
+		Ilwen Ilwenray Inaicheo Ishvmpang Janequeo Kalfukura Kalfupange Kalfuquepu
+		Kalfutray Kalfuyang Kanin Karvlemu Kayupange Kayupi Kelvray Keupukura
+		Kintunray Kinturhmay Kolvmanke Konpayantv Koyam Kumiray Kumlafken Kupayman
+		Kurukeupu Kuyenray Kvalapang Kvlapi Kvyentray
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+yahgan = {
+	color = { 92 123 151 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_chonan
+	traditions = { }
+	male_common_first_names = {
+		Yamana Ua Kippa Yashala Saapa Kamain Seskin Hannuxa
+		Apparnix Panaxa Palaxa Sima Hoxka Seif Pushaki Ahua
+		Moala Waya Anan Ommoara Tuin Lon Kuta Ukoali
+		Kaluf Husha Weina Ashunna Hixa Chiloaia
+	}
+
+	female_common_first_names = {
+		Yamana Ua Kippa Yashala Saapa Kamain Seskin Hannuxa
+		Apparnix Panaxa Palaxa Sima Hoxka Seif Pushaki Ahua
+		Moala Waya Anan Ommoara Tuin Lon Kuta Ukoali
+		Kaluf Husha Weina Ashunna Hixa Chiloaia
+	}
+
+	male_regal_first_names = {
+		Yamana Ua Kippa Yashala Saapa Kamain Seskin Hannuxa
+		Apparnix Panaxa Palaxa Sima Hoxka Seif Pushaki Ahua
+		Moala Waya Anan Ommoara Tuin Lon Kuta Ukoali
+		Kaluf Husha Weina Ashunna Hixa Chiloaia
+	}
+
+	female_regal_first_names = {
+		Yamana Ua Kippa Yashala Saapa Kamain Seskin Hannuxa
+		Apparnix Panaxa Palaxa Sima Hoxka Seif Pushaki Ahua
+		Moala Waya Anan Ommoara Tuin Lon Kuta Ukoali
+		Kaluf Husha Weina Ashunna Hixa Chiloaia
+	}
+
+	male_noble_first_names = {
+		Yamana Ua Kippa Yashala Saapa Kamain Seskin Hannuxa
+		Apparnix Panaxa Palaxa Sima Hoxka Seif Pushaki Ahua
+		Moala Waya Anan Ommoara Tuin Lon Kuta Ukoali
+		Kaluf Husha Weina Ashunna Hixa Chiloaia
+	}
+
+	female_noble_first_names = {
+		Yamana Ua Kippa Yashala Saapa Kamain Seskin Hannuxa
+		Apparnix Panaxa Palaxa Sima Hoxka Seif Pushaki Ahua
+		Moala Waya Anan Ommoara Tuin Lon Kuta Ukoali
+		Kaluf Husha Weina Ashunna Hixa Chiloaia
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}
+
+kawesqar = {
+	color = { 78 106 139 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_chonan
+	traditions = { }
+	male_common_first_names = {
+		Therrawaus Kjesa Lalthers Qarwes Jepar Kjerkja Arkajeta Yaulchel
+		Kitchikouar Saapa
+	}
+
+	female_common_first_names = {
+		Therrawaus Kjesa Lalthers Qarwes Jepar Kjerkja Arkajeta Yaulchel
+		Kitchikouar Saapa
+	}
+
+	male_regal_first_names = {
+		Therrawaus Kjesa Lalthers Qarwes Jepar Kjerkja Arkajeta Yaulchel
+		Kitchikouar Saapa
+	}
+
+	female_regal_first_names = {
+		Therrawaus Kjesa Lalthers Qarwes Jepar Kjerkja Arkajeta Yaulchel
+		Kitchikouar Saapa
+	}
+
+	male_noble_first_names = {
+		Therrawaus Kjesa Lalthers Qarwes Jepar Kjerkja Arkajeta Yaulchel
+		Kitchikouar Saapa
+	}
+
+	female_noble_first_names = {
+		Therrawaus Kjesa Lalthers Qarwes Jepar Kjerkja Arkajeta Yaulchel
+		Kitchikouar Saapa
+	}
+	ethnicities = { 1 = native_american }
+	graphics = decentralised_americas
+}

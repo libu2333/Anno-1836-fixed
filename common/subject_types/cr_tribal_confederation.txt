@@ -1,0 +1,44 @@
+subject_type_tribal_confederation = {
+	allow_change_country_flag = no
+	use_overlord_map_color = yes
+	use_overlord_ruler = no
+	annex_on_country_formation = no
+	can_start_own_diplomatic_plays = yes
+	breaks_if_subject_not_protected = no
+	join_overlord_wars = yes
+	can_have_subjects = no
+	overlord_must_be_higher_rank = no
+	overlord_must_be_same_country_type = yes
+	use_for_release_country = no
+	gives_prestige_to_overlord = no
+	can_be_used_in_sway_offers = no
+
+	diplomatic_action = tribal_confederation
+	autonomy_level = 1
+	category = same_as_vassal
+
+	same_autonomy_subject_type_alternatives = {
+		subject_type_vassal
+		subject_type_puppet
+	}
+
+	valid_overlord_country_types = {
+		decentralized
+	}
+
+	valid_subject_country_types = {
+		decentralized
+	}
+
+	valid_overlord_ranks = {
+		decentralized_power
+	}
+
+	valid_subject_ranks = {
+		decentralized_power
+	}
+
+	ai_value = {
+		value = 1
+	}
+}

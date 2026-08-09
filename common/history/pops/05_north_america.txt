@@ -53,8 +53,8 @@
 			}
 		}
 		region_state:CTW = {
-			create_pop = {	#Should be a removal event to move them to the Caddoan tag in Texas!
-				culture = caddoan
+			create_pop = {
+				culture = muskogean
 				size = 8136
 			}
 		}
@@ -173,7 +173,7 @@
 		}
 		region_state:NWP = {
 			create_pop = {
-				culture = nez_perce
+				culture = klamath
 				size = 2100
 			}
 		}
@@ -219,7 +219,7 @@
 		}
 		region_state:NWP = {
 			create_pop = {
-				culture = nez_perce
+				culture = klamath
 				size = 4000
 			}
 		}
@@ -245,7 +245,7 @@
 		}
 		region_state:FLT = {
 			create_pop = {
-				culture = salish
+				culture = interior_salish
 				size = 1968
 			}
 		}
@@ -257,13 +257,13 @@
 		}
 		region_state:BLF = {
 			create_pop = {
-				culture = algonquian
+				culture = plains_algonquian
 				size = 1764
 			}
 		}
 		region_state:KTN = {	
 			create_pop = {
-				culture = salish
+				culture = kutenai
 				size = 1950
 			}
 		}
@@ -295,7 +295,7 @@
 		}
 		region_state:ARP = {
 			create_pop = {
-				culture = siouan
+				culture = plains_algonquian
 				size = 10000
 			}
 		}
@@ -351,7 +351,7 @@
 		}
 		region_state:LKT = {
 			create_pop = {
-				culture = dakota
+				culture = siouan
 				size = 8500
 			}
 		}
@@ -363,13 +363,13 @@
 		}
 		region_state:ARP = {
 			create_pop = {
-				culture = siouan
+				culture = plains_algonquian
 				size = 4000
 			}
 		}
 		region_state:BLF = {
 			create_pop = {
-				culture = algonquian
+				culture = plains_algonquian
 				size = 2000
 			}
 		}
@@ -383,13 +383,13 @@
 		}
 		region_state:FLT = {
 			create_pop = {
-				culture = salish
+				culture = interior_salish
 				size = 10000
 			}
 		}
 		region_state:LKT = {
 			create_pop = {
-				culture = dakota
+				culture = siouan
 				size = 1750
 			}
 		}
@@ -401,7 +401,7 @@
 		}
 		region_state:BLF = {
 			create_pop = {
-				culture = algonquian
+				culture = plains_algonquian
 				size = 14000
 			}
 		}
@@ -419,13 +419,13 @@
 		}
 		region_state:GVT = {
 			create_pop = {
-				culture = algonquian
+				culture = plains_algonquian
 				size = 4500
 			}
 		}
 		region_state:KTN = {
 			create_pop = {
-				culture = salish #Kutenai, which should be unique culture. Right now an isolated culture
+				culture = kutenai
 				size = 1250
 			}
 		}
@@ -433,14 +433,14 @@
 	s:STATE_NORTH_DAKOTA = {
 		region_state:CTF = {
 			create_pop = {
-				culture = algonquian
+				culture = anishinaabe
 				size = 4000
 			}
 		}
 		# DKT had 22000
 		region_state:LKT = {
 			create_pop = {
-				culture = dakota
+				culture = siouan
 				size = 11000
 			}
 			create_pop = {
@@ -465,7 +465,7 @@
 	s:STATE_SOUTH_DAKOTA = {
 		region_state:LKT = {
 			create_pop = {
-				culture = dakota
+				culture = siouan
 				size = 34000
 			}
 			create_pop = {
@@ -490,13 +490,13 @@
 		}
 		region_state:ARP = {
 			create_pop = {
-				culture = siouan
+				culture = plains_algonquian
 				size = 2153
 			}
 		}
 		region_state:LKT = {
 			create_pop = {
-				culture = dakota
+				culture = siouan
 				size = 25000
 			}
 		}
@@ -520,7 +520,7 @@
 		}
 		region_state:ARP = {
 			create_pop = {
-				culture = siouan
+				culture = plains_algonquian
 				size = 5542
 			}
 		}
@@ -657,7 +657,7 @@
 		}
 		region_state:IOW = {
 			create_pop = {
-				culture = algonquian
+				culture = siouan
 				size = 1267
 			}
 		}
@@ -683,13 +683,13 @@
 		}
 		region_state:IOW = {
 			create_pop = {
-				culture = algonquian
+				culture = siouan
 				size = 3261
 			}
 		}
 		region_state:LKT = {
 			create_pop = {
-				culture = dakota
+				culture = siouan
 				size = 1000
 			}
 		}
@@ -697,13 +697,13 @@
 	s:STATE_MINNESOTA = {
 		region_state:CTF = {
 			create_pop = {
-				culture = algonquian
+				culture = anishinaabe
 				size = 16000
 			}
 		}
 		region_state:LKT = {
 			create_pop = {
-				culture = dakota
+				culture = siouan
 				size = 22000
 			}
 		}
@@ -721,7 +721,7 @@
 		}
 		region_state:CTF = {
 			create_pop = {
-				culture = algonquian
+				culture = anishinaabe
 				size = 4671
 			}
 		}
@@ -773,7 +773,7 @@
 		
 		region_state:CTF = {
 			create_pop = {
-				culture = algonquian
+				culture = anishinaabe
 				size = 4975
 			}
 		}
@@ -1386,7 +1386,7 @@
 		}
 		region_state:CTF = {
 			create_pop = {
-				culture = algonquian
+				culture = anishinaabe
 				size = 11201
 			}
 			create_pop = {
@@ -1426,7 +1426,7 @@
 		}	
 		region_state:CTF = {
 			create_pop = {
-				culture = algonquian
+				culture = anishinaabe
 				size = 16201
 			}
 			create_pop = {
@@ -1506,7 +1506,7 @@
 		}
 		region_state:INU = {
 			create_pop = {
-				culture = cree
+				culture = innu
 				size = 7204
 			}
 		}
@@ -1536,7 +1536,7 @@
 		}
 		region_state:INU = {
 			create_pop = {
-				culture = cree
+				culture = innu
 				size = 1204
 			}
 		}
@@ -1578,7 +1578,7 @@
 		}
 		region_state:INU = {
 			create_pop = {
-				culture = cree
+				culture = innu
 				size = 3154
 			}		
 		}
@@ -1624,7 +1624,7 @@
 		}
 		region_state:BLF = {
 			create_pop = {
-				culture = algonquian
+				culture = plains_algonquian
 				size = 15400
 			}
 			create_pop = {
@@ -1634,7 +1634,7 @@
 		}
 		region_state:GVT = {
 			create_pop = {
-				culture = algonquian
+				culture = plains_algonquian
 				size = 1800
 			}
 		}
@@ -1670,13 +1670,13 @@
 		}
 		region_state:KTN = {	
 			create_pop = {
-				culture = salish
+				culture = kutenai
 				size = 6541
 			}
 		}
 		region_state:WKS = {	
 			create_pop = {
-				culture = athabaskan
+				culture = wakashan
 				size = 6482
 			}
 		}
@@ -1710,7 +1710,7 @@
 		}
 		region_state:GVT = {
 			create_pop = {
-				culture = algonquian
+				culture = plains_algonquian
 				size = 4200
 			}
 		}
@@ -1749,7 +1749,7 @@
 		}
 		region_state:CTF = {
 			create_pop = {
-				culture = algonquian
+				culture = anishinaabe
 				size = 1851
 			}
 			create_pop = {
@@ -1888,7 +1888,7 @@
 		}
 		region_state:CTW = {
 			create_pop = {
-				culture = caddoan
+				culture = muskogean
 				size = 16000
 			}
 		}
@@ -1968,7 +1968,7 @@
 		}
 		region_state:YUM = {
 			create_pop = {
-				culture = hokan
+				culture = yuman
 				size = 1300
 			}
 		}
@@ -2038,7 +2038,7 @@
 		}
 		region_state:YOK = {
 			create_pop = {
-				culture = hokan
+				culture = central_californian
 				size = 89950
 			}
 		}
@@ -2050,13 +2050,13 @@
 		}
 		region_state:YUM = {
 			create_pop = {
-				culture = hokan
+				culture = yuman
 				size = 8499
 			}
 		}
 		region_state:NWP = {
 			create_pop = {
-				culture = nez_perce
+				culture = klamath
 				size = 8300
 			}
 		}
@@ -2388,7 +2388,7 @@
 		}
 		region_state:YUM = {
 			create_pop = {
-				culture = hokan
+				culture = yuman
 				size = 1300
 			}
 		}

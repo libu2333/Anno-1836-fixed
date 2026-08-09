@@ -338,7 +338,6 @@ cr_indian_removal.3 = { #The Chickasaw Removal
 					is_interest_group_type = ig_devout
 				}			
 			}
-			save_scope_as = agitating_ig
 		}
 	}
 	
@@ -1358,7 +1357,6 @@ cr_indian_removal.20 = { #The Dade Masacre
 		c:SML = {
 			save_scope_as = seminole_nation
 			ruler = {
-				save_scope_as = micanopy
 			}
 			random_scope_character = {
 				limit = {
@@ -2184,7 +2182,6 @@ cr_indian_removal.31 = { #Newspaper Clippings
 					}
 				}
 				owner = {
-					save_scope_as = protesting_for_indians_country
 				}
 			}
 		}
@@ -4647,7 +4644,7 @@ cr_indian_removal.58 = { #The Benefits of Free Enterprise
 	}
 
 	trigger = {
-		NOT = { has_variable = cr_removal_the_benefit_of_free_enterprise }
+		NOT = { has_modifier = cr_removal_the_benefit_of_free_enterprise }
 		NOT = { ig:ig_industrialists = { has_modifier = cr_removal_the_benefit_of_free_enterprise_denied } }
 		scope:target_of_removal = {
 			NOT = { 

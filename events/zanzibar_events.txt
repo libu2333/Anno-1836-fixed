@@ -404,7 +404,6 @@ zanzibar.2 = { # The [Nation] East African Company
 					is_insurrectionary = no
 					is_revolutionary = no
 				}
-				save_scope_as = sympathetic_to_colonialists_ig
 			}
 		}
 	}

@@ -1510,12 +1510,10 @@ cr_kazakh_events.11 = {
 				}
 			}
 			p:x28AD29 = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		else = {
 			ROOT = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		random_character_in_void = {
@@ -1525,7 +1523,6 @@ cr_kazakh_events.11 = {
 			save_scope_as = kenesary_scope
 		}
 		sr:region_central_asia = {
-			save_scope_as = central_asia_region_scope
 		}
 		set_variable = cr_sack_of_akmolinsk_has_happened
 		set_variable = {
@@ -1759,12 +1756,10 @@ cr_kazakh_events.13 = { #The Steppe Slips Away - Kenesary defeated
 				}
 			}
 			p:x28AD29 = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		else = {
 			ROOT = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		random_character_in_void = {
@@ -1877,12 +1872,10 @@ cr_kazakh_events.14 = {	#Driven Beyond the Horizon - Kenesary driven deeper into
 				}
 			}
 			p:x28AD29 = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		else = {
 			ROOT = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		random_character_in_void = {
@@ -1986,12 +1979,10 @@ cr_kazakh_events.15 = {	#The Steppe Strikes Back - Expedition Defeated
 				}
 			}
 			p:x28AD29 = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		else = {
 			ROOT = {
-				save_scope_as = kenesary_raid_news_scope
 			}
 		}
 		random_character_in_void = {
@@ -4429,4 +4420,3 @@ cr_kazakh_events.61 = {
 		}
 	}
 }
-

@@ -39,10 +39,6 @@
 			name = cr_robinson_treaty_var
 			value = 1
 		}
-		set_variable = {
-			name = cr_lake_superior_cooldown
-			months = 3
-		}
 		add_modifier = {
 			name = cr_eyeing_unceded_land
 			months = long_modifier_time

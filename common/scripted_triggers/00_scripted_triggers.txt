@@ -104,7 +104,6 @@ is_being_incorporated = {
 }
 
 violate_sovereignty_war_check = {
-	save_temporary_scope_as = relevant_war
 
 	scope:target_country = {
 		any_scope_theater = {

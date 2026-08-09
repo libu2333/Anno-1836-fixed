@@ -61,7 +61,6 @@ cr_american_events.1 = { #The National Rifle Association
 
 	immediate = {
 		ig:ig_armed_forces = {
-			save_scope_as = the_national_rifle_association_scope
 		}
 		random_scope_character = {
 			limit = {

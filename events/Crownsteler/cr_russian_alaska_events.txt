@@ -96,7 +96,6 @@ cr_russian_alaska_events.1 = { #Two Years Before the Mast
 			}
 		}
 		scope:our_california.state_region = {
-			save_scope_as = state_of_california
 		}
 		s:STATE_ALASKA = {
 			random_scope_state = {

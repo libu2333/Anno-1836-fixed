@@ -614,7 +614,6 @@ cr_south_africa_events.3 = {
 				leader = {
 					save_scope_as = anti_colonialist_politician
 				}
-				save_scope_as = anti_colonialist_ig
 			}
 		}
 		else_if = {
@@ -648,7 +647,6 @@ cr_south_africa_events.3 = {
 				leader = {
 					save_scope_as = anti_colonialist_politician
 				}
-				save_scope_as = anti_colonialist_ig
 			}
 		}
 		else_if = {
@@ -688,7 +686,6 @@ cr_south_africa_events.3 = {
 				leader = {
 					save_scope_as = anti_colonialist_politician
 				}
-				save_scope_as = anti_colonialist_ig
 			}
 		}
 		else_if = {
@@ -701,7 +698,6 @@ cr_south_africa_events.3 = {
 				leader = {
 					save_scope_as = anti_colonialist_politician
 				}
-				save_scope_as = anti_colonialist_ig
 			}
 		}
 		else = {
@@ -713,7 +709,6 @@ cr_south_africa_events.3 = {
 					NOT = { interest_group = ig:ig_armed_forces }
 				}
 				save_scope_as = anti_colonialist_politician
-				interest_group = { save_scope_as = anti_colonialist_ig }
 			}
 		}
 	}

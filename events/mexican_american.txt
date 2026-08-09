@@ -862,7 +862,6 @@ mexican_american.6 = { #Treaty of G H
 	immediate = {
 		c:MEX = {
 			ruler = {
-				save_scope_as = mexico_leader
     		}
     	}
     	c:USA = {

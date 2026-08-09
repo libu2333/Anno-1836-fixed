@@ -107,10 +107,8 @@ je_the_algerian_departements = {
 			save_scope_as = je_constantine_state_scope
 		}
 		cu:berber = {
-			save_scope_as = berber_culture_scope
 		}
 		cu:maghrebi = {
-			save_scope_as = maghrebi_culture_scope
 		}
 		cu:french = {
 			save_scope_as = french_culture_scope

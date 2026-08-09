@@ -84,7 +84,6 @@
             save_scope_as = sakhalin_state_region_scope
         }
         s:STATE_HOKKAIDO_ISLANDS = {
-            save_scope_as = kuril_state_region_scope
         }
         set_variable = {
             name = hokkaido_agriculture_potentials_counter_var

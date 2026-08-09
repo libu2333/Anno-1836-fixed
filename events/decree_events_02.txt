@@ -216,7 +216,6 @@ type = country_event
 			}
 		}
 		ig:ig_industrialists ?= {
-			save_scope_as = industrialists_ig_focus
 		}
 	}
 
@@ -452,7 +451,6 @@ type = country_event
 			}
 		}
 		ig:ig_landowners ?= {
-			save_scope_as = landowners_ig_focus
 		}
 	}
 
@@ -672,10 +670,8 @@ type = country_event
 			}
 		}
 		ig:ig_industrialists ?= {
-			save_scope_as = industrialists_ig_focus
 		}
 		ig:ig_landowners ?= {
-			save_scope_as = landowners_ig_focus
 		}
 	}
 
@@ -771,7 +767,6 @@ type = country_event
 			save_scope_as = decree_enlistment
 		}
 		ig:ig_armed_forces ?= {
-			save_scope_as = armed_forces_ig_focus
 		}
 	}
 

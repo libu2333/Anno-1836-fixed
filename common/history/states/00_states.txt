@@ -11925,9 +11925,15 @@ STATES = {
 
     s:STATE_ALAY = {
             create_state = {
+                country = c:KYR2
+                provinces = {
+                    xE5AD64 x6A30D3 x180E7A x7AAB55 xA5418A
+                }
+            }
+            create_state = {
                 country = c:KOK
                 owned_provinces = {
-                    x2C5197 xCE5CD4 x1C545C x5A2C97 x3EA155 x3A3AE2 x9B5DFD xE5AD64 x6A30D3 x180E7A x7AAB55 xA5418A
+                    x2C5197 xCE5CD4 x1C545C x5A2C97 x3EA155 x3A3AE2 x9B5DFD 
                 }
             }
             create_state = {
@@ -11954,7 +11960,13 @@ STATES = {
     s:STATE_KIRGHIZIA = {
             create_state = {
                 country = c:KOK
-                owned_provinces = { xF0EADF xAA36C3 x3EF868 xCDA745 x30CC9D x427426 x3582E9 x261D0F x643CF5 xBE2F49 x480704 x99410F x6678CA x4214B3 xC863B0 x599B9D xAA16B7 xBA55E4 xA9525C x8B7EFD }
+                owned_provinces = { xF0EADF xAA36C3 x3EF868 xCDA745 x30CC9D x427426 x3582E9 x261D0F }
+            }
+            create_state = {
+                country = c:KYR2
+                provinces = {
+                    x643CF5 xBE2F49 x480704 x99410F x6678CA x4214B3 xC863B0 x599B9D xAA16B7 xBA55E4 xA9525C x8B7EFD 
+                }
             }
         add_homeland = cu:kirgiz
         add_homeland = cu:uzbek

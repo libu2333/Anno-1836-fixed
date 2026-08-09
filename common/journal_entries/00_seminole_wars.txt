@@ -75,7 +75,6 @@
 			save_scope_as = oklahoma_region
 		}
 		c:SEQ ?= {
-			save_scope_as = indian_territory
 		}
 		s:STATE_FLORIDA.region_state:USA = {
 			save_scope_as = flarda

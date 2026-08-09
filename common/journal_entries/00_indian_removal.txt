@@ -108,7 +108,6 @@
 			months = 3
 		}
 		ig:ig_landowners = {
-			save_scope_as = planters
 		}
 		c:CHE = {
 			save_scope_as = cherokee_nation
@@ -145,7 +144,6 @@
 			save_scope_as = state_of_north_carolina
 		}
 		s:STATE_SOUTH_CAROLINA.region_state:USA = {
-			save_scope_as = state_of_south_carolina
 		}
 		s:STATE_FLORIDA.region_state:USA = {
 			save_scope_as = state_of_florida
@@ -359,10 +357,8 @@ je_chickasaw_removal = {
 			}
 		}
 		ig:ig_intelligentsia = {
-			save_scope_as = intellectuals
 		}
 		ig:ig_landowners = {
-			save_scope_as = planters
 		}
 		c:CHE = {
 			save_scope_as = cherokee_nation
@@ -389,7 +385,6 @@ je_chickasaw_removal = {
 			save_scope_as = state_of_north_carolina
 		}
 		s:STATE_SOUTH_CAROLINA.region_state:USA = {
-			save_scope_as = state_of_south_carolina
 		}
 		cu:caddoan = {
 			save_scope_as = chickasaw_people
@@ -739,10 +734,8 @@ je_creek_removal = {
 			}
 		}
 		ig:ig_intelligentsia = {
-			save_scope_as = intellectuals
 		}
 		ig:ig_landowners = {
-			save_scope_as = planters
 		}
 		c:CHE = {
 			save_scope_as = cherokee_nation
@@ -769,7 +762,6 @@ je_creek_removal = {
 			save_scope_as = state_of_north_carolina
 		}
 		s:STATE_SOUTH_CAROLINA.region_state:USA = {
-			save_scope_as = state_of_south_carolina
 		}
 		cu:cherokee = {
 			save_scope_as = cherokee_people
@@ -1038,10 +1030,8 @@ je_cherokee_removal = {
 			}
 		}
 		ig:ig_intelligentsia = {
-			save_scope_as = intellectuals
 		}
 		ig:ig_landowners = {
-			save_scope_as = planters
 		}
 		c:CHE = {
 			save_scope_as = cherokee_nation
@@ -1068,7 +1058,6 @@ je_cherokee_removal = {
 			save_scope_as = state_of_north_carolina
 		}
 		s:STATE_SOUTH_CAROLINA.region_state:USA = {
-			save_scope_as = state_of_south_carolina
 		}
 		cu:cherokee = {
 			save_scope_as = cherokee_people
@@ -1465,10 +1454,8 @@ je_seminole_removal = {
 			}
 		}
 		ig:ig_intelligentsia = {
-			save_scope_as = intellectuals
 		}
 		ig:ig_landowners = {
-			save_scope_as = planters
 		}
 		c:CHE = {
 			save_scope_as = cherokee_nation
@@ -1498,7 +1485,6 @@ je_seminole_removal = {
 			save_scope_as = state_of_north_carolina
 		}
 		s:STATE_SOUTH_CAROLINA.region_state:USA = {
-			save_scope_as = state_of_south_carolina
 		}
 		cu:cherokee = {
 			save_scope_as = cherokee_people

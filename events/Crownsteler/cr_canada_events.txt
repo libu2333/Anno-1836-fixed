@@ -98,7 +98,6 @@ cr_canadian_indian_treaties.98 = { #Rock of the Ages / The Ontonagon Boulder
 			limit = {
 				state_region = s:STATE_ONTARIO
 			}
-			save_scope_as = ontario
 			random_state = {
 				limit = {
 					state_region = s:STATE_MICHIGAN
@@ -106,14 +105,12 @@ cr_canadian_indian_treaties.98 = { #Rock of the Ages / The Ontonagon Boulder
 						is_country_type = recognized
 					}
 				}
-				save_scope_as = michigan
 			}
 		}
 		if = {
 			limit = {
 				state_region = s:STATE_MICHIGAN
 			}
-			save_scope_as = michigan
 			random_state = {
 				limit = {
 					state_region = s:STATE_ONTARIO
@@ -121,11 +118,9 @@ cr_canadian_indian_treaties.98 = { #Rock of the Ages / The Ontonagon Boulder
 						is_country_type = recognized
 					}
 				}
-				save_scope_as = ontario
 			}
 		}
 		c:CTF = {
-			save_scope_as = copper_finders
 		}
 	}
 
@@ -589,7 +584,6 @@ cr_canadian_indian_treaties.2 = { #Surveyor Threatened
 					is_building_type = building_copper_mine
 					is_under_construction = yes	
 				}
-				save_scope_as = under_construction_mine
 			}
 		}
 	}

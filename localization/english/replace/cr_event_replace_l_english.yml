@@ -71,10 +71,12 @@
  texan_war_of_independence.4.a: "Let this be Santa Anna's disgrace."
  texan_war_of_independence.4.b: "Denounce this treaty signed under duress."
  texan_war_of_independence.4.c: "Denounce this treaty signed under duress."
- notification_texan_war_of_independence_mexico_accepts_treaties_of_velasco_name: "[SCOPE.sCountry('mexico_scope').GetName] Rejects Peace!"
+ notification_texan_war_of_independence_mexico_accepts_treaties_of_velasco_name: "[SCOPE.sCountry('mexico_scope').GetName] Accepts Peace!"
  notification_texan_war_of_independence_mexico_accepts_treaties_of_velasco_desc: "[SCOPE.sCountry('mexico_scope').GetNameNoFlag] has begrudgingly affirmed the agreements signed by [SCOPE.sCharacter('santa_anna_scope').GetFullName] during his captivity. The conflict with [SCOPE.sCountry('mexico_scope').GetNameNoFormatting] continues."
+ notification_texan_war_of_independence_mexico_accepts_treaties_of_velasco_tooltip: "#header $notification_texan_war_of_independence_mexico_accepts_treaties_of_velasco_name$#!\n$TOOLTIP_DELIMITER$\n$notification_texan_war_of_independence_mexico_accepts_treaties_of_velasco_desc$"
  notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_name: "[SCOPE.sCountry('mexico_scope').GetName] Rejects Peace!"
  notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_desc: "[SCOPE.sCountry('mexico_scope').GetNameNoFlag] has denounced the agreements signed by [SCOPE.sCharacter('santa_anna_scope').GetFullName] during his captivity, declaring them invalid. The conflict with [SCOPE.sCountry('mexico_scope').GetNameNoFormatting] continues."
+ notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_tooltip: "#header $notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_name$#!\n$TOOLTIP_DELIMITER$\n$notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_desc$"
  
  texan_war_of_independence.5.t: "The Fall of the Alamo"
  texan_war_of_independence.5.d: "The Alamo has fallen. Within its crumbling mission walls, [SCOPE.sCharacter('travis_scope').GetFullName] and his men stood against an army that outnumbered them tenfold. They fought until powder ran dry, until the guns fell silent, until the smoke itself seemed to mourn.\n\nWhen the end came, no mercy followed. The defenders were slaughtered where they stood—soldiers, wounded men, even those who sought surrender. The mission is lost, but its name will burn in memory as a rallying cry against tyranny."
@@ -82,6 +84,7 @@
  texan_war_of_independence.5.a: "Remember the Alamo!"
  notification_texan_war_of_independence_remember_the_alamao_name: "Remember the Alamo!"
  notification_texan_war_of_independence_remember_the_alamao_desc: "Far from breaking their spirit, our recent victory over [SCOPE.sCountry('texas_scope').GetName] has only hardened their resolve to fight on, as their armies now take to the field under the battle cry 'Remember the Alamo!'"
+ notification_texan_war_of_independence_remember_the_alamao_tooltip: "#header $notification_texan_war_of_independence_remember_the_alamao_name$#!\n$TOOLTIP_DELIMITER$\n$notification_texan_war_of_independence_remember_the_alamao_desc$"
  
  texan_war_of_independence.6.t: "Rebellion in Texas Crushed"
  texan_war_of_independence.6.d: "The campaign in [SCOPE.sCountry('texas_scope').GetNameNoFlag] has come to an end. The rebel forces have been routed, their leaders scattered, and the tricolor of [SCOPE.sCountry('mexico_scope').GetNameNoFlag] once more flies over the northern frontier. The struggle has been costly, yet Mexico stands reunited, its authority restored over the distant plains of the north.\n\nNow the question remains: how shall Texas be governed in the wake of its return—through firm rule from the center, or through a measure of local autonomy?"
@@ -91,5 +94,6 @@
  texan_war_of_independence.6.c: "Offer them autonomy and reconciliation."
  notification_texan_war_of_independence_autonomy_and_exiles_name: "[SCOPE.sCountry('mexico_scope').GetName] Grants Autonomy!"
  notification_texan_war_of_independence_autonomy_and_exiles_desc: "Following  [SCOPE.sCountry('mexico_scope').GetName] victory over us, they have agreed to grant internal autonomy but ordered the exile of the rebellion's leading figures."
+ notification_texan_war_of_independence_autonomy_and_exiles_tooltip: "#header $notification_texan_war_of_independence_autonomy_and_exiles_name$#!\n$TOOLTIP_DELIMITER$\n$notification_texan_war_of_independence_autonomy_and_exiles_desc$"
  notification_texan_war_of_independence_autonomy_no_exiles_name: "[SCOPE.sCountry('mexico_scope').GetName] Grants Autonomy!"
  notification_texan_war_of_independence_autonomy_no_exiles_desc: "Following  [SCOPE.sCountry('mexico_scope').GetName] victory over us, they have agreed to grant internal autonomy and decided to allow leaders of the rebellion to remain in the province."

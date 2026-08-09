@@ -282,7 +282,6 @@ algeria_events.2 = {
 				}
 				save_scope_as = cremieux_decree_pop_scope
 			}
-			save_scope_as = cremieux_decree_state_scope
 		}
 		random_scope_state = {
 			limit = {
@@ -312,7 +311,6 @@ algeria_events.2 = {
 			leader = {
 				save_scope_as = cremieux_decree_leader_scope
 			}
-			save_scope_as = cremieux_decree_ig_scope
 		}
 	}
 
@@ -442,7 +440,6 @@ algeria_events.3 = {
 			leader = {
 				save_scope_as = algerian_fiasco_ig_leader
 			}
-			save_scope_as = algerian_fiasco_ig
 		}
 	}
 

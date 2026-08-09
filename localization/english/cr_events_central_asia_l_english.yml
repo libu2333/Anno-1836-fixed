@@ -299,3 +299,5 @@
  cr_bukey_events.4.flavour_old: "Another frontier lord passes into history, and with him the last trace of the old steppe order."
  cr_bukey_events.4.a: "Reclaim the Bukey lands for the Empire."
  cr_bukey_events.4.b: "Permit the Horde to choose a successor."
+
+ notification_cr_kazakh_harsh_rule_on_the_steppes_tooltip: "#header $notification_cr_kazakh_harsh_rule_on_the_steppes_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_kazakh_harsh_rule_on_the_steppes_desc$"

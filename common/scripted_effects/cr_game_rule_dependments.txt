@@ -33,22 +33,6 @@ adjust_chinese_border_effect = {
 			set_state_owner = c:CHI
 		}
 	}
-	s:STATE_ALAY = {
-		set_owner_of_provinces = {
-			country = c:CHI
-			provinces = {
-				xE5AD64 x6A30D3 x180E7A x7AAB55 xA5418A
-			}
-		}
-	}
-	s:STATE_KIRGHIZIA = {
-		set_owner_of_provinces = {
-			country = c:CHI
-			provinces = {
-				x643CF5 xBE2F49 x480704 x99410F x6678CA x4214B3 xC863B0 x599B9D xAA16B7 xBA55E4 xA9525C x8B7EFD 
-			}
-		}
-	}
 }
 
 britain_conquer_canada_effect = {

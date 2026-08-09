@@ -7,7 +7,7 @@
  cr_test_events.2.c:0 "Creek"
  cr_test_events.2.d:0 "Seminole"
  cr_test_events.2.e:0 "Cochtaw"
- 
+
  #Random Flavour
  cr_american_events.1.t:0 "A National Rifle Association"
  cr_american_events.1.desc_won:0 "Appalled by the dismal marksmanship skills displayed by soldiers in our recent war with [SCOPE.sCountry('recent_opponent_scope').GetName], veterans across the nation have started founding rifle associations. Fueled by a collective sense of duty and a determination to enhance military readiness, these associations arise as a response to the urgent need for improved training and proficiency among the armed forces."
@@ -800,4 +800,19 @@
  cr_lower_canada_rebellion.12.flavour:0 ""
  cr_lower_canada_rebellion.12.a:0 "A lemon by any other name tastes just as sour"
  cr_lower_canada_rebellion.12.b:0 "We appreciate the loyality these men show"
- 
+
+ notification_cr_hbc_acquires_fort_hall_tooltip: "#header $notification_cr_hbc_acquires_fort_hall_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_hbc_acquires_fort_hall_desc$"
+ notification_mex_john_sutters_colony_tooltip: "#header $notification_mex_john_sutters_colony_name$#!\n$TOOLTIP_DELIMITER$\n$notification_mex_john_sutters_colony_desc$"
+ notification_usa_john_sutters_colony_name: "$notification_mex_john_sutters_colony_USA_name$"
+ notification_usa_john_sutters_colony_desc: "$notification_mex_john_sutters_colony_USA_desc$"
+ notification_usa_john_sutters_colony_tooltip: "#header $notification_usa_john_sutters_colony_name$#!\n$TOOLTIP_DELIMITER$\n$notification_usa_john_sutters_colony_desc$"
+ cr_indian_removal.70.a_tt:0 "All [SCOPE.sCulture('caddoan').GetName], [SCOPE.sCulture('muskogean').GetName] and [SCOPE.sCulture('cherokee').GetName] [concept_pop]s gain #g 2%#! loyalty"
+ cr_test_events.1.t: "Test Event"
+ cr_test_events.1.d: "This is a test event."
+ cr_test_events.1.f: "For testing purposes."
+ cr_test_events.4.t: "Test Event"
+ cr_test_events.4.d: "This is a test event."
+ cr_test_events.4.f: "For testing purposes."
+ cr_test_events.7.t: "Test Event"
+ cr_test_events.7.d: "This is a test event."
+ cr_test_events.7.f: "For testing purposes."

@@ -276,3 +276,11 @@
   cr_bukey_events.4.flavour_old: "又一位边疆领主步入历史，随着他，旧草原秩序的最后痕迹消逝。"
   cr_bukey_events.4.a: "为帝国收回布基土地。"
   cr_bukey_events.4.b: "允许汗国自行选择继任者。"
+
+  notification_cr_kazakh_harsh_rule_on_the_steppes_tooltip: "#header $notification_cr_kazakh_harsh_rule_on_the_steppes_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_kazakh_harsh_rule_on_the_steppes_desc$"
+  cr_kazakh_events.5.t: "重生草原的汗王"
+  cr_kazakh_events.5.desc: "随着俄国实力衰退、影响力消退，其对草原的控制也随之松动。要塞逐渐坍圮，哥萨克巡逻队愈发稀少，哈萨克氏族重新夺回昔日牧场。在帝国留下的真空中，肯尼萨里的名字再次激荡人心，成为帝国衰落之际重获新生的反抗象征。"
+  cr_kazakh_events.5.flavour: "雄鹰不再翱翔之处，狼群归来。"
+  cr_kazakh_events.5.a: "我们的势力已无法延伸至如此遥远之地。"
+  cr_kazakh_events.5.b: "草原记得它曾属于谁。"
+  cr_kazakh_events.12.a_tt: "此选项可用，因为我们近期未进行远征，并掌握了[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]大致行踪的情报。"

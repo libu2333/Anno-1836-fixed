@@ -5780,7 +5780,6 @@ on_secession_end = {
 	effect = {
 		# successions trigger an infamy raising event the first time. Event triggers ensure event only fires once.
 		scope:target = {
-			save_scope_as = rebel_nation
 			random_primary_culture = {
 				save_scope_as = rebel_culture
 			}

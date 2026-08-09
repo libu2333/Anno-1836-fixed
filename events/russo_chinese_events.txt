@@ -197,19 +197,16 @@ russo_chinese.2 = {
 			limit = {
 				state_region = s:STATE_KALAKR
 			}
-			save_scope_as = kalakr_scope
 		}
 		random_state = {
 			limit = {
 				state_region = s:STATE_ALAY
 			}
-			save_scope_as = alay_scope
 		}
 		random_state = {
 			limit = {
 				state_region = s:STATE_BADAKHSHAN
 			}
-			save_scope_as = badakh_scope
 		}
 		random_state = {
 			limit = {
@@ -712,7 +709,6 @@ russo_chinese.4 = {
 			limit = {
 				state_region = s:STATE_YTZZ
 			}
-			save_scope_as = ytzz_scope
 		}
 		random_country = {
 			limit = {

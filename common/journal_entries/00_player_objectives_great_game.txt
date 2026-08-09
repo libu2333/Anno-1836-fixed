@@ -1025,19 +1025,14 @@ je_consolidate_british_india = {
 			save_scope_as = britain_scope
 		}
 		sr:region_north_india = {
-			save_scope_as = north_india_region
 		}
 		sr:region_south_india = {
-			save_scope_as = south_india_region
 		}
 		s:STATE_MANDALAY = {
-			save_scope_as = burma_state_scope
 		}
 		s:STATE_KACHIN = {
-			save_scope_as = kachin_state_scope
 		}
 		s:STATE_PEGU = {
-			save_scope_as = pegu_state_scope
 		}
 	}
 
@@ -1184,10 +1179,8 @@ je_maintain_afghan_protectorate = {
 		}
 		set_global_variable = afghanistan_conflict_started
 		cu:pashtun = {
-			save_scope_as = pashtun_scope
 		}
 		cu:tajik = {
-			save_scope_as = tajik_scope
 		}
 		sr:region_greater_persia = {
 			save_scope_as = persia_region

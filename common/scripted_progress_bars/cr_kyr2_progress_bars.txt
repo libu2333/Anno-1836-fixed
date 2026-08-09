@@ -1,0 +1,173 @@
+cr_kyr2_clan_cohesion_bar = {
+	name = "cr_kyr2_clan_cohesion_bar_name"
+	desc = "cr_kyr2_clan_cohesion_bar_desc"
+
+	default_green = yes
+
+	start_value = 55
+	min_value = 0
+	max_value = 100
+
+	monthly_progress = {
+		add = {
+			desc = "cr_kyr2_clan_cohesion_baseline_tt"
+			value = -0.25
+		}
+
+		owner = {
+			if = {
+				limit = { legitimacy < 50 }
+				add = {
+					desc = "cr_kyr2_clan_cohesion_low_legitimacy_tt"
+					value = -1
+				}
+			}
+			if = {
+				limit = { legitimacy >= 75 }
+				add = {
+					desc = "cr_kyr2_clan_cohesion_high_legitimacy_tt"
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						turmoil >= 0.10
+					}
+				}
+				add = {
+					desc = "cr_kyr2_clan_cohesion_turmoil_tt"
+					value = -1
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				exists = c:KOK
+				owner = {
+					has_diplomatic_pact = {
+						who = c:KOK
+						type = tributary
+					}
+				}
+			}
+			add = {
+				desc = "cr_kyr2_clan_cohesion_kokand_protection_tt"
+				value = 0.5
+			}
+		}
+		if = {
+			limit = { owner = { has_variable = cr_kyr2_baatyr_support } }
+			add = {
+				desc = "cr_kyr2_clan_cohesion_baatyr_support_tt"
+				value = owner.var:cr_kyr2_baatyr_support
+			}
+		}
+		if = {
+			limit = { owner = { has_variable = cr_kyr2_clan_rivalry } }
+			add = {
+				desc = "cr_kyr2_clan_cohesion_rivalry_tt"
+				value = owner.var:cr_kyr2_clan_rivalry
+			}
+		}
+		if = {
+			limit = { owner = { has_variable = cr_kyr2_kurultai_consensus } }
+			add = {
+				desc = "cr_kyr2_clan_cohesion_kurultai_tt"
+				value = owner.var:cr_kyr2_kurultai_consensus
+			}
+		}
+		if = {
+			limit = { owner = { has_variable = cr_kyr2_kokand_arbitration } }
+			add = {
+				desc = "cr_kyr2_clan_cohesion_kokand_arbitration_tt"
+				value = owner.var:cr_kyr2_kokand_arbitration
+			}
+		}
+	}
+}
+
+cr_kyr2_diplomatic_balance_bar = {
+	name = "cr_kyr2_diplomatic_balance_bar_name"
+	desc = "cr_kyr2_diplomatic_balance_bar_desc"
+	second_desc = "cr_kyr2_diplomatic_balance_bar_second_desc"
+
+	double_sided_gold = yes
+
+	start_value = 20
+	min_value = -100
+	max_value = 100
+
+	monthly_progress = {
+		if = {
+			limit = {
+				exists = c:KOK
+				owner = {
+					has_diplomatic_pact = {
+						who = c:KOK
+						type = tributary
+					}
+				}
+			}
+			add = {
+				desc = "cr_kyr2_diplomatic_balance_kokand_tributary_tt"
+				value = 0.5
+			}
+		}
+		if = {
+			limit = {
+				exists = c:KOK
+				owner = { "relations(c:KOK)" >= 50 }
+			}
+			add = {
+				desc = "cr_kyr2_diplomatic_balance_kokand_relations_tt"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				exists = c:KOK
+				owner = { "relations(c:KOK)" <= 0 }
+			}
+			add = {
+				desc = "cr_kyr2_diplomatic_balance_kokand_hostility_tt"
+				value = -1
+			}
+		}
+		if = {
+			limit = {
+				exists = c:CHI
+				owner = { "relations(c:CHI)" >= 50 }
+			}
+			add = {
+				desc = "cr_kyr2_diplomatic_balance_qing_relations_tt"
+				value = -1
+			}
+		}
+		if = {
+			limit = {
+				exists = c:CHI
+				owner = { "relations(c:CHI)" <= 0 }
+			}
+			add = {
+				desc = "cr_kyr2_diplomatic_balance_qing_hostility_tt"
+				value = 1
+			}
+		}
+		if = {
+			limit = { owner = { has_variable = cr_kyr2_kokand_pressure } }
+			add = {
+				desc = "cr_kyr2_diplomatic_balance_kokand_pressure_tt"
+				value = owner.var:cr_kyr2_kokand_pressure
+			}
+		}
+		if = {
+			limit = { owner = { has_variable = cr_kyr2_qing_pressure } }
+			add = {
+				desc = "cr_kyr2_diplomatic_balance_qing_pressure_tt"
+				value = owner.var:cr_kyr2_qing_pressure
+			}
+		}
+	}
+}

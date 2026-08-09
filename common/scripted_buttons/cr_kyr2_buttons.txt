@@ -1,0 +1,111 @@
+cr_kyr2_call_kurultai_button = {
+	name = "cr_kyr2_call_kurultai_button"
+	desc = "cr_kyr2_call_kurultai_button_desc"
+
+	visible = {
+		c:KYR2 ?= this
+	}
+
+	possible = {
+		NOT = { has_variable = cr_kyr2_kurultai_cooldown }
+	}
+
+	effect = {
+		set_variable = { name = cr_kyr2_kurultai_cooldown months = 60 }
+		set_variable = { name = cr_kyr2_kurultai_consensus value = 1 months = 24 }
+		custom_tooltip = cr_kyr2_call_kurultai_button_tt
+	}
+
+	ai_chance = { value = 5 }
+}
+
+cr_kyr2_kokand_envoys_button = {
+	name = "cr_kyr2_kokand_envoys_button"
+	desc = "cr_kyr2_kokand_envoys_button_desc"
+
+	visible = {
+		c:KOK ?= this
+	}
+
+	possible = {
+		exists = c:KYR2
+		NOT = { has_variable = cr_kyr2_kokand_envoys_cooldown }
+	}
+
+	effect = {
+		set_variable = { name = cr_kyr2_kokand_envoys_cooldown months = 72 }
+		c:KYR2 ?= {
+			change_relations = {
+				country = c:KOK
+				value = 15
+			}
+			set_variable = { name = cr_kyr2_kokand_pressure value = 1 months = 36 }
+		}
+		custom_tooltip = cr_kyr2_kokand_envoys_button_tt
+	}
+
+	ai_chance = { value = 0 }
+}
+
+cr_kyr2_qing_envoys_button = {
+	name = "cr_kyr2_qing_envoys_button"
+	desc = "cr_kyr2_qing_envoys_button_desc"
+
+	visible = {
+		c:CHI ?= this
+	}
+
+	possible = {
+		exists = c:KYR2
+		NOT = { has_variable = cr_kyr2_qing_envoys_cooldown }
+	}
+
+	effect = {
+		set_variable = { name = cr_kyr2_qing_envoys_cooldown months = 72 }
+		c:KYR2 ?= {
+			change_relations = {
+				country = c:CHI
+				value = 15
+			}
+			set_variable = { name = cr_kyr2_qing_pressure value = -1 months = 36 }
+		}
+		custom_tooltip = cr_kyr2_qing_envoys_button_tt
+	}
+
+	ai_chance = { value = 0 }
+}
+
+cr_qing_recover_eastern_burut_button = {
+	name = "cr_qing_recover_eastern_burut_button"
+	desc = "cr_qing_recover_eastern_burut_button_desc"
+
+	visible = {
+		c:CHI ?= this
+	}
+
+	possible = {
+		exists = c:KYR2
+		NOT = { has_diplomatic_play = yes }
+		c:KYR2 ?= {
+			NOT = { has_diplomatic_play = yes }
+			NOT = { is_subject_of = c:CHI }
+		}
+		NOT = { has_variable = cr_qing_eastern_burut_demand_cooldown }
+	}
+
+	effect = {
+		set_variable = { name = cr_qing_eastern_burut_demand_cooldown months = 60 }
+		create_diplomatic_play = {
+			name = cr_qing_eastern_burut_recovery
+			target_country = c:KYR2
+			type = dp_make_tributary
+			add_war_goal = {
+				holder = c:CHI
+				target_country = c:KYR2
+				type = make_tributary
+			}
+		}
+	}
+
+	ai_chance = { value = 0 }
+}

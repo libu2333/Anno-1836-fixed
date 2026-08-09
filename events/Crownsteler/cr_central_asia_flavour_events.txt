@@ -6,22 +6,7 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 	placement = p:xAA16B7
 
 	title = cr_central_asia_events.1.t
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				desc = cr_central_asia_events.1.d_kyrgyz_exit
-				trigger = {
-					exists = c:KYR2
-				}
-			}
-			triggered_desc = {
-				desc = cr_central_asia_events.1.d_kyrgyz_not_exist
-				trigger = {
-					always = yes
-				}
-			}
-		}
-	}
+	desc = cr_central_asia_events.1.d_kyrgyz_not_exist
 	flavor = cr_central_asia_events.1.f
 
 	event_image = {
@@ -43,21 +28,7 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 		any_scope_state = {
 			state_region = s:STATE_KIRGHIZIA
 		}
-		OR = {
-			NOT = { exists = c:KYR2 }
-			AND = {
-				exists = c:KYR2
-				c:KYR2 ?= {
-					has_diplomatic_pact = {
-						who = c:KOK
-						type = tributary
-					}
-					ruler = {
-						has_template = tailak_baatyr
-					}
-				}
-			}
-		}
+		NOT = { exists = c:KYR2 }
 	}
 	immediate = {
 		random_scope_state = {
@@ -66,29 +37,15 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 			}
 			save_scope_as = kokandi_kirghizia
 		}
-		if = {
-			limit = { exists = c:KYR2 }
-			c:KYR2 = {
-				save_scope_as = kyrgyzia
-				ruler = { save_scope_as = tailak_baatyr_scope }
-			}
-		}
 		cu:kirgiz = {
 			save_scope_as = kyrgyz_culture
 		}
 	}
 
 	option = {
-		name = cr_central_asia_events.1.a #Kill Tailak Baatyr
+		name = cr_central_asia_events.1.a
 		default_option = yes
 		custom_tooltip = cr_central_asia_events.1.a_tt_2
-		#custom_tooltip = cr_central_asia_events.1.a_tt
-		#trigger = {
-		#	authority > 0
-		#}
-		scope:tailak_baatyr_scope ?= {
-			kill_character = yes
-		}
 		if = {
 			limit = {
 				NOT = { has_modifier = cr_disunifying_the_kyrgyz } 
@@ -104,83 +61,26 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 				value = large_radicals
 			}
 		}
-		if = {
-			limit = {
-				exists = c:KYR2
-				c:KYR2 ?= {
-					is_country_type = decentralized
-				}
-			}
-			change_tension = {
-			  country = c:KYR2
-			  value = 40
-			}
-		}
-		else_if = {
-			limit = {
-				exists = c:KYR2
-			}
-			change_relations = {
-				country = scope:kyrgyzia
-				value = -30
-			}
-		}
-		hidden_effect = {
-			set_variable = {
-				name = cr_omran_is_coming
-			}
-		}
 		ai_chance = {
 			base = 95
 		}
 	}
 
 	option = {
-		name = cr_central_asia_events.1.b #Provoke Tailak Baatyr
-		if = {
-			limit = {
-				exists = c:KYR2
-			}
-			s:STATE_KIRGHIZIA = {
-				add_claim = c:KYR2
-			}
-			scope:kyrgyzia = {
-				remove_diplomatic_pact = {
-					country = c:KOK
-					type = tributary
-				}
-				create_diplomatic_play = {
-					#name = annex_war
-					target_country = c:KOK
-					type = dp_return_state
-					target_state = scope:kokandi_kirghizia
-
-					add_war_goal = { holder = c:KOK target_state = s:STATE_KIRGHIZIA.region_state:kyrgyzia type = make_tributary }
-				}
-			}
-			change_relations = {
-				country = scope:kyrgyzia
-				value = -50
-			}
-		}
-		else_if = {
-			limit = {
-				NOT = { exists = c:KYR2 }
-			}
-			custom_tooltip = {
-				text = cr_central_asia_events.1.b_tt
-				create_kyrgyzia_effect = yes
-				c:KYR2 ?= {
-					create_character = {
-						template = KYZ_tailak_batyr
+		name = cr_central_asia_events.1.b
+		custom_tooltip = {
+			text = cr_central_asia_events.1.b_tt
+			create_kyrgyzia_effect = yes
+			c:KYR2 ?= {
+				create_character = {
+					template = KYZ_tailak_batyr
 					}
 				}
 			}
-		}
 		scope:kokandi_kirghizia = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
 			add_radicals_in_state = {
 				culture = cu:kirgiz
-				value = very_large_radicals
+				value = large_radicals
 			}
 		}
 		if = {
@@ -195,243 +95,31 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 	}
 	option = {
 		name = cr_central_asia_events.1.c
-		custom_tooltip = cr_central_asia_events.1.c_tt
 		trigger = {
 			is_ai = no
 		}
-		if = {
-			limit = {
-				NOT = { exists = c:KYR2 }
-			}
-			custom_tooltip = {
-				text = cr_central_asia_events.1.b_tt
-				create_kyrgyzia_effect = yes
-				c:KYR2 ?= {
-					create_character = {
-						template = KYZ_tailak_batyr
-					}
-				}
-			}
-		}
-		c:KYR2 ?= {
-			remove_diplomatic_pact = {
-				country = c:KOK
-				type = tributary
-			}
-		}
-		play_as = C:KYR2
-		scope:kokandi_kirghizia = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
-			add_radicals_in_state = {
-				culture = cu:kirgiz
-				value = very_large_radicals
-			}
-		}
-		s:STATE_KIRGHIZIA = {
-			add_claim = c:KYR2
-		}
-		ai_chance = {
-			base = 0
-		}
-	}
-}
-
-cr_central_asia_events.5 = { #On the shores of the Issyk-Kul - Orman Khan's Kurultai
-	type = country_event
-	placement = p:xC8CDED
-
-	title = cr_central_asia_events.5.t
-	desc = cr_central_asia_events.5.d
-	flavor = cr_central_asia_events.5.f
-
-	event_image = {
-		video = "gfx/event_pictures/middleeast_upperclass_party.bk2"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-
-	dlc = dlc_anno1836
-
-	duration = 3
-	cooldown = { days = never_fire_again_modifier_time }
-	trigger = {
-		has_game_rule = kokand_occupiation
-		exists = c:KOK
-		c:KOK = this
-		
-		has_variable = cr_omran_is_coming
-		year < 1850
-		
-		any_scope_state = {
-			state_region = s:STATE_KIRGHIZIA
-		}
-		
-		OR = {
-			NOT = { exists = c:KYR2 }
-			AND = {
-				exists = c:KYR2
-				c:KYR2 = {
-					has_diplomatic_pact = {
-						who = c:KOK
-						type = tributary
-					}
-					NOR = {
-						ruler = { has_template = KYZ_tailak_batyr }
-						has_variable = cr_omran_is_coming
-					}
-				}
-			}
-		}
-	}
-
-	immediate = {
-		if = {
-			limit = {
-				NOT = { exists = c:KYR2 }
-			}
+		custom_tooltip = {
+			text = cr_central_asia_events.1.c_tt
 			create_kyrgyzia_effect = yes
-		}
-		c:KYR2 = {
-			save_scope_as = kyrgyzia
-			remove_diplomatic_pact = {
-				country = c:KOK
-				type = tributary
+			c:KYR2 ?= {
+				remove_diplomatic_pact = {
+					country = c:KOK
+					type = tributary
+				}
+				create_character = {
+					template = KYZ_tailak_batyr
+				}
 			}
-			create_character = {
-				template = KYZ_ormon_khan
+		}
+		play_as = C:KYR2
+		scope:kokandi_kirghizia = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
+			add_radicals_in_state = {
+				culture = cu:kirgiz
+				value = large_radicals
 			}
-			ruler = { save_scope_as = tailak_baatyr_scope }
 		}
-		
-		cu:kirgiz = {
-			save_scope_as = kyrgyz_culture
-		}
-		
-		random_scope_state = {
-			limit = { 
-				state_region = s:STATE_KIRGHIZIA
-			}
-			save_scope_as = kokandi_kirghizia
-		}
-	}
-
-	option = {
-		name = cr_central_asia_events.5.a #Orman is made khan
-		default_option = yes
-		custom_tooltip = cr_central_asia_events.5.a_tt
 		s:STATE_KIRGHIZIA = {
 			add_claim = c:KYR2
-		}
-		change_relations = {
-			country = c:KYR2
-			value = -25
-		}
-		scope:kokandi_kirghizia = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
-			add_radicals_in_state = {
-				culture = cu:kirgiz
-				value = large_radicals
-			}
-		}
-		if = {
-			limit = {
-				has_modifier = cr_disunifying_the_kyrgyz
-			}
-			remove_modifier = cr_disunifying_the_kyrgyz
-		}
-		ai_chance = {
-			base = 25
-		}
-	}
-	option = {
-		name = cr_central_asia_events.5.b #Perhaps we can ensure his support
-		trigger = {
-			influence > 0
-		}
-		custom_tooltip = cr_central_asia_events.5.b_tt
-		custom_tooltip = cr_central_asia_events.5.b_tt_2
-		if = {
-			limit = {
-				has_modifier = cr_disunifying_the_kyrgyz
-			}
-			remove_modifier = cr_disunifying_the_kyrgyz
-		}
-		add_modifier = {
-			name = cr_dealing_with_the_kyrgyz #-100 influence
-			days = normal_modifier_time
-		}
-		change_relations = {
-			country = c:KYR2
-			value = 15
-		}
-		scope:kokandi_kirghizia = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
-			add_radicals_in_state = {
-				culture = cu:kirgiz
-				value = medium_radicals
-			}
-		}
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 25
-				influence > 125
-			}
-		}
-	}
-
-	option = {
-		name = cr_central_asia_events.5.c #Disunify the clans
-		custom_tooltip = cr_central_asia_events.5.c_tt
-		custom_tooltip = cr_central_asia_events.5.c_tt_2
-		trigger = {
-			NOT = { has_modifier = cr_disunifying_the_kyrgyz } 
-		}
-		c:KYR2 = {
-			set_country_type = decentralized
-		}
-		change_relations = {
-			country = c:KYR2
-			value = -25
-		}
-		if = {
-			limit = {
-				NOT = { has_modifier = cr_disunifying_the_kyrgyz } 
-			}
-			add_modifier = {
-				name = cr_disunifying_the_kyrgyz
-				days = normal_modifier_time
-			}
-		}
-		scope:kokandi_kirghizia = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
-			add_radicals_in_state = {
-				culture = cu:kirgiz
-				value = medium_radicals
-			}
-		}
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 25
-				authority >175
-			}
-		}
-	}
-	option = {
-		name = cr_central_asia_events.5.e
-		trigger = {
-			is_ai = no
-		}
-		#hidden_effect = {
-		#	c:KYR = {
-		#		set_country_type = unrecognized
-		#	}
-		#}
-		play_as = C:KYR2
-		s:STATE_KIRGHIZIA.region_state:KOK = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
-			add_radicals_in_state = {
-				culture = cu:kirgiz
-				value = large_radicals
-			}
 		}
 		ai_chance = {
 			base = 0

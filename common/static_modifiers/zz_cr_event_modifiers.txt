@@ -14,6 +14,36 @@ cr_dealing_with_the_kyrgyz = {
 	country_influence_add = -100
 }
 
+cr_kyr2_consolidated_tribes = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_add = 50
+	country_prestige_add = 5
+}
+
+cr_kyr2_fractured_tribes = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_authority_add = -50
+	state_turmoil_effects_mult = 0.10
+}
+
+cr_kyr2_kokand_patronage = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 5
+	country_authority_add = -25
+}
+
+cr_kyr2_qing_suzerainty = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 5
+	country_authority_add = 25
+}
+
+cr_qing_eastern_burut_recovered = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 10
+	country_authority_add = 25
+}
+
 cr_consolidated_member = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_prestige_add = 10

@@ -61,7 +61,7 @@
  non_dyn_c_da_cc_peoples_rep:0 "大$NAME$人民共和国"
  non_dyn_c_da_cc_dem_rep:0 "大$NAME$民主共和国"
  non_dyn_c_da_cc_council:0 "大$NAME$公社"
- non_dyn_c_da_cc_council:0 "大$NAME$苏维埃"
+ non_dyn_c_da_cc_council2:0 "大$NAME$苏维埃"
  non_dyn_c_da_cc_province:"大$NAME$行省"
  non_dyn_c_da_cc_province2:"大$NAME$省"
  non_dyn_c_da_cc_subject:"大$NAME$总督区"

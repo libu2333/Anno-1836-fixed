@@ -67,7 +67,7 @@
  state_trait_great_american_desert: "The Great American Desert"
  
  ### Movement Modifier Type Definitions ###
- state_pop_support_movement_carlists_add: "$movement_carlists$ $concept_pop$ Attraction"
+state_pop_support_movement_carlists_add: "$movement_carlists_name$ $concept_pop$ Attraction"
  state_pop_support_movement_carlists_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_carlists_mult: "$state_pop_support_movement_carlists_add$"
  state_pop_support_movement_carlists_mult_desc: "$political_movement_pop_attraction_mult_desc$"
@@ -82,14 +82,14 @@
  state_pop_support_movement_frontier_movement_mult: "$state_pop_support_movement_frontier_movement_add$"
  state_pop_support_movement_frontier_movement_mult_desc: "$political_movement_pop_attraction_mult_desc$"
  
- state_pop_support_movement_christinos_add: "$movement_christinos$ $concept_pop$ Attraction"
+state_pop_support_movement_christinos_add: "$movement_christinos$ $concept_pop$ Attraction"
  state_pop_support_movement_christinos_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_christinos_mult: "$state_pop_support_movement_christinos_add$"
  state_pop_support_movement_christinos_mult_desc: "$political_movement_pop_attraction_mult_desc$"
  
  state_pop_support_movement_federalist_add: "movement_federalist $concept_pop$ Attraction"
  state_pop_support_movement_federalist_add_desc: "$political_movement_pop_attraction_mult_desc$"
- state_pop_support_movement_federalist_mult: "$state_pop_support_movement_christinos_add$"
+state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federalist_add$"
  state_pop_support_movement_federalist_mult_desc: "$political_movement_pop_attraction_mult_desc$"
  
  cr_desamortizacion_ig_devout:0 "Desamortización"

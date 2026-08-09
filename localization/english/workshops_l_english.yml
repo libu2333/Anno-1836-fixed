@@ -34,4 +34,4 @@
  pm_houses_subsidies: "Communal subsidies"
  #
  goods_input_tea_add: "@tea! $tea$ input"
- goods_input_coffee_add: "@coffe! $coffe$ input"
+goods_input_coffee_add: "@coffee! $coffee$ input"

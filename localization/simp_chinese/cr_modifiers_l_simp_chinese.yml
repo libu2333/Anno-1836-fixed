@@ -78,7 +78,7 @@
  state_trait_great_american_desert: "大美洲沙漠"
 
  ### 运动修正类型定义 ###
- state_pop_support_movement_carlists_add: "$movement_carlists$ $concept_pop$ 吸引力"
+state_pop_support_movement_carlists_add: "$movement_carlists_name$ $concept_pop$ 吸引力"
  state_pop_support_movement_carlists_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_carlists_mult: "$state_pop_support_movement_carlists_add$"
  state_pop_support_movement_carlists_mult_desc: "$political_movement_pop_attraction_mult_desc$"
@@ -93,14 +93,14 @@
  state_pop_support_movement_frontier_movement_mult: "$state_pop_support_movement_frontier_movement_add$"
  state_pop_support_movement_frontier_movement_mult_desc: "$political_movement_pop_attraction_mult_desc$"
 
- state_pop_support_movement_christinos_add: "$movement_christinos$ $concept_pop$ 吸引力"
+state_pop_support_movement_christinos_add: "$movement_christinos$ $concept_pop$ 吸引力"
  state_pop_support_movement_christinos_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_christinos_mult: "$state_pop_support_movement_christinos_add$"
  state_pop_support_movement_christinos_mult_desc: "$political_movement_pop_attraction_mult_desc$"
 
  state_pop_support_movement_federalist_add: "联邦主义运动 $concept_pop$ 吸引力"
  state_pop_support_movement_federalist_add_desc: "$political_movement_pop_attraction_mult_desc$"
- state_pop_support_movement_federalist_mult: "$state_pop_support_movement_christinos_add$"
+state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federalist_add$"
  state_pop_support_movement_federalist_mult_desc: "$political_movement_pop_attraction_mult_desc$"
 
  cr_desamortizacion_ig_devout:0 "教会财产没收"

@@ -2,9 +2,9 @@
  #政府名称
  gov_zz_hakomate:0 "哈科马特"
  gov_cr_khanate:0 "汗国"
- gov_cr_khanate_desc:0 "这是一种[concept_government_type]，权力完全掌握在[Concept('concept_ruler','$RULER_TITLE_KHAN$')]手中。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_cr_khanate_desc:0 "这是一种[concept_government_type]，大权悉归[Concept('concept_ruler','$RULER_TITLE_KHAN$')]。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
  gov_zz_caliphate:0 "哈里发国"
- gov_zz_caliphate_desc:0 "占位符"
+ gov_zz_caliphate_desc:0 "这是一种[concept_government_type]，由[Concept('concept_ruler','$RULER_TITLE_CALIPHA$')]统合宗教与世俗权威。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
  RULER_TITLE_CALIPHA:0 "哈里发"
  #gov_ethiopia_empire:0 "帝国"
  #gov_ethiopia_empire_desc:0 "这是一种[concept_government_type]，权力完全掌握在[Concept('concept_ruler','$RULER_TITLE_NEGUSA_NAGAST$')]或[Concept('concept_ruler','$RULER_TITLE_NEGESTA_NAGASTAT$')]手中。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
@@ -27,7 +27,7 @@
  gov_vorstenlandsur_desc:0 "作为古老马塔兰苏丹的直系后裔，苏拉卡尔塔的[Concept('concept_ruler','$RULER_TITLE_SUSUHUNAN$')]被授予自治的[Concept('concept_subject','$VORSTENLAND$')]地位。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
  gov_vorstenlandyog:0 "沃斯滕兰"
- gov_vorstenlandyog_desc:0 "这一本土国家是荷属东印度群岛内的一个自治藩属邦。苏丹通过属于古老马塔兰苏丹旁支的血统获得合法性。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_vorstenlandyog_desc:0 "此本土国家为荷属东印度群岛内的自治藩属邦。其苏丹凭借与古老马塔兰苏丹旁支相连的血统取得合法性。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
  gov_zz_DEI_princely_state_muslim:0 "藩属邦"
  gov_zz_DEI_princely_state_muslim_desc:0 "这一[Concept('concept_government_type','$NATIVE_STATE$')]是荷属东印度群岛内的一个自治[Concept('concept_subject','$PRINCELY_STATE$')]。其统治者被称为[Concept('concept_ruler','$RULER_TITLE_SULTAN$')]或[Concept('concept_ruler','$RULER_TITLE_SULTANA$')]\n\n$TRANSFER_OF_POWER_NAME_DESC$"
@@ -79,13 +79,13 @@
 
  #利益集团特性
  ig_trait_lax_enforcers:0 "松懈的执行者"
- ig_trait_lax_enforcers_desc:0 "作为殖民统治执行的关键力量，KNIL的士兵与军官最近似乎对这项工作采取了较为松懈的态度。"
+ ig_trait_lax_enforcers_desc:0 "作为殖民统治的关键执行力量，KNIL的士兵与军官近来对职责显得颇为懈怠。"
  ig_trait_foward_presence:0 "前沿存在"
- ig_trait_foward_presence_desc:0 "KNIL的可见存在在对本土人民执行统治方面具有某种特质。"
+ ig_trait_foward_presence_desc:0 "KNIL在本土社会中无所不在的存在，本身便是殖民统治的有力宣示。"
  ig_trait_marechaussee_te_voet:0 "步兵宪兵"
- ig_trait_marechaussee_te_voet_desc:0 "哪里出现麻烦，只要步兵宪兵的宪兵一出现，就不会持续太久。\n\n这支训练有素、深入丛林进行密集巡逻的高度机动反叛乱部队已被证明极其有效。"
+ ig_trait_marechaussee_te_voet_desc:0 "哪里生乱，步兵宪兵一到，乱子便难以久持。\n\n这支训练有素、高度机动的反叛乱部队深入丛林，进行密集巡逻，已证明极为有效。"
  ig_trait_friendly_faces:0 "友善面孔"
- ig_trait_friendly_faces_desc:0 "还有什么比通过本土人民早已熟知的本地贵族的友善面孔来巩固我们的统治更好的方式呢。"
+ ig_trait_friendly_faces_desc:0 "还有什么比借由本土民众熟悉的贵族面孔巩固统治更妥当的办法？"
  ig_trait_corvee:0 "徭役劳动"
  ig_trait_corvee_desc:0 "我辖区的道路确实需要彻底清理，你说是不是？还是你更希望我们帮你美化一下你的官邸？哦，别担心；这对我那些农奴……我是说对我自己来说不过是小事一桩。"
  ig_trait_helpful_natives:0 "乐于助人的本土人"

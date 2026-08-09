@@ -33,7 +33,7 @@
   cr_steppe_launch_first_expedition_effect: "我们将对肯尼萨里发起一次惩戒远征，有机会将其击退并#g 降低#!与#variable 诸玉兹#!之间的[concept_tension|l]，但也有可能被击败，从而#r 提高#!与#variable 诸玉兹#!之间的[concept_tension|l]。"
 
   cr_kazakh_events.1.t: "通往中亚之路"
-  cr_kazakh_events.1.d: "在我们南部边境之外，坐落着中亚那些著名的城市——[SCOPE.sCountry('khiva').GetName]、[SCOPE.sCountry('kokand').GetName]、[SCOPE.sCountry('bukhara').GetName]——古老的财富、信仰与影响力中心。它们的集市回荡着丝绸之路的遗产，它们的统治者掌控着强大的汗国；若能征服这些城市，将标志着俄罗斯野心在亚洲腹地的胜利。\n\n然而，它们仍然遥不可及，被广阔的草原所隔开——那是一片无法无天的开放草地，是游牧民、掠夺者和零散氏族的家园。要抵达这些城市，必须先让草原臣服。在布哈拉上空升起旗帜之前，必须先在守护它的草原上升起旗帜。"
+  cr_kazakh_events.1.d: "在我方南境之外，矗立着中亚最负盛名的城市——[SCOPE.sCountry('khiva').GetName]、[SCOPE.sCountry('kokand').GetName]与[SCOPE.sCountry('bukhara').GetName]；它们是财富、信仰与权势的古老中心。集市间仍回荡着丝绸之路的余韵，统治者则据有强盛的汗国。若能征服这些城市，俄罗斯在亚洲腹地的雄心便告得胜。\n\n但它们仍在远方，隔着一望无际的草原——那里没有成文的秩序，只有游牧民、掠袭者与离散的氏族。欲抵诸城，须先使草原臣服；欲在布哈拉城头升旗，须先在拱卫它的草原上立旗。"
   cr_kazakh_events.1.f: "这里没有道路，没有中央权威，也没有可以在地图上清晰划定的边界。只有风、马，以及步枪。"
   cr_kazakh_events.1.a: "开始向草原推进的战役。"
   cr_kazakh_events.1.a_tt: "通过在哈萨克地区建立持久控制，将俄罗斯的影响力扩展到中亚。"
@@ -41,8 +41,8 @@
   cr_kazakh_events.1.b_tt: "对中亚的殖民扩张将更加缓慢。"
 
   cr_kazakh_events.2.t: "叛乱的号角"
-  cr_kazakh_events.2.d: "在哈萨克草原上，一个危险的挑战正在形成。各氏族向来四分五裂、争斗不断，一直以来都比控制更容易管理。然而麻烦制造者[SCOPE.sCharacter('kenesary_scope').GetFirstName]却完成了前人未曾做到的事情：他召集各部举行盛大的库鲁尔台大会，并被拥立为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]，重新夺回了曾由他祖父阿布莱汗拥有的称号。\n\n随着各氏族在同一面旗帜下集结，我们在[SCOPE.sStrategicRegion('central_asia').GetName]的雄心面临新的、难以预测的障碍。即便如此，[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]仍在挥剑之余伸出橄榄枝——如果他的头衔得到承认，他愿向[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]效忠。是外交、挑衅还是权谋——只有时间能揭晓。"
-  cr_kazakh_events.2.f: "从北方牧场到锡尔河彼岸的沙漠，骑手们纷纷投奔他的旗帜，被血缘、信仰以及对往昔独立的记忆所联系。他的言辞传播得比我们的巡逻更快：统一的承诺，以及对远方统治的反抗。"
+  cr_kazakh_events.2.d: "哈萨克草原上，一个危险的挑战正在成形。诸氏族素来四分五裂、争斗不休，向来易于驾驭；然而[SCOPE.sCharacter('kenesary_scope').GetFirstName]却做成了前人未能做成之事：他召集各部，举行盛大的库鲁尔台，并被拥立为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]，重取其祖父阿布莱汗昔日所持的尊号。\n\n诸部既已会于一旗之下，我方在[SCOPE.sStrategicRegion('central_asia').GetName]的雄图便添了难以预料的阻碍。即便如此，[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]仍在挥剑之余递来橄榄枝：若承认其名号，他愿向[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]效忠。这是外交辞令、蓄意挑衅，抑或另有所图，尚待时日分晓。"
+  cr_kazakh_events.2.f: "自北方牧场至锡尔河彼岸的沙漠，骑手纷纷奔赴其麾下；血缘、信仰与对往昔独立的记忆将他们联结。他的言辞比我方巡逻传得更快，所许诺的既是统一，也是对远方统治的抗拒。"
   cr_kazakh_events.2.a: "我们试图平定的地方如今反而反抗我们。"
   cr_kazakh_events.2.b: "如果一个头衔能换来和平，那就给他吧。"
   cr_kazakh_events.2.c: "草原再次拥有了可汗！"
@@ -60,25 +60,25 @@
   cr_kazakh_events.4.b: "草原将记住这一天。"
 
   cr_kazakh_events.10.t: "草原的动荡"
-  cr_kazakh_events.10.desc: "边境日益不安。哥萨克巡逻队报告称哈萨克氏族的反抗正在增加——商队被袭击、前哨遭骚扰、使者被拒之门外。本意是带来秩序的改革反而激起了怨恨，旧有忠诚逐渐瓦解，新领袖则低声鼓动反抗。\n\n最近在彼得罗巴甫洛夫斯克附近发生的一次车队袭击令边境哨站十分震惊。有些人认为是寻求复仇的游骑兵所为；另一些人则提到了一个名字——[SCOPE.sCharacter('kenesary_scope').GetFirstName]，据说他正在聚集不满的骑手。\n无论原因如何，草原再次躁动不安。"
+  cr_kazakh_events.10.desc: "边境日益不宁。哥萨克巡逻队报称，哈萨克诸氏族的抗拒正渐成气候：商队遇袭、前哨受扰、使者被拒于门外。本欲带来秩序的改革反而激起怨愤，旧日忠诚渐次瓦解，新领袖则在暗中鼓动反抗。\n\n彼得罗巴甫洛夫斯克附近一支辎重队近日遇袭，令边防哨所大为震动。有人以为是怀恨的游骑兵所为；也有人低声提起[SCOPE.sCharacter('kenesary_scope').GetFirstName]之名，据称他正聚集心怀不满的骑手。无论缘由为何，草原又一次躁动起来。"
   cr_kazakh_events.10.flavour: "风在草原上传播的不只是尘土，还有叛乱的低语。"
   cr_kazakh_events.10.a: "加强边境驻军。"
   cr_kazakh_events.10.b: "通过贸易和宽容安抚各氏族。"
 
   cr_kazakh_events.11.t: "阿克莫林斯克突袭"
-  cr_kazakh_events.11.desc: "来自草原的消息很少有好消息，这次也不例外。阿克莫林斯克的边境哨站被一支哈萨克掠袭队攻破并洗劫，储备被掠夺，一些士兵被带往草原。\n\n虽然袭击和冲突并不新鲜，但这次行动的大胆程度连最老练的军官也感到不安。有人说只是普通强盗；也有人再次低声提到[SCOPE.sCharacter('kenesary_scope').GetFirstName]这个名字——据说这位野心勃勃的贵族正在聚集不满的氏族。无论真相如何，草原的秩序依旧岌岌可危。"
+  cr_kazakh_events.11.desc: "草原传来的消息鲜有佳音，此番亦然。阿克莫林斯克边防哨所遭一支哈萨克掠袭队攻破洗劫，辎重尽失，数名士兵也被掳往草原。\n\n袭击与冲突本不足为奇，但此次行动之大胆，连久历边事的军官也为之不安。有人说不过是寻常盗匪；也有人再度低声提起[SCOPE.sCharacter('kenesary_scope').GetFirstName]之名，据说这位野心勃勃的贵族正聚拢不满的氏族。无论真相为何，草原上的秩序仍岌岌可危。"
   cr_kazakh_events.11.flavour: "风在草原上传播的不只是尘土，还有谣言，而谣言会滋生动荡。"
   cr_kazakh_events.11.a: "派出惩戒部队恢复控制。"
   cr_kazakh_events.11.b: "在事态扩大前向各氏族派遣使者。"
 
   cr_kazakh_events.12.t: "草原集结"
-  cr_kazakh_events.12.desc: "草原弥漫着不安。信使在远方的阿乌勒之间奔走，曾经孤立燃起的篝火如今一同燃烧。旧日仇怨被暂时搁置，人们谈论失去的权利、外来的统治，以及为逝者复仇。曾经分裂氏族的争端，如今逐渐被共同目标所取代。\n\n响应号召的人中包括来自[SCOPE.sCountry('kenesary_ally_tag').GetNameNoFlag]的[SCOPE.sCharacter('kenesary_ally_char').GetFirstName]，他已让[SCOPE.sCharacter('kenesary_ally_char').GetLastNameNoFormatting]家族宣誓效忠[SCOPE.sCharacter('kenesary_scope').GetFirstName]的事业。"
+  cr_kazakh_events.12.desc: "草原间弥漫着不安。信使奔走于远近阿吾勒，昔日各自燃起的篝火如今连成一片。旧怨暂被搁置，人们谈论失去的权利、外来的统治与为逝者复仇；曾使诸氏族离散的争端，正逐渐让位于共同的目标。\n\n响应号召者中，有来自[SCOPE.sCountry('kenesary_ally_tag').GetNameNoFlag]的[SCOPE.sCharacter('kenesary_ally_char').GetFirstName]；他已使[SCOPE.sCharacter('kenesary_ally_char').GetLastNameNoFormatting]家族宣誓效忠[SCOPE.sCharacter('kenesary_scope').GetFirstName]的事业。"
   cr_kazakh_events.12.flavour: "袭击越来越大胆，队伍越来越庞大。边境再次升起烟火——彼此相隔遥远，却频繁出现，不可能只是巧合。"
   cr_kazakh_events.12.a: "派出惩戒部队恢复控制。"
   cr_kazakh_events.12.b: "叛乱的余烬正在发红。"
 
   cr_kazakh_events.13.t: "草原从手中溜走"
-  cr_kazakh_events.13.desc: "追捕[SCOPE.sCharacter('kenesary_scope').GetFirstName]的远征队终于在开阔草原上与他相遇。战斗短促而激烈——我们的齐射击溃了他的骑手，牲群四散。许多追随者倒下，旗帜被践踏进尘土。\n\n然而此人却再次逃脱。[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]消失在空旷的平原之中，只留下灰烬与尸体。他的营地被夺，储备丧失，他的名字被追随者咒骂。暂时而言，他的力量被打断了——但并未消失。"
+  cr_kazakh_events.13.desc: "追捕[SCOPE.sCharacter('kenesary_scope').GetFirstName]的远征队终于在开阔草原上与其相遇。战斗短促而激烈；我军齐射击溃其骑手，牲群四散，许多追随者倒下，旗帜亦被踏入尘土。\n\n然而此人再度逃脱。[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]没入无垠平原，只留下灰烬与尸体。营地既失，辎重尽弃，他的名字也遭追随者咒骂。其势暂受挫折，却尚未消灭。"
   cr_kazakh_events.13.flavour: "在草原上，即使失败也能消失在地平线之外。"
   cr_kazakh_events.13.a: "他会回来的，他们总会回来。"
 
@@ -89,7 +89,7 @@
   cr_kazakh_events.14.a_tt: "在一段时间内，[SCOPE.sCharacter('kenesary_scope').GetFirstName]不会再次出现。"
 
   cr_kazakh_events.15.t: "草原的反击"
-  cr_kazakh_events.15.desc: "针对[SCOPE.sCharacter('kenesary_scope').GetFirstName]的远征队在远离任何道路或要塞的地方遭遇了命运的打击。他的骑手昼夜骚扰我们的纵队，切断补给线、偷走马匹，然后消失在滚滚尘土之中。\n\n当战斗终于爆发时，连风也与我们为敌。草原化作火焰与混乱；枪械被沙尘卡住，人们在烟雾中迷失方向。只有少数人得以返回讲述这场灾难，其余人则埋葬在草地之下，他们的武器被当作战利品，他们的失败在边境营地中被低声议论。"
+  cr_kazakh_events.15.desc: "讨伐[SCOPE.sCharacter('kenesary_scope').GetFirstName]的远征队，在远离道路与要塞之处遭受沉重一击。他的骑手昼夜袭扰我军纵队，截断补给、掠走马匹，继而没入滚滚尘沙。\n\n战斗终于爆发时，连风也仿佛与我军为敌。草原化作火焰与混乱；枪械为沙尘所阻，人们在烟雾中迷失方向。仅有少数人得以生还，讲述这场灾难；余者长眠草下，武器沦为战利品，败讯则在边境营地间低声流传。"
   cr_kazakh_events.15.flavour: "草原记得属于它的人——外来者很难得到宽恕。"
   cr_kazakh_events.15.a: "猎人变成了猎物。"
 
@@ -114,12 +114,12 @@
   cr_kazakh_events.19.a: "来之不易的胜利。今晚边境能稍微安心了。"
 
   cr_kazakh_events.20.t: "草原上的挫败"
-  cr_kazakh_events.20.desc: "远征队遭遇的抵抗比预期更为猛烈。肯尼萨里的骑手以精准而凶猛的攻击，从每一处山脊与沟谷向纵队发动骚扰。补给车被焚毁，前哨在烟雾中消失，伤亡不断增加，指挥官别无选择，只得撤退至[SCOPE.sState('kazak_event_state').GetCityHubName]以保全残余部队。"
+  cr_kazakh_events.20.desc: "远征队所遇抵抗远比预料猛烈。肯尼萨里的骑手自山脊与沟谷间出没，以迅疾而凶悍的攻势不断袭扰我军纵队。补给车焚毁，前哨没于烟雾，伤亡与日俱增；指挥官别无选择，只得撤往[SCOPE.sState('kazak_event_state').GetCityHubName]，保全部队残余。"
   cr_kazakh_events.20.flavour: "草原不会宽恕鲁莽者，也不会宽恕疲惫者。"
   cr_kazakh_events.20.a: "惨痛的教训——撤退并重整部队。"
 
   cr_kazakh_events.21.t: "草原伏击"
-  cr_kazakh_events.21.desc: "我们派出的远征队本是为了迫使[SCOPE.sCharacter('kenesary_scope').GetFirstName]屈服，却遭遇不幸。在穿越一片荒凉草原时，一支分队在黎明时分遭到骑兵突袭。攻击突然且协调——补给车被焚毁，侦察兵被击溃，在部队尚未来得及列阵之前，袭击者便已再次消失在平原之中。\n\n随着伤亡增加、补给被毁，指挥官认为无法继续推进，已将远征队撤回[SCOPE.sState('kazak_event_state').GetCityHubName]整顿。[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]仍然逍遥在外，反抗依旧。"
+  cr_kazakh_events.21.desc: "我方远征队本欲迫使[SCOPE.sCharacter('kenesary_scope').GetFirstName]屈服，却反遭伏击。行经一片荒凉草原时，一支分队于黎明为骑兵突袭；攻势突然而周密，补给车焚毁，侦察兵溃散，部队尚未来得及列阵，袭者已再度消失于平原。\n\n伤亡既增，补给又毁，指挥官判断无法继续推进，遂将远征队撤回[SCOPE.sState('kazak_event_state').GetCityHubName]整顿。[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]仍逍遥在外，反抗亦未止息。"
   cr_kazakh_events.21.flavour: "草原吞没他们，就像吐出他们一样轻易。"
   cr_kazakh_events.21.desc_old: "我们的远征队深入草原追捕[SCOPE.sCharacter('kenesary_scope').GetFirstName]，却发现猎人与猎物的角色已经交换。叛军从山脊突然袭击我们的后卫与补给队，打散行李队并焚毁车队，然后再次消失在无尽的草海之中。\n\n虽然主力仍然完整，但人员与物资损失严重，士气也受到打击。[SCOPE.sCharacter('kenesary_scope').GetFirstName]再次证明了他的狡诈——重击之后便消失在地平线尽头。"
   cr_kazakh_events.21.flavour_old: "风会带走战斗的烟雾，却带不走失败的记忆。"
@@ -133,14 +133,14 @@
   cr_kazakh_events.30.b: "保持克制——让时间消磨他们的怨恨。"
 
   cr_kazakh_events.31.t: "游牧的氏族"
-  cr_kazakh_events.31.desc: "[SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName]的哈萨克人仍然带着牲群四处迁徙，追逐草场与季节，并不在意我们地图上画出的边界。他们在牧场之间来回移动——有时甚至跨越帝国的界线——只有当巡逻队要求缴纳贡税或出示他们看不懂的证件时，他们才想起我们的权威。在[SCOPE.sState('kazak_event_state').GetCityHubName]，总督正在考虑是限制他们的迁徙，还是把这种自由当作和平的代价。"
+  cr_kazakh_events.31.desc: "[SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName]的哈萨克人仍逐水草与四时迁徙，并不在意我方地图上划出的边界。他们往来于各处牧场，有时甚至越过帝国界线；唯有巡逻队索取赋税或查验他们看不懂的文书时，才会想起我方权威。在[SCOPE.sState('kazak_event_state').GetCityHubName]，总督正权衡：是限制其迁徙，还是将这份自由视作维系和平的代价。"
   cr_kazakh_events.31.desc_old: "在[SCOPE.sState('kazak_event_state').GetStateRegion.GetName]的草原上，哈萨克人仍带着牲群迁徙，追逐草场与季节。我们在地图上划出的边界，对他们几乎毫无意义。他们从一个牧场漂泊到另一个牧场，有时甚至跨越帝国的边界，只有当巡逻队要求贡税或证件时才想起我们的法律。\n\n在[SCOPE.sState('kazak_event_state').GetCityHubName]，总督正在权衡是否要限制他们的迁徙，还是容忍这种生活方式以换取和平。"
   cr_kazakh_events.31.flavour: "草原不承认边界——只承认地平线。"
   cr_kazakh_events.31.a: "实施固定牧区与边境管制。"
   cr_kazakh_events.31.b: "暂时允许他们保持自由。"
 
   cr_kazakh_events.32.t: "送给阿乌勒的礼物"
-  cr_kazakh_events.32.desc: "在草原上，唯一不变的就是变化。一个阿乌勒今天还在这里，明天便可能消失；忠诚也会随季节更替而改变。\n\n为了争取[SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName]哈萨克长者的好感，并让他们的阿乌勒依附于[ROOT.GetCountry.GetNameNoFormatting]，有人建议送出茶叶、盐和布匹——这些是礼物，而不是贿赂。"
+  cr_kazakh_events.32.desc: "草原上唯一不变者，便是变化。一个阿吾勒今日尚在，明日或已远去；忠诚亦随四时而易。\n\n为博得[SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName]哈萨克长者的好感，使其阿吾勒归附于[ROOT.GetCountry.GetNameNoFormatting]，有人建议赐下茶叶、盐与布匹——这是礼物，而非贿赂。"
   cr_kazakh_events.32.flavour: "哈萨克人反复无常，他们的阿乌勒各自为政。忠诚像草原上的风一样迅速改变；今天的朋友，明天可能就会投向他人。所谓忠诚，首先属于亲族，其次属于氏族，很少再超出此范围。"
   cr_kazakh_events.32.a: "批准礼物；花钱买来的和平总比流血换来的便宜。"
   cr_kazakh_events.32.b: "我们靠权威统治，而不是施舍。"
@@ -161,13 +161,13 @@
   cr_kazakh_events.34.b: "让他们游荡吧——这是他们的天性。"
 
   cr_kazakh_events.35.t: "不安的草原"
-  cr_kazakh_events.35.desc: "今天地平线上看到了烟尘——一个阿吾勒被焚毁，畜群四散。不知是强盗、敌对氏族还是不安的骑手所为。生活继续，但空气中多了一丝锐利，草原的和平似乎正在变薄。"
+  cr_kazakh_events.35.desc: "今日地平线上升起烟尘：一处阿吾勒已遭焚毁，畜群四散。凶手不明，或为盗匪，或为敌对氏族，或为心怀不轨的骑手。生活仍在继续，但空气中多了一层紧张，草原上的和平也仿佛愈发单薄。"
   cr_kazakh_events.35.flavour: "连风这些日子都仿佛带着怒气。"
   cr_kazakh_events.35.a: "增加巡逻队，恢复平静。"
   cr_kazakh_events.35.b: "忽略它；这些恩怨会自己烧尽。"
 
   cr_kazakh_events.40.t: "哈萨克争端"
-  cr_kazakh_events.40.desc: "[SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName]的敌对氏族间的世仇已导致数个阿吾勒被焚、家族流散。长老们如今向我们求助——他们说，与其让堂兄弟间无休止的流血，不如接受哥萨克的法律。"
+  cr_kazakh_events.40.desc: "[SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName]敌对氏族间的世仇，已使数处阿吾勒焚毁、数个家族流散。长老们如今向我方求助；他们说，与其任由堂兄弟之间无休止地流血，不如接受哥萨克的法律。"
   cr_kazakh_events.40.flavour: "是抢婚，还是私奔？是夺地，还是牧人寻找新牧场？是偷牛，还是正当索取报酬？是新仇，还是旧恨的报复？无人能说清，每一方都声称自己有理。但这样的争吵正是草原的生命之血，当荣誉要求复仇时，理智很少被邀请。"
   cr_kazakh_events.40.a: "派遣哥萨克强制和平。"
   cr_kazakh_events.40.b: "让氏族自己解决。"
@@ -203,9 +203,9 @@
 
   #中国反应
   cr_kazakh_events.60.t: "西部草原的动荡"
-  cr_kazakh_events.60.desc: "在我们西部边界的沙漠与河谷之外，草原变得不安。长期因习俗与争端而分裂的游牧氏族，如今聚集在某位[SCOPE.sCharacter('kenesary_scope').GetFirstName]身后，他宣布自己为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]，公然反抗[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]的扩张。\n\n我们势力范围内的哈萨克部落仍进贡并在我们保护下放牧，但草原无界限。若他的号召传得更远，边疆本身可能开始漂移。"
+  cr_kazakh_events.60.desc: "越过我方西境的沙漠与河谷，草原正变得不安。长期为习俗与争端所分裂的游牧氏族，如今聚集在[SCOPE.sCharacter('kenesary_scope').GetFirstName]麾下；他自号[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]，公然反抗[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]的扩张。\n\n我方势力范围内的哈萨克部落仍在纳贡，并受我方庇护而放牧；但草原本无疆界。若其号召传得更远，边疆的界线也将随之动摇。"
   cr_kazakh_events.60.flavour: "西部边疆从未平静——畜群漂移，劫掠者越界，忠诚转瞬即逝——但氏族的统一带来了新的不确定，那些在我们宗主权下的部落开始权衡义务与昔日自由的承诺。"
-  cr_kazakh_events.60.desc_recognised: "西方，草原如今服从单一意志。曾经无主游荡的氏族向[SCOPE.sCharacter('kenesary_scope').GetFirstName]宣誓效忠，他已被[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]朝廷承认为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]。他的名字远传过河流与沙漠，我们对最西部部落的掌控已悄然溜走。\n\n曾经标记他们阿吾勒的旗帜已降下；他们的骑手如今效忠他人。这损失悄无声息，但边疆的沉默诉说着时代变迁。"
+  cr_kazakh_events.60.desc_recognised: "在西方，草原如今听命于一人。曾四处游牧的氏族向[SCOPE.sCharacter('kenesary_scope').GetFirstName]宣誓效忠，而他已获[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]朝廷承认为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]。其名越过河流与沙漠远播，我方对最西部诸部的掌控也在无声中流失。\n\n昔日标记其阿吾勒的旗帜已经降下；骑手如今效忠他人。这一损失不闻喧响，边疆的沉默却足以诉说时代之变。"
   cr_kazakh_events.60.flavour_recognised: "草原不向任何墙垣或帝国低头；它的忠诚追随最强的骑手。"
   cr_kazakh_events.60.a: "令人担忧的发展。"
   cr_kazakh_events.60.a_tt: "我们已失去对所有未殖民#variable 哈萨克#!国家的控制。"

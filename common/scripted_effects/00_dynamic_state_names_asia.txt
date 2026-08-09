@@ -1703,7 +1703,7 @@ STATE_BALKH_state_name_assign = {
                         p:x69FEB3.state.owner = this
                         p:xB1300D.state.owner = this
                         p:xE78EEE.state.owner = this
-                        p.xBFE803.state.owner = this
+						p:xBFE803.state.owner = this
                         p:x11B523.state.owner = this
                     }
                 }

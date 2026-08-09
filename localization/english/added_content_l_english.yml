@@ -30,7 +30,7 @@ STATE_GHANA_dutch_full:"Goudkust"
 STATE_GHANA_dutch_partial:"Nederlandse Goudkust"
 HUB_NAME_STATE_GHANA_city_dutch:"Kumasi"
 HUB_NAME_STATE_GHANA_port_dutch:"Accra"
-UB_NAME_STATE_GHANA_mine_dutch:"Tamale"
+HUB_NAME_STATE_GHANA_mine_dutch:"Tamale"
 HUB_NAME_STATE_GHANA_farm_dutch:"Kustkaap"
 HUB_NAME_STATE_GHANA_wood_dutch:"Bolgatanga"
 # Akan
@@ -40,6 +40,5 @@ HUB_NAME_STATE_GHANA_port_akan:"Nkran"
 HUB_NAME_STATE_GHANA_mine_akan:"Tamale"
 HUB_NAME_STATE_GHANA_farm_akan:"Oguaa"
 HUB_NAME_STATE_GHANA_wood_akan:"Bolgatanga"
-
 
 

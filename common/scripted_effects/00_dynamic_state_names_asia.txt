@@ -71,14 +71,6 @@ assign_state_name_region_japan = {
     if = {
         limit = {
             state_region = {
-                s:STATE_TOHOKU ?= this
-            }
-        }
-        STATE_TOHOKU_state_name_assign = yes
-    }
-    if = {
-        limit = {
-            state_region = {
                 s:STATE_KANTO ?= this
             }
         }
@@ -363,14 +355,6 @@ assign_state_name_region_bombay = {
 }
 ## Bengal
 assign_state_name_region_bengal = {
-    if = {
-        limit = {
-            state_region = {
-                s:STATE_EAST_BENGAL ?= this
-            }
-        }
-        STATE_BOMBAY_state_name_assign = yes
-    }
     if = {
         limit = {
             state_region = {

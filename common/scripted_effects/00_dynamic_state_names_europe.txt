@@ -928,7 +928,7 @@ assign_state_name_region_iberia = { # region_iberia
     else_if = {
         limit = {
             state_region = {
-                s:STATE_LOWER_ANDALUSIA ?= this
+                s:STATE_MURCIA ?= this
             }
         }
         STATE_MURCIA_state_name_assign = yes

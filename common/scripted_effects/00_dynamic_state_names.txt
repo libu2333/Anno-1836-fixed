@@ -173,9 +173,9 @@ assign_state_hub_dynamic_names = {
     }
     if = { # Indonesia Region
         limit = {
-        	is_in_geographic_region = geographic_region_indochina
+            is_in_geographic_region = geographic_region_indonesia
         }
-    	assign_state_name_region_indonesia = yes
+        assign_state_name_region_indonesia = yes
     }
     if = { # South China Region
         limit = {

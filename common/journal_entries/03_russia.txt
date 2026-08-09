@@ -767,14 +767,6 @@ je_pacify_the_steppes = {
             save_scope_as = kenesary_scope
         }
 		trigger_event = { id = cr_kazakh_events.10 days = { 400 650 } }
-		if = {
-			limit = {
-				exists = c:BKH
-			}
-			c:BKH = {
-				trigger_event = { id = cr_bukey_events.1 days = { 90 210 } }
-			}
-		}
 		set_variable = {
 			name = cr_steppe_random_event_cooldown
 			days = { 60 120 }

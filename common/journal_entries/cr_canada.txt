@@ -679,38 +679,8 @@ je_cr_chateau_clique = {
 		c:GBR = {
 			save_scope_as = cr_lower_canada_overlord
 		}
-		c:ONT = {
-			save_scope_as = cr_upper_canada
-			ig:ig_devout = {
-				save_scope_as = cr_anglican_church
-			}
-		}
-		c:FRA = {
-			save_scope_as = cr_original_coloniser_quebec
-			ig:ig_devout = {
-				save_scope_as = cr_catholic_church
-			}		
-		}
-		ig:ig_intelligentsia = {
-			save_scope_as = cr_canadian_liberals
-		}
-		random_scope_character  = {
-			limit = {
-				has_template = QUE_louis_joseph_papineau
-			}
-			save_scope_as = louis_joseph_papineau
-		}
 		c:QUE = {
 			save_scope_as = cr_lower_canada
-		}
-		ig:ig_intelligentsia = {
-			save_scope_as = cr_canadian_liberals
-		}
-		ig:ig_industrialists = {
-			save_scope_as = cr_canadian_industrialists
-		}
-		ig:ig_landowners = {
-			save_scope_as = cr_canadian_landowners
 		}
 		cu:british = {
 			save_scope_as = english_culture
@@ -847,28 +817,6 @@ je_cr_92_resolutions_ENG = {
 		}
 		c:ONT = {
 			save_scope_as = cr_upper_canada
-		}
-		ig:ig_intelligentsia = {
-			save_scope_as = cr_canadian_liberals
-		}
-		ig:ig_industrialists = {
-			save_scope_as = cr_canadian_industrialists
-		}
-		ig:ig_landowners = {
-			save_scope_as = cr_canadian_landowners
-		}
-		c:ONT = {
-			ig:ig_devout = {
-				save_scope_as = cr_anglican_church
-			}
-		}
-		c:FRA = {
-			ig:ig_devout = {
-				save_scope_as = cr_catholic_church
-			}		
-		}
-		ig:ig_intelligentsia.leader = {
-			save_scope_as = louis_joseph_papineau
 		}
 		cu:british = {
 			save_scope_as = english_culture

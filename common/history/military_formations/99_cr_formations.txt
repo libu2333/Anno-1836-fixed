@@ -87,7 +87,6 @@
 				state_region = s:STATE_MINANGKABAU
 				count = 4
 			}
-			save_scope_as = army_of_minangkabau
 		}
 
 		create_character = {
@@ -109,7 +108,6 @@
 				stalwart_defender
 				forest_commander
 			}
-			save_scope_as = cr_tambusai
 			on_created = {
 				set_variable = {
 					name = is_tambusai
@@ -211,5 +209,4 @@
 		}
 	}
 }
-
 

@@ -964,7 +964,7 @@ SPA = {
 		trigger = {
 			scope:actor = {
 				has_law = law_type:law_monarchy
-				has_variable = cr_carlist_victory
+				has_variable = spain_carlist_victory
 			}
 		}
 	}

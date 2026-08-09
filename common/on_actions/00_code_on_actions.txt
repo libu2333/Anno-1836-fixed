@@ -6305,7 +6305,6 @@ on_wargoal_enforced = {
 				}
         	}
         	owner = {
-        		set_variable = cr_creek_removal_has_started
         		trigger_event = { id = cr_indian_removal.7 days = 0 popup = yes }
         	}
         }

@@ -1584,10 +1584,6 @@ cr_mexico_set_rebel_starting_military_small_effect = {
 
 cr_mexico_succesful_federalist_revolt_effect = {
 	scope:rebellious_tag_scope = {
-		set_variable = {
-			name = cr_mexico_integration_cooldown
-			days = 365
-		}
 		add_loyalists = {
 			value = very_large_radicals
 		}

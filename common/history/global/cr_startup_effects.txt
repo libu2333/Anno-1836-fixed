@@ -20,9 +20,6 @@ GLOBAL = {
 	}
 	
 	
-	c:FRA = {
-		trigger_event = { id = cr_minette_ores_events.1 days = 14 }
-	}
 	c:BKH ?= {
 		create_political_movement = { type = movement_land_reform  }
 		add_radicals = {

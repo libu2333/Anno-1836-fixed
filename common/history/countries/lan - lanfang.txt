@@ -35,7 +35,5 @@
 			add_ruling_interest_group = yes
 		}
 
-		trigger_event = { id = lanfang_city.1 }
-
 	}
 }

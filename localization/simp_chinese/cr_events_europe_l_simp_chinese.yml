@@ -6,8 +6,8 @@
   cr_europe_events.20.desc_GBR:0 "\n\n然而在我们接管时，该岛早已被西班牙长期废弃，而且它在我们抑制[SCOPE.sStrategicRegion('cr_biafra').GetName]湾奴隶贸易的努力中证明了相当大的价值。"
   cr_europe_events.20.desc_1_GBR_obl:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]已向我们提出请求，要求将[SCOPE.sState('cr_fernado_po_province').GetName]的控制权移交给他们，他们以1778年与葡萄牙签订的条约挑战我们在岛上的存在，该条约将岛屿交给他们，并提醒我们我们欠他们一项[concept_obligation|l]。\n\n该岛在我们接管时已被西班牙废弃，但已发展成为西非舰队的重要基地。失去它将严重妨碍我们在比夫拉湾抑制奴隶贸易的努力。"
   cr_europe_events.20.desc_1:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]要求我们将[SCOPE.sState('cr_fernado_po_province').GetName]的控制权移交给他们。他们声称根据1778年与葡萄牙签订的条约，该岛合法属于他们。"
-  cr_europe_events.20.desc_1_obl:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]要求我们将[SCOPE.sState('cr_fernado_po_province').GetName]的控制权移交给他们。他们声称根据1778年与葡萄牙签订的条约，该岛合法属于他们，并迅速提醒我们我们欠他们一项[concept_obligation|l]。"
-  cr_europe_events.20.desc_1_obl_offered:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]要求我们将[SCOPE.sState('cr_fernado_po_province').GetName]的控制权移交给他们。他们出示了1778年与葡萄牙签订的条约，该条约授予他们所有权，但在这法律主义的表象背后，隐含着他们将成为我们债务人的默契。"
+  cr_europe_events.20.desc_1_obl:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]要求我们将[SCOPE.sState('cr_fernado_po_province').GetName]的控制权移交给他们。他们声称根据1778年与葡萄牙签订的条约，该岛合法属于他们，并提醒我方尚欠他们一项[concept_obligation|l]。"
+  cr_europe_events.20.desc_1_obl_offered:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]要求我们将[SCOPE.sState('cr_fernado_po_province').GetName]的控制权移交给他们。他们出示了1778年与葡萄牙签订的条约，该条约授予他们所有权，但在这番法理说辞背后，是让他们欠下我方人情的默契。"
 
   cr_europe_events.20.desc_2:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再次提出对[SCOPE.sState('cr_fernado_po_province').GetName]岛的所有权问题，重申根据他们1778年与葡萄牙签订的条约，我们在岛上的存在是非法的。"
   cr_europe_events.20.desc_2_obl:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再次提出对[SCOPE.sState('cr_fernado_po_province').GetName]岛的所有权问题，他们用1778年与葡萄牙签订的条约作为掩饰，但强烈暗示我们欠他们一项[concept_obligation|l]。"
@@ -65,7 +65,7 @@
   cr_carlist_events.1.c_tt2:0 "[GetPopType('clergymen').GetName]对[SCOPE.sPoliticalMovement('carlist_movement').GetName]的吸引力将减弱。"
 
   cr_carlist_events.10.t:0 "贝尔加拉的拥抱"
-  cr_carlist_events.10.desc:0 "随着[SCOPE.sCountry('cr_christinos').GetAdjectiveNoFormatting]旗帜如今飘扬在潘普洛纳上空，唐·[SCOPE.sCharacter('don_carlos_char').GetFirstName]如无国之王般逃亡，这场撕裂西班牙的战争接近尾声。他的事业——封建特权、教权暴政与叛乱——已成废墟，被他本人所抛弃。西班牙获胜了。\n\n然而胜利带来了新问题：我们将如何治理这个新恢复的国家？[SCOPE.sCulture('cr_basque_culture').GetName]虽被卡洛斯派僭称者误导，但长期忠于西班牙。我们是否应伸出和平之手，允许他们保留古老的#variable Fueros#!（特权法）？抑或最终完成国家统一大业，扫除旧制度最后残余？"
+  cr_carlist_events.10.desc:0 "随着[SCOPE.sCountry('cr_christinos').GetAdjectiveNoFormatting]旗帜如今飘扬在潘普洛纳上空，唐·[SCOPE.sCharacter('don_carlos_char').GetFirstName]以亡国之王的姿态出逃，这场撕裂西班牙的战争接近尾声。他的事业——封建特权、教权保守主义与叛乱——已成废墟，被他本人所抛弃。西班牙获胜了。\n\n然而胜利带来了新问题：我们将如何治理这个新恢复的国家？[SCOPE.sCulture('cr_basque_culture').GetName]虽被卡洛斯派僭称者误导，但长期忠于西班牙。我们是否应伸出和平之手，允许他们保留古老的#variable Fueros#!（特权法）？抑或最终完成国家统一大业，扫除旧制度最后残余？"
   cr_carlist_events.10.desc_2:0 "在其军队被击败、[SCOPE.sCountry('cr_christinos').GetAdjectiveNoFormatting]旗帜飘扬在[SCOPE.sState('cr_state_navarra').GetCityHubName]后，唐·[SCOPE.sCharacter('don_carlos_char').GetFirstName]以携卡洛斯事业逃亡国外，显示了他的个人价值。\n\n现在的问题是：如何继续？我们是安抚[SCOPE.sCulture('cr_basque_culture').GetName]，允许他们保留独立法律？还是废除这一旧制度遗迹？"
   cr_carlist_events.10.flavour:0 "贝尔加拉条约结束了悲惨而漫长的冲突。我希望和平能让西班牙重建战争摧毁的一切。仍有深重伤口需要愈合，但这一协议是走向和解的一步。"
   cr_carlist_events.10.a:0 "西班牙终将统一"
@@ -113,11 +113,11 @@
 
   cr_carlist_events.15.desc_legitimist_absolutist:0 "一位无王位的国王，唐·波旁的[SCOPE.sCharacter('don_carlos_char').GetFirstName]抵达波尔多，在[SCOPE.sCountry('spain').GetNameNoFormatting]自由主义暂时胜利后寻求在[ROOT.GetCountry.GetAdjectiveNoFormatting]土地上的庇护。他的军队或已四散，但他的主张完整无损，未因流亡而减损。他仍是西班牙合法君主，王座与祭坛传统的继承人，被武力而非权利废黜。\n\n他的存在既是风险也是机会。庇护他可能损害与马德里的关系，但也提供了维护神圣秩序、守护西班牙合法君主制的机会。若风向转变，唐·[SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting]或可重夺生而有之、依法属于他的东西。问题不在于他是否仍是国王——而在于[ROOT.GetCountry.GetNameNoFormatting]是否准备好在时机到来时助他复辟。"
 
-  cr_carlist_events.15.desc_bonapartist:0 "衣衫褴褛、惨遭失败的[SCOPE.sCountry('spain').GetAdjectiveNoFlag]僭称者唐·[SCOPE.sCharacter('don_carlos_char').GetFirstName]抵达波尔多，在其注定失败的叛乱于[SCOPE.sCountry('spain').GetRuler.GetPrimaryRoleTitle][SCOPE.sCountry('spain').GetRuler.GetFirstName]的军队面前崩溃后寻求庇护。他曾自称[SCOPE.sCountry('spain').GetNameNoFlag]的救世主，如今进入[ROOT.GetCountry.GetNameNoFormatting]却不是作为统治者，而是作为逃亡者，背负着自己过时事业的重担。\n\n他的到来提出疑问：一个进步的国家对一个试图倒退时钟的人有何容身之地？在[ROOT.GetCountry.GetNameNoFormatting]，我们早已摆脱封建与教权枷锁，铸就秩序与力量主导的国家。我们应给予他庇护，还是让他留给历史，成为一个不再存在的世界的残余？"
+  cr_carlist_events.15.desc_bonapartist:0 "衣衫褴褛、兵败失意的[SCOPE.sCountry('spain').GetAdjectiveNoFlag]僭称者唐·[SCOPE.sCharacter('don_carlos_char').GetFirstName]抵达波尔多，在其注定失败的叛乱于[SCOPE.sCountry('spain').GetRuler.GetPrimaryRoleTitle][SCOPE.sCountry('spain').GetRuler.GetFirstName]的军队面前崩溃后寻求庇护。他曾自称[SCOPE.sCountry('spain').GetNameNoFlag]的救世主，如今进入[ROOT.GetCountry.GetNameNoFormatting]却不是作为统治者，而是作为逃亡者，背负着自己过时事业的重担。\n\n他的到来提出疑问：一个自诩进步的国家，是否应收留一个企图让历史倒退的人？在[ROOT.GetCountry.GetNameNoFormatting]，我们早已摆脱封建与教权枷锁，铸就秩序与力量主导的国家。我们应给予他庇护，还是让他留给历史，成为一个不再存在的世界的残余？"
   cr_carlist_events.15.desc_bonapartist_flavour:0 "曾经是伊比利亚绝对主义的火炬手，唐·卡洛斯如今抵达法国却不是作为君主，而是作为退却之人。在波尔多，他是欧洲旧秩序的遗物——波旁在波拿巴土地上的身影，一个无事业的僭称者。他的名字在某些圈子仍有分量，但他的战争已结束。留下的问题是微妙的：他是客人、负担，还是等待复苏的象征？"
 
   cr_carlist_events.15.a.bonapartist:0 "给予庇护，但不支持其事业。"
-  cr_carlist_events.15.a.bonapartist_tt:0 "唐·[SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting]寻求庇护以逃避其行动后果。我们将给予他庇护，但不会允许他在法国推进王位主张。他作为客人受欢迎，但他的事业已死。"
+  cr_carlist_events.15.a.bonapartist_tt:0 "唐·[SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting]寻求庇护以逃避其行动后果。我们将给予他庇护，但不会允许他在法国推进王位主张。他可作为客人受欢迎，其事业却已终结。"
   cr_carlist_events.15.b.bonapartist:0 "利用其存在羞辱旧君主制。"
   cr_carlist_events.15.b.bonapartist_tt:0 "唐·[SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting]是欧洲君主制一切错误的象征。让我们利用他的存在羞辱旧秩序，提醒欧洲反动统治的危险。法国作为进步堡垒，不应成为想要倒退时钟的君主的避风港。"
   cr_carlist_events.15.c.bonapartist:0 "不干涉——让西班牙决定其命运。"

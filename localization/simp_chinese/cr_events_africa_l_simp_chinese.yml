@@ -20,7 +20,7 @@
  cr_ethiopia_events.6.t:0 "所罗门家族的陨落"
 
  cr_south_africa_events.1.t:0 "边疆和平"
- cr_south_africa_events.1.desc:0 "凯斯卡马河沿岸的枪声已沉寂，但和平尚未扎根。山谷中仍升起浓烟，空气中弥漫着废墟的恶臭——田地被践踏，牛栏荒废，牲畜四散。 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 已退至河对岸，他们的抵抗虽被击溃，但骄傲未曾屈服。\n\n现在问题转向下一步该如何行事。有人主张继续推进边疆，将定居与秩序带入此前无人之地；有人主张轻柔手段——将 [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] 置于保护国之下，通过劝导而非征服来维持和平；还有人厌倦无休止的冲突与开支，希望军队撤回旧边界，让这条河流再次将两个疲惫的民族分开。"
+ cr_south_africa_events.1.desc:0 "凯斯卡马河沿岸的枪声已沉寂，但和平尚未扎根。山谷中仍升起浓烟，空气中弥漫着废墟的恶臭——田地被践踏，牛栏荒废，牲畜四散。 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 已退至河对岸，他们的抵抗虽被击溃，但骄傲未曾屈服。\n\n现在问题转向下一步该如何行事。有人主张继续推进边疆，将定居与秩序带入尚未纳入殖民统治的地区；有人主张采取较为温和的手段——将 [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] 置于保护国之下，通过劝导而非征服来维持和平；还有人厌倦无休止的冲突与开支，希望军队撤回旧边界，让这条河流再次将两个疲惫的民族分开。"
  cr_south_africa_events.1.desc_old:0 "战火的余烬仍在边疆闷烧。田野焦黑，家园残破，牲畜四散——但 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 已被驱逐至凯斯卡马河对岸。他们顽强而绝望的抵抗暂时被击破，尽管他们的酋长仍保持不屈。\n\n我们现在必须决定如何巩固这来之不易的和平。是重新划定边疆，将土地并入王室权威？是强迫 [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] [SCOPE.sCountry('xhosa_scope').GetRuler.GetPrimaryRoleTitle] 接受英国保护与监督？还是厌倦无休止的劫掠与报复，撤回旧边界，让凯斯卡马河再次标示英国统治的极限？"
  cr_south_africa_events.1.flavour:0 "边疆再次属于我们，尽管脚下土壤似乎仍在闷烧。"
  cr_south_africa_events.1.a:0 "将边疆向东推进，并宣布建立新省。"
@@ -38,7 +38,7 @@
 
  cr_south_africa_events.2.t_protectorate:0 "凯河上空的浓烟"
  cr_south_africa_events.2.desc_protectorate:0 "战斗已停止，但和平尚未降临。山谷荒芜，牲畜四散，人民在多年的饥饿与损失后疲惫不堪。土地被夺，酋长被杀，[SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] 军队以火与钢横扫，将各氏族驱至凯河以东，并宣称平原为其所有。\n\n如今他们的士兵谈论王冠阴影下的保护与和平。他们承诺安全与贸易，却要求服从与贡赋。有些酋长从中看到生存之道；其他人只听到征服的回音。大地仍在，但其精神仍动荡不安。"
- cr_south_africa_events.2.flavour_protectorate:0 "他们献上的和平，却披着士兵的外衣。"
+ cr_south_africa_events.2.flavour_protectorate:0 "他们献上的和平，仍披着士兵的外衣。"
  cr_south_africa_events.2.a_protectorate:0 "忍耐并在凯河以东重建。"
  cr_south_africa_events.2.b_protectorate:0 "暂时接受英国保护。"
  cr_south_africa_events.2.c_protectorate:0 "寻求与定居者和平共处，保护剩余的一切。"

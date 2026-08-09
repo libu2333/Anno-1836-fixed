@@ -147,7 +147,7 @@
  cr_indian_removal.30.desc:0 "不愿等待[SCOPE.sCountry('cr_intruded_country').GetNameNoFormatting]迁移开始、他们在[SCOPE.sState('cr_squatter_state').GetName]的土地向定居开放，各路有心人已开始擅自进入印第安土地，插标圈地。"
  cr_indian_removal.30.f:0 "为什么这些印第安人能独占这么多土地？你看到这片黏土了吗？想象一下我们能种什么；想象一下我们能在这里建什么！可印第安人却让土地荒废。"
  cr_indian_removal.30.f_2:0 "我们还能怎么办？家乡几乎找不到足够养活自己的土地——更别说养家糊口——好地全被[SCOPE.gsInterestGroup('planters').GetNameNoIcon]占了。可这里，在这片新[SCOPE.sState('cr_squatter_state').GetNameNoFormatting]，土地既多又肥沃。在这里能开创未来。"
- cr_indian_removal.30.f_3:0 "切罗基人也遭到擅自进入他们土地的白人民众的恐吓与殴打。有一次，布特里克看到三个醉酒白人追赶一群切罗基人靠近他家。那群暴徒殴打了一个名叫扬·土耳其的切罗基人。扬·土耳其反击一人后与同伴逃跑，暴徒追赶。白人‘骑马全力追赶，咒骂着要杀死其中一个印第安人’时被布特里克发现。切罗基人逃进布特里克的‘门前院子’。布特里克拒绝让追捕者进入；最终，他的一位熟人劝走了暴徒。"
+ cr_indian_removal.30.f_3:0 "切罗基人也遭到擅自进入他们土地的白人定居者的恐吓与殴打。有一次，布特里克看到三个醉酒白人追赶一群切罗基人靠近他家。那群暴徒殴打了一个名叫扬·土耳其的切罗基人。扬·土耳其反击一人后与同伴逃跑，暴徒追赶。白人‘骑马全力追赶，咒骂着要杀死其中一个印第安人’时被布特里克发现。切罗基人逃进布特里克的‘门前院子’。布特里克拒绝让追捕者进入；最终，他的一位熟人劝走了暴徒。"
  cr_indian_removal.30.f_4:0 "我五岁时，正在前院玩耍，突然来了一辆马车，陌生人命令所有人上车。他们让我把玩具扔在泥土里，马车开走时，一个白人男孩——新家的儿子——已经在玩我的玩具。\n—#italic 一位乔克托长老#! "
  cr_indian_removal.30.a_tt:0 "我们将强行驱逐入侵者离开[SCOPE.sCountry('cr_intruded_country').GetNameNoFlag]领土。"
  cr_indian_removal.30.b:0 "[SCOPE.sCountry('cr_intruded_country').GetNameNoFormatting]迁移无论如何都是必然的"
@@ -231,7 +231,7 @@
  cr_indian_removal.41.t:0 "印第安改善协会"
  cr_indian_removal.41.desc:0 "在印第安迁移必要性的争论中，[SCOPE.sState('indian_society_state').GetName]的倡导者热情捍卫此事业，认为这是保护原住民未来的唯一手段。\n\n他们支持向西迁移的理念，向任何选择西迁的印第安人提供支持与协助，相信这是保存其文化与福祉的最佳希望。"
  cr_indian_removal.41.desc_2:0 "随着印第安迁移必要性争论激烈进行，来自[SCOPE.sState('indian_society_state').GetName]的几位支持者联合推广此理念，承诺协助任何希望西迁的印第安人。"
- cr_indian_removal.41.f_1:0 "我需要停下来证明，在部落处于我们州内的情况下，彻底重塑印第安性格、将其改造成文明形态是多么不切实际吗？哪里有任何一个部落完成这种转变的例子？我一个也不知道。但我知道许多例子，即便付出最不懈的努力，印第安人也……消失了。\n—#italic 托马斯·L·麦肯尼上校#! "
+ cr_indian_removal.41.f_1:0 "我需要停下来证明，在部落处于我们州内的情况下，彻底改造印第安人的性情、使其符合所谓文明标准是多么不切实际吗？哪里有任何一个部落完成这种转变的例子？我一个也不知道。但我知道许多例子，即便付出最不懈的努力，印第安人也……消失了。\n—#italic 托马斯·L·麦肯尼上校#! "
  cr_indian_removal.41.f_2:0 "好人之间对如何保存与改善印第安人的看法存在分歧是自然的。我们知道有好人反对印第安人迁移。我们尊重他们及其动机。他们寻求拯救与文明化这些人。我们宣称目标相同，仅在方式上不同。\n—#italic 托马斯·L·麦肯尼上校#! "
  cr_indian_removal.41.f_3:0 "我们相信，若印第安人不迁移、不逃离他们自身固有的、过去已证明极具破坏性的原因，#italic 他们将灭亡#! 。尽管我们基于亲身调查得出的结论，我们或许会怀疑自己，但经验证实了它们。唉！正是经验的告诫胜过一切，敦促我们用一切荣誉手段说服这些不幸之人接受向他们提出的政策。\n—#italic 托马斯·L·麦肯尼上校#! "
  cr_indian_removal.41.f_4:0 "有些人认为印第安人反对迁移，并打算使用武力强迫他们离开。关于我们州内大多数印第安人的意愿，我们可以负责任地说，他们渴望迁移。目前的激动情绪很大程度上是由那些希望印第安人留在原地的人的反对引起的。\n—#italic 托马斯·L·麦肯尼上校#! "
@@ -285,7 +285,7 @@
  cr_indian_removal.51.b_tt:0 "部分[SCOPE.sCountry('target_of_removal').GetNameNoFormatting]将逃脱抓捕，并在[SCOPE.sState('cr_cleared_state').GetName]定居"
 
  cr_indian_removal.52.t:0 "本土同情者"
- cr_indian_removal.52.desc:0 "[SCOPE.sState('indian_removal_state').GetName]的部分公民开始庇护并暗中支持留下的[SCOPE.sCountry('target_of_removal').GetNameNoFlag]，极大阻碍我们将最后这些散兵迁往西部的努力。"
+ cr_indian_removal.52.desc:0 "[SCOPE.sState('indian_removal_state').GetName]的部分公民开始庇护并暗中支持留下的[SCOPE.sCountry('target_of_removal').GetNameNoFlag]，极大阻碍我们将最后这些离散者迁往西部的努力。"
  cr_indian_removal.52.a:0 "逮捕这些同情者"
  cr_indian_removal.52.b:0 "在我们努力将[culture]从[STATE]迁往新土地时"
 
@@ -320,7 +320,7 @@
  cr_indian_removal.56.b:0 "我们难道不能帮助他们？"
  cr_indian_removal.56.b_tt:0 "此选项因我们对$institution_health_system$ [concept_institution]的投资而可用"
  cr_indian_removal.56.c:0 "将这场灾难公之于众，为我所用"
- cr_indian_removal.56.c_tt:0 "我们将在政治舞台上利用[SCOPE.sCountry('target_of_removal').GetNameNoFlag]的苦难为我们谋利"
+ cr_indian_removal.56.c_tt:0 "我们将借[SCOPE.sCountry('target_of_removal').GetNameNoFlag]的苦难谋取政治利益"
  cr_indian_removal.56.c_tt_2:0 "此选项因我们推动或存在运动以推行$institution_health_system$ [concept_law]而可用"
 
  cr_indian_removal.57.t:0 "蒸汽船灾难！"
@@ -354,7 +354,7 @@
  cr_indian_removal.60.a:0 "我们必须做点什么"
  cr_indian_removal.60.b:0 "肯定有哪个大佬从中发财了……"
  cr_indian_removal.60.c:0 "将这场灾难公之于众，为我所用"
- cr_indian_removal.60.c_tt:0 "我们将在政治舞台上利用[SCOPE.sCountry('target_of_removal').GetNameNoFlag]的苦难为我们谋利"
+ cr_indian_removal.60.c_tt:0 "我们将借[SCOPE.sCountry('target_of_removal').GetNameNoFlag]的苦难谋取政治利益"
 
  cr_indian_removal.61.t:0 "[Culture]玫瑰"
  cr_indian_removal.61.desc:0 "当[Culture]前往西部新土地时，他们身后留下一路盛开的玫瑰，绵延至目所能及之处。"

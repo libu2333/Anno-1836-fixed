@@ -106,10 +106,10 @@ assign_state_name_region_zanj = {
     if = {
         limit = {
             state_region = {
-                s:STATE_ZAMBEZIA ?= this
+                s:STATE_SOFALA ?= this
             }
         }
-        STATE_ZAMBEZIA_state_name_assign = yes
+        STATE_SOFALA_state_name_assign = yes
     }
     if = {
         limit = {
@@ -766,7 +766,7 @@ STATE_MOCAMBIQUE_state_name_assign = {
     }
 }
 
-STATE_ZAMBEZIA_state_name_assign = {
+STATE_SOFALA_state_name_assign = {
     if = {
         limit = {
             owner = {
@@ -775,7 +775,7 @@ STATE_ZAMBEZIA_state_name_assign = {
                 }
             }
         }
-        set_state_name = STATE_ZAMBEZIA_portuguese
+        set_state_name = STATE_SOFALA_portuguese
         set_hub_names = portuguese
     }
     else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states

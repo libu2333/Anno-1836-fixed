@@ -475,9 +475,9 @@ on_monthly_pulse = {
 				limit = { # Do not evaluate this unless this country or its subjects own all of Zambezia and East Angola
 					c:POR ?= {
 						OR = {
-							owns_entire_state_region = STATE_ZAMBEZIA
+							owns_entire_state_region = STATE_SOFALA
 							any_subject_or_below = {
-								owns_entire_state_region = STATE_ZAMBEZIA
+								owns_entire_state_region = STATE_SOFALA
 							}
 						}
 						OR = {

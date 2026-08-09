@@ -15,30 +15,3 @@ added_decision_zouxikou_desc:"As early as the Kangxi period, there were many peo
 #Correction
 reclamation_enthusiasm:"Enthusiasm for reclamation"
 chuangguandong:"Go to Guandong"
-
-### Gold Coast
-# Danish
-STATE_GHANA_danish_full:"Guldkysten"
-STATE_GHANA_danish_partial:"Danske Guldkyst"
-HUB_NAME_STATE_GHANA_city_danish:"Kumasi"
-HUB_NAME_STATE_GHANA_port_danish:"Christiansborg"
-HUB_NAME_STATE_GHANA_mine_danish:"Tamale"
-HUB_NAME_STATE_GHANA_farm_danish:"Frederiksborg"
-HUB_NAME_STATE_GHANA_wood_danish:"Bolgatanga"
-# Dutch
-STATE_GHANA_dutch_full:"Goudkust"
-STATE_GHANA_dutch_partial:"Nederlandse Goudkust"
-HUB_NAME_STATE_GHANA_city_dutch:"Kumasi"
-HUB_NAME_STATE_GHANA_port_dutch:"Accra"
-HUB_NAME_STATE_GHANA_mine_dutch:"Tamale"
-HUB_NAME_STATE_GHANA_farm_dutch:"Kustkaap"
-HUB_NAME_STATE_GHANA_wood_dutch:"Bolgatanga"
-# Akan
-STATE_GHANA_akan:"Asanteman"
-HUB_NAME_STATE_GHANA_city_akan:"Kumasi"
-HUB_NAME_STATE_GHANA_port_akan:"Nkran"
-HUB_NAME_STATE_GHANA_mine_akan:"Tamale"
-HUB_NAME_STATE_GHANA_farm_akan:"Oguaa"
-HUB_NAME_STATE_GHANA_wood_akan:"Bolgatanga"
-
-

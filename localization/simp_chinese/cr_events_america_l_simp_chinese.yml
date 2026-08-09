@@ -746,13 +746,13 @@
 
  cr_lower_canada_rebellion.03.t:0 "入伍！"
  cr_lower_canada_rebellion.03.desc:0 "“入伍拯救帝国！”“入伍拯救教会！”“入伍拯救不列颠文明！”\n\n#variable 不列颠步枪团#! 已在[SCOPE.sCulture('anglo_canadian_culture').GetName]青年中展开激进招募，利用对[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoIcon]可能夺权、推翻君主制、教会与不列颠生活方式旧秩序的恐惧。"
- cr_lower_canada_rebellion.03.flavour:0 "flavour"
- cr_lower_canada_rebellion.03.a:0 "opt a"
- cr_lower_canada_rebellion.03.b:0 "opt b"
+ cr_lower_canada_rebellion.03.flavour:0 "口号既已传开，枪支便不会久置于架上。"
+ cr_lower_canada_rebellion.03.a:0 "让他们自行招募。"
+ cr_lower_canada_rebellion.03.b:0 "密切监视这些新兵。"
 
  cr_lower_canada_rebellion.04.t:0 "旗帜游行"
  cr_lower_canada_rebellion.04.desc:0 "一群与#variable 不列颠步枪团#! 有关的年轻人，高举[SCOPE.sCountry('cr_lower_canada_overlord').GetAdjectiveNoFlag]旗帜，在笛鼓声中骄傲行进，自发组织了一场穿越[ROOT.GetCountry.GetCapital.GetCityHubName]街道的旗帜游行。\n\n这座城市在[SCOPE.sCulture('anglo_canadian_culture').GetName]人与[SCOPE.sCulture('franco_canadian_culture').GetName]人之间深刻分裂，是保皇派与[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoFormatting]的政治温床。如今，在当局注视下，这些人宣布打算进入一个深受[SCOPE.sCulture('franco_canadian_culture').GetName]影响的街区。"
- cr_lower_canada_rebellion.04.flavour:0 "flavour"
+ cr_lower_canada_rebellion.04.flavour:0 "旗帜既可凝聚人心，也可划出敌我。"
  cr_lower_canada_rebellion.04.a:0 "但愿我们能做些什么……"
  cr_lower_canada_rebellion.04.a_tt:0 "此选项因你未投资[concept_institution_police]机构而可用。"
  cr_lower_canada_rebellion.04.b:0 "或许他们该在别处继续游行……"
@@ -764,37 +764,37 @@
 
  cr_lower_canada_rebellion.05.t:0 "[TimeKeeper.GetDate.GetString]蒙特利尔骚乱"
  cr_lower_canada_rebellion.05.desc:0 "当#variable 不列颠步枪团#! 行进至[ROOT.GetCountry.GetCapital.GetCityHubName]的[SCOPE.sCulture('franco_canadian_culture').GetName]街区时，不久便遭遇人群初起的嘲笑。第一阵嘲笑被他们以骄傲的冷脸相对，但随着越来越多的人聚集，紧张局势很快爆发。第一块石头不知从何而来，却成为双方开战的信号。\n\n拳脚相加，殴打不断，窗户碎裂处处。"
- cr_lower_canada_rebellion.05.flavour:0 "flavour"
+ cr_lower_canada_rebellion.05.flavour:0 "一块石头，足以让久蓄的怨气化作风暴。"
  cr_lower_canada_rebellion.05.a:0 "未来的预兆"
 
  cr_lower_canada_rebellion.05.desc_b:0 "当#variable 不列颠步枪团#! 行进至[ROOT.GetCountry.GetCapital.GetCityHubName]的[SCOPE.sCulture('franco_canadian_culture').GetName]街区时，不久便遭遇人群初起的嘲笑。第一阵嘲笑被他们以骄傲的冷脸相对，但随着越来越多的人聚集，紧张局势很快爆发。第一块石头不知从何而来，却成为双方开战的信号。\n\n拳脚相加，殴打不断，窗户碎裂处处。\n\n聚集的治安队旁观无措，人数太少，无法对抗人群、改变局面。"
- cr_lower_canada_rebellion.05.flavour_b:0 "flavour"
+ cr_lower_canada_rebellion.05.flavour_b:0 "当治安者袖手旁观，街头自会生出自己的秩序。"
  cr_lower_canada_rebellion.05.b:0 "未来的预兆"
 
  cr_lower_canada_rebellion.06.t:0 "[TimeKeeper.GetDate.GetString]蒙特利尔游行"
  cr_lower_canada_rebellion.06.desc:0 "进入[SCOPE.sCulture('franco_canadian_culture').GetName]街区的道路被阻后，#variable 不列颠步枪团#! 转而在[ROOT.GetCountry.GetCapital.GetCityHubName]主干道行进。在那里，他们受到[SCOPE.sCulture('anglo_canadian_culture').GetName]同胞的欢呼与桂冠，围观人群不断壮大，似乎很欣赏该团带来的保护与秩序感。"
- cr_lower_canada_rebellion.06.flavour:0 "flavour"
+ cr_lower_canada_rebellion.06.flavour:0 "游行未必带来安宁，却总能显露谁掌握街道。"
  cr_lower_canada_rebellion.06.a:0 "未来的预兆"
 
  cr_lower_canada_rebellion.06.desc_b:0 "当#variable 不列颠步枪团#! 行进至[SCOPE.sCulture('franco_canadian_culture').GetName]街区时，空气中弥漫着沿街列队的治安队压迫感，偶尔的嘲笑被笛鼓声淹没，扔石者迅速被捕，对聚集人群而言，谁主宰了旋律已无可逃避。"
- cr_lower_canada_rebellion.06.flavour_b:0 "flavour"
+ cr_lower_canada_rebellion.06.flavour_b:0 "鼓点压过嘘声时，胜负似乎已写在街头。"
  cr_lower_canada_rebellion.06.b:0 "未来的预兆"
 
  cr_lower_canada_rebellion.10.t:0 "[ROOT.GetCountry.GetCapital.GetCityHubNameNoFormatting]最后一位[SCOPE.sCulture('franco_canadian_culture').GetNameNoFormatting]"
  cr_lower_canada_rebellion.10.desc:0 "每天他都身着精心打扮——红色毛帽与腰带、白色棉衫、宽边帽上饰红白绿三色徽章——站在[ROOT.GetCountry.GetCapital.GetCityHubName]的演讲角。每天他宣讲久远时代的信息。每天相同的人经过，信息无人倾听。他的法语几乎成失传之语。他自称是[ROOT.GetCountry.GetCapital.GetCityHubName]最后一位[SCOPE.sCulture('franco_canadian_culture').GetNameNoFormatting]。\n\n虽然尚未到此地步，但[ROOT.GetCountry.GetCapital.GetCityHubNameNoFormatting]正站在十字路口，[SCOPE.sCulture('anglo_canadian_culture').GetName]人的涌入正将[SCOPE.sCulture('franco_canadian_culture').GetNameNoFormatting]文化不断推向边缘。"
- cr_lower_canada_rebellion.10.flavour:0 "Flavour"
+ cr_lower_canada_rebellion.10.flavour:0 "一座城市失去语言，便也失去了一部分记忆。"
  cr_lower_canada_rebellion.10.a:0 "时代在变，我们也随之改变"
  cr_lower_canada_rebellion.10.b:0 "对法裔加拿大人来说是积极的一面"
 
  cr_lower_canada_rebellion.11.t:0 "通往美洲的门户"
  cr_lower_canada_rebellion.11.desc:0 "繁忙且快速成长的[ROOT.GetCountry.GetCapital.GetCityHubName]正发展为[SCOPE.sCountry('cr_lower_canada_overlord').GetAdjective]北美枢纽。它控制通往五大湖的所有贸易，因此有望成为通往美洲的门户，与纽约竞争。"
- cr_lower_canada_rebellion.11.flavour:0 "Flavour"
+ cr_lower_canada_rebellion.11.flavour:0 "河港、铁路与仓栈，正把这座城市系向整片大陆。"
  cr_lower_canada_rebellion.11.a:0 "时代在变，我们也随之改变"
  cr_lower_canada_rebellion.11.b:0 "对法裔加拿大人来说是积极的一面"
 
  cr_lower_canada_rebellion.12.t:0 "革命的幽灵"
- cr_lower_canada_rebellion.12.desc:0 ""
- cr_lower_canada_rebellion.12.flavour:0 ""
+ cr_lower_canada_rebellion.12.desc:0 "骚乱虽已暂息，街巷间的怒气却未消散。两种语言、两种忠诚与两种关于殖民地未来的想象，仍在这座城市中彼此对峙。下一次火星落下时，或许再无人能将火势控制在街垒之后。"
+ cr_lower_canada_rebellion.12.flavour:0 "革命从不只在议事厅里酝酿。"
  cr_lower_canada_rebellion.12.a:0 "换个名字的柠檬味道一样酸"
  cr_lower_canada_rebellion.12.b:0 "我们欣赏这些人的忠诚"
 

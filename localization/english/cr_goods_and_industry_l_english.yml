@@ -7,7 +7,7 @@
  building_copper_mine_discovered_resource:0 "[GetGoods('copper').GetName]"
  building_minor_metals_mine_discovered_resource:0 "[GetGoods('minor_metals').GetName]"
  building_fur_trading_post_discovered_resource:0 "Pelts"
- 
+
  #Copper
  bg_copper_mining:0 "Copper Mines"
  building_copper_mine:0 "Copper Mines"
@@ -40,7 +40,7 @@ pm_privately_owned_building_copper_mine:0 "$pm_privately_owned$"
  building_output_copper_mult_desc:0 "A bonus or penalty to the amount of @copper! Copper produced by buildings"
  building_input_copper_add:0 "@copper! Copper input per level"
  building_input_copper_add_desc:0 "The amount of @copper! Copper consumed by buildings"
- 
+
  #Minor Metals
  bg_minor_metals_mining:0 "Niche Metals Mines"
  building_minor_metals_mine:0 "Niche Metals Mines"
@@ -73,8 +73,8 @@ pm_privately_owned_building_minor_metals_mine:0 "$pm_privately_owned$"
  building_output_minor_metals_mult_desc:0 "A bonus or penalty to the amount of @minor_metals! Niche Metals produced by buildings"
  building_input_minor_metals_add:0 "@minor_metals! Niche Metals input per level"
  building_input_minor_metals_add_desc:0 "The amount of @minor_metals! Niche Metals consumed by buildings"
- 
- 
+
+
  #Dates
  bg_date_plantations:0 "Date Plantations"
  building_date_plantation:0 "Date Plantations"
@@ -89,7 +89,7 @@ pm_privately_owned_building_minor_metals_mine:0 "$pm_privately_owned$"
  pm_rutab_harvest_date_plantation:0 "Fresh (Rutab)" #Requires transportation, greatly increased output
  pm_tamar_harvest_date_plantation:0 "Dried (Tamar)" #low infrastructure and no transportation requirement, reduced output
  pmg_ownership_land_building_date_plantation:0 "$pmg_ownership$"
- 
+
  #Fur trading post
  bg_fur_trading_post:0 "Fur Trading"
  building_fur_trading_post:0 "Fur Trade"
@@ -103,7 +103,7 @@ pm_privately_owned_building_minor_metals_mine:0 "$pm_privately_owned$"
  pmg_liquor_trading_fur_trading_post:0 "Liquor Trading"
  pm_trading_fur_trading_post_no_liquor:0 "No Liquor Trading"
  pm_liquor_trading_fur_trading_post:0 "Liquor Trading"
- 
+
  #Ivory trading post
  bg_ivory_trading_post:0 "Ivory Trading"
  building_ivory_trading_post:0 "Ivory Trade"
@@ -120,7 +120,7 @@ pm_privately_owned_building_minor_metals_mine:0 "$pm_privately_owned$"
  pm_slave_portage_ivory_trading_post:0 "Enslaved Porters"
  pm_manual_portage_ivory_trading_post:0 "Manual Portage"
  pm_modern_portage_ivory_trading_post:0 "Motorised Portage"
- 
+
  #Kashmir Ranches
  bg_kashmir_ranches:0 "Kashmir Ranches"
  building_kashmir_ranch:0 "Kashmir Ranches"
@@ -129,7 +129,7 @@ pm_privately_owned_building_minor_metals_mine:0 "$pm_privately_owned$"
  pm_kashmir_ranch:0 "Kashmir Wool Ranch"
  pm_kasmir_farms:0 "Kashmir Wool Farms"
  pm_intensive_kashmir_ranch:0 "Intensive Kashmir Wool Farms"
- 
+
  #Goods Modifiers
  goods_output_wood_mult:0 "Building @wood! Wood output"
  goods_output_wood_mult_desc:0 "A bonus or penalty to the amount of @wood! Wood produced by buildings"
@@ -141,10 +141,10 @@ pm_privately_owned_building_minor_metals_mine:0 "$pm_privately_owned$"
  goods_output_dye_mult_desc:0 "A bonus or penalty to the amount of @dye! Dye produced by buildings"
  goods_output_fish_mult:0 "Building @fish! Fish output"
  goods_output_fish_mult_desc:0 "A bonus or penalty to the amount of @fish! Fish produced by buildings"
- 
+
  goods_output_sulfur_mult:0 "Building @sulfur! Sulfur output"
  goods_output_sulfur_mult_desc:0 "A bonus or penalty to the amount of @sulfur! Sulfur produced by buildings"
- 
+
  goods_output_iron_mult:0 "Building @iron! Iron output"
  goods_output_iron_mult_desc:0 "A bonus or penalty to the amount of @iron! Iron produced by buildings"
  goods_output_coal_mult:0 "Building @coal! Coal output"
@@ -155,48 +155,48 @@ pm_privately_owned_building_minor_metals_mine:0 "$pm_privately_owned$"
  goods_output_copper_mult_desc:0 "A bonus or penalty to the amount of @copper! Copper produced by buildings"
  goods_output_minor_metals_mult:0 "Building @minor_metals! Niche Metals output"
  goods_output_minor_metals_mult_desc:0 "A bonus or penalty to the amount of @minor_metals! Niche Metals produced by buildings"
- 
+
  building_group_bg_mining_infrastructure_usage_mult:0 "$bg_mining$ [concept_infrastructure] usage"
- 
- 
+
+
  #Buildings Output Modifiers
  building_group_bg_agriculture_output_add:0 "$bg_agriculture$ output"
  building_group_bg_agriculture_output_add_desc:0 "A bonus or penalty to the output of $bg_agriculture$"
- 
+
  bg_ranching_output_add:0 "$bg_ranching$ output"
  bg_ranching_output_add_desc:0 "A bonus or penalty to the output of $bg_ranching$"
  bg_livestock_ranches_output_add:0 "$bg_livestock_ranches$ output"
  bg_livestock_ranches_output_add_desc:0 "A bonus or penalty to the output of $bg_livestock_ranches$"
- 
+
  building_livestock_ranch_output_add:0 "$building_livestock_ranch$ output"
  building_livestock_ranch_output_add_desc:0 "A bonus or penalty to the output of $building_livestock_ranch$"
- 
+
  building_rye_farm_output_add:0 "$building_rye_farm$ output"
  building_rye_farm_output_add_desc:0 "A bonus or penalty to the output of $building_rye_farm$"
- 
+
  building_rice_farm_output_add:0 "$building_rice_farm$ output"
  building_rice_farm_output_add_desc:0 "A bonus or penalty to the output of $building_rice_farm$"
- 
+
  building_sulfur_mine_output_add:0 "$building_sulfur_mine$ output"
  building_sulfur_mine_output_add_desc:0 "A bonus or penalty to the output of $building_sulfur_mine$"
- 
+
  building_iron_mine_output_add:0 "$building_iron_mine$ output"
  building_iron_mine_output_add_desc:0 "A bonus or penalty to the output of $building_iron_mine$"
- 
+
  building_lead_mine_output_add:0 "$building_lead_mine$ output"
  building_lead_mine_output_add_desc:0 "A bonus or penalty to the output of $building_lead_mine$"
- 
+
  building_coal_mine_output_add:0 "$building_coal_mine$ output"
  building_coal_mine_output_add_desc:0 "A bonus or penalty to the output of $building_coal_mine$"
- 
+
  building_oil_rig_output_add:0 "$building_oil_rig$ output"
  building_oil_rig_output_add_desc:0 "A bonus or penalty to the output of $building_oil_rig$"
- 
+
  building_logging_camp_output_add:0 "$building_logging_camp$ output"
  building_logging_camp_output_add_desc:0 "A bonus or penalty to the output of $building_logging_camp$"
- 
+
  building_fishing_wharf_output_add:0 "$building_fishing_wharf$ output"
  building_fishing_wharf_output_add_desc:0 "A bonus or penalty to the output of $building_fishing_wharf$"
- 
+
  building_dye_plantation_output_add:0 "$building_dye_plantation$ output"
  building_dye_plantation_output_add_desc:0 "A bonus or penalty to the output of $building_dye_plantation$"

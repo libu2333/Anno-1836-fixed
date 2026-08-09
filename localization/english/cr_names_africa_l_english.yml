@@ -5,7 +5,7 @@
  Hiassae:0 "Hiassae"
  Adjara:0 "Adjara"
  #Ahlangene:0 "Ahlangene"
- 
+
  #####Bariba#####
  Buku_Ya_Dari: "Buku Ya Dari"
  Odo: "Odo"
@@ -30,13 +30,13 @@
  Siru: "Siru"
  Yakasu: "Yakasu"
  Yoongura: "Yoongura"
- 
+
  Bonna: "Bonna"
  Buyon: "Buyon"
  Sango: "Sango"
  Yoon: "Yoon"
  Yoonsa: "Yoonsa"
- 
+
  Baba_Tantame: "Baba Tantame"
  Baguiri: "Baguiri"
  Bio_Doko: "Bio Doko"
@@ -48,12 +48,12 @@
  Tabuko: "Tabuko"
  Taburufa: "Taburufa"
  Tunku_Cessi: "Tunku Cessi"
- 
+
  Chabi_Bio: "Chabi Bio"
  Dobidia: "Dobidia"
  Dogo: "Dogo"
  Sessegnon: "Sessègnon"
- 
+
  #####Gbagyi#####
  #names more or less randomly distributed between female and male names (for first names) en noble and common for surnames.
  Adamilo: "Adamilo"
@@ -86,7 +86,7 @@
  Zekpemi: "Zekpemi"
  Zhinbo: "Zhinbo"
  Zhiwodo: "Zhiwodo"
- 
+
  Agmadamilo: "Agmadamilo"
  Ayenaji: "Ayenaji"
  Azeema: "Azeema"
@@ -94,7 +94,7 @@
  Dosei: "Dosei"
  Fenu: "Fenu"
  Iklimma: "Iklimma"
- 
+
  Allolo: "Allolo"
  Ayenajeyi: "Ayenajeyi"
  Atuwa: "Atuwa"
@@ -106,7 +106,7 @@
  Pambelo: "Pamɓelo"
  Toknucelon: "Toknucelon"
  Zakwoyi: "Zakwoyi"
- 
+
  Bokosayi: "Bokosayi"
  Chiedu: "Chiedu"
  Idakula: "Idakula"
@@ -177,8 +177,8 @@
  Umar_Bago: "Umar Bago"
  Vatsa: "Vatsa"
  Yahaya: "Yahaya"
- 
- 
+
+
  #####Xhosa#####
  #Male common first names (actually noble)
  Ahlangene:0 "Ahlangene"
@@ -202,16 +202,16 @@
  Xolilizwe:0 "Xolilizwe"
  Zwelidumile:0 "Zwelidumile"
  Zwelonke:0 "Zwelonke"
- 
+
  #Female common first name (actually noble)
  Fila:0 "Fila"
  Nomsa:0 "Nomsa"
- 
+
  #Noble last names
  Maqoma:0 "Maqoma"
  kaSarili:0 "ka Sarili"
  Tshezi:0 "Tshezi"
- 
+
  #Ruler names
  Sidi:0 "Sidi"
  Al_Habib_Ould_Amar:0 "Al Habib Ould Amar"

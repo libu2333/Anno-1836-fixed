@@ -1,10 +1,10 @@
 ﻿l_english:
  mod_simple_heir_education_ch_int: "Educate the Heir"
- 
+
  mod_simple_heir_education_ch_int_failed: "Heir Defiant: no change"
 # mod_simple_heir_education_ch_int_failed: ""
- 
+
  mod_simple_heir_education_ch_int_ideology_success: "Like Father like Son"
 # mod_simple_heir_education_ch_int_ideology_success: "Educate the Heir"
- 
+
  mod_simple_heir_education_ch_int_failed_ramdom_ideology_tooltip: "A random [concept_ideology] will be choosen. The list of available ideologies expands with techs @innovation! (as per normal requirements). But every trait has the same weight. @warning! As a bonus, if you dont have egalitarianism, you could get slaver..."

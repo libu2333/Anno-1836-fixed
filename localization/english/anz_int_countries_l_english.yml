@@ -32,8 +32,6 @@
  CRL_ADJ: "Micronesian"
  MLD: "Maldives"
  MLD_ADJ: "Maldivian"
- VIC: "Victoria"
- VIC_ADJ: "Victorian"
  NAN: "Nan"
  NAN_ADJ: "Nan"
  MPU: "Manipur"
@@ -54,7 +52,7 @@
  QLD_ADJ: "Queenslander"
 
  dyn_c_van_diemans_land_adj: "Vandemonian"
- 
+
  ESR: "Eureka Stockade Rebellion"
  ESR_ADJ: "Rebel"
 

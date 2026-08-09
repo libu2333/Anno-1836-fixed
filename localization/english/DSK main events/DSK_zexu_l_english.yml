@@ -1,90 +1,36 @@
 ﻿l_english:
-modifier_dcyq:0 "Insight into everything"
 
-je_dsk_zexu_main: "Survival in the cracks"
-je_dsk_zexu_main_goal: "The progress bar for victory in the war has been filled"
 je_dsk_zexu_main_reason: "[ROOT.GetCountry.GetRuler.GetFullName] has traveled to this era and possessed the body of a 17-year-old nobleman in [SCOPE.sCountry('tur_scope').GetName]. At this time, [SCOPE.GetRootScope.GetCountry.GetName] is merely a puppet state of [SCOPE.sCountry('tur_scope').GetName], as the emperor who saved the Ottoman Empire has been placed on the front line to resist the invasion of the Russian Empire. [SCOPE.sCountry('tur_scope').GetName] promises that as long as [SCOPE.GetRootScope.GetCountry.GetName] fully assists in the war and achieves..." Victory would gradually grant more autonomy, and the duchy might even gain independence. [ROOT.GetCountry.GetRuler.GetFullName] was well aware of [SCOPE.GetRootScope.GetCountry.GetName]'s difficult situation, but he did not lose heart. He actively reorganized [SCOPE.GetRootScope.GetCountry.GetName]'s military forces, trained soldiers, stockpiled supplies, and closely monitored the movements of Tsarist Russia. Despite limited resources and frequent constraints from the Ottoman Empire, [ROOT.GetCountry.GetRuler.GetFullName], with his outstanding leadership and unwavering faith, strived to survive in the cracks and devise a way out for the duchy's future. "War has broken out between the Ottoman Turks and the Russian Empire."
-je_independent_tt: "Currently, [SCOPE.GetRootScope.GetCountry.GetName] is weak and needs to bide its time."
-je_war_with_tur_tt: "War has broken out with the former colonial power [SCOPE.sCountry('tur_scope').GetName]."
 
-zexu_revolt: "Zexu's foresight."
 
-dsk_zexu_war_button: "Military aid from Turkey."
 
-dsk_zexu_war_button_desc: "We need the aid of our colonial power."
 
-supporting_zexu_Nation_modifier: "Aid from Turkey."
 
-dsk_support_war_button: "Current war support."
 
-dsk_support_war_button_desc: "The people of the whole country support us in this war, how can we easily admit defeat?"
 
-dsk_support_economy_button: "Economic aid from Turkey"
-dsk_support_economy_button_desc: "We should rely on economic aid from [SCOPE.sCountry('tur_scope').GetName] to get through difficult times."
-sick_man_of_east_europe: "Sick man of Eastern Europe"
-sick_man_of_east_europe_tt: "We will be ridiculed by Western Europe as the sick man of Eastern Europe and completely driven out of the land of #yellow Danube#!"
 
-dsk_zexu.1.t: "Privy autonomy"
-dsk_zexu.1.f: "Currently, [SCOPE.GetRootScope.GetCountry.GetName] is still under the control of [SCOPE.sCountry('tur_scope').GetName]. To gain more power, we must defeat Tsarist Russia and win the Crimean War."
-dsk_zexu.1.d: "Congratulations! In this new battle, we have once again gained the trust of [SCOPE.sCountry('tur_scope').GetName]."
 
-dsk_zexu.1.a: "This is a great victory for [SCOPE.GetRootScope.GetCountry.GetName]."
 
-dsk_zexu.2.t: "The Duchy has become a Protectorate."
 
-dsk_zexu.2.f: "What a wonderful battle! I, [ROOT.GetCountry.GetRuler.GetFullName], as a transmigrator, believe that the fate of [SCOPE.GetRootScope.GetCountry.GetName] will be even brighter."
 
-dsk_zexu.2.d: "In this new battle, [SCOPE.GetRootScope.GetCountry.GetName] has once again proven its strength."
 
-dsk_zexu.2.a: "Long live the Earl of [ROOT.GetCountry.GetRuler.GetFullName]!"
 
-dsk_zexu.3.t: "A great victory in war!"
 
-dsk_zexu.3.f: "We have gained invaluable experience and national cohesion time and again in battle."
-dsk_zexu.3.d: "[SCOPE.GetRootScope.GetCountry.GetName] Military training and war have further enhanced national cohesion."
-dsk_zexu.3.a: "Our desire for independence is growing stronger."
 
-dsk_zexu.4.t: "The Lion of Dobroga"
-dsk_zexu.4.f: "Our prestige has gained recognition and trust from more countries as war and overall national strength have increased, but the next problem is looming: the Romanian question."
-dsk_zexu.4.d: "Victories in battle have earned us recognition from neighboring countries."
-dsk_zexu.4.a: "International recognition has greatly enhanced our prestige."
-lion_of_east_europe_modifier: "The Lion of Dobroga"
-lion_of_east_europe_modifier_desc: "The transmigrator's precognitive ability"
 
-je_gbr_zexu_union: "Anglo-Chinese Union"
-je_gbr_zexu_union_reason: "Anglo-Chinese Union\n\n#yellow Angelo-Chinese Union#! will grow monthly through the following relationships#v#!:\n• Maintain a relationship of #green friendly#! or higher with #yellow contracting parties#! (#green +2#!).\n• Enter into a [concept_alliance] or #yellow alliance of interests#! #bold treaty#! with #yellow contracting parties#! (#green +2#!)"
 
-je_gbr_zexu_union_tt: "The friendship between [SCOPE.sCountry('gbr_scope').GetName] and [SCOPE.GetRootScope.GetCountry.GetName] can cross mountains and seas!"
 
-gbr_zexu_union_stronger_button: "Economic aid from the United Kingdom"
-gbr_zexu_union_stronger_button_desc: "The British pound is so tempting, I have to taste it."
-gbr_zexu_union_stronger_button_1: "Military aid from Britain"
-gbr_zexu_union_stronger_button_1_desc: "Military aid from Britain is so tempting, I have to taste it."
-supporting_zexu_Nation_modifier_1: "Military aid from Britain"
-gbr_zexu_union_stronger_button_2: "Military encouragement"
-gbr_zexu_union_stronger_button_2_desc: "Our allies are still fighting, we will never surrender"
-gbr_zexu_union_stronger_button_3: "British-approved bilateral trade"
-gbr_zexu_union_stronger_button_3_desc: "Including Britain in the Most Favored Nation list"
-gbr_zexu_union_stronger_modifier: "British-approved bilateral trade"
 
 enough_gbr_zexu_union_var: "#v Having enough points! #!
 
-je_dsk_zexu_conquer_mol: "The Romanian Question"
 
-je_dsk_zexu_conquer_mol_reason: "According to our intelligence agencies, due to Romania's resistance to Ottoman rule, Moldavia and Wallachia are preparing to collude with the Russian Empire to launch a rebellion."
 
-je_dsk_zexu_conquer_mol_goal: "The Romanian principalities are preparing to launch an uprising."
 
-je_dsk_zexu_conquer_mol_tt: "The progress of the Romanian uprising is still under control."
 
-je_dsk_zexu_conquer_mol_1_tt: "The progress of the Romanian uprising has exceeded our expectations."
 
-je_dsk_zexu_conquer_mol_2_tt: "The Romanian rebels are about to rise up; we must be prepared!"
 
-dsk_zexu.5.t: "An Encounter with the Queen of England"
 
 dsk_zexu.5.f: "One sunny day in June 1836, [ROOT.GetCountry.GetRuler.GetFullName] decided to visit England to learn more about its culture and technology. There he met the 16-year-old daughter of the King of England, [SCOPE.sCharacter('gbr_queen_scope').GetFirstName]. After their conversation, the Queen's daughter greatly admired him." dsk_zexu.5.a: "Agrees to the Queen's marriage proposal"
-dsk_zexu.5.b: "Disagrees with the Queen's marriage proposal"
 
 
 modifier_dcyq:0 "Insight into everything"
@@ -302,7 +248,6 @@ lion_of_Balkan_modifier: "Lion of the Balkans"
 
 lion_of_earth_modifier: "Global Empire"
 
-je_dsk_annex_Iberia: "Iberian Unity, Resource Integration"
 
 lion_of_south_Europe_modifier: "Lion of Southern Europe"
 

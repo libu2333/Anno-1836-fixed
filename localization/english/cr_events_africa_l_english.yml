@@ -15,7 +15,7 @@
  cr_ethiopia_events.5.t:0 "The Imperial Restoration"
  cr_ethiopia_events.5.desc:0 "The [SCOPE.sCountry('ethiopia').GetAdjectiveNoFlag]"
  cr_ethiopia_events.6.t:0 "The Fall of the House of Solomon"
- 
+
  cr_south_africa_events.1.t:0 "The Frontier Peace"
  cr_south_africa_events.1.desc:0 "The guns have fallen silent along the Keiskamma, but peace has not yet taken root. Smoke still rises from the valleys, and the air carries the stench of ruin—fields trampled, kraals deserted, herds scattered to the wind. The [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] have fallen back beyond the river, their resistance broken but their pride unbent.\n\nNow the question turns to what must follow. Some urge that frontier be expanded, to bring settlement and order where none stood before. Others speak of a lighter hand—of guiding the [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] under a protectorate, keeping the peace through counsel rather than conquest. Yet there are those, weary of endless skirmish and expense, who would see the army withdraw and the old border restored, leaving the river to divide two weary peoples once again."
  cr_south_africa_events.1.desc_old:0 "The embers of war still smolder across the frontier. Fields lie scorched, homesteads ruined, and herds scattered—yet the [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] have been driven back beyond the Keiskamma. Their resistance, fierce and desperate, has been broken for now, though their chiefs remain defiant.\n\nWe must now determine how best to secure this hard-won peace. Shall the frontier be redrawn and land be annexed to crown authority? Shall the [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] [SCOPE.sCountry('xhosa_scope').GetRuler.GetPrimaryRoleTitle] be compelled to accept British protection and supervision? Or shall we, weary of the endless cycle of raid and reprisal, withdraw to the old border and let the Keiskamma once more mark the limits of British rule?"
@@ -24,8 +24,8 @@
  cr_south_africa_events.1.a.annexed_queen_adelaide_province_saf:0 "We annex #variable Queen Adelaide's Province#! between the Keiskamma and Kei rivers."
  cr_south_africa_events.1.b:0 "Place the frontier tribes beneath our protection."
  cr_south_africa_events.1.c:0 "Withdraw to the old line and count this victory enough."
- 
- 
+
+
  cr_south_africa_events.2.t_annex:0 "The Smoke over the Kei"
  cr_south_africa_events.2.desc_annex:0 "The thunder of guns has faded from the valleys of the Amatola. Once again, the land lies still—stripped of cattle, scarred by fire, and emptied of villages. It began with hunger and injustice: the loss of grazing lands, the taking of cattle, and the killing of chiefs without cause. The warriors rose to reclaim what was once theirs, crossing the Keiskamma in defiance of foreign rule.\n\nNow the people are scattered and weary. The [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] have driven them beyond the Kei and claimed the fertile valleys as their own. The chiefs speak of peace, but the songs of mourning and vengeance still drift across the hills."
  cr_south_africa_events.2.flavour_annex:0 "They have taken the land, the cattle, and the king. But not the spirit of the people."
@@ -33,47 +33,47 @@
  cr_south_africa_events.2.annexed_queen_adelaide_province_xhosa:0 "We ceded control over parts of the western border to [SCOPE.sCountry('south_africa_scope').GetName]."
  cr_south_africa_events.2.b_annex:0 "Swear vengeance and prepare in silence."
  cr_south_africa_events.2.c_annex:0 "Seek peace with the settlers and protect what remains."
- 
+
  cr_south_africa_events.2.t_protectorate:0 "The Smoke over the Kei"
  cr_south_africa_events.2.desc_protectorate:0 "The fighting has ceased, though peace has not returned. The valleys lie deserted, the herds scattered, and the people weary after years of hunger and loss. Lands were taken, chiefs slain, and the [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] armies swept through with fire and steel, driving the clans beyond the Kei and claiming the plains as their own.\n\nNow their soldiers speak of protection and peace under the Crown’s shadow. They promise safety and trade, yet demand obedience and tribute. Some chiefs see survival in their words; others hear only the echo of conquest. The land endures, but its spirit remains unsettled."
  cr_south_africa_events.2.flavour_protectorate:0 "They offer peace, but it comes wearing a soldier’s coat."
  cr_south_africa_events.2.a_protectorate:0 "Endure and rebuild beyond the Kei."
  cr_south_africa_events.2.b_protectorate:0 "Accept British protection—for now."
  cr_south_africa_events.2.c_protectorate:0 "Seek peace with the settlers and protect what remains."
- 
+
  cr_south_africa_events.2.t_old_frontier:0 "The Smoke over the Kei"
  cr_south_africa_events.2.desc_old_frontier:0 "The guns have fallen silent, and smoke drifts over the blackened plains. The war began with hunger and humiliation—grazing lands seized, cattle taken, and chiefs brought low before foreign law. The people rose to reclaim what was theirs, but the [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] came in force, leaving only ashes in their wake.\n\nNow the conquerors speak of peace. They will withdraw west and call the old frontier restored. Their forts will stand silent, their patrols withdrawn, their traders watched but not expelled. They say this will end the cycle of war—yet the memory of fire and loss lingers on both sides."
  cr_south_africa_events.2.flavour_old_frontier:0 "The border has returned to the river—but the shadow of war has not yet crossed back with it."
  cr_south_africa_events.2.a_old_frontier:0 "Endure and rebuild beyond the Kei."
  cr_south_africa_events.2.b_old_frontier:0 "Swear vengeance and gather strength in secret."
- 
+
  cr_south_africa_events.3.t_annex:0 "Queen Adelaide's Province"
  cr_south_africa_events.3.desc_annex:0 "For years the [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] and the [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] have been fighting over land, cattle, and the shifting bounds of the frontier. In their latest campaign the [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFormatting] has driven the Xhosa east across the Kei River, and new lands have been claimed for the Empire.\n\nIn [ROOT.GetCountry.GetCapital.GetCityHubName], voices led by [SCOPE.sCharacter('anti_colonialist_politician').GetFullName] question the worth of such gains. Each mile added to the frontier demands more men, more money, and more will to rule. Yet others warn that to withdraw now would invite greater troubles later."
  cr_south_africa_events.3.flavour_annex:0 "The frontier always advances faster than our will to govern it."
  cr_south_africa_events.3.a_annex:0 "Endorse the annexation—the frontier must be secured."
  cr_south_africa_events.3.b_annex:0 "Repudiate the annexation and restore the old frontier."
  cr_south_africa_events.3.b_annex_tt:0 "A small strip of land on the border of [SCOPE.sCountry('south_africa_scope').GetName] and the [SCOPE.sCountry('xhosa_scope').GetName] will be returned to the [SCOPE.sCountry('xhosa_scope').GetName]"
- 
+
  cr_south_africa_events.3.t_protectorate:0 "The [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting]land Protectorate"
  cr_south_africa_events.3.desc_protectorate:0 "Dispatches from the [SCOPE.sCountry('south_africa_scope').GetNameNoFlag] report that the colonial authorities have proclaimed a protectorate over the [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] beyond the Keiskamma River. The move, they claim, is meant to preserve peace and guide the frontier tribes under [ROOT.GetCountry.GetAdjectiveNoFormatting] influence—without the expense of full annexation.\n\nIn [ROOT.GetCountry.GetCapital.GetCityHubName], opinion is divided. Supporters hail the act as a prudent safeguard for the frontier; others see in it the familiar shadow of expansion, masked in the language of protection. Critics warn that to govern through chiefs and garrisons will prove as costly as annexation itself, and that the [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] may not distinguish guardianship from subjection.\n\nA decision must now be made on whether to uphold this new protectorate—or to restrain the [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag]' reach."
  cr_south_africa_events.3.flavour_protectorate:0 "A protectorate, if it is to mean anything, must protect the weak, not merely extend the strong."
  cr_south_africa_events.3.a_protectorate:0 "Affirm the protectorate—peace through guidance."
  cr_south_africa_events.3.b_protectorate:0 "Reject it—the Cape cannot bear such burdens."
  cr_south_africa_events.3.b_protectorate_tt:0 "The [SCOPE.sCountry('south_africa_scope').GetAdjective]'s protectorate over the [SCOPE.sCountry('xhosa_scope').GetName] will be ended."
- 
+
  cr_south_africa_events.3.t_old_frontier:0 "African Border Skirmishes"
  cr_south_africa_events.3.desc_old_frontier:0 "Reports arrive from the frontier: the [SCOPE.sCountry('south_africa_scope').GetNameNoFlag] has called quits in their bloody war with the [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] and have withdrawn to the old boundary seperating them. Years of raids, counter-raids, and scorched earth campaigns have yielded little lasting security, and now the colonists have chosen caution over conquest. The [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] remain across the river, their settlements intact, while the frontier lies quiet, if uneasy."
  cr_south_africa_events.3.desc_old_frontier_old:0 "The [SCOPE.sCountry('south_africa_scope').GetNameNoFlag]`s frontiers have long followed a grim rhythm—raids and reprisals, cattle stolen and reclaimed, villages burned, and treaties signed and broken in turn. Each season seemed to bring a new spark along the Keiskamma and Fish Rivers, as settler and [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] alike fought over land, pasture, and the right to survive. The latest campaign, though costly, has ended much as the others did: the [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] scattered, the colonists weary, and the borderlands scorched.\n\nNow, with both sides exhausted and the treasury strained, the [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFormatting] authorities have declared victory and withdrawn to the old frontier."
  cr_south_africa_events.3.flavour_old_frontier:0 "Peace, of a sort, returns to the border—but only until the grass grows again."
  cr_south_africa_events.3.a_old_frontier:0 "Thus an uncertain quiet peace returns to the edges of the Empire."
- 
+
  cr_south_africa_events.4.t:0 "An Order from [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName]"
  cr_south_africa_events.4.t_annex:0 "[SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] Orders the Frontier Restored"
  cr_south_africa_events.4.desc_annex:0 "Word comes from [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] that the blood spilled to secure our land against the [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] is to be for naught. In all their wisdom [SCOPE.sCountry('british_scope').GetRuler.GetHerHis|U] Majesty’s Government has decreed that our new frontier is to be abandoned and returned to the [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting].\n\nGuided by [SCOPE.sCharacter('anti_colonialist_politician').GetFullName] reforming zeal, has condemned the annexation as an act of excess and injustice. They claim the war was provoked by settler reprisals and that the territory beyond the Keiskamma is neither profitable nor defensible. The new frontier shall once more lie at the Keiskamma River, and treaties will be struck with the same chiefs we only months ago declared subdued."
  cr_south_africa_events.4.flavour_annex:0 "We are commanded to abandon what we have conquered—to yield the land to those who burned our homes."
  cr_south_africa_events.4.a_annex:0 "Comply with [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName]’s directive—withdraw beyond the Keiskamma."
  cr_south_africa_events.4.b_annex:0 "Comply reluctantly—our sacrifices should not be in vain."
- 
+
  cr_south_africa_events.4.t_protectorate:0 "The Protectorate Recalled"
  cr_south_africa_events.4.desc_protectorate:0 "Word has come from across the sea: the Crown has ordered the dissolution of the protectorate over the [SCOPE.sCountry('xhosa_scope').GetNameNoFlag]. In [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName], the ministers speak of economy and prudence, declaring that Britain cannot be forever burdened with the quarrels of distant tribes. What was hailed as a safeguard of peace is now condemned as folly—too costly, too uncertain, and too far from the reach of Westminster’s patience.\n\nIn the colony, the news is met with bitterness. Settlers and officers who bled to hold the line feel abandoned, while others quietly welcome the chance to draw breath and count the cost. The frontier will be left to its own devices once more, its peace resting on the shifting promises of chiefs and traders rather than the word of the Crown."
  cr_south_africa_events.4.flavour_protectorate:0 "[SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] calls it retrenchment. We call it retreat."

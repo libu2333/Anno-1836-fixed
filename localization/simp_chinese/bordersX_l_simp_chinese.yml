@@ -17,8 +17,6 @@
   DYK:0 "达雅克"
   DYK_ADJ:0 "达雅克"
 
-  TRT:0 "特尔纳特"
-  TRT_ADJ:0 "特尔纳特"
 
 
 
@@ -67,13 +65,7 @@
   dyn_c_republic_BED:0 "巴尔蒂共和国"
   dyn_c_jzz_BED:0 "巴尔蒂斯坦"
 
-  dyn_c_societ_republic_QZT:0 "康朱提人民共和国"
-  dyn_shenquan_QZT:0 "康朱提神权国"
-  dyn_c_republic_QZT:0 "康朱提民主共和国"
-  dyn_c_jzz_QZT:0 "康朱提公国"
 
-  dyn_c_societ_republic_GSK:0 "远东人民共和国"
-  dyn_shenquan_GSK:0 "远东神权国"
   dyn_c_republic_GSK:0 "哥萨克雇佣军"
   dyn_c_gsk_empire:0 "哥萨克公国"
 
@@ -116,7 +108,6 @@
 
   dyn_c_societ_republic_GSK:0 "哥萨克社会主义联盟"
   dyn_shenquan_GSK:0 "哥萨克神权国"
-  dyn_c_republic_GSK:0 "哥萨克雇佣军"
   dyn_c_jzz_GSK:0 "哥萨克公国"
 
   dyn_c_societ_republic_YUM:0 "浩罕莫社会主义联盟"
@@ -200,12 +191,10 @@
 
   dyn_c_societ_republic_BLT:0 "布鲁特人民共和国"
   dyn_shenquan_BLT:0 "布鲁特神权国"
-  dyn_c_republic_BLT:0 "布鲁特民主共和国"
   dyn_c_blt_empire:0 "布鲁特汗国"
 
   dyn_c_societ_republic_BDK:0 "巴达赫尚人民共和国"
   dyn_shenquan_BDK:0 "巴达赫尚神权国"
-  dyn_c_republic_BDK:0 "巴达赫尚民主共和国"
   dyn_c_bdk_empire:0 "巴达赫尚汗国"
 
   dyn_c_societ_republic_SMN:0 "塞米诺尔人民共和国"
@@ -301,20 +290,13 @@
   dyn_c_republic_YLI:0 "伊犁将军政权"
   dyn_c_jzz_YLI:0 "伊犁将军政权"
 
-  dyn_c_societ_republic_BFJ:0 "西北人民共和国"
   dyn_shenquan_BFJ:0 "西北神权国"
-  dyn_c_republic_BFJ:0 "西北共和国"
-  dyn_c_jzz_BFJ:0 "西北王国"
 
   dyn_c_societ_republic_RYU:0 "琉球人民共和国"
   dyn_shenquan_RYU:0 "琉球神权国"
   dyn_c_republic_RYU:0 "琉球共和国"
   dyn_c_jzz_RYU:0 "琉球王国"
 
-  dyn_c_societ_republic_ZUK:0 "泽胡克尤人民共和国"
-  dyn_shenquan_ZUK:0 "泽胡克尤乌克兰圣公会神权国"
-  dyn_c_republic_ZUK:0 "泽胡克尤乌克兰共和国"
-  dyn_c_jzz_ZUK:0 "泽胡克尤乌克兰王国"
 
   dyn_c_societ_republic_LAF:0 "南洋人民共和国"
   dyn_shenquan_LAF:0 "南洋神权国"
@@ -345,16 +327,7 @@
   dyn_c_republic_WUSHI:0 "吴氏共和国"
   dyn_c_jzz_WUSHI:0 "吴氏王国"
 
-  dyn_c_societ_republic_ALY:0 "意大利人民共和国"
-  dyn_shenquan_ALY:0 "意大利神权国"
-  dyn_c_republic_ALY:0 "意大利民主共和国"
-  dyn_c_jzz_ALY:0 "意大利王国"
-  dyn_c_aly_empire:0 "意大利帝国"
 
-  dyn_c_societ_republic_ALY:0 "意大利人民共和国"
-  dyn_shenquan_ALY:0 "意大利神权国"
-  dyn_c_republic_ALY:0 "意大利民主共和国"
-  dyn_c_jzz_ALY:0 "意大利王国"
 
   PLT:0 "阿根廷"
   PLT_ADJ:0 "阿根廷"
@@ -364,14 +337,8 @@
   dyn_c_republic_PLT:0 "阿根廷民主共和国"
   dyn_c_jzz_PLT:0 "阿根廷王国"
 
-  YLI:0 "伊犁将军"
-  YLI_ADJ:0 "伊犁"
 
-  GSK:0 "哥萨克"
-  GSK_ADJ:0 "哥萨克"
 
-  JILIN:0 "吉林将军"
-  JILIN_ADJ:0 "吉林"
 
   AGU:0 "阿古柏"
   AGU_ADJ:0 "阿古柏"
@@ -549,12 +516,8 @@
   dyn_shenquan_QZT:0 "犍陀罗神权国"
   dyn_c_republic_QZT:0 "犍陀罗共和国"
   dyn_c_jzz_QZT:0 "犍陀罗王国"
-  dyn_c_societ_republic_BDK:0 "巴达赫尚人民共和国"
-  dyn_shenquan_BDK:0 "巴达赫尚神权国"
   dyn_c_republic_BDK:0 "巴达赫尚共和国"
   dyn_c_jzz_BDK:0 "巴达赫尚汗国"
-  dyn_c_societ_republic_BLT:0 "布鲁特人民共和国"
-  dyn_shenquan_BLT:0 "布鲁特神权国"
   dyn_c_republic_BLT:0 "布鲁特共和国"
   dyn_c_jzz_BLT:0 "布鲁特汗国"
   dyn_c_societ_republic_LDK:0 "兰达克人民共和国"

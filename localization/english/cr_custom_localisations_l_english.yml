@@ -21,7 +21,7 @@
  cr_nineteenth:0 "nineteenth"
  cr_twentieth:0 "twentieth"
  cr_larger_than_twentieth:0 ""
- 
+
  cr_one:0 "1"
  cr_two:0 "2"
  cr_three:0 "3"
@@ -43,7 +43,7 @@
  cr_nineteen:0 "19"
  cr_twenty:0 "20"
  cr_larger_than_twenty:0 ""
- 
- 
+
+
  #custom_cr_shore_of_lake_superior:0 "Shore of Lake Superior"
  #custom_cr_lake_superior:0 "Lake Superior"

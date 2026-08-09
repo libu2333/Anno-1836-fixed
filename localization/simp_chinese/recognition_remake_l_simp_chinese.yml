@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
   earning_recognition_progress_bar_remake: "获得认可"
   earning_recognition_progress_bar_remake_desc: "进度：#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/250)"
   earning_recognition_progress_remake_gdpc_tt: "[Concept('concept_gdp_per_capita','$concept_gdp_per_capita_short$')] 排名前25"

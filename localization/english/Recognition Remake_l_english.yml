@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 earning_recognition_progress_bar_remake: "Earning recognition"
  earning_recognition_progress_bar_remake_desc: "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/250)"
  earning_recognition_progress_remake_gdpc_tt: "[Concept('concept_gdp_per_capita','$concept_gdp_per_capita_short$')] ranks among the top 25"

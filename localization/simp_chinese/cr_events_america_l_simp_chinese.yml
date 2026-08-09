@@ -238,13 +238,13 @@
  cr_indian_removal.41.a:0 "他们用心良苦"
  cr_indian_removal.41.b:0 "不错的#italic 本地#! 倡议"
  cr_indian_removal.41.b_tt:0 "此选项因我们限制性的#variable 言论自由#! 法律而可用"
- 
- # O what a year this has been! O what a sweeping wind has gone over, and carried its thousands to the grave; while thousands have been tortured and scarcely survive, and the whole nation, comparatively thrown out of house and home during this dreary winter. And why? ...For what crime then was this whole nation doomed to perpetual death? -#italic Rev. Daniel Sabin Butrick#! 
+
+ # O what a year this has been! O what a sweeping wind has gone over, and carried its thousands to the grave; while thousands have been tortured and scarcely survive, and the whole nation, comparatively thrown out of house and home during this dreary winter. And why? ...For what crime then was this whole nation doomed to perpetual death? -#italic Rev. Daniel Sabin Butrick#!
  # a number of Georgia citizens near New Echota took sixteen Cherokees and drove them to the fort and then requested permission of General Scott to take them out and whip them, though in this they were not gratified -#italic Rev. Daniel Sabin Butrick#!  The citizens of Georgia pressured Scott to move with even more expediency.
  #Incredibly, neither Gibson nor the Secretary of War had thought to provide a physician, or even medicine. Armstrong wrote: "I have as yet employed no physician: to-day an Indian broke his leg, and we will of course have to leave him. We have no medicine but what belongs to private individuals: it is now too late to hear from the department, but I consider it very necessary that we should have medical aid: where there are two thousand Indians, with the wagoners, and those attached to the emigration, at least a physician could have been employed. -#italic William Armstrang#! , removal agent
  # "The dark cloud and threatening storm, which, for some time past, have been gathering over my native land, seem now to be full charged and on the eve of exploding. In this awful crisis, we can but resign our destiny into the hands of Him who directs the storm and rides upon the whirlwind. -#italic Letter to the Memphis Enquirer#! "
 
- 
+
 
  cr_indian_removal.49.t:0 "离别的回响"
  cr_indian_removal.49.desc:0 "随着[SCOPE.sCountry('target_of_removal').GetNameNoFlag]从[SCOPE.sState('removed_from_state').GetName]的迁移接近完成，他们曾经生机勃勃的社区如今回荡着离别的寂静，祖先家园默默见证着这场强制流离的篇章。"
@@ -515,7 +515,7 @@
  cr_canadian_indian_treaties.2.f:0 "滚开！按权利，这是我们的土地，你们和你们的殖民者在此不受欢迎！"
  cr_canadian_indian_treaties.2.a:0 "我们不会被恐吓"
  cr_canadian_indian_treaties.2.b:0 "或许我们不该逼得太紧"
- 
+
 
  ####
  #加拿大印第安条约（续）
@@ -655,7 +655,7 @@
  cr_mexico_events.15.flavour:0 "1824年宪法仍是墨西哥与其各省之间的真正契约。"
  cr_mexico_events.15.a:0 "继续关注北部动向。"
  cr_mexico_events.15.b:0 "不要管他们。"
- 
+
 
  cr_mexico_events.30.t:0 "加利福尼亚起义"
  cr_mexico_events.30.desc:0 "在[SCOPE.sCountry('rebellious_tag_scope').GetNameNoFlag]，长期积压的不满终于爆发为公开叛乱。由[SCOPE.sCharacter('rebel_leader_scope').GetFullName]领导，当地议会推翻中央派总督，宣布回归联邦主义原则。叛军坚称仍忠于墨西哥，却拒绝承认来自首都的权威。\n\n目前，他们的旗帜飘扬在蒙特雷上空，由那些声称并非寻求独立、而是恢复1824年旧宪法的人们高举。"

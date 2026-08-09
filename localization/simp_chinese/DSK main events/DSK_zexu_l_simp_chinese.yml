@@ -2,59 +2,59 @@
 modifier_dcyq:0 "洞察一切"
 
 je_dsk_zexu_main: "夹缝求生"
-je_dsk_zexu_main_goal: "战争胜利的进度条已被填满"
-je_dsk_zexu_main_reason: "[ROOT.GetCountry.GetRuler.GetFullName]穿越到这个时代，附身于[SCOPE.sCountry('tur_scope').GetName]的一位17岁年轻贵族身上。此时的[SCOPE.GetRootScope.GetCountry.GetName]，不过是[SCOPE.sCountry('tur_scope').GetName]的傀儡国，因为拯救奥斯曼帝国的皇帝被安置在抵御俄罗斯帝国进攻的前线。[SCOPE.sCountry('tur_scope').GetName]承诺，只要[SCOPE.GetRootScope.GetCountry.GetName]在战争中全力协助并取得胜利，便会逐步给予更多自治权，甚至公国可以获得独立。[ROOT.GetCountry.GetRuler.GetFullName]深知[SCOPE.GetRootScope.GetCountry.GetName]处境艰难，但他并未气馁。他积极整顿[SCOPE.GetRootScope.GetCountry.GetName]的军事力量，训练士兵，储备物资，同时密切关注着沙俄的动向。尽管资源有限，且时常受到奥斯曼帝国的掣肘，但[ROOT.GetCountry.GetRuler.GetFullName]凭借着卓越的领导才能和坚定的信念，努力在夹缝中求生存，为公国的未来谋划着出路。"
+je_dsk_zexu_main_goal: "在战争中取胜。"
+je_dsk_zexu_main_reason: "异世来客[ROOT.GetCountry.GetRuler.GetFullName]附身于[SCOPE.sCountry('tur_scope').GetName]的一名年轻贵族。此时的[SCOPE.GetRootScope.GetCountry.GetName]仍受[SCOPE.sCountry('tur_scope').GetName]节制，被置于抵御俄罗斯帝国的前线。宗主承诺，只要我们在战争中全力协助赢得胜利，便将逐步扩大公国的自治权，甚至允许其独立。为此，[ROOT.GetCountry.GetRuler.GetFullName]正整编军队、训练士卒、储备军需，并在列强夹缝中为公国谋求出路。"
 je_war_with_rus_tt: "奥斯曼土耳其与俄罗斯帝国的战争已经爆发"
-je_independent_tt: "目前[SCOPE.GetRootScope.GetCountry.GetName]实力弱小韬光养晦是必要的"
+je_independent_tt: "[SCOPE.GetRootScope.GetCountry.GetName]羽翼未丰，当暂避锋芒。"
 je_war_with_tur_tt: "与旧宗主国[SCOPE.sCountry('tur_scope').GetName]的战争已经爆发"
 
 zexu_revolt: "泽许的远视"
 
 dsk_zexu_war_button: "来自土耳其的军事援助"
-dsk_zexu_war_button_desc: "我们需要我们的宗主国援助我们"
+dsk_zexu_war_button_desc: "请求宗主国给予军事援助。"
 supporting_zexu_Nation_modifier: "来自土耳其的援助"
 dsk_support_war_button: "目前战争支持度"
-dsk_support_war_button_desc: "全国的人民支持我们这场战争，怎么可以轻易认输？"
+dsk_support_war_button_desc: "举国支持此战，我们不可轻言屈服。"
 
 dsk_support_economy_button: "来自土耳其的经济援助"
-dsk_support_economy_button_desc: "困难时期应该依靠[SCOPE.sCountry('tur_scope').GetName]的经济援助渡过难关"
+dsk_support_economy_button_desc: "在困难时期争取[SCOPE.sCountry('tur_scope').GetName]的经济援助。"
 sick_man_of_east_europe: "东欧病夫"
 sick_man_of_east_europe_tt: "我们将被西欧[concept_great_power]戏谑为东欧病夫，并彻底滚出#yellow 多瑙#!之地。"
 
 dsk_zexu.1.t: "公国自治权"
-dsk_zexu.1.f: "目前[SCOPE.GetRootScope.GetCountry.GetName]仍然[SCOPE.sCountry('tur_scope').GetName]的控制之中，想要获得更多权力，就必须接下来击败沙俄打赢克里米亚战争"
-dsk_zexu.1.d: "可喜可贺在新一场的战斗中，我们又获得[SCOPE.sCountry('tur_scope').GetName]的信任"
-dsk_zexu.1.a: "这是[SCOPE.GetRootScope.GetCountry.GetName]伟大的胜利"
+dsk_zexu.1.f: "[SCOPE.GetRootScope.GetCountry.GetName]仍受[SCOPE.sCountry('tur_scope').GetName]节制。若要争取更大权力，须在克里米亚战争中击败俄罗斯。"
+dsk_zexu.1.d: "又一场胜利使我们赢得了[SCOPE.sCountry('tur_scope').GetName]更多信任。"
+dsk_zexu.1.a: "这是[SCOPE.GetRootScope.GetCountry.GetName]的胜利。"
 
 dsk_zexu.2.t: "公国成为保护国"
-dsk_zexu.2.f: "真是精彩的战斗，我[ROOT.GetCountry.GetRuler.GetFullName]作为穿越者相信[SCOPE.GetRootScope.GetCountry.GetName]的命运将会更加美好"
-dsk_zexu.2.d: "爆发的新一场战斗，[SCOPE.GetRootScope.GetCountry.GetName]再一次证明了自己的实力"
+dsk_zexu.2.f: "又一场鏖战证明了公国的韧性；[ROOT.GetCountry.GetRuler.GetFullName]相信，命运正向[SCOPE.GetRootScope.GetCountry.GetName]倾斜。"
+dsk_zexu.2.d: "在新近的战斗中，[SCOPE.GetRootScope.GetCountry.GetName]再度证明了自己的实力。"
 dsk_zexu.2.a: "[ROOT.GetCountry.GetRuler.GetFullName]伯爵万岁"
 
 dsk_zexu.3.t: "伟大的战争胜利"
-dsk_zexu.3.f: "我们一次又一次在战斗中获得了宝贵的经验与国家凝聚力"
-dsk_zexu.3.d: "[SCOPE.GetRootScope.GetCountry.GetName]军事的锻炼和战争让国家凝聚力进一步提升"
-dsk_zexu.3.a: "我们想要独立的思想越来越强烈"
+dsk_zexu.3.f: "连番战斗使我们积累了经验，也锻炼了国民的意志。"
+dsk_zexu.3.d: "战争与军队整训进一步增强了[SCOPE.GetRootScope.GetCountry.GetName]的凝聚力。"
+dsk_zexu.3.a: "独立的愿望愈发强烈。"
 
 dsk_zexu.4.t: "多布罗加之狮"
-dsk_zexu.4.f: "我们的声望随着战争和国家综合实力的提升，获得更多国家的认可和信任，但是下一个出现的问题接踵而至，那就是罗马尼亚人问题"
-dsk_zexu.4.d: "战斗的胜利让我们获得了周边国家的认可"
-dsk_zexu.4.a: "国际地位认可让我们的声望大大提升"
+dsk_zexu.4.f: "战功与国力提升使我们获得邻国的认可；然而新的难题已迫在眉睫：罗马尼亚人的问题。"
+dsk_zexu.4.d: "战斗的胜利为我们赢得了周边国家的承认。"
+dsk_zexu.4.a: "声望由此大增。"
 lion_of_east_europe_modifier: "多布罗加之狮"
-lion_of_east_europe_modifier_desc: "穿越者预知能力"
+lion_of_east_europe_modifier_desc: "在东欧战场建立的威望。"
 
 je_gbr_zexu_union: "英许同盟"
 je_gbr_zexu_union_reason: "英许同盟\n\n#yellow 英许同盟#!每月将通过下列关系#v 增长#!:\n•与#yellow 缔约国一方#!保持#green 友善#!以上的关系（#green +2#!）。\n•与#yellow 缔约国一方#!签订[concept_alliance]或#yellow 利益同盟#!#bold 条约#!（#green +2#!）"
 
-je_gbr_zexu_union_tt: "[SCOPE.sCountry('gbr_scope').GetName]与[SCOPE.GetRootScope.GetCountry.GetName]的友情可以跨越山和海！"
+je_gbr_zexu_union_tt: "[SCOPE.sCountry('gbr_scope').GetName]与[SCOPE.GetRootScope.GetCountry.GetName]的友谊可跨越山海。"
 
 gbr_zexu_union_stronger_button: "来自英国的经济援助"
-gbr_zexu_union_stronger_button_desc: "来自英国的英镑非常香，不得不品尝"
+gbr_zexu_union_stronger_button_desc: "争取英国提供经济援助。"
 gbr_zexu_union_stronger_button_1: "来自英国的军事援助"
-gbr_zexu_union_stronger_button_1_desc: "来自英国的军事援助非常香，不得不品尝"
+gbr_zexu_union_stronger_button_1_desc: "争取英国提供军事援助。"
 supporting_zexu_Nation_modifier_1: "来自英国的军事援助"
 gbr_zexu_union_stronger_button_2: "军事鼓舞"
-gbr_zexu_union_stronger_button_2_desc:"我们的盟友仍在战斗，我们决不投降"
+gbr_zexu_union_stronger_button_2_desc:"盟友仍在战斗，我们不可屈服。"
 gbr_zexu_union_stronger_button_3: "英许双边贸易"
 gbr_zexu_union_stronger_button_3_desc: "将英国纳入最惠贸易国"
 gbr_zexu_union_stronger_modifier: "英许双边贸易"
@@ -63,7 +63,7 @@ enough_gbr_zexu_union_var: "#v 拥有足够多的点数#!"
 
 
 je_dsk_zexu_conquer_mol: "罗马尼亚问题"
-je_dsk_zexu_conquer_mol_reason: "据我国情报机构透露，由于罗马尼亚不服奥斯曼帝国的统治，摩尔达维亚和瓦拉几亚准备勾结俄罗斯帝国发动叛乱"
+je_dsk_zexu_conquer_mol_reason: "情报显示，因不满奥斯曼统治，摩尔达维亚与瓦拉几亚正同俄罗斯接触，准备发动叛乱。"
 je_dsk_zexu_conquer_mol_goal: "罗马尼亚诸公国已准备发动起义"
 
 je_dsk_zexu_conquer_mol_tt: "罗马尼亚起义进度仍然处于控制中"
@@ -73,112 +73,112 @@ je_dsk_zexu_conquer_mol_2_tt: "罗马尼亚叛军即将起势，我们必须做�
 
 
 dsk_zexu.5.t: "与英国女王的邂逅"
-dsk_zexu.5.f: "1836年6月的一天，阳光明媚，[ROOT.GetCountry.GetRuler.GetFullName]决定到英国访问学习更多的文化和科技，在这里他遇到了16岁的英国国王的女儿[SCOPE.sCharacter('gbr_queen_scope').GetFirstName]，经过交流英国国王的女儿非常欣赏他。"
-dsk_zexu.5.a: "同意英国女王求婚"
-dsk_zexu.5.b: "不同意英国女王求婚"
+dsk_zexu.5.f: "1836年6月，[ROOT.GetCountry.GetRuler.GetFullName]出访英国，考察其文化与技艺，并结识了[SCOPE.sCharacter('gbr_queen_scope').GetFirstName]。一番交谈后，对方对他颇为赏识。"
+dsk_zexu.5.a: "接受这桩婚约。"
+dsk_zexu.5.b: "婉拒这桩婚约。"
 
 
 dsk_zexu.6.t: "与英国女王的婚礼"
-dsk_zexu.6.d: "春风十里不如和你在一起"
-dsk_zexu.6.f: "[SCOPE.sCharacter('gbr_queen_scope').GetFirstName]希望和[ROOT.GetCountry.GetRuler.GetFullName]成婚"
-dsk_zexu.6.a: "与英国女王的婚礼"
+dsk_zexu.6.d: "一桩横跨海峡的婚约，将把两国的命运系得更紧。"
+dsk_zexu.6.f: "[SCOPE.sCharacter('gbr_queen_scope').GetFirstName]愿与[ROOT.GetCountry.GetRuler.GetFullName]成婚。"
+dsk_zexu.6.a: "举行婚礼。"
 
 lion_of_england_modifier: "英格兰之狮"
 
 
 dsk_zexu.7.t: "罗马尼亚起义"
-dsk_zexu.7.d: "罗马尼亚人想要重建罗马尼亚"
-dsk_zexu.7.f: "由于摩尔达维亚与瓦拉几亚组建联邦，他们的使者与沙俄频繁交往，获得了俄罗斯帝国的支持，决定发动战争"
+dsk_zexu.7.d: "罗马尼亚人正谋求重建自己的国家。"
+dsk_zexu.7.f: "摩尔达维亚与瓦拉几亚结成联盟，其使者频繁往来于俄国，已获俄罗斯帝国支持，遂决意起兵。"
 dsk_zexu.7.a: "罗马尼亚起义"
 
 
 je_rom_killer: "帝王霸业"
-je_rom_killer_reason: "面对瓦拉几亚和摩尔达维亚的联邦组建，对[SCOPE.GetRootScope.GetCountry.GetName]是一个最大的威胁，我们现在需要从奥斯曼帝国手中夺取这两块地盘"
+je_rom_killer_reason: "瓦拉几亚与摩尔达维亚的联合对[SCOPE.GetRootScope.GetCountry.GetName]构成严重威胁。我们须从奥斯曼手中夺取这两地，以消弭后患。"
 
 
 dsk_zexu.8.t: "罗马尼亚臣服"
-dsk_zexu.8.d: "我们成功击败奥斯曼帝国，成功占据了布加勒斯特和雅西"
-dsk_zexu.8.f: "[SCOPE.GetRootScope.GetCountry.GetName]的勇士们，你们是最棒的！！！"
-dsk_zexu.8.a: "罗马尼亚人的臣服"
+dsk_zexu.8.d: "我们击败奥斯曼帝国，并占领了布加勒斯特与雅西。"
+dsk_zexu.8.f: "[SCOPE.GetRootScope.GetCountry.GetName]的将士以战功赢得了胜利。"
+dsk_zexu.8.a: "接受罗马尼亚人的臣服。"
 
 je_dsk_immigrant: "移民局"
-je_dsk_immigrant_reason: "国家人口的增长离不开移民和移民局的建设"
+je_dsk_immigrant_reason: "国家的人口增长有赖于有序的移民政策与行政机构。"
 
 dsk_zexu.10.t: "罗马尼亚领地王冠"
-dsk_zexu.10.d: "通过和罗马尼亚人达成协议，[ROOT.GetCountry.GetRuler.GetFullName]决定接纳罗马尼亚人"
-dsk_zexu.10.f: "罗马尼亚的战争已经结束，我们将是这里的主人？还是当个好人和平相处呢？"
-dsk_zexu.10.a: "将罗马尼亚纳入公国直辖领土"
-dsk_zexu.10.b: "我这个人比较随和，不喜欢打打杀杀"
-je_dsk_crimea: "大胜克里米亚" 
-je_dsk_crimea_reason: "我们需要在克里米亚中帮助奥斯曼帝国赢得胜利，不然人口不足的我们不足以震慑其他民族" 
+dsk_zexu.10.d: "经同罗马尼亚人协商，[ROOT.GetCountry.GetRuler.GetFullName]决定接纳他们。"
+dsk_zexu.10.f: "罗马尼亚战争已告结束。我们应将此地纳入直辖，还是以宽和之策维持和平？"
+dsk_zexu.10.a: "将罗马尼亚纳入公国直辖。"
+dsk_zexu.10.b: "尊重其自治，以安人心。"
+je_dsk_crimea: "克里米亚凯旋"
+je_dsk_crimea_reason: "我们须在克里米亚战争中协助奥斯曼取胜；否则，以现有国力尚不足以震慑周边诸族。"
 
 dsk_zexu.12.t: "保加利亚领地王冠"
-dsk_zexu.12.d: "[SCOPE.GetRootScope.GetCountry.GetName]在克里米亚战争的英勇表现，让俄罗斯帝国再一次吃瘪"
-dsk_zexu.12.f: "[SCOPE.sCountry('tur_scope').GetName]为表示感谢亲自将保加利亚地区交予我们发展"
+dsk_zexu.12.d: "[SCOPE.GetRootScope.GetCountry.GetName]在克里米亚战争中的英勇表现，使俄罗斯帝国再受挫折。"
+dsk_zexu.12.f: "为示嘉奖，[SCOPE.sCountry('tur_scope').GetName]将保加利亚交由我们经营。"
 dsk_zexu.12.a: "保加利亚领地王冠"
 
-je_dsk_zexu_army: "国家改革" 
-je_dsk_zexu_army_reason: "国家改革是一个国家发展的重要组成部分也是强国根本" 
+je_dsk_zexu_army: "国家改革"
+je_dsk_zexu_army_reason: "国家改革既是发展要务，亦为富强之本。"
 
-je_dsk_zexu_colony: "海外殖民地" 
-je_dsk_zexu_colony_reason: "随着殖民时代的兴起，我们有必要参与其中获得更多好处" 
+je_dsk_zexu_colony: "海外殖民地"
+je_dsk_zexu_colony_reason: "列强竞逐海外，若要扩展资源与影响力，我们亦不能置身事外。"
 
 
-je_dsk_zexu_danube: "多瑙河的主宰" 
-je_dsk_zexu_danube_reason: "随着奥地利帝国的衰落，我们有必要趁他病，要他命" 
+je_dsk_zexu_danube: "多瑙河的主宰"
+je_dsk_zexu_danube_reason: "奥地利帝国日渐衰弱，正是我们争夺多瑙河流域主导权的时机。"
 
-hungarian_rise_button: "教唆匈牙利独立" 
-hungarian_rise_button_desc: "教唆匈牙利独立" 
-annex_hungarian_button: "吞并匈牙利" 
-annex_hungarian_button_desc: "与匈牙利合邦" 
-je_dsk_zexu_ukr: "乌克兰的主宰" 
-je_dsk_zexu_ukr_reason: "俄罗斯帝国对于乌克兰地区的统治是不合法的，我们应该才是乌克兰地区的主人" 
+hungarian_rise_button: "教唆匈牙利独立"
+hungarian_rise_button_desc: "教唆匈牙利独立"
+annex_hungarian_button: "吞并匈牙利"
+annex_hungarian_button_desc: "与匈牙利合邦"
+je_dsk_zexu_ukr: "乌克兰的主宰"
+je_dsk_zexu_ukr_reason: "俄罗斯对乌克兰的统治正遭质疑；我们可借此争取当地的支持与主导权。"
 
 
 dsk_zexu.13.t: "国家改革成功"
-dsk_zexu.13.d: "随着法律和政府的大力改革"
-dsk_zexu.13.f: "国家的发展异常顺利，全境的铁路和公交都在运行，我们已经领先其他国家了"
+dsk_zexu.13.d: "随着法律与政府机构完成整顿，改革终见成效。"
+dsk_zexu.13.f: "国家发展渐入正轨，铁路与公共交通遍及各地；我们已走在许多国家之前。"
 dsk_zexu.13.a: "国家改革成功"
 
 
 dsk_zexu.14.t: "海外殖民帝国"
-dsk_zexu.14.d: "随着殖民时代的兴起，我们有必要参与其中获得更多好处"
-dsk_zexu.14.f: "英国，法国，美国，德国，荷兰都有殖民地，我们也不能落后了"
-dsk_zexu.14.a: "参与殖民和统一欧洲"
+dsk_zexu.14.d: "列强竞逐海外，我们亦须参与其中，以求资源与影响力。"
+dsk_zexu.14.f: "英、法、美、德、荷皆有海外据点；我们不能永远落于人后。"
+dsk_zexu.14.a: "投身殖民事业，扩展欧洲影响。"
 
 dsk_zexu.15.t: "多瑙河领地王冠"
 dsk_zexu.15.d: "[SCOPE.GetRootScope.GetCountry.GetName]的扩张之路"
-dsk_zexu.15.f: "随着奥地利帝国内部的势力起义不断，我们找到了好的机会成功将多瑙河地区纳入[SCOPE.GetRootScope.GetCountry.GetName]的版图，但是我们也不能掉以轻心，很多反对[SCOPE.GetRootScope.GetCountry.GetName]的势力试图分离我们的国家"
-dsk_zexu.15.a: "奥地利帝国的衰亡是注定的"
+dsk_zexu.15.f: "奥地利帝国内乱迭起，我们遂得机会将多瑙河地区纳入[SCOPE.GetRootScope.GetCountry.GetName]版图；但反对势力仍图离间、分裂国家，绝不可掉以轻心。"
+dsk_zexu.15.a: "奥地利的衰亡已成定局。"
 
 dsk_zexu.16.t: "乌克兰领地王冠"
-dsk_zexu.16.d: "[ROOT.GetCountry.GetRuler.GetFullName]作为穿越者打败俄罗斯不是理所应当吗？"
-dsk_zexu.16.f: "我们已经成功击败了俄罗斯帝国，也许现在是时候新建一个新的国家了，和乌克兰人一起建立泽许乌克兰联邦？不，也许我们的梦想可以更大--统一整个欧洲，在历史上欧洲没有统一过，我相信作为穿越者可以做到这个目标！！！"
-dsk_zexu.16.a: "国家的目标是统一整个欧洲？"
+dsk_zexu.16.d: "[ROOT.GetCountry.GetRuler.GetFullName]击败俄罗斯后，乌克兰的前途已掌握在我们手中。"
+dsk_zexu.16.f: "俄罗斯既败，我们可同乌克兰人共建联邦；亦可将眼界投向更广阔的欧洲，谋求一个前所未有的统一秩序。"
+dsk_zexu.16.a: "以欧洲统一为国家目标。"
 
 lion_of_romania_modifier: "罗马尼亚之狮"
 lion_of_bulgaria_modifier: "保加利亚之狮"
 lion_of_ukrainian_modifier: "乌克兰之狮"
 lion_of_donau_modifier: "多瑙河之狮"
 
-our_queen_has_die_tt: "我们伟大的[SCOPE.sCharacter('gbr_queen_scope').GetFirstName]彻底离开了我们"
+our_queen_has_die_tt: "我们敬爱的[SCOPE.sCharacter('gbr_queen_scope').GetFirstName]已与世长辞。"
 
 complete_zexu_ukr_tt: "所有本土都会被添加#o 泽许#!本土"
 
 
 ####0203 new
 dsk_zexu.17.t: "穿越事件"
-dsk_zexu.17.d: "莫名其妙穿越到1836年维多利亚时代，还在这个世界遇到了奥斯曼帝国的皇帝，主角林泽许，重生在伊斯坦布尔因为营救奥斯曼皇帝苏丹被赐予封地，且看他如何在这工业时代崛起？？"
-dsk_zexu.17.f: "[ROOT.GetCountry.GetRuler.GetFullName]作为穿越者打败俄罗斯不是理所应当吗？"
-dsk_zexu.17.a: "我要反攻大陆"
-dsk_zexu.17.b: "我要迎娶乌克兰老婆"
+dsk_zexu.17.d: "林泽许忽然来到1836年的君士坦丁堡，因救下奥斯曼苏丹而获赐封地。置身工业时代的风暴前夜，他将如何经营这片边地？"
+dsk_zexu.17.f: "[ROOT.GetCountry.GetRuler.GetFullName]的到来，或许会改变东欧的均势。"
+dsk_zexu.17.a: "整军经武，图谋复兴。"
+dsk_zexu.17.b: "以联姻巩固乌克兰关系。"
 
 
 dsk_zexu.19.t: "多瑙河梦，领土扩张"
-dsk_zexu.19.d: "借着[SCOPE.sCountry('aus_want_annex_hun_scope').GetName]的内乱，[SCOPE.sCountry('hun_never_die_scope').GetName]独立党，[SCOPE.sCountry('aus_want_annex_hun_scope').GetName]发动吞并[SCOPE.sCountry('hun_never_die_scope').GetName]的战争"
-dsk_zexu.19.f: "起初，这是一种民族自决提案，直到，这场革命变成了一场独立战争，其最终目的是把匈牙利从奥地利分裂出来，推翻君主制并宣布成立共和国。\n这些法国革命带来的激进的思想遭到欧洲大多数君主制的强烈反对"
-dsk_zexu.19.a: "匈牙利地区属于我们"
-dsk_zexu.19.b: "还是别掺和这个烂摊子了"
+dsk_zexu.19.d: "趁[SCOPE.sCountry('aus_want_annex_hun_scope').GetName]内乱，[SCOPE.sCountry('hun_never_die_scope').GetName]的独立派发动起义；[SCOPE.sCountry('aus_want_annex_hun_scope').GetName]随即筹划吞并该地。"
+dsk_zexu.19.f: "最初的民族自决诉求已演变为独立战争：起义者意欲脱离奥地利、推翻君主制并建立共和国。此类激进主张，正为欧洲诸君主国所深恶。"
+dsk_zexu.19.a: "匈牙利应归于我方。"
+dsk_zexu.19.b: "不介入这场争端。"
 
 
 
@@ -290,7 +290,7 @@ dsk_zexu.26.a: "[SCOPE.GetRootScope.GetCountry.GetName]万岁"
 lion_of_patriarch_modifier: "海外之狮"
 lion_of_Balkan_modifier: "巴尔干之狮"
 
-lion_of_earth_modifier: "全球帝国"  
+lion_of_earth_modifier: "全球帝国"
 je_dsk_annex_Iberia: "伊比利亚统一，资源整合"
 
 lion_of_south_Europe_modifier: "南欧之狮"
@@ -302,7 +302,6 @@ dsk_zexu.27.a: "[SCOPE.GetRootScope.GetCountry.GetName]万岁"
 
 lion_of_Iberia_modifier: "伊比利亚之狮"
 
-je_dsk_annex_Iberia: "伊比利亚统一，资源整合"
 je_dsk_annex_Iberia_reason: "泽许帝国对西班牙和葡萄牙的统治进一步深化。将伊比利亚半岛的资源进行全面整合，包括矿业、农业和渔业等。建立统一的经济发展规划，改善当地的交通和通信设施，促进伊比利亚半岛内部的贸易往来。"
 je_dsk_zexu_greatpower: "泽许全球帝国"
 je_dsk_zexu_greatpower_reason: "经过这一系列的步骤，泽许欧亚合众国成功地将整个欧洲统一在一个政权之下。欧洲实现了政治、经济、文化、军事等各方面的高度统一，开启了一个全新的纪元。"
@@ -325,53 +324,53 @@ it_will_improve_je_tt: "这会推动全球帝国的改革"
 lion_of_education_modifier: "教育改革，思想统一"
 
 
-je_dsk_zexu_technology: "科技共享，共同进步" 
-je_dsk_zexu_technology_reason: "泽许欧亚合众国在整个欧洲范围内推行教育改革。建立统一的教育体系，在学校中教授泽许帝国的历史、文化、语言和价值观。培养新一代具有泽许帝国认同感的欧洲公民，通过教育来消除不同地区之间的文化隔阂，实现思想上的统一，为欧洲的长期稳定奠定思想基础。" 
-lion_of_technology_modifier: "科技共享，共同进步" 
+je_dsk_zexu_technology: "科技共享，共同进步"
+je_dsk_zexu_technology_reason: "泽许欧亚合众国在整个欧洲范围内推行教育改革。建立统一的教育体系，在学校中教授泽许帝国的历史、文化、语言和价值观。培养新一代具有泽许帝国认同感的欧洲公民，通过教育来消除不同地区之间的文化隔阂，实现思想上的统一，为欧洲的长期稳定奠定思想基础。"
+lion_of_technology_modifier: "科技共享，共同进步"
 
 
-je_dsk_zexu_railway: "交通联网，地域联通" 
+je_dsk_zexu_railway: "交通联网，地域联通"
 je_dsk_zexu_railway_reason: "大力发展欧洲的交通网络。修建铁路、公路和运河，将欧洲各地紧密地连接在一起。从北欧到南欧，从东欧到西欧，便捷的交通网络促进了人员、物资和文化的交流。泽许欧亚合众国通过交通联网，打破了地域之间的限制，进一步加强了对整个欧洲的控制。"
-lion_of_railway_modifier: "交通联网，地域联通" 
-je_dsk_zexu_army_2: "军事整合，力量凝聚" 
+lion_of_railway_modifier: "交通联网，地域联通"
+je_dsk_zexu_army_2: "军事整合，力量凝聚"
 je_dsk_zexu_army_2_reason: "对欧洲各地的军事力量进行整合。建立统一的军事指挥体系，统一军事训练标准和装备配置。将各地的军队改编为泽许欧亚合众国的国防军，根据各地的地理特点和战略需求，部署军事力量。通过军事整合，凝聚了欧洲的军事力量，提高了泽许欧亚合众国的整体军事防御和进攻能力。"
-lion_of_army_modifier: "军事整合，力量凝聚" 
+lion_of_army_modifier: "军事整合，力量凝聚"
 
-je_dsk_zexu_port: "边境巩固，安全保障" 
+je_dsk_zexu_port: "边境巩固，安全保障"
 je_dsk_zexu_port_reason: "沿着泽许欧亚合众国的欧洲边境建立坚固的防御工事。在陆地上修建城墙、堡垒和边境哨所，在海上建立强大的海军基地和海防设施。加强边境的巡逻和监控，防止外部势力的入侵和内部的分裂势力活动，为欧洲的统一提供安全保障。"
 
-lion_of_port_modifier: "边境巩固，安全保障"  
+lion_of_port_modifier: "边境巩固，安全保障"
 
 
-je_dsk_zexu_art: "文化复兴，欧洲荣耀" 
-je_dsk_zexu_art_reason: "泽许欧亚合众国在欧洲范围内发起文化复兴运动。鼓励艺术家、文学家和历史学家挖掘欧洲各地的优秀文化遗产，融合泽许帝国的文化特色" 
-lion_of_art_modifier: "文化复兴，欧洲荣耀" 
-je_dsk_zexu_agriculture: "农业革新，粮食保障" 
+je_dsk_zexu_art: "文化复兴，欧洲荣耀"
+je_dsk_zexu_art_reason: "泽许欧亚合众国在欧洲范围内发起文化复兴运动。鼓励艺术家、文学家和历史学家挖掘欧洲各地的优秀文化遗产，融合泽许帝国的文化特色"
+lion_of_art_modifier: "文化复兴，欧洲荣耀"
+je_dsk_zexu_agriculture: "农业革新，粮食保障"
 je_dsk_zexu_agriculture_reason: "在欧洲推行农业革新政策。引进新的农作物品种，推广先进的农业种植技术和灌溉技术。在东欧和南欧的广袤土地上建立大型的农业生产基地，提高粮食产量。通过农业革新，泽许欧亚合众国实现了欧洲的粮食自给自足，为欧洲的稳定发展提供了粮食保障。"
-lion_of_agriculture_modifier: "农业革新，粮食保障" 
-je_dsk_zexu_industry: "工业规划，经济繁荣" 
+lion_of_agriculture_modifier: "农业革新，粮食保障"
+je_dsk_zexu_industry: "工业规划，经济繁荣"
 je_dsk_zexu_industry_reason: "制定统一的欧洲工业发展规划。根据各地的资源优势和工业基础，建立不同类型的工业基地。在北欧发展渔业加工和造船业，在东欧发展重工业，在西欧发展轻工业和高科技产业等。通过合理的工业规划，促进欧洲的工业发展，实现了欧洲经济的繁荣。"
-lion_of_industry_modifier: "工业规划，经济繁荣" 
-je_dsk_zexu_welfare: "社会福利，人民团结" 
+lion_of_industry_modifier: "工业规划，经济繁荣"
+je_dsk_zexu_welfare: "社会福利，人民团结"
 je_dsk_zexu_welfare_reason: "泽许欧亚合众国在欧洲建立统一的社会福利制度。为欧洲公民提供医疗、养老、失业等社会保障，提高人民的生活质量。通过社会福利制度的实施，增强了人民对泽许欧亚合众国的归属感和忠诚度，促进了欧洲人民的团结。"
-lion_of_welfare_modifier: "社会福利，人民团结" 
+lion_of_welfare_modifier: "社会福利，人民团结"
 
-je_dsk_zexu_environment: "外交霸权，欧洲一体" 
+je_dsk_zexu_environment: "外交霸权，欧洲一体"
 je_dsk_zexu_environment_reason: "在国际事务中，泽许欧亚合众国代表整个欧洲发声。通过外交手段，与世界其他国家建立起以泽许欧亚合众国为核心的国际关系。在外交谈判、国际条约签订等方面，泽许欧亚合众国展现出强大的外交霸权，确保欧洲在国际舞台上以一个整体的形象出现，实现了欧洲的外交统一。"
 
-lion_of_environment_modifier: "外交霸权，欧洲一体" 
+lion_of_environment_modifier: "外交霸权，欧洲一体"
 
-je_dsk_zexu_pops: "人口管理，均衡发展" 
+je_dsk_zexu_pops: "人口管理，均衡发展"
 je_dsk_zexu_pops_reason: "对欧洲的人口进行合理管理。鼓励人口从人口密集地区向人口稀疏地区迁移，促进地区间的人口均衡。通过提供就业机会、住房补贴等优惠政策，吸引人们到发展中的地区定居。同时，加强人口的教育和培训，提高人口素质，为欧洲的发展提供人力资源保障。"
 
-lion_of_pops_modifier: "人口管理，均衡发展" 
+lion_of_pops_modifier: "人口管理，均衡发展"
 
-dyn_c_asia_europe_ZEXU: "泽许欧亚合众国" 
+dyn_c_asia_europe_ZEXU: "泽许欧亚合众国"
 
-dyn_c_ZEXU_empire: "泽许帝国" 
+dyn_c_ZEXU_empire: "泽许帝国"
 
 
-dsk_zexu.29.t: "洪秀全的拜访" 
-dsk_zexu.29.d: "洪秀全的拜访想要依靠我们对抗大清" 
-dsk_zexu.29.f: "太平天国的正处于革命的关键时期" 
-dsk_zexu.29.a: "支持洪秀全发动太平天国运动" 
+dsk_zexu.29.t: "洪秀全的拜访"
+dsk_zexu.29.d: "洪秀全的拜访想要依靠我们对抗大清"
+dsk_zexu.29.f: "太平天国的正处于革命的关键时期"
+dsk_zexu.29.a: "支持洪秀全发动太平天国运动"

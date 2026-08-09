@@ -52,7 +52,7 @@
  #State traits East Asia
  state_trait_cr_halong:0 "Ha Long Bay"
  state_trait_manchurian_plain:0 "Manchurian Plain"
- 
+
  #State traits America
  state_trait_native_resistance:0 "Native Resistance"
  state_trait_comancheria:0 "Comancheria"
@@ -65,47 +65,47 @@
  state_trait_cr_gateway_to_the_mississippi:0 "The Mississippi Gateway"
  state_trait_cr_cerrado:0 "Cerrado"
  state_trait_great_american_desert: "The Great American Desert"
- 
+
  ### Movement Modifier Type Definitions ###
 state_pop_support_movement_carlists_add: "$movement_carlists_name$ $concept_pop$ Attraction"
  state_pop_support_movement_carlists_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_carlists_mult: "$state_pop_support_movement_carlists_add$"
  state_pop_support_movement_carlists_mult_desc: "$political_movement_pop_attraction_mult_desc$"
- 
+
  state_pop_support_movement_centralist_add: "$movement_centralist$ $concept_pop$ Attraction"
  state_pop_support_movement_centralist_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_centralist_mult: "$state_pop_support_movement_centralist_add$"
  state_pop_support_movement_centralist_mult_desc: "$political_movement_pop_attraction_mult_desc$"
- 
+
  state_pop_support_movement_frontier_movement_add: "$movement_frontier_movement$ $concept_pop$ Attraction"
  state_pop_support_movement_frontier_movement_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_frontier_movement_mult: "$state_pop_support_movement_frontier_movement_add$"
  state_pop_support_movement_frontier_movement_mult_desc: "$political_movement_pop_attraction_mult_desc$"
- 
+
 state_pop_support_movement_christinos_add: "$movement_christinos$ $concept_pop$ Attraction"
  state_pop_support_movement_christinos_add_desc: "$political_movement_pop_attraction_mult_desc$"
  state_pop_support_movement_christinos_mult: "$state_pop_support_movement_christinos_add$"
  state_pop_support_movement_christinos_mult_desc: "$political_movement_pop_attraction_mult_desc$"
- 
+
  state_pop_support_movement_federalist_add: "movement_federalist $concept_pop$ Attraction"
  state_pop_support_movement_federalist_add_desc: "$political_movement_pop_attraction_mult_desc$"
 state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federalist_add$"
  state_pop_support_movement_federalist_mult_desc: "$political_movement_pop_attraction_mult_desc$"
- 
+
  cr_desamortizacion_ig_devout:0 "Desamortización"
  cr_desamortizacion_ig_liberals:0 "Desamortización"
  cr_desamortizacion_denied_ig_devout:0 "Mortmains Reinforced"
  cr_desamortizacion_denied_ig_liberals:0 "Mortmains Reinforced"
- 
+
  cr_colonising_alaska_modifier_rus:0 "Encourging Alaskan colonisation"
  cr_colonising_alaska_modifier:0 "Colonisation of Alaska encouraged"
  cr_colonising_california_modifier_rus:0 "Encourging Californian colonisation"
  cr_colonising_california_modifier:0 "Colonisation of Alaska encouraged"
  cr_colonising_russia_america_cooldown:0 "North American colonising cooldown"
- 
+
  cr_purchase_fort_hall_mod:0 "Purchase of Fort Hall"
  cr_purchase_fort_hall_alt_mod:0 "Purchase of Fort Hall"
- 
+
  ### Interest Groups ###
  cr_approved_mining_permits:0 "Approved Mining Permits"
  cr_denied_mining_permits:0 "Denied Mining Permits"
@@ -158,11 +158,11 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_texas_militia:0 "Texas Militia"
  cr_indian_removal_favoured_choctaw_opposed: "Failure to remove the Choctaw"
  cr_laws_indian_removal_improvement_societies: "Indian Improvement Societies"
- 
+
  ### Buildings Modifiers ###
  cr_indian_removal_indian_requisitioned_rations:0 "Requisitioned Rations"
  cr_native_land_payments_building:0 "Native Land Payments"
- 
+
  ### National Modifiers ###
  cr_disunifying_the_kyrgyz:0 "Disunifying the clans"
  cr_dealing_with_the_kyrgyz:0 "Treating with the clans"
@@ -214,9 +214,9 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_chateau_clique_modifier:0 "The Château Clique"
  cr_patriote_movement_modifier:0 "Patriote Movement"
  cr_indian_removal_compromised_bureaucracy:0 "Compromised Bureaucracy"
- 
+
  cr_desamortizacion_auctioned:0 "Desamortización"
- 
+
  ### Law enactment modifiers ###
  cr_laws_papineau_report:0 "The Papineau Report"
  cr_laws_granted_mining_permits_movement_likes:0 "Granted Mining Permits"
@@ -235,7 +235,7 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_laws_native_ownership_share:0 "Granted Ownership Share"
  cr_laws_incident_at_the_copper_mine_negative:0 "Incident at the Copper Mine"
  cr_laws_incident_at_the_copper_mine_positive:0 "Incident at the Copper Mine"
- 
+
  cr_indian_removal_squatters:0 "Squatters Removed"
  cr_indian_removal_squatters_removed:0 "Squatters Removed"
  cr_laws_squatters:0 "Squatters Protected"
@@ -280,17 +280,17 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_indian_removal_compromised_bureaucracy_movement:0 "Complicit Bureaucracy"
  cr_removal_the_benefit_of_free_enterprise:0 "The Benefits of Free Enterprise"
  cr_removal_the_benefit_of_free_enterprise_denied:0 "Denied The Benefits of Free Enterprise"
-  
+
  cr_indian_removal_seminole_seized_micanopy: "Disgraceful behaviour"
  cr_indian_aye_to_echota: "Aye to Echota"
  cr_indian_nay_to_echota: "Nay to Echota"
- 
+
  seminole_war_expense_mod: "Seminole War"
  seminole_war_containment_policy: "Seminole War - Containment Policy"
  seminole_war_forward_policy: "Seminole War - Forward Policy"
  seminole_war_diplomatic_policy: "Seminole War - Diplomatic Policy"
- 
- 
+
+
  ### America Modifiers ###
  cr_disgrace_of_san_jacinto: "Disgrace of San Jacinto"
  cr_texan_independence: "Texan Independence"
@@ -310,7 +310,7 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_mexico_recent_federalist_revolution_pos: "Succesful Federalist Revolt"
  cr_mexico_recent_centralist_revolution_neg: "Failed Centralist Revolt"
  cr_mexico_recent_federalist_revolution_neg: "Failed Federalist Revolt"
- 
+
  #Africa
  cr_frontier_restraint:0 "Frontier Restraint"
  cr_xhose_lessons_or_war:0 "Lessons of war"
@@ -322,7 +322,7 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_cape_expansion_administrative_border_small:0 "Administrating expanding colonies"
  cr_cape_colonial_expansion_denied:0 "Colonial Expansion Denied"
  cr_resettling_freed_slaves: "Resettling freed slaves"
- 
+
  #Carlist wars Modifiers
  cr_embrace_of_vergara:0 "Embrace of Vergara"
  cr_exile_of_bourges:0 "Don Carlos in Exile"
@@ -337,7 +337,7 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_supporting_absolutism_abroad:0 "Supporting absolutism abroad"
  cr_denied_carlos_france_legitimists:0 "Don Carlos of Bourbon asylum denied"
  cr_granted_carlos_asylum_france_bonapartist:0 "Granted the absolutist Don Carlos asylum"
- cr_denied_dynasty_member_asylum:0 "Denied dynasty member asylum" 
+ cr_denied_dynasty_member_asylum:0 "Denied dynasty member asylum"
  cr_denied_royal_exile_royalist_backlash:0 "Denied a royal asylum"
  cr_denied_royal_exile_royalist_backlash_ig:0 "Denied a royal asylum"
  cr_royal_exile_ig:0 "Royal Exile"
@@ -353,18 +353,17 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_carlos_spanish_reconciliation:0 "Spanish Reconciliation"
  cr_carlos_failed_diplomacy:0 "Failed diplomacy"
  cr_carlos_bringer_of_pease:0 "Bringer of Peace"
- 
+
  #France
  cr_prospecting_for_minette_modifier:0 "Prospecting for Minette"
- 
+
  #Netherlands
  cr_sint_maarten_border_patrol_colonial: "Slave Patrols"
  cr_sint_maarten_border_patrol_police: "Slave Patrols"
  cr_sint_maarten_border_patrol_generic: "Slave Patrols"
- cr_sint_maarten_border_patrol_movement: "Slavery protected in the West"
  cr_sint_maarten_border_patrol_movement: "Slavery curtailed in the West"
  cr_sint_maarten_emancipator: "Emancipator of foreign slaves"
- 
+
 
  #Central Asia
  cr_taming_the_steppes_modifier:0 "Taming the Steppes"
@@ -410,8 +409,8 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  modifier_kazakh_ungovernable_provinces_cr_changed:0 "Ungovernable Province"
  modifier_shoring_up_kazakhstan_cr_modified:0 "Reinforcing Steppe Fortresses"
  modifier_fortress_raid_kazakhstan_cr_modified:0 "Border Fortress Raided"
- 
- 
+
+
  cr_bukey_no_russian_support_small:0 "Abandoned by Russia"
  cr_bukey_no_russian_support_medium:0 "Abandoned by Russia"
  cr_bukey_has_russian_support_medium:0 "Imperialist Intervention"

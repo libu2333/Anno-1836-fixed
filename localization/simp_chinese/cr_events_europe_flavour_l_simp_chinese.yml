@@ -22,20 +22,20 @@
  cr_europe_events.5.d_tt:0 "在大多数话题上，她不仅神智清醒，而且见多识广、极其精明。她拥有非凡的谈话天赋，对她愿意示好的人极具魅力。"
 
  cr_europe_events.6.t:0 "沙漠女王"
- cr_europe_events.6.desc:0 "赫丝特·斯坦霍普夫人——尊贵的#variable William Pitt the Younger#!的侄女——在黎凡特的种种冒险，已成为[ROOT.GetCountry.GetRuler.GetHerHis|U]陛下政府的一大尴尬来源。\n\n赫丝特夫人长期缺钱，她的[SCOPE.sCountry('LadyHestersLiege').GetAdjectiveNoFlag]放债人向[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetPrimaryRoleTitle]呼吁，要求清偿她那相当可观的债务。根据投降条约，[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetSheHe]已将此事转交我们在[SCOPE.sState('LadyHestersHome').GetCityHubName]的领事裁决。"
- cr_europe_events.6.desc_2:0 "多年前，#bold #variable Lady Hester Stanhope#!#!——尊贵的#bold #variable William Pitt the Younger#!#!的侄女——离开英国，前往黎凡特追寻命运——抑或逃避上流社会的闲言碎语，随你怎么理解。\n\n她长期缺钱，她的冒险行为已成为[ROOT.GetCountry.GetRuler.GetHerHis|U]陛下政府的一大尴尬来源；赫丝特夫人的[SCOPE.sCountry('LadyHestersLiege').GetAdjectiveNoFlag]放债人向[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetPrimaryRoleTitle]呼吁，要求清偿她那相当可观的债务。根据投降条约，[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetSheHe]已将此事转交我们在[SCOPE.sState('LadyHestersHome').GetCityHubName]的领事裁决。"
- cr_europe_events.6.f:0 "在马耳他，有人告诉她她将是犹太人的救世主；在君士坦丁堡，她直视苏丹的眼睛；在开罗，她与阿里帕夏平起平坐；她不戴面纱、骑马进入大马士革；帕尔米拉人称她为#italic Meleki#!（女王）；在黎巴嫩，她与神秘的德鲁兹人结为朋友；因一名法国上校被杀，阿拉维派在她手中付出惨重代价，然而战争来临时，她又为所有求助者提供庇护。如今她在朱恩以半疯先知女的身份统治，隐居不出，从不离开城堡围墙，只在黑夜中与人交谈。"
+ cr_europe_events.6.desc:0 "赫丝特·斯坦霍普夫人乃尊贵的#variable 小威廉·皮特#!之侄；她在黎凡特的种种行止，已使[ROOT.GetCountry.GetRuler.GetHerHis|U]陛下政府颇为难堪。\n\n赫丝特夫人长期拮据，她的[SCOPE.sCountry('LadyHestersLiege').GetAdjectiveNoFlag]债主遂向[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetPrimaryRoleTitle]陈请，要求清偿其数额可观的债务。依照投降条约，[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetSheHe]已将此案交由我方驻[SCOPE.sState('LadyHestersHome').GetCityHubName]领事裁断。"
+ cr_europe_events.6.desc_2:0 "多年以前，#bold #variable 赫丝特·斯坦霍普夫人#!#!——#bold #variable 小威廉·皮特#!#!的侄女——离开英国，赴黎凡特追寻命运，抑或只是躲避上流社会的闲言碎语。\n\n她长期拮据，其种种行止已使[ROOT.GetCountry.GetRuler.GetHerHis|U]陛下政府颇为难堪；赫丝特夫人的[SCOPE.sCountry('LadyHestersLiege').GetAdjectiveNoFlag]债主遂向[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetPrimaryRoleTitle]陈请，要求清偿其数额可观的债务。依照投降条约，[SCOPE.sCountry('LadyHestersLiege').GetRuler.GetSheHe]已将此案交由我方驻[SCOPE.sState('LadyHestersHome').GetCityHubName]领事裁断。"
+ cr_europe_events.6.f:0 "在马耳他，有人称她将成为犹太人的救世主；在君士坦丁堡，她直视苏丹；在开罗，她与阿里帕夏平起平坐；她不戴面纱，策马进入大马士革。帕尔米拉人称她为#italic 梅莱基#!，意为女王；在黎巴嫩，她又与神秘的德鲁兹人结交。因一名法国上校被杀，阿拉维派曾在她手中付出惨重代价；及至战事来临，她却又庇护所有向她求援之人。如今她在朱恩以半疯的女先知自居，深居不出，不越城堡高墙一步，只在夜间与人交谈。"
  cr_europe_events.6.a:0 "为了她已故舅舅的情分，我们来支付"
  cr_europe_events.6.a_tt:0 "#italic 她在阿拉伯部落以及所有遭受易卜拉欣军队蹂躏、或为奥斯曼帝国摇摇欲坠而叹息的人中影响巨大。她比任何人都更有能力确保英国获得那些国家的好感，而当——这一天必将很快到来——我们必须为奥斯曼的独立与俄国对抗时，这些善意对我们的利益至关重要。#! ——威廉·内皮尔爵士"
  cr_europe_events.6.b:0 "不幸的是，夫人得自己面对"
  cr_europe_events.6.b_tt:0 "#italic 这些债务中有许多是因为愚蠢的原因欠下的——例如她给了希伯伦的拉比利维7000皮阿斯特，只因他陪她彻夜长谈弥赛亚等等。#! ——沃尔夫医生致帕默斯顿勋爵的报告"
 
  cr_europe_events.7.t:0 "英国夫人"
- cr_europe_events.7.desc:0 "[SCOPE.sState('LadyHestersHome').GetCityHubName]的英国领事已明确表示，[SCOPE.sCountry('LadyHesterMotherland').GetRuler.GetHerHis|U]陛下政府拒绝为#variable Lady Hester Stanhope#!清偿债务。\n\n事实上，他已否认一切[SCOPE.sCountry('LadyHesterMotherland').GetAdjectiveNoFlag]的介入，将此事完全交给我们处理。"
+ cr_europe_events.7.desc:0 "[SCOPE.sState('LadyHestersHome').GetCityHubName]的英国领事已明确表示，[SCOPE.sCountry('LadyHesterMotherland').GetRuler.GetHerHis|U]陛下政府拒绝代#variable 赫丝特·斯坦霍普夫人#!清偿债务。\n\n事实上，他已否认一切[SCOPE.sCountry('LadyHesterMotherland').GetAdjectiveNoFlag]方面的介入，将此事完全交由我方处置。"
  cr_europe_events.7.f:0 "当她终于拿到那封信时，赫丝特夫人相信自己所有的麻烦都结束了。她从未一刻怀疑过答案会是什么。不再等待与守望；不再有希望落空的低沉痛苦；不再有债务与催债人；她胜利与解脱的时刻已经到来，她终于继承了属于她的东西。她激动得几乎要爆血管，医生真担心她会脑溢血。唉！当她打开信时，发现并非来自弗朗西斯爵士的预期答复，而是一封截然不同的信件。那是她无意中收到的致命一击。"
 
  cr_europe_events.8.t:0 "英国夫人"
- cr_europe_events.8.desc:0 "[SCOPE.sState('LadyHestersHome').GetCityHubName]的英国领事已明确表示，[SCOPE.sCountry('LadyHesterMotherland').GetRuler.GetHerHis|U]陛下政府将为#variable Lady Hester Stanhope#!清偿债务。"
+ cr_europe_events.8.desc:0 "[SCOPE.sState('LadyHestersHome').GetCityHubName]的英国领事已明确表示，[SCOPE.sCountry('LadyHesterMotherland').GetRuler.GetHerHis|U]陛下政府将代#variable 赫丝特·斯坦霍普夫人#!清偿债务。"
  cr_europe_events.8.f:0 "如果X的故事属实，我的债务总额近1万皮阿斯特即将被清偿，那么我将继续进行崇高而哲学的发现，沉浸于深奥的抽象研究；尽管我的体力已衰，不能像过去那样日夜工作。在那种情况下，我需要一名泥瓦匠、木匠、犁田人、园丁、马夫、医生等等，因此我必须获得协助。年收入定为4000，外加1000给像你这样的人；另需5000现金用于食物、建筑、牲畜、手头资金等，以便我能从头开始。——#italic 赫丝特夫人致其私人医生的信#!"
  cr_europe_events.8.a:0 "我们可以认为此事已了结"
 
@@ -50,7 +50,7 @@
  cr_not_paid_noble_debt_negative:0 "拒绝偿还贵族债务"
 
  # 州修正值 #
- cr_riba_condemned_income:0 "谴责高利贷" 
+ cr_riba_condemned_income:0 "谴责高利贷"
  cr_riba_endorsed_income:0 "资助当地债务"
 
  # 国家修正值 #
@@ -101,7 +101,7 @@
  cr_minette_ores_events.7.a:0 "等待中的奖赏。"
  cr_minette_ores_events.7.a_tt:0 "当#variable 贝塞麦法#!被研究出来后，将解锁日志条目，用于开发提纯#italic 米内特#!矿石的方法，并移除[SCOPE.sState('minette_ore_state').GetNameNoFormatting]的#variable 米内特矿石#!特性。"
 
- cr_minette_ores_events.10.t:0 "烈火铸就" 
+ cr_minette_ores_events.10.t:0 "烈火铸就"
  cr_minette_ores_events.10.desc:0 "多年的实验、投资与创新终于开花结果。在[SCOPE.sState('minette_ore_state').GetCityHubName]工作的冶金学家成功开发出一种去除米内特矿石中磷的方法——彻底释放其在现代炼钢中的全部价值。"
  cr_minette_ores_events.10.flavour:0 "曾经被视为不适合工业的地质奇观，如今可被送入全地区的熔炉。鼓风炉轰鸣，烟囱升起，钢铁流淌，而这里曾经只有原始的潜力。"
  cr_minette_ores_events.10.a:0 "让洛林的小矿脉为日益壮大的工业强国的血脉供血。"

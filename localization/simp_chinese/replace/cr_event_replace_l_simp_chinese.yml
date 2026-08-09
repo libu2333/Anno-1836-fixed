@@ -20,7 +20,7 @@
 
  kazakhstan_events.4.t:0 "哥萨克巡逻队遇袭"
  kazakhstan_events.4.d:0 "在 [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] 的一支西伯利亚哥萨克分队遭到悬挂 [SCOPE.sCharacter('kenesary_scope').GetFullName] 旗帜的哈萨克叛军骑兵伏击并屠杀。"
- kazakhstan_events.4.f:0 ""到处都是混乱。这既源于不可原谅的疏忽，也源于哥萨克的怯懦——他们夸大战况，不过是为自己的失职开脱。""
+ kazakhstan_events.4.f:0 "到处都是混乱。这既源于不可原谅的疏忽，也源于哥萨克的怯懦——他们夸大战况，不过是为自己的失职开脱。"
  kazakhstan_events.4.a:0 "为商队向 [SCOPE.sState('kazak_event_neighbour_state').GetCountry.GetNameNoFormatting] 提供赔偿。"
  kazakhstan_events.4.b:0 "保障本土安全是哈萨克人的责任。"
  notification_kazakhstan_cossack_patrol_attacked_notification_name:0 "[SCOPE.sCountry('russia_scope').GetAdjective] 哥萨克在 [SCOPE.sState('raid_state').GetName] 遭伏击"
@@ -47,7 +47,7 @@
 
  kazakhstan_events.6.t:0 "忠诚阿乌勒遭屠"
  kazakhstan_events.6.d:0 "[SCOPE.sCharacter('kenesary_scope').GetFullName] 的叛军在 [SCOPE.sState('kazak_event_neighbour_state').GetName] 袭击了一批忠诚的阿乌勒，在仍效忠于 [SCOPE.sState('kazak_event_neighbour_state').GetCountry.GetNameNoFlag] 苏丹政权的哈萨克人中散播恐惧。"
- kazakhstan_events.6.f:0 ""你躲在俄国卫兵身后，收着俄国人的钱，在俄国人建起的城镇中发号施令——我们又为何要向你宣誓效忠？为何要替你承受那份本属于你的恐惧？""
+ kazakhstan_events.6.f:0 "你躲在俄国卫兵身后，收着俄国人的钱，在俄国人建起的城镇中发号施令——我们又为何要向你宣誓效忠？为何要替你承受那份本属于你的恐惧？"
  kazakhstan_events.6.a:0 "他给自己的人民带来了毁灭。"
  kazakhstan_events.6.b:0 "我们必须援助忠诚的氏族。"
  notification_kazakhstan_auls_slaughtered_notification_name:0 "[SCOPE.sState('raid_state').GetName] 的哈萨克阿乌勒遭屠"
@@ -55,7 +55,7 @@
 
  kazakhstan_events.7.t:0 "汗王的来信"
  kazakhstan_events.7.d:0 "自称哈萨克汗王的 [SCOPE.sCharacter('kenesary_scope').GetFullName] 致信 [SCOPE.sCharacter('ruler_scope').GetFullName]，请求与 [ROOT.GetCountry.GetName] 结盟，共同对抗其在俄国与哈萨克境内的对手。"
- kazakhstan_events.7.f:0 ""我一次又一次向俄国沙皇及其臣民请求和平与友谊，然而他们从未展现真诚之意。他们对我们家园的觊觎逐年加深——今年是额尔齐斯河上的俄国要塞，明年便会是萨雷苏。""
+ kazakhstan_events.7.f:0 "我一次又一次向俄国沙皇及其臣民请求和平与友谊，然而他们从未展现真诚之意。他们对我们家园的觊觎逐年加深——今年是额尔齐斯河上的俄国要塞，明年便会是萨雷苏。"
  kazakhstan_events.7.a:0 "俄国人与其附庸对我们皆是威胁。"
  kazakhstan_events.7.b:0 "我们不会卷入他的斗争。"
 

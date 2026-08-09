@@ -1,13 +1,21 @@
 ﻿geographic_region_indonesia = {
 	short_key = "indonesia"
 
-	strategic_regions = {
-		sr:region_java
-		sr:region_makasser
-		sr:region_moluccas
-	}
-
 	state_regions = {
+		STATE_WEST_JAVA
+		STATE_CENTRAL_JAVA
+		STATE_EAST_JAVA
+		STATE_BALI
+		STATE_TAPANULI
+		STATE_MINANGKABAU
+		STATE_THE_LAMPONGS
+		STATE_EAST_BORNEO
+		STATE_SOUTH_CELEBES
+		STATE_CELEBES
+		STATE_MOLUCCAS
+		STATE_SUNDA_ISLANDS
+		STATE_TIMOR
+		STATE_WESTERN_NEW_GUINEA
 		STATE_ACEH
 		STATE_BILLITON
 		STATE_WEST_BORNEO
@@ -20,14 +28,25 @@
 geographic_region_insulinda = {
 	short_key = "insulinda"
 
-	strategic_regions = {
-		sr:region_java
-		sr:region_makasser
-		sr:region_moluccas
-		sr:region_philippines
-	}
-
 	state_regions = {
+		STATE_WEST_JAVA
+		STATE_CENTRAL_JAVA
+		STATE_EAST_JAVA
+		STATE_BALI
+		STATE_TAPANULI
+		STATE_MINANGKABAU
+		STATE_THE_LAMPONGS
+		STATE_EAST_BORNEO
+		STATE_SOUTH_CELEBES
+		STATE_CELEBES
+		STATE_MOLUCCAS
+		STATE_SUNDA_ISLANDS
+		STATE_TIMOR
+		STATE_WESTERN_NEW_GUINEA
+		STATE_MINDANAO
+		STATE_LUZON
+		STATE_VISAYAS
+		STATE_NORTH_BORNEO
 		STATE_ACEH
 		STATE_BILLITON
 		STATE_WEST_BORNEO

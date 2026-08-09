@@ -81,7 +81,7 @@
   cr_kazakh_events.13.desc: "追捕[SCOPE.sCharacter('kenesary_scope').GetFirstName]的远征队终于在开阔草原上与他相遇。战斗短促而激烈——我们的齐射击溃了他的骑手，牲群四散。许多追随者倒下，旗帜被践踏进尘土。\n\n然而此人却再次逃脱。[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]消失在空旷的平原之中，只留下灰烬与尸体。他的营地被夺，储备丧失，他的名字被追随者咒骂。暂时而言，他的力量被打断了——但并未消失。"
   cr_kazakh_events.13.flavour: "在草原上，即使失败也能消失在地平线之外。"
   cr_kazakh_events.13.a: "他会回来的，他们总会回来。"
- 
+
   cr_kazakh_events.14.t: "被逐出地平线之外"
   cr_kazakh_events.14.desc: "派去惩戒[SCOPE.sCharacter('kenesary_scope').GetFirstName]的远征队并未遭遇一场决定性的战斗——只有尘土、烟雾，以及散布在草原各处的零星冲突。每当我们的纵队推进，他的骑手便消失在平原之中；而每当我们停下休整，他们又再度出击。\n\n最终，[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]与他的追随者消失在南方的地平线之外，他们的营地被遗弃，牲群被赶在前方远去。"
   cr_kazakh_events.14.flavour: "草原像往常一样将他们吞没。边境暂时恢复了平静，但那片空旷的远方却令人不安——仿佛只是在等待风再次改变方向。"

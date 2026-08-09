@@ -4,25 +4,25 @@
 
   paro_golpe_estado: "Coup Attempt Thwarted"
   paro_golpe_estado_desc: "Institutions have resisted a coup attempt. Although authority has been weakened, government legitimacy has increased"
-  
+
   porfiriato_militar: "Military Consolidation of the Porfiriato"
   porfiriato_militar_desc: "Díaz's regime has consolidated its power with the support of the armed forces. The state has gained efficiency and stability increases thanks to imposed order"
-  
+
   legado_porfiriato_militar: "Legacy of the Porfiriato"
   legado_porfiriato_militar_desc: "Even after the fall of the regime, the military structures and order established under Díaz continue to influence the state. Discipline, centralization, and a focus on stability remain part of the national identity"
 
   porfiriato_industrial: "Industrial Consolidation of the Porfiriato"
   porfiriato_industrial_desc: "The Porfiriato has embraced economic development and material progress. Industrialization is the new driving force of the country, although not all benefit equally"
-  
+
   legado_porfiriato_industrial: "Legacy of the Porfiriato"
   legado_porfiriato_industrial_desc: "The industrial momentum driven by the Porfiriato continues to shape the country's economic direction. Infrastructure, foreign investment ties, and a drive toward modernization still persist despite the regime's end"
-  
+
   porfiriato_ig: "Interest Group Favored by the Porfiriato"
   porfiriato_ig_desc: "This interest group has been politically elevated by Díaz's regime, gaining unprecedented influence and importance within the system"
-  
+
   muerte_porfirio: "The death of Porfirio Diaz"
   muerte_porfirio_desc: "The death of Porfirio Díaz has shaken the nation. The regime's legitimacy is wavering, and society is divided over the country's political future"
-  
+
   exilio_porfirio: "The exile of Porfirio Diaz"
   exilio_porfirio_desc: "The exile of Porfirio Díaz has shaken the nation. The new regime's legitimacy is wavering, and society is divided over the country's political future"
 

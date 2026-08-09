@@ -55,16 +55,16 @@
  kazakhstan_events.8.b:0 "General [SCOPE.sCharacter('casia_general').GetFullName] deserves the credit for his actions."
  notification_kazakhstan_raid_repelled_notification_name:0 "[SCOPE.sCountry('russia_scope').GetAdjective] fortress garrison repels raid"
  notification_kazakhstan_raid_repelled_notification_desc:0 "The garrison of the [SCOPE.sCountry('russia_scope').GetAdjective] fortress in [SCOPE.sState('raid_state').GetName] has repelled a raid launched by forces loyal to [SCOPE.sCharacter('kenesary_scope').GetFullName]."
- 
+
  #Victoria accends the Throne
  victoria.1.d: "King William IV has passed away, and his niece, [SCOPE.sCharacter('queen_victoria').GetFirstName], now ascends the throne. Her accession marks both the beginning of a new reign and the end of the personal union with [SCOPE.sCountry('hannover_victoria_scope').GetNameNoFlag], where her uncle, [SCOPE.sCharacter('king_of_hanover_scope').GetFirstName], has taken the crown under the laws of succession.\n\nAcross Britain, church bells ring and crowds gather to celebrate the dawn of a new era—one that many hope will bring renewal and stability to the realm."
- 
+
  #Santa Ana Captured
  texan_war_of_independence.3.t: "Santa Anna Captured!"
  texan_war_of_independence.3.d: "In a surprise development, the leader of [SCOPE.sCountry('mexico_scope').GetNameNoFlag]—General [SCOPE.sCharacter('santa_anna_scope').GetFullName] himself—has been captured. Found hiding in a marsh, disguised in a private’s uniform, he was caught when his own men revealed his identity to the Texan guards.\n\nNow held under guard, [SCOPE.sCharacter('santa_anna_scope').GetLastNameNoFormatting] has little choice but to negotiate. Some believe we can compel him to agree to a peace recognizing our independence—though many doubt that [SCOPE.sCountry('mexico_scope').GetNameNoFormatting] will honour terms signed under duress. Regardless, his capture is a blow from which the enemy’s pride will not soon recover."
  texan_war_of_independence.3.a: "Use Santa Anna to press for a deal."
  texan_war_of_independence.3.b: "Let him run back to Mexico, we fight on!"
- 
+
  texan_war_of_independence.4.t: "Santa Anna Captured!"
  texan_war_of_independence.4.d: "In a humiliating blow to national prestige, General [SCOPE.sCharacter('santa_anna_scope').GetFullName] has been captured within [SCOPE.sCountry('texas_scope').GetAdjectiveNoFlag] territory—separated from our army and found wandering the countryside in an attempt to return to Mexico.\n\nFrom his prison cell, he has signed a series of treaties recognizing Texan independence in exchange for his release. Though these agreements are worthless, disregarding them completely could give the Americans cause to intervene.\n\nOne thing, however, is certain: the failure in Texas has ended Santa Anna’s authority, and Mexico must now reckon with the cost of his ambition."
  texan_war_of_independence.4.f: "The shame of San Jacinto will linger long after the man himself is gone."
@@ -77,7 +77,7 @@
  notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_name: "[SCOPE.sCountry('mexico_scope').GetName] Rejects Peace!"
  notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_desc: "[SCOPE.sCountry('mexico_scope').GetNameNoFlag] has denounced the agreements signed by [SCOPE.sCharacter('santa_anna_scope').GetFullName] during his captivity, declaring them invalid. The conflict with [SCOPE.sCountry('mexico_scope').GetNameNoFormatting] continues."
  notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_tooltip: "#header $notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_name$#!\n$TOOLTIP_DELIMITER$\n$notification_texan_war_of_independence_mexico_rejects_treaties_of_velasco_desc$"
- 
+
  texan_war_of_independence.5.t: "The Fall of the Alamo"
  texan_war_of_independence.5.d: "The Alamo has fallen. Within its crumbling mission walls, [SCOPE.sCharacter('travis_scope').GetFullName] and his men stood against an army that outnumbered them tenfold. They fought until powder ran dry, until the guns fell silent, until the smoke itself seemed to mourn.\n\nWhen the end came, no mercy followed. The defenders were slaughtered where they stood—soldiers, wounded men, even those who sought surrender. The mission is lost, but its name will burn in memory as a rallying cry against tyranny."
  texan_war_of_independence.5.f: "I shall never surrender or retreat... Victory or Death. — #italic William B. Travis#!"
@@ -85,7 +85,7 @@
  notification_texan_war_of_independence_remember_the_alamao_name: "Remember the Alamo!"
  notification_texan_war_of_independence_remember_the_alamao_desc: "Far from breaking their spirit, our recent victory over [SCOPE.sCountry('texas_scope').GetName] has only hardened their resolve to fight on, as their armies now take to the field under the battle cry 'Remember the Alamo!'"
  notification_texan_war_of_independence_remember_the_alamao_tooltip: "#header $notification_texan_war_of_independence_remember_the_alamao_name$#!\n$TOOLTIP_DELIMITER$\n$notification_texan_war_of_independence_remember_the_alamao_desc$"
- 
+
  texan_war_of_independence.6.t: "Rebellion in Texas Crushed"
  texan_war_of_independence.6.d: "The campaign in [SCOPE.sCountry('texas_scope').GetNameNoFlag] has come to an end. The rebel forces have been routed, their leaders scattered, and the tricolor of [SCOPE.sCountry('mexico_scope').GetNameNoFlag] once more flies over the northern frontier. The struggle has been costly, yet Mexico stands reunited, its authority restored over the distant plains of the north.\n\nNow the question remains: how shall Texas be governed in the wake of its return—through firm rule from the center, or through a measure of local autonomy?"
  texan_war_of_independence.6.f: "They came with dreams of independence, and left only silence behind."

@@ -59,14 +59,7 @@
  dyn_c_republic_BED:0 "Baltistan Republic"
  dyn_c_jzz_BED:0 "Baltistan"
 
- dyn_c_societ_republic_QZT:0 "Kandjut People's Republic"
- dyn_shenquan_QZT:0 "Kandjut Theocracy"
- dyn_c_republic_QZT:0 "Kandjut Democratic Republic"
- dyn_c_jzz_QZT:0 "Kandjut Duchy"
 
- dyn_c_societ_republic_GSK:0 "Far East People's Republic"
- dyn_shenquan_GSK:0 "Far East Theocracy"
- dyn_c_republic_GSK:0 "Cossack Mercenary Host"
  dyn_c_gsk_empire:0 "Cossack Host"
 
  dyn_c_societ_republic_NCR:0 "Homer Socialist Republic"
@@ -181,14 +174,8 @@
  NFH:0 "Nivkh"
  NFH_ADJ:0 "Nivkh"
 
- dyn_c_societ_republic_BLT:0 "Burut People's Republic"
- dyn_shenquan_BLT:0 "Burut Theocracy"
- dyn_c_republic_BLT:0 "Burut Democratic Republic"
  dyn_c_blt_empire:0 "Burut Khanate"
 
- dyn_c_societ_republic_BDK:0 "Badakhshan People's Republic"
- dyn_shenquan_BDK:0 "Badakhshan Theocracy"
- dyn_c_republic_BDK:0 "Badakhshan Democratic Republic"
  dyn_c_bdk_empire:0 "Badakhshan Khanate"
 
  dyn_c_societ_republic_SMN:0 "Seminole People's Republic"
@@ -284,20 +271,12 @@
  dyn_c_republic_YLI:0 "Ili General Regime"
  dyn_c_jzz_YLI:0 "Ili General Regime"
 
- dyn_c_societ_republic_BFJ:0 "Northwest People's Republic"
- dyn_shenquan_BFJ:0 "Northwest Theocracy"
- dyn_c_republic_BFJ:0 "Northwest Republic"
- dyn_c_jzz_BFJ:0 "Northwest Kingdom"
 
  dyn_c_societ_republic_RYU:0 "Ryukyu People's Republic"
  dyn_shenquan_RYU:0 "Ryukyu Theocracy"
  dyn_c_republic_RYU:0 "Ryukyu Republic"
  dyn_c_jzz_RYU:0 "Kingdom of Ryukyu"
 
- dyn_c_societ_republic_ZUK:0 "Zexu Ukraine People's Republic"
- dyn_shenquan_ZUK:0 "Zexu Ukraine Theocracy"
- dyn_c_republic_ZUK:0 "Zexu Ukraine Republic"
- dyn_c_jzz_ZUK:0 "Kingdom of Zexu Ukraine"
 
  dyn_c_societ_republic_LAF:0 "Nanyang People's Republic"
  dyn_shenquan_LAF:0 "Nanyang Theocracy"

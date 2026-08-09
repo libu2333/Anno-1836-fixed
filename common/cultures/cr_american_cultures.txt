@@ -80,6 +80,32 @@ anishinaabe = {
 		Ahshawaygeeshegoqua Anang Anangokaa Ashwiyaa Biidaban Damashkawizii Maemawengwahn Naawakamigookwe
 		Niigio Niibedashkaa Okimasekw Tapa Waasnodae
 	}
+
+	common_last_names = {
+		Nemekas
+		Puckanese
+		Macquettequet
+		Shimnanaquette
+		Pakenosega
+		Kekenutchega
+		Chimokemow
+		Kekenutchegun
+		Muskobenense
+		Waubonoosa
+		Wausaquanai
+		Minequet
+	}
+
+	noble_last_names = {
+		Otauson
+		Tussegua
+		Mixabee
+		Kitchewawashen
+		Neebeenaquin
+		Anueemaycounbeeme
+		Onewequa
+		Nayokeeman
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -151,6 +177,32 @@ haudenosaunee = {
 	female_noble_first_names = {
 		Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satakon Tekakwitha Otstoch Coocoochee
 		Degonwadonti Halona
+	}
+
+	common_last_names = {
+		Theyanoguin
+		Teiorhenhsere
+		Thayendanega
+		Oronhyatekha
+		Onogwendahonji
+		Touighnatogon
+		Oheadanghton
+		Tayagonendagighti
+		Tehonwaenghrigagi
+		Otyadonenghti
+		Dagaheari
+		Oraghoaenendagen
+	}
+
+	noble_last_names = {
+		Onnonghsawenghti
+		Kayenthoghke
+		Cageaga
+		Sawedowa
+		Kiondushowa
+		Oncahye
+		Soaheas
+		Otachsaka
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -277,6 +329,32 @@ innu = {
 	female_noble_first_names = {
 		Ojigkwanong Nipiushkaiats Kokoptcitc Mikona Ashenee Astina Echa Kiche
 		Kika Mati Matisa Matisoon Nichena Osceola Pamoon Paniya
+	}
+
+	common_last_names = {
+		Kaneonuskatew
+		Kawacatoose
+		Kahkiwistahaw
+		Kisecawchuck
+		Misithuimuskwa
+		Mistawasis
+		Muscowequan
+		Ojigkwanong
+		Mahigan-Atic
+		Maikan
+		Nehirowisiw
+		Kapapamahchakwew
+	}
+
+	noble_last_names = {
+		Abishabia
+		Kamiokisihkwew
+		Payipwat
+		Pitikwahanapiwiyin
+		Tepastenam
+		Wahwaashkung
+		Kiwash
+		Nahookeesic
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -523,6 +601,32 @@ tlingit = {
 		Atsidi Bisahalani Bizhoshi Hosteen Kilchii Klah Nabahe Nantai
 		Sani Tahoma Toh_Yah Totsoni Tsela Dahteste Ilthgozay Gouyen
 		Lozen Tohayea
+	}
+
+	common_last_names = {
+		Altsoba
+		Anaba
+		Dezba
+		Doba
+		Doli
+		Haloke
+		Hazhoni
+		Kaibah
+		Manaba
+		Nanabah
+		Nascha
+		Nizhona
+	}
+
+	noble_last_names = {
+		Nizhoni
+		Sakhyo
+		Tahnazbah
+		Atsidi
+		Bisahalani
+		Bizhoshi
+		Hosteen
+		Kilchii
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -1067,6 +1171,32 @@ washoe = {
 		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
 		Homuk
 	}
+
+	common_last_names = {
+		Zaaj_acaiila
+		Paailc_haacot
+		Xpanohax
+		Hasixp
+		Haxol_iihom
+		Xapoo_eaah
+		Hajhax
+		Cyazim
+		Sacpatix
+		Haanc
+		Hatquisa
+		Taaij_it
+	}
+
+	noble_last_names = {
+		Xniizc
+		Tacata
+		Heeme
+		Hast_hax
+		Soosni_itaa
+		Tejueg
+		Kuak
+		Kabiak
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -1415,6 +1545,32 @@ yuman = {
 		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
 		Homuk
 	}
+
+	common_last_names = {
+		Zaaj_acaiila
+		Paailc_haacot
+		Xpanohax
+		Hasixp
+		Haxol_iihom
+		Xapoo_eaah
+		Hajhax
+		Cyazim
+		Sacpatix
+		Haanc
+		Hatquisa
+		Taaij_it
+	}
+
+	noble_last_names = {
+		Xniizc
+		Tacata
+		Heeme
+		Hast_hax
+		Soosni_itaa
+		Tejueg
+		Kuak
+		Kabiak
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -1487,6 +1643,32 @@ plains_algonquian = {
 		Pules Sokanon Sokw Sooleawa Tahki Wapun Wawetseka Koko
 		Peta Sinopa
 	}
+
+	common_last_names = {
+		Neetinee
+		Kitcheeponneistah
+		Onistaysaynahqueim
+		Nahtoseonistah
+		Kootomais
+		Powahque
+		Matoseapiw
+		Stamiscotocar
+		Mekasto
+		Natoseonistors
+		Pokapiwotoian
+		Sotenah
+	}
+
+	noble_last_names = {
+		Takoyestamix
+		Akkakitcipimiwotas
+		Attistahmacan
+		Pitahpekis
+		Sakoyeaotan
+		Zoatzetapitapiw
+		Akkamakkoye
+		Apenakosapop
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -1534,6 +1716,32 @@ kiowa = {
 		Ootcakao Kahavasooah Sacagawea Chipeta Tocmetone Wi Wiyeh Poeyeh
 		Yoenu Paanu Sen Kwee Tseh Than Poe Tsai
 		Tsayyi Pi Phendi Yiya Tada Tewha Khuu
+	}
+
+	common_last_names = {
+		Ku-Htihth
+		Galisteo
+		Xenome
+		Ollito
+		Tagu
+		Bolsas
+		Catiti
+		Wiyeh
+		Poeyeh
+		Yoenu
+		Paanu
+		Kwee
+	}
+
+	noble_last_names = {
+		Tseh
+		Tsayyi
+		Phendi
+		Yiya
+		Tada
+		Tewha
+		Khuu
+		Ootcakao
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -2060,6 +2268,32 @@ seri = {
 		Anya Halya Nyamasav Aqwath Ahwat Anyaaily Acitdek Kowuk
 		Homuk
 	}
+
+	common_last_names = {
+		Zaaj_acaiila
+		Paailc_haacot
+		Xpanohax
+		Hasixp
+		Haxol_iihom
+		Xapoo_eaah
+		Hajhax
+		Cyazim
+		Sacpatix
+		Haanc
+		Hatquisa
+		Taaij_it
+	}
+
+	noble_last_names = {
+		Xniizc
+		Tacata
+		Heeme
+		Hast_hax
+		Soosni_itaa
+		Tejueg
+		Kuak
+		Kabiak
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -2128,6 +2362,32 @@ lenca = {
 		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
 		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
 		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	common_last_names = {
+		Ahkinxoc
+		Ahmetakkukul
+		Ahnakukpech
+		Balam
+		Chaob
+		Chiam
+		Kayom
+		Kiin
+		Kukumatz
+		Nachancan
+		Yumcaax
+		Can_Ek
+	}
+
+	noble_last_names = {
+		Balam_Quitze
+		Cocom
+		Pacal
+		Vahxaqui_Caam
+		Ah_Cacao
+		Cham_Bahlun
+		Cu_Ix
+		Pacal_Balam
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -2198,6 +2458,32 @@ xinca = {
 		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
 		Yumcaaz Zotz Sacnite Namox_Chel
 	}
+
+	common_last_names = {
+		Ahkinxoc
+		Ahmetakkukul
+		Ahnakukpech
+		Balam
+		Chaob
+		Chiam
+		Kayom
+		Kiin
+		Kukumatz
+		Nachancan
+		Yumcaax
+		Can_Ek
+	}
+
+	noble_last_names = {
+		Balam_Quitze
+		Cocom
+		Pacal
+		Vahxaqui_Caam
+		Ah_Cacao
+		Cham_Bahlun
+		Cu_Ix
+		Pacal_Balam
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -2266,6 +2552,32 @@ chibchan = {
 		Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg
 		Kan_Bahlun_Mo Mochcouoh Nohochacyum Oxib_Queh Tecunuman Tutul_Xiu Tziquin Vataki
 		Yumcaaz Zotz Sacnite Namox_Chel
+	}
+
+	common_last_names = {
+		Ahkinxoc
+		Ahmetakkukul
+		Ahnakukpech
+		Balam
+		Chaob
+		Chiam
+		Kayom
+		Kiin
+		Kukumatz
+		Nachancan
+		Yumcaax
+		Can_Ek
+	}
+
+	noble_last_names = {
+		Balam_Quitze
+		Cocom
+		Pacal
+		Vahxaqui_Caam
+		Ah_Cacao
+		Cham_Bahlun
+		Cu_Ix
+		Pacal_Balam
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -2347,6 +2659,32 @@ chocoan = {
 		Kayejeli Kekulo Kiniki Kiniwilu Kiwinilu Kualia Kuamedua Kulijitua
 		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
 		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
+	}
+
+	common_last_names = {
+		Ainawi
+		Akadale
+		Akane
+		Amaro
+		Amaru
+		Amaxupia
+		Asuru
+		Baratsuito
+		Bosikito
+		Bosini
+		Boyoli
+		Bula
+	}
+
+	noble_last_names = {
+		Botala
+		Derebu
+		Domae
+		Donoto
+		Dopadopa
+		Dopasisi
+		Doro
+		Dowatji
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -2645,6 +2983,32 @@ barbacoan = {
 		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
 		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
 	}
+
+	common_last_names = {
+		Ainawi
+		Akadale
+		Akane
+		Amaro
+		Amaru
+		Amaxupia
+		Asuru
+		Baratsuito
+		Bosikito
+		Bosini
+		Boyoli
+		Bula
+	}
+
+	noble_last_names = {
+		Botala
+		Derebu
+		Domae
+		Donoto
+		Dopadopa
+		Dopasisi
+		Doro
+		Dowatji
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -2849,6 +3213,32 @@ munduruku = {
 		Jaci Janaina Jasy Juci Kauane Maira Moara Poti
 		Potira Taina Uiara Yaci Yara Yeruti
 	}
+
+	common_last_names = {
+		Ajuricaba
+		Araken
+		Ararigboia
+		Caua
+		Caubi
+		Caue
+		Cosmas
+		Jaci
+		Jacy
+		Moacir
+		Peri
+		Pery
+	}
+
+	noble_last_names = {
+		Piata
+		Pinon
+		Raini
+		Ruda
+		Tabare
+		Ubirajara
+		Ubirata
+		Urubatan
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -2899,6 +3289,32 @@ panoan = {
 		Pobe_Ma_Metuja_Bokware Aiba My Imedu Pio Ni Aredu Waptsa
 		Rop Arigao Bada Myt Meri Aamo Chure Ari
 		Uza Kuvy Joru A Go Pobo
+	}
+
+	common_last_names = {
+		Misi
+		Pyxi
+		Mito
+		Maparane
+		Axkrut
+		Pobe
+		Siubdato
+		Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware
+		Aiba
+		Imedu
+		Aredu
+	}
+
+	noble_last_names = {
+		Waptsa
+		Arigao
+		Meri
+		Aamo
+		Chure
+		Kuvy
+		Joru
+		Pobo
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -2981,6 +3397,32 @@ tucanoan = {
 		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
 		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
 	}
+
+	common_last_names = {
+		Ainawi
+		Akadale
+		Akane
+		Amaro
+		Amaru
+		Amaxupia
+		Asuru
+		Baratsuito
+		Bosikito
+		Bosini
+		Boyoli
+		Bula
+	}
+
+	noble_last_names = {
+		Botala
+		Derebu
+		Domae
+		Donoto
+		Dopadopa
+		Dopasisi
+		Doro
+		Dowatji
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -3062,6 +3504,32 @@ yanomami = {
 		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
 		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
 	}
+
+	common_last_names = {
+		Ainawi
+		Akadale
+		Akane
+		Amaro
+		Amaru
+		Amaxupia
+		Asuru
+		Baratsuito
+		Bosikito
+		Bosini
+		Boyoli
+		Bula
+	}
+
+	noble_last_names = {
+		Botala
+		Derebu
+		Domae
+		Donoto
+		Dopadopa
+		Dopasisi
+		Doro
+		Dowatji
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -3100,6 +3568,32 @@ jivaroan = {
 	female_noble_first_names = {
 		Chikichik Jimiar Manaint Ainttiuk Uwej Aishman Nua Yawa
 		Etsa Nantu Entsa Puju Mukusa Tuntiak Yanua
+	}
+
+	common_last_names = {
+		Chikichik
+		Jimiar
+		Manaint
+		Ainttiuk
+		Uwej
+		Aishman
+		Yawa
+		Etsa
+		Nantu
+		Entsa
+		Puju
+		Mukusa
+	}
+
+	noble_last_names = {
+		Tuntiak
+		Yanua
+		Chikichik
+		Jimiar
+		Manaint
+		Ainttiuk
+		Uwej
+		Aishman
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -3182,6 +3676,32 @@ bora_witoto = {
 		Kumakanae Kusubauwa Lailai Leruleruwa Limakau Maikusia Makude Makudo
 		Malewa Maliana Manani Mananito Mapena Matsubo Maxuneje
 	}
+
+	common_last_names = {
+		Ainawi
+		Akadale
+		Akane
+		Amaro
+		Amaru
+		Amaxupia
+		Asuru
+		Baratsuito
+		Bosikito
+		Bosini
+		Boyoli
+		Bula
+	}
+
+	noble_last_names = {
+		Botala
+		Derebu
+		Domae
+		Donoto
+		Dopadopa
+		Dopasisi
+		Doro
+		Dowatji
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -3233,6 +3753,32 @@ macro_je = {
 		Rop Arigao Bada Myt Meri Aamo Chure Ari
 		Uza Kuvy Joru A Go Pobo
 	}
+
+	common_last_names = {
+		Misi
+		Pyxi
+		Mito
+		Maparane
+		Axkrut
+		Pobe
+		Siubdato
+		Axkrut_Ne_Pyxi
+		Pobe_Ma_Metuja_Bokware
+		Aiba
+		Imedu
+		Aredu
+	}
+
+	noble_last_names = {
+		Waptsa
+		Arigao
+		Meri
+		Aamo
+		Chure
+		Kuvy
+		Joru
+		Pobo
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -3277,6 +3823,32 @@ guaycuruan = {
 		Onidateci Iniwata Iniwatadigini Cwaatolo Nigoteno_Gobaagadi Goneleegiwa Iwaalo Necenigo
 		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
 		Nabidaga Yapacaga Etacoligi Nogojegi
+	}
+
+	common_last_names = {
+		Onidateci
+		Iniwata
+		Iniwatadigini
+		Cwaatolo
+		Nigoteno_Gobaagadi
+		Goneleegiwa
+		Iwaalo
+		Necenigo
+		Aligege
+		Epenai
+		Ninyogodi
+		Noledi
+	}
+
+	noble_last_names = {
+		Iigo
+		Eiodo
+		Eiodi
+		Diimigi
+		Nabidaga
+		Yapacaga
+		Etacoligi
+		Nogojegi
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -3323,6 +3895,32 @@ matacoan = {
 		Aligege Epenai Ninyogodi Noledi Iigo Eiodo Eiodi Diimigi
 		Nabidaga Yapacaga Etacoligi Nogojegi
 	}
+
+	common_last_names = {
+		Onidateci
+		Iniwata
+		Iniwatadigini
+		Cwaatolo
+		Nigoteno_Gobaagadi
+		Goneleegiwa
+		Iwaalo
+		Necenigo
+		Aligege
+		Epenai
+		Ninyogodi
+		Noledi
+	}
+
+	noble_last_names = {
+		Iigo
+		Eiodo
+		Eiodi
+		Diimigi
+		Nabidaga
+		Yapacaga
+		Etacoligi
+		Nogojegi
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -3361,6 +3959,32 @@ chonan = {
 	female_noble_first_names = {
 		Krenk Kreeje Tella Jorrje Te Horrer Tschen Herrtschiske
 		Jauken Jiarr Uintsch Ueschn Ssintsch Fehlt
+	}
+
+	common_last_names = {
+		Krenk
+		Kreeje
+		Tella
+		Jorrje
+		Horrer
+		Tschen
+		Herrtschiske
+		Jauken
+		Jiarr
+		Uintsch
+		Ueschn
+		Ssintsch
+	}
+
+	noble_last_names = {
+		Fehlt
+		Krenk
+		Kreeje
+		Tella
+		Jorrje
+		Horrer
+		Tschen
+		Herrtschiske
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
@@ -3491,6 +4115,32 @@ mapuche = {
 		Kintunray Kinturhmay Kolvmanke Konpayantv Koyam Kumiray Kumlafken Kupayman
 		Kurukeupu Kuyenray Kvalapang Kvlapi Kvyentray
 	}
+
+	common_last_names = {
+		Alen
+		Aliwenko
+		Aliwenkura
+		Alofantv
+		Alon
+		Alonkura
+		Amunkura
+		Amuway
+		Amuy
+		Amuylewfu
+		Ancamilla
+		Antecao
+	}
+
+	noble_last_names = {
+		Antilef
+		Antillanca
+		Antiman
+		Antinanco
+		Antinirre
+		Antipani
+		Antvchiway
+		Antvl
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -3542,6 +4192,32 @@ yahgan = {
 		Moala Waya Anan Ommoara Tuin Lon Kuta Ukoali
 		Kaluf Husha Weina Ashunna Hixa Chiloaia
 	}
+
+	common_last_names = {
+		Yamana
+		Kippa
+		Yashala
+		Saapa
+		Kamain
+		Seskin
+		Hannuxa
+		Apparnix
+		Panaxa
+		Palaxa
+		Hoxka
+		Seif
+	}
+
+	noble_last_names = {
+		Pushaki
+		Ahua
+		Moala
+		Waya
+		Anan
+		Ommoara
+		Tuin
+		Kuta
+	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas
 }
@@ -3580,6 +4256,30 @@ kawesqar = {
 	female_noble_first_names = {
 		Therrawaus Kjesa Lalthers Qarwes Jepar Kjerkja Arkajeta Yaulchel
 		Kitchikouar Saapa
+	}
+
+	common_last_names = {
+		Therrawaus
+		Kjesa
+		Lalthers
+		Qarwes
+		Jepar
+		Kjerkja
+		Arkajeta
+		Yaulchel
+		Kitchikouar
+		Saapa
+	}
+
+	noble_last_names = {
+		Therrawaus
+		Kjesa
+		Lalthers
+		Qarwes
+		Jepar
+		Kjerkja
+		Arkajeta
+		Yaulchel
 	}
 	ethnicities = { 1 = native_american }
 	graphics = decentralised_americas

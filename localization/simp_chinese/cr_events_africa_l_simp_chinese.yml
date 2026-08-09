@@ -8,17 +8,17 @@
  cr_ethiopia_events.1.c_amharia:0 "众人欢呼：[ROOT.GetCountry.GetRuler.GetFirstName]，阿姆哈拉皇帝"
  cr_ethiopia_events.1.c_adal:0 "众人欢呼：[ROOT.GetCountry.GetRuler.GetFirstName]，阿达尔苏丹"
  cr_ethiopia_events.1.c_adal_tt:0 "我们将复兴古老的阿达尔苏丹国"
- 
+
  cr_ethiopia_events.2.t:0 "王朝的终结"
  cr_ethiopia_events.2.desc:0 "近五个世纪以来，所罗门古老家族一直统治着埃塞俄比亚。然而自从皇帝约阿斯被谋杀、诸侯夺权以来，很难再将埃塞俄比亚视为一个统一的帝国——各省总督几乎独立统治自己的省份，为争夺哪怕一丝权力而战火连绵。如今，在约阿斯遇刺一百周年之际，显然皇帝已不过是一具空壳，注定在历史长河中渐渐消逝，而新秩序正在悄然确立……"
  cr_ethiopia_events.2.f:0 "他仅因属于所罗门血脉而被容忍。他是个饕餮与嗜酒之徒，常醉醺醺，不是在宴会厅中，就是待在后宫。——#italic 欧内斯特·沃利斯·巴奇论约翰三世 #!"
  cr_ethiopia_events.2.a:0 "时代正在改变"
- 
+
  cr_ethiopia_events.5.t:0 "帝国复辟"
  cr_ethiopia_events.5.desc:0 "[SCOPE.sCountry('ethiopia').GetAdjectiveNoFlag]"
- 
+
  cr_ethiopia_events.6.t:0 "所罗门家族的陨落"
- 
+
  cr_south_africa_events.1.t:0 "边疆和平"
  cr_south_africa_events.1.desc:0 "凯斯卡马河沿岸的枪声已沉寂，但和平尚未扎根。山谷中仍升起浓烟，空气中弥漫着废墟的恶臭——田地被践踏，牛栏荒废，牲畜四散。 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 已退至河对岸，他们的抵抗虽被击溃，但骄傲未曾屈服。\n\n现在问题转向下一步该如何行事。有人主张继续推进边疆，将定居与秩序带入此前无人之地；有人主张轻柔手段——将 [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] 置于保护国之下，通过劝导而非征服来维持和平；还有人厌倦无休止的冲突与开支，希望军队撤回旧边界，让这条河流再次将两个疲惫的民族分开。"
  cr_south_africa_events.1.desc_old:0 "战火的余烬仍在边疆闷烧。田野焦黑，家园残破，牲畜四散——但 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 已被驱逐至凯斯卡马河对岸。他们顽强而绝望的抵抗暂时被击破，尽管他们的酋长仍保持不屈。\n\n我们现在必须决定如何巩固这来之不易的和平。是重新划定边疆，将土地并入王室权威？是强迫 [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] [SCOPE.sCountry('xhosa_scope').GetRuler.GetPrimaryRoleTitle] 接受英国保护与监督？还是厌倦无休止的劫掠与报复，撤回旧边界，让凯斯卡马河再次标示英国统治的极限？"
@@ -27,7 +27,7 @@
  cr_south_africa_events.1.a.annexed_queen_adelaide_province_saf:0 "我们吞并了凯斯卡马河与凯河之间的 #variable 阿德莱德女王省 #!。"
  cr_south_africa_events.1.b:0 "将边疆部落置于我们的保护之下。"
  cr_south_africa_events.1.c:0 "撤回旧边界，此次胜利已足够。"
- 
+
  cr_south_africa_events.2.t_annex:0 "凯河上空的浓烟"
  cr_south_africa_events.2.desc_annex:0 "阿马托拉山谷中的炮声已消逝。大地再次沉寂——牲畜被掠，田野被焚，村庄空无一人。一切始于饥饿与不公：牧场被夺，牲畜被抢，酋长无故被杀。战士们奋起夺回属于他们的土地，跨越凯斯卡马河，挑战外来统治。\n\n如今人民四散而疲惫。[SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] 已将他们驱至凯河以东，并将肥沃山谷据为己有。酋长们谈论和平，但哀悼与复仇之歌仍在山间回荡。"
  cr_south_africa_events.2.flavour_annex:0 "他们夺走了土地、牲畜与国王，但夺不走人民的灵魂。"
@@ -35,47 +35,47 @@
  cr_south_africa_events.2.annexed_queen_adelaide_province_xhosa:0 "我们将西部边境部分土地割让给 [SCOPE.sCountry('south_africa_scope').GetName]。"
  cr_south_africa_events.2.b_annex:0 "发誓复仇，并在暗中准备。"
  cr_south_africa_events.2.c_annex:0 "寻求与定居者和平共处，保护剩余的一切。"
- 
+
  cr_south_africa_events.2.t_protectorate:0 "凯河上空的浓烟"
  cr_south_africa_events.2.desc_protectorate:0 "战斗已停止，但和平尚未降临。山谷荒芜，牲畜四散，人民在多年的饥饿与损失后疲惫不堪。土地被夺，酋长被杀，[SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] 军队以火与钢横扫，将各氏族驱至凯河以东，并宣称平原为其所有。\n\n如今他们的士兵谈论王冠阴影下的保护与和平。他们承诺安全与贸易，却要求服从与贡赋。有些酋长从中看到生存之道；其他人只听到征服的回音。大地仍在，但其精神仍动荡不安。"
  cr_south_africa_events.2.flavour_protectorate:0 "他们献上的和平，却披着士兵的外衣。"
  cr_south_africa_events.2.a_protectorate:0 "忍耐并在凯河以东重建。"
  cr_south_africa_events.2.b_protectorate:0 "暂时接受英国保护。"
  cr_south_africa_events.2.c_protectorate:0 "寻求与定居者和平共处，保护剩余的一切。"
- 
+
  cr_south_africa_events.2.t_old_frontier:0 "凯河上空的浓烟"
  cr_south_africa_events.2.desc_old_frontier:0 "枪声已沉寂，黑色的平原上烟雾缭绕。战争始于饥饿与屈辱——牧场被占，牲畜被掠，酋长在外来法律前低头。人民奋起夺回属于他们的东西，但 [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] 以大军压境，只留下灰烬。\n\n如今征服者谈论和平。他们将撤回西部，宣称旧边界恢复。堡垒将沉默，巡逻队将撤离，商人受监视但不被驱逐。他们说这将终结战争循环——然而火与损失的记忆仍在双方萦绕。"
  cr_south_africa_events.2.flavour_old_frontier:0 "边界重回河流——但战争的阴影尚未随它退去。"
  cr_south_africa_events.2.a_old_frontier:0 "忍耐并在凯河以东重建。"
  cr_south_africa_events.2.b_old_frontier:0 "暗中发誓复仇，积蓄力量。"
- 
+
  cr_south_africa_events.3.t_annex:0 "阿德莱德女王省"
  cr_south_africa_events.3.desc_annex:0 "多年来，[SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] 与 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 一直在为土地、牲畜与不断变动的边疆而战。在最近的战役中，[SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFormatting] 已将科萨人驱逐至凯河以东，并为帝国夺取了新土地。\n\n在 [ROOT.GetCountry.GetCapital.GetCityHubName]，以 [SCOPE.sCharacter('anti_colonialist_politician').GetFullName] 为首的声音质疑此类收获的价值。每增加一英里边疆，都需要更多人力、财力与统治意志。然而其他人警告，若现在撤退，将招致日后更大的麻烦。"
  cr_south_africa_events.3.flavour_annex:0 "边疆总是推进得比我们治理的意愿更快。"
  cr_south_africa_events.3.a_annex:0 "认可吞并——必须巩固边疆。"
  cr_south_africa_events.3.b_annex:0 "否定吞并，恢复旧边界。"
  cr_south_africa_events.3.b_annex_tt:0 "[SCOPE.sCountry('south_africa_scope').GetName] 与 [SCOPE.sCountry('xhosa_scope').GetName] 边境的一小片土地将归还给 [SCOPE.sCountry('xhosa_scope').GetName]"
- 
+
  cr_south_africa_events.3.t_protectorate:0 "[SCOPE.sCountry('xhosa_scope').GetNameNoFormatting]保护国"
  cr_south_africa_events.3.desc_protectorate:0 "来自 [SCOPE.sCountry('south_africa_scope').GetNameNoFlag] 的报告称，殖民当局已宣布对凯斯卡马河以远的 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 建立保护国。他们声称此举旨在维持和平，并在 [ROOT.GetCountry.GetAdjectiveNoFormatting] 影响下引导边疆部落，而无需全面吞并的开销。\n\n在 [ROOT.GetCountry.GetCapital.GetCityHubName]，意见分歧。支持者称赞此举是审慎的边疆保障；反对者从中看到扩张的熟悉阴影，只不过披上了保护的外衣。批评者警告，通过酋长与驻军治理将与吞并一样代价高昂，而 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 未必能区分保护与征服。\n\n现在必须决定：是支持这一新保护国，还是限制 [SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFlag] 的扩张。"
  cr_south_africa_events.3.flavour_protectorate:0 "保护国若有意义，必须保护弱者，而非仅仅扩展强者。"
  cr_south_africa_events.3.a_protectorate:0 "确认保护国——以引导维持和平。"
  cr_south_africa_events.3.b_protectorate:0 "拒绝它——开普无法承受此类负担。"
  cr_south_africa_events.3.b_protectorate_tt:0 "[SCOPE.sCountry('south_africa_scope').GetAdjective] 对 [SCOPE.sCountry('xhosa_scope').GetName] 的保护国将被终止。"
- 
+
  cr_south_africa_events.3.t_old_frontier:0 "非洲边境冲突"
  cr_south_africa_events.3.desc_old_frontier:0 "边疆传来报告：[SCOPE.sCountry('south_africa_scope').GetNameNoFlag] 已结束与 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 的血腥战争，并撤回旧边界。多年的劫掠、反劫掠与焦土战役并未带来持久安全，如今殖民者选择了谨慎而非征服。[SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] 仍留在河对岸，他们的定居点完好无损，而边疆虽安静，却充满不安。"
  cr_south_africa_events.3.desc_old_frontier_old:0 "[SCOPE.sCountry('south_africa_scope').GetNameNoFlag] 的边疆长期遵循一种残酷的节奏——劫掠与报复、牲畜被偷又被夺回、村庄被焚、条约签订又被撕毁。每个季节凯斯卡马河与鱼河沿岸似乎总有新的火花，定居者与 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 为土地、牧场与生存权而战。最近的战役虽代价高昂，却与以往一样结束： [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting] 四散，殖民者疲惫，边境焦土遍布。\n\n如今双方精疲力竭、国库吃紧，[SCOPE.sCountry('south_africa_scope').GetAdjectiveNoFormatting] 当局宣布胜利，并撤回旧边界。"
  cr_south_africa_events.3.flavour_old_frontier:0 "某种和平重回边境——但只到青草再次长出。"
  cr_south_africa_events.3.a_old_frontier:0 "于是，一种不确定的平静重回帝国边缘。"
- 
+
  cr_south_africa_events.4.t:0 "来自 [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] 的命令"
  cr_south_africa_events.4.t_annex:0 "[SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] 下令恢复旧边界"
  cr_south_africa_events.4.desc_annex:0 "来自 [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] 的消息称，为对抗 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 而洒下的鲜血将付诸东流。出于他们的智慧，[SCOPE.sCountry('british_scope').GetRuler.GetHerHis|U] 陛下的政府已下令放弃新边疆，并将其归还给 [SCOPE.sCountry('xhosa_scope').GetNameNoFormatting]。\n\n在 [SCOPE.sCharacter('anti_colonialist_politician').GetFullName] 改革热情的引导下，此次吞并被谴责为过度与不义之举。他们声称战争由定居者报复引发，而凯斯卡马河以东的土地既无利可图也难以防守。新边界将再次定于凯斯卡马河，并将与我们数月前才宣称已征服的酋长们签订条约。"
  cr_south_africa_events.4.flavour_annex:0 "我们被命令放弃已征服之地——将土地让给那些烧毁我们家园的人。"
  cr_south_africa_events.4.a_annex:0 "遵从 [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] 的指令——撤至凯斯卡马河以西。"
  cr_south_africa_events.4.b_annex:0 "不情愿地遵从——我们的牺牲不应白费。"
- 
+
  cr_south_africa_events.4.t_protectorate:0 "保护国被召回"
  cr_south_africa_events.4.desc_protectorate:0 "海外传来消息：王室下令解散对 [SCOPE.sCountry('xhosa_scope').GetNameNoFlag] 的保护国。在 [SCOPE.sCountry('british_scope').GetCapital.GetCityHubName]，大臣们谈论节约与审慎，宣称英国不能永远背负遥远部落的争端。曾被誉为和平保障的举措如今被斥为愚蠢——代价太高、不确定性太大、且远超威斯敏斯特的耐心。\n\n在殖民地，此消息引发苦涩。流血守卫边疆的定居者与军官感到被抛弃，而其他人则暗自庆幸有机会喘息并计算代价。边疆将再次自生自灭，其和平寄托于酋长与商人的变幻承诺，而非王室之言。"
  cr_south_africa_events.4.flavour_protectorate:0 "[SCOPE.sCountry('british_scope').GetCapital.GetCityHubName] 称之为收缩，我们称之为退却。"

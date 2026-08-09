@@ -11,7 +11,7 @@
  HUB_NAME_STATE_WEST_MICRONESIA_mine:1 "Palau"
  HUB_NAME_STATE_WEST_MICRONESIA_farm:0 "Saipan"
  HUB_NAME_STATE_WEST_MICRONESIA_wood:0 "Ponape"
- 
+
  HUB_NAME_STATE_EAST_MICRONESIA_city:0 "Jaluit"
  HUB_NAME_STATE_EAST_MICRONESIA_port:0 "Tarawa"
  HUB_NAME_STATE_EAST_MICRONESIA_mine:0 "Enewetak"
@@ -21,7 +21,7 @@
  HUB_NAME_STATE_TAHITI_city:0 "Papeete"
  HUB_NAME_STATE_TAHITI_port:0 "Bora Bora"
  HUB_NAME_STATE_TAHITI_mine:0 "Nuku Hiva"
- HUB_NAME_STATE_TAHITI_farm:0 "Raiatea" 
+ HUB_NAME_STATE_TAHITI_farm:0 "Raiatea"
  HUB_NAME_STATE_TAHITI_wood:0 "Taiarapu"
 
  HUB_NAME_STATE_JAMAICA_city:0 "Kingston"
@@ -35,7 +35,7 @@
  HUB_NAME_STATE_NEW_BRUNSWICK_mine:0 "Sydney"
  HUB_NAME_STATE_NEW_BRUNSWICK_farm:0 "Charlottetown"
  HUB_NAME_STATE_NEW_BRUNSWICK_wood:0 "Fredericton"
- 
+
  HUB_NAME_STATE_OHIO_city:0 "Cincinnati"
  HUB_NAME_STATE_OHIO_mine:0 "Cleveland"
  HUB_NAME_STATE_OHIO_farm:0 "Columbus"

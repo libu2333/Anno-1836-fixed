@@ -55,7 +55,7 @@
  UZH:0 "Senior Zhuz"
  YOG:0 "Djogjakarta"
  YOG_ADJ:0 "Djogjakartan"
- 
+
  #States
  STATE_KHIVA:0 "Khwarazm"
  STATE_WEST_SWITZERLAND:0 "Romandy"
@@ -77,7 +77,7 @@
  STATE_GHANA:0 "Gold Coast"
  STATE_NORTH_CAMEROON:0 "Adamawa"
  STATE_SOUTH_CAMEROON:0 "Cameroon"
- STATE_UPPER_VOLTA:0 "Upper Volta" 
+ STATE_UPPER_VOLTA:0 "Upper Volta"
  STATE_TLEMCEN:0 "Oran"
  STATE_INNER_MOROCCO:0 "Souss"
  STATE_INNER_MAURITANIA:0 "Adrar"
@@ -106,7 +106,7 @@
  STATE_PERSIAN_KURDISTAN:0 "Ardalan"
  STATE_BADAKHSHAN:0 "Badakhshan"
  STATE_AKTOBE:0 "Karaganda"
- 
+
  #Oceans and lakes
  STATE_SEA_OF_JAPAN:0 "Sea of Japan"
  region_sea_of_japan:0 "Sea of Japan"
@@ -140,7 +140,7 @@
  region_central_atlantic_ocean_lane_01: "Central Atlantic Ocean"
  STATE_SKELETON_COAST: "Skeleton Coast"
  region_skeleton_coast: "Skeleton Coast"
- 
+
  #Strategic Regions
  region_bosphorus:0 "the Bosphorus"
  region_rhine:0 "the Rhineland"
@@ -156,15 +156,15 @@
  region_the_persian_gulf:0 "the Persian Gulf"
  region_balkans:0 "the Balkans"
  region_north_sea_coast:0 "the North Atlantic Islands"
- 
+
  #Misc
  colonization_rights_trigger_desc_first:0 "[TARGET_COUNTRY.GetName] has a [concept_colonization_rights] diplomatic pact with [COUNTRY.GetName]"
  colonization_rights_effect_desc_first:0 "[TARGET_COUNTRY.GetName] enters into a [concept_colonization_rights] diplomatic pact with [COUNTRY.GetName]"
- 
+
  #Governments
  gov_shiite_theocracy:0 "Imamate"
  gov_shiite_theocracy_desc:0 "A theocratic Shiite state in which the Imam, a divinely inspired descendent of Caliph Ali, takes on the role of both leader of the faithful -by providing commentary and interpretations of the Quran- as well as temporal leadership of the Shiite state."
- 
- 
+
+
  RULER_TITLE_SHEIKH:0 "Sheikh"
  RULER_TITLE_SHAYKHAH:0 "Shaykhah"

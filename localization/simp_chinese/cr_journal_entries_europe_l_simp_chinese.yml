@@ -72,7 +72,7 @@
  je_conquest_of_algeria_medea_captures:"我们已占领#variable 梅德亚#!城"
  je_conquest_of_algeria_constantine_captures:"我们已占领#variable 君士坦丁#!城"
  je_conquest_of_algeria_tt_update:"大规模袭击事件发生频率将大幅降低。"
- 
+
  je_cr_confederation:"阿根廷邦联"
  je_cr_confederation_reason:"1831 年，《联邦公约》正式签署标志着阿根廷邦联就此诞生。然而，[ROOT.GetCountry.GetOverlord.GetNameNoFlag]省的强人凭借其雄厚的军事与经济实力，牢牢掌控着邦联的实际权力，使得这份公约所确立的联邦体制名存实亡。如今，我们正站在命运的十字路口，面临着两个截然不同的选择：要么坐以待毙，眼睁睁看着[ROOT.GetCountry.GetOverlord.GetNameNoFlag]一步步蚕食、吞并我们的土地与主权；要么奋起反抗，从其手中夺走邦联的领导权，重塑属于我们的联邦秩序。"
  # 瑞士邦联：实际上各省地位完全平等，但由于游戏机制只能设定伯尔尼为绝对领导。

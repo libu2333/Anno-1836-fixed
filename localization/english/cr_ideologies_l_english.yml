@@ -8,7 +8,7 @@
  ideology_colonial_overlords_cr:0 "Colonial Overlords"
  ideology_colonial_overlords_cr_desc:0 "This interest group is made up of people belonging to a colonial state."
  ideology_moralist_colonial:0 "Moralist"
- 
+
  ideology_frontier_expansionist_leader_cr: "Frontier Expansionist"
  ideology_frontier_expansionist_leader_cr_desc: "#lore This leader seeks to expand the borders of the state to include land currently 'unsettled'.#!"
  ideology_frontier_expansionist_cr: "Frontier Expansionist"
@@ -18,15 +18,15 @@
  movement_frontier_movement: "Frontier Movement"
  movement_frontier_movement_name: "Frontier Movement"
  movement_frontier_movement_name_desc: "#lore This movement seeks to expand the borders of the state to include land currently 'unsettled'.#!"
- 
+
  movement_support_split_state: "Inhabiting a [concept_split_state]"
- 
+
  ideology_caudillismo_mexico: "Caudillismo"
  ideology_caudillismo_mexico_desc: "#lore This group tends to support strongman leaders with military backgrounds over constitutional rule of law.#!"
- 
+
  ideology_meritocratic_mexico: "Meritocratic"
  ideology_meritocratic_mexico_desc: "#lore This group believes success is earned and that those who have achieved it deserve the accompanying responsibility and wealth.#!"
- 
+
  ideology_centralist: "Centralist"
  ideology_centralist_desc: "#lore This group tends to believe a strong centralised state provides the firmest foundation for the nation.#!"
  ideology_centralist_leader: "Centralist"
@@ -36,7 +36,7 @@
  movement_centralist: "Centralist Movement"
  movement_centralist_name: "Centralist Movement"
  movement_centralist_desc: "#lore This movement seeks to establish a unitary state with a strong central government, which it believes provides the firmest foundation for the nation.#!"
- 
+
  ideology_federalist: "Federalist"
  ideology_federalist_desc: "#lore This group tends to believe a decentralised state with local autonomy provides the strongest foundation for the nation.#!"
  ideology_federalist_leader: "Federalist"

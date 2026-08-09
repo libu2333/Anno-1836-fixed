@@ -234,7 +234,7 @@ CHU2 = {
 KYR2 = {
 	color = { 209 136 73 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	

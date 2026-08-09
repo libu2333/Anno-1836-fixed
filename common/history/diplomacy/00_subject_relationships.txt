@@ -23,6 +23,12 @@
     #         type = tribal_confederation
     #     }
     # }
+    c:KOK ?= {
+        create_diplomatic_pact = {
+            country = c:KYR2
+            type = tributary
+        }
+    }
     if = {
         limit = {
             has_game_rule = all_historical_subjects

@@ -4150,10 +4150,28 @@ create_kyrgyzia_effect = {
 		origin = ROOT
 		province = p:x0B0E9E
 		on_created = {
+			s:STATE_ALAY = {
+				set_owner_of_provinces = {
+					country = c:KYR2
+					provinces = { xE5AD64 x6A30D3 x180E7A x7AAB55 xA5418A }
+				}
+			}
 			s:STATE_KIRGHIZIA = {
 				set_owner_of_provinces = {
 					country = c:KYR2
+					provinces = { x643CF5 xBE2F49 x480704 x99410F x6678CA x4214B3 xC863B0 x599B9D xAA16B7 xBA55E4 xA9525C x8B7EFD }
+				}
+			}
+			s:STATE_KALAKR = {
+				set_owner_of_provinces = {
+					country = c:KYR2
 					provinces = { xA2A052 x71586F x01387D x70C74E x3F077A xF20193 x0FEA61 x1AF55D xED1DFF xF5C441 xD0F675 xA553A3 xB7562E xC8CDED x7E2912 xC45955 x5BFB6D x7C21B1 x999094 x0BD6F5 x080348 x36EF23 x41EF15 xA20332 xF15FB9 x384DCD }
+				}
+			}
+			c:KOK ?= {
+				create_diplomatic_pact = {
+					country = c:KYR2
+					type = tributary
 				}
 			}
 		}

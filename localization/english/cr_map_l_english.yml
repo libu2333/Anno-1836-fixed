@@ -1,5 +1,11 @@
 ﻿l_english:
  #Cultures
+ CKC2:"Chukotka"
+ CKC2_ADJ:"Chukchi"
+ AGP2:"Monyul"
+ AGP2_ADJ:"Monpa"
+ AGP3:"Zayul"
+ AGP3_ADJ:"Zayul"
  frisian:"Frisian"
  arpitan:"Arpitan"
  romansh:"Romansh"
@@ -1407,7 +1413,7 @@
  cr_dyn_c_pozen_adj:"Posen"
  SLUU:"San Luis"
  SLUU_ADJ:"San Luis"
- KYR2:"Eastern Brute"
+ KYR2:"Eastern Burut"
  KYR2_ADJ:"Kyrgyz"
  STATE_TUVA_han:"Tannu Uriankhai"
  STATE_ALTAI_han:"Khovd"

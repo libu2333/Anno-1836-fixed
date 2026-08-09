@@ -851,43 +851,85 @@
 		region_state:KOK = {
 			create_pop = {
 				culture = kirgiz
-				size = 80530
+				size = 32212
 			}
 			create_pop = {
 				culture = uzbek
-				size = 56305
+				size = 22522
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = uzbek
-				size = 17251
+				size = 6900
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = uighur
-				size = 5000
+				size = 2000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = russian
-				size = 3500
+				size = 1400
 			}
 			create_pop = {
 				culture = kazak
-				size = 16002
+				size = 6401
 			}
 			create_pop = {
 				culture = uighur
-				size = 8819
+				size = 3528
 			}
 			create_pop = {
 				culture = kirgiz
 				religion = animist
-				size = 8000
+				size = 3200
 			}
 			create_pop = {
 				culture = tajik
-				size = 4450
+				size = 1780
+			}
+		}
+		region_state:KYR2 = {
+			create_pop = {
+				culture = kirgiz
+				size = 48318
+			}
+			create_pop = {
+				culture = uzbek
+				size = 33783
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = uzbek
+				size = 10351
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = uighur
+				size = 3000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = russian
+				size = 2100
+			}
+			create_pop = {
+				culture = kazak
+				size = 9601
+			}
+			create_pop = {
+				culture = uighur
+				size = 5291
+			}
+			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 4800
+			}
+			create_pop = {
+				culture = tajik
+				size = 2670
 			}
 		}
 	}
@@ -1063,50 +1105,94 @@
 		region_state:URATEPA = {
 			create_pop = {
 				culture = uzbek
-				size = 36184
+				size = 7237
 			}
 			create_pop = {
 				culture = tajik
-				size = 58204
+				size = 11641
 			}
 			create_pop = {
 				culture = kazak
-				size = 17814
+				size = 3563
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = tajik
-				size = 7631
+				size = 1526
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = uighur
-				size = 2671
+				size = 535
 			}
 		}
 		region_state:KOK = {
 			create_pop = {
 				culture = kirgiz
-				size = 5810
+				size = 2711
 			}
 			create_pop = {
 				culture = tajik
-				size = 8575
+				size = 4002
 			}
 			create_pop = {
 				culture = uighur
-				size = 1581
+				size = 738
 			}
 			create_pop = {
 				culture = uzbek
-				size = 3791
+				size = 1769
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = uzbek
-				size = 1649
+				size = 770
 			}
-			
+		}
+		region_state:KYR2 = {
+			create_pop = {
+				culture = uzbek
+				size = 12061
+			}
+			create_pop = {
+				culture = tajik
+				size = 19401
+			}
+			create_pop = {
+				culture = kazak
+				size = 5938
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tajik
+				size = 2544
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = uighur
+				size = 890
+			}
+			create_pop = {
+				culture = kirgiz
+				size = 1937
+			}
+			create_pop = {
+				culture = tajik
+				size = 2858
+			}
+			create_pop = {
+				culture = uighur
+				size = 527
+			}
+			create_pop = {
+				culture = uzbek
+				size = 1264
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = uzbek
+				size = 550
+			}
 		}
 	}
 	s:STATE_FERGANA = {

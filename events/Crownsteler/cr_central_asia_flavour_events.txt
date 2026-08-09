@@ -48,7 +48,10 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 			AND = {
 				exists = c:KYR2
 				c:KYR2 ?= {
-					is_country_type = decentralized
+					has_diplomatic_pact = {
+						who = c:KOK
+						type = tributary
+					}
 					ruler = {
 						has_template = tailak_baatyr
 					}
@@ -142,7 +145,10 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 				add_claim = c:KYR2
 			}
 			scope:kyrgyzia = {
-				set_country_type = unrecognized
+				remove_diplomatic_pact = {
+					country = c:KOK
+					type = tributary
+				}
 				create_diplomatic_play = {
 					#name = annex_war
 					target_country = c:KOK
@@ -189,6 +195,7 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 	}
 	option = {
 		name = cr_central_asia_events.1.c
+		custom_tooltip = cr_central_asia_events.1.c_tt
 		trigger = {
 			is_ai = no
 		}
@@ -207,7 +214,10 @@ cr_central_asia_events.1 = { #The Kazakh Khan / Tailak Baatyr
 			}
 		}
 		c:KYR2 ?= {
-			set_country_type = unrecognized
+			remove_diplomatic_pact = {
+				country = c:KOK
+				type = tributary
+			}
 		}
 		play_as = C:KYR2
 		scope:kokandi_kirghizia = { #only the northern Kyrgyzs, the southern Kyrgyzs were foundational to the Kokand Khanate
@@ -262,7 +272,10 @@ cr_central_asia_events.5 = { #On the shores of the Issyk-Kul - Orman Khan's Kuru
 			AND = {
 				exists = c:KYR2
 				c:KYR2 = {
-					is_country_type = decentralized
+					has_diplomatic_pact = {
+						who = c:KOK
+						type = tributary
+					}
 					NOR = {
 						ruler = { has_template = KYZ_tailak_batyr }
 						has_variable = cr_omran_is_coming
@@ -281,7 +294,10 @@ cr_central_asia_events.5 = { #On the shores of the Issyk-Kul - Orman Khan's Kuru
 		}
 		c:KYR2 = {
 			save_scope_as = kyrgyzia
-			set_country_type = unrecognized
+			remove_diplomatic_pact = {
+				country = c:KOK
+				type = tributary
+			}
 			create_character = {
 				template = KYZ_ormon_khan
 			}

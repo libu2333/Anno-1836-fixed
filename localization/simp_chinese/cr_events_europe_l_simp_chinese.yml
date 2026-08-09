@@ -21,7 +21,7 @@
   cr_europe_events.20.desc_4_obl:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再次抗议我们在[SCOPE.sState('cr_fernado_po_province').GetName]的存在，但这次他们不再强调1778年与葡萄牙签订的条约，而是突出我们欠他们的一项[concept_obligation|l]。"
   cr_europe_events.20.desc_4_obl_offered:0 "[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再次抗议我们在[SCOPE.sState('cr_fernado_po_province').GetName]的存在，但这次他们不再强调1778年与葡萄牙签订的条约，而是提出他们将在未来欠我们一项[concept_obligation|l]。"
 
-  cr_europe_events.20.desc_5:0 正如季节一样可预测，[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再次提出我们对[SCOPE.sState('cr_fernado_po_province').GetName]的所有权问题。他们的论点也同样可预测，再次指出1778年与葡萄牙签订的条约作为我们存在于[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjectiveNoFormatting]岛上是非法的理由。"
+  cr_europe_events.20.desc_5:0 "如四时更替般可预料，[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再度质疑我们对[SCOPE.sState('cr_fernado_po_province').GetName]的主权。他们的论据亦无新意，仍援引1778年与葡萄牙缔结的条约，声称我方驻留于该岛并无合法根据。"
   cr_europe_events.20.desc_5_obl:0 "正如季节一样可预测，[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再次提出我们对[SCOPE.sState('cr_fernado_po_province').GetName]的所有权问题。虽然他们提出问题本身可预测，但他们似乎改变了策略；不再强调1778年条约，而是突出我们欠他们的一项[concept_obligation|l]。"
   cr_europe_events.20.desc_5_obl_offered:0 "正如季节一样可预测，[SCOPE.sCountry('cr_fernado_po_claimant').GetAdjective]再次提出我们对[SCOPE.sState('cr_fernado_po_province').GetName]的所有权问题。虽然他们提出问题本身可预测，但他们似乎改变了策略；不再强调1778年条约，而是突出移交该岛将使他们欠我们一项未来可利用的[concept_obligation|l]。"
 

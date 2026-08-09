@@ -2,7 +2,7 @@
 
  #本土移除
  je_cr_kyrgyz_tribes:"北方吉尔吉斯人"
- je_cr_kyrgyz_tribes_reason:"吉尔吉斯人是我国[ROOT.GetCountry.GetGovernment.GetName]的支柱，在行政体系中担任高低职位。但并非所有吉尔吉斯人都平等对待：只有阿拉伊与费尔干纳的南方吉尔吉斯人接受了我们的统治。而天山地区的北方吉尔吉斯人则远不那么顺从，他们固守野蛮旧习。这对我们是个问题，因为穿越天山、沿克孜勒库尔湖的商路通往乌鲁木齐与中国内地，利润丰厚。\n\n保护商队已成难题：一个氏族刚被制服，另一个又蠢蠢欲动。只有巧妙利用他们内部的敌对，我们才勉强维持一丝控制。但这种控制需要时刻警惕，随时提防有人能统一各族对抗我们。"
+ je_cr_kyrgyz_tribes_reason:"吉尔吉斯人是我国[ROOT.GetCountry.GetGovernment.GetName]的重要支柱，在官署内外担任各级职司；然而在我方眼中，他们的地位并不相同。阿赖与费尔干纳的南部吉尔吉斯人大多已接受统治，天山北麓的诸部却仍遵本族旧俗，不肯轻受约束。这尤为棘手，因为穿越天山、沿伊塞克湖通往乌鲁木齐与中国内地的商路，获利甚厚。\n\n维持商路已日益艰难：一部方才归顺，另一部便又蠢蠢欲动。我们只能借各氏族旧怨相互牵制，勉强维持控制；而这份控制须时时警醒，防备有人将诸部合为一旗，与我方抗衡。"
  je_poland_liberation:"解放波兰"
  je_poland_liberation_reason:"现在是我们为所有帝国境内的波兰人争取独立的时候了。"
  je_poland_independence:"波兰独立"
@@ -106,4 +106,3 @@
  cr_is_swi_member:"[ROOT.GetCountry.GetName] 不是邦联成员"
  cr_own_argentina_states:"[ROOT.GetCountry.GetName] 拥有所有阿根廷地区，并且没有其他邦联成员附属"
  cr_confederation_leader:"[ROOT.GetCountry.GetName] 不是邦联领导者，或 [ROOT.GetCountry.GetName] 是他国附属"
- 

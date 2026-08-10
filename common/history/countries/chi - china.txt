@@ -33,6 +33,10 @@ COUNTRIES = {
 			level = no_tariffs_or_subventions
 		}
 		add_journal_entry = { type = je_warlord_china }
+		if = {
+			limit = { has_game_rule = kokand_occupiation }
+			add_journal_entry = { type = je_cr_qing_recover_eastern_burut }
+		}
 		set_variable = ryukyu_rival_member
 	}
 	c:LZZ ?= {

@@ -8,15 +8,15 @@ je_cr_eastern_burut_clans = {
 
 	possible = {
 		has_game_rule = kokand_occupiation
-		c:KYR2 ?= this
+		c:KYR2 ?= ROOT
 	}
 
 	should_be_involved = {
-		c:KYR2 ?= this
+		c:KYR2 ?= ROOT
 	}
 
 	immediate = {
-		c:KYR2 ?= {
+		c:KYR2 = {
 			if = {
 				limit = {
 					NOT = { has_variable = cr_kyr2_baatyr_story_started }
@@ -60,7 +60,7 @@ je_cr_eastern_burut_clans = {
 	custom_on_completion_header = cr_kyr2_clans_on_complete_header
 
 	on_complete = {
-		c:KYR2 ?= {
+		c:KYR2 = {
 			add_modifier = {
 				name = cr_kyr2_consolidated_tribes
 				days = long_modifier_time
@@ -72,7 +72,7 @@ je_cr_eastern_burut_clans = {
 	custom_on_failure_header = cr_kyr2_clans_on_fail_header
 
 	on_fail = {
-		c:KYR2 ?= {
+		c:KYR2 = {
 			add_modifier = {
 				name = cr_kyr2_fractured_tribes
 				days = long_modifier_time
@@ -105,6 +105,7 @@ je_cr_eastern_burut_crossroads = {
 
 	possible = {
 		has_game_rule = kokand_occupiation
+		c:KYR2 ?= ROOT
 		exists = c:KYR2
 		exists = c:KOK
 		exists = c:CHI
@@ -112,9 +113,9 @@ je_cr_eastern_burut_crossroads = {
 
 	should_be_involved = {
 		OR = {
-			c:KYR2 ?= this
-			c:KOK ?= this
-			c:CHI ?= this
+			c:KYR2 ?= ROOT
+			c:KOK ?= ROOT
+			c:CHI ?= ROOT
 		}
 	}
 
@@ -155,7 +156,7 @@ je_cr_eastern_burut_crossroads = {
 	custom_on_completion_header = cr_kyr2_kokand_on_outcome_header
 
 	on_complete = {
-		c:KYR2 ?= {
+		c:KYR2 = {
 			remove_diplomatic_pact = {
 				country = c:CHI
 				type = tributary
@@ -165,13 +166,13 @@ je_cr_eastern_burut_crossroads = {
 				days = long_modifier_time
 			}
 		}
-		c:KOK ?= {
+		c:KOK = {
 			create_diplomatic_pact = {
 				country = c:KYR2
 				type = tributary
 			}
 		}
-		c:KYR2 ?= {
+		c:KYR2 = {
 			trigger_event = { id = cr_kyr2_events.8 popup = yes }
 		}
 	}
@@ -179,7 +180,7 @@ je_cr_eastern_burut_crossroads = {
 	custom_on_failure_header = cr_kyr2_qing_on_outcome_header
 
 	on_fail = {
-		c:KYR2 ?= {
+		c:KYR2 = {
 			remove_diplomatic_pact = {
 				country = c:KOK
 				type = tributary
@@ -189,13 +190,13 @@ je_cr_eastern_burut_crossroads = {
 				days = long_modifier_time
 			}
 		}
-		c:CHI ?= {
+		c:CHI = {
 			create_diplomatic_pact = {
 				country = c:KYR2
 				type = tributary
 			}
 		}
-		c:KYR2 ?= {
+		c:KYR2 = {
 			trigger_event = { id = cr_kyr2_events.9 popup = yes }
 		}
 	}
@@ -224,124 +225,48 @@ je_cr_qing_recover_eastern_burut = {
 
 	possible = {
 		has_game_rule = kokand_occupiation
-		c:CHI ?= this
+		c:CHI ?= ROOT
 		exists = c:KYR2
 	}
 
 	should_be_involved = {
-		c:CHI ?= this
+		c:CHI ?= ROOT
 	}
 
 	custom_completion_header = cr_qing_eastern_burut_complete_header
 
 	complete = {
 		OR = {
-			p:xB7128C.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
+			p:xB7128C.state.owner ?= ROOT
+			p:x6F2EC3.state.owner ?= ROOT
+			p:x527607.state.owner ?= ROOT
+			p:x151461.state.owner ?= ROOT
+			p:xE4D8D8.state.owner ?= ROOT
+			p:xB36D9F.state.owner ?= ROOT
+			p:xC1BBAD.state.owner ?= ROOT
+			p:xFEB233.state.owner ?= ROOT
+			p:x68146B.state.owner ?= ROOT
+			p:xB4B7D9.state.owner ?= ROOT
+			p:x2565D9.state.owner ?= ROOT
+			p:x8DFA40.state.owner ?= ROOT
+			AND = {
+				exists = c:BDK
+				c:BDK ?= {
+					is_subject_of = ROOT
 				}
-			}
-			p:x6F2EC3.state.owner = {
 				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:x527607.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:x151461.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:xE4D8D8.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:xB36D9F.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:xC1BBAD.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:xFEB233.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:x68146B.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:xB4B7D9.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:x2565D9.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
-				}
-			}
-			p:x8DFA40.state.owner = {
-				OR = {
-					c:CHI ?= this
-					AND = {
-						c:BDK ?= this
-						is_subject_of = c:CHI
-					}
+					p:xB7128C.state.owner ?= c:BDK
+					p:x6F2EC3.state.owner ?= c:BDK
+					p:x527607.state.owner ?= c:BDK
+					p:x151461.state.owner ?= c:BDK
+					p:xE4D8D8.state.owner ?= c:BDK
+					p:xB36D9F.state.owner ?= c:BDK
+					p:xC1BBAD.state.owner ?= c:BDK
+					p:xFEB233.state.owner ?= c:BDK
+					p:x68146B.state.owner ?= c:BDK
+					p:xB4B7D9.state.owner ?= c:BDK
+					p:x2565D9.state.owner ?= c:BDK
+					p:x8DFA40.state.owner ?= c:BDK
 				}
 			}
 		}
@@ -383,13 +308,11 @@ je_cr_qing_recover_eastern_burut = {
 	custom_on_completion_header = cr_qing_eastern_burut_on_complete_header
 
 	on_complete = {
-		c:CHI ?= {
-			add_modifier = {
-				name = cr_qing_eastern_burut_recovered
-				days = long_modifier_time
-			}
-			trigger_event = { id = cr_kyr2_events.10 popup = yes }
+		add_modifier = {
+			name = cr_qing_eastern_burut_recovered
+			days = long_modifier_time
 		}
+		trigger_event = { id = cr_kyr2_events.10 popup = yes }
 	}
 
 	weight = 100

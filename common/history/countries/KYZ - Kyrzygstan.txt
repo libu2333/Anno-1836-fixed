@@ -5,5 +5,11 @@ COUNTRIES = {
 		
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_debt_slavery
+
+		if = {
+			limit = { has_game_rule = kokand_occupiation }
+			add_journal_entry = { type = je_cr_eastern_burut_clans }
+			add_journal_entry = { type = je_cr_eastern_burut_crossroads }
+		}
 	}
 }

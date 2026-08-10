@@ -4144,6 +4144,39 @@ cr_decrease_siberian_tensions_effect = {
 	}
 }
 
+cr_initialize_kyr2_journals_effect = {
+	if = {
+		limit = {
+			has_game_rule = kokand_occupiation
+		}
+		if = {
+			limit = { exists = c:KYR2 }
+			c:KYR2 = {
+				if = {
+					limit = { NOT = { has_journal_entry = je_cr_eastern_burut_clans } }
+					add_journal_entry = { type = je_cr_eastern_burut_clans }
+				}
+				if = {
+					limit = { NOT = { has_journal_entry = je_cr_eastern_burut_crossroads } }
+					add_journal_entry = { type = je_cr_eastern_burut_crossroads }
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = c:CHI
+				exists = c:KYR2
+			}
+			c:CHI = {
+				if = {
+					limit = { NOT = { has_journal_entry = je_cr_qing_recover_eastern_burut } }
+					add_journal_entry = { type = je_cr_qing_recover_eastern_burut }
+				}
+			}
+		}
+	}
+}
+
 create_kyrgyzia_effect = {
 	create_country = {
 		tag = KYR2
@@ -4168,31 +4201,13 @@ create_kyrgyzia_effect = {
 					provinces = { xA2A052 x71586F x01387D x70C74E x3F077A xF20193 x0FEA61 x1AF55D xED1DFF xF5C441 xD0F675 xA553A3 xB7562E xC8CDED x7E2912 xC45955 x5BFB6D x7C21B1 x999094 x0BD6F5 x080348 x36EF23 x41EF15 xA20332 xF15FB9 x384DCD }
 				}
 			}
-			c:KOK ?= {
+			c:KOK = {
 				create_diplomatic_pact = {
 					country = c:KYR2
 					type = tributary
 				}
 			}
-			if = {
-				limit = { has_game_rule = kokand_occupiation }
-				c:KYR2 ?= {
-					if = {
-						limit = { NOT = { has_journal_entry = je_cr_eastern_burut_clans } }
-						add_journal_entry = { type = je_cr_eastern_burut_clans }
-					}
-					if = {
-						limit = { NOT = { has_journal_entry = je_cr_eastern_burut_crossroads } }
-						add_journal_entry = { type = je_cr_eastern_burut_crossroads }
-					}
-				}
-				c:CHI ?= {
-					if = {
-						limit = { NOT = { has_journal_entry = je_cr_qing_recover_eastern_burut } }
-						add_journal_entry = { type = je_cr_qing_recover_eastern_burut }
-					}
-				}
-			}
+			cr_initialize_kyr2_journals_effect = yes
 		}
 	}
 }

@@ -79,30 +79,6 @@ on_game_started_after_lobby = {
 			    reset_hub_names = yes
 			}
 		}
-		if = {
-			limit = {
-				has_game_rule = kokand_occupiation
-			}
-			c:KYR2 ?= {
-				if = {
-					limit = { NOT = { has_journal_entry = je_cr_eastern_burut_clans } }
-					add_journal_entry = { type = je_cr_eastern_burut_clans }
-				}
-				if = {
-					limit = { NOT = { has_journal_entry = je_cr_eastern_burut_crossroads } }
-					add_journal_entry = { type = je_cr_eastern_burut_crossroads }
-				}
-			}
-			c:CHI ?= {
-				if = {
-					limit = {
-						exists = c:KYR2
-						NOT = { has_journal_entry = je_cr_qing_recover_eastern_burut }
-					}
-					add_journal_entry = { type = je_cr_qing_recover_eastern_burut }
-				}
-			}
-		}
 		# The Ripper
 		every_country = {
 			if = {

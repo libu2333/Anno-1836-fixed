@@ -4144,6 +4144,73 @@ cr_decrease_siberian_tensions_effect = {
 	}
 }
 
+cr_make_kyr2_subject_of_kokand_effect = {
+	if = {
+		limit = { c:KYR2 ?= { is_subject_of = c:KOK } }
+	}
+	else = {
+		c:KYR2 ?= {
+			if = {
+				limit = { is_subject = yes }
+				make_independent = yes
+			}
+		}
+		if = {
+			limit = { c:KOK ?= { is_country_type = unrecognized } }
+			c:KOK ?= {
+				create_diplomatic_pact = {
+					country = c:KYR2
+					type = tributary
+				}
+			}
+		}
+		else = {
+			c:KOK ?= {
+				create_diplomatic_pact = {
+					country = c:KYR2
+					type = protectorate
+				}
+			}
+		}
+		c:KYR2 ?= {
+			set_variable = { name = cr_kyr2_suzerainty_shock value = -2 months = 36 }
+		}
+	}
+}
+
+cr_make_kyr2_subject_of_qing_effect = {
+	if = {
+		limit = { c:KYR2 ?= { is_subject_of = c:CHI } }
+	}
+	else = {
+		c:KYR2 ?= {
+			if = {
+				limit = { is_subject = yes }
+				make_independent = yes
+			}
+		}
+		if = {
+			limit = { c:CHI ?= { is_country_type = unrecognized } }
+			c:CHI ?= {
+				create_diplomatic_pact = {
+					country = c:KYR2
+					type = tributary
+				}
+			}
+		}
+		else = {
+			c:CHI ?= {
+				create_diplomatic_pact = {
+					country = c:KYR2
+					type = protectorate
+				}
+			}
+		}
+		c:KYR2 ?= {
+			set_variable = { name = cr_kyr2_suzerainty_shock value = -2 months = 36 }
+		}
+	}
+}
 cr_initialize_kyr2_journals_effect = {
 	if = {
 		limit = {
@@ -4207,12 +4274,7 @@ create_kyrgyzia_effect = {
 					provinces = { xA2A052 x71586F x01387D x70C74E x3F077A xF20193 x0FEA61 x1AF55D xED1DFF xF5C441 xD0F675 xA553A3 xB7562E xC8CDED x7E2912 xC45955 x5BFB6D x7C21B1 x999094 x0BD6F5 x080348 x36EF23 x41EF15 xA20332 xF15FB9 x384DCD }
 				}
 			}
-			c:KOK = {
-				create_diplomatic_pact = {
-					country = c:KYR2
-					type = tributary
-				}
-			}
+			cr_make_kyr2_subject_of_kokand_effect = yes
 			cr_initialize_kyr2_journals_effect = yes
 		}
 	}

@@ -3404,6 +3404,12 @@ on_diplomatic_action_third_party_break_declined = {
 on_diplomatic_action_overlord_decrease_autonomy = {
 	effect = {
 		post_notification = diplomatic_action_overlord_decrease_autonomy_notification
+		if = {
+			limit = { scope:target ?= { c:KYR2 ?= this } }
+			c:KYR2 ?= {
+				set_variable = { name = cr_kyr2_suzerainty_shock value = -3 months = 36 }
+			}
+		}
 	}
 }
 
@@ -3418,6 +3424,12 @@ on_diplomatic_action_overlord_increase_autonomy = {
 on_diplomatic_action_subject_increase_own_autonomy = {
 	effect = {
 		post_notification = diplomatic_action_subject_increase_own_autonomy_notification
+		if = {
+			limit = { scope:initiator ?= { c:KYR2 ?= this } }
+			c:KYR2 ?= {
+				set_variable = { name = cr_kyr2_suzerainty_shock value = -2 months = 36 }
+			}
+		}
 	}
 }
 
@@ -6287,6 +6299,12 @@ on_political_movement_supported_law_cancelled = {
 # scope:wargoal_impact = the impact of the wargoal enforced
 on_wargoal_enforced = {
 	effect = {
+		if = {
+			limit = { scope:target ?= { c:KYR2 ?= this } }
+			c:KYR2 ?= {
+				set_variable = { name = cr_kyr2_wargoal_shock value = -3 months = 36 }
+			}
+		}
 		
         if = { 
         	limit = {

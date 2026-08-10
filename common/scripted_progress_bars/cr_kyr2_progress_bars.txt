@@ -46,10 +46,7 @@ cr_kyr2_clan_cohesion_bar = {
 			limit = {
 				exists = c:KOK
 				c:KYR2 ?= {
-					has_diplomatic_pact = {
-						who = c:KOK
-						type = tributary
-					}
+					is_subject_of = c:KOK
 				}
 			}
 			add = {
@@ -85,6 +82,20 @@ cr_kyr2_clan_cohesion_bar = {
 				value = c:KYR2.var:cr_kyr2_kokand_arbitration
 			}
 		}
+		if = {
+			limit = { exists = c:KYR2.var:cr_kyr2_suzerainty_shock }
+			add = {
+				desc = "cr_kyr2_clan_cohesion_suzerainty_shock_tt"
+				value = c:KYR2.var:cr_kyr2_suzerainty_shock
+			}
+		}
+		if = {
+			limit = { exists = c:KYR2.var:cr_kyr2_wargoal_shock }
+			add = {
+				desc = "cr_kyr2_clan_cohesion_wargoal_shock_tt"
+				value = c:KYR2.var:cr_kyr2_wargoal_shock
+			}
+		}
 	}
 }
 
@@ -100,14 +111,17 @@ cr_kyr2_diplomatic_balance_bar = {
 	max_value = 100
 
 	monthly_progress = {
+		# Qing frontier claims remain a counterweight even while Kokand holds suzerainty.
+		add = {
+			desc = "cr_kyr2_diplomatic_balance_qing_frontier_claims_tt"
+			value = -0.25
+		}
+
 		if = {
 			limit = {
 				exists = c:KOK
 				c:KYR2 ?= {
-					has_diplomatic_pact = {
-						who = c:KOK
-						type = tributary
-					}
+					is_subject_of = c:KOK
 				}
 			}
 			add = {

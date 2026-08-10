@@ -148,23 +148,12 @@ je_cr_eastern_burut_crossroads = {
 	custom_on_completion_header = cr_kyr2_kokand_on_outcome_header
 
 	on_complete = {
+		cr_make_kyr2_subject_of_kokand_effect = yes
 		c:KYR2 = {
-			remove_diplomatic_pact = {
-				country = c:CHI
-				type = tributary
-			}
 			add_modifier = {
 				name = cr_kyr2_kokand_patronage
 				days = long_modifier_time
 			}
-		}
-		c:KOK = {
-			create_diplomatic_pact = {
-				country = c:KYR2
-				type = tributary
-			}
-		}
-		c:KYR2 = {
 			trigger_event = { id = cr_kyr2_events.8 popup = yes }
 		}
 	}
@@ -172,23 +161,12 @@ je_cr_eastern_burut_crossroads = {
 	custom_on_failure_header = cr_kyr2_qing_on_outcome_header
 
 	on_fail = {
+		cr_make_kyr2_subject_of_qing_effect = yes
 		c:KYR2 = {
-			remove_diplomatic_pact = {
-				country = c:KOK
-				type = tributary
-			}
 			add_modifier = {
 				name = cr_kyr2_qing_suzerainty
 				days = long_modifier_time
 			}
-		}
-		c:CHI = {
-			create_diplomatic_pact = {
-				country = c:KYR2
-				type = tributary
-			}
-		}
-		c:KYR2 = {
 			trigger_event = { id = cr_kyr2_events.9 popup = yes }
 		}
 	}

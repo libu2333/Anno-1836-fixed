@@ -7,12 +7,16 @@ cr_kyr2_call_kurultai_button = {
 	}
 
 	possible = {
+		gold_reserves >= 2500
+		authority >= 75
 		NOT = { has_variable = cr_kyr2_kurultai_cooldown }
 	}
 
 	effect = {
-		set_variable = { name = cr_kyr2_kurultai_cooldown months = 60 }
-		set_variable = { name = cr_kyr2_kurultai_consensus value = 1 months = 24 }
+		add_gold_reserves = -2500
+		add_authority = -75
+		set_variable = { name = cr_kyr2_kurultai_cooldown months = 84 }
+		set_variable = { name = cr_kyr2_kurultai_consensus value = 2 months = 36 }
 		custom_tooltip = cr_kyr2_call_kurultai_button_tt
 	}
 

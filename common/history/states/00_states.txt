@@ -11926,7 +11926,7 @@ STATES = {
     s:STATE_ALAY = {
             create_state = {
                 country = c:KYR2
-                provinces = {
+                owned_provinces = {
                     xE5AD64 x6A30D3 x180E7A x7AAB55 xA5418A
                 }
             }
@@ -11964,7 +11964,7 @@ STATES = {
             }
             create_state = {
                 country = c:KYR2
-                provinces = {
+                owned_provinces = {
                     x643CF5 xBE2F49 x480704 x99410F x6678CA x4214B3 xC863B0 x599B9D xAA16B7 xBA55E4 xA9525C x8B7EFD 
                 }
             }
@@ -12049,7 +12049,7 @@ STATES = {
     }
     s:STATE_JETISY = {
             create_state = {
-                country = c:KOK
+                country = c:UZH
                 owned_provinces = { xC09364 x055D4A xF73B80 x4C58F3 xB2A1F3 xE922B8 x45E049 x22B945 x721F04 xC425C5 xCD3064 x8ABC27 xC0C277 x1A2E18 x1887C4 xF87D30 xFFA9D4 xC99085 x0F67BD x4DD19B xC29F40 x71EFE0 x2C7272 x46C8C5 xD7E661 x035206 x8E5320 x980CAE x065EF6 x1DE418 }
             }
             create_state = {

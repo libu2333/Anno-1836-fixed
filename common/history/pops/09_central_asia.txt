@@ -510,7 +510,7 @@
 					size = 12100
 				}
 			}
-			region_state:KOK = { 
+			region_state:UZH = { 
 				create_pop = {
 					culture = kazak
 					size = 83648

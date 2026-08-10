@@ -6,13 +6,8 @@ je_cr_eastern_burut_clans = {
 	scripted_progress_bar = cr_kyr2_clan_cohesion_bar
 	scripted_button = cr_kyr2_call_kurultai_button
 
-	possible = {
-		has_game_rule = kokand_occupiation
-		c:KYR2 ?= ROOT
-	}
-
 	should_be_involved = {
-		c:KYR2 ?= ROOT
+		c:KYR2 ?= this
 	}
 
 	immediate = {
@@ -103,19 +98,11 @@ je_cr_eastern_burut_crossroads = {
 	scripted_button = cr_kyr2_kokand_envoys_button
 	scripted_button = cr_kyr2_qing_envoys_button
 
-	possible = {
-		has_game_rule = kokand_occupiation
-		c:KYR2 ?= ROOT
-		exists = c:KYR2
-		exists = c:KOK
-		exists = c:CHI
-	}
-
 	should_be_involved = {
 		OR = {
-			c:KYR2 ?= ROOT
-			c:KOK ?= ROOT
-			c:CHI ?= ROOT
+			c:KYR2 ?= this
+			c:KOK ?= this
+			c:CHI ?= this
 		}
 	}
 

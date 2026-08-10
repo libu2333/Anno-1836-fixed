@@ -14,7 +14,7 @@ cr_kyr2_clan_cohesion_bar = {
 			value = -0.25
 		}
 
-		owner = {
+		c:KYR2 ?= {
 			if = {
 				limit = { legitimacy < 50 }
 				add = {
@@ -45,7 +45,7 @@ cr_kyr2_clan_cohesion_bar = {
 		if = {
 			limit = {
 				exists = c:KOK
-				owner = {
+				c:KYR2 ?= {
 					has_diplomatic_pact = {
 						who = c:KOK
 						type = tributary
@@ -58,31 +58,31 @@ cr_kyr2_clan_cohesion_bar = {
 			}
 		}
 		if = {
-			limit = { owner = { has_variable = cr_kyr2_baatyr_support } }
+			limit = { exists = c:KYR2.var:cr_kyr2_baatyr_support }
 			add = {
 				desc = "cr_kyr2_clan_cohesion_baatyr_support_tt"
-				value = owner.var:cr_kyr2_baatyr_support
+				value = c:KYR2.var:cr_kyr2_baatyr_support
 			}
 		}
 		if = {
-			limit = { owner = { has_variable = cr_kyr2_clan_rivalry } }
+			limit = { exists = c:KYR2.var:cr_kyr2_clan_rivalry }
 			add = {
 				desc = "cr_kyr2_clan_cohesion_rivalry_tt"
-				value = owner.var:cr_kyr2_clan_rivalry
+				value = c:KYR2.var:cr_kyr2_clan_rivalry
 			}
 		}
 		if = {
-			limit = { owner = { has_variable = cr_kyr2_kurultai_consensus } }
+			limit = { exists = c:KYR2.var:cr_kyr2_kurultai_consensus }
 			add = {
 				desc = "cr_kyr2_clan_cohesion_kurultai_tt"
-				value = owner.var:cr_kyr2_kurultai_consensus
+				value = c:KYR2.var:cr_kyr2_kurultai_consensus
 			}
 		}
 		if = {
-			limit = { owner = { has_variable = cr_kyr2_kokand_arbitration } }
+			limit = { exists = c:KYR2.var:cr_kyr2_kokand_arbitration }
 			add = {
 				desc = "cr_kyr2_clan_cohesion_kokand_arbitration_tt"
-				value = owner.var:cr_kyr2_kokand_arbitration
+				value = c:KYR2.var:cr_kyr2_kokand_arbitration
 			}
 		}
 	}
@@ -103,7 +103,7 @@ cr_kyr2_diplomatic_balance_bar = {
 		if = {
 			limit = {
 				exists = c:KOK
-				owner = {
+				c:KYR2 ?= {
 					has_diplomatic_pact = {
 						who = c:KOK
 						type = tributary
@@ -118,7 +118,7 @@ cr_kyr2_diplomatic_balance_bar = {
 		if = {
 			limit = {
 				exists = c:KOK
-				owner = { "relations(c:KOK)" >= 50 }
+				c:KYR2 ?= { "relations(c:KOK)" >= 50 }
 			}
 			add = {
 				desc = "cr_kyr2_diplomatic_balance_kokand_relations_tt"
@@ -128,7 +128,7 @@ cr_kyr2_diplomatic_balance_bar = {
 		if = {
 			limit = {
 				exists = c:KOK
-				owner = { "relations(c:KOK)" <= 0 }
+				c:KYR2 ?= { "relations(c:KOK)" <= 0 }
 			}
 			add = {
 				desc = "cr_kyr2_diplomatic_balance_kokand_hostility_tt"
@@ -138,7 +138,7 @@ cr_kyr2_diplomatic_balance_bar = {
 		if = {
 			limit = {
 				exists = c:CHI
-				owner = { "relations(c:CHI)" >= 50 }
+				c:KYR2 ?= { "relations(c:CHI)" >= 50 }
 			}
 			add = {
 				desc = "cr_kyr2_diplomatic_balance_qing_relations_tt"
@@ -148,7 +148,7 @@ cr_kyr2_diplomatic_balance_bar = {
 		if = {
 			limit = {
 				exists = c:CHI
-				owner = { "relations(c:CHI)" <= 0 }
+				c:KYR2 ?= { "relations(c:CHI)" <= 0 }
 			}
 			add = {
 				desc = "cr_kyr2_diplomatic_balance_qing_hostility_tt"
@@ -156,17 +156,17 @@ cr_kyr2_diplomatic_balance_bar = {
 			}
 		}
 		if = {
-			limit = { owner = { has_variable = cr_kyr2_kokand_pressure } }
+			limit = { exists = c:KYR2.var:cr_kyr2_kokand_pressure }
 			add = {
 				desc = "cr_kyr2_diplomatic_balance_kokand_pressure_tt"
-				value = owner.var:cr_kyr2_kokand_pressure
+				value = c:KYR2.var:cr_kyr2_kokand_pressure
 			}
 		}
 		if = {
-			limit = { owner = { has_variable = cr_kyr2_qing_pressure } }
+			limit = { exists = c:KYR2.var:cr_kyr2_qing_pressure }
 			add = {
 				desc = "cr_kyr2_diplomatic_balance_qing_pressure_tt"
-				value = owner.var:cr_kyr2_qing_pressure
+				value = c:KYR2.var:cr_kyr2_qing_pressure
 			}
 		}
 	}

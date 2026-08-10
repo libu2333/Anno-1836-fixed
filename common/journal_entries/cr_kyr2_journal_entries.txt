@@ -77,10 +77,15 @@ je_cr_eastern_burut_clans = {
 	}
 
 	on_monthly_pulse = {
-		random_events = {
-			90 = 0
-			5 = cr_kyr2_events.2
-			5 = cr_kyr2_events.3
+		effect = {
+			c:KYR2 ?= {
+				random_list = {
+					92 = { }
+					3 = { trigger_event = cr_kyr2_events.2 }
+					3 = { trigger_event = cr_kyr2_events.3 }
+					2 = { trigger_event = cr_kyr2_events.11 }
+				}
+			}
 		}
 	}
 
@@ -189,10 +194,15 @@ je_cr_eastern_burut_crossroads = {
 	}
 
 	on_monthly_pulse = {
-		random_events = {
-			94 = 0
-			3 = cr_kyr2_events.4
-			3 = cr_kyr2_events.5
+		effect = {
+			c:KYR2 ?= {
+				random_list = {
+					94 = { }
+					2 = { trigger_event = cr_kyr2_events.4 }
+					2 = { trigger_event = cr_kyr2_events.5 }
+					2 = { trigger_event = cr_kyr2_events.12 }
+				}
+			}
 		}
 	}
 
@@ -223,65 +233,20 @@ je_cr_qing_recover_eastern_burut = {
 	custom_completion_header = cr_qing_eastern_burut_complete_header
 
 	complete = {
-		OR = {
-			p:xB7128C.state.owner ?= ROOT
-			p:x6F2EC3.state.owner ?= ROOT
-			p:x527607.state.owner ?= ROOT
-			p:x151461.state.owner ?= ROOT
-			p:xE4D8D8.state.owner ?= ROOT
-			p:xB36D9F.state.owner ?= ROOT
-			p:xC1BBAD.state.owner ?= ROOT
-			p:xFEB233.state.owner ?= ROOT
-			p:x68146B.state.owner ?= ROOT
-			p:xB4B7D9.state.owner ?= ROOT
-			p:x2565D9.state.owner ?= ROOT
-			p:x8DFA40.state.owner ?= ROOT
-			AND = {
-				exists = c:BDK
-				c:BDK ?= {
-					is_subject_of = ROOT
-				}
-				OR = {
-					p:xB7128C.state.owner ?= c:BDK
-					p:x6F2EC3.state.owner ?= c:BDK
-					p:x527607.state.owner ?= c:BDK
-					p:x151461.state.owner ?= c:BDK
-					p:xE4D8D8.state.owner ?= c:BDK
-					p:xB36D9F.state.owner ?= c:BDK
-					p:xC1BBAD.state.owner ?= c:BDK
-					p:xFEB233.state.owner ?= c:BDK
-					p:x68146B.state.owner ?= c:BDK
-					p:xB4B7D9.state.owner ?= c:BDK
-					p:x2565D9.state.owner ?= c:BDK
-					p:x8DFA40.state.owner ?= c:BDK
-				}
+		custom_tooltip = {
+			text = cr_qing_recover_northwest_badakhshan_tt
+			cr_qing_controls_historical_badakhshan_province = yes
+		}
+		custom_tooltip = {
+			text = cr_qing_recover_northwest_ili_altai_tt
+			c:CHI ?= {
+				owns_entire_state_region = STATE_ALTAI
+				owns_entire_state_region = STATE_JETISY
 			}
 		}
-		c:CHI ?= {
-			owns_entire_state_region = STATE_ALTAI
-			owns_entire_state_region = STATE_JETISY # Ili
-		}
-
-		OR = {
-			c:KYR2 ?= {
-				is_subject_of = c:CHI
-			  OR = {
-			  	is_subject_type = subject_type_vassal
-			  	is_subject_type = subject_type_puppet
-			  }
-			}
-			AND = {
-				NOT = { exists = c:KYR2 }
-				s:STATE_ALAY = {
-					any_scope_state = { owner = c:CHI }
-				}
-				s:STATE_KIRGHIZIA = {
-					any_scope_state = { owner = c:CHI }
-				}
-				s:STATE_KALAKR = {
-					any_scope_state = { owner = c:CHI }
-				}
-			}
+		custom_tooltip = {
+			text = cr_qing_recover_northwest_eastern_burut_tt
+			cr_qing_secures_eastern_burut = yes
 		}
 	}
 
@@ -300,6 +265,17 @@ je_cr_qing_recover_eastern_burut = {
 			days = long_modifier_time
 		}
 		trigger_event = { id = cr_kyr2_events.10 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			c:CHI ?= {
+				random_list = {
+					96 = { }
+					4 = { trigger_event = cr_kyr2_events.13 }
+				}
+			}
+		}
 	}
 
 	weight = 100

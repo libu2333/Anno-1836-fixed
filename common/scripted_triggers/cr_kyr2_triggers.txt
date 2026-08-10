@@ -1,0 +1,52 @@
+cr_qing_controls_historical_badakhshan_province = {
+	OR = {
+		p:xB7128C.state.owner ?= ROOT
+		p:x6F2EC3.state.owner ?= ROOT
+		p:x527607.state.owner ?= ROOT
+		p:x151461.state.owner ?= ROOT
+		p:xE4D8D8.state.owner ?= ROOT
+		p:xB36D9F.state.owner ?= ROOT
+		p:xC1BBAD.state.owner ?= ROOT
+		p:xFEB233.state.owner ?= ROOT
+		p:x68146B.state.owner ?= ROOT
+		p:xB4B7D9.state.owner ?= ROOT
+		p:x2565D9.state.owner ?= ROOT
+		p:x8DFA40.state.owner ?= ROOT
+		AND = {
+			exists = c:BDK
+			c:BDK ?= { is_subject_of = ROOT }
+			OR = {
+				p:xB7128C.state.owner ?= c:BDK
+				p:x6F2EC3.state.owner ?= c:BDK
+				p:x527607.state.owner ?= c:BDK
+				p:x151461.state.owner ?= c:BDK
+				p:xE4D8D8.state.owner ?= c:BDK
+				p:xB36D9F.state.owner ?= c:BDK
+				p:xC1BBAD.state.owner ?= c:BDK
+				p:xFEB233.state.owner ?= c:BDK
+				p:x68146B.state.owner ?= c:BDK
+				p:xB4B7D9.state.owner ?= c:BDK
+				p:x2565D9.state.owner ?= c:BDK
+				p:x8DFA40.state.owner ?= c:BDK
+			}
+		}
+	}
+}
+
+cr_qing_secures_eastern_burut = {
+	OR = {
+		c:KYR2 ?= {
+			is_subject_of = ROOT
+			OR = {
+				is_subject_type = subject_type_vassal
+				is_subject_type = subject_type_puppet
+			}
+		}
+		AND = {
+			NOT = { exists = c:KYR2 }
+			s:STATE_ALAY = { any_scope_state = { owner = ROOT } }
+			s:STATE_KIRGHIZIA = { any_scope_state = { owner = ROOT } }
+			s:STATE_KALAKR = { any_scope_state = { owner = ROOT } }
+		}
+	}
+}

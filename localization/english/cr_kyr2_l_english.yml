@@ -14,7 +14,7 @@ l_english:
  cr_kyr2_clan_cohesion_wargoal_shock_tt:0 "A war goal enforced against Eastern Burut"
 
  cr_kyr2_diplomatic_balance_bar_name:0 "Eastern Burut Allegiance"
- cr_kyr2_diplomatic_balance_bar_desc:0 "#bold Kokand-Qing Influence#!"
+ cr_kyr2_diplomatic_balance_bar_desc:0 "#bold Kokand Influence#!"
  cr_kyr2_diplomatic_balance_bar_second_desc:0 "#bold Qing Influence#!"
  cr_kyr2_diplomatic_balance_kokand_tributary_tt:0 "Kokand's suzerainty"
  cr_kyr2_diplomatic_balance_kokand_relations_tt:0 "Good relations with Kokand"

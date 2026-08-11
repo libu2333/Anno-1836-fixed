@@ -144,7 +144,6 @@ STATE_EAST_PRUSSIA = {
     subsistence_building = "building_subsistence_farm"
     provinces = { x47C900 x5428E6 x7D6DC3 x9FD037 xABC4AE xAEA6D6 xC04521 xEEF586 }
     city = "x47C900"
-    port = "x72FDF3"
     farm = "x2399A2"
     mine = "xC020A0"
     wood = "xEEF586"

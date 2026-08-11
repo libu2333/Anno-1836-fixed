@@ -1,0 +1,17 @@
+# Majid bin Said is created in Oman at game start and transferred to Zanzibar in 1856.
+cr_oma_majid_bin_said = {
+	first_name = "Majid"
+	last_name = "Al-Busaidi"
+	historical = yes
+	culture = cu:bedouin
+	religion = rel:ibadi
+	noble = yes
+	birth_date = 1834.10.19
+	home_region = STATE_ZANZIBAR
+	traits = {
+		reserved
+		tactful
+		honorable
+		experienced_diplomat
+	}
+}

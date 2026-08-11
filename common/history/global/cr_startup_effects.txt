@@ -2,7 +2,6 @@
 GLOBAL = {
 	if = {
 		limit = { has_game_rule = kokand_occupiation }
-		add_contextless_journal_entry = je_cr_eastern_burut_clans
 		add_contextless_journal_entry = je_cr_eastern_burut_crossroads
 	}
 

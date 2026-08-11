@@ -1,0 +1,19 @@
+cr_oman_shift_suwaini_faction_effect = {
+	if = {
+		limit = { var:cr_oman_succession_pivot >= 85 }
+		set_variable = { name = cr_oman_succession_pivot value = 100 }
+	}
+	else = {
+		change_variable = { name = cr_oman_succession_pivot add = 15 }
+	}
+}
+
+cr_oman_shift_majid_faction_effect = {
+	if = {
+		limit = { var:cr_oman_succession_pivot <= 15 }
+		set_variable = { name = cr_oman_succession_pivot value = 0 }
+	}
+	else = {
+		change_variable = { name = cr_oman_succession_pivot add = -15 }
+	}
+}

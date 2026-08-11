@@ -1,0 +1,27 @@
+cr_oman_succession_bar = {
+	name = "cr_oman_succession_bar_name"
+	desc = "cr_oman_succession_bar_desc"
+	second_desc = "cr_oman_succession_bar_second_desc"
+
+	double_sided_gold = yes
+
+	start_value = 50
+	min_value = 0
+	max_value = 100
+
+	monthly_progress = {
+		if = {
+			limit = {
+				owner = {
+					has_variable = cr_oman_succession_pivot
+					has_variable = cr_oman_succession_current
+				}
+			}
+			add = {
+				desc = "cr_oman_succession_drift_tt"
+				value = owner.var:cr_oman_succession_pivot
+				subtract = owner.var:cr_oman_succession_current
+			}
+		}
+	}
+}

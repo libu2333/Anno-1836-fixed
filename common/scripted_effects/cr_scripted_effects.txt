@@ -4218,13 +4218,11 @@ cr_initialize_kyr2_journals_effect = {
 		}
 		if = {
 			limit = { exists = c:KYR2 }
-			if = {
-				limit = {
-					c:KYR2 ?= {
-						NOT = { has_journal_entry = je_cr_eastern_burut_clans }
-					}
+			c:KYR2 ?= {
+				if = {
+					limit = { NOT = { has_journal_entry = je_cr_eastern_burut_clans } }
+					add_journal_entry = { type = je_cr_eastern_burut_clans }
 				}
-				add_contextless_journal_entry = je_cr_eastern_burut_clans
 			}
 			if = {
 				limit = {

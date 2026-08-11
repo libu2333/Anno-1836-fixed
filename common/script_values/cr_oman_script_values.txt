@@ -1,0 +1,8 @@
+cr_oman_suwaini_faction_display = {
+	value = "je:je_splitting_oman.scripted_bar_progress(cr_oman_succession_bar)"
+}
+
+cr_oman_majid_faction_display = {
+	value = 100
+	subtract = "je:je_splitting_oman.scripted_bar_progress(cr_oman_succession_bar)"
+}

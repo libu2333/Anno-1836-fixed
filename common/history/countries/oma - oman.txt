@@ -33,6 +33,12 @@ COUNTRIES = {
 
 		set_market_capital = STATE_ZANZIBAR
 		set_capital = STATE_ZANZIBAR
+
+		# Majid is already a member of the Zanzibari court when the succession crisis begins.
+		create_character = {
+			template = cr_oma_majid_bin_said
+			save_scope_as = cr_oman_majid_bin_said
+		}
 		
 		add_journal_entry = { type = je_splitting_oman }
 	}

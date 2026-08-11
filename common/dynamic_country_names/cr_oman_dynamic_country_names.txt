@@ -1,0 +1,19 @@
+OMA = {
+	dynamic_country_name = {
+		name = dyn_c_oman_and_zanzibar_sultanate
+		adjective = dyn_c_oman_and_zanzibar_sultanate_adj
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				country_has_monarchy_law = yes
+				capital = {
+					state_region = s:STATE_ZANZIBAR
+				}
+			}
+		}
+	}
+}

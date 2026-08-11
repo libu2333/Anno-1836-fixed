@@ -1,25 +1,27 @@
 je_cr_eastern_burut_clans = {
 	icon = "gfx/interface/icons/event_icons/event_protest.dds"
 
-	group = je_group_global_international_situations
+	group = je_group_internal_affairs
+
+	is_shown_in_lobby = {
+		c:KYR2 ?= this
+	}
+
+	possible = {
+		c:KYR2 ?= ROOT
+	}
 
 	scripted_progress_bar = cr_kyr2_clan_cohesion_bar
 	scripted_button = cr_kyr2_call_kurultai_button
 
-	should_be_involved = {
-		c:KYR2 ?= this
-	}
-
 	immediate = {
-		c:KYR2 = {
-			if = {
-				limit = {
-					NOT = { has_variable = cr_kyr2_baatyr_story_started }
-					ruler = { has_template = KYZ_tailak_batyr }
-				}
-				set_variable = cr_kyr2_baatyr_story_started
-				trigger_event = { id = cr_kyr2_events.1 days = 14 popup = yes }
+		if = {
+			limit = {
+				NOT = { has_variable = cr_kyr2_baatyr_story_started }
+				ruler = { has_template = KYZ_tailak_batyr }
 			}
+			set_variable = cr_kyr2_baatyr_story_started
+			trigger_event = { id = cr_kyr2_events.1 days = 14 popup = yes }
 		}
 	}
 
@@ -46,46 +48,39 @@ je_cr_eastern_burut_clans = {
 	}
 
 	invalid = {
-		OR = {
-			NOT = { has_game_rule = kokand_occupiation }
-			NOT = { exists = c:KYR2 }
-		}
+		NOT = { has_game_rule = kokand_occupiation }
 	}
 
 	custom_on_completion_header = cr_kyr2_clans_on_complete_header
 
 	on_complete = {
-		c:KYR2 = {
-			add_modifier = {
-				name = cr_kyr2_consolidated_tribes
-				days = long_modifier_time
-			}
-			trigger_event = { id = cr_kyr2_events.6 popup = yes }
+		add_modifier = {
+			name = cr_kyr2_consolidated_tribes
+			days = long_modifier_time
 		}
+		trigger_event = { id = cr_kyr2_events.6 popup = yes }
 	}
 
 	custom_on_failure_header = cr_kyr2_clans_on_fail_header
 
 	on_fail = {
-		c:KYR2 = {
-			add_modifier = {
-				name = cr_kyr2_fractured_tribes
-				days = long_modifier_time
-			}
-			trigger_event = { id = cr_kyr2_events.7 popup = yes }
+		add_modifier = {
+			name = cr_kyr2_fractured_tribes
+			days = long_modifier_time
 		}
+		trigger_event = { id = cr_kyr2_events.7 popup = yes }
 	}
 
 	on_monthly_pulse = {
 		effect = {
-			c:KYR2 ?= {
-				random_list = {
-					92 = { }
-					3 = { trigger_event = cr_kyr2_events.2 }
-					3 = { trigger_event = cr_kyr2_events.3 }
-					2 = { trigger_event = cr_kyr2_events.11 }
-				}
-			}
+			random_list = {
+			92 = { }
+			3 = { trigger_event = cr_kyr2_events.2 }
+			3 = { trigger_event = cr_kyr2_events.3 }
+			2 = { trigger_event = cr_kyr2_events.11 }
+			2 = { trigger_event = cr_kyr2_events.14 }
+			2 = { trigger_event = cr_kyr2_events.15 }
+}
 		}
 	}
 
@@ -175,11 +170,12 @@ je_cr_eastern_burut_crossroads = {
 		effect = {
 			c:KYR2 ?= {
 				random_list = {
-					94 = { }
-					2 = { trigger_event = cr_kyr2_events.4 }
-					2 = { trigger_event = cr_kyr2_events.5 }
-					2 = { trigger_event = cr_kyr2_events.12 }
-				}
+				92 = { }
+				2 = { trigger_event = cr_kyr2_events.4 }
+				2 = { trigger_event = cr_kyr2_events.5 }
+				2 = { trigger_event = cr_kyr2_events.12 }
+				2 = { trigger_event = cr_kyr2_events.16 }
+}
 			}
 		}
 	}
@@ -249,9 +245,10 @@ je_cr_qing_recover_eastern_burut = {
 		effect = {
 			c:CHI ?= {
 				random_list = {
-					96 = { }
-					4 = { trigger_event = cr_kyr2_events.13 }
-				}
+				94 = { }
+				4 = { trigger_event = cr_kyr2_events.13 }
+				2 = { trigger_event = cr_kyr2_events.17 }
+}
 			}
 		}
 	}

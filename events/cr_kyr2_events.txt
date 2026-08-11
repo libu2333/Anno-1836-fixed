@@ -526,3 +526,134 @@ cr_kyr2_events.13 = {
 		ai_chance = { base = 40 }
 	}
 }
+
+cr_kyr2_events.14 = {
+	type = country_event
+	title = cr_kyr2_events.14.t
+	desc = cr_kyr2_events.14.d
+	flavor = cr_kyr2_events.14.f
+	event_image = { video = "ep1_cossacks" }
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	duration = 7
+	trigger = {
+		c:KYR2 ?= this
+		has_journal_entry = je_cr_eastern_burut_clans
+		NOT = { has_variable = cr_kyr2_bride_price_cooldown }
+		je:je_cr_eastern_burut_clans ?= { "scripted_bar_progress(cr_kyr2_clan_cohesion_bar)" <= 70 }
+	}
+	immediate = { set_variable = { name = cr_kyr2_bride_price_cooldown months = 48 } }
+	option = {
+		name = cr_kyr2_events.14.a
+		set_variable = { name = cr_kyr2_kurultai_consensus value = 1 months = 18 }
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = cr_kyr2_events.14.b
+		set_variable = { name = cr_kyr2_baatyr_support value = 1 months = 18 }
+		ai_chance = { base = 30 }
+	}
+	option = {
+		name = cr_kyr2_events.14.c
+		set_variable = { name = cr_kyr2_clan_rivalry value = -1 months = 24 }
+		ai_chance = { base = 20 }
+	}
+}
+
+cr_kyr2_events.15 = {
+	type = country_event
+	title = cr_kyr2_events.15.t
+	desc = cr_kyr2_events.15.d
+	flavor = cr_kyr2_events.15.f
+	event_image = { video = "ep1_cossacks" }
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+	duration = 7
+	trigger = {
+		c:KYR2 ?= this
+		has_journal_entry = je_cr_eastern_burut_clans
+		NOT = { has_variable = cr_kyr2_spring_encampment_cooldown }
+	}
+	immediate = { set_variable = { name = cr_kyr2_spring_encampment_cooldown months = 48 } }
+	option = {
+		name = cr_kyr2_events.15.a
+		set_variable = { name = cr_kyr2_kurultai_consensus value = 1 months = 18 }
+		ai_chance = { base = 45 }
+	}
+	option = {
+		name = cr_kyr2_events.15.b
+		set_variable = { name = cr_kyr2_baatyr_support value = 1 months = 18 }
+		ai_chance = { base = 35 }
+	}
+	option = {
+		name = cr_kyr2_events.15.c
+		set_variable = { name = cr_kyr2_clan_rivalry value = -1 months = 24 }
+		ai_chance = { base = 20 }
+	}
+}
+
+cr_kyr2_events.16 = {
+	type = country_event
+	title = cr_kyr2_events.16.t
+	desc = cr_kyr2_events.16.d
+	flavor = cr_kyr2_events.16.f
+	event_image = { video = "gfx/event_pictures/middleeast_upperclass_party.bk2" }
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	duration = 7
+	trigger = {
+		c:KYR2 ?= this
+		has_journal_entry = je_cr_eastern_burut_crossroads
+		NOT = { has_variable = cr_kyr2_double_seal_cooldown }
+	}
+	immediate = { set_variable = { name = cr_kyr2_double_seal_cooldown months = 48 } }
+	option = {
+		name = cr_kyr2_events.16.a
+		trigger = { exists = c:KOK }
+		change_relations = { country = c:KOK value = 10 }
+		set_variable = { name = cr_kyr2_kokand_pressure value = 1 months = 18 }
+		ai_chance = { base = 35 }
+	}
+	option = {
+		name = cr_kyr2_events.16.b
+		trigger = { exists = c:CHI }
+		change_relations = { country = c:CHI value = 10 }
+		set_variable = { name = cr_kyr2_qing_pressure value = -1 months = 18 }
+		ai_chance = { base = 35 }
+	}
+	option = {
+		name = cr_kyr2_events.16.c
+		set_variable = { name = cr_kyr2_kurultai_consensus value = 1 months = 12 }
+		ai_chance = { base = 30 }
+	}
+}
+
+cr_kyr2_events.17 = {
+	type = country_event
+	title = cr_kyr2_events.17.t
+	desc = cr_kyr2_events.17.d
+	flavor = cr_kyr2_events.17.f
+	event_image = { video = "gfx/event_pictures/middleeast_upperclass_party.bk2" }
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	duration = 7
+	trigger = {
+		c:CHI ?= this
+		has_journal_entry = je_cr_qing_recover_eastern_burut
+		exists = c:KYR2
+		NOT = { has_variable = cr_qing_ili_survey_cooldown }
+	}
+	immediate = { set_variable = { name = cr_qing_ili_survey_cooldown months = 48 } }
+	option = {
+		name = cr_kyr2_events.17.a
+		c:KYR2 ?= {
+			change_relations = { country = c:CHI value = 15 }
+			set_variable = { name = cr_kyr2_qing_pressure value = -1 months = 18 }
+		}
+		ai_chance = { base = 65 }
+	}
+	option = {
+		name = cr_kyr2_events.17.b
+		c:KYR2 ?= {
+			change_relations = { country = c:CHI value = -10 }
+			set_variable = { name = cr_kyr2_qing_pressure value = 1 months = 18 }
+		}
+		ai_chance = { base = 35 }
+	}
+}

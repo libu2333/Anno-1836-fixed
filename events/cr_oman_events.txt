@@ -1,0 +1,424 @@
+namespace = cr_oman
+
+cr_oman.1 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.1.t
+	desc = cr_oman.1.d
+	flavor = cr_oman.1.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+	}
+
+	option = {
+		name = cr_oman.1.a
+		default_option = yes
+	}
+}
+
+cr_oman.2 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.2.t
+	desc = cr_oman.2.d
+	flavor = cr_oman.2.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	option = {
+		name = cr_oman.2.a
+		default_option = yes
+		add_loyalists = {
+			value = small_radicals
+			strata = middle
+		}
+	}
+}
+
+cr_oman.3 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.3.t
+	desc = cr_oman.3.d
+	flavor = cr_oman.3.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	option = {
+		name = cr_oman.3.a
+		default_option = yes
+		add_loyalists = {
+			value = small_radicals
+			strata = middle
+		}
+	}
+}
+
+cr_oman.4 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.4.t
+	desc = cr_oman.4.d
+	flavor = cr_oman.4.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_muscat_petitions_cooldown }
+	}
+
+	immediate = {
+		set_variable = { name = cr_oman_muscat_petitions_cooldown months = 36 }
+	}
+
+	option = {
+		name = cr_oman.4.a
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.4.b
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.4.c
+		add_gold_reserves = -1500
+		add_loyalists = {
+			value = small_radicals
+			strata = lower
+		}
+		ai_chance = { base = 80 }
+	}
+}
+
+cr_oman.5 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.5.t
+	desc = cr_oman.5.d
+	flavor = cr_oman.5.f
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_zanzibar_customs_cooldown }
+	}
+
+	immediate = {
+		set_variable = { name = cr_oman_zanzibar_customs_cooldown months = 36 }
+	}
+
+	option = {
+		name = cr_oman.5.a
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.5.b
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.5.c
+		add_gold_reserves = 1500
+		add_radicals = {
+			value = small_radicals
+			strata = lower
+		}
+		ai_chance = { base = 80 }
+	}
+}
+
+cr_oman.6 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.6.t
+	desc = cr_oman.6.d
+	flavor = cr_oman.6.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_fleet_station_cooldown }
+	}
+
+	immediate = {
+		set_variable = { name = cr_oman_fleet_station_cooldown months = 36 }
+	}
+
+	option = {
+		name = cr_oman.6.a
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.6.b
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.6.c
+		add_gold_reserves = -1000
+		add_loyalists = {
+			value = small_radicals
+			strata = middle
+		}
+		ai_chance = { base = 80 }
+	}
+}
+
+cr_oman.7 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.7.t
+	desc = cr_oman.7.d
+	flavor = cr_oman.7.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_council_of_wazirs_cooldown }
+	}
+
+	immediate = {
+		set_variable = { name = cr_oman_council_of_wazirs_cooldown months = 36 }
+	}
+
+	option = {
+		name = cr_oman.7.a
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.7.b
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.7.c
+		add_radicals = {
+			value = small_radicals
+			strata = lower
+		}
+		ai_chance = { base = 80 }
+	}
+}
+
+cr_oman.8 = {
+	type = country_event
+	placement = root
+	duration = 7
+
+	title = cr_oman.8.t
+	desc = cr_oman.8.d
+	flavor = cr_oman.8.f
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_clove_caravan_cooldown }
+	}
+
+	immediate = {
+		set_variable = { name = cr_oman_clove_caravan_cooldown months = 36 }
+	}
+
+	option = {
+		name = cr_oman.8.a
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.8.b
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+
+	option = {
+		name = cr_oman.8.c
+		add_gold_reserves = 1000
+		add_radicals = {
+			value = small_radicals
+			strata = lower
+		}
+		ai_chance = { base = 80 }
+	}
+}
+
+cr_oman.9 = {
+	type = country_event
+	placement = root
+	duration = 7
+	title = cr_oman.9.t
+	desc = cr_oman.9.d
+	flavor = cr_oman.9.f
+	event_image = { video = "africa_construction_colony" }
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_mombasa_appointment_cooldown }
+	}
+	immediate = { set_variable = { name = cr_oman_mombasa_appointment_cooldown months = 48 } }
+	option = {
+		name = cr_oman.9.a
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = cr_oman.9.b
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = cr_oman.9.c
+		add_gold_reserves = -1000
+		add_loyalists = { value = small_radicals strata = middle }
+		ai_chance = { base = 80 }
+	}
+}
+
+cr_oman.10 = {
+	type = country_event
+	placement = root
+	duration = 7
+	title = cr_oman.10.t
+	desc = cr_oman.10.d
+	flavor = cr_oman.10.f
+	event_image = { video = "votp_monarch_holding_court" }
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_interior_letters_cooldown }
+	}
+	immediate = { set_variable = { name = cr_oman_interior_letters_cooldown months = 48 } }
+	option = {
+		name = cr_oman.10.a
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = cr_oman.10.b
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = cr_oman.10.c
+		add_gold_reserves = -750
+		add_loyalists = { value = small_radicals strata = lower }
+		ai_chance = { base = 80 }
+	}
+}
+
+cr_oman.11 = {
+	type = country_event
+	placement = root
+	duration = 7
+	title = cr_oman.11.t
+	desc = cr_oman.11.d
+	flavor = cr_oman.11.f
+	event_image = { video = "africa_construction_colony" }
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	trigger = {
+		c:OMA ?= this
+		has_journal_entry = je_splitting_oman
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { has_variable = cr_oman_monsoon_dispatches_cooldown }
+	}
+	immediate = { set_variable = { name = cr_oman_monsoon_dispatches_cooldown months = 48 } }
+	option = {
+		name = cr_oman.11.a
+		cr_oman_shift_majid_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = cr_oman.11.b
+		cr_oman_shift_suwaini_faction_effect = yes
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = cr_oman.11.c
+		add_gold_reserves = -500
+		add_loyalists = { value = small_radicals strata = middle }
+		ai_chance = { base = 80 }
+	}
+}

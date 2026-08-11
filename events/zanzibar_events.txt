@@ -47,8 +47,17 @@ zanzibar.1 = {
 		 		remove_primary_culture = cu:swahili
 				set_state_religion = rel:ibadi
 
-				create_character = {
-					template = zan_majid_bin_said # Sultan Majid of Zanzibar
+				if = {
+					limit = { exists = scope:cr_oman_majid_bin_said }
+					scope:cr_oman_majid_bin_said = {
+						transfer_character = c:ZAN
+						set_character_as_ruler = yes
+					}
+				}
+				else = {
+					create_character = {
+						template = zan_majid_bin_said # Fallback for non-1836 starts
+					}
 				}
 				if = {
 					limit = {

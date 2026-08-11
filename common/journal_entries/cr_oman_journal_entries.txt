@@ -1,0 +1,109 @@
+REPLACE:je_splitting_oman = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+	is_shown_in_lobby = {
+		c:OMA ?= this
+	}
+
+	possible = {
+		c:OMA ?= ROOT
+		country_has_monarchy_law = yes
+		ruler = { has_template = oma_said_bin_sultan }
+		NOT = { exists = c:ZAN }
+	}
+
+	scripted_progress_bar = cr_oman_succession_bar
+
+	immediate = {
+		set_variable = { name = cr_oman_succession_pivot value = 50 }
+		set_variable = { name = cr_oman_succession_current value = 50 }
+		trigger_event = { id = cr_oman.1 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			set_variable = {
+				name = cr_oman_succession_current
+				value = "scope:journal_entry.scripted_bar_progress(cr_oman_succession_bar)"
+			}
+		}
+		random_events = {
+	chance_to_happen = 24
+	10 = cr_oman.4
+	10 = cr_oman.5
+	10 = cr_oman.6
+	10 = cr_oman.7
+	10 = cr_oman.8
+	10 = cr_oman.9
+	10 = cr_oman.10
+	10 = cr_oman.11
+}
+	}
+
+	custom_completion_header = cr_oman_succession_settled_header
+
+	complete = {
+		OR = {
+			custom_tooltip = {
+				text = cr_oman_suwaini_victory_tt
+				scope:journal_entry = {
+					"scripted_bar_progress(cr_oman_succession_bar)" >= 100
+				}
+			}
+			custom_tooltip = {
+				text = cr_oman_majid_victory_tt
+				scope:journal_entry = {
+					"scripted_bar_progress(cr_oman_succession_bar)" <= 0
+				}
+			}
+		}
+	}
+
+	custom_on_completion_header = cr_oman_succession_outcome_header
+
+	on_complete = {
+		if = {
+			limit = {
+				scope:journal_entry = {
+					"scripted_bar_progress(cr_oman_succession_bar)" >= 100
+				}
+			}
+			set_capital = STATE_OMAN
+			set_market_capital = STATE_OMAN
+			trigger_event = { id = cr_oman.2 popup = yes }
+		}
+		else = {
+			trigger_event = { id = cr_oman.3 popup = yes }
+		}
+	}
+
+	custom_failure_header = cr_oman_sultan_death_header
+
+	fail = {
+		custom_tooltip = {
+			text = cr_oman_said_death_tt
+			ruler = {
+				exists = yes
+				NOT = { has_template = oma_said_bin_sultan }
+			}
+		}
+	}
+
+	custom_on_failure_header = cr_oman_realm_divides_header
+
+	on_fail = {
+		trigger_event = { id = zanzibar.1 popup = yes }
+	}
+
+	invalid = {
+		OR = {
+			NOT = { country_has_monarchy_law = yes }
+			exists = c:ZAN
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

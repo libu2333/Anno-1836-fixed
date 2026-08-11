@@ -2,9 +2,9 @@
  # France
 # STATE_FRENCH_LOW_COUNTRIES_city:0 "Lille"
 # STATE_FRENCH_LOW_COUNTRIES_port:0 "Dunkirk"
-# STATE_FRENCH_LOW_COUNTRIES_mine:0 "Valenciennes"
-# STATE_FRENCH_LOW_COUNTRIES_farm:0 "Arras"
-# STATE_FRENCH_LOW_COUNTRIES_wood:0 "Valenciennes"
+ STATE_FRENCH_LOW_COUNTRIES_mine:0 "Valenciennes"
+ STATE_FRENCH_LOW_COUNTRIES_farm:0 "Arras"
+ STATE_FRENCH_LOW_COUNTRIES_wood:0 "Valenciennes"
 # HUB_NAME_STATE_BRITTANY_city:0 "Nantes"
 # HUB_NAME_STATE_BRITTANY_port:0 "Brest"
 # HUB_NAME_STATE_BRITTANY_mine:0 "Saint-Brieuc"

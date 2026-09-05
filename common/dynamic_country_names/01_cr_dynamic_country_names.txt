@@ -196,7 +196,7 @@ CPL = { # Poland
 			exists = c:RUS
 			c:RUS ?= {
 				has_diplomatic_pact = {
-					who = c:CPL
+					who = scope:actor
 					type = personal_union
 					is_initiator = yes
 				}
@@ -214,7 +214,7 @@ CPL = { # Poland
 			exists = c:RUS
 			c:RUS ?= {
 				has_diplomatic_pact = {
-					who = c:CPL
+					who = scope:actor
 					type = crown_land
 					is_initiator = yes
 				}
@@ -340,7 +340,7 @@ CAU = { # Caucasus
 			exists = c:RUS
 			c:RUS ?= {
 				has_diplomatic_pact = {
-					who = c:CAU
+					who = scope:actor
 					type = puppet
 					is_initiator = yes
 				}

@@ -11,14 +11,14 @@
  ideology_moralist_colonial:0 "道德主义者"
 
  ideology_frontier_expansionist_leader_cr: "边疆扩张主义者"
- ideology_frontier_expansionist_leader_cr_desc: "#lore 这位领袖寻求将国家边界扩展至目前'无人定居'的土地。#!"
+ ideology_frontier_expansionist_leader_cr_desc: "#lore 这位领袖希望把国界推进到目前被视为“无人定居”的土地。#!"
  ideology_frontier_expansionist_cr: "边疆扩张主义"
- ideology_frontier_expansionist_cr_desc: "#lore 该集团寻求将国家边界扩展至目前'无人定居'的土地。#!"
+ ideology_frontier_expansionist_cr_desc: "#lore 该集团希望把国界推进到目前被视为“无人定居”的土地。#!"
  ideology_frontier_expansionist_movement: "边疆扩张主义"
- ideology_frontier_expansionist_movement_desc: "#lore 该集团寻求将国家边界扩展至目前'无人定居'的土地。#!"
+ ideology_frontier_expansionist_movement_desc: "#lore 该集团希望把国界推进到目前被视为“无人定居”的土地。#!"
  movement_frontier_movement: "边疆运动"
  movement_frontier_movement_name: "边疆运动"
- movement_frontier_movement_name_desc: "#lore 该运动寻求将国家边界扩展至目前'无人定居'的土地。#!"
+ movement_frontier_movement_name_desc: "#lore 该运动希望把国界推进到目前被视为“无人定居”的土地。#!"
 
  movement_support_split_state: "居住于[concept_split_state]"
 
@@ -26,7 +26,7 @@
  ideology_caudillismo_mexico_desc: "#lore 该集团倾向于支持具有军事背景的强人领袖，而非宪政法治。#!"
 
  ideology_meritocratic_mexico: "精英治国"
- ideology_meritocratic_mexico_desc: "#lore 该集团相信成功是靠努力赢得的，那些取得成就的人理应获得相应的责任与财富。#!"
+ ideology_meritocratic_mexico_desc: "#lore 该集团相信成功应靠努力取得；有能力、有成就的人理应承担更多责任，也应得到相应回报。#!"
 
  ideology_centralist: "中央集权主义"
  ideology_centralist_desc: "#lore 该集团倾向于认为强大的中央集权国家为民族提供了最坚实的基础。#!"

@@ -162,8 +162,8 @@
   MGK:0 "米南加保"
   MGK_ADJ:0 "米南加保"
 
-  BKH:0 "布克依"
-  BKH_ADJ:0 "布克依"
+  BKH:0 "内帐"
+  BKH_ADJ:0 "内帐"
 
 
 
@@ -227,9 +227,9 @@
   dyn_c_republic_NAN:0 "难府民主共和国"
   dyn_c_nan_empire:0 "难府王国"
 
-  dyn_c_societ_republic_BKH:0 "布克依人民共和国"
-  dyn_shenquan_BKH:0 "布克依神权国"
-  dyn_c_republic_BKH:0 "布克依共和国"
+  dyn_c_societ_republic_BKH:0 "内帐人民共和国"
+  dyn_shenquan_BKH:0 "内帐神权国"
+  dyn_c_republic_BKH:0 "内帐共和国"
   dyn_c_bkh_empire:0 "内帐汗国"
 
   dyn_c_societ_republic_KWT:0 "科威特人民共和国"

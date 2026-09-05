@@ -2,7 +2,7 @@
 
  #原住民迁移
  je_cr_indian_removal_button_a_choctaw: "开始乔克托迁移"
- je_cr_indian_removal_button_a_choctaw_desc: "我们已完成乔克托人的迁移。"
+ je_cr_indian_removal_button_a_choctaw_desc: "开始执行乔克托人的迁移。"
  je_cr_indian_removal_button_a_choctaw_finished: "我们已完成乔克托人的迁移"
  je_cr_indian_removal_button_b_chickasaw: "开始奇克索迁移"
  je_cr_indian_removal_button_b_chickasaw_desc: "根据《庞托托克溪条约》，奇克索人同意出售密西西比河以东剩余的土地，并在找到合适的迁居地后向西迁移。"
@@ -22,9 +22,9 @@
  je_cr_indian_removal_button_d_cherokee_violate_treaty: "我们的[concept_ruler] #variable 不#!持有#variable 和平主义#!意识形态"
  je_cr_indian_removal_button_d_cherokee_violate_treaty_button_tt: "由于#variable 2年#!宽限期尚未到期："
  je_cr_indian_removal_button_d_cherokee: "开始切罗基迁移"
- je_cr_indian_removal_button_d_cherokee_desc: "开始切罗基人的迁移"
+ je_cr_indian_removal_button_d_cherokee_desc: "开始执行切罗基人的迁移。"
  je_cr_indian_removal_button_e_seminole: "开始塞米诺尔迁移"
- je_cr_indian_removal_button_e_seminole_desc: "开始塞米诺尔人的迁移"
+ je_cr_indian_removal_button_e_seminole_desc: "开始执行塞米诺尔人的迁移。"
  je_cr_indian_removal_tt_seminole_war_ended: "[SCOPE.sState('state_of_florida').GetName]不持有#variable 塞米诺尔战争#!修正"
  cr_seminole_removal_has_started_tt: "塞米诺尔人#variable 尚未#!开始西迁之旅"
  je_cr_indian_removal_button_violate_treaty_button_tt: "由于条约仍有效："
@@ -125,7 +125,7 @@
  je_cr_fort_ross_reason: "当加利福尼亚水獭皮在中国可获超1000%利润的消息传开后，英国人、波士顿人、墨西哥商人以及——当然——俄国猎人很快涌向美洲太平洋海岸。在几十年辉煌时期，冒险者可赚取巨额财富。但好景不长。曾经每季可收获数千张皮，如今几百张已算丰收，且大多不再是高利润的海獭皮，而是海豹皮。\n\n种群严重枯竭，加利福尼亚毛皮贸易很快将彻底终结。\n\n因此，我们在该地区的据点罗斯堡正处于十字路口：若投入巨资，或许可将其转为农业殖民地，为阿拉斯加据点提供补给；否则，随着最后的水獭与海豹被捕尽，它将慢慢凋零而亡。"
 
  je_cr_fort_ross_complete_tt_a: "我们通过控制#variable 旧金山湾#!确保了在[SCOPE.sState('california_scope').GetName]的殖民地"
- je_cr_fort_ross_complete_tt_b: "俄国通过向#variabl e萨克拉门托河#!内陆扩张或控制#variable 旧金山湾#!确保了在[SCOPE.sState('california_scope').GetName]的殖民地"
+ je_cr_fort_ross_complete_tt_b: "俄国通过向#variable 萨克拉门托河#!内陆扩张或控制#variable 旧金山湾#!确保了在[SCOPE.sState('california_scope').GetName]的殖民地"
  je_cr_fort_ross_goal_complete_tt: "我们已将[SCOPE.sState('california_scope').GetName]殖民地向#variable 萨克拉门托河#!内陆扩张或控制#variable 旧金山湾#!"
  je_cr_fort_ross_goal_fail_tt: "我们未能将[SCOPE.sState('california_scope').GetName]殖民地向#variable 萨克拉门托河#!内陆扩张或控制#variable 旧金山湾#!"
 

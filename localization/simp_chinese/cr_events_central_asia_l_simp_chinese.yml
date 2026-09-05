@@ -25,6 +25,14 @@
   cr_kazakh_events.1.a_tt: "通过在哈萨克地区建立持久控制，将俄罗斯的影响力扩展到中亚。"
   cr_kazakh_events.1.b: "我们的注意力暂时在别处。"
   cr_kazakh_events.1.b_tt: "对中亚的殖民扩张将更加缓慢。"
+  cr_kazakh_events.1.t_2: "未驯服的草原"
+  cr_kazakh_events.1.d_2: "在欧洲俄罗斯井然有序的行省之外，是一片广袤、受风吹拂的边疆——开阔草原向远方延伸，直抵中亚烈日炙烤的群山。\n\n这些哈萨克草原目前仍只受到松散控制；游牧民与彼此分裂的部族生活于此，距离沙皇带来的“文明之手”十分遥远。然而在政府厅堂和军队队列中，要求把俄罗斯的秩序、法律与影响力深入亚洲腹地的声音正越来越响亮。"
+  cr_kazakh_events.1.f_2: "我们必须让边疆归于十字架、王冠与户籍册之下。"
+  cr_kazakh_events.1.a_2: "草原必须俯首听命。"
+  cr_kazakh_events.1.a_tt_2: "将俄罗斯的影响力扩展至中亚，并在哈萨克领土上建立持久控制。"
+  cr_kazakh_events.2.t_old: "草原上的可汗"
+  cr_kazakh_events.11.desc_old: "鄂木斯克传来令人不安的消息：据说一支数千人的哈萨克战团袭击了阿克莫林斯克边防哨所。夜色掩护下，他们包围堡垒，点燃附属建筑，压倒了规模不大的守军。援军赶到时，掠袭者早已消失在草原，只留下被夺走的补给、牲畜和数名俘虏。\n\n草原上从未见过如此大胆的行动。有人说这是普通盗匪所为；也有人再次低声提起[SCOPE.sCharacter('kenesary_scope').GetFirstName]之名——这位野心勃勃的贵族据说正在召集心怀不满的氏族。无论这次袭击是偶然还是征兆，有一点已经确定：边疆不再平静。"
+  cr_kazakh_events.12.desc_old: "袭击变得更加大胆，队伍也越来越大。边境地带再次升起烟柱，出现得太频繁、相隔得又太远，不可能只是巧合。整个平原上，旧日的对立似乎正在消退，氏族们围绕共同的篝火立下新的誓言。\n\n曾经只是低声传闻的名字，如今已颇有分量：[SCOPE.sCharacter('kenesary_scope').GetFirstName]。他原本只是一个心怀不满的小贵族，如今却把躁动不安、无家可归的人聚集到麾下，向他们许诺正义，也许是复仇。"
 
   cr_kazakh_events.2.t: "叛乱的号角"
   cr_kazakh_events.2.d: "哈萨克草原上，一个危险的挑战正在成形。诸氏族素来四分五裂、争斗不休，向来易于驾驭；然而[SCOPE.sCharacter('kenesary_scope').GetFirstName]却做成了前人未能做成之事：他召集各部，举行盛大的库鲁尔台，并被拥立为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]，重取其祖父阿布莱汗昔日所持的尊号。\n\n诸部既已会于一旗之下，我方在[SCOPE.sStrategicRegion('central_asia').GetName]的雄图便添了难以预料的阻碍。即便如此，[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]仍在挥剑之余递来橄榄枝：若承认其名号，他愿向[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]效忠。这是外交辞令、蓄意挑衅，抑或另有所图，尚待时日分晓。"
@@ -233,7 +241,7 @@
 
   #通用
   cr_kazakh_events.65.t: "草原可汗的低语"
-  cr_kazakh_events.65.desc: "北方草原的报告称，一位哈萨克领袖将曾经分裂的氏族绑在自己的旗帜下。自称[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]的[SCOPE.sCharacter('kenesary_scope').GetFirstName]宣称反抗[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]统治，并誓言恢复草原旧秩序。\n\n虽然他的势力遥远，但他的名字传播迅捷——由商人、牧人以及风本身携带。这是否只是另一场短暂叛乱，或更大事物的开端，仍不确定。"
+  cr_kazakh_events.65.desc: "北方草原传来消息：一位哈萨克领袖把曾经彼此不和的氏族聚集到自己的旗帜下。他自称[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]，由[SCOPE.sCharacter('kenesary_scope').GetFirstName]之名号召抵抗[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]的统治，并发誓恢复草原过去的秩序。\n\n他的势力还很遥远，名字却传得很快，商人、牧人，甚至风都在替他传播消息。这究竟只是又一场短暂的叛乱，还是更大变局的开始？现在还没有人知道。"
   cr_kazakh_events.65.flavour: "草原总能孕育让帝国颤抖的人，即使只是一季。"
   cr_kazakh_events.65.t_recognised: "草原统一"
   cr_kazakh_events.65.desc_recognised: "长期分裂的哈萨克氏族，如今在[SCOPE.sCharacter('kenesary_scope').GetFirstName]之下团结，他已被[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]承认为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]。他的权威横跨北部平原，中亚不安的部落以希望与恐惧混杂的心情谈论他的名字。\n\n从远处看，他的崛起似乎只是遥远的震颤——但这样的震颤常能撼动最坚固的基础。"
@@ -241,14 +249,14 @@
 
   ##内帐汗国事件
   cr_bukey_events.1.t: "诗人的斥责"
-  cr_bukey_events.1.desc: "草原不安。起初只是牧人间零星的低语，如今已成长为危险的合唱——对牧场被夺、税收上涨、朝廷偏袒的抱怨。我们旨在加强汗国的现代化努力，反而加深了不平等，疏远了许多游牧人口。\n\n如今，反抗围绕[SCOPE.sCharacter('isatai_taymanuly').GetFullName]与[SCOPE.sCharacter('mahambet_utemisov').GetFullName]凝聚——前者是被剥夺的氏族领袖，后者是从诗人转为煽动者。他们的正义呼声引起共鸣，本是改革恳求的事物，正迅速转为威胁可汗统治的叛乱。"
+  cr_bukey_events.1.desc: "草原正变得不安。最初只是牧人之间零星的低语，如今却成了危险的合声：有人抱怨牧场被夺，有人抱怨税收上涨，也有人指责宫廷偏袒。我们本想用现代化改革加强汗国，结果却扩大了不平等，也疏远了许多游牧民。\n\n现在，反抗的力量正聚集在[SCOPE.sCharacter('isatai_taymanuly').GetFullName]和[SCOPE.sCharacter('mahambet_utemisov').GetFullName]身边。前者是失去土地的氏族领袖，后者是从诗人变成煽动者的人。他们呼吁正义，原本只是请求改革，如今却很快变成了威胁可汗统治的叛乱。"
   cr_bukey_events.1.flavour: "对那些用异邦靴子践踏我们牧场的人，\n对那些以恩宠换自由的人——\n你们可坐在豪宅中，但我们拥有草原。"
   cr_bukey_events.1.a: "向沙皇求援"
   cr_bukey_events.1.b: "无需麻烦我们的宗主"
   cr_bukey_events.1.b_tt: "我们将自行处理[SCOPE.sCharacter('isatai_taymanuly').GetFullName]与[SCOPE.sCharacter('mahambet_utemisov').GetFullName]。"
 
   cr_bukey_events.2.t: "诗人的斥责"
-  cr_bukey_events.2.desc: "来自[SCOPE.sCountry('bukey_scope').GetName]的[SCOPE.sCharacter('bukey_khan_scope').GetPrimaryRoleTitle][SCOPE.sCharacter('bukey_khan_scope').GetFullName]传来消息，他的权威正受到两位煽动者挑战——著名贵族[SCOPE.sCharacter('isatai_taymanuly').GetFullName]与转为诗人的[SCOPE.sCharacter('mahambet_utemisov').GetFullName]——他们因土地没收与税收激起动荡。面对叛乱，他请求我们的支持以维持[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]的统治。\n\n可汗对我们的忠诚从未动摇，但他的改革激怒了许多人。如今他的敌人威胁要彻底推翻他。干预提供强化我们对草原影响的机会——但若处理不当，也可能激起更大怨恨。"
+  cr_bukey_events.2.desc: "我们收到来自[SCOPE.sCountry('bukey_scope').GetName]的消息。[SCOPE.sCharacter('bukey_khan_scope').GetPrimaryRoleTitle][SCOPE.sCharacter('bukey_khan_scope').GetFullName]的权威，正受到两名煽动者挑战：著名贵族[SCOPE.sCharacter('isatai_taymanuly').GetFullName]，以及由诗人转为煽动者的[SCOPE.sCharacter('mahambet_utemisov').GetFullName]。他们因土地没收和税收问题煽动动荡。面对叛乱，这位可汗请求我们支持他，以维持[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]的统治。\n\n可汗始终忠于我们，但他的改革激怒了许多人。如今，敌人甚至威胁要推翻他。出兵干预可以加强我们对草原的影响；但如果处理不当，也可能让怨恨进一步加深。"
   cr_bukey_events.2.flavour: "我举剑并非要取代可汗，我举剑是为了让哈萨克人不再跪下。"
   cr_bukey_events.2.a: "派遣哥萨克恢复秩序。"
   cr_bukey_events.2.b: "若[SCOPE.sCharacter('bukey_khan_scope').GetPrimaryRoleTitle][SCOPE.sCharacter('bukey_khan_scope').GetFirstNameNoFormatting]想统治，他就得学会如何统治。"
@@ -256,7 +264,7 @@
   cr_bukey_events.2.c: "让可汗倒下——然后介入恢复稳定。"
 
   cr_bukey_events.4.t: "草原的逝去"
-  cr_bukey_events.4.desc: "来自伏尔加与乌拉尔间草原的消息：统治[SCOPE.sCharacter('last_bukey_sultan').GetCountry.GetName]的可汗[SCOPE.sCharacter('last_bukey_sultan').GetFirstName]已故。受过教育、优雅且忠于帝国的詹吉尔试图为人民带来秩序与学问。他建学校、自由贸易、遏制旧部落习俗。但如此做几乎让他失去王位——当叛乱旗帜因他的改革而升起，提醒我们变革在草原上并非总受欢迎。\n\n如今汗国群龙无首，前途未卜。有人认为无理由保留其旧自治；其他人主张谨慎，担心帝国之手压得太重会引发动荡。"
+  cr_bukey_events.4.desc: "伏尔加河和乌拉尔河之间的草原传来消息：统治[SCOPE.sCharacter('last_bukey_sultan').GetCountry.GetName]的可汗[SCOPE.sCharacter('last_bukey_sultan').GetFirstName]去世了。受过教育、举止优雅、又忠于帝国的詹吉尔，曾努力为自己的人民带来秩序和知识。他兴建学校，推动自由贸易，也试图限制旧有的部落习俗。可这些改革几乎让他丢掉王位；叛乱的旗帜因改革而升起，也提醒我们，草原并不总是欢迎变化。\n\n如今汗国失去了领袖，未来充满疑问。有人认为没有理由继续保留它过去的自治权；也有人主张谨慎，担心帝国施压过重会引发新的动荡。"
   cr_bukey_events.4.flavour: "可汗的宫殿在乌拉尔沙地上寂静无声；大门向风与历史敞开。"
   cr_bukey_events.4.t_old: "最后的内帐可汗"
   cr_bukey_events.4.desc_old: "曾经，伏尔加与乌拉尔间的草原回荡着无数游牧汗国的迁徙。这些迁徙在上世纪结束，因为它们对我们的巴什基尔臣民造成负担而被禁止。但边境多孔，‘非法’越界持续多年，让大片土地空旷未驯。\n\n直到1801年，内帐可汗获准携约7500户家庭定居，才为这片荒原带来生机。如今，随着内帐可汗的去世，这一章结束。根据他们当初定居时的效忠誓言，内帐汗国土地可合法回归帝国直接管辖。"
@@ -266,8 +274,8 @@
 
   notification_cr_kazakh_harsh_rule_on_the_steppes_tooltip: "#header $notification_cr_kazakh_harsh_rule_on_the_steppes_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_kazakh_harsh_rule_on_the_steppes_desc$"
   cr_kazakh_events.5.t: "重生草原的汗王"
-  cr_kazakh_events.5.desc: "随着俄国实力衰退、影响力消退，其对草原的控制也随之松动。要塞逐渐坍圮，哥萨克巡逻队愈发稀少，哈萨克氏族重新夺回昔日牧场。在帝国留下的真空中，肯尼萨里的名字再次激荡人心，成为帝国衰落之际重获新生的反抗象征。"
+  cr_kazakh_events.5.desc: "随着俄国的实力和影响力衰退，它对草原的控制也开始松动。要塞逐渐破败，哥萨克巡逻队越来越少，哈萨克氏族重新夺回了过去的牧场。在帝国留下的权力真空中，肯尼萨里的名字再次传遍草原，成了人们在帝国衰落之际重新反抗的象征。"
   cr_kazakh_events.5.flavour: "雄鹰不再翱翔之处，狼群归来。"
-  cr_kazakh_events.5.a: "我们的势力已无法延伸至如此遥远之地。"
-  cr_kazakh_events.5.b: "草原记得它曾属于谁。"
-  cr_kazakh_events.12.a_tt: "此选项可用，因为我们近期未进行远征，并掌握了[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]大致行踪的情报。"
+  cr_kazakh_events.5.a: "我们的力量已经够不到这么远的地方了。"
+  cr_kazakh_events.5.b: "草原记得它曾经属于谁。"
+  cr_kazakh_events.12.a_tt: "此选项可用，因为我们最近没有进行远征，并且掌握了[SCOPE.sCharacter('kenesary_scope').GetFirstNameNoFormatting]大致行踪的情报。"

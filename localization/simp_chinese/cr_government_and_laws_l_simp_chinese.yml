@@ -2,9 +2,9 @@
  #政府名称
  gov_zz_hakomate:0 "哈科马特"
  gov_cr_khanate:0 "汗国"
- gov_cr_khanate_desc:0 "这是一种[concept_government_type]，大权悉归[Concept('concept_ruler','$RULER_TITLE_KHAN$')]。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_cr_khanate_desc:0 "这是一种[concept_government_type]，最高权力集中于[Concept('concept_ruler','$RULER_TITLE_KHAN$')]。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
  gov_zz_caliphate:0 "哈里发国"
- gov_zz_caliphate_desc:0 "这是一种[concept_government_type]，由[Concept('concept_ruler','$RULER_TITLE_CALIPHA$')]统合宗教与世俗权威。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_zz_caliphate_desc:0 "这是一种[concept_government_type]，由[Concept('concept_ruler','$RULER_TITLE_CALIPHA$')]同时掌握宗教与世俗权威。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
  RULER_TITLE_CALIPHA:0 "哈里发"
  #gov_ethiopia_empire:0 "帝国"
  #gov_ethiopia_empire_desc:0 "这是一种[concept_government_type]，权力完全掌握在[Concept('concept_ruler','$RULER_TITLE_NEGUSA_NAGAST$')]或[Concept('concept_ruler','$RULER_TITLE_NEGESTA_NAGASTAT$')]手中。\n\n$TRANSFER_OF_POWER_NAME_DESC$"
@@ -67,7 +67,7 @@
  ig_gebbars:0 "格巴尔"
 
  ig_ulama:0 "乌里玛"
- ig_ulema_desc:0 "逊尼派是伊斯兰教最大的宗派。信徒认为穆罕默德之后由其叔父阿布·伯克尔继任伊斯兰哈里发，而非什叶派所认为的其女婿阿里才是合法继承人。"
+ ig_ulema_desc:0 "乌里玛是伊斯兰社会中的宗教学者与法学家。逊尼派承认阿布·伯克尔为穆罕默德之后的首任哈里发，而什叶派则认为阿里才是先知家族所承认的合法继承人。"
  ig_knil:0 "皇家荷属印度军"
  ig_knil_desc:0 "皇家荷属印度军（KNIL）是荷兰在东印度的武装力量。"
  ig_regents:0 "摄政"

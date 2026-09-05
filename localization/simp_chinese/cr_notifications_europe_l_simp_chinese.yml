@@ -116,9 +116,9 @@
  notification_cr_slaves_returned_sint_maarten_tooltip: "#header $notification_cr_slaves_returned_sint_maarten_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_slaves_returned_sint_maarten_desc$"
 
  notification_cr_slaves_not_returned_sint_maarten_name: "[SCOPE.sCountry('slave_emancipator').GetName]拒绝将奴隶归还[SCOPE.sState('slavery_state').GetName]！"
- notification_cr_slaves_not_returned_sint_maarten_desc: "法国拒绝我们的请求，将逃亡奴隶归还#variable 圣马丁岛#!，降低了双边关系，并导致大量[GetPopType('slaves').GetName]迁往[SCOPE.sState('emancipated_state').GetName]。"
+ notification_cr_slaves_not_returned_sint_maarten_desc: "法国拒绝了我们要求归还逃亡奴隶的请求。此举损害双边关系，也促使大量[GetPopType('slaves').GetName]逃往[SCOPE.sState('emancipated_state').GetName]，#variable 圣马丁岛#!的劳动力因此流失。"
  notification_cr_slaves_not_returned_sint_maarten_tooltip: "#header $notification_cr_slaves_not_returned_sint_maarten_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_slaves_not_returned_sint_maarten_desc$"
 
  notification_cr_brazil_slave_ship_captured_libreville_name: "拦截的[SCOPE.sCountry('slave_trading_country').GetAdjectiveNoFormatting]奴隶船人员重新安置。"
- notification_cr_brazil_slave_ship_captured_libreville_desc: "一艘被[SCOPE.sCountry('slave_liberator').GetAdjectiveNoFlag]巡逻队拦截的[SCOPE.sCountry('slave_trading_country').GetAdjectiveNoFormatting]奴隶船，其人类货物已被移除并重新安置在[SCOPE.sState('slave_settlement_state').GetName]。当局报告称，这些人已被置于自由身份，超出进一步索赔范围。\n\n此事件是外国干涉大西洋奴隶贸易日益增长的最新例证，凸显[SCOPE.sCountry('slave_trading_country').GetAdjectiveNoFormatting]海外航运面临的日益增加的风险。"
+ notification_cr_brazil_slave_ship_captured_libreville_desc: "一艘[SCOPE.sCountry('slave_trading_country').GetAdjectiveNoFormatting]奴隶船被[SCOPE.sCountry('slave_liberator').GetAdjectiveNoFlag]巡逻队拦截，船上被贩运的人获救，并被安置在[SCOPE.sState('slave_settlement_state').GetName]。当地官员称，他们已获得自由，不再受任何奴役者索取。\n\n这起事件再次说明，外国势力正越来越多地介入大西洋奴隶贸易；对[SCOPE.sCountry('slave_trading_country').GetAdjectiveNoFormatting]而言，海外航运的风险也在不断上升。"
  notification_cr_brazil_slave_ship_captured_libreville_tooltip: "#header $notification_cr_brazil_slave_ship_captured_libreville_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_brazil_slave_ship_captured_libreville_desc$"

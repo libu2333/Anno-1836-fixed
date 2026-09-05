@@ -162,6 +162,7 @@
  cr_indian_removal.31.f_3:0 "随着[SCOPE.sState('landgrab_state').GetNameNoFormatting]州进行自巴比伦流亡以来最大的土地掠夺，现在是每一个基督徒、慈善家与爱国者在美国竭尽全力拯救受迫害、无力自保的人民免于毁灭的时候了。\n—#italic [SCOPE.sState('newspaper_state').GetCityHubName]日报#! "
  cr_indian_removal.31.f_4:0 "若我们不通过将他们迁往密西西比河以东的专属领土来拯救他们，很快密西西比河两岸都不会再有[SCOPE.sCountry('cr_noble_savages').GetNameNoFormatting]了。\n—#italic 传教先驱报#! "
  cr_indian_removal.31.f_5:0 "若对原住民殖民地行使家长式权威，并确立与执行公正的交往原则，我们或许能看到他们状况的改善，这是我们长久以来徒劳期盼的。\n—#italic 密歇根州长刘易斯·卡斯#! "
+ cr_indian_removal.31.f_5_a:0 "若对原住民殖民地行使家长式权威，并确立、执行与他们沟通以及彼此沟通的公正原则，我们或许能看到他们状况的改善，这是我们长久以来徒劳期盼的。\n—#italic 密歇根州长刘易斯·卡斯#! "
  cr_indian_removal.31.a:0 "迁移是白人的罪过"
  cr_indian_removal.31.b:0 "[SCOPE.sCountry('cr_noble_savages').GetNameNoFormatting]迁移无论如何都是必然的"
  cr_indian_removal.31.c:0 "只要报纸卖得好，谁在乎"
@@ -352,7 +353,7 @@
  cr_indian_removal.60.f_2:0 "[SCOPE.sCountry('target_of_removal').GetNameNoFormatting]的处境需要立即行动以免他们饿死；我亲眼见到他们的痛苦……这里既无牛也无猪……没有玉米或牛肉，他们会饿死。\n—#italic 派驻[SCOPE.sCountry('target_of_removal').GetNameNoFormatting]的政府特派员#! "
  cr_indian_removal.60.f_3:0 "我看到宝贵的面粉与玉米被任其腐烂，这些食物本可用来喂养在迁移路上挨饿的人……\n—#italic 派驻[SCOPE.sCountry('target_of_removal').GetNameNoFormatting]的政府特派员#! "
  cr_indian_removal.60.a:0 "我们必须做点什么"
- cr_indian_removal.60.b:0 "肯定有哪个大佬从中发财了……"
+ cr_indian_removal.60.b:0 "肯定有人借机发财了……"
  cr_indian_removal.60.c:0 "将这场灾难公之于众，为我所用"
  cr_indian_removal.60.c_tt:0 "我们将借[SCOPE.sCountry('target_of_removal').GetNameNoFlag]的苦难谋取政治利益"
 
@@ -361,7 +362,7 @@
  cr_indian_removal.61.f:0 "我看到了女人们的悲伤，我能帮助她们为孩子们保留力量。告诉女人们回头看她们泪水落地的地方。\n—#italic 部落长老#! "
 
  cr_indian_removal.65.t:0 "新的北方邻居"
- cr_indian_removal.65.desc:0 "随着[SCOPE.sCountry('cr_removing_country').GetName]加速推行印第安迁移政策，数千[SCOPE.sCountry('target_of_removal').GetNameNoFlag]印第安人定居在我们北部边疆，这在北部边境当地民众中引起极大恐慌，他们担心数千敌对印第安人可能做出什么，需要作出回应。"
+ cr_indian_removal.65.desc:0 "随着[SCOPE.sCountry('cr_removing_country').GetName]加快推行印第安迁移政策，数千名[SCOPE.sCountry('target_of_removal').GetNameNoFlag]人被安置到我们的北部边疆。当地居民因此陷入恐慌，担心这些新邻居是否会带来冲突，也要求政府尽快回应。"
  cr_indian_removal.65.desc_2:0 "[SCOPE.sCountry('cr_removing_country').GetAdjectiveNoFlag]将印第安人迁往密西西比河以西印第安领地的政策，在北部边境当地民众中引发相当大的恐慌，他们担心数千敌对印第安人可能做出什么。"
  cr_indian_removal.65.f:0 "若密西西比河以东的印第安人已足够强大，让公民生活在恐惧中——在一个防御手段充足的国家——得克萨斯与墨西哥西部各州的公民当然有理由担忧所有不时被送往他们边境的印第安部落的敌对行为。\n—#italic 得克萨斯电讯报#! "
  cr_indian_removal.65.a:0 "我们期望[SCOPE.sCountry('cr_removing_country').GetAdjectiveNoFormatting]人管好他们"
@@ -370,7 +371,7 @@
  cr_indian_removal.65.d:0 "得克萨斯游骑兵来救援"  # 有民兵且为得克萨斯
 
  cr_indian_removal.70.t:0 "不完整的和解"
- cr_indian_removal.70.desc:0 "随着近期政治风向转变，南方#variable 文明五部落#! 的未来略显光明，但仅限于那些迁移尚未开始、或因偶然或境遇逃脱针对他们的罗网之人。"
+ cr_indian_removal.70.desc:0 "随着政治风向转变，南方#variable 文明五部落#!似乎终于看到一线希望。但这份希望只属于尚未开始迁移，或因机缘与处境逃过这张罗网的人。"
  cr_indian_removal.70.desc_sub_1:0 "\n\n对于"
  cr_indian_removal.70.desc_1:0 "[SCOPE.sCountry('cr_removed_country_no_1').GetNameNoFlag]"
  cr_indian_removal.70.desc_2:0 "[SCOPE.sCountry('cr_removed_country_no_1').GetNameNoFlag]与[SCOPE.sCountry('cr_removed_country_no_2').GetNameNoFlag]"
@@ -395,7 +396,7 @@
  expedition_events.301.a_tt:0 "#variable 俄勒冈小径#! 已被测绘。"
  expedition_events.302.a_tt:0 "#variable 摩门小径#! 已被测绘。"
  expedition_events.303.t:0 "通往加利福尼亚的路线"
- expedition_events.303.d:0 "经过漫长而艰苦的旅程，探险队终于结束。探险队成功找到并测绘了一条全年通往加利福尼亚黄金海岸的路线。"
+ expedition_events.303.d:0 "经过漫长而艰苦的旅程，探险队终于完成任务。他们找到并测绘出一条全年都能通往加利福尼亚黄金海岸的路线。"
  expedition_events.303.f:0 "加利福尼亚小径，以马车、马蹄与脚步，在美国西部的画布上刻下人类奋斗的故事。这是一幅由勇气、希望与牺牲之线编织的挂毯。家庭告别熟悉的风景，挥别家园的舒适，踏上改变命运的远航。他们面对荒野无情的挑战——崎岖山脉、险恶河流、广袤沙漠——考验他们的极限耐力。小径成为人类精神力量的活见证，梦想与现实在此交汇，平凡男女开辟通往自身天命的道路。加利福尼亚小径超越物理路径；它代表人类意志的胜利、对更美好未来的追求，以及对美国梦的不懈追寻。\n—#italic 匿名#! "
  expedition_events.303.a:0 "让雄鹰展翅"
  expedition_events.303.a_tt:0 "#variable 加利福尼亚小径#! 已被测绘。"
@@ -410,7 +411,7 @@
  #俄罗斯美洲
  ####
  cr_russian_alaska_events.1.t:0 "《桅杆前的两年》"
- cr_russian_alaska_events.1.d_russia:0 "波士顿的出版社推出了一部新小说，详细描绘了加利福尼亚皮革贸易，通过一艘从马萨诸塞经合恩角前往加利福尼亚的双桅帆船上的日常生活展现。\n\n但在华丽的文字背后隐藏着一个不幸的事实：该船的货物几乎全部是#! #italic 牛皮#!  #bold ，而非我们罗斯堡贸易站如此依赖的 #! #italic 海獭皮#!  #bold 。"
+ cr_russian_alaska_events.1.d_russia:0 "波士顿的一家出版社推出新小说，描写一艘从马萨诸塞经合恩角驶往加利福尼亚的双桅帆船，以及当地皮革贸易的日常。\n\n华丽文字背后却藏着坏消息：船上几乎全是#bold 牛皮#!，而不是罗斯堡贸易站赖以生存的#bold 海獭皮#!。"
  cr_russian_alaska_events.1.d:0 "一部来自波士顿的新小说生动讲述了加利福尼亚海岸及其支撑的皮革贸易。然而在字里行间，却为我们的命运敲响警钟：美国双桅船的货舱里装的不是海獭皮，而是牛皮。\n\n真相如今公之于世：海獭已几乎从[SCOPE.sState('our_california').GetStateRegion.GetName]海岸绝迹。曾经支撑罗斯堡殖民地的贸易正在消亡。有人主张在它彻底耗尽我们的财库前放弃该据点；有人建议转向农业，为我们在[SCOPE.sState('alaska').GetStateRegion.GetName]的定居点提供补给。"
  cr_russian_alaska_events.1.d5:0 "[SCOPE.sState('our_california').GetStateRegion.GetName]海岸的过度捕猎导致海獭种群崩溃。\n\n由于海獭皮贸易曾是殖民地的命脉，有人主张放弃该地，有人建议建立农业殖民地为[SCOPE.sState('alaska').GetName]提供补给。"
  cr_russian_alaska_events.1.d2:0 "[SCOPE.sState('our_california').GetStateRegion.GetName]海岸的过度捕猎导致海獭种群崩溃，我们在那里的存在前景变得渺茫。\n\n有人提议尝试建立农业殖民地为我们在[SCOPE.sState('alaska').GetName]的据点提供补给，但也有人主张直接放弃该据点。"
@@ -457,7 +458,7 @@
  cr_russian_alaska_events.6.b:0 "如此结束了我们在[SCOPE.sCountry('buying_country').GetNameNoFormatting]海岸的影响"
 
  cr_russian_alaska_events.9.t:0 "金门"
- cr_russian_alaska_events.9.desc:0 "随着占领旧金山，我们获得了金门及其背后大湾的控制权。由此，我们确保了殖民地在"
+ cr_russian_alaska_events.9.desc:0 "随着占领旧金山，我们控制了金门以及其后方的大湾。这一战略要地让我们能够保障殖民地的补给与防务，也为继续向加利福尼亚内陆扩展提供了出发点。"
  cr_russian_alaska_events.9.f:0 "金门是希望与机遇的象征，一座横跨海洋的灯塔，召唤那些在美国寻求更好生活的人。"
  cr_russian_alaska_events.9.a:0 "山谷在等待"
 
@@ -503,7 +504,7 @@
  cr_canadian_indian_treaties.1.desc:0 "一群[SCOPE.gsInterestGroup('mining_ig').GetName]已接近[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]，请求在苏必利尔湖北岸发放采矿许可。\n\n此类许可当然可发放，但土地所有权仍由[SCOPE.sCountry('native_state').GetAdjectiveNoFlag]持有，他们很可能对这种公然无视其权利的行为不满。"
  cr_canadian_indian_treaties.1.f:0 "那里几乎没有印第安人，而且他们又不像在使用这片土地……"
  cr_canadian_indian_treaties.1.a:0 "我们不能让一些讨厌的印第安人阻碍进步"
- cr_canadian_indian_treaties.1.b:0 "无论立法、最高还是下级，都无权使自己独断专行。"
+ cr_canadian_indian_treaties.1.b:0 "无论哪个机构，都不能凭一己之意越过法律。"
  cr_canadian_indian_treaties.1.a_tt:0 "[SCOPE.gsInterestGroup('mining_ig').GetName]获得$cr_approved_mining_permits$ 2.5年，替换任何先前意见修正"
  cr_canadian_indian_treaties.1.b_tt:0 "[SCOPE.gsInterestGroup('mining_ig').GetName]获得$cr_denied_mining_permits$ 2.5年，替换任何先前意见修正"
  cr_canadian_indian_treaties.1.b_tt2:0 "安大略获得$cr_mining_permit_denied$ 2.5年，替换任何先前修正"
@@ -529,13 +530,13 @@
  cr_canadian_indian_treaties.4.t:0 "论原住民土地所有权"  # 丹尼斯-本杰明·帕皮诺报告，由路易-约瑟夫·帕皮诺之弟撰写
  cr_canadian_indian_treaties.4.desc:0 "一位[SCOPE.sCulture('ruling_culture').GetName]作者发表了一篇关于[ROOT.GetCountry.GetNameNoFlag]土地所有权的论著，对我们或有助益。"
  cr_canadian_indian_treaties.4.flavour:0 "土地所有权源于自然的占有权。因此我们必须得出结论：是[SCOPE.sCulture('ruling_culture').GetNameNoFormatting]人拥有[SCOPE.sState('copper_mining_state').GetOwner.GetNameNoFormatting]的所有权，而非[SCOPE.sCulture('anglo_culture').GetNameNoFormatting]人，也非[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]人。因为1764年时两者均未在此出现，也未充分组织起来以具备占有土地的能力。"
- cr_canadian_indian_treaties.4.desc_old:0 "一位[SCOPE.sCulture('ruling_culture').GetName]作者发表论著探讨[ROOT.GetCountry.GetNameNoFlag]的土地所有权问题。他认为，通过“自然权利”，是[SCOPE.sCulture('ruling_culture').GetNameNoFormatting]人拥有合法所有权。\n\n关于苏必利尔湖周围的勘探土地，他认为[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]在《1763年皇家宣言》时并未居住于该地区，因此未获得土地所有权。但更重要的是，这些族群组织程度不足以拥有领土主张。"
+ cr_canadian_indian_treaties.4.desc_old:0 "一位[SCOPE.sCulture('ruling_culture').GetName]作者发表文章，讨论[ROOT.GetCountry.GetNameNoFlag]的土地所有权。他主张，依据所谓的“自然权利”，[SCOPE.sCulture('ruling_culture').GetNameNoFormatting]人才拥有合法所有权。\n\n谈到苏必利尔湖周边正在勘探的土地时，他声称[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]在《1763年皇家宣言》发布时并未居住于此，因此不具备土地所有权；更进一步，他还断言这些社群的组织形式不足以提出领土主张。"
  cr_canadian_indian_treaties.4.f:0 "我请上帝作证，一开始我就说，现在再次声明：说这片土地不是我们的，是虚假的，它是我们的。\n—#italic 酋长辛瓜孔塞#! "
  cr_canadian_indian_treaties.4.a:0 "这份报告并非完全令人满意"
  cr_canadian_indian_treaties.4.b:0 "一份有助于削弱[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]的有用报告"
 
  cr_canadian_indian_treaties.5.t:0 "铜矿事件"
- cr_canadian_indian_treaties.5.desc:0 "[SCOPE.sState('copper_mining_area').GetName]的一位矿场经理今天遭遇粗暴惊醒：他开门时，发现自己正面对[SCOPE.sCharacter('native_state_threatener').GetFirstName]酋长率领的一群愤怒印第安人。\n\n他们前来原因简单：矿场位于未割让土地上，[SCOPE.sCharacter('native_state_threatener').GetFirstName]的族群要求分得利润份额，否则矿场将关闭。"
+ cr_canadian_indian_treaties.5.desc:0 "今早，[SCOPE.sState('copper_mining_area').GetName]的一位矿场经理打开门，发现[SCOPE.sCharacter('native_state_threatener').GetFirstName]酋长带着一群愤怒的原住民站在门外。\n\n他们的要求很简单：矿场建在未割让的土地上，[SCOPE.sCharacter('native_state_threatener').GetFirstName]的族群必须分得一部分利润，否则矿场就要停工。"
  cr_canadian_indian_treaties.5.f:0 "伟大的精神，我们认为，将这些丰富的矿藏置于我们的土地上，为他的红肤子民造福，以便后代在林中动物稀少、难以维生时从中获益。因此，我们将实现伟大精神父亲的美好目标。我们将卖给你们土地，若你们给出合理价格；同时，我们要求为每磅已从我们土地上取走的矿物支付报酬，以及今后取走的所有矿物。\n—#italic 酋长辛瓜孔塞#! "
  cr_canadian_indian_treaties.5.a:0 "矿场关闭"
  cr_canadian_indian_treaties.5.a_tt:0 "这将显著降低未来投资者申请采矿许可的可能性"
@@ -545,22 +546,22 @@
  cr_canadian_indian_treaties.5.c_tt:0 "一位[GetIdeology('ideology_jingoist_leader').GetName] [concept_agitator]将出现"
 
  cr_canadian_indian_treaties.6.t:0 "铜乡叛乱"
- cr_canadian_indian_treaties.6.desc:0 "由于[ROOT.GetCountry.GetOverlord.GetRuler.GetHerHis|U]陛下政府未采取行动控制部落土地上的采矿，[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]民族的多个族群已拿起武器，开始袭击该地区的采矿定居点。"
+ cr_canadian_indian_treaties.6.desc:0 "[ROOT.GetCountry.GetOverlord.GetRuler.GetHerHis|U]陛下政府没有采取行动规范部落土地上的采矿活动，[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]的多个族群因此拿起武器，开始袭击当地的采矿定居点。"
  cr_canadian_indian_treaties.6.f:0 "印第安人利用对地形的熟悉，精心计划并执行伏击，确保了胜利。"
  cr_canadian_indian_treaties.6.a:0 "谁还不召集民兵？！"
 
  cr_canadian_indian_treaties.8.t:0 "文明的长尾"
- cr_canadian_indian_treaties.8.desc:0 "随着苏必利尔湖岸采矿繁荣，城镇与商业处处兴起，曾经仅有少数印第安人居住的荒野如今已见文明的最初萌芽。\n\n然而，当地[SCOPE.sCountry('native_state').GetAdjectiveNoFlag]印第安人抱怨矿场噪音驱散猎物，废水污染河流。"
+ cr_canadian_indian_treaties.8.desc:0 "苏必利尔湖沿岸的采矿业蓬勃发展，城镇和商业接连出现。过去只有少数原住民居住的荒野，如今已经开始出现定居与开发的痕迹。\n\n但当地[SCOPE.sCountry('native_state').GetAdjectiveNoFlag]人抱怨，矿场的噪音赶走了猎物，废水也污染了河流。"
  cr_canadian_indian_treaties.8.f:0 "曾经溪流满是鱼，森林满是鹿，但为了给矿场供应木材而砍伐树木、改道溪流以驱动采矿机械，如今这里再无猎物可寻。"
  cr_canadian_indian_treaties.8.a:0 "为进步付出的小小代价"
 
  cr_canadian_indian_treaties.9.t:0 "行业工具"
- cr_canadian_indian_treaties.9.desc:0 "[SCOPE.gsInterestGroup('mining_ig').GetName]已接近[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]，请求支持建立本土[GetGoods('tools').GetName]产业。\n\n缺乏本地工具制造产业导致他们花费巨资进口合适工具，削弱采矿业成功，据他们声称。"
+ cr_canadian_indian_treaties.9.desc:0 "[SCOPE.gsInterestGroup('mining_ig').GetName]向[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]提出请求，希望支持本土[GetGoods('tools').GetName]产业。\n\n他们说，本地没有足够的工具制造能力，只能花高价进口合适的工具，采矿业也因此难以发展。"
  cr_canadian_indian_treaties.9.desc_home_production:0 "[SCOPE.gsInterestGroup('mining_ig').GetName]已接近[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]，请求支持扩建[SCOPE.sState('toolmaking_state').GetCityHubName][SCOPE.sBuilding('tooling_plant').GetName]。\n\n该产业规模过小，导致难以获得合适工具以提升采矿业成功，据他们声称。"
  cr_canadian_indian_treaties.9.f:0 "你看到这把铲子上的制造商标记了吗？[SCOPE.sState('toolmaking_state').GetNameNoFormatting]优质金属制品。它得从[SCOPE.sState('toolmaking_state').GetCityHubName]运来！你知道这有多贵吗？"
  cr_canadian_indian_treaties.9.f_home_production:0 "你看到这把铲子了吗？[SCOPE.sState('toolmaking_state').GetCityHubName]制造的。注意，不是像[SCOPE.sState('foreign_toolmaking_state').GetNameNoFormatting]那种高科技车间制造的，而是几乎手工订制的。不可否认这把精美铲子的工艺，但这不是经营现代产业的方式。"
  cr_canadian_indian_treaties.9.a:0 "有时国家与产业利益一致"
- cr_canadian_indian_treaties.9.b:0 "这些大佬可以自己掏钱"
+ cr_canadian_indian_treaties.9.b:0 "让这些富人自己出钱"
 
  cr_canadian_indian_treaties.10.t:0 "罗宾逊条约"
  cr_canadian_indian_treaties.10.desc:0 "随着矿工与印第安族群因土地权利而紧张关系升级，[SCOPE.sCountry('native_state').GetAdjectiveNoFlag]各酋长在[SCOPE.sState('copper_mining_state').GetMineHubName]召开会议，由专员[SCOPE.gsInterestGroup('mining_ig').GetLeader.GetLastName]召集。\n\n[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]酋长表达了签订条约的意愿，但狩猎与捕鱼权——以及最重要的是年金数额——成为争议焦点，[SCOPE.sCountry('native_state').GetAdjectiveNoFormatting]的要求超出此前年金及预算的2至3倍。"
@@ -691,14 +692,14 @@
  cr_mexico_events.33.c:0 "联邦万岁！"
 
  cr_mexico_events.34.t:0 "塔巴斯科起义"
- cr_mexico_events.34.desc:0 "[SCOPE.sCountry('rebellious_tag_scope').GetNameNoFlag]州已武装起义。不满中央派统治，并受各地动乱鼓舞，当地武装驱逐联邦驻军，宣布效忠1824年宪法。\n\n虽然规模较其他叛乱小，但塔巴斯科的抗争体现了熟悉的斗争——地方自治与中央集权共和国需求之间的冲突。此次叛乱是扩散还是平息，或许取决于政府回应。"
+ cr_mexico_events.34.desc:0 "[SCOPE.sCountry('rebellious_tag_scope').GetNameNoFlag]州已经武装起义。当地人不满中央派统治，又受到各地动乱鼓舞，于是驱逐联邦驻军，宣布效忠1824年宪法。\n\n这场叛乱规模不大，却再次暴露地方自治与中央集权之间的冲突。它会扩散，还是很快平息，取决于政府如何回应。"
  cr_mexico_events.34.flavour:0 "格里哈尔瓦河上的一点火星，或将点燃全国。"
  cr_mexico_events.34.a:0 "立即镇压此叛乱。"
  cr_mexico_events.34.b:0 "与地方领袖谈判。"
 
  cr_mexico_events.35.t:0 "尤卡坦分离"
  cr_mexico_events.35.desc:0 "在遥远的[SCOPE.sState('rebellious_state_scope').GetStateRegion.GetName]半岛，[SCOPE.sState('rebellious_state_scope').GetCityHubName]与[SCOPE.sCountry('mexico_scope').GetCapital.GetCityHubName]之间长期紧张已到临界点。当地议会援引最初联合条款，宣布尤卡坦对共和国的效忠仅限于联邦制。\n\n鉴于中央派政权已解散该契约，[SCOPE.sCountry('rebellious_tag_scope').GetNameNoFlag]现宣布分离，直至恢复1824年宪法。民兵已控制半岛，回归联邦主义的呼声响彻大地。"
- cr_mexico_events.35.flavour:0 "尤卡坦人民在充分行使主权下，成为脱离墨西哥国家的自由独立共和国……"
+ cr_mexico_events.35.flavour:0 "尤卡坦人民正在行使主权，宣布成为脱离墨西哥的自由共和国……"
  cr_mexico_events.35.a:0 "以武力重申权威。"
  cr_mexico_events.35.b:0 "谈判恢复联邦制。"
  cr_mexico_events.35.c:0 "尤卡坦联邦共和国万岁！"
@@ -739,7 +740,7 @@
  cr_lower_canada_rebellion.01.b:0 "拥有一些激进分子总是很有用"
 
  cr_lower_canada_rebellion.02.t:0 "号召所有忠诚的不列颠人"
- cr_lower_canada_rebellion.02.desc:0 "从[ROOT.GetCountry.GetCapital.GetCityHubName]的茶肆传出传闻：被禁的不列颠步枪俱乐部前成员已重新集结，组成新“政治协会”。这个所谓$variable 多里克俱乐部#! 公开宣称保护殖民地[SCOPE.sCulture('anglo_canadian_culture').GetName]利益，对抗[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoFormatting]的破坏。\n\n与被禁的不列颠步枪俱乐部惊人相似，这个新组织——实质上是民兵——似乎得到[SCOPE.gsInterestGroup('cr_canadian_armed_forces').GetLeader.GetFullName]的强力庇护，且拥有大量[SCOPE.gsInterestGroup('cr_canadian_armed_forces').GetNameNoIcon]成员。"
+ cr_lower_canada_rebellion.02.desc:0 "[ROOT.GetCountry.GetCapital.GetCityHubName]的茶馆里传出消息：被禁的不列颠步枪俱乐部前成员重新集结，成立了一个新的“政治协会”。这个所谓的#variable 多里克俱乐部#!公开宣称要保护殖民地[SCOPE.sCulture('anglo_canadian_culture').GetName]的利益，对抗[SCOPE.gsInterestGroup('cr_canadian_liberals').GetNameNoFormatting]。\n\n这个组织与原俱乐部极为相似，实际上仍是一支民兵。它似乎得到[SCOPE.gsInterestGroup('cr_canadian_armed_forces').GetLeader.GetFullName]的大力庇护，也吸收了许多[SCOPE.gsInterestGroup('cr_canadian_armed_forces').GetNameNoIcon]成员。"
  cr_lower_canada_rebellion.02.flavour:0 "若英国政府与英国人民抛弃我们，我们宁愿以自己的右臂争取解放，也不愿屈从于法裔加拿大共和国的屈辱。"
  cr_lower_canada_rebellion.02.a:0 "换个名字的柠檬味道一样酸"
  cr_lower_canada_rebellion.02.b:0 "我们欣赏这些人的忠诚"

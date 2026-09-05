@@ -67,6 +67,8 @@
  cr_minette_ores_events.2.t:0 "埋藏的财富，涌动的潜力"
  cr_minette_ores_events.2.desc:0 "多年来，[SCOPE.sState('minette_ore_state').GetName]地下的巨大#italic 米内特#!矿层一直没有得到开发。它的储量惊人，却因为含磷量太高而难以利用。\n\n如今，#BOLD 贝塞麦法#!刚刚取得进展，工业界和科学界都看到了新的希望。这个方法还不能单独解决磷的问题，却为进一步改进冶金技术打开了大门，也许终于能让这种矿石用于炼钢。"
  cr_minette_ores_events.2.flavour:0 "曾经被认为无法使用的矿石，也许很快就会成为国家工业的重要支柱。接下来需要的，是创新、投资，以及把理论变成炉火的决心。"
+ cr_minette_ores_events.2.desc_old:0 "[SCOPE.sState('minette_ore_state').GetName]的地质学家与实业家早已知道，地区丘陵下埋藏着规模惊人的铁矿床；但矿石含磷量过高，迄今几乎无法炼制优质钢材。\n\n然而，最近的冶金进展——最终促成#BOLD 贝塞麦法#!的问世——再次引发科学界与工业界的讨论。如果能在炉中去除或中和磷，这些曾被视为次等货的#italic 米内特矿石#!，或许能成为国家工业的支柱。"
+ cr_minette_ores_events.2.flavour_old:0 "只要有巧思、投资，以及科学与工业之间的协作，洛林地下的铁矿就可能孕育钢铁生产的新时代。"
 
  cr_minette_ores_events.2.a:0 "这可能改变一切。"
  cr_minette_ores_events.2.a_tt:0 "解锁#variable 洛林的小矿脉#!日志条目。\n完成该日志条目将移除[SCOPE.sState('minette_ore_state').GetNameNoFormatting]的#variable 米内特矿石#!州特性，释放其铁矿开采潜力。"

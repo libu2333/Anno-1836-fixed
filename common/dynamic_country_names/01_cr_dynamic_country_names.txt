@@ -223,6 +223,111 @@ CPL = { # Poland
 	}
 }
 
+BKH = { # Bukey Horde
+	dynamic_country_name = {
+		name = dyn_c_bukey_horde
+		adjective = BKH_ADJ
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				is_subject = no
+				country_has_monarchy_law = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_bukey_orda
+		adjective = BKH_ADJ
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			scope:actor ?= {
+				is_subject_type = subject_type_protectorate
+				overlord = { c:RUS ?= this }
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_bukey_governorate
+		adjective = BKH_ADJ
+		is_main_tag_only = yes
+		priority = 90
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					is_subject_type = subject_type_dominion
+					is_subject_type = subject_type_puppet
+				}
+				overlord = { c:RUS ?= this }
+				OR = {
+					country_has_monarchy_law = yes
+					coa_def_theocracy_flag_trigger = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_bukey_frontier_committee
+		adjective = BKH_ADJ
+		is_main_tag_only = yes
+		priority = 90
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					is_subject_type = subject_type_dominion
+					is_subject_type = subject_type_puppet
+				}
+				overlord = { c:RUS ?= this }
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_bukey_republic
+		adjective = BKH_ADJ
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				is_subject = no
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_bukey_theocracy
+		adjective = BKH_ADJ
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				is_subject = no
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_bukey_communist_republic
+		adjective = BKH_ADJ
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				is_subject = no
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+}
+
 CAU = { # Caucasus
 	dynamic_country_name = {
 		name = dyn_c_caucasus_governorate

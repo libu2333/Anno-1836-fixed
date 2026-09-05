@@ -239,7 +239,7 @@
   cr_kazakh_events.65.desc_recognised: "长期分裂的哈萨克氏族，如今在[SCOPE.sCharacter('kenesary_scope').GetFirstName]之下团结，他已被[SCOPE.sCountry('russia_scope').GetAdjectiveNoFlag]承认为[SCOPE.sCharacter('kenesary_scope').GetPrimaryRoleTitle]。他的权威横跨北部平原，中亚不安的部落以希望与恐惧混杂的心情谈论他的名字。\n\n从远处看，他的崛起似乎只是遥远的震颤——但这样的震颤常能撼动最坚固的基础。"
   cr_kazakh_events.65.flavour_recognised: "当草原聚集在一面旗帜下，整个地平线似乎都在移动。"
 
-  ##布基汗国事件
+  ##内帐汗国事件
   cr_bukey_events.1.t: "诗人的斥责"
   cr_bukey_events.1.desc: "草原不安。起初只是牧人间零星的低语，如今已成长为危险的合唱——对牧场被夺、税收上涨、朝廷偏袒的抱怨。我们旨在加强汗国的现代化努力，反而加深了不平等，疏远了许多游牧人口。\n\n如今，反抗围绕[SCOPE.sCharacter('isatai_taymanuly').GetFullName]与[SCOPE.sCharacter('mahambet_utemisov').GetFullName]凝聚——前者是被剥夺的氏族领袖，后者是从诗人转为煽动者。他们的正义呼声引起共鸣，本是改革恳求的事物，正迅速转为威胁可汗统治的叛乱。"
   cr_bukey_events.1.flavour: "对那些用异邦靴子践踏我们牧场的人，\n对那些以恩宠换自由的人——\n你们可坐在豪宅中，但我们拥有草原。"
@@ -258,10 +258,10 @@
   cr_bukey_events.4.t: "草原的逝去"
   cr_bukey_events.4.desc: "来自伏尔加与乌拉尔间草原的消息：统治[SCOPE.sCharacter('last_bukey_sultan').GetCountry.GetName]的可汗[SCOPE.sCharacter('last_bukey_sultan').GetFirstName]已故。受过教育、优雅且忠于帝国的詹吉尔试图为人民带来秩序与学问。他建学校、自由贸易、遏制旧部落习俗。但如此做几乎让他失去王位——当叛乱旗帜因他的改革而升起，提醒我们变革在草原上并非总受欢迎。\n\n如今汗国群龙无首，前途未卜。有人认为无理由保留其旧自治；其他人主张谨慎，担心帝国之手压得太重会引发动荡。"
   cr_bukey_events.4.flavour: "可汗的宫殿在乌拉尔沙地上寂静无声；大门向风与历史敞开。"
-  cr_bukey_events.4.t_old: "最后的布基苏丹"
-  cr_bukey_events.4.desc_old: "曾经，伏尔加与乌拉尔间的草原回荡着无数游牧汗国的迁徙。这些迁徙在上世纪结束，因为它们对我们的巴什基尔臣民造成负担而被禁止。但边境多孔，‘非法’越界持续多年，让大片土地空旷未驯。\n\n直到1801年，苏丹布基获准携约7500户家庭定居，才为这片荒原带来生机。如今，随着布基苏丹的去世，这一章结束。根据他们当初定居时的效忠誓言，布基土地可合法回归帝国直接管辖。"
+  cr_bukey_events.4.t_old: "最后的内帐可汗"
+  cr_bukey_events.4.desc_old: "曾经，伏尔加与乌拉尔间的草原回荡着无数游牧汗国的迁徙。这些迁徙在上世纪结束，因为它们对我们的巴什基尔臣民造成负担而被禁止。但边境多孔，‘非法’越界持续多年，让大片土地空旷未驯。\n\n直到1801年，内帐可汗获准携约7500户家庭定居，才为这片荒原带来生机。如今，随着内帐可汗的去世，这一章结束。根据他们当初定居时的效忠誓言，内帐汗国土地可合法回归帝国直接管辖。"
   cr_bukey_events.4.flavour_old: "又一位边疆领主步入历史，随着他，旧草原秩序的最后痕迹消逝。"
-  cr_bukey_events.4.a: "为帝国收回布基土地。"
+  cr_bukey_events.4.a: "为帝国收回内帐汗国土地。"
   cr_bukey_events.4.b: "允许汗国自行选择继任者。"
 
   notification_cr_kazakh_harsh_rule_on_the_steppes_tooltip: "#header $notification_cr_kazakh_harsh_rule_on_the_steppes_name$#!\n$TOOLTIP_DELIMITER$\n$notification_cr_kazakh_harsh_rule_on_the_steppes_desc$"

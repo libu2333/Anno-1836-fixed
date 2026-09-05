@@ -1,4 +1,4 @@
-﻿ l_simp_chinese:
+ l_simp_chinese:
 
 
   ATI:0 "阿萨巴斯卡"
@@ -162,8 +162,8 @@
   MGK:0 "米南加保"
   MGK_ADJ:0 "米南加保"
 
-  BKH:0 "布基"
-  BKH_ADJ:0 "布基"
+  BKH:0 "布克依"
+  BKH_ADJ:0 "布克依"
 
 
 
@@ -227,10 +227,10 @@
   dyn_c_republic_NAN:0 "难府民主共和国"
   dyn_c_nan_empire:0 "难府王国"
 
-  dyn_c_societ_republic_BKH:0 "布基人民共和国"
-  dyn_shenquan_BKH:0 "布基神权国"
-  dyn_c_republic_BKH:0 "布基民主共和国"
-  dyn_c_bkh_empire:0 "布基酋长国"
+  dyn_c_societ_republic_BKH:0 "布克依人民共和国"
+  dyn_shenquan_BKH:0 "布克依神权国"
+  dyn_c_republic_BKH:0 "布克依共和国"
+  dyn_c_bkh_empire:0 "内帐汗国"
 
   dyn_c_societ_republic_KWT:0 "科威特人民共和国"
   dyn_shenquan_KWT:0 "科威特神权国"

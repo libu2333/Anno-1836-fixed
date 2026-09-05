@@ -422,7 +422,7 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_bukey_no_russian_support_medium:0 "被俄国抛弃"
  cr_bukey_has_russian_support_medium:0 "帝国主义干预"
  cr_bukey_has_russian_support_small:0 "帝国主义干预"
- cr_supporting_bukey_horde_modifier:0 "保护布凯汗"
+ cr_supporting_bukey_horde_modifier:0 "保护内帐可汗"
  cr_abandoned_bukey_horde_modifier:0 "拒绝保护属民"
  cr_steppe_russian_far_east:0 "远东"
  cr_fort_ross_modifier:0 "罗斯堡"

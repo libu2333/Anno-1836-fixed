@@ -701,7 +701,7 @@ minangkabau={
 	}
 }
 
-sundanese={												# TODO: Add more names
+sundanese={
 	color={ 73 65 27 }
 	religion = sunni
 	heritage = heritage_insulindian
@@ -713,17 +713,28 @@ sundanese={												# TODO: Add more names
 		Agoem
 		Asep
 		Ateng
+		Cecep
 		Dada
+		Dadang
+		Dedi
+		Dindin
 		Djoeanda
 		Djoehri
 		Ebet
 		Elfa
+		Eman
+		Engkos
+		Entis
 		Farid
 		Ginandjar
 		Hassan
+		Hendar
 		Jalak
+		Jajang
 		Machmud
+		Maman
 		Moeliana
+		Nana
 		Oemar
 		Oma
 		Otista
@@ -734,6 +745,9 @@ sundanese={												# TODO: Add more names
 		Soeharna
 		Soetisna
 		Taufik
+		Ujang
+		Yayan
+		Yusuf
 		Zaenal
 		Zaharsjah
 		
@@ -744,17 +758,27 @@ sundanese={												# TODO: Add more names
 
 	}
 	female_common_first_names = { #Cut Nyak Dhien - Atjeh
+		Ai
 		Dira
 		Erna
 		Erpi
+		Euis
 		Hartini
+		Iis
+		Imas
 		Itjih
+		Nenden
+		Neneng
 		Niji
 		Nining
 		Ratnaringrum
+		Rina
+		Siti
 		Tantri
+		Tati
 		Tjutju
 		Vina
+		Yanti
 		
 		Dewi
 	}	
@@ -765,44 +789,59 @@ sundanese={												# TODO: Add more names
 		Kartasasmita
 		Kartawidjaja
 		Koesoemaatmadja
+		Martanagara
 		Moeljadi_Sumaatmadja
+		Natadiningrat
+		Prawiranegara
 		Rajapermas
 		Sartika
 		Soenandar_Soenarja
 		Somanegara
+		Suriaatmadja
 		Wiradjoeda
 		Wirahadikoesoemah
+		Wiranatakusumah
 		Witoelar
 	}
 	common_last_names = {
 		Goemelar
 		Goeslaw
+		Gunawan
 		Hadajat
 		Hasboellah
+		Hidayat
 		Herjawan
 		Irama
+		Iskandar
 		Iskanderdinata
 		Kadaroesman
 		Kamasih
 		Kamil
+		Kusnadi
 		Koesoema
+		Mulyana
 		Masdjan
 		Monat
 		Natelegawa
 		Noerdjanah
 		Pandoewinata
+		Permana
 		Poetrambami
 		Radisti
+		Ramdan
 		Ratnadilla
 		Rosada
 		Rosidi
 		Sadikin
+		Saputra
 		Sastavijana
 		Setaistoeti
 		Soegandi
 		Soekaesih
 		Soerapranata
 		Soerjaningsih
+		Supriatna
+		Suryadi
 		Wahjoedi
 		Walinono
 		Woelansari
@@ -819,24 +858,34 @@ sundanese={												# TODO: Add more names
 	}
 }
 
-bariba= {			### TO DO - ADD MORE NAMES
+bariba= {
 	color= { 125 107 170 }
 	religion = animist #only started converting in the 1920s according to Wikipedia
 	heritage = heritage_guinean
 	language = language_bariba
 	male_common_first_names = {
 		Buku_Ya_Dari
+		Bani_Gando
+		Bio_Guera
+		Chabi_Mama
+		Dassi
+		Gounou
 		Gunu_Deke
 		Imoru
+		Kaba
 		Kirikuyba
 		Kituru
 		Kpe_Gounon
 		Kpe_Lafia
+		Kpe_Toni
 		Kusu
 		Kwada
+		Mama
+		Mora
 		Odo
 		Ourou
 		Sabi
+		Saka
 		Sero
 		Sime
 		Siru
@@ -845,6 +894,7 @@ bariba= {			### TO DO - ADD MORE NAMES
 		Suanru
 		Swaa
 		Wonkuru
+		Worou_Guene
 		Woru_Suru
 		Woru_Wari
 		Yakasu
@@ -853,9 +903,16 @@ bariba= {			### TO DO - ADD MORE NAMES
 	}
 	female_common_first_names = { 
 		Beru
+		Bani
 		Bonna
 		Buyon
+		Gnon
+		Kora
+		Mako
 		Sango
+		Saratu
+		Tani
+		Yari
 		Yoon
 		Yoonsa
 	}
@@ -865,18 +922,27 @@ bariba= {			### TO DO - ADD MORE NAMES
 		Bio_Doko
 		Gamabrou
 		Ginimu_Siku
+		Gounou
 		Kaba_Wouko
 		Kora_Bakarou
 		Kpera
+		Saka_Yerima
 		Tabuko
 		Taburufa
 		Tunku_Cessi
 	}
 	common_last_names = {
 		Chabi_Bio
+		Bani
 		Dekema
 		Dobidia
 		Dogo
+		Gando
+		Guera
+		Kora
+		Mama
+		Mora
+		Saka
 		Sessegnon
 		Sero
 		Sime
@@ -888,13 +954,15 @@ bariba= {			### TO DO - ADD MORE NAMES
 	seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_african.dds"
 }
 
-gbagyi= { ### TO DO - ADD MORE NAMES - I choose the Gbagyi over the Nupe as they are animist and I feel that is more interesting than adding the Muslim Nupe from an ingame perspective (in relation to slavery and discrimination).
+gbagyi= {
 	color= { 166 102 102 }
 	religion = animist
 	heritage = heritage_guinean
 	language = language_gwari
 	male_common_first_names = {
 		Adamilo
+		Abeshi
+		Adunu
 		Aganyi
 		Agbmada
 		Alaluma
@@ -904,11 +972,19 @@ gbagyi= { ### TO DO - ADD MORE NAMES - I choose the Gbagyi over the Nupe as they
 		Atagyanyigben 
 		Awushekwo
 		Awyetalumilon 
+		Audu
 		Badamasi
+		Bawa
 		Bez
+		Dangana
+		Gimba
+		Gwamna
+		Ishaya
 		Knagyina
 		Kpasoba 
+		Luka
 		Tagbanchei 
+		Tanko
 		Tumugye
 		Sanwiya
 		Sayilo
@@ -928,37 +1004,58 @@ gbagyi= { ### TO DO - ADD MORE NAMES - I choose the Gbagyi over the Nupe as they
 	female_common_first_names = { 
 		Ada
 		Agmadamilo
+		Asabe
 		Ayenaji 
 		Azeema
+		Binta
 		Bolatito
 		Dosei
 		Fenu
+		Hauwa
 		Iklimma
+		Lami
+		Laraba
 		Nana
+		Salamatu
+		Talatu
+		Zainabu
 	}
 	noble_last_names = {
 		Allolo
+		Awan
 		Ayenajeyi
 		Atuwa
 		Akunyaje
 		Babangida
+		Bawa
+		Dangana
+		Gwamna
 		Magakni
 		Nwamibwi
 		Pakachi
 		Pambelo
 		Toknucelon
+		Zakka
 		Zakwoyi
 	}
 	common_last_names = {
 		Bokosayi
 		Chiedu
+		Gida
+		Gimba
+		Gwagwa
 		Idakula
+		Izom
 		Kwali
+		Kuje
 		Ladoja
 		Manai
+		Paiko
 		Shekwosa
 		Snusnugye
 		Sobogun
+		Tafa
+		Zuba
 		Znagaje
 	}
 	ethnicities = {
@@ -968,7 +1065,7 @@ gbagyi= { ### TO DO - ADD MORE NAMES - I choose the Gbagyi over the Nupe as they
 	seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_african.dds"
 }
 
-nupe= { ### TO DO - ADD MORE NAMES - Okey... Maybe the Nupe are more appropriate in the end anyway...
+nupe= {
 	color= { 178 76 49 }
 	religion = sunni
 	heritage = heritage_guinean
@@ -977,16 +1074,20 @@ nupe= { ### TO DO - ADD MORE NAMES - Okey... Maybe the Nupe are more appropriate
 		Abd_al_Rahman
 		Abdulkadir
 		Abu_Bakr
+		Adamu
 		Alikolo
 		Aliyu
 		al_Nufawi
 		Ahmadu
 		Ahmed
 		Bello
+		Haruna
+		Ibrahim
 		Idris
 		Idris_Legbo
 		Iliyasu
 		Isa
+		Ismaila
 		Jibiri
 		Jimada
 		Ma_azu
@@ -995,6 +1096,7 @@ nupe= { ### TO DO - ADD MORE NAMES - Okey... Maybe the Nupe are more appropriate
 		Malam_Sa_idu
 		Malam_Umar
 		Maliki
+		Mahmud
 		Mamman
 		Masaba
 		Muhammadu
@@ -1002,30 +1104,47 @@ nupe= { ### TO DO - ADD MORE NAMES - Okey... Maybe the Nupe are more appropriate
 		Musa
 		Musa_Bello
 		Sarki
+		Saidu
 		Shehu
 		Shehu_Ahmadu
 		Suleiman
 		Tsado
 		Umar
 		Umaru_Majigi
+		Usman
 		Usuman_Zaki
 		Waziri
 		Yahaya
 	}
 	female_common_first_names = {
 		Aisha
+		Asmau
+		Binta
 		Fatima 
 		Habiba
 		Hadiza
+		Hafsatu
+		Hauwa
+		Khadija
+		Mariam
+		Rabi
+		Rahmatu
+		Safiya
 		Zainab		
 	}
 	noble_last_names = {	#dan seems to mean son/child of...
 		dan_Malam_Dendo
+		dan_Abdulkadir
+		dan_Ahmadu
+		dan_Bello
 		dan_Maliki
+		dan_Majiya
 		dan_Masaba
 		dan_Muhamman_Majigi
 		dan_Umaru_Majigi
 		dan_Usman_Zaki
+		Etsu_Bida
+		Etsu_Lapai
 		Makama_Bida
 		Ndayako_dan_Muhammadu
 		dan_Malam_Sa_idu
@@ -1033,20 +1152,25 @@ nupe= { ### TO DO - ADD MORE NAMES - Okey... Maybe the Nupe are more appropriate
 	}
 	common_last_names = {
 		Abubakar
+		Agaie
 		Bahaushe
 		Bagudu
 		Bantigi
 		Chacha
 		Dendo
 		Enagi
+		Etsu
 		Gana
 		Kolo
 		Kure
+		Katcha
 		Kutigi
 		Lafiagi
+		Lapai
 		Lemu
 		Lolo
 		Majigi
+		Mokwa
 		Ndanusa_Isaiah
 		Ndagi
 		Nnadoko
@@ -1059,6 +1183,7 @@ nupe= { ### TO DO - ADD MORE NAMES - Okey... Maybe the Nupe are more appropriate
 		Tsatsa
 		Umar_Bago
 		Vatsa
+		Wuya
 		Yahaya
 	}
 	ethnicities = {
@@ -1592,5 +1717,3 @@ ker={
 	}
 	graphics = east_asian
 }
-
-

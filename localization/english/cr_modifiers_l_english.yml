@@ -390,7 +390,7 @@ state_pop_support_movement_federalist_mult: "$state_pop_support_movement_federal
  cr_steppe_clan_warfare:0 "Clan Warfare"
  cr_steppe_seperating_the_herds:0 "Seperating the Herds"
  cr_steppe_cattle_raiding:0 "Cattle Raiding"
- cr_steppe_returning_the_bride:0 "Returning the Bride
+ cr_steppe_returning_the_bride:0 "Returning the Bride"
  cr_steppe_bride_kidnapping:0 "Bridenappings"
  cr_steppe_increase_cossack_patrols_national:0 "Increased Cossack Patrols"
  cr_steppe_kazakh_magistrates:0 "Office of Kazakh Magistrates"

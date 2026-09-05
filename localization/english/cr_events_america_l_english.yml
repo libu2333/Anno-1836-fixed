@@ -890,3 +890,6 @@
  mexican_nfm.1.d: "With Mexico at war against the United States, American settlers in California have raised their own banner and proclaimed an independent republic."
  mexican_nfm.1.f: "A crude flag can still announce a new order."
  mexican_nfm.1.a: "The bear flag flies."
+
+ cr_mexico_events.15.a:0 "Keep watching developments in the north."
+ cr_mexico_events.15.b:0 "Leave them be."

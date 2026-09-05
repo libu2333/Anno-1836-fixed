@@ -1,5 +1,7 @@
 ﻿l_english:
  #TAGs
+ MOI:0 "Montagnards"
+ MOI_ADJ:0 "Montagnard"
  ABS:0 "Crow"
  STATE_KIRGHIZIA:0 "North Kirghizia"
  ACE:0 "Atjeh"
@@ -168,3 +170,5 @@
 
  RULER_TITLE_SHEIKH:0 "Sheikh"
  RULER_TITLE_SHAYKHAH:0 "Shaykhah"
+
+ STATE_LIBYAN_DESERT:0 "Libyan Desert"

@@ -62,7 +62,7 @@
  cr_carlist_events.1.b_tt2:0 "[GetPopType('peasants').GetName] and [GetPopType('farmers').GetName] attraction to the [SCOPE.sPoliticalMovement('carlist_movement').GetName] will be weakend."
  cr_carlist_events.1.c:0 "Can we really afford to make an enemy out of the [SCOPE.gsInterestGroup('cr_spanish_catholic_church').GetNameNoIcon]?"
  cr_carlist_events.1.c_tt:0 "The process of land confiscation will be halted, and no Church land will be sold off."
- cr_carlist_events.1.c_tt2:0 "[GetPopType('clergymen').GetName] attraction to the [SCOPE.sPoliticalMovement('carlist_movement').GetName] will be weakend
+ cr_carlist_events.1.c_tt2:0 "[GetPopType('clergymen').GetName] will be less attracted to [SCOPE.sPoliticalMovement('carlist_movement').GetName]."
 
 
  cr_carlist_events.10.t:0 "The Embrace of Vergara"
@@ -87,7 +87,7 @@
 
  cr_carlist_events.15.desc_orleanist_flavour:0 "Though cousin to [SCOPE.sCountry('don_carlos_exile_country').GetRuler.GetHerHis|U] Majesty King [SCOPE.sCountry('don_carlos_exile_country').GetRuler.GetFirstNameNoFormatting], he represents a vision of monarchy long since cast aside: absolutist, theocratic, unyielding. His very presence is a quiet rebuke to the compromise the July Monarchy embodies. While some whisper of royal solidarity, others see only a ghost of reaction, haunting a France striving to move forward."
 
- cr_carlist_events.exile_of_bourgos:0 "Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting] will be confined to #variable Bourges#!
+ cr_carlist_events.exile_of_bourgos:0 "Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting] will be placed under house arrest in #variable Bourges#!"
  cr_carlist_events.exile_place:0 "Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting] will be confined to #variable [SCOPE.sState('don_carlos_exile_state').GetFarmHubName]#!"
  cr_carlist_events.reject_refuge:0 "Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting] will be expelled and forced to find refuge elsewhere."
 
@@ -356,7 +356,7 @@
  cr_carlist_events.70.desc_non_absolutist:0 "Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting], the vanquished claimant to the [SCOPE.sCountry('spain').GetAdjectiveNoFlag] throne and erstwhile champion of absolutism, has arrived in our kingdom seeking refuge. His defeat marks not just the end of a campaign, but the twilight of a cause—one rooted in an unyielding vision of monarchy and divine right.\n\nThough we subscribe to the devine sanction of monarchy, guided by tradition and faith, our nation has walked a different path: one tempered by reform, rule of law, and a growing respect for liberty. To offer shelter to Don Carlos is to extend fraternal courtesy; to embrace his ideology, however, is another matter. He stands as a symbol not only of fallen thrones, but of absolutism in its most rigid form. Is there room in our kingdom for such a man—or is his presence a burden we cannot afford?"
  cr_carlist_events.70.flavour_no_absolutist:0 "To some, Don Carlos is an exiled prince deserving sympathy and shelter. But to others, he is a shadow from an older, harsher world. His presence stirs unease in salons and taverns alike: will he inspire zealots of the old absolutist order? Or will his cause, already discredited abroad, contaminate our own fragile balance between crown and constitution? While the crown grants him quarters, many whisper that he brings not just memories of war, but the threat of reaction clothed in royal dignity."
 
- cr_carlist_events.70.desc_prev_rejected:0 "After being turned away from courts across Europe, Don [SCOPE.sCharacter('don_carlos_char').GetFirstName], the exiled pretender to the [SCOPE.sCountry('spain').GetAdjectiveNoFlag] throne, has sought sanctuary within our borders. His arrival in [SCOPE.sState('don_carlos_arrival_location').GetPortHubName]—far from the halls of power he once dreamed to claim—places before us a difficult question.\n\nWhile our nation remains faithful to God, Throne, and Tradition, Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting] represents the extremity of this belief. Is this the path we wish to follow, or does his presence mark a warning against clinging too tightly to reaction?
+ cr_carlist_events.70.desc_prev_rejected:0 "Rejected by one European court after another, Don [SCOPE.sCharacter('don_carlos_char').GetFirstName], the exiled pretender to the [SCOPE.sCountry('spain').GetAdjectiveNoFlag] throne, has sought refuge within our borders. His arrival in [SCOPE.sState('don_carlos_arrival_location').GetPortHubName], far from the halls of power he once dreamed of entering, presents us with a difficult question.\n\nOur country has always remained faithful to God, throne, and tradition, and Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting] embodies that faith in its most extreme form. Is this the path we wish to follow? Or does his presence warn us against clinging too tightly to reaction?"
  cr_carlist_events.70.flavour_prev_rejected:0 "His cause is spent, yet his symbolism endures—a reminder of the turbulent age we navigate between absolutism and reform. As we consider his request, the eyes of Europe watch closely, and so too do the voices within our own society, divided between hope for renewed strength and fear of unrest."
 
  cr_carlist_events.70.desc_orleanist_rejected:0 "After being turned away by his cousin [SCOPE.sCountry('don_carlos_exile_rejected').GetRuler.GetPrimaryRoleTitle] [SCOPE.sCountry('don_carlos_exile_rejected').GetRuler.GetFirstName]—a monarch who has made peace with the currents of liberalism—Don [SCOPE.sCharacter('don_carlos_char').GetFirstName], the exiled pretender to the [SCOPE.sCountry('spain').GetAdjectiveNoFlag] throne, has sought sanctuary within our borders. His arrival in [SCOPE.sState('don_carlos_arrival_location').GetPortHubName] places before us a difficult question.\n\nWhile our nation remains faithful to God, Throne, and Tradition, Don [SCOPE.sCharacter('don_carlos_char').GetFirstNameNoFormatting] represents the extremity of this belief. Is this the path we wish to follow, or does his presence mark a warning against clinging too tightly to reaction, especially when even other Bourbon crowns bend to the winds of change?"
@@ -409,7 +409,7 @@
  cr_carlist_events.74.a_carlist_supremacy:0 "Reject their demands outright—The war continues!"
  cr_carlist_events.74.a_carlist_supremacy_tt:0 "We will not negotiate with such insulting and impossible terms. [SCOPE.sCountry('spain').GetRuler.GetPrimaryRoleTitle] [SCOPE.sCountry('spain').GetRuler.GetFirstNameNoFormatting]'s claim is inviolable, and we will continue to fight until every Carlist rebel is defeated and our kingdom is truly unified under its legitimate sovereign."
  cr_carlist_events.74.b_carlist_supremacy:0 "Accept the proposal... for the sake of peace."
- cr_carlist_events.74.b_carlist_supremacy_tt:0 "The war has taken a terrible toll. While the Carlist demand is an insult, if accepting it means an end to the bloodshed and a chance for the nation to heal, we must accept this difficult path.
+ cr_carlist_events.74.b_carlist_supremacy_tt:0 "The war has exacted a terrible toll. Although Carlos's demands are an insult, if accepting them ends the bloodshed and gives the country a chance to heal, we must take this difficult path."
 
  #Isabelist event for Don Carlos compromising and accepting Isabel as queen
  cr_carlist_events.74.t_carlos_compromise:0 "A Throne Shared?"
@@ -418,7 +418,7 @@
  cr_carlist_events.74.a_carlist_compromise:0 "Accept the proposal—Spain must be whole again"
  cr_carlist_events.74.a_carlist_compromise_tt:0 "We accept the joint reign of Queen [SCOPE.sCountry('spain').GetRuler.GetFirstNameNoFormatting] and Don [SCOPE.sCharacter('carlos_luis_char').GetFirstNameNoFormatting]. This compromise may end the civil war and unite the Spanish Crown, though it means sharing royal authority."
  cr_carlist_events.74.b_carlist_compromise:0 "Reject it—Spain needs no rival sovereign."
- cr_carlist_events.74.b_carlist_compromise_tt:0 "We reject the notion of a shared monarchy. The Crown is indivisible, and Queen [SCOPE.sCountry('spain').GetRuler.GetFirstNameNoFormatting] will not share it with the son of a pretender.
+ cr_carlist_events.74.b_carlist_compromise_tt:0 "We reject the idea of a shared monarchy. The crown is indivisible, and Queen [SCOPE.sCountry('spain').GetRuler.GetFirstNameNoFormatting] will not share it with a pretender's son."
 
  #Isabelist event for Don Carlos to become regent
  cr_carlist_events.74.t_carlos_regent:0 "The Crown in Carlos' Care?"
@@ -581,8 +581,8 @@
  cr_slavery_events.10.b: "End slavery on the [SCOPE.sState('slavery_state').GetNameNoFormatting]."
  cr_slaves_freed_in_state_tt: "All [GetPopType('slaves').GetName] in [SCOPE.sState('slavery_state').GetName] will be emancipated."
  cr_slavery_events.10.c: "Appeal to France for cooperation."
- cr_slavery_events.10.c_tt1: "This will consume our [concept_obligation] on [SCOPE.sCountry('slave_emancipator').GetName] but will prevent any [GetPopType('slaves').GetName] from leaving the [SCOPE.sState('slavery_state').GetName].
- cr_slavery_events.10.c_tt2: "Depending on the [SCOPE.sCountry('slave_emancipator').GetAdjective] response either no [GetPopType('slaves').GetName] or half of all [GetPopType('slaves').GetName] will leave the [SCOPE.sState('slavery_state').GetName].
+ cr_slavery_events.10.c_tt1:0 "This will consume our [concept_obligation] from [SCOPE.sCountry('slave_emancipator').GetName], but prevent any [GetPopType('slaves').GetName] from leaving [SCOPE.sState('slavery_state').GetName]."
+ cr_slavery_events.10.c_tt2:0 "Depending on the [SCOPE.sCountry('slave_emancipator').GetAdjective] response, either no [GetPopType('slaves').GetName] will leave, or half of the [GetPopType('slaves').GetName] will leave [SCOPE.sState('slavery_state').GetName]."
 
  cr_slavery_events.11.t: "A Tale of Two Islands"
  cr_slavery_events.11.desc: "Our abolition of slavery is beginning to echo beyond our own borders. On the island of #variable Saint Martin#!—an island in the [SCOPE.sState('slavery_state').GetStateRegion.GetName] shared with the [SCOPE.sCountry('slave_country').GetAdjectiveNoFlag] since 1648—the divide between bondage and freedom has become impossible to contain.\n\nWith only a few kilometres and an arbitrary boundary separating slave from free, slaves have steadily crossed onto our side of the island, where emancipation is guaranteed by [SCOPE.sCountry('slave_emancipator').GetAdjectiveNoFormatting] law. Unable to halt this quiet exodus—and unwilling to sustain a system rendered unworkable by our example—the [SCOPE.sCountry('slave_country').GetAdjectiveNoFormatting] have been compelled to abolished slavery on their half of the island."

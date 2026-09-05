@@ -43,21 +43,21 @@
 
  cr_kazakh_events.3.t: "The Steppe Unites"
  cr_kazakh_events.3.desc: "The years have passed, and the steppe has not yielded. Each expedition rode out with banners high and returned weary, its victories fading like dust in the wind. Now, as our strength wanes and our presence recedes, Kenesary’s name carries weight beyond any single clan. One by one, the auls turn to him—not out of defiance, but because no other power remains to heed them."
- cr_kazakh_events.3.flavour: "The empire lost its way in the grass, and the steppe found its voice.”
- cr_kazakh_events.3.a: "The steppe, long divided, has found its center.”
- cr_kazakh_events.3.b: "The steppe will remember this day.”
+ cr_kazakh_events.3.flavour:0 "The empire lost its way in the sea of grass, and the steppe found its voice."
+ cr_kazakh_events.3.a:0 "The long-divided steppe has finally found a center."
+ cr_kazakh_events.3.b:0 "The steppe will remember this day."
 
  cr_kazakh_events.4.t: "The Khan of the Reborn Steppe"
  cr_kazakh_events.4.desc: "As turmoil grips the empire, Kenesary’s call echoes louder across the plains. Russian forts stand half-abandoned, their garrisons drawn away by civil strife. Into this void rides Kenesary, uniting the scattered clans under one banner. Where once he was a fugitive, he now rides as a sovereign—his horsemen guarding the steppe from the Ural to the Syr Darya."
- cr_kazakh_events.4.flavour: "When the empire turns inward, the steppe looks to its own.”
- cr_kazakh_events.4.a: "The frontier is lost, for now.”
- cr_kazakh_events.4.b: "The steppe will remember this day.”
+ cr_kazakh_events.4.flavour:0 "When the empire turns inward, the steppe can rely only on itself."
+ cr_kazakh_events.4.a:0 "The frontier is lost for now."
+ cr_kazakh_events.4.b:0 "The steppe will remember this day."
 
  cr_kazakh_events.5.t: "The Khan of the Reborn Steppe"
  cr_kazakh_events.5.desc: "With Russia’s strength diminished and her influence waning, the grip on the steppe weakens. The forts crumble, the Cossack patrols grow scarce, and the Kazakh clans reclaim their old grazing grounds. In the vacuum left behind, Kenesary’s name once more stirs hearts—a symbol of resistance reborn as empire falters."
- cr_kazakh_events.5.flavour: "Where the eagle no longer flies, the wolf returns.”
- cr_kazakh_events.5.a: "Our reach no longer extends that far.”
- cr_kazakh_events.5.b: "The steppe remembers who it once belonged to.”
+ cr_kazakh_events.5.flavour:0 "Where the eagle no longer soars, the wolves return."
+ cr_kazakh_events.5.a:0 "Our power no longer reaches this far."
+ cr_kazakh_events.5.b:0 "The steppe remembers to whom it once belonged."
 
 
  cr_kazakh_events.10.t: "Unrest on the Steppe"
@@ -157,7 +157,7 @@
  cr_kazakh_events.33.c: "Ignore the matter—it is beneath our concern."
 
  cr_kazakh_events.34.t: "The Movement of the Seasons"
- cr_kazakh_events.34.desc: "The Kazakh clans of [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] are on the move again. A harsh winter, failed pastures, or renewed quarrels have driven families to seek new grazing grounds. Each migration blur the lines of our maps and risks unsettling the fragile balance of the frontier.
+ cr_kazakh_events.34.desc:0 "The Kazakh clans of [SCOPE.sState('kazak_event_neighbour_state').GetStateRegion.GetName] are migrating once again. Harsh winters, poor pastures, or new disputes drive families to seek fresh grazing grounds. Each migration blurs the lines on our maps and threatens the fragile balance of the frontier."
  cr_kazakh_events.34.desc_old: "The Kazakh is never still. Even when settled, he dreams of the open plain. A harsh winter, a poor grazing season, or the quarrel of two clans can set whole families in motion overnight. They say a man without a herd is like a man without a shadow, and so they wander in search of grass, water, and freedom.\n\nEach migration unsettles the borders we draw, and every caravan lost to raiders brings new petitions for intervention. The steppe shifts beneath our feet, and with it, our grasp upon it."
  cr_kazakh_events.34.flavour: "The Kazakh is never still. Even when settled, he dreams of the open plain. A harsh winter, a poor season, or the quarrel of two clans can set whole families in motion overnight. They say a man without a herd is like a man without a shadow, and so they wander in search of grass, water, and freedom."
  cr_kazakh_events.34.a: "Send more patrols to enforce order."

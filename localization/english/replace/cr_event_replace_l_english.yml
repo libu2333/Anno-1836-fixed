@@ -97,3 +97,5 @@
  notification_texan_war_of_independence_autonomy_and_exiles_tooltip: "#header $notification_texan_war_of_independence_autonomy_and_exiles_name$#!\n$TOOLTIP_DELIMITER$\n$notification_texan_war_of_independence_autonomy_and_exiles_desc$"
  notification_texan_war_of_independence_autonomy_no_exiles_name: "[SCOPE.sCountry('mexico_scope').GetName] Grants Autonomy!"
  notification_texan_war_of_independence_autonomy_no_exiles_desc: "Following  [SCOPE.sCountry('mexico_scope').GetName] victory over us, they have agreed to grant internal autonomy and decided to allow leaders of the rebellion to remain in the province."
+
+ russo_chinese.2.f:0 "Our immediate priority is to unite the Kazakhs, Kyrgyz, and Tajiks, these three loyal Russian dependencies, within a single country, securing the region and ending the depredations of bandits and thieves."

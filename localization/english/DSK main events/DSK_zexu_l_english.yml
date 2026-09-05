@@ -21,7 +21,7 @@ je_dsk_zexu_main_reason: "[ROOT.GetCountry.GetRuler.GetFullName] has traveled to
 
 
 
-enough_gbr_zexu_union_var: "#v Having enough points! #!
+ enough_gbr_zexu_union_var:0 "#v Have enough points#!"
 
 
 
@@ -101,7 +101,6 @@ gbr_zexu_union_stronger_button_3: "British-approved bilateral trade"
 gbr_zexu_union_stronger_button_3_desc: "Including Britain in the Most Favored Nation list"
 gbr_zexu_union_stronger_modifier: "British-approved bilateral trade"
 
-enough_gbr_zexu_union_var: "#v Having enough points! #!
 
 je_dsk_zexu_conquer_mol: "The Romanian Question"
 
@@ -168,7 +167,7 @@ military_help_china_button_desc: "Provide military aid to China. This action wil
 je_dsk_annex_Scandinavia: "Nordic Conquest, Dominating the Icefields"
 je_dsk_annex_Scandinavia_reason: "The Zesh Eurasian United States has set its sights on the Nordic region. This land is covered in ice and snow, but possesses abundant fishery resources and a crucial strategic location. The Zesh Empire has formed a special force adapted to polar climate warfare. They travel in specially designed icebreakers and sleds towards Denmark, Norway, Sweden, and Finland. Through a series of skillful diplomatic maneuvers to divide the alliances of these nations, coupled with military strikes, they gradually conquer the Nordic countries, incorporating the Nordic region into the United States' territory and further expanding their influence in Northern Europe."
 
-no_Scandinavia_anymore_tt: "#o Sweden#!, #o Finland#!, #o Norway#!, #o Denmark has been annexed by us! no_russia_anymore_tt: [SCOPE.sCountry('rus_scope').GetName] has been annexed by us!
+ no_Scandinavia_anymore_tt:0 "We have annexed #o Sweden#!, #o Finland#!, #o Norway#!, and #o Denmark#!!"
 
 dsk_zexu.21.t: "The Republic of China was founded"
 
@@ -219,7 +218,7 @@ je_dsk_annex_south_Europe: "Conquest of Southern Europe, Cultural Infiltration"
 
 je_dsk_annex_south_Europe_reason: "The conquest of Southern Europe adopted a relatively mild strategy."
 
-je_dsk_annex_south_Europe_goal: "When #o When Germany #! does not exist, the progress bar advances by #v 1#! points per month. When neither #o Germany #! nor #o Austria #! exists, the progress bar advances by #v 2#! points per month.
+ je_dsk_annex_south_Europe_goal:0 "When #o Germany#! does not exist, the progress bar advances by #v 1#! point each month. When neither #o Germany#! nor #o Austria#! exists, it advances by #v 2#! points each month."
 
 annex_south_Europe_button: "annexed the Italian states"
 annex_south_Europe_button_desc: "Time's up, welcome Italy to join us"
@@ -325,7 +324,7 @@ je_dsk_zexu_pops_reason: "Rational management of Europe's population. Encouragin
 
 lion_of_pops_modifier: "Population Management, Balanced Development"
 
-dyn_c_asia_europe_ZEXU: "Zexu Eurasian United States"
+dyn_c_asia_europe_ZEXU: "United States of Zexu-Eurasia"
 
 dyn_c_ZEXU_empire: "Zexu Empire"
 
@@ -336,3 +335,69 @@ dsk_zexu.29.d: "Hong Xiuquan's Visit Seeks to Rely on Us to Resist the Qing Dyna
 dsk_zexu.29.f: "The Taiping Heavenly Kingdom is at a Crucial Stage of Revolution"
 
 dsk_zexu.29.a: "Support Hong Xiuquan's Launch of the Taiping Rebellion"
+
+ je_war_with_rus_tt:0 "War has broken out between the Ottoman and Russian Empires"
+ dsk_zexu.5.a:0 "Accept the marriage proposal."
+ dsk_zexu.6.t:0 "A Wedding with the British Queen"
+ dsk_zexu.6.d:0 "A marriage across the Channel will bind the fates of our two countries more closely."
+ dsk_zexu.6.f:0 "[SCOPE.sCharacter('gbr_queen_scope').GetFirstName] is willing to marry [ROOT.GetCountry.GetRuler.GetFullName]."
+ dsk_zexu.6.a:0 "Hold the wedding."
+ lion_of_england_modifier:0 "Lion of England"
+ dsk_zexu.7.t:0 "Romanian Uprising"
+ dsk_zexu.7.d:0 "The Romanians seek to rebuild their country."
+ dsk_zexu.7.f:0 "Moldavia and Wallachia have formed an alliance. Their envoys have traveled frequently to Russia, securing the Russian Empire's support, and they have resolved to rise in revolt."
+ dsk_zexu.7.a:0 "Romanian Uprising"
+ je_rom_killer:0 "Imperial Ambition"
+ je_rom_killer_reason:0 "The union of Wallachia and Moldavia poses a serious threat to [SCOPE.GetRootScope.GetCountry.GetName]. We must take both territories from the Ottomans to remove this danger."
+ dsk_zexu.8.t:0 "Romanian Submission"
+ dsk_zexu.8.d:0 "We have defeated the Ottoman Empire and occupied Bucharest and Jassy."
+ dsk_zexu.8.f:0 "The soldiers of [SCOPE.GetRootScope.GetCountry.GetName] have earned victory through their valor."
+ dsk_zexu.8.a:0 "Accept the Romanians' submission."
+ je_dsk_immigrant:0 "Immigration Bureau"
+ je_dsk_immigrant_reason:0 "The growth of our population depends on orderly immigration policies and administrative institutions."
+ dsk_zexu.10.t:0 "The Romanian Crown"
+ dsk_zexu.10.d:0 "Following negotiations with the Romanians, [ROOT.GetCountry.GetRuler.GetFullName] has decided to welcome them."
+ dsk_zexu.10.f:0 "The Romanian war has ended. Should we bring this territory under direct rule, or preserve peace through a conciliatory policy?"
+ dsk_zexu.10.a:0 "Place Romania under the duchy's direct rule."
+ dsk_zexu.10.b:0 "Respect their autonomy to reassure the people."
+ je_dsk_crimea:0 "Triumph in Crimea"
+ je_dsk_crimea_reason:0 "We must help the Ottomans win the Crimean War. Otherwise, our present strength is insufficient to deter the surrounding peoples."
+ dsk_zexu.12.t:0 "The Bulgarian Crown"
+ dsk_zexu.12.d:0 "The valor of [SCOPE.GetRootScope.GetCountry.GetName] in the Crimean War has dealt another setback to the Russian Empire."
+ dsk_zexu.12.f:0 "As a reward, [SCOPE.sCountry('tur_scope').GetName] has entrusted Bulgaria to our administration."
+ dsk_zexu.12.a:0 "The Bulgarian Crown"
+ je_dsk_zexu_army:0 "National Reform"
+ je_dsk_zexu_army_reason:0 "National reform is both an urgent task for development and the foundation of prosperity and strength."
+ je_dsk_zexu_colony:0 "Overseas Colonies"
+ je_dsk_zexu_colony_reason:0 "The great powers compete overseas. If we are to expand our resources and influence, we cannot stand aside."
+ je_dsk_zexu_danube:0 "Master of the Danube"
+ je_dsk_zexu_danube_reason:0 "The Austrian Empire is weakening. The time has come to contest leadership of the Danube basin."
+ hungarian_rise_button:0 "Encourage Hungarian Independence"
+ hungarian_rise_button_desc:0 "Encourage Hungarian Independence"
+ annex_hungarian_button:0 "Annex Hungary"
+ annex_hungarian_button_desc:0 "Unite with Hungary"
+ je_dsk_zexu_ukr:0 "Master of Ukraine"
+ je_dsk_zexu_ukr_reason:0 "Russian rule over Ukraine is being questioned. We can use this opportunity to win local support and leadership."
+ dsk_zexu.13.t:0 "Successful National Reform"
+ dsk_zexu.13.d:0 "With our laws and government institutions reorganized, reform is finally bearing fruit."
+ dsk_zexu.13.f:0 "National development is finding its footing. Railways and public transport spread across the country; we have moved ahead of many other nations."
+ dsk_zexu.13.a:0 "Successful National Reform"
+ dsk_zexu.14.t:0 "An Overseas Colonial Empire"
+ dsk_zexu.14.d:0 "As the great powers compete overseas, we too must participate in pursuit of resources and influence."
+ dsk_zexu.14.f:0 "Britain, France, America, Germany, and the Netherlands all possess overseas outposts. We cannot remain behind forever."
+ dsk_zexu.14.a:0 "Embrace colonial expansion and extend our influence in Europe."
+ dsk_zexu.15.t:0 "The Danubian Crown"
+ dsk_zexu.15.d:0 "The expansion of [SCOPE.GetRootScope.GetCountry.GetName]"
+ dsk_zexu.15.f:0 "Recurring unrest in the Austrian Empire has allowed us to incorporate the Danube region into [SCOPE.GetRootScope.GetCountry.GetName]. Yet opposition forces still seek to sow discord and divide the country. We must not lower our guard."
+ dsk_zexu.15.a:0 "Austria's decline is now inevitable."
+ dsk_zexu.16.t:0 "The Ukrainian Crown"
+ dsk_zexu.16.d:0 "With [ROOT.GetCountry.GetRuler.GetFullName] having defeated Russia, Ukraine's future lies in our hands."
+ dsk_zexu.16.f:0 "With Russia defeated, we can build a federation with the Ukrainians, or look toward a wider Europe and seek an unprecedented unified order."
+ dsk_zexu.16.a:0 "Make European unification our national goal."
+ dsk_zexu.20.a:0 "Long live [SCOPE.GetRootScope.GetCountry.GetName]!"
+ no_russia_anymore_tt:0 "We have annexed [SCOPE.sCountry('rus_scope').GetName]!"
+ dsk_zexu.22.a:0 "Long live [SCOPE.GetRootScope.GetCountry.GetName]!"
+ dsk_zexu.24.a:0 "Long live [SCOPE.GetRootScope.GetCountry.GetName]!"
+ dsk_zexu.25.a:0 "Long live [SCOPE.GetRootScope.GetCountry.GetName]!"
+ je_dsk_zexu_art_reason:0 "The United States of Zexu-Eurasia launches a cultural renaissance across Europe, encouraging artists, writers, and historians to explore the continent's rich cultural heritage and blend it with the distinctive culture of the Zexu Empire."
+ je_dsk_zexu_environment_reason:0 "In international affairs, the United States of Zexu-Eurasia speaks for all of Europe. Through diplomacy, it builds an international order centered on itself. In negotiations and treaties, it exercises formidable diplomatic dominance, ensuring that Europe appears on the world stage as a single whole and achieving European diplomatic unity."

@@ -54,13 +54,13 @@
  dyn_c_republic_AYN:0 "Ainu Democratic Republic"
  dyn_c_jzz_AYN:0 "Ainu Tribe"
 
- dyn_c_societ_republic_BED:0 "Baltistan People's Republic"
- dyn_shenquan_BED:0 "Baltistan Tibetan Theocracy"
- dyn_c_republic_BED:0 "Baltistan Republic"
+ dyn_c_societ_republic_BED:0 "Balti People's Republic"
+ dyn_shenquan_BED:0 "Balti Tibetan Buddhist Theocracy"
+ dyn_c_republic_BED:0 "Balti Republic"
  dyn_c_jzz_BED:0 "Baltistan"
 
 
- dyn_c_gsk_empire:0 "Cossack Host"
+ dyn_c_gsk_empire:0 "Cossack Duchy"
 
  dyn_c_societ_republic_NCR:0 "Homer Socialist Republic"
  dyn_shenquan_NCR:0 "Homer Theocracy"
@@ -102,7 +102,7 @@
  dyn_c_societ_republic_GSK:0 "Cossack Socialist Union"
  dyn_shenquan_GSK:0 "Cossack Theocracy"
  dyn_c_republic_GSK:0 "Cossack Mercenary Host"
- dyn_c_jzz_GSK:0 "Cossack Host"
+ dyn_c_jzz_GSK:0 "Cossack Duchy"
 
  dyn_c_societ_republic_YUM:0 "Khoqand Socialist Union"
  dyn_shenquan_YUM:0 "Khoqand Theocracy"
@@ -147,7 +147,7 @@
  KWT_ADJ:0 "Kuwaiti"
 
  FZN:0 "Fezzan"
- FZN_ADJ:0 "Fezzan"
+ FZN_ADJ:0 "Fezzani"
 
  MGK:0 "Minangkabau"
  MGK_ADJ:0 "Minangkabau"
@@ -198,20 +198,20 @@
  dyn_c_republic_FZN:0 "Fezzan Democratic Republic"
  dyn_c_fzn_empire:0 "Fezzan Chiefdom"
 
- dyn_c_societ_republic_MUP:0 "Mengpan People's Republic"
- dyn_shenquan_MUP:0 "Mengpan Theocracy"
- dyn_c_republic_MUP:0 "Mengpan Democratic Republic"
- dyn_c_mup_empire:0 "Kingdom of Mengpan"
+ dyn_c_societ_republic_MUP:0 "Mong Pan People's Republic"
+ dyn_shenquan_MUP:0 "Mong Pan Theocracy"
+ dyn_c_republic_MUP:0 "Mong Pan Democratic Republic"
+ dyn_c_mup_empire:0 "Kingdom of Mong Pan"
 
  dyn_c_societ_republic_NAN:0 "Nan Prefecture People's Republic"
  dyn_shenquan_NAN:0 "Nan Prefecture Theocracy"
  dyn_c_republic_NAN:0 "Nan Prefecture Democratic Republic"
  dyn_c_nan_empire:0 "Kingdom of Nan Prefecture"
 
- dyn_c_societ_republic_BKH:0 "Buki People's Republic"
- dyn_shenquan_BKH:0 "Buki Theocracy"
- dyn_c_republic_BKH:0 "Buki Democratic Republic"
- dyn_c_bkh_empire:0 "Buki Chiefdom"
+ dyn_c_societ_republic_BKH:0 "People's Republic of the Inner Horde"
+ dyn_shenquan_BKH:0 "Inner Horde Theocracy"
+ dyn_c_republic_BKH:0 "Inner Horde Republic"
+ dyn_c_bkh_empire:0 "Inner Horde Khanate"
 
  dyn_c_societ_republic_KWT:0 "Kuwait People's Republic"
  dyn_shenquan_KWT:0 "Kuwait Theocracy"
@@ -436,7 +436,7 @@
 
  dyn_c_societ_republic_JUS:0 "American People's Republic"
  dyn_shenquan_JUS:0 "American Theocracy"
- dyn_c_republic_JUS:0 "United Republic of America"
+ dyn_c_republic_JUS:0 "Federal Republic of America"
  dyn_c_jzz_JUS:0 "American Empire"
 
  GUO:0 "Kokang"
@@ -445,8 +445,8 @@
  HLJ:0 "Heilongjiang General"
  HLJ_ADJ:0 "Heilongjiang"
 
- BFJ:0 "Uriyastai General"
- BFJ_ADJ:0 "Uriyastai"
+ BFJ:0 "Uliastai General"
+ BFJ_ADJ:0 "Uliastai"
 
  dyn_c_societ_republic_BFJ:0 "Uriyastai People's Republic"
  dyn_shenquan_BFJ:0 "Uriyastai Theocracy"
@@ -508,10 +508,10 @@
  dyn_c_republic_BLT:0 "Burut Republic"
  dyn_c_jzz_BLT:0 "Burut Khanate"
 
- dyn_c_societ_republic_LDK:0 "Ladakh People's Republic"
- dyn_shenquan_LDK:0 "Ladakh Theocracy"
- dyn_c_republic_LDK:0 "Ladakh Republic"
- dyn_c_jzz_LDK:0 "Kingdom of Ladakh"
+ dyn_c_societ_republic_LDK:0 "Landak People's Republic"
+ dyn_shenquan_LDK:0 "Landak Theocracy"
+ dyn_c_republic_LDK:0 "Landak Republic"
+ dyn_c_jzz_LDK:0 "Kingdom of Landak"
 
  dyn_c_societ_republic_DAIYAN:0 "Daiyan Socialist Union"
  dyn_shenquan_DAIYAN:0 "Daiyan Theocracy"
@@ -574,3 +574,5 @@
  dyn_c_egypt_absolutist_monarchy:0 "Khedivate of Egypt"
  dyn_c_french_commune:0 "French Socialist Republic"
  dyn_c_french_commune_adj:0 "French Commune"
+
+ dyn_shenquan_BFJI:0 "Uliastai Theocracy"

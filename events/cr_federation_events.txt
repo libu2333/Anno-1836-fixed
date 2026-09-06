@@ -88,7 +88,10 @@ cr_federation.2 = {
 	option = { 
 		name = cr_federation.2.a
 		default_option = yes
-		scope:leader = { id = cr_fedaration.3 days = 3 }
+		save_scope_as = consolidated_member
+		scope:leader = {
+			trigger_event = { id = cr_federation.3 days = 3 popup = yes }
+		}
 	}
 
 	option = { 

@@ -275,10 +275,15 @@ je_cr_takeover_button = {
 		every_country = {
 			limit = {
 				OR = {
-					has_variable = ARG_federation
-					has_variable = SWI_federation
+					AND = {
+						has_variable = ARG_federation
+						overlord = scope:old_confederation_leader
+					}
+					AND = {
+						has_variable = SWI_federation
+						overlord = scope:old_confederation_leader
+					}
 				}
-				overlord = scope:old_confederation_leader
 				NOT = { this = ROOT }
 			}
 			save_scope_as = transfer_scope
@@ -345,10 +350,12 @@ je_cr_annex_members_button = {
                         ROOT = { has_variable = ARG_leader }
                         has_variable = ARG_federation
                     }
-                    has_variable = SWI_federation
+                    AND = {
+                        ROOT = { has_variable = SWI_leader }
+                        has_variable = SWI_federation
+                    }
                 }
 				is_subject_of = ROOT
-				is_ai = yes
             }
             save_scope_as = consolidated_member
         }

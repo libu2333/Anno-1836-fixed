@@ -12575,9 +12575,14 @@ STATES = {
     s:STATE_DAGESTAN = {
         create_state = {
             country = c:RUS
-            owned_provinces = { x9F1D8F x3B6A9E xDA5ABE x72A1AB x01D041 }
+            owned_provinces = { x9F1D8F x3B6A9E xDA5ABE x01D041 }
             state_type = unincorporated
 
+        }
+        create_state = {
+            country = c:TKI
+            owned_provinces = { x72A1AB }
+            state_type = unincorporated
         }
         create_state = {
             country = c:CHC

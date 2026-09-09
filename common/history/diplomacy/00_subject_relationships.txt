@@ -1,4 +1,4 @@
-﻿DIPLOMACY = {
+DIPLOMACY = {
     # c:CTF ?= {
     #     create_diplomatic_pact = {
     #         country = c:AMOJB
@@ -27,6 +27,12 @@
         create_diplomatic_pact = {
             country = c:KYR2
             type = tributary
+        }
+    }
+    c:RUS ?= {
+        create_diplomatic_pact = {
+            country = c:TKI
+            type = puppet
         }
     }
     if = {
@@ -237,7 +243,7 @@
             }
             create_diplomatic_pact = {
                 country = c:BKH
-                type = protectorate
+                type = puppet
             }
         }
         c:PRU ?= {

@@ -3,6 +3,15 @@
 #		Central Asia		#
 #							#
 #############################
+TKI = {
+	color = { 112 143 166 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { north_caucasian }
+	religion = sunni
+	capital = STATE_DAGESTAN
+}
+
 BDK = {
 	color = { 154 251 36 }
 	

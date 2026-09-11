@@ -405,6 +405,12 @@
 				religion = protestant
 			}
 		}
+		region_state:BKH = {
+			create_pop = {
+				culture = kazak
+				size = 1039
+			}
+		}
 	}
 	s:STATE_URALSK = {
 		region_state:RUS = {
@@ -435,7 +441,7 @@
 		region_state:BKH = {
 			create_pop = {
 				culture = kazak
-				size = 122000
+				size = 120961
 			}
 		}
 	}

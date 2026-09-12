@@ -273,35 +273,98 @@
 		}
 	}
 	s:STATE_SAMARA = {
+		# Former RUS population split by province pixels: RUS 17844, KZH 3418, OZH 59.
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 1170657
+				size = 979748
 			}
 			create_pop = {
 				culture = tatar
-				size = 116076
+				size = 97147
 			}
 			create_pop = {
 				culture = mordvin
-				size = 145276
+				size = 121585
 			}
 			create_pop = {
 				culture = east_german
 				religion = protestant
-				size = 43939
+				size = 36773
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 50224
+				size = 42034
 			}
 			create_pop = {
 				culture = chuvash
-				size = 42970
+				size = 35962
 			}
 			create_pop = {
 				culture = bashkir
-				size = 24145
+				size = 20207
+			}
+		}
+		region_state:KZH = {
+			create_pop = {
+				culture = russian
+				size = 187670
+			}
+			create_pop = {
+				culture = tatar
+				size = 18608
+			}
+			create_pop = {
+				culture = mordvin
+				size = 23289
+			}
+			create_pop = {
+				culture = east_german
+				religion = protestant
+				size = 7044
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 8051
+			}
+			create_pop = {
+				culture = chuvash
+				size = 6889
+			}
+			create_pop = {
+				culture = bashkir
+				size = 3871
+			}
+		}
+		region_state:OZH = {
+			create_pop = {
+				culture = russian
+				size = 3239
+			}
+			create_pop = {
+				culture = tatar
+				size = 321
+			}
+			create_pop = {
+				culture = mordvin
+				size = 402
+			}
+			create_pop = {
+				culture = east_german
+				religion = protestant
+				size = 122
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 139
+			}
+			create_pop = {
+				culture = chuvash
+				size = 119
+			}
+			create_pop = {
+				culture = bashkir
+				size = 67
 			}
 		}
 	}

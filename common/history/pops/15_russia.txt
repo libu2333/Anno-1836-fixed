@@ -1,4 +1,4 @@
-﻿POPS = {
+POPS = {
 	s:STATE_VILNIUS = { #DONE
 		region_state:RUS = {
 			create_pop = { # Most Lithuanian aristocrats identified as Polish
@@ -1225,47 +1225,88 @@
 		}
 	}
 	s:STATE_UFA = { #DONE
+		# Former RUS population split by province pixels: RUS 12908, KZH 21.
 		region_state:RUS = {
 			create_pop = {
 				culture = bashkir
-				size = 156746
+				size = 156491
 			}
 			create_pop = {
 				culture = russian
-				size = 137400
+				size = 137177
 			}
 			create_pop = {
 				culture = tatar
-				size = 44970
+				size = 44897
 			}
 			create_pop = {
 				culture = mari
-				size = 13488
+				size = 13466
 			}
 			create_pop = {
 				culture = chuvash
-				size = 10220
+				size = 10203
 			}
 			create_pop = {
 				culture = mordvin
-				size = 6711
+				size = 6700
+			}
+		}
+		region_state:KZH = {
+			create_pop = {
+				culture = bashkir
+				size = 755
+			}
+			create_pop = {
+				culture = russian
+				size = 223
+			}
+			create_pop = {
+				culture = tatar
+				size = 73
+			}
+			create_pop = {
+				culture = mari
+				size = 22
+			}
+			create_pop = {
+				culture = chuvash
+				size = 17
+			}
+			create_pop = {
+				culture = mordvin
+				size = 11
 			}
 		}
 	}
 	s:STATE_CHELYABINSK = { #DONE
-		
+		# Former RUS population split by province pixels: RUS 15838, OZH 255.
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 278355
+				size = 273944
 			}
 			create_pop = {
 				culture = bashkir
-				size = 46034
+				size = 45305
 			}
 			create_pop = {
 				culture = mordvin
-				size = 1218
+				size = 1199
+			}
+		}
+		region_state:OZH = {
+			create_pop = {
+				culture = russian
+				size = 4411
+			}
+			create_pop = {
+				culture = bashkir
+				size = 729
+			}
+			create_pop = {
+				culture = mordvin
+				size = 19
 			}
 		}
 	}

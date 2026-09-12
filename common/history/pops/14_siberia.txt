@@ -1,30 +1,58 @@
 ﻿POPS = {
 	s:STATE_TOMSK = { #DONE
+		# Former RUS population split by province pixels: RUS 44862, OZH 1315; LKP unchanged.
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 309600
+				size = 300783
 			}
 			create_pop = {
 				culture = tungusic
-				size = 2400
+				size = 2332
 			}
 			create_pop = {
 				culture = tatar
 				religion = animist
-				size = 10200
+				size = 9910
 			}
 			create_pop = {
 				culture = tatar
-				size = 15000
+				size = 14573
 			}
 			create_pop = {
 				culture = kazak
-				size = 10200
+				size = 9910
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 14400
+				size = 13990
+			}
+		}
+		region_state:OZH = {
+			create_pop = {
+				culture = russian
+				size = 8817
+			}
+			create_pop = {
+				culture = tungusic
+				size = 68
+			}
+			create_pop = {
+				culture = tatar
+				religion = animist
+				size = 290
+			}
+			create_pop = {
+				culture = tatar
+				size = 427
+			}
+			create_pop = {
+				culture = kazak
+				size = 290
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 410
 			}
 		}
 		region_state:LKP = {

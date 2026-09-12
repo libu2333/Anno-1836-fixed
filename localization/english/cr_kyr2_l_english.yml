@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  cr_kyr2_clan_cohesion_bar_name:0 "Eastern Burut Clan Cohesion"
  cr_kyr2_clan_cohesion_bar_desc:0 "#bold Eastern Burut#! clan cohesion - [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|0]/100"
  cr_kyr2_clan_cohesion_baseline_tt:0 "The pull of separate valleys and pastures"

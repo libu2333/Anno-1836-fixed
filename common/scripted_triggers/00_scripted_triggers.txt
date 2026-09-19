@@ -104,6 +104,7 @@ is_being_incorporated = {
 }
 
 violate_sovereignty_war_check = {
+	save_temporary_scope_as = relevant_war
 
 	scope:target_country = {
 		any_scope_theater = {
@@ -1094,37 +1095,42 @@ has_hierarchic_ideology = {
 }
 
 can_reach_target_country = {
-	has_diplomatic_relevance = scope:target_country
+	has_diplomatic_relevance = $TARGET_COUNTRY$
 	OR = {
-		has_strategic_adjacency = scope:target_country
+		has_strategic_land_adjacency = $TARGET_COUNTRY$
 		AND = {
 			has_port_country = yes
-			navy_size >= 10
-			scope:target_country = { has_port_country = yes }
+			carrying_capacity >= 25
+			$TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+			$TARGET_COUNTRY$ = {
+				any_scope_state = {
+					is_coastal = yes
+				}
+			}
 		}
 	}
 }
 
 can_be_reached_by_target_country = {
-	has_diplomatic_relevance = scope:target_country
+	has_diplomatic_relevance = $TARGET_COUNTRY$
 	OR = {
-		has_strategic_adjacency = scope:target_country
+		has_strategic_land_adjacency = $TARGET_COUNTRY$
 		AND = {
-			has_port_country = yes
-			scope:target_country = { has_port_country = yes }
-			scope:target_country = { navy_size >= 10 }
+			capital = { has_coastal_access = yes }
+			$TARGET_COUNTRY$ = { has_port_country = yes }
+			$TARGET_COUNTRY$ = { carrying_capacity >= 25 }
 		}
 	}
 }
 
 can_reach_target_state = {
-	has_diplomatic_relevance = scope:target_state.owner
+	has_diplomatic_relevance = $TARGET_STATE$.owner
 	OR = {
-		has_strategic_adjacency = scope:target_state
+		has_strategic_land_adjacency = $TARGET_STATE$
 		AND = {
-			navy_size >= 10
+			carrying_capacity >= 25
 			has_port_country = yes
-			scope:target_state = { is_coastal = yes }
+			$TARGET_STATE$ = { is_coastal = yes }
 		}
 	}
 }
@@ -2111,7 +2117,7 @@ are_all_balkan_league_countries_independent = {
 				is_subject = no
 				hidden_trigger = {
 					NOT = {
-						has_variable = first_balkan_war_successful
+					has_variable = first_balkan_war_successful
 					}
 				}
 			}
@@ -2124,7 +2130,7 @@ are_all_balkan_league_countries_independent = {
 				is_subject = no
 				hidden_trigger = {
 					NOT = {
-						has_variable = first_balkan_war_successful
+					has_variable = first_balkan_war_successful
 					}
 				}
 			}
@@ -2137,7 +2143,7 @@ are_all_balkan_league_countries_independent = {
 				is_subject = no
 				hidden_trigger = {
 					NOT = {
-						has_variable = first_balkan_war_successful
+					has_variable = first_balkan_war_successful
 					}
 				}
 			}
@@ -2150,7 +2156,7 @@ are_all_balkan_league_countries_independent = {
 				is_subject = no
 				hidden_trigger = {
 					NOT = {
-						has_variable = first_balkan_war_successful
+					has_variable = first_balkan_war_successful
 					}
 				}
 			}
@@ -2351,19 +2357,19 @@ spoils_of_war_complete_rom = {
 movement_is_socialist = {
 	custom_tooltip = {
 		text = movement_is_socialist_tt
-		OR = {
+    OR = {
         is_political_movement_type = movement_nihilist
-			is_political_movement_type = movement_socialist
-			is_political_movement_type = movement_communist
-			is_political_movement_type = movement_anarchist
-		}
+        is_political_movement_type = movement_socialist
+        is_political_movement_type = movement_communist
+        is_political_movement_type = movement_anarchist
+    }
 	}
 }
 
 movement_is_liberal = {
 	custom_tooltip = {
 		text = movement_is_liberal_tt
-		OR = {
+    	OR = {
 			is_political_movement_type = movement_liberal
 			is_political_movement_type = movement_radical
 			is_political_movement_type = movement_feminist
